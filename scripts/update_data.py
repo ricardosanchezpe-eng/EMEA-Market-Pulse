@@ -39,7 +39,7 @@ def detail(a,monthly=False,confidence=False):
   current,previous=vals[-1],vals[-lag-1];growth=(current/previous-1)*100
   if not math.isfinite(growth) or abs(growth)>150:return None
   score=round(max(0,min(100,50+growth*4)))
- return {'raw':current,'previous':previous,'growthPct':growth,'date':dates[-1],'score':score}
+ return {'raw':current,'previous':previous,'growthPct':growth,'date':dates[-1],'previousDate':(dates[-2] if confidence and len(dates)>1 else dates[-lag-1]),'score':score}
 def wb(code,indicator):
  url=f'https://api.worldbank.org/v2/country/{code}/indicator/{indicator}?format=json&per_page=70';j=get(url);rows=j[1] if isinstance(j,list) and len(j)>1 else [];a=[(x['date'],x['value'],{}) for x in reversed(rows) if isinstance(x.get('value'),(int,float))];return detail(a),url
 def add(c,key,z,url,meta=None):
