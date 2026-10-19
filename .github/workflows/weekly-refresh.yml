@@ -5,10 +5,11 @@ on:
     - cron: '30 6 * * 1'
   workflow_dispatch:
 permissions: {contents: write}
+concurrency: {group: market-data-refresh, cancel-in-progress: false}
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - id: gate
@@ -21,15 +22,27 @@ jobs:
       - name: Ensure Broader EMEA universe
         if: steps.gate.outputs.run == 'true'
         run: python scripts/ensure_emea.py
-      - name: Refresh Europe and Broader EMEA
+      - name: Refresh all checked sources in parallel
         if: steps.gate.outputs.run == 'true'
-        run: python scripts/update_data.py
-      - name: Validate and commit
+        run: python -u scripts/update_data.py
+      - name: Validate useful output and commit
         if: steps.gate.outputs.run == 'true'
         run: |
           python -m json.tool public/data/market-pulse.json > /dev/null
+          python - <<'PY'
+          import json
+          d=json.load(open('public/data/market-pulse.json'))
+          countries=d.get('europe',[])+d.get('emea',[])
+          populated=sum(any(c.get(k) is not None for k in ['overall','transport','site','water','oil','mining','renewables','agriculture']) for c in countries)
+          checks=sum(len(x.get('successfulChecks',[])) for x in d.get('diagnostics',[]))
+          print('Countries',len(countries),'populated',populated,'successful checks',checks)
+          assert populated>0 and checks>0
+          PY
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add public/data/*.json
-          git diff --cached --quiet || git commit -m "Weekly Europe and Broader EMEA refresh"
+          git diff --cached --quiet || git commit -m "Weekly optimized market refresh"
           git push
+      - uses: actions/upload-artifact@v4
+        if: always() && steps.gate.outputs.run == 'true'
+        with: {name: market-refresh-diagnostics, path: public/data/refresh-diagnostics.json, if-no-files-found: ignore}
