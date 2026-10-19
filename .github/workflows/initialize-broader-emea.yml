@@ -1,0 +1,34 @@
+name: Initialize Broader EMEA data
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  initialize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - name: Add Broader EMEA country universe
+        run: python scripts/ensure_emea.py
+      - name: Run current market data collector
+        run: python scripts/update_data.py
+      - name: Validate Broader EMEA output
+        run: |
+          python - <<'PY'
+          import json
+          d=json.load(open('public/data/market-pulse.json'))
+          assert len(d.get('emea',[])) == 22, f"Expected 22 Broader EMEA countries, got {len(d.get('emea',[]))}"
+          populated=sum(any(c.get(k) is not None for k in ['overall','transport','site','water','oil','mining','renewables','agriculture']) for c in d['emea'])
+          print('Broader EMEA countries:',len(d['emea']))
+          print('Countries with at least one populated score:',populated)
+          assert populated > 0, 'Broader EMEA exists but collector populated zero countries'
+          PY
+      - name: Commit initialized EMEA dataset
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/market-pulse.json
+          git diff --cached --quiet || git commit -m "Initialize Broader EMEA dataset"
+          git push
