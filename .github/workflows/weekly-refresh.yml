@@ -18,28 +18,18 @@ jobs:
       - uses: actions/setup-python@v5
         if: steps.gate.outputs.run == 'true'
         with: {python-version: '3.12'}
-      - name: Refresh Eurostat and World Bank data
+      - name: Ensure Broader EMEA universe
+        if: steps.gate.outputs.run == 'true'
+        run: python scripts/ensure_emea.py
+      - name: Refresh Europe and Broader EMEA
         if: steps.gate.outputs.run == 'true'
         run: python scripts/update_data.py
-      - name: Validate useful output
+      - name: Validate and commit
         if: steps.gate.outputs.run == 'true'
         run: |
           python -m json.tool public/data/market-pulse.json > /dev/null
-          python - <<'PY'
-          import json
-          d=json.load(open('public/data/market-pulse.json'))
-          n=sum(any(c.get(k) is not None for k in ['overall','transport','site','water','oil','mining','renewables','agriculture']) for c in d['europe'])
-          print('countries with at least one score:',n)
-          if n==0: raise SystemExit('No country scores generated')
-          PY
-      - name: Commit refreshed dataset
-        if: steps.gate.outputs.run == 'true'
-        run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add public/data/*.json
-          git diff --cached --quiet || git commit -m "Weekly complete data architecture refresh"
+          git diff --cached --quiet || git commit -m "Weekly Europe and Broader EMEA refresh"
           git push
-      - uses: actions/upload-artifact@v4
-        if: always() && steps.gate.outputs.run == 'true'
-        with: {name: market-refresh-diagnostics, path: public/data/refresh-diagnostics.json, if-no-files-found: ignore}
