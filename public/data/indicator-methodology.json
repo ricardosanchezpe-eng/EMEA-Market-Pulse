@@ -30,7 +30,7 @@
       "source": "Official public source",
       "url": "https://ec.europa.eu/eurostat/",
       "weight": 15,
-      "pipelineStatus": "pending"
+      "pipelineStatus": "live"
     },
     {
       "name": "Construction Employment",
@@ -104,7 +104,7 @@
       "source": "Official public source",
       "url": "https://ec.europa.eu/eurostat/",
       "weight": 10,
-      "pipelineStatus": "pending"
+      "pipelineStatus": "live"
     },
     {
       "name": "Funding Announcements",
@@ -146,7 +146,7 @@
       "source": "Official public source",
       "url": "https://ec.europa.eu/eurostat/",
       "weight": 10,
-      "pipelineStatus": "pending"
+      "pipelineStatus": "live"
     },
     {
       "name": "Construction Employment",
