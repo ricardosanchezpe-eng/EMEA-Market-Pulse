@@ -1,1 +1,78 @@
-{"generatedAt":"Initial validated package","europe":[{"country":"Spain","flag":"🇪🇸","overall":67,"transport":71,"site":44,"water":76,"oil":12,"mining":28,"renewables":82,"agriculture":63},{"country":"France","flag":"🇫🇷","overall":42,"transport":58,"site":31,"water":54,"oil":18,"mining":null,"renewables":61,"agriculture":39},{"country":"Italy","flag":"🇮🇹","overall":49,"transport":52,"site":37,"water":69,"oil":22,"mining":20,"renewables":74,"agriculture":51},{"country":"Portugal","flag":"🇵🇹","overall":60,"transport":64,"site":49,"water":71,"oil":8,"mining":34,"renewables":79,"agriculture":58},{"country":"Germany","flag":"🇩🇪","overall":23,"transport":46,"site":8,"water":31,"oil":10,"mining":18,"renewables":55,"agriculture":24},{"country":"Poland","flag":"🇵🇱","overall":72,"transport":81,"site":61,"water":66,"oil":12,"mining":45,"renewables":68,"agriculture":52}]}
+{
+  "generatedAt": "2026-10-19T09:03:46.140160+00:00",
+  "europe": [
+    {
+      "country": "Spain",
+      "flag": "🇪🇸",
+      "overall": 0,
+      "transport": 71,
+      "site": 44,
+      "water": 76,
+      "oil": 12,
+      "mining": 28,
+      "renewables": 82,
+      "agriculture": 63
+    },
+    {
+      "country": "France",
+      "flag": "🇫🇷",
+      "overall": 0,
+      "transport": 58,
+      "site": 31,
+      "water": 54,
+      "oil": 18,
+      "mining": null,
+      "renewables": 61,
+      "agriculture": 39
+    },
+    {
+      "country": "Italy",
+      "flag": "🇮🇹",
+      "overall": 100,
+      "transport": 52,
+      "site": 37,
+      "water": 69,
+      "oil": 22,
+      "mining": 20,
+      "renewables": 74,
+      "agriculture": 51
+    },
+    {
+      "country": "Portugal",
+      "flag": "🇵🇹",
+      "overall": 0,
+      "transport": 64,
+      "site": 49,
+      "water": 71,
+      "oil": 8,
+      "mining": 34,
+      "renewables": 79,
+      "agriculture": 58
+    },
+    {
+      "country": "Germany",
+      "flag": "🇩🇪",
+      "overall": 0,
+      "transport": 46,
+      "site": 8,
+      "water": 31,
+      "oil": 10,
+      "mining": 18,
+      "renewables": 55,
+      "agriculture": 24
+    },
+    {
+      "country": "Poland",
+      "flag": "🇵🇱",
+      "overall": 0,
+      "transport": 81,
+      "site": 61,
+      "water": 66,
+      "oil": 12,
+      "mining": 45,
+      "renewables": 68,
+      "agriculture": 52
+    }
+  ],
+  "pipelineStatus": "Eurostat overall construction refreshed for 6 countries; vertical adapters retain last validated values."
+}
