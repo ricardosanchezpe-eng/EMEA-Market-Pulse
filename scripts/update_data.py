@@ -47,7 +47,7 @@ def add(c,key,z,url,status='live'):
  if z:c['indicators'][key]={**z,'url':url,'status':status}
 def main():
  d=json.loads(P.read_text());logs=[];now=datetime.datetime.now(datetime.timezone.utc).isoformat()
- for c in d['europe']:
+ for c in d.get('europe',[])+d.get('emea',[]):
   c.setdefault('indicators',{});errs=[]
   try:
    j=euro('sts_copr_m',c['geo']);u='https://ec.europa.eu/eurostat/databrowser/view/sts_copr_m/default/table'
