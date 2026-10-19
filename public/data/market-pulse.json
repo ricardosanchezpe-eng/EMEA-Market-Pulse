@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-19T09:47:53.995364+00:00",
-  "pipelineStatus": "Validated Eurostat Overall score for 2 countries. Missing or malformed inputs retained as insufficient data.",
+  "generatedAt": "Initial validated package",
+  "pipelineStatus": "Expanded country universe; insufficient observations are displayed as — until the weekly collector validates them.",
   "europe": [
     {
       "country": "Spain",
@@ -109,7 +109,7 @@
       "geo": "AT",
       "id": "040",
       "flag": "🇦🇹",
-      "overall": 100,
+      "overall": null,
       "transport": null,
       "site": null,
       "water": null,
@@ -117,9 +117,9 @@
       "mining": null,
       "renewables": null,
       "agriculture": null,
-      "coverage": 25,
+      "coverage": 0,
       "size": 50,
-      "confidence": "Low"
+      "confidence": "Insufficient"
     },
     {
       "country": "Belgium",
@@ -381,7 +381,7 @@
       "geo": "NL",
       "id": "528",
       "flag": "🇳🇱",
-      "overall": 100,
+      "overall": null,
       "transport": null,
       "site": null,
       "water": null,
@@ -389,9 +389,9 @@
       "mining": null,
       "renewables": null,
       "agriculture": null,
-      "coverage": 25,
+      "coverage": 0,
       "size": 50,
-      "confidence": "Low"
+      "confidence": "Insufficient"
     },
     {
       "country": "Romania",
@@ -1945,5 +1945,234 @@
         "agriculture": 49
       }
     ]
-  }
+  },
+  "verticalMethodology": {
+    "Waste & Water": [
+      {
+        "indicator": "Water exploitation / stress (WEI+)",
+        "weight": 15,
+        "source": "Eurostat",
+        "url": "https://ec.europa.eu/eurostat/web/environment/information-data/water",
+        "cadence": "annual/seasonal",
+        "role": "need"
+      },
+      {
+        "indicator": "Freshwater abstraction by sector",
+        "weight": 10,
+        "source": "Eurostat",
+        "url": "https://ec.europa.eu/eurostat/web/environment/information-data/water",
+        "cadence": "annual",
+        "role": "need"
+      },
+      {
+        "indicator": "Population connected to secondary wastewater treatment",
+        "weight": 15,
+        "source": "Eurostat",
+        "url": "https://ec.europa.eu/eurostat/web/environment/information-data/water",
+        "cadence": "annual",
+        "role": "need"
+      },
+      {
+        "indicator": "Waste generation and treatment",
+        "weight": 15,
+        "source": "Eurostat",
+        "url": "https://ec.europa.eu/eurostat/web/waste",
+        "cadence": "annual/biennial",
+        "role": "need"
+      },
+      {
+        "indicator": "Water/environment project pipeline and financing",
+        "weight": 30,
+        "source": "EIB open projects",
+        "url": "https://www.eib.org/en/publications-research/eib-open-data",
+        "cadence": "event-driven",
+        "role": "forward"
+      },
+      {
+        "indicator": "Water/environment project pipeline outside EU",
+        "weight": 15,
+        "source": "EBRD projects",
+        "url": "https://www.ebrd.com/home/what-we-do/projects.html",
+        "cadence": "event-driven",
+        "role": "forward"
+      }
+    ],
+    "Oil & Gas": [
+      {
+        "indicator": "Oil & gas extraction production index",
+        "weight": 25,
+        "source": "Eurostat / national statistics",
+        "url": "https://ec.europa.eu/eurostat/",
+        "cadence": "monthly",
+        "role": "direct"
+      },
+      {
+        "indicator": "Natural gas / LNG infrastructure activity",
+        "weight": 20,
+        "source": "national regulators / official operators",
+        "url": "https://ec.europa.eu/eurostat/",
+        "cadence": "monthly/event-driven",
+        "role": "demand"
+      },
+      {
+        "indicator": "Energy infrastructure project financing",
+        "weight": 25,
+        "source": "EIB open projects",
+        "url": "https://www.eib.org/en/publications-research/eib-open-data",
+        "cadence": "event-driven",
+        "role": "forward"
+      },
+      {
+        "indicator": "Energy projects in transition economies",
+        "weight": 20,
+        "source": "EBRD projects",
+        "url": "https://www.ebrd.com/home/what-we-do/projects.html",
+        "cadence": "event-driven",
+        "role": "forward"
+      },
+      {
+        "indicator": "Global oil & natural-gas price momentum",
+        "weight": 10,
+        "source": "World Bank Pink Sheet",
+        "url": "https://www.worldbank.org/en/research/commodity-markets",
+        "cadence": "monthly",
+        "role": "context"
+      }
+    ],
+    "Mining": [
+      {
+        "indicator": "Mining & quarrying production",
+        "weight": 25,
+        "source": "Eurostat / national statistics",
+        "url": "https://ec.europa.eu/eurostat/",
+        "cadence": "monthly",
+        "role": "direct"
+      },
+      {
+        "indicator": "Mining project / capex pipeline",
+        "weight": 25,
+        "source": "EBRD projects",
+        "url": "https://www.ebrd.com/home/what-we-do/projects.html",
+        "cadence": "event-driven",
+        "role": "forward"
+      },
+      {
+        "indicator": "Mining and minerals project financing",
+        "weight": 20,
+        "source": "EIB open projects",
+        "url": "https://www.eib.org/en/publications-research/eib-open-data",
+        "cadence": "event-driven",
+        "role": "forward"
+      },
+      {
+        "indicator": "Metals commodity-price momentum",
+        "weight": 20,
+        "source": "World Bank Pink Sheet",
+        "url": "https://www.worldbank.org/en/research/commodity-markets",
+        "cadence": "monthly",
+        "role": "context"
+      },
+      {
+        "indicator": "Mine approvals / tailings / environmental remediation",
+        "weight": 10,
+        "source": "national mining/environment authorities",
+        "url": "https://ec.europa.eu/eurostat/",
+        "cadence": "event-driven",
+        "role": "forward"
+      }
+    ],
+    "Renewables": [
+      {
+        "indicator": "Installed renewable capacity growth",
+        "weight": 30,
+        "source": "IRENA",
+        "url": "https://www.irena.org/Data",
+        "cadence": "annual",
+        "role": "structural"
+      },
+      {
+        "indicator": "Renewable generation by production type",
+        "weight": 20,
+        "source": "ENTSO-E Transparency Platform",
+        "url": "https://www.entsoe.eu/data/transparency-platform/",
+        "cadence": "intraday/monthly aggregation",
+        "role": "direct"
+      },
+      {
+        "indicator": "Grid / renewable project financing",
+        "weight": 20,
+        "source": "EIB open projects",
+        "url": "https://www.eib.org/en/publications-research/eib-open-data",
+        "cadence": "event-driven",
+        "role": "forward"
+      },
+      {
+        "indicator": "Renewable / power projects in wider EMEA",
+        "weight": 15,
+        "source": "EBRD projects",
+        "url": "https://www.ebrd.com/home/what-we-do/projects.html",
+        "cadence": "event-driven",
+        "role": "forward"
+      },
+      {
+        "indicator": "Installed capacity / generation structure",
+        "weight": 15,
+        "source": "ENTSO-E",
+        "url": "https://www.entsoe.eu/data/",
+        "cadence": "monthly/yearly",
+        "role": "capacity"
+      }
+    ],
+    "Agriculture": [
+      {
+        "indicator": "Agricultural output / production",
+        "weight": 20,
+        "source": "Eurostat Agriculture",
+        "url": "https://ec.europa.eu/eurostat/web/agriculture/database/",
+        "cadence": "annual/seasonal",
+        "role": "direct"
+      },
+      {
+        "indicator": "Agricultural output price indices",
+        "weight": 15,
+        "source": "Eurostat Agriculture",
+        "url": "https://ec.europa.eu/eurostat/web/agriculture/database/",
+        "cadence": "monthly/quarterly",
+        "role": "context"
+      },
+      {
+        "indicator": "Agricultural input price indices",
+        "weight": 15,
+        "source": "Eurostat Agriculture",
+        "url": "https://ec.europa.eu/eurostat/web/agriculture/database/",
+        "cadence": "quarterly",
+        "role": "pressure"
+      },
+      {
+        "indicator": "Agricultural investment / economic accounts",
+        "weight": 15,
+        "source": "Eurostat Agriculture",
+        "url": "https://ec.europa.eu/eurostat/web/agriculture/database/",
+        "cadence": "annual",
+        "role": "investment"
+      },
+      {
+        "indicator": "Water abstraction / irrigation pressure",
+        "weight": 15,
+        "source": "Eurostat Water",
+        "url": "https://ec.europa.eu/eurostat/web/environment/information-data/water",
+        "cadence": "annual",
+        "role": "need"
+      },
+      {
+        "indicator": "Agriculture / irrigation project financing",
+        "weight": 20,
+        "source": "EIB / EBRD projects",
+        "url": "https://www.eib.org/en/publications-research/eib-open-data",
+        "cadence": "event-driven",
+        "role": "forward"
+      }
+    ]
+  },
+  "methodologyUpdatedAt": "2026-10-19T09:54:26.949744+00:00"
 }
