@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-19T12:30:59.577016+00:00",
-  "pipelineStatus": "Eurostat refresh completed: 21 countries published; failed retrievals retained last validated data.",
+  "pipelineStatus": "Full 51-indicator methodology active. Scores publish only when minimum weighted coverage is met.",
   "europe": [
     {
       "country": "Germany",
@@ -523,82 +523,37 @@
         "name": "Construction production",
         "dataset": "Eurostat sts_copr_m · NACE F",
         "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_copr_m/default/table",
-        "weight": 55,
-        "frequency": "Monthly",
-        "role": "Direct",
-        "raw": "Production index; latest 25 periods",
-        "treatment": "Latest versus same month prior year; normalized around 50",
-        "field": "overall"
-      },
-      {
-        "name": "Civil engineering output",
-        "dataset": "Eurostat sts_copr_m · NACE F42",
-        "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_copr_m/default/table",
         "weight": 25,
         "frequency": "Monthly",
         "role": "Direct",
-        "raw": "Civil engineering production index",
-        "treatment": "Year-over-year momentum",
-        "field": "transport"
+        "raw": "Construction production index",
+        "treatment": "Year-over-year change normalised to 0–100",
+        "field": "overall",
+        "pipelineStatus": "live"
       },
-      {
-        "name": "Building construction output",
-        "dataset": "Eurostat sts_copr_m · NACE F41",
-        "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_copr_m/default/table",
-        "weight": 20,
-        "frequency": "Monthly",
-        "role": "Direct",
-        "raw": "Building production index",
-        "treatment": "Year-over-year momentum",
-        "field": "site"
-      }
-    ],
-    "Transportation": [
       {
         "name": "Civil engineering output",
         "dataset": "Eurostat sts_copr_m · NACE F42",
         "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_copr_m/default/table",
-        "weight": 80,
+        "weight": 20,
         "frequency": "Monthly",
         "role": "Direct",
         "raw": "Civil engineering production index",
-        "treatment": "Year-over-year momentum",
-        "field": "transport"
-      },
-      {
-        "name": "Transport project pipeline",
-        "dataset": "TEN-T / CEF",
-        "url": "https://transport.ec.europa.eu/transport-themes/infrastructure-and-investment/ten-t_en",
-        "weight": 20,
-        "frequency": "Event-driven",
-        "role": "Forward",
-        "raw": "Official funded projects",
-        "treatment": "Adapter pending",
-        "field": "transport"
-      }
-    ],
-    "Site Development": [
-      {
-        "name": "Building construction output",
-        "dataset": "Eurostat sts_copr_m · NACE F41",
-        "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_copr_m/default/table",
-        "weight": 60,
-        "frequency": "Monthly",
-        "role": "Direct",
-        "raw": "Building production index",
-        "treatment": "Year-over-year momentum",
-        "field": "site"
+        "treatment": "Year-over-year change normalised to 0–100",
+        "field": "transport",
+        "pipelineStatus": "live"
       },
       {
         "name": "Building permits",
         "dataset": "Eurostat building permits",
         "url": "https://ec.europa.eu/eurostat/databrowser/",
-        "weight": 25,
+        "weight": 15,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "raw": "Permitted construction",
-        "treatment": "Adapter pending",
-        "field": "site"
+        "raw": "Permitted floor area / dwellings",
+        "treatment": "Year-over-year momentum with freshness adjustment",
+        "field": "overall",
+        "pipelineStatus": "adapter-pending"
       },
       {
         "name": "Construction confidence",
@@ -608,128 +563,587 @@
         "frequency": "Monthly",
         "role": "Leading",
         "raw": "Construction confidence balance",
-        "treatment": "Adapter pending",
-        "field": "site"
+        "treatment": "Balance versus neutral and recent trend",
+        "field": "overall",
+        "pipelineStatus": "adapter-pending"
+      },
+      {
+        "name": "Construction employment",
+        "dataset": "Eurostat STS employment",
+        "url": "https://ec.europa.eu/eurostat/web/short-term-business-statistics",
+        "weight": 10,
+        "frequency": "Monthly / quarterly",
+        "role": "Direct",
+        "raw": "Construction employment index",
+        "treatment": "Year-over-year momentum",
+        "field": "overall",
+        "pipelineStatus": "adapter-pending"
+      },
+      {
+        "name": "Construction prices and costs",
+        "dataset": "Eurostat construction costs",
+        "url": "https://ec.europa.eu/eurostat/web/short-term-business-statistics",
+        "weight": 10,
+        "frequency": "Quarterly",
+        "role": "Pressure",
+        "raw": "Input and output cost indices",
+        "treatment": "Cost pressure, inverted where adverse",
+        "field": "overall",
+        "pipelineStatus": "adapter-pending"
+      },
+      {
+        "name": "Fixed investment",
+        "dataset": "Eurostat national accounts",
+        "url": "https://ec.europa.eu/eurostat/web/national-accounts",
+        "weight": 5,
+        "frequency": "Quarterly",
+        "role": "Context",
+        "raw": "Gross fixed capital formation",
+        "treatment": "Year-over-year real investment momentum",
+        "field": "overall",
+        "pipelineStatus": "adapter-pending"
+      }
+    ],
+    "Transportation": [
+      {
+        "name": "Civil engineering output",
+        "dataset": "Eurostat sts_copr_m · NACE F42",
+        "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_copr_m/default/table",
+        "weight": 25,
+        "frequency": "Monthly",
+        "role": "Direct",
+        "raw": "Civil engineering production index",
+        "treatment": "Year-over-year momentum",
+        "field": "transport",
+        "pipelineStatus": "live"
+      },
+      {
+        "name": "Transport investment and pipeline",
+        "dataset": "TEN-T / CEF projects",
+        "url": "https://transport.ec.europa.eu/transport-themes/infrastructure-and-investment/ten-t_en",
+        "weight": 25,
+        "frequency": "Event / annual",
+        "role": "Forward",
+        "raw": "Official awarded and planned projects",
+        "treatment": "Value, stage and recency score",
+        "field": "transport",
+        "pipelineStatus": "adapter-pending"
+      },
+      {
+        "name": "Rail freight activity",
+        "dataset": "Eurostat rail transport",
+        "url": "https://ec.europa.eu/eurostat/web/transport",
+        "weight": 15,
+        "frequency": "Quarterly",
+        "role": "Demand",
+        "raw": "Tonne-km and freight volumes",
+        "treatment": "Year-over-year activity momentum",
+        "field": "transport",
+        "pipelineStatus": "adapter-pending"
+      },
+      {
+        "name": "Road freight activity",
+        "dataset": "Eurostat road freight",
+        "url": "https://ec.europa.eu/eurostat/web/transport",
+        "weight": 10,
+        "frequency": "Quarterly",
+        "role": "Demand",
+        "raw": "Tonne-km and freight volumes",
+        "treatment": "Year-over-year activity momentum",
+        "field": "transport",
+        "pipelineStatus": "adapter-pending"
+      },
+      {
+        "name": "Ports and logistics",
+        "dataset": "Eurostat maritime transport",
+        "url": "https://ec.europa.eu/eurostat/web/transport",
+        "weight": 10,
+        "frequency": "Quarterly",
+        "role": "Demand",
+        "raw": "Port freight volumes",
+        "treatment": "Year-over-year activity momentum",
+        "field": "transport",
+        "pipelineStatus": "adapter-pending"
+      },
+      {
+        "name": "Construction confidence",
+        "dataset": "EC Business and Consumer Surveys",
+        "url": "https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys_en",
+        "weight": 10,
+        "frequency": "Monthly",
+        "role": "Leading",
+        "raw": "Construction confidence balance",
+        "treatment": "Balance and three-month trend",
+        "field": "transport",
+        "pipelineStatus": "adapter-pending"
+      },
+      {
+        "name": "Funding announcements",
+        "dataset": "EIB / EBRD transport projects",
+        "url": "https://www.eib.org/en/projects/index.htm",
+        "weight": 5,
+        "frequency": "Event-driven",
+        "role": "Forward",
+        "raw": "Official financing announcements",
+        "treatment": "Value and recency score",
+        "field": "transport",
+        "pipelineStatus": "adapter-pending"
+      }
+    ],
+    "Site Development": [
+      {
+        "name": "Building permits",
+        "dataset": "Eurostat building permits",
+        "url": "https://ec.europa.eu/eurostat/databrowser/",
+        "weight": 30,
+        "frequency": "Monthly / quarterly",
+        "role": "Leading",
+        "raw": "Permitted floor area / dwellings",
+        "treatment": "Year-over-year permit momentum",
+        "field": "site",
+        "pipelineStatus": "adapter-pending"
+      },
+      {
+        "name": "Non-residential permits",
+        "dataset": "Eurostat building permits",
+        "url": "https://ec.europa.eu/eurostat/databrowser/",
+        "weight": 20,
+        "frequency": "Monthly / quarterly",
+        "role": "Leading",
+        "raw": "Non-residential permit volumes",
+        "treatment": "Year-over-year momentum",
+        "field": "site",
+        "pipelineStatus": "adapter-pending"
+      },
+      {
+        "name": "Building construction output",
+        "dataset": "Eurostat sts_copr_m · NACE F41",
+        "url": "https://ec.europa.eu/eurostat/databrowser/view/sts_copr_m/default/table",
+        "weight": 20,
+        "frequency": "Monthly",
+        "role": "Direct",
+        "raw": "Building production index",
+        "treatment": "Year-over-year momentum",
+        "field": "site",
+        "pipelineStatus": "live"
+      },
+      {
+        "name": "Construction confidence",
+        "dataset": "EC Business and Consumer Surveys",
+        "url": "https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys_en",
+        "weight": 10,
+        "frequency": "Monthly",
+        "role": "Leading",
+        "raw": "Construction confidence balance",
+        "treatment": "Balance and trend",
+        "field": "site",
+        "pipelineStatus": "adapter-pending"
+      },
+      {
+        "name": "Construction employment",
+        "dataset": "Eurostat STS employment",
+        "url": "https://ec.europa.eu/eurostat/web/short-term-business-statistics",
+        "weight": 10,
+        "frequency": "Monthly / quarterly",
+        "role": "Direct",
+        "raw": "Construction employment index",
+        "treatment": "Year-over-year momentum",
+        "field": "site",
+        "pipelineStatus": "adapter-pending"
+      },
+      {
+        "name": "Financing and property conditions",
+        "dataset": "Eurostat / ECB conditions",
+        "url": "https://ec.europa.eu/eurostat/databrowser/",
+        "weight": 10,
+        "frequency": "Monthly / quarterly",
+        "role": "Context",
+        "raw": "Rates, lending and investment proxies",
+        "treatment": "Composite financing momentum",
+        "field": "site",
+        "pipelineStatus": "adapter-pending"
       }
     ],
     "Waste & Water": [
       {
-        "name": "Waste & Water direct activity",
-        "dataset": "Official public statistical source",
-        "url": "https://ec.europa.eu/eurostat/databrowser/",
-        "weight": 40,
-        "frequency": "Monthly / annual",
-        "role": "Direct",
-        "raw": "Sector activity observations",
-        "treatment": "Validated momentum; adapter pending",
-        "field": "water"
+        "name": "Wastewater treatment connection",
+        "dataset": "Eurostat water statistics",
+        "url": "https://ec.europa.eu/eurostat/web/environment/information-data/water",
+        "weight": 15,
+        "frequency": "Annual",
+        "role": "Need",
+        "raw": "Population connected to treatment",
+        "treatment": "Infrastructure gap and progress",
+        "field": "water",
+        "pipelineStatus": "adapter-pending"
       },
       {
-        "name": "Waste & Water project pipeline",
-        "dataset": "EIB / EBRD / official authorities",
+        "name": "Water stress and abstraction",
+        "dataset": "EEA WEI+ / freshwater abstraction",
+        "url": "https://www.eea.europa.eu/en/topics/in-depth/water",
+        "weight": 15,
+        "frequency": "Annual / seasonal",
+        "role": "Need",
+        "raw": "Water exploitation and abstraction",
+        "treatment": "Need score with seasonal context",
+        "field": "water",
+        "pipelineStatus": "adapter-pending"
+      },
+      {
+        "name": "Waste generation and treatment",
+        "dataset": "Eurostat waste statistics",
+        "url": "https://ec.europa.eu/eurostat/web/waste",
+        "weight": 15,
+        "frequency": "Annual / biennial",
+        "role": "Need",
+        "raw": "Waste generated, recycled and landfilled",
+        "treatment": "Volume and treatment-gap momentum",
+        "field": "water",
+        "pipelineStatus": "adapter-pending"
+      },
+      {
+        "name": "Water infrastructure funding",
+        "dataset": "EIB water projects",
         "url": "https://www.eib.org/en/projects/index.htm",
-        "weight": 60,
+        "weight": 20,
         "frequency": "Event-driven",
         "role": "Forward",
-        "raw": "Official funded and approved projects",
-        "treatment": "Stage, value and recency; adapter pending",
-        "field": "water"
+        "raw": "Official financed water projects",
+        "treatment": "Value, stage and recency",
+        "field": "water",
+        "pipelineStatus": "adapter-pending"
+      },
+      {
+        "name": "Treatment and reservoir pipeline",
+        "dataset": "EBRD water projects",
+        "url": "https://www.ebrd.com/home/what-we-do/projects.html",
+        "weight": 20,
+        "frequency": "Event-driven",
+        "role": "Forward",
+        "raw": "Treatment, desalination and reservoir projects",
+        "treatment": "Count, value, stage and recency",
+        "field": "water",
+        "pipelineStatus": "adapter-pending"
+      },
+      {
+        "name": "Landfill and remediation pipeline",
+        "dataset": "Official environment projects",
+        "url": "https://www.ebrd.com/home/what-we-do/projects.html",
+        "weight": 15,
+        "frequency": "Event-driven",
+        "role": "Forward",
+        "raw": "Landfill, remediation and waste projects",
+        "treatment": "Count, value, stage and recency",
+        "field": "water",
+        "pipelineStatus": "adapter-pending"
       }
     ],
     "Oil & Gas": [
       {
-        "name": "Oil & Gas direct activity",
-        "dataset": "Official public statistical source",
+        "name": "Oil and gas extraction index",
+        "dataset": "Eurostat extraction series",
         "url": "https://ec.europa.eu/eurostat/databrowser/",
-        "weight": 40,
-        "frequency": "Monthly / annual",
+        "weight": 20,
+        "frequency": "Monthly",
         "role": "Direct",
-        "raw": "Sector activity observations",
-        "treatment": "Validated momentum; adapter pending",
-        "field": "oil"
+        "raw": "Extraction production index",
+        "treatment": "Year-over-year momentum",
+        "field": "oil",
+        "pipelineStatus": "adapter-pending"
       },
       {
-        "name": "Oil & Gas project pipeline",
-        "dataset": "EIB / EBRD / official authorities",
+        "name": "Crude and gas production",
+        "dataset": "Eurostat energy balances",
+        "url": "https://ec.europa.eu/eurostat/databrowser/",
+        "weight": 15,
+        "frequency": "Monthly",
+        "role": "Direct",
+        "raw": "Production volumes",
+        "treatment": "Year-over-year momentum",
+        "field": "oil",
+        "pipelineStatus": "adapter-pending"
+      },
+      {
+        "name": "Refinery throughput",
+        "dataset": "Eurostat energy statistics",
+        "url": "https://ec.europa.eu/eurostat/databrowser/",
+        "weight": 10,
+        "frequency": "Monthly",
+        "role": "Demand",
+        "raw": "Refinery input and output volumes",
+        "treatment": "Year-over-year momentum",
+        "field": "oil",
+        "pipelineStatus": "adapter-pending"
+      },
+      {
+        "name": "LNG imports and terminal use",
+        "dataset": "Eurostat energy imports",
+        "url": "https://ec.europa.eu/eurostat/databrowser/",
+        "weight": 15,
+        "frequency": "Monthly",
+        "role": "Demand",
+        "raw": "LNG import and send-out volumes",
+        "treatment": "Year-over-year momentum",
+        "field": "oil",
+        "pipelineStatus": "adapter-pending"
+      },
+      {
+        "name": "Pipeline, storage and terminal projects",
+        "dataset": "EIB energy projects",
         "url": "https://www.eib.org/en/projects/index.htm",
-        "weight": 60,
+        "weight": 30,
         "frequency": "Event-driven",
         "role": "Forward",
-        "raw": "Official funded and approved projects",
-        "treatment": "Stage, value and recency; adapter pending",
-        "field": "oil"
+        "raw": "Approved and financed infrastructure",
+        "treatment": "Value, stage and recency",
+        "field": "oil",
+        "pipelineStatus": "adapter-pending"
+      },
+      {
+        "name": "Asset approvals and regulation",
+        "dataset": "Official regulators / ministries",
+        "url": "https://www.ebrd.com/home/what-we-do/projects.html",
+        "weight": 10,
+        "frequency": "Event-driven",
+        "role": "Forward",
+        "raw": "Approvals and investment decisions",
+        "treatment": "Stage and recency score",
+        "field": "oil",
+        "pipelineStatus": "adapter-pending"
       }
     ],
     "Mining": [
       {
-        "name": "Mining direct activity",
-        "dataset": "Official public statistical source",
+        "name": "Mining and quarrying production",
+        "dataset": "Eurostat mining production",
         "url": "https://ec.europa.eu/eurostat/databrowser/",
-        "weight": 40,
-        "frequency": "Monthly / annual",
+        "weight": 20,
+        "frequency": "Monthly",
         "role": "Direct",
-        "raw": "Sector activity observations",
-        "treatment": "Validated momentum; adapter pending",
-        "field": "mining"
+        "raw": "Mining production index",
+        "treatment": "Year-over-year momentum",
+        "field": "mining",
+        "pipelineStatus": "adapter-pending"
       },
       {
-        "name": "Mining project pipeline",
-        "dataset": "EIB / EBRD / official authorities",
-        "url": "https://www.eib.org/en/projects/index.htm",
-        "weight": 60,
+        "name": "Metal ore production",
+        "dataset": "National mineral statistics",
+        "url": "https://ec.europa.eu/eurostat/databrowser/",
+        "weight": 15,
+        "frequency": "Monthly / annual",
+        "role": "Direct",
+        "raw": "Ore production volumes",
+        "treatment": "Year-over-year momentum",
+        "field": "mining",
+        "pipelineStatus": "adapter-pending"
+      },
+      {
+        "name": "Mining investment and capex",
+        "dataset": "EBRD mining projects",
+        "url": "https://www.ebrd.com/home/what-we-do/projects.html",
+        "weight": 20,
+        "frequency": "Quarterly / annual",
+        "role": "Forward",
+        "raw": "Investment and capex announcements",
+        "treatment": "Value, stage and recency",
+        "field": "mining",
+        "pipelineStatus": "adapter-pending"
+      },
+      {
+        "name": "Mine approvals and pipeline",
+        "dataset": "National authorities / EBRD",
+        "url": "https://www.ebrd.com/home/what-we-do/projects.html",
+        "weight": 20,
         "frequency": "Event-driven",
         "role": "Forward",
-        "raw": "Official funded and approved projects",
-        "treatment": "Stage, value and recency; adapter pending",
-        "field": "mining"
+        "raw": "Approved and proposed mines",
+        "treatment": "Stage, value and recency",
+        "field": "mining",
+        "pipelineStatus": "adapter-pending"
+      },
+      {
+        "name": "Tailings and remediation projects",
+        "dataset": "EIB environment projects",
+        "url": "https://www.eib.org/en/projects/index.htm",
+        "weight": 15,
+        "frequency": "Event-driven",
+        "role": "Forward",
+        "raw": "Tailings and remediation projects",
+        "treatment": "Stage, value and recency",
+        "field": "mining",
+        "pipelineStatus": "adapter-pending"
+      },
+      {
+        "name": "Commodity-price context",
+        "dataset": "World Bank Pink Sheet",
+        "url": "https://www.worldbank.org/en/research/commodity-markets",
+        "weight": 10,
+        "frequency": "Monthly",
+        "role": "Context",
+        "raw": "Metals and minerals price indices",
+        "treatment": "Price momentum with capped influence",
+        "field": "mining",
+        "pipelineStatus": "adapter-pending"
       }
     ],
     "Renewables": [
       {
-        "name": "Renewables direct activity",
-        "dataset": "Official public statistical source",
-        "url": "https://ec.europa.eu/eurostat/databrowser/",
-        "weight": 40,
-        "frequency": "Monthly / annual",
-        "role": "Direct",
-        "raw": "Sector activity observations",
-        "treatment": "Validated momentum; adapter pending",
-        "field": "renewables"
+        "name": "Renewable capacity additions",
+        "dataset": "IRENA capacity statistics",
+        "url": "https://www.irena.org/Data",
+        "weight": 20,
+        "frequency": "Annual",
+        "role": "Structural",
+        "raw": "Installed capacity by technology",
+        "treatment": "Annual growth and country percentile",
+        "field": "renewables",
+        "pipelineStatus": "adapter-pending"
       },
       {
-        "name": "Renewables project pipeline",
-        "dataset": "EIB / EBRD / official authorities",
+        "name": "Renewable generation",
+        "dataset": "ENTSO-E generation by type",
+        "url": "https://transparency.entsoe.eu/",
+        "weight": 15,
+        "frequency": "Daily / monthly",
+        "role": "Direct",
+        "raw": "Generation by production type",
+        "treatment": "Year-over-year generation momentum",
+        "field": "renewables",
+        "pipelineStatus": "adapter-pending"
+      },
+      {
+        "name": "Auctions and awarded projects",
+        "dataset": "National auctions / EIB",
         "url": "https://www.eib.org/en/projects/index.htm",
-        "weight": 60,
+        "weight": 20,
         "frequency": "Event-driven",
         "role": "Forward",
-        "raw": "Official funded and approved projects",
-        "treatment": "Stage, value and recency; adapter pending",
-        "field": "renewables"
+        "raw": "Awarded renewable projects",
+        "treatment": "Capacity, stage and recency",
+        "field": "renewables",
+        "pipelineStatus": "adapter-pending"
+      },
+      {
+        "name": "Permitted project pipeline",
+        "dataset": "National regulators / EBRD",
+        "url": "https://www.ebrd.com/home/what-we-do/projects.html",
+        "weight": 20,
+        "frequency": "Event-driven",
+        "role": "Forward",
+        "raw": "Permitted wind, solar and storage projects",
+        "treatment": "Capacity, stage and recency",
+        "field": "renewables",
+        "pipelineStatus": "adapter-pending"
+      },
+      {
+        "name": "Grid investment",
+        "dataset": "ENTSO-E / EIB grid projects",
+        "url": "https://transparency.entsoe.eu/",
+        "weight": 15,
+        "frequency": "Annual / event-driven",
+        "role": "Forward",
+        "raw": "Grid development and financing",
+        "treatment": "Value, stage and recency",
+        "field": "renewables",
+        "pipelineStatus": "adapter-pending"
+      },
+      {
+        "name": "Battery storage pipeline",
+        "dataset": "National regulators / EIB",
+        "url": "https://www.eib.org/en/projects/index.htm",
+        "weight": 10,
+        "frequency": "Event-driven",
+        "role": "Forward",
+        "raw": "Storage capacity in development",
+        "treatment": "Capacity, stage and recency",
+        "field": "renewables",
+        "pipelineStatus": "adapter-pending"
       }
     ],
     "Agriculture": [
       {
-        "name": "Agriculture direct activity",
-        "dataset": "Official public statistical source",
-        "url": "https://ec.europa.eu/eurostat/databrowser/",
-        "weight": 40,
-        "frequency": "Monthly / annual",
-        "role": "Direct",
-        "raw": "Sector activity observations",
-        "treatment": "Validated momentum; adapter pending",
-        "field": "agriculture"
+        "name": "Drought and soil moisture",
+        "dataset": "Copernicus drought indicators",
+        "url": "https://drought.emergency.copernicus.eu/",
+        "weight": 25,
+        "frequency": "Weekly / monthly",
+        "role": "Need",
+        "raw": "Soil moisture and drought anomalies",
+        "treatment": "Seasonal need score",
+        "field": "agriculture",
+        "pipelineStatus": "adapter-pending"
       },
       {
-        "name": "Agriculture project pipeline",
-        "dataset": "EIB / EBRD / official authorities",
+        "name": "Agricultural investment",
+        "dataset": "Eurostat economic accounts for agriculture",
+        "url": "https://ec.europa.eu/eurostat/web/agriculture/database",
+        "weight": 20,
+        "frequency": "Annual / quarterly",
+        "role": "Direct",
+        "raw": "Investment and capital formation",
+        "treatment": "Real investment momentum",
+        "field": "agriculture",
+        "pipelineStatus": "adapter-pending"
+      },
+      {
+        "name": "Irrigation and water programmes",
+        "dataset": "EIB / national programmes",
         "url": "https://www.eib.org/en/projects/index.htm",
-        "weight": 60,
+        "weight": 15,
         "frequency": "Event-driven",
         "role": "Forward",
-        "raw": "Official funded and approved projects",
-        "treatment": "Stage, value and recency; adapter pending",
-        "field": "agriculture"
+        "raw": "Irrigation and rural water projects",
+        "treatment": "Value, stage and recency",
+        "field": "agriculture",
+        "pipelineStatus": "adapter-pending"
+      },
+      {
+        "name": "Crop and livestock outlook",
+        "dataset": "Eurostat agricultural production",
+        "url": "https://ec.europa.eu/eurostat/web/agriculture/database",
+        "weight": 15,
+        "frequency": "Monthly / quarterly",
+        "role": "Demand",
+        "raw": "Crop and livestock production",
+        "treatment": "Year-over-year / seasonal momentum",
+        "field": "agriculture",
+        "pipelineStatus": "adapter-pending"
+      },
+      {
+        "name": "Agricultural output prices",
+        "dataset": "Eurostat agricultural price indices",
+        "url": "https://ec.europa.eu/eurostat/web/agriculture/database",
+        "weight": 10,
+        "frequency": "Monthly / quarterly",
+        "role": "Context",
+        "raw": "Output price indices",
+        "treatment": "Price momentum",
+        "field": "agriculture",
+        "pipelineStatus": "adapter-pending"
+      },
+      {
+        "name": "Input costs",
+        "dataset": "Eurostat agricultural input prices",
+        "url": "https://ec.europa.eu/eurostat/web/agriculture/database",
+        "weight": 10,
+        "frequency": "Quarterly",
+        "role": "Pressure",
+        "raw": "Fertiliser, energy and input prices",
+        "treatment": "Cost pressure inverted where adverse",
+        "field": "agriculture",
+        "pipelineStatus": "adapter-pending"
+      },
+      {
+        "name": "CAP and rural development funding",
+        "dataset": "EU / EIB rural programmes",
+        "url": "https://www.eib.org/en/projects/index.htm",
+        "weight": 5,
+        "frequency": "Annual / event-driven",
+        "role": "Forward",
+        "raw": "Funding allocations and projects",
+        "treatment": "Value and recency score",
+        "field": "agriculture",
+        "pipelineStatus": "adapter-pending"
       }
     ]
   },
@@ -908,5 +1322,6 @@
       "overall": null,
       "coverage": 0
     }
-  ]
+  ],
+  "methodologyVersion": "2.7-full-51-indicator-model"
 }
