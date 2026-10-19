@@ -1,11 +1,13 @@
 {
-  "generatedAt": "2026-10-19T09:14:50.709172+00:00",
-  "pipelineStatus": "Eurostat construction refreshed for 6 Harmonised Europe markets; vertical adapters retain last validated observations.",
+  "generatedAt": "Initial validated package",
+  "pipelineStatus": "Expanded country universe; insufficient observations are displayed as — until the weekly collector validates them.",
   "europe": [
     {
       "country": "Spain",
+      "geo": "ES",
+      "id": "724",
       "flag": "🇪🇸",
-      "overall": 0,
+      "overall": 67,
       "transport": 71,
       "site": 44,
       "water": 76,
@@ -19,8 +21,10 @@
     },
     {
       "country": "France",
+      "geo": "FR",
+      "id": "250",
       "flag": "🇫🇷",
-      "overall": 0,
+      "overall": 42,
       "transport": 58,
       "site": 31,
       "water": 54,
@@ -34,8 +38,10 @@
     },
     {
       "country": "Italy",
+      "geo": "IT",
+      "id": "380",
       "flag": "🇮🇹",
-      "overall": 100,
+      "overall": 49,
       "transport": 52,
       "site": 37,
       "water": 69,
@@ -49,8 +55,10 @@
     },
     {
       "country": "Portugal",
+      "geo": "PT",
+      "id": "620",
       "flag": "🇵🇹",
-      "overall": 0,
+      "overall": 60,
       "transport": 64,
       "site": 49,
       "water": 71,
@@ -64,8 +72,10 @@
     },
     {
       "country": "Germany",
+      "geo": "DE",
+      "id": "276",
       "flag": "🇩🇪",
-      "overall": 0,
+      "overall": 23,
       "transport": 46,
       "site": 8,
       "water": 31,
@@ -79,8 +89,10 @@
     },
     {
       "country": "Poland",
+      "geo": "PL",
+      "id": "616",
       "flag": "🇵🇱",
-      "overall": 0,
+      "overall": 72,
       "transport": 81,
       "site": 61,
       "water": 66,
@@ -91,11 +103,404 @@
       "coverage": 91,
       "size": 64,
       "confidence": "High"
+    },
+    {
+      "country": "Austria",
+      "geo": "AT",
+      "id": "040",
+      "flag": "🇦🇹",
+      "overall": null,
+      "transport": null,
+      "site": null,
+      "water": null,
+      "oil": null,
+      "mining": null,
+      "renewables": null,
+      "agriculture": null,
+      "coverage": 0,
+      "size": 50,
+      "confidence": "Insufficient"
+    },
+    {
+      "country": "Belgium",
+      "geo": "BE",
+      "id": "056",
+      "flag": "🇧🇪",
+      "overall": null,
+      "transport": null,
+      "site": null,
+      "water": null,
+      "oil": null,
+      "mining": null,
+      "renewables": null,
+      "agriculture": null,
+      "coverage": 0,
+      "size": 50,
+      "confidence": "Insufficient"
+    },
+    {
+      "country": "Bulgaria",
+      "geo": "BG",
+      "id": "100",
+      "flag": "🇧🇬",
+      "overall": null,
+      "transport": null,
+      "site": null,
+      "water": null,
+      "oil": null,
+      "mining": null,
+      "renewables": null,
+      "agriculture": null,
+      "coverage": 0,
+      "size": 50,
+      "confidence": "Insufficient"
+    },
+    {
+      "country": "Croatia",
+      "geo": "HR",
+      "id": "191",
+      "flag": "🇭🇷",
+      "overall": null,
+      "transport": null,
+      "site": null,
+      "water": null,
+      "oil": null,
+      "mining": null,
+      "renewables": null,
+      "agriculture": null,
+      "coverage": 0,
+      "size": 50,
+      "confidence": "Insufficient"
+    },
+    {
+      "country": "Cyprus",
+      "geo": "CY",
+      "id": "196",
+      "flag": "🇨🇾",
+      "overall": null,
+      "transport": null,
+      "site": null,
+      "water": null,
+      "oil": null,
+      "mining": null,
+      "renewables": null,
+      "agriculture": null,
+      "coverage": 0,
+      "size": 50,
+      "confidence": "Insufficient"
+    },
+    {
+      "country": "Czechia",
+      "geo": "CZ",
+      "id": "203",
+      "flag": "🇨🇿",
+      "overall": null,
+      "transport": null,
+      "site": null,
+      "water": null,
+      "oil": null,
+      "mining": null,
+      "renewables": null,
+      "agriculture": null,
+      "coverage": 0,
+      "size": 50,
+      "confidence": "Insufficient"
+    },
+    {
+      "country": "Denmark",
+      "geo": "DK",
+      "id": "208",
+      "flag": "🇩🇰",
+      "overall": null,
+      "transport": null,
+      "site": null,
+      "water": null,
+      "oil": null,
+      "mining": null,
+      "renewables": null,
+      "agriculture": null,
+      "coverage": 0,
+      "size": 50,
+      "confidence": "Insufficient"
+    },
+    {
+      "country": "Estonia",
+      "geo": "EE",
+      "id": "233",
+      "flag": "🇪🇪",
+      "overall": null,
+      "transport": null,
+      "site": null,
+      "water": null,
+      "oil": null,
+      "mining": null,
+      "renewables": null,
+      "agriculture": null,
+      "coverage": 0,
+      "size": 50,
+      "confidence": "Insufficient"
+    },
+    {
+      "country": "Finland",
+      "geo": "FI",
+      "id": "246",
+      "flag": "🇫🇮",
+      "overall": null,
+      "transport": null,
+      "site": null,
+      "water": null,
+      "oil": null,
+      "mining": null,
+      "renewables": null,
+      "agriculture": null,
+      "coverage": 0,
+      "size": 50,
+      "confidence": "Insufficient"
+    },
+    {
+      "country": "Greece",
+      "geo": "EL",
+      "id": "300",
+      "flag": "🇬🇷",
+      "overall": null,
+      "transport": null,
+      "site": null,
+      "water": null,
+      "oil": null,
+      "mining": null,
+      "renewables": null,
+      "agriculture": null,
+      "coverage": 0,
+      "size": 50,
+      "confidence": "Insufficient"
+    },
+    {
+      "country": "Hungary",
+      "geo": "HU",
+      "id": "348",
+      "flag": "🇭🇺",
+      "overall": null,
+      "transport": null,
+      "site": null,
+      "water": null,
+      "oil": null,
+      "mining": null,
+      "renewables": null,
+      "agriculture": null,
+      "coverage": 0,
+      "size": 50,
+      "confidence": "Insufficient"
+    },
+    {
+      "country": "Ireland",
+      "geo": "IE",
+      "id": "372",
+      "flag": "🇮🇪",
+      "overall": null,
+      "transport": null,
+      "site": null,
+      "water": null,
+      "oil": null,
+      "mining": null,
+      "renewables": null,
+      "agriculture": null,
+      "coverage": 0,
+      "size": 50,
+      "confidence": "Insufficient"
+    },
+    {
+      "country": "Latvia",
+      "geo": "LV",
+      "id": "428",
+      "flag": "🇱🇻",
+      "overall": null,
+      "transport": null,
+      "site": null,
+      "water": null,
+      "oil": null,
+      "mining": null,
+      "renewables": null,
+      "agriculture": null,
+      "coverage": 0,
+      "size": 50,
+      "confidence": "Insufficient"
+    },
+    {
+      "country": "Lithuania",
+      "geo": "LT",
+      "id": "440",
+      "flag": "🇱🇹",
+      "overall": null,
+      "transport": null,
+      "site": null,
+      "water": null,
+      "oil": null,
+      "mining": null,
+      "renewables": null,
+      "agriculture": null,
+      "coverage": 0,
+      "size": 50,
+      "confidence": "Insufficient"
+    },
+    {
+      "country": "Luxembourg",
+      "geo": "LU",
+      "id": "442",
+      "flag": "🇱🇺",
+      "overall": null,
+      "transport": null,
+      "site": null,
+      "water": null,
+      "oil": null,
+      "mining": null,
+      "renewables": null,
+      "agriculture": null,
+      "coverage": 0,
+      "size": 50,
+      "confidence": "Insufficient"
+    },
+    {
+      "country": "Malta",
+      "geo": "MT",
+      "id": "470",
+      "flag": "🇲🇹",
+      "overall": null,
+      "transport": null,
+      "site": null,
+      "water": null,
+      "oil": null,
+      "mining": null,
+      "renewables": null,
+      "agriculture": null,
+      "coverage": 0,
+      "size": 50,
+      "confidence": "Insufficient"
+    },
+    {
+      "country": "Netherlands",
+      "geo": "NL",
+      "id": "528",
+      "flag": "🇳🇱",
+      "overall": null,
+      "transport": null,
+      "site": null,
+      "water": null,
+      "oil": null,
+      "mining": null,
+      "renewables": null,
+      "agriculture": null,
+      "coverage": 0,
+      "size": 50,
+      "confidence": "Insufficient"
+    },
+    {
+      "country": "Romania",
+      "geo": "RO",
+      "id": "642",
+      "flag": "🇷🇴",
+      "overall": null,
+      "transport": null,
+      "site": null,
+      "water": null,
+      "oil": null,
+      "mining": null,
+      "renewables": null,
+      "agriculture": null,
+      "coverage": 0,
+      "size": 50,
+      "confidence": "Insufficient"
+    },
+    {
+      "country": "Slovakia",
+      "geo": "SK",
+      "id": "703",
+      "flag": "🇸🇰",
+      "overall": null,
+      "transport": null,
+      "site": null,
+      "water": null,
+      "oil": null,
+      "mining": null,
+      "renewables": null,
+      "agriculture": null,
+      "coverage": 0,
+      "size": 50,
+      "confidence": "Insufficient"
+    },
+    {
+      "country": "Slovenia",
+      "geo": "SI",
+      "id": "705",
+      "flag": "🇸🇮",
+      "overall": null,
+      "transport": null,
+      "site": null,
+      "water": null,
+      "oil": null,
+      "mining": null,
+      "renewables": null,
+      "agriculture": null,
+      "coverage": 0,
+      "size": 50,
+      "confidence": "Insufficient"
+    },
+    {
+      "country": "Sweden",
+      "geo": "SE",
+      "id": "752",
+      "flag": "🇸🇪",
+      "overall": null,
+      "transport": null,
+      "site": null,
+      "water": null,
+      "oil": null,
+      "mining": null,
+      "renewables": null,
+      "agriculture": null,
+      "coverage": 0,
+      "size": 50,
+      "confidence": "Insufficient"
+    },
+    {
+      "country": "Norway",
+      "geo": "NO",
+      "id": "578",
+      "flag": "🇳🇴",
+      "overall": null,
+      "transport": null,
+      "site": null,
+      "water": null,
+      "oil": null,
+      "mining": null,
+      "renewables": null,
+      "agriculture": null,
+      "coverage": 0,
+      "size": 50,
+      "confidence": "Insufficient"
+    },
+    {
+      "country": "Switzerland",
+      "geo": "CH",
+      "id": "756",
+      "flag": "🇨🇭",
+      "overall": null,
+      "transport": null,
+      "site": null,
+      "water": null,
+      "oil": null,
+      "mining": null,
+      "renewables": null,
+      "agriculture": null,
+      "coverage": 0,
+      "size": 50,
+      "confidence": "Insufficient"
     }
   ],
   "emea": [
     {
       "country": "Saudi Arabia",
+      "geo": "SA",
+      "id": "682",
       "flag": "🇸🇦",
       "overall": 78,
       "transport": 82,
@@ -111,6 +516,8 @@
     },
     {
       "country": "UAE",
+      "geo": "AE",
+      "id": "784",
       "flag": "🇦🇪",
       "overall": 73,
       "transport": 76,
@@ -126,6 +533,8 @@
     },
     {
       "country": "Morocco",
+      "geo": "MA",
+      "id": "504",
       "flag": "🇲🇦",
       "overall": 66,
       "transport": 63,
@@ -141,6 +550,8 @@
     },
     {
       "country": "South Africa",
+      "geo": "ZA",
+      "id": "710",
       "flag": "🇿🇦",
       "overall": 38,
       "transport": 28,
@@ -156,6 +567,8 @@
     },
     {
       "country": "Kazakhstan",
+      "geo": "KZ",
+      "id": "398",
       "flag": "🇰🇿",
       "overall": 59,
       "transport": 54,
@@ -171,6 +584,8 @@
     },
     {
       "country": "Egypt",
+      "geo": "EG",
+      "id": "818",
       "flag": "🇪🇬",
       "overall": 55,
       "transport": 60,
@@ -190,144 +605,144 @@
       {
         "name": "Construction production",
         "source": "Official public source",
-        "url": "https://ec.europa.eu/eurostat/web/short-term-business-statistics",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 14,
         "frequency": "Monthly / quarterly",
         "role": "Direct",
-        "movement": 1.3,
-        "contribution": 1.8
+        "movement": 2.0,
+        "contribution": 2.8
       },
       {
         "name": "Civil engineering output",
         "source": "Official public source",
-        "url": "https://ec.europa.eu/eurostat/web/short-term-business-statistics",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 14,
         "frequency": "Monthly / quarterly",
         "role": "Direct",
-        "movement": 2.1,
-        "contribution": 2.9
+        "movement": 2.7,
+        "contribution": 3.8
       },
       {
         "name": "Building permits",
         "source": "Official public source",
-        "url": "https://ec.europa.eu/eurostat/web/short-term-business-statistics",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 14,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 2.9,
-        "contribution": 4.1
+        "movement": 3.4,
+        "contribution": 4.8
       },
       {
         "name": "Construction confidence",
         "source": "Official public source",
-        "url": "https://ec.europa.eu/eurostat/web/short-term-business-statistics",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 14,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 3.7,
-        "contribution": 5.2
+        "movement": 4.1,
+        "contribution": 5.7
       },
       {
         "name": "Construction employment",
         "source": "Official public source",
-        "url": "https://ec.europa.eu/eurostat/web/short-term-business-statistics",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 14,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 4.5,
-        "contribution": 6.3
+        "movement": 4.8,
+        "contribution": 6.7
       },
       {
         "name": "Construction prices & costs",
         "source": "Official public source",
-        "url": "https://ec.europa.eu/eurostat/web/short-term-business-statistics",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 14,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 5.3,
-        "contribution": 7.4
+        "movement": 5.5,
+        "contribution": 7.7
       },
       {
         "name": "Fixed investment",
         "source": "Official public source",
-        "url": "https://ec.europa.eu/eurostat/web/short-term-business-statistics",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 16,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 6.1,
-        "contribution": 9.8
+        "movement": 6.2,
+        "contribution": 9.9
       }
     ],
     "Transportation": [
       {
         "name": "Civil engineering output",
         "source": "Official public source",
-        "url": "https://transport.ec.europa.eu/transport-themes/infrastructure-and-investment/ten-t_en",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 14,
         "frequency": "Monthly / quarterly",
         "role": "Direct",
-        "movement": 1.3,
-        "contribution": 1.8
+        "movement": 2.0,
+        "contribution": 2.8
       },
       {
         "name": "Transport investment & pipeline",
         "source": "Official public source",
-        "url": "https://transport.ec.europa.eu/transport-themes/infrastructure-and-investment/ten-t_en",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 14,
         "frequency": "Monthly / quarterly",
         "role": "Direct",
-        "movement": 2.1,
-        "contribution": 2.9
+        "movement": 2.7,
+        "contribution": 3.8
       },
       {
         "name": "Rail & freight activity",
         "source": "Official public source",
-        "url": "https://transport.ec.europa.eu/transport-themes/infrastructure-and-investment/ten-t_en",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 14,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 2.9,
-        "contribution": 4.1
+        "movement": 3.4,
+        "contribution": 4.8
       },
       {
         "name": "Road activity",
         "source": "Official public source",
-        "url": "https://transport.ec.europa.eu/transport-themes/infrastructure-and-investment/ten-t_en",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 14,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 3.7,
-        "contribution": 5.2
+        "movement": 4.1,
+        "contribution": 5.7
       },
       {
         "name": "Ports & logistics",
         "source": "Official public source",
-        "url": "https://transport.ec.europa.eu/transport-themes/infrastructure-and-investment/ten-t_en",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 14,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 4.5,
-        "contribution": 6.3
+        "movement": 4.8,
+        "contribution": 6.7
       },
       {
         "name": "Construction confidence",
         "source": "Official public source",
-        "url": "https://transport.ec.europa.eu/transport-themes/infrastructure-and-investment/ten-t_en",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 14,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 5.3,
-        "contribution": 7.4
+        "movement": 5.5,
+        "contribution": 7.7
       },
       {
         "name": "Funding announcements",
         "source": "Official public source",
-        "url": "https://transport.ec.europa.eu/transport-themes/infrastructure-and-investment/ten-t_en",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 16,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 6.1,
-        "contribution": 9.8
+        "movement": 6.2,
+        "contribution": 9.9
       }
     ],
     "Site Development": [
@@ -338,8 +753,8 @@
         "weight": 16,
         "frequency": "Monthly / quarterly",
         "role": "Direct",
-        "movement": 1.3,
-        "contribution": 2.1
+        "movement": 2.0,
+        "contribution": 3.2
       },
       {
         "name": "Non-residential permits",
@@ -348,8 +763,8 @@
         "weight": 16,
         "frequency": "Monthly / quarterly",
         "role": "Direct",
-        "movement": 2.1,
-        "contribution": 3.4
+        "movement": 2.7,
+        "contribution": 4.3
       },
       {
         "name": "Building construction output",
@@ -358,8 +773,8 @@
         "weight": 16,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 2.9,
-        "contribution": 4.6
+        "movement": 3.4,
+        "contribution": 5.4
       },
       {
         "name": "Construction confidence",
@@ -368,8 +783,8 @@
         "weight": 16,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 3.7,
-        "contribution": 5.9
+        "movement": 4.1,
+        "contribution": 6.6
       },
       {
         "name": "Construction employment",
@@ -378,8 +793,8 @@
         "weight": 16,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 4.5,
-        "contribution": 7.2
+        "movement": 4.8,
+        "contribution": 7.7
       },
       {
         "name": "Financing & property conditions",
@@ -388,70 +803,70 @@
         "weight": 20,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 5.3,
-        "contribution": 10.6
+        "movement": 5.5,
+        "contribution": 11.0
       }
     ],
     "Waste & Water": [
       {
         "name": "Wastewater treatment connection",
         "source": "Official public source",
-        "url": "https://ec.europa.eu/eurostat/web/environment/information-data/water",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 16,
         "frequency": "Monthly / quarterly",
         "role": "Direct",
-        "movement": 1.3,
-        "contribution": 2.1
+        "movement": 2.0,
+        "contribution": 3.2
       },
       {
         "name": "Water stress & abstraction",
         "source": "Official public source",
-        "url": "https://ec.europa.eu/eurostat/web/environment/information-data/water",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 16,
         "frequency": "Monthly / quarterly",
         "role": "Direct",
-        "movement": 2.1,
-        "contribution": 3.4
+        "movement": 2.7,
+        "contribution": 4.3
       },
       {
         "name": "Waste generation & treatment",
         "source": "Official public source",
-        "url": "https://ec.europa.eu/eurostat/web/environment/information-data/water",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 16,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 2.9,
-        "contribution": 4.6
+        "movement": 3.4,
+        "contribution": 5.4
       },
       {
         "name": "Water infrastructure funding",
         "source": "Official public source",
-        "url": "https://ec.europa.eu/eurostat/web/environment/information-data/water",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 16,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 3.7,
-        "contribution": 5.9
+        "movement": 4.1,
+        "contribution": 6.6
       },
       {
         "name": "Treatment & reservoir pipeline",
         "source": "Official public source",
-        "url": "https://ec.europa.eu/eurostat/web/environment/information-data/water",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 16,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 4.5,
-        "contribution": 7.2
+        "movement": 4.8,
+        "contribution": 7.7
       },
       {
         "name": "Landfill & remediation pipeline",
         "source": "Official public source",
-        "url": "https://ec.europa.eu/eurostat/web/environment/information-data/water",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 20,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 5.3,
-        "contribution": 10.6
+        "movement": 5.5,
+        "contribution": 11.0
       }
     ],
     "Oil & Gas": [
@@ -462,8 +877,8 @@
         "weight": 16,
         "frequency": "Monthly / quarterly",
         "role": "Direct",
-        "movement": 1.3,
-        "contribution": 2.1
+        "movement": 2.0,
+        "contribution": 3.2
       },
       {
         "name": "Crude & gas production",
@@ -472,8 +887,8 @@
         "weight": 16,
         "frequency": "Monthly / quarterly",
         "role": "Direct",
-        "movement": 2.1,
-        "contribution": 3.4
+        "movement": 2.7,
+        "contribution": 4.3
       },
       {
         "name": "Refinery throughput",
@@ -482,8 +897,8 @@
         "weight": 16,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 2.9,
-        "contribution": 4.6
+        "movement": 3.4,
+        "contribution": 5.4
       },
       {
         "name": "LNG imports & terminal use",
@@ -492,8 +907,8 @@
         "weight": 16,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 3.7,
-        "contribution": 5.9
+        "movement": 4.1,
+        "contribution": 6.6
       },
       {
         "name": "Pipeline, storage & terminal projects",
@@ -502,8 +917,8 @@
         "weight": 16,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 4.5,
-        "contribution": 7.2
+        "movement": 4.8,
+        "contribution": 7.7
       },
       {
         "name": "Asset approvals & regulation",
@@ -512,204 +927,204 @@
         "weight": 20,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 5.3,
-        "contribution": 10.6
+        "movement": 5.5,
+        "contribution": 11.0
       }
     ],
     "Mining": [
       {
         "name": "Mining & quarrying production",
         "source": "Official public source",
-        "url": "https://www.worldbank.org/en/research/commodity-markets",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 16,
         "frequency": "Monthly / quarterly",
         "role": "Direct",
-        "movement": 1.3,
-        "contribution": 2.1
+        "movement": 2.0,
+        "contribution": 3.2
       },
       {
         "name": "Metal ore production",
         "source": "Official public source",
-        "url": "https://www.worldbank.org/en/research/commodity-markets",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 16,
         "frequency": "Monthly / quarterly",
         "role": "Direct",
-        "movement": 2.1,
-        "contribution": 3.4
+        "movement": 2.7,
+        "contribution": 4.3
       },
       {
         "name": "Mining investment & capex",
         "source": "Official public source",
-        "url": "https://www.worldbank.org/en/research/commodity-markets",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 16,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 2.9,
-        "contribution": 4.6
+        "movement": 3.4,
+        "contribution": 5.4
       },
       {
         "name": "Mine approvals & pipeline",
         "source": "Official public source",
-        "url": "https://www.worldbank.org/en/research/commodity-markets",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 16,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 3.7,
-        "contribution": 5.9
+        "movement": 4.1,
+        "contribution": 6.6
       },
       {
         "name": "Tailings & environmental projects",
         "source": "Official public source",
-        "url": "https://www.worldbank.org/en/research/commodity-markets",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 16,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 4.5,
-        "contribution": 7.2
+        "movement": 4.8,
+        "contribution": 7.7
       },
       {
         "name": "Commodity-price context",
         "source": "Official public source",
-        "url": "https://www.worldbank.org/en/research/commodity-markets",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 20,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 5.3,
-        "contribution": 10.6
+        "movement": 5.5,
+        "contribution": 11.0
       }
     ],
     "Renewables": [
       {
         "name": "Renewable capacity additions",
         "source": "Official public source",
-        "url": "https://www.irena.org/Data",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 16,
         "frequency": "Monthly / quarterly",
         "role": "Direct",
-        "movement": 1.3,
-        "contribution": 2.1
+        "movement": 2.0,
+        "contribution": 3.2
       },
       {
         "name": "Renewable generation",
         "source": "Official public source",
-        "url": "https://www.irena.org/Data",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 16,
         "frequency": "Monthly / quarterly",
         "role": "Direct",
-        "movement": 2.1,
-        "contribution": 3.4
+        "movement": 2.7,
+        "contribution": 4.3
       },
       {
         "name": "Auctions & awarded projects",
         "source": "Official public source",
-        "url": "https://www.irena.org/Data",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 16,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 2.9,
-        "contribution": 4.6
+        "movement": 3.4,
+        "contribution": 5.4
       },
       {
         "name": "Permitted project pipeline",
         "source": "Official public source",
-        "url": "https://www.irena.org/Data",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 16,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 3.7,
-        "contribution": 5.9
+        "movement": 4.1,
+        "contribution": 6.6
       },
       {
         "name": "Grid investment",
         "source": "Official public source",
-        "url": "https://www.irena.org/Data",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 16,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 4.5,
-        "contribution": 7.2
+        "movement": 4.8,
+        "contribution": 7.7
       },
       {
         "name": "Battery storage pipeline",
         "source": "Official public source",
-        "url": "https://www.irena.org/Data",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 20,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 5.3,
-        "contribution": 10.6
+        "movement": 5.5,
+        "contribution": 11.0
       }
     ],
     "Agriculture": [
       {
         "name": "Drought & soil moisture",
         "source": "Official public source",
-        "url": "https://agridata.ec.europa.eu/",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 14,
         "frequency": "Monthly / quarterly",
         "role": "Direct",
-        "movement": 1.3,
-        "contribution": 1.8
+        "movement": 2.0,
+        "contribution": 2.8
       },
       {
         "name": "Agricultural investment",
         "source": "Official public source",
-        "url": "https://agridata.ec.europa.eu/",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 14,
         "frequency": "Monthly / quarterly",
         "role": "Direct",
-        "movement": 2.1,
-        "contribution": 2.9
+        "movement": 2.7,
+        "contribution": 3.8
       },
       {
         "name": "Irrigation & water programmes",
         "source": "Official public source",
-        "url": "https://agridata.ec.europa.eu/",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 14,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 2.9,
-        "contribution": 4.1
+        "movement": 3.4,
+        "contribution": 4.8
       },
       {
         "name": "Crop & livestock outlook",
         "source": "Official public source",
-        "url": "https://agridata.ec.europa.eu/",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 14,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 3.7,
-        "contribution": 5.2
+        "movement": 4.1,
+        "contribution": 5.7
       },
       {
         "name": "Agricultural output prices",
         "source": "Official public source",
-        "url": "https://agridata.ec.europa.eu/",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 14,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 4.5,
-        "contribution": 6.3
+        "movement": 4.8,
+        "contribution": 6.7
       },
       {
         "name": "Input costs",
         "source": "Official public source",
-        "url": "https://agridata.ec.europa.eu/",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 14,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 5.3,
-        "contribution": 7.4
+        "movement": 5.5,
+        "contribution": 7.7
       },
       {
         "name": "CAP & rural development funding",
         "source": "Official public source",
-        "url": "https://agridata.ec.europa.eu/",
+        "url": "https://ec.europa.eu/eurostat/",
         "weight": 16,
         "frequency": "Monthly / quarterly",
         "role": "Leading",
-        "movement": 6.1,
-        "contribution": 9.8
+        "movement": 6.2,
+        "contribution": 9.9
       }
     ]
   },
@@ -739,14 +1154,14 @@
       },
       {
         "period": "Jul",
-        "overall": 62,
-        "transport": 66,
-        "site": 39,
-        "water": 71,
-        "oil": 7,
-        "mining": 23,
-        "renewables": 77,
-        "agriculture": 58
+        "overall": 63,
+        "transport": 67,
+        "site": 40,
+        "water": 72,
+        "oil": 8,
+        "mining": 24,
+        "renewables": 78,
+        "agriculture": 59
       },
       {
         "period": "Aug",
@@ -790,7 +1205,7 @@
         "site": 23,
         "water": 46,
         "oil": 10,
-        "mining": 27,
+        "mining": null,
         "renewables": 53,
         "agriculture": 31
       },
@@ -801,20 +1216,20 @@
         "site": 25,
         "water": 48,
         "oil": 12,
-        "mining": 29,
+        "mining": null,
         "renewables": 55,
         "agriculture": 33
       },
       {
         "period": "Jul",
-        "overall": 37,
-        "transport": 53,
-        "site": 26,
-        "water": 49,
-        "oil": 13,
-        "mining": 30,
-        "renewables": 56,
-        "agriculture": 34
+        "overall": 38,
+        "transport": 54,
+        "site": 27,
+        "water": 50,
+        "oil": 14,
+        "mining": null,
+        "renewables": 57,
+        "agriculture": 35
       },
       {
         "period": "Aug",
@@ -823,7 +1238,7 @@
         "site": 28,
         "water": 51,
         "oil": 15,
-        "mining": 32,
+        "mining": null,
         "renewables": 58,
         "agriculture": 36
       },
@@ -834,7 +1249,7 @@
         "site": 30,
         "water": 53,
         "oil": 17,
-        "mining": 34,
+        "mining": null,
         "renewables": 60,
         "agriculture": 38
       },
@@ -845,7 +1260,7 @@
         "site": 31,
         "water": 54,
         "oil": 18,
-        "mining": 35,
+        "mining": null,
         "renewables": 61,
         "agriculture": 39
       }
@@ -875,14 +1290,14 @@
       },
       {
         "period": "Jul",
-        "overall": 44,
-        "transport": 47,
-        "site": 32,
-        "water": 64,
-        "oil": 17,
-        "mining": 15,
-        "renewables": 69,
-        "agriculture": 46
+        "overall": 45,
+        "transport": 48,
+        "site": 33,
+        "water": 65,
+        "oil": 18,
+        "mining": 16,
+        "renewables": 70,
+        "agriculture": 47
       },
       {
         "period": "Aug",
@@ -943,14 +1358,14 @@
       },
       {
         "period": "Jul",
-        "overall": 55,
-        "transport": 59,
-        "site": 44,
-        "water": 66,
-        "oil": 3,
-        "mining": 29,
-        "renewables": 74,
-        "agriculture": 53
+        "overall": 56,
+        "transport": 60,
+        "site": 45,
+        "water": 67,
+        "oil": 4,
+        "mining": 30,
+        "renewables": 75,
+        "agriculture": 54
       },
       {
         "period": "Aug",
@@ -1011,14 +1426,14 @@
       },
       {
         "period": "Jul",
-        "overall": 18,
-        "transport": 41,
-        "site": 3,
-        "water": 26,
-        "oil": 5,
-        "mining": 13,
-        "renewables": 50,
-        "agriculture": 19
+        "overall": 19,
+        "transport": 42,
+        "site": 4,
+        "water": 27,
+        "oil": 6,
+        "mining": 14,
+        "renewables": 51,
+        "agriculture": 20
       },
       {
         "period": "Aug",
@@ -1079,14 +1494,14 @@
       },
       {
         "period": "Jul",
-        "overall": 67,
-        "transport": 76,
-        "site": 56,
-        "water": 61,
-        "oil": 7,
-        "mining": 40,
-        "renewables": 63,
-        "agriculture": 47
+        "overall": 68,
+        "transport": 77,
+        "site": 57,
+        "water": 62,
+        "oil": 8,
+        "mining": 41,
+        "renewables": 64,
+        "agriculture": 48
       },
       {
         "period": "Aug",
@@ -1147,14 +1562,14 @@
       },
       {
         "period": "Jul",
-        "overall": 73,
-        "transport": 77,
-        "site": 83,
-        "water": 70,
-        "oil": 76,
-        "mining": 69,
-        "renewables": 57,
-        "agriculture": 22
+        "overall": 74,
+        "transport": 78,
+        "site": 84,
+        "water": 71,
+        "oil": 77,
+        "mining": 70,
+        "renewables": 58,
+        "agriculture": 23
       },
       {
         "period": "Aug",
@@ -1215,14 +1630,14 @@
       },
       {
         "period": "Jul",
-        "overall": 68,
-        "transport": 71,
-        "site": 79,
-        "water": 65,
-        "oil": 60,
-        "mining": 20,
-        "renewables": 67,
-        "agriculture": 15
+        "overall": 69,
+        "transport": 72,
+        "site": 80,
+        "water": 66,
+        "oil": 61,
+        "mining": 21,
+        "renewables": 68,
+        "agriculture": 16
       },
       {
         "period": "Aug",
@@ -1283,14 +1698,14 @@
       },
       {
         "period": "Jul",
-        "overall": 61,
-        "transport": 58,
-        "site": 53,
-        "water": 77,
-        "oil": 0,
-        "mining": 56,
-        "renewables": 73,
-        "agriculture": 64
+        "overall": 62,
+        "transport": 59,
+        "site": 54,
+        "water": 78,
+        "oil": 1,
+        "mining": 57,
+        "renewables": 74,
+        "agriculture": 65
       },
       {
         "period": "Aug",
@@ -1351,14 +1766,14 @@
       },
       {
         "period": "Jul",
-        "overall": 33,
-        "transport": 23,
-        "site": 26,
-        "water": 52,
-        "oil": 1,
-        "mining": 67,
-        "renewables": 59,
-        "agriculture": 39
+        "overall": 34,
+        "transport": 24,
+        "site": 27,
+        "water": 53,
+        "oil": 2,
+        "mining": 68,
+        "renewables": 60,
+        "agriculture": 40
       },
       {
         "period": "Aug",
@@ -1419,14 +1834,14 @@
       },
       {
         "period": "Jul",
-        "overall": 54,
-        "transport": 49,
-        "site": 38,
-        "water": 32,
-        "oil": 72,
-        "mining": 81,
-        "renewables": 35,
-        "agriculture": 41
+        "overall": 55,
+        "transport": 50,
+        "site": 39,
+        "water": 33,
+        "oil": 73,
+        "mining": 82,
+        "renewables": 36,
+        "agriculture": 42
       },
       {
         "period": "Aug",
@@ -1487,14 +1902,14 @@
       },
       {
         "period": "Jul",
-        "overall": 50,
-        "transport": 55,
-        "site": 57,
-        "water": 69,
-        "oil": 33,
-        "mining": 26,
-        "renewables": 52,
-        "agriculture": 44
+        "overall": 51,
+        "transport": 56,
+        "site": 58,
+        "water": 70,
+        "oil": 34,
+        "mining": 27,
+        "renewables": 53,
+        "agriculture": 45
       },
       {
         "period": "Aug",
