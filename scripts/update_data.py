@@ -1,35 +1,78 @@
-import json,pathlib,datetime,time,traceback
-from config import WB
-from adapters import eurostat_cube,decode_nace,yoy_detail,wb_series,wb_detail
+import json,urllib.request,urllib.parse,urllib.error,time,math,datetime,pathlib
 P=pathlib.Path('public/data/market-pulse.json')
-def weighted(parts,mincov=.4):
- live=[(s,w) for s,w in parts if s is not None];cov=sum(w for s,w in live)
- return ((round(sum(s*w for s,w in live)/cov) if cov>=mincov else None),round(cov*100))
-def put(c,key,score,raw,date,url,status='live',previous=None,growth=None):c['indicators'][key]={'score':score,'raw':raw,'previous':previous,'growthPct':growth,'date':date,'url':url,'status':status}
-def main():
- d=json.loads(P.read_text());log=[];now=datetime.datetime.now(datetime.timezone.utc).isoformat()
- for c in d['europe']:
-  c.setdefault('indicators',{});errors=[]
+UA={'User-Agent':'Mozilla/5.0 EMEA-Market-Pulse-GitHubActions/2.11','Accept':'application/json'}
+WB={'water_stress':'ER.H2O.FWST.ZS','water_access':'SH.H2O.SMDW.ZS','renewable_share':'EG.FEC.RNEW.ZS','renewable_power':'EG.ELC.RNEW.ZS','agri_growth':'NV.AGR.TOTL.KD.ZG','agri_share':'NV.AGR.TOTL.ZS','oil_rents':'NY.GDP.PETR.RT.ZS','gas_rents':'NY.GDP.NGAS.RT.ZS','mineral_rents':'NY.GDP.MINR.RT.ZS','resource_rents':'NY.GDP.TOTL.RT.ZS'}
+VERT={'overall':'Overall','transport':'Transportation','site':'Site Development','water':'Waste & Water','oil':'Oil & Gas','mining':'Mining','renewables':'Renewables','agriculture':'Agriculture'}
+def get(url,tries=4):
+ for n in range(tries):
   try:
-   cube,url=eurostat_cube(c['geo']);fd=yoy_detail(decode_nace(cube,'F'));bd=yoy_detail(decode_nace(cube,'F41'));cd=yoy_detail(decode_nace(cube,'F42'));f,f41,f42=fd[0],bd[0],cd[0]
-   put(c,'construction_production',fd[0],fd[1],now,url,previous=fd[2],growth=fd[3]);put(c,'building_output',bd[0],bd[1],now,url,previous=bd[2],growth=bd[3]);put(c,'civil_output',cd[0],cd[1],now,url,previous=cd[2],growth=cd[3])
-  except Exception as e:f=f41=f42=None;errors.append('Eurostat construction: '+repr(e))
-  w={}
-  for k,ind in WB.items():
+   with urllib.request.urlopen(urllib.request.Request(url,headers=UA),timeout=120) as r:return json.load(r)
+  except Exception:
+   if n==tries-1:raise
+   time.sleep(3*(n+1))
+def euro(ds,geo):return get('https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/'+ds+'?'+urllib.parse.urlencode({'lang':'EN','geo':geo,'lastTimePeriod':'25'}))
+def cube_series(j,required=None):
+ ids=j.get('id',[]);sizes=j.get('size',[]);dims=j.get('dimension',{});cats=[]
+ for x in ids:cats.append([k for k,v in sorted(dims[x]['category']['index'].items(),key=lambda z:z[1])])
+ groups={}
+ for k,v in j.get('value',{}).items():
+  if not isinstance(v,(int,float)) or not math.isfinite(v):continue
+  n=int(k);coords=[]
+  for size in reversed(sizes):coords.append(n%size);n//=size
+  coords=coords[::-1];codes={ids[i]:cats[i][coords[i]] for i in range(len(ids))}
+  if required and any(codes.get(a)!=b for a,b in required.items()):continue
+  key=tuple((a,codes[a]) for a in ids if a!='time');groups.setdefault(key,[]).append((codes.get('time'),v))
+ series=[]
+ for a in groups.values():
+  b=sorted(a);vals=[v for _,v in b];
+  if len(vals)>=2:series.append((b,vals))
+ return max(series,key=lambda x:len(x[1])) if series else ([],[])
+def momentum(points,monthly=False):
+ if not points:return None
+ vals=[v for _,v in points];lag=12 if monthly and len(vals)>=13 else 1
+ if len(vals)<=lag or vals[-lag-1] in (None,0):return None
+ current,previous=vals[-1],vals[-lag-1];growth=(current/previous-1)*100
+ if not math.isfinite(growth) or abs(growth)>100:return None
+ return {'raw':current,'previous':previous,'growthPct':growth,'date':points[-1][0],'score':round(max(0,min(100,50+growth*4)))}
+def wb(code,indicator):
+ u=f'https://api.worldbank.org/v2/country/{code}/indicator/{indicator}?format=json&per_page=70';j=get(u);rows=j[1] if isinstance(j,list) and len(j)>1 else [];pts=[(x['date'],x['value']) for x in reversed(rows) if isinstance(x.get('value'),(int,float))];return momentum(pts),u
+def weighted(c,keys,minimum=.15):
+ live=[]
+ for key,w in keys:
+  z=c['indicators'].get(key)
+  if z and z.get('score') is not None:live.append((z['score'],w))
+ cov=sum(w for _,w in live)
+ return (round(sum(s*w for s,w in live)/cov) if cov>=minimum else None,round(cov*100))
+def add(c,key,z,url,status='live'):
+ if z:c['indicators'][key]={**z,'url':url,'status':status}
+def main():
+ d=json.loads(P.read_text());logs=[];now=datetime.datetime.now(datetime.timezone.utc).isoformat()
+ for c in d['europe']:
+  c.setdefault('indicators',{});errs=[]
+  try:
+   j=euro('sts_copr_m',c['geo']);u='https://ec.europa.eu/eurostat/databrowser/view/sts_copr_m/default/table'
+   for key,nace in [('construction_production','F'),('building_output','F41'),('civil_output','F42')]:
+    pts,_=cube_series(j,{'nace_r2':nace});add(c,key,momentum(pts,True),u)
+  except Exception as e:errs.append('construction '+repr(e))
+  for key,ds in [('building_permits','teiis550'),('rail_freight','rail_go_typepas'),('road_freight','road_go_ta_tott'),('port_freight','mar_m_go_qm_cwhd')]:
    try:
-    rows,u=wb_series(c['wb'],ind);level=k in ('renewable_share','renewable_electricity','water_stress','drinking_water','agri_share','oil_rents','gas_rents','mineral_rents');score,raw,previous,growth,date=wb_detail(rows,3,level);w[k]=score;put(c,k,score,raw,date,u,previous=previous,growth=growth)
-   except Exception as e:w[k]=None;errors.append(k+': '+repr(e))
-  c['overall'],co=weighted([(f,.55),(f42,.25),(f41,.20)],.45)
-  c['transport'],ct=weighted([(f42,.80)],.40)
-  c['site'],cs=weighted([(f41,.60)],.40)
-  c['water'],cw=weighted([(w.get('water_stress'),.20),(w.get('drinking_water'),.15)],.25)
-  c['renewables'],cr=weighted([(w.get('renewable_share'),.20),(w.get('renewable_electricity'),.15)],.25)
-  c['agriculture'],ca=weighted([(w.get('agri_growth'),.20),(w.get('agri_share'),.10)],.20)
-  c['oil'],cog=weighted([(w.get('oil_rents'),.20),(w.get('gas_rents'),.15)],.20)
-  c['mining'],cm=weighted([(w.get('mineral_rents'),.20)],.20)
-  c['coverage']={'overall':co,'transport':ct,'site':cs,'water':cw,'renewables':cr,'agriculture':ca,'oil':cog,'mining':cm}
-  c['confidence']={k:('High' if v>=80 else 'Medium' if v>=55 else 'Low' if v>=40 else 'Insufficient') for k,v in c['coverage'].items()}
-  c['stale']=bool(errors);log.append({'country':c['country'],'scores':{k:c[k] for k in ['overall','transport','site','water','oil','mining','renewables','agriculture']},'errors':errors})
-  time.sleep(.1)
- d['generatedAt']=now;d['pipelineStatus']=f"Live refresh complete. Countries with scores: overall {sum(x['overall'] is not None for x in d['europe'])}, water {sum(x['water'] is not None for x in d['europe'])}, oil & gas {sum(x['oil'] is not None for x in d['europe'])}, mining {sum(x['mining'] is not None for x in d['europe'])}, renewables {sum(x['renewables'] is not None for x in d['europe'])}, agriculture {sum(x['agriculture'] is not None for x in d['europe'])}.";d['diagnostics']=log;P.write_text(json.dumps(d,ensure_ascii=False,indent=2));pathlib.Path('public/data/refresh-diagnostics.json').write_text(json.dumps(log,ensure_ascii=False,indent=2))
+    j=euro(ds,c['geo']);pts,_=cube_series(j);add(c,key,momentum(pts,False),'https://ec.europa.eu/eurostat/databrowser/view/'+ds+'/default/table')
+   except Exception as e:errs.append(key+' '+repr(e))
+  for key,ind in WB.items():
+   try:z,u=wb(c.get('wb') or c.get('geo'),ind);add(c,key,z,u)
+   except Exception as e:errs.append(key+' '+repr(e))
+  models={
+   'overall':[('construction_production',.25),('civil_output',.20),('building_permits',.15),('building_output',.20)],
+   'transport':[('civil_output',.25),('rail_freight',.15),('road_freight',.10),('port_freight',.10)],
+   'site':[('building_permits',.50),('building_output',.20)],
+   'water':[('water_stress',.25),('water_access',.25)],
+   'oil':[('oil_rents',.35),('gas_rents',.35),('resource_rents',.15)],
+   'mining':[('mineral_rents',.50),('resource_rents',.20)],
+   'renewables':[('renewable_share',.40),('renewable_power',.35)],
+   'agriculture':[('agri_growth',.35),('agri_share',.25),('water_stress',.15)]}
+  c.setdefault('coverage',{});c.setdefault('confidence',{})
+  for field,keys in models.items():
+   c[field],cov=weighted(c,keys);c['coverage'][field]=cov;c['confidence'][field]='High' if cov>=75 else 'Medium' if cov>=50 else 'Low' if cov>=15 else 'Insufficient'
+  c['stale']=bool(errs);logs.append({'country':c['country'],'coverage':c['coverage'],'errors':errs})
+ d['generatedAt']=now;d['pipelineStatus']='Multi-source refresh complete. Scores use available validated indicators reweighted to observed coverage; confidence exposes remaining gaps.';d['diagnostics']=logs;P.write_text(json.dumps(d,ensure_ascii=False,indent=2));pathlib.Path('public/data/refresh-diagnostics.json').write_text(json.dumps(logs,ensure_ascii=False,indent=2))
 if __name__=='__main__':main()
