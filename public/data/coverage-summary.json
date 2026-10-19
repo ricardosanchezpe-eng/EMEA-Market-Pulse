@@ -25,26 +25,26 @@
   },
   "Oil & Gas": {
     "contracts": 6,
-    "live": 109,
+    "live": 112,
     "countryRows": 306,
-    "liveRatePct": 35.6
+    "liveRatePct": 36.6
   },
   "Mining": {
     "contracts": 6,
-    "live": 90,
+    "live": 96,
     "countryRows": 306,
-    "liveRatePct": 29.4
+    "liveRatePct": 31.4
   },
   "Renewables": {
     "contracts": 6,
-    "live": 126,
+    "live": 127,
     "countryRows": 306,
-    "liveRatePct": 41.2
+    "liveRatePct": 41.5
   },
   "Agriculture": {
     "contracts": 7,
-    "live": 170,
+    "live": 173,
     "countryRows": 357,
-    "liveRatePct": 47.6
+    "liveRatePct": 48.5
   }
 }
