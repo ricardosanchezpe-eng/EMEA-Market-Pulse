@@ -1,0 +1,176 @@
+[
+  {
+    "country": "Germany",
+    "status": "published",
+    "overall": 82,
+    "coverage": 100
+  },
+  {
+    "country": "France",
+    "status": "published",
+    "overall": 20,
+    "coverage": 100
+  },
+  {
+    "country": "Italy",
+    "status": "published",
+    "overall": 45,
+    "coverage": 55
+  },
+  {
+    "country": "Spain",
+    "status": "published",
+    "overall": 26,
+    "coverage": 100
+  },
+  {
+    "country": "Netherlands",
+    "status": "published",
+    "overall": 41,
+    "coverage": 100
+  },
+  {
+    "country": "Switzerland",
+    "status": "insufficient",
+    "overall": null,
+    "coverage": 0
+  },
+  {
+    "country": "Poland",
+    "status": "published",
+    "overall": 62,
+    "coverage": 100
+  },
+  {
+    "country": "Belgium",
+    "status": "published",
+    "overall": 51,
+    "coverage": 100
+  },
+  {
+    "country": "Ireland",
+    "status": "insufficient",
+    "overall": null,
+    "coverage": 0
+  },
+  {
+    "country": "Sweden",
+    "status": "published",
+    "overall": 65,
+    "coverage": 100
+  },
+  {
+    "country": "Austria",
+    "status": "published",
+    "overall": 49,
+    "coverage": 100
+  },
+  {
+    "country": "Norway",
+    "status": "published",
+    "overall": 40,
+    "coverage": 100
+  },
+  {
+    "country": "Denmark",
+    "status": "published",
+    "overall": 43,
+    "coverage": 100
+  },
+  {
+    "country": "Romania",
+    "status": "published",
+    "overall": 57,
+    "coverage": 55
+  },
+  {
+    "country": "Czechia",
+    "status": "published",
+    "overall": 35,
+    "coverage": 100
+  },
+  {
+    "country": "Portugal",
+    "status": "published",
+    "overall": 54,
+    "coverage": 100
+  },
+  {
+    "country": "Finland",
+    "status": "published",
+    "overall": 90,
+    "coverage": 100
+  },
+  {
+    "country": "Greece",
+    "status": "insufficient",
+    "overall": null,
+    "coverage": 0
+  },
+  {
+    "country": "Hungary",
+    "status": "published",
+    "overall": 82,
+    "coverage": 75
+  },
+  {
+    "country": "Slovakia",
+    "status": "published",
+    "overall": 31,
+    "coverage": 100
+  },
+  {
+    "country": "Bulgaria",
+    "status": "published",
+    "overall": 70,
+    "coverage": 100
+  },
+  {
+    "country": "Croatia",
+    "status": "published",
+    "overall": 61,
+    "coverage": 55
+  },
+  {
+    "country": "Luxembourg",
+    "status": "published",
+    "overall": 78,
+    "coverage": 55
+  },
+  {
+    "country": "Lithuania",
+    "status": "insufficient",
+    "overall": null,
+    "coverage": 0
+  },
+  {
+    "country": "Slovenia",
+    "status": "published",
+    "overall": 68,
+    "coverage": 100
+  },
+  {
+    "country": "Latvia",
+    "status": "insufficient",
+    "overall": null,
+    "coverage": 0
+  },
+  {
+    "country": "Estonia",
+    "status": "insufficient",
+    "overall": null,
+    "coverage": 0
+  },
+  {
+    "country": "Cyprus",
+    "status": "insufficient",
+    "overall": null,
+    "coverage": 0
+  },
+  {
+    "country": "Malta",
+    "status": "insufficient",
+    "overall": null,
+    "coverage": 0
+  }
+]
