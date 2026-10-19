@@ -1,10 +1,10 @@
 {
-  "generatedAt": "Initial packaged dataset",
+  "generatedAt": "2026-10-19T08:31:33.462296+00:00",
   "europe": [
     {
       "country": "Spain",
       "flag": "🇪🇸",
-      "overall": 67,
+      "overall": 0,
       "confidence": "High",
       "transport": 71,
       "site": 44,
@@ -18,7 +18,7 @@
     {
       "country": "France",
       "flag": "🇫🇷",
-      "overall": 42,
+      "overall": 0,
       "confidence": "High",
       "transport": 58,
       "site": 31,
@@ -32,7 +32,7 @@
     {
       "country": "Italy",
       "flag": "🇮🇹",
-      "overall": 49,
+      "overall": 100,
       "confidence": "High",
       "transport": 52,
       "site": 37,
@@ -46,7 +46,7 @@
     {
       "country": "Portugal",
       "flag": "🇵🇹",
-      "overall": 60,
+      "overall": 0,
       "confidence": "High",
       "transport": 64,
       "site": 49,
@@ -60,7 +60,7 @@
     {
       "country": "Germany",
       "flag": "🇩🇪",
-      "overall": 23,
+      "overall": 0,
       "confidence": "High",
       "transport": 46,
       "site": 8,
@@ -74,7 +74,7 @@
     {
       "country": "Poland",
       "flag": "🇵🇱",
-      "overall": 72,
+      "overall": 0,
       "confidence": "High",
       "transport": 81,
       "site": 61,
@@ -432,5 +432,6 @@
         "status": "Pipeline configured"
       }
     ]
-  }
+  },
+  "pipelineStatus": "Eurostat overall construction refreshed for 6 countries; vertical adapters retain last validated values."
 }
