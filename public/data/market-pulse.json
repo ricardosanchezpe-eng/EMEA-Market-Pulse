@@ -1,11 +1,11 @@
 {
-  "generatedAt": "Initial packaged dataset",
-  "pipelineStatus": "Public-source pipeline configured; preview values remain clearly identified until refreshed.",
+  "generatedAt": "2026-10-19T09:14:50.709172+00:00",
+  "pipelineStatus": "Eurostat construction refreshed for 6 Harmonised Europe markets; vertical adapters retain last validated observations.",
   "europe": [
     {
       "country": "Spain",
       "flag": "🇪🇸",
-      "overall": 67,
+      "overall": 0,
       "transport": 71,
       "site": 44,
       "water": 76,
@@ -20,7 +20,7 @@
     {
       "country": "France",
       "flag": "🇫🇷",
-      "overall": 42,
+      "overall": 0,
       "transport": 58,
       "site": 31,
       "water": 54,
@@ -35,7 +35,7 @@
     {
       "country": "Italy",
       "flag": "🇮🇹",
-      "overall": 49,
+      "overall": 100,
       "transport": 52,
       "site": 37,
       "water": 69,
@@ -50,7 +50,7 @@
     {
       "country": "Portugal",
       "flag": "🇵🇹",
-      "overall": 60,
+      "overall": 0,
       "transport": 64,
       "site": 49,
       "water": 71,
@@ -65,7 +65,7 @@
     {
       "country": "Germany",
       "flag": "🇩🇪",
-      "overall": 23,
+      "overall": 0,
       "transport": 46,
       "site": 8,
       "water": 31,
@@ -80,7 +80,7 @@
     {
       "country": "Poland",
       "flag": "🇵🇱",
-      "overall": 72,
+      "overall": 0,
       "transport": 81,
       "site": 61,
       "water": 66,
