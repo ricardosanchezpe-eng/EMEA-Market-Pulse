@@ -1,426 +1,579 @@
 {
   "Overall": [
     {
-      "name": "Construction Production",
+      "name": "Construction production",
       "key": "construction_production",
-      "source": "Official public source",
-      "url": "https://ec.europa.eu/eurostat/",
+      "source": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
       "weight": 25,
-      "pipelineStatus": "live"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "live",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Civil Output",
+      "name": "Civil engineering output",
       "key": "civil_output",
-      "source": "Official public source",
-      "url": "https://ec.europa.eu/eurostat/",
+      "source": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
       "weight": 20,
-      "pipelineStatus": "live"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "live",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Building Permits",
+      "name": "Building permits",
       "key": "building_permits",
-      "source": "Official public source",
-      "url": "https://ec.europa.eu/eurostat/",
+      "source": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
       "weight": 15,
-      "pipelineStatus": "live"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "live",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Construction Confidence",
+      "name": "Construction confidence",
       "key": "construction_confidence",
-      "source": "Official public source",
-      "url": "https://ec.europa.eu/eurostat/",
+      "source": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
       "weight": 15,
-      "pipelineStatus": "live"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "live",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Construction Employment",
+      "name": "Construction employment",
       "key": "construction_employment",
-      "source": "Official public source",
+      "source": "Official project / statistical source",
       "url": "https://ec.europa.eu/eurostat/",
       "weight": 10,
-      "pipelineStatus": "pending"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "pending",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Construction Costs",
+      "name": "Construction prices & costs",
       "key": "construction_costs",
-      "source": "Official public source",
+      "source": "Official project / statistical source",
       "url": "https://ec.europa.eu/eurostat/",
       "weight": 10,
-      "pipelineStatus": "pending"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "pending",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Fixed Investment",
+      "name": "Fixed investment",
       "key": "fixed_investment",
-      "source": "Official public source",
+      "source": "Official project / statistical source",
       "url": "https://ec.europa.eu/eurostat/",
       "weight": 5,
-      "pipelineStatus": "pending"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "pending",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     }
   ],
   "Transportation": [
     {
-      "name": "Civil Output",
+      "name": "Civil engineering output",
       "key": "civil_output",
-      "source": "Official public source",
-      "url": "https://ec.europa.eu/eurostat/",
+      "source": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
       "weight": 25,
-      "pipelineStatus": "live"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "live",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Transport Pipeline",
+      "name": "Transport investment & pipeline",
       "key": "transport_pipeline",
-      "source": "Official public source",
+      "source": "Official project / statistical source",
       "url": "https://ec.europa.eu/eurostat/",
       "weight": 25,
-      "pipelineStatus": "pending"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "pending",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Rail Freight",
+      "name": "Rail freight activity",
       "key": "rail_freight",
-      "source": "Official public source",
-      "url": "https://ec.europa.eu/eurostat/",
+      "source": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
       "weight": 15,
-      "pipelineStatus": "live"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "live",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Road Freight",
+      "name": "Road freight activity",
       "key": "road_freight",
-      "source": "Official public source",
-      "url": "https://ec.europa.eu/eurostat/",
+      "source": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
       "weight": 10,
-      "pipelineStatus": "live"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "live",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Port Freight",
+      "name": "Ports & logistics",
       "key": "port_freight",
-      "source": "Official public source",
-      "url": "https://ec.europa.eu/eurostat/",
+      "source": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
       "weight": 10,
-      "pipelineStatus": "live"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "live",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Construction Confidence",
+      "name": "Construction confidence",
       "key": "construction_confidence",
-      "source": "Official public source",
-      "url": "https://ec.europa.eu/eurostat/",
+      "source": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
       "weight": 10,
-      "pipelineStatus": "live"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "live",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Funding Announcements",
+      "name": "Funding announcements",
       "key": "funding_announcements",
-      "source": "Official public source",
+      "source": "Official project / statistical source",
       "url": "https://ec.europa.eu/eurostat/",
       "weight": 5,
-      "pipelineStatus": "pending"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "pending",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     }
   ],
   "Site Development": [
     {
-      "name": "Building Permits",
+      "name": "Building permits",
       "key": "building_permits",
-      "source": "Official public source",
-      "url": "https://ec.europa.eu/eurostat/",
+      "source": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
       "weight": 30,
-      "pipelineStatus": "live"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "live",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Nonres Permits",
+      "name": "Non-residential permits",
       "key": "nonres_permits",
-      "source": "Official public source",
+      "source": "Official project / statistical source",
       "url": "https://ec.europa.eu/eurostat/",
       "weight": 20,
-      "pipelineStatus": "pending"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "pending",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Building Output",
+      "name": "Building construction output",
       "key": "building_output",
-      "source": "Official public source",
-      "url": "https://ec.europa.eu/eurostat/",
+      "source": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
       "weight": 20,
-      "pipelineStatus": "live"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "live",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Construction Confidence",
+      "name": "Construction confidence",
       "key": "construction_confidence",
-      "source": "Official public source",
-      "url": "https://ec.europa.eu/eurostat/",
+      "source": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
       "weight": 10,
-      "pipelineStatus": "live"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "live",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Construction Employment",
+      "name": "Construction employment",
       "key": "construction_employment",
-      "source": "Official public source",
+      "source": "Official project / statistical source",
       "url": "https://ec.europa.eu/eurostat/",
       "weight": 10,
-      "pipelineStatus": "pending"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "pending",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Financing",
+      "name": "Financing & property conditions",
       "key": "financing",
-      "source": "Official public source",
+      "source": "Official project / statistical source",
       "url": "https://ec.europa.eu/eurostat/",
       "weight": 10,
-      "pipelineStatus": "pending"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "pending",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     }
   ],
   "Waste & Water": [
     {
-      "name": "Water Access",
-      "key": "water_access",
-      "source": "Official public source",
-      "url": "https://ec.europa.eu/eurostat/",
+      "name": "Wastewater treatment connection",
+      "key": "wastewater_treatment",
+      "source": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
       "weight": 15,
-      "pipelineStatus": "live"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "candidate",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Water Stress",
+      "name": "Water stress & abstraction",
       "key": "water_stress",
-      "source": "Official public source",
-      "url": "https://ec.europa.eu/eurostat/",
+      "source": "Eurostat / World Bank",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
       "weight": 15,
-      "pipelineStatus": "live"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "live",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Waste",
-      "key": "waste",
-      "source": "Official public source",
-      "url": "https://ec.europa.eu/eurostat/",
+      "name": "Waste generation",
+      "key": "waste_generation",
+      "source": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
       "weight": 15,
-      "pipelineStatus": "pending"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "candidate",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Water Funding",
-      "key": "water_funding",
-      "source": "Official public source",
-      "url": "https://ec.europa.eu/eurostat/",
-      "weight": 20,
-      "pipelineStatus": "pending"
+      "name": "Waste treatment",
+      "key": "waste_treatment",
+      "source": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "weight": 15,
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "candidate",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Water Pipeline",
+      "name": "Treatment & reservoir pipeline",
       "key": "water_pipeline",
-      "source": "Official public source",
+      "source": "Official project / statistical source",
       "url": "https://ec.europa.eu/eurostat/",
-      "weight": 20,
-      "pipelineStatus": "pending"
+      "weight": 25,
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "pending",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Remediation",
+      "name": "Landfill & remediation pipeline",
       "key": "remediation",
-      "source": "Official public source",
+      "source": "Official project / statistical source",
       "url": "https://ec.europa.eu/eurostat/",
       "weight": 15,
-      "pipelineStatus": "pending"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "pending",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     }
   ],
   "Oil & Gas": [
     {
-      "name": "Oil Rents",
+      "name": "Oil activity context",
       "key": "oil_rents",
-      "source": "Official public source",
-      "url": "https://ec.europa.eu/eurostat/",
+      "source": "World Bank",
+      "url": "https://data.worldbank.org/",
       "weight": 20,
-      "pipelineStatus": "live"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "live",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Gas Rents",
+      "name": "Gas activity context",
       "key": "gas_rents",
-      "source": "Official public source",
-      "url": "https://ec.europa.eu/eurostat/",
+      "source": "World Bank",
+      "url": "https://data.worldbank.org/",
       "weight": 15,
-      "pipelineStatus": "live"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "live",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Refinery",
+      "name": "Natural resource context",
+      "key": "resource_rents",
+      "source": "World Bank",
+      "url": "https://data.worldbank.org/",
+      "weight": 10,
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "live",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
+    },
+    {
+      "name": "Refinery throughput",
       "key": "refinery",
-      "source": "Official public source",
+      "source": "Official project / statistical source",
       "url": "https://ec.europa.eu/eurostat/",
       "weight": 10,
-      "pipelineStatus": "pending"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "pending",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Lng",
+      "name": "LNG imports & terminal use",
       "key": "lng",
-      "source": "Official public source",
+      "source": "Official project / statistical source",
       "url": "https://ec.europa.eu/eurostat/",
       "weight": 15,
-      "pipelineStatus": "pending"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "pending",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Oil Pipeline",
+      "name": "Pipeline, storage & terminal projects",
       "key": "oil_pipeline",
-      "source": "Official public source",
+      "source": "Official project / statistical source",
       "url": "https://ec.europa.eu/eurostat/",
       "weight": 30,
-      "pipelineStatus": "pending"
-    },
-    {
-      "name": "Approvals",
-      "key": "approvals",
-      "source": "Official public source",
-      "url": "https://ec.europa.eu/eurostat/",
-      "weight": 10,
-      "pipelineStatus": "pending"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "pending",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     }
   ],
   "Mining": [
     {
-      "name": "Mineral Rents",
+      "name": "Mining & quarrying production",
+      "key": "mining_production",
+      "source": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "weight": 25,
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "candidate",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
+    },
+    {
+      "name": "Mineral rents context",
       "key": "mineral_rents",
-      "source": "Official public source",
-      "url": "https://ec.europa.eu/eurostat/",
-      "weight": 20,
-      "pipelineStatus": "live"
-    },
-    {
-      "name": "Ore",
-      "key": "ore",
-      "source": "Official public source",
-      "url": "https://ec.europa.eu/eurostat/",
+      "source": "World Bank",
+      "url": "https://data.worldbank.org/",
       "weight": 15,
-      "pipelineStatus": "pending"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "live",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Mining Capex",
+      "name": "Natural resource context",
+      "key": "resource_rents",
+      "source": "World Bank",
+      "url": "https://data.worldbank.org/",
+      "weight": 10,
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "live",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
+    },
+    {
+      "name": "Mining investment & capex",
       "key": "mining_capex",
-      "source": "Official public source",
+      "source": "Official project / statistical source",
       "url": "https://ec.europa.eu/eurostat/",
       "weight": 20,
-      "pipelineStatus": "pending"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "pending",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Mine Pipeline",
+      "name": "Mine approvals & pipeline",
       "key": "mine_pipeline",
-      "source": "Official public source",
+      "source": "Official project / statistical source",
       "url": "https://ec.europa.eu/eurostat/",
       "weight": 20,
-      "pipelineStatus": "pending"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "pending",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Tailings",
+      "name": "Tailings & remediation projects",
       "key": "tailings",
-      "source": "Official public source",
-      "url": "https://ec.europa.eu/eurostat/",
-      "weight": 15,
-      "pipelineStatus": "pending"
-    },
-    {
-      "name": "Metals",
-      "key": "metals",
-      "source": "Official public source",
+      "source": "Official project / statistical source",
       "url": "https://ec.europa.eu/eurostat/",
       "weight": 10,
-      "pipelineStatus": "pending"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "pending",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     }
   ],
   "Renewables": [
     {
-      "name": "Renewable Share",
+      "name": "Renewable share",
+      "key": "renewable_share_eu",
+      "source": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "weight": 20,
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "candidate",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
+    },
+    {
+      "name": "Renewable energy consumption",
       "key": "renewable_share",
-      "source": "Official public source",
-      "url": "https://ec.europa.eu/eurostat/",
-      "weight": 20,
-      "pipelineStatus": "live"
+      "source": "World Bank",
+      "url": "https://data.worldbank.org/",
+      "weight": 15,
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "live",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Renewable Power",
+      "name": "Renewable electricity output",
       "key": "renewable_power",
-      "source": "Official public source",
-      "url": "https://ec.europa.eu/eurostat/",
+      "source": "World Bank",
+      "url": "https://data.worldbank.org/",
       "weight": 15,
-      "pipelineStatus": "live"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "live",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Renewable Awards",
+      "name": "Auctions & awarded projects",
       "key": "renewable_awards",
-      "source": "Official public source",
+      "source": "Official project / statistical source",
       "url": "https://ec.europa.eu/eurostat/",
       "weight": 20,
-      "pipelineStatus": "pending"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "pending",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Renewable Pipeline",
-      "key": "renewable_pipeline",
-      "source": "Official public source",
-      "url": "https://ec.europa.eu/eurostat/",
-      "weight": 20,
-      "pipelineStatus": "pending"
-    },
-    {
-      "name": "Grid",
+      "name": "Grid investment",
       "key": "grid",
-      "source": "Official public source",
+      "source": "Official project / statistical source",
       "url": "https://ec.europa.eu/eurostat/",
-      "weight": 15,
-      "pipelineStatus": "pending"
+      "weight": 20,
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "pending",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Storage",
+      "name": "Battery storage pipeline",
       "key": "storage",
-      "source": "Official public source",
+      "source": "Official project / statistical source",
       "url": "https://ec.europa.eu/eurostat/",
       "weight": 10,
-      "pipelineStatus": "pending"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "pending",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     }
   ],
   "Agriculture": [
     {
-      "name": "Drought",
-      "key": "drought",
-      "source": "Official public source",
-      "url": "https://ec.europa.eu/eurostat/",
-      "weight": 25,
-      "pipelineStatus": "pending"
+      "name": "Agricultural output growth",
+      "key": "agri_growth",
+      "source": "World Bank",
+      "url": "https://data.worldbank.org/",
+      "weight": 20,
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "live",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Agri Growth",
-      "key": "agri_growth",
-      "source": "Official public source",
+      "name": "Agriculture share of GDP",
+      "key": "agri_share",
+      "source": "World Bank",
+      "url": "https://data.worldbank.org/",
+      "weight": 10,
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "live",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
+    },
+    {
+      "name": "Agricultural output prices",
+      "key": "agri_output_prices",
+      "source": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "weight": 15,
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "candidate",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
+    },
+    {
+      "name": "Water stress / irrigation need",
+      "key": "water_stress",
+      "source": "Eurostat / World Bank",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "weight": 15,
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "live",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
+    },
+    {
+      "name": "Drought & soil moisture",
+      "key": "drought",
+      "source": "Official project / statistical source",
       "url": "https://ec.europa.eu/eurostat/",
       "weight": 20,
-      "pipelineStatus": "live"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "pending",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Irrigation",
+      "name": "Irrigation programmes",
       "key": "irrigation",
-      "source": "Official public source",
+      "source": "Official project / statistical source",
       "url": "https://ec.europa.eu/eurostat/",
       "weight": 15,
-      "pipelineStatus": "pending"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "pending",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     },
     {
-      "name": "Agri Share",
-      "key": "agri_share",
-      "source": "Official public source",
-      "url": "https://ec.europa.eu/eurostat/",
-      "weight": 15,
-      "pipelineStatus": "live"
-    },
-    {
-      "name": "Agri Prices",
-      "key": "agri_prices",
-      "source": "Official public source",
-      "url": "https://ec.europa.eu/eurostat/",
-      "weight": 10,
-      "pipelineStatus": "pending"
-    },
-    {
-      "name": "Input Costs",
-      "key": "input_costs",
-      "source": "Official public source",
-      "url": "https://ec.europa.eu/eurostat/",
-      "weight": 10,
-      "pipelineStatus": "pending"
-    },
-    {
-      "name": "Cap",
+      "name": "CAP & rural development funding",
       "key": "cap",
-      "source": "Official public source",
+      "source": "Official project / statistical source",
       "url": "https://ec.europa.eu/eurostat/",
       "weight": 5,
-      "pipelineStatus": "pending"
+      "frequency": "Source-defined",
+      "role": "Direct / leading / forward",
+      "pipelineStatus": "pending",
+      "treatment": "Comparable observations → momentum → normalized 0–100 → weighted contribution"
     }
   ]
 }
