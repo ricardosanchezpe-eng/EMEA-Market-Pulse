@@ -1,4 +1,4 @@
-name: Weekly market data refresh v2.18
+name: Weekly market data refresh
 on:
   workflow_dispatch:
   schedule:
@@ -19,21 +19,17 @@ jobs:
       - uses: actions/setup-python@v5
         if: steps.gate.outputs.run == 'true'
         with: {python-version: '3.12'}
-      - name: Refresh every connected/candidate adapter country by country
-        if: steps.gate.outputs.run == 'true'
+      - if: steps.gate.outputs.run == 'true'
         run: python -u scripts/update_data.py
-      - name: Build full country × vertical × indicator audit
-        if: steps.gate.outputs.run == 'true'
+      - if: steps.gate.outputs.run == 'true'
         run: python scripts/audit_coverage.py
-      - name: Validate and commit
-        if: steps.gate.outputs.run == 'true'
+      - if: steps.gate.outputs.run == 'true'
         run: |
           python -m json.tool public/data/market-pulse.json > /dev/null
-          python -m json.tool public/data/coverage-summary.json > /dev/null
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add public/data/*
-          git diff --cached --quiet || git commit -m "Weekly contract-driven market refresh"
+          git diff --cached --quiet || git commit -m "Weekly explicit-contract market refresh"
           git push
       - uses: actions/upload-artifact@v4
         if: always() && steps.gate.outputs.run == 'true'
