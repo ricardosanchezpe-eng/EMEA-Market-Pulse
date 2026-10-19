@@ -14,8 +14,9 @@ for c in COUNTRIES:
  for key,conf in EUROSTAT.items():
   row={'universe':c['universe'],'country':c['country'],'source':'Eurostat','indicator':key,'dataset':conf['dataset'],'adapterState':conf['status']}
   try:
-   if conf['dataset'] not in cache:cache[conf['dataset']]=euro(conf['dataset'],c['geo'])
-   j,u=cache[conf['dataset']]; meta,a=unpack(j,conf.get('filters')); z=metric(a,conf['frequency']);row.update(status='PASS' if z else 'NO_COMPARABLE_SERIES',observations=len(a),latest=z.get('raw') if z else None,latestDate=z.get('date') if z else None,previous=z.get('previous') if z else None,previousDate=z.get('previousDate') if z else None,score=z.get('score') if z else None,selectedDimensions=dict(meta or []),url=u)
+   cache_key=(conf['dataset'],conf.get('geo_dimension','geo'))
+   if cache_key not in cache:cache[cache_key]=euro(conf['dataset'],c['geo'],conf.get('geo_dimension','geo'))
+   j,u=cache[cache_key]; meta,a=unpack(j,conf.get('filters')); z=metric(a,conf['frequency']);row.update(status='PASS' if z else 'NO_COMPARABLE_SERIES',observations=len(a),latest=z.get('raw') if z else None,latestDate=z.get('date') if z else None,previous=z.get('previous') if z else None,previousDate=z.get('previousDate') if z else None,score=z.get('score') if z else None,selectedDimensions=dict(meta or []),url=u)
   except Exception as e:row.update(status='ERROR',error=repr(e),observations=0)
   rows.append(row)
  for key,indicator in WORLD_BANK.items():

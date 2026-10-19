@@ -11,7 +11,7 @@ EUROSTAT = {
  'building_permits': {'dataset':'teiis550','filters':{},'frequency':'monthly','status':'connected'},
  'rail_freight': {'dataset':'rail_go_typepas','filters':{},'frequency':'annual_or_quarterly','status':'connected'},
  'road_freight': {'dataset':'road_go_ta_tott','filters':{},'frequency':'annual_or_quarterly','status':'connected'},
- 'port_freight': {'dataset':'mar_go_qm','filters':{},'frequency':'quarterly','status':'connected'},
+ 'port_freight': {'dataset':'mar_go_qm','filters':{'unit':'THS_T'},'frequency':'quarterly','status':'connected','geo_dimension':'rep_mar'},
  'construction_confidence': {'dataset':'ei_bsbu_m_r2','filters':{},'frequency':'monthly_balance','status':'connected'},
  'wastewater_treatment': {'dataset':'sdg_06_20','filters':{},'frequency':'annual','status':'candidate'},
  'water_stress_eu': {'dataset':'sdg_06_60','filters':{},'frequency':'annual','status':'candidate'},

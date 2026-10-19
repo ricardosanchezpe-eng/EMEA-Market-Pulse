@@ -13,8 +13,9 @@ def fetch(url,tries=2):
    with urllib.request.urlopen(urllib.request.Request(url,headers=UA),timeout=35) as r:return json.load(r)
   except Exception as e:last=e;time.sleep(1.5*(n+1))
  raise last
-def euro(ds,geo):
- u='https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/'+ds+'?'+urllib.parse.urlencode({'lang':'EN','geo':geo,'lastTimePeriod':'25'});return fetch(u),u
+def euro(ds,geo,geo_dimension='geo'):
+ params={'lang':'EN',geo_dimension:geo,'lastTimePeriod':'25'}
+ u='https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/'+ds+'?'+urllib.parse.urlencode(params);return fetch(u),u
 def unpack(j,filters=None):
  ids=j.get('id',[]);sizes=j.get('size',[]);dim=j.get('dimension',{});cats=[[k for k,v in sorted(dim[x]['category']['index'].items(),key=lambda q:q[1])] for x in ids];g={}
  for k,v in j.get('value',{}).items():
@@ -51,8 +52,9 @@ def process(src,contracts):
  for key,conf in EUROSTAT.items():
   try:
    ds=conf['dataset']
-   if ds not in cache:cache[ds]=euro(ds,c['geo'])
-   j,u=cache[ds];meta,a=unpack(j,conf.get('filters'));add(c,key,metric(a,conf['frequency']),u,conf['status'],dict(meta or []))
+   cache_key=(ds,conf.get('geo_dimension','geo'))
+   if cache_key not in cache:cache[cache_key]=euro(ds,c['geo'],conf.get('geo_dimension','geo'))
+   j,u=cache[cache_key];meta,a=unpack(j,conf.get('filters'));add(c,key,metric(a,conf['frequency']),u,conf['status'],dict(meta or []))
   except Exception as e:c['sourceStatus'][key]={'adapterState':conf['status'],'retrieval':'error','error':type(e).__name__};errors.append(key+':'+type(e).__name__)
  for key,ind in WORLD_BANK.items():
   try:z,u=wb(c.get('wb') or c['geo'],ind);add(c,key,z,u,'connected')
