@@ -1,6 +1,6 @@
 {
-  "generatedAt": "Initial validated package",
-  "pipelineStatus": "Expanded country universe; insufficient observations are displayed as — until the weekly collector validates them.",
+  "generatedAt": "2026-10-19T09:47:53.995364+00:00",
+  "pipelineStatus": "Validated Eurostat Overall score for 2 countries. Missing or malformed inputs retained as insufficient data.",
   "europe": [
     {
       "country": "Spain",
@@ -109,7 +109,7 @@
       "geo": "AT",
       "id": "040",
       "flag": "🇦🇹",
-      "overall": null,
+      "overall": 100,
       "transport": null,
       "site": null,
       "water": null,
@@ -117,9 +117,9 @@
       "mining": null,
       "renewables": null,
       "agriculture": null,
-      "coverage": 0,
+      "coverage": 25,
       "size": 50,
-      "confidence": "Insufficient"
+      "confidence": "Low"
     },
     {
       "country": "Belgium",
@@ -381,7 +381,7 @@
       "geo": "NL",
       "id": "528",
       "flag": "🇳🇱",
-      "overall": null,
+      "overall": 100,
       "transport": null,
       "site": null,
       "water": null,
@@ -389,9 +389,9 @@
       "mining": null,
       "renewables": null,
       "agriculture": null,
-      "coverage": 0,
+      "coverage": 25,
       "size": 50,
-      "confidence": "Insufficient"
+      "confidence": "Low"
     },
     {
       "country": "Romania",
