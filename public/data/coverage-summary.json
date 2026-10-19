@@ -1,0 +1,50 @@
+{
+  "Overall": {
+    "contracts": 7,
+    "live": 81,
+    "countryRows": 357,
+    "liveRatePct": 22.7
+  },
+  "Transportation": {
+    "contracts": 7,
+    "live": 125,
+    "countryRows": 357,
+    "liveRatePct": 35.0
+  },
+  "Site Development": {
+    "contracts": 6,
+    "live": 59,
+    "countryRows": 306,
+    "liveRatePct": 19.3
+  },
+  "Waste & Water": {
+    "contracts": 6,
+    "live": 117,
+    "countryRows": 306,
+    "liveRatePct": 38.2
+  },
+  "Oil & Gas": {
+    "contracts": 6,
+    "live": 109,
+    "countryRows": 306,
+    "liveRatePct": 35.6
+  },
+  "Mining": {
+    "contracts": 6,
+    "live": 90,
+    "countryRows": 306,
+    "liveRatePct": 29.4
+  },
+  "Renewables": {
+    "contracts": 6,
+    "live": 126,
+    "countryRows": 306,
+    "liveRatePct": 41.2
+  },
+  "Agriculture": {
+    "contracts": 7,
+    "live": 170,
+    "countryRows": 357,
+    "liveRatePct": 47.6
+  }
+}
