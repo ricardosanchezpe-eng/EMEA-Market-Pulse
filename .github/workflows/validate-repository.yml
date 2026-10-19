@@ -1,0 +1,43 @@
+name: Validate repository architecture
+on:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Validate required repository files
+        run: |
+          test -f PROJECT_STATE.md
+          test -f CHANGELOG.md
+          test -f src/main.jsx
+          test -f src/styles.css
+          test -f scripts/update_data.py
+          test -f public/data/indicator-methodology.json
+          test -f .github/workflows/weekly-refresh.yml
+      - name: Validate Python and JSON
+        run: |
+          python -m py_compile scripts/*.py
+          find public/data -maxdepth 1 -name '*.json' -print0 | xargs -0 -n1 python -m json.tool > /dev/null
+      - name: Validate architecture invariants
+        run: |
+          grep -q 'Broader EMEA' src/main.jsx
+          grep -q 'Latest date' src/main.jsx
+          grep -q 'Previous date' src/main.jsx
+          grep -q 'How to read the scores' src/main.jsx
+          grep -q 'height:520px' src/styles.css
+          grep -q 'mar_go_qm' scripts/update_data.py
+          grep -q 'cancel-in-progress: true' .github/workflows/weekly-refresh.yml
+      - name: Build website
+        run: |
+          npm install
+          npm run build
