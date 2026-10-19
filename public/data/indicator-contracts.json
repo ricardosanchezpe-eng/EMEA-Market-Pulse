@@ -1,69 +1,375 @@
 {
   "Overall": [
-    {"key":"construction_production","label":"Construction production","weight":25,"adapter":"eurostat","required":true},
-    {"key":"civil_output","label":"Civil engineering output","weight":20,"adapter":"eurostat","required":false},
-    {"key":"building_permits","label":"Building permits","weight":15,"adapter":"eurostat","required":false},
-    {"key":"construction_confidence","label":"Construction confidence","weight":15,"adapter":"eurostat","required":false},
-    {"key":"construction_employment","label":"Construction employment","weight":10,"adapter":"pending","required":false},
-    {"key":"construction_costs","label":"Construction prices & costs","weight":10,"adapter":"pending","required":false},
-    {"key":"fixed_investment","label":"Fixed investment","weight":5,"adapter":"pending","required":false}
+    {
+      "key": "construction_production",
+      "label": "Construction production",
+      "weight": 25,
+      "adapter": "eurostat",
+      "required": true
+    },
+    {
+      "key": "civil_output",
+      "label": "Civil engineering output",
+      "weight": 20,
+      "adapter": "eurostat",
+      "required": false
+    },
+    {
+      "key": "building_permits",
+      "label": "Building permits",
+      "weight": 15,
+      "adapter": "eurostat",
+      "required": false
+    },
+    {
+      "key": "construction_confidence",
+      "label": "Construction confidence",
+      "weight": 15,
+      "adapter": "eurostat",
+      "required": false
+    },
+    {
+      "key": "construction_employment",
+      "label": "Construction employment",
+      "weight": 10,
+      "adapter": "pending",
+      "required": false
+    },
+    {
+      "key": "construction_costs",
+      "label": "Construction prices & costs",
+      "weight": 10,
+      "adapter": "pending",
+      "required": false
+    },
+    {
+      "key": "fixed_investment",
+      "label": "Fixed investment",
+      "weight": 5,
+      "adapter": "pending",
+      "required": false
+    }
   ],
   "Transportation": [
-    {"key":"civil_output","label":"Civil engineering output","weight":25,"adapter":"eurostat","required":true},
-    {"key":"transport_pipeline","label":"Transport investment & pipeline","weight":25,"adapter":"pending","required":false},
-    {"key":"rail_freight","label":"Rail freight activity","weight":15,"adapter":"eurostat","required":false},
-    {"key":"road_freight","label":"Road freight activity","weight":10,"adapter":"eurostat","required":false},
-    {"key":"port_freight","label":"Ports & logistics","weight":10,"adapter":"eurostat","required":false},
-    {"key":"construction_confidence","label":"Construction confidence","weight":10,"adapter":"eurostat","required":false},
-    {"key":"funding_announcements","label":"Funding announcements","weight":5,"adapter":"pending","required":false}
+    {
+      "key": "civil_output",
+      "label": "Civil engineering output",
+      "weight": 25,
+      "adapter": "eurostat",
+      "required": true
+    },
+    {
+      "key": "transport_pipeline",
+      "label": "Transport investment & pipeline",
+      "weight": 25,
+      "adapter": "pending",
+      "required": false
+    },
+    {
+      "key": "rail_freight",
+      "label": "Rail freight activity",
+      "weight": 15,
+      "adapter": "eurostat",
+      "required": false
+    },
+    {
+      "key": "road_freight",
+      "label": "Road freight activity",
+      "weight": 10,
+      "adapter": "eurostat",
+      "required": false
+    },
+    {
+      "key": "port_freight",
+      "label": "Ports & logistics",
+      "weight": 10,
+      "adapter": "eurostat",
+      "required": false
+    },
+    {
+      "key": "construction_confidence",
+      "label": "Construction confidence",
+      "weight": 10,
+      "adapter": "eurostat",
+      "required": false
+    },
+    {
+      "key": "funding_announcements",
+      "label": "Funding announcements",
+      "weight": 5,
+      "adapter": "pending",
+      "required": false
+    }
   ],
   "Site Development": [
-    {"key":"building_permits","label":"Building permits","weight":30,"adapter":"eurostat","required":true},
-    {"key":"nonres_permits","label":"Non-residential permits","weight":20,"adapter":"pending","required":false},
-    {"key":"building_output","label":"Building construction output","weight":20,"adapter":"eurostat","required":false},
-    {"key":"construction_confidence","label":"Construction confidence","weight":10,"adapter":"eurostat","required":false},
-    {"key":"construction_employment","label":"Construction employment","weight":10,"adapter":"pending","required":false},
-    {"key":"financing","label":"Financing & property conditions","weight":10,"adapter":"pending","required":false}
+    {
+      "key": "building_permits",
+      "label": "Building permits",
+      "weight": 30,
+      "adapter": "eurostat",
+      "required": true
+    },
+    {
+      "key": "nonres_permits",
+      "label": "Non-residential permits",
+      "weight": 20,
+      "adapter": "pending",
+      "required": false
+    },
+    {
+      "key": "building_output",
+      "label": "Building construction output",
+      "weight": 20,
+      "adapter": "eurostat",
+      "required": false
+    },
+    {
+      "key": "construction_confidence",
+      "label": "Construction confidence",
+      "weight": 10,
+      "adapter": "eurostat",
+      "required": false
+    },
+    {
+      "key": "construction_employment",
+      "label": "Construction employment",
+      "weight": 10,
+      "adapter": "pending",
+      "required": false
+    },
+    {
+      "key": "financing",
+      "label": "Financing & property conditions",
+      "weight": 10,
+      "adapter": "pending",
+      "required": false
+    }
   ],
   "Waste & Water": [
-    {"key":"wastewater_treatment","label":"Wastewater treatment connection","weight":15,"adapter":"eurostat_candidate","required":false},
-    {"key":"water_stress","label":"Water stress & abstraction","weight":15,"adapter":"eurostat_with_worldbank_fallback","required":true},
-    {"key":"waste_generation","label":"Waste generation","weight":15,"adapter":"eurostat_candidate","required":false},
-    {"key":"waste_treatment","label":"Waste treatment","weight":15,"adapter":"eurostat_candidate","required":false},
-    {"key":"water_pipeline","label":"Treatment & reservoir pipeline","weight":25,"adapter":"pending","required":false},
-    {"key":"remediation","label":"Landfill & remediation pipeline","weight":15,"adapter":"pending","required":false}
+    {
+      "key": "wastewater_treatment",
+      "label": "Wastewater treatment connection",
+      "weight": 15,
+      "adapter": "eurostat_candidate",
+      "required": false
+    },
+    {
+      "key": "water_stress",
+      "label": "Water stress & abstraction",
+      "weight": 15,
+      "adapter": "eurostat_with_worldbank_fallback",
+      "required": true
+    },
+    {
+      "key": "waste_generation",
+      "label": "Waste generation",
+      "weight": 15,
+      "adapter": "eurostat_candidate",
+      "required": false
+    },
+    {
+      "key": "waste_treatment",
+      "label": "Waste treatment",
+      "weight": 15,
+      "adapter": "eurostat_candidate",
+      "required": false
+    },
+    {
+      "key": "water_pipeline",
+      "label": "Treatment & reservoir pipeline",
+      "weight": 25,
+      "adapter": "pending",
+      "required": false
+    },
+    {
+      "key": "remediation",
+      "label": "Landfill & remediation pipeline",
+      "weight": 15,
+      "adapter": "pending",
+      "required": false
+    }
   ],
   "Oil & Gas": [
-    {"key":"oil_rents","label":"Oil activity context","weight":20,"adapter":"worldbank","required":false},
-    {"key":"gas_rents","label":"Gas activity context","weight":15,"adapter":"worldbank","required":false},
-    {"key":"resource_rents","label":"Natural resource context","weight":10,"adapter":"worldbank","required":false},
-    {"key":"refinery","label":"Refinery throughput","weight":10,"adapter":"pending","required":false},
-    {"key":"lng","label":"LNG imports & terminal use","weight":15,"adapter":"pending","required":false},
-    {"key":"oil_pipeline","label":"Pipeline, storage & terminal projects","weight":30,"adapter":"pending","required":false}
+    {
+      "key": "oil_rents",
+      "label": "Oil activity context",
+      "weight": 20,
+      "adapter": "worldbank",
+      "required": false
+    },
+    {
+      "key": "gas_rents",
+      "label": "Gas activity context",
+      "weight": 15,
+      "adapter": "worldbank",
+      "required": false
+    },
+    {
+      "key": "resource_rents",
+      "label": "Natural resource context",
+      "weight": 10,
+      "adapter": "worldbank",
+      "required": false
+    },
+    {
+      "key": "refinery",
+      "label": "Refinery throughput",
+      "weight": 10,
+      "adapter": "pending",
+      "required": false
+    },
+    {
+      "key": "lng",
+      "label": "LNG imports & terminal use",
+      "weight": 15,
+      "adapter": "pending",
+      "required": false
+    },
+    {
+      "key": "oil_pipeline",
+      "label": "Pipeline, storage & terminal projects",
+      "weight": 30,
+      "adapter": "pending",
+      "required": false
+    }
   ],
   "Mining": [
-    {"key":"mining_production","label":"Mining & quarrying production","weight":25,"adapter":"eurostat_candidate","required":true},
-    {"key":"mineral_rents","label":"Mineral rents context","weight":15,"adapter":"worldbank","required":false},
-    {"key":"resource_rents","label":"Natural resource context","weight":10,"adapter":"worldbank","required":false},
-    {"key":"mining_capex","label":"Mining investment & capex","weight":20,"adapter":"pending","required":false},
-    {"key":"mine_pipeline","label":"Mine approvals & pipeline","weight":20,"adapter":"pending","required":false},
-    {"key":"tailings","label":"Tailings & remediation projects","weight":10,"adapter":"pending","required":false}
+    {
+      "key": "mining_production",
+      "label": "Mining & quarrying production",
+      "weight": 25,
+      "adapter": "eurostat_candidate",
+      "required": true
+    },
+    {
+      "key": "mineral_rents",
+      "label": "Mineral rents context",
+      "weight": 15,
+      "adapter": "worldbank",
+      "required": false
+    },
+    {
+      "key": "resource_rents",
+      "label": "Natural resource context",
+      "weight": 10,
+      "adapter": "worldbank",
+      "required": false
+    },
+    {
+      "key": "mining_capex",
+      "label": "Mining investment & capex",
+      "weight": 20,
+      "adapter": "pending",
+      "required": false
+    },
+    {
+      "key": "mine_pipeline",
+      "label": "Mine approvals & pipeline",
+      "weight": 20,
+      "adapter": "pending",
+      "required": false
+    },
+    {
+      "key": "tailings",
+      "label": "Tailings & remediation projects",
+      "weight": 10,
+      "adapter": "pending",
+      "required": false
+    }
   ],
   "Renewables": [
-    {"key":"renewable_share_eu","label":"Renewable share","weight":20,"adapter":"eurostat_candidate","required":false},
-    {"key":"renewable_share","label":"Renewable energy consumption","weight":15,"adapter":"worldbank","required":false},
-    {"key":"renewable_power","label":"Renewable electricity output","weight":15,"adapter":"worldbank","required":false},
-    {"key":"renewable_awards","label":"Auctions & awarded projects","weight":20,"adapter":"pending","required":false},
-    {"key":"grid","label":"Grid investment","weight":20,"adapter":"pending","required":false},
-    {"key":"storage","label":"Battery storage pipeline","weight":10,"adapter":"pending","required":false}
+    {
+      "key": "renewable_share_eu",
+      "label": "Renewable share",
+      "weight": 20,
+      "adapter": "eurostat_candidate",
+      "required": false
+    },
+    {
+      "key": "renewable_share",
+      "label": "Renewable energy consumption",
+      "weight": 15,
+      "adapter": "worldbank",
+      "required": false
+    },
+    {
+      "key": "renewable_power",
+      "label": "Renewable electricity output",
+      "weight": 15,
+      "adapter": "worldbank",
+      "required": false
+    },
+    {
+      "key": "renewable_awards",
+      "label": "Auctions & awarded projects",
+      "weight": 20,
+      "adapter": "pending",
+      "required": false
+    },
+    {
+      "key": "grid",
+      "label": "Grid investment",
+      "weight": 20,
+      "adapter": "pending",
+      "required": false
+    },
+    {
+      "key": "storage",
+      "label": "Battery storage pipeline",
+      "weight": 10,
+      "adapter": "pending",
+      "required": false
+    }
   ],
   "Agriculture": [
-    {"key":"agri_growth","label":"Agricultural output growth","weight":20,"adapter":"worldbank","required":true},
-    {"key":"agri_share","label":"Agriculture share of GDP","weight":10,"adapter":"worldbank","required":false},
-    {"key":"agri_output_prices","label":"Agricultural output prices","weight":15,"adapter":"eurostat_candidate","required":false},
-    {"key":"water_stress","label":"Water stress / irrigation need","weight":15,"adapter":"eurostat_with_worldbank_fallback","required":false},
-    {"key":"drought","label":"Drought & soil moisture","weight":20,"adapter":"pending","required":false},
-    {"key":"irrigation","label":"Irrigation programmes","weight":15,"adapter":"pending","required":false},
-    {"key":"cap","label":"CAP & rural development funding","weight":5,"adapter":"pending","required":false}
+    {
+      "key": "agri_growth",
+      "label": "Agricultural output growth",
+      "weight": 20,
+      "adapter": "worldbank",
+      "required": true
+    },
+    {
+      "key": "agri_share",
+      "label": "Agriculture share of GDP",
+      "weight": 10,
+      "adapter": "worldbank",
+      "required": false
+    },
+    {
+      "key": "agri_output_prices",
+      "label": "Agricultural output prices",
+      "weight": 15,
+      "adapter": "eurostat_candidate",
+      "required": false
+    },
+    {
+      "key": "water_stress",
+      "label": "Water stress / irrigation need",
+      "weight": 15,
+      "adapter": "eurostat_with_worldbank_fallback",
+      "required": false
+    },
+    {
+      "key": "drought",
+      "label": "Drought & soil moisture",
+      "weight": 20,
+      "adapter": "pending",
+      "required": false
+    },
+    {
+      "key": "irrigation",
+      "label": "Irrigation programmes",
+      "weight": 15,
+      "adapter": "pending",
+      "required": false
+    },
+    {
+      "key": "cap",
+      "label": "CAP & rural development funding",
+      "weight": 5,
+      "adapter": "pending",
+      "required": false
+    }
   ]
 }
