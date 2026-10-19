@@ -11,8 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Run only at 07:30 Europe/Madrid
-        id: gate
+      - id: gate
         run: |
           NOW=$(TZ=Europe/Madrid date +%H:%M)
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "$NOW" = "07:30" ]; then echo "run=true" >> "$GITHUB_OUTPUT"; else echo "run=false" >> "$GITHUB_OUTPUT"; fi
@@ -22,8 +21,7 @@ jobs:
           python-version: '3.12'
       - run: python scripts/update_data.py
         if: steps.gate.outputs.run == 'true'
-      - name: Commit refreshed data
-        if: steps.gate.outputs.run == 'true'
+      - if: steps.gate.outputs.run == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
