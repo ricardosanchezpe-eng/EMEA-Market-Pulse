@@ -1,6 +1,6 @@
 {
-  "generatedAt": "Initial v2.8 package — run Weekly market data refresh once",
-  "pipelineStatus": "No live refresh has run yet.",
+  "generatedAt": "2026-10-19T13:12:07.417463+00:00",
+  "pipelineStatus": "Live refresh complete. Countries with scores: overall 21, water 29, oil & gas 29, mining 29, renewables 29, agriculture 29.",
   "europe": [
     {
       "country": "Germany",
@@ -8,17 +8,144 @@
       "wb": "DEU",
       "id": "276",
       "gdpRank": 1,
-      "overall": null,
-      "transport": null,
-      "site": null,
-      "water": null,
-      "oil": null,
-      "mining": null,
-      "renewables": null,
-      "agriculture": null,
-      "coverage": {},
-      "confidence": {},
-      "indicators": {},
+      "overall": 82,
+      "transport": 78,
+      "site": 59,
+      "water": 63,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 27,
+      "agriculture": 35,
+      "coverage": {
+        "overall": 100,
+        "transport": 80,
+        "site": 60,
+        "water": 35,
+        "renewables": 35,
+        "agriculture": 30,
+        "oil": 35,
+        "mining": 20
+      },
+      "confidence": {
+        "overall": "High",
+        "transport": "High",
+        "site": "Medium",
+        "water": "Insufficient",
+        "renewables": "Insufficient",
+        "agriculture": "Insufficient",
+        "oil": "Insufficient",
+        "mining": "Insufficient"
+      },
+      "indicators": {
+        "construction_production": {
+          "score": 92,
+          "raw": 98.9,
+          "previous": 89.5,
+          "growthPct": 10.502793296089386,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=DE&lastTimePeriod=25",
+          "status": "live"
+        },
+        "building_output": {
+          "score": 59,
+          "raw": 77.2,
+          "previous": 75.5,
+          "growthPct": 2.251655629139071,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=DE&lastTimePeriod=25",
+          "status": "live"
+        },
+        "civil_output": {
+          "score": 78,
+          "raw": 117.6,
+          "previous": 109.9,
+          "growthPct": 7.006369426751591,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=DE&lastTimePeriod=25",
+          "status": "live"
+        },
+        "water_stress": {
+          "score": 35,
+          "raw": 35.35165707,
+          "previous": 35.35165707,
+          "growthPct": 0.0,
+          "date": "2022",
+          "url": "https://api.worldbank.org/v2/country/DEU/indicator/ER.H2O.FWST.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "drinking_water": {
+          "score": 100,
+          "raw": 99.9172979459354,
+          "previous": 99.9168282325382,
+          "growthPct": 0.00047010439134798077,
+          "date": "2024",
+          "url": "https://api.worldbank.org/v2/country/DEU/indicator/SH.H2O.SMDW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_share": {
+          "score": 18,
+          "raw": 17.6,
+          "previous": 18.5,
+          "growthPct": -4.86486486486486,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/DEU/indicator/EG.FEC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_electricity": {
+          "score": 40,
+          "raw": 39.832111961348,
+          "previous": 44.8396245103934,
+          "growthPct": -11.16760589260668,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/DEU/indicator/EG.ELC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_growth": {
+          "score": 52,
+          "raw": 0.549810373793221,
+          "previous": -0.176730867412999,
+          "growthPct": -411.10036511526846,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/DEU/indicator/NV.AGR.TOTL.KD.ZG?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_share": {
+          "score": 1,
+          "raw": 0.871426941482043,
+          "previous": 0.914397651173374,
+          "growthPct": -4.699346026992757,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/DEU/indicator/NV.AGR.TOTL.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "oil_rents": {
+          "score": 0,
+          "raw": 0.0140349033815617,
+          "previous": 0.00673003142464202,
+          "growthPct": 108.54142419265504,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/DEU/indicator/NY.GDP.PETR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "gas_rents": {
+          "score": 0,
+          "raw": 0.0176994358454919,
+          "previous": 0.00375658099524997,
+          "growthPct": 371.15810541213017,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/DEU/indicator/NY.GDP.NGAS.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "mineral_rents": {
+          "score": 0,
+          "raw": 0,
+          "previous": 0.0317233744566275,
+          "growthPct": -100.0,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/DEU/indicator/NY.GDP.MINR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        }
+      },
       "stale": false
     },
     {
@@ -27,17 +154,144 @@
       "wb": "FRA",
       "id": "250",
       "gdpRank": 2,
-      "overall": null,
-      "transport": null,
-      "site": null,
-      "water": null,
-      "oil": null,
-      "mining": null,
-      "renewables": null,
-      "agriculture": null,
-      "coverage": {},
-      "confidence": {},
-      "indicators": {},
+      "overall": 20,
+      "transport": 21,
+      "site": 20,
+      "water": 55,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 19,
+      "agriculture": 67,
+      "coverage": {
+        "overall": 100,
+        "transport": 80,
+        "site": 60,
+        "water": 35,
+        "renewables": 35,
+        "agriculture": 30,
+        "oil": 35,
+        "mining": 20
+      },
+      "confidence": {
+        "overall": "High",
+        "transport": "High",
+        "site": "Medium",
+        "water": "Insufficient",
+        "renewables": "Insufficient",
+        "agriculture": "Insufficient",
+        "oil": "Insufficient",
+        "mining": "Insufficient"
+      },
+      "indicators": {
+        "construction_production": {
+          "score": 19,
+          "raw": 54.2,
+          "previous": 58.8,
+          "growthPct": -7.823129251700667,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=FR&lastTimePeriod=25",
+          "status": "live"
+        },
+        "building_output": {
+          "score": 20,
+          "raw": 52.0,
+          "previous": 56.2,
+          "growthPct": -7.4733096085409345,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=FR&lastTimePeriod=25",
+          "status": "live"
+        },
+        "civil_output": {
+          "score": 21,
+          "raw": 61.1,
+          "previous": 65.8,
+          "growthPct": -7.14285714285714,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=FR&lastTimePeriod=25",
+          "status": "live"
+        },
+        "water_stress": {
+          "score": 21,
+          "raw": 21.38462716,
+          "previous": 21.38462716,
+          "growthPct": 0.0,
+          "date": "2022",
+          "url": "https://api.worldbank.org/v2/country/FRA/indicator/ER.H2O.FWST.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "drinking_water": {
+          "score": 100,
+          "raw": 99.7127014746794,
+          "previous": 99.7084324009763,
+          "growthPct": 0.004281557337026953,
+          "date": "2024",
+          "url": "https://api.worldbank.org/v2/country/FRA/indicator/SH.H2O.SMDW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_share": {
+          "score": 16,
+          "raw": 16.2,
+          "previous": 16.8,
+          "growthPct": -3.571428571428581,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/FRA/indicator/EG.FEC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_electricity": {
+          "score": 23,
+          "raw": 22.8074034074034,
+          "previous": 24.3619634665485,
+          "growthPct": -6.381095108691348,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/FRA/indicator/EG.ELC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_growth": {
+          "score": 100,
+          "raw": 6.94996001908332,
+          "previous": -14.7863230734435,
+          "growthPct": -147.00262522713015,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/FRA/indicator/NV.AGR.TOTL.KD.ZG?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_share": {
+          "score": 1,
+          "raw": 1.40317576023592,
+          "previous": 1.29979455802577,
+          "growthPct": 7.953657104640732,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/FRA/indicator/NV.AGR.TOTL.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "oil_rents": {
+          "score": 0,
+          "raw": 0.0071021867060762,
+          "previous": 0.00329710789889294,
+          "growthPct": 115.40656004800086,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/FRA/indicator/NY.GDP.PETR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "gas_rents": {
+          "score": 0,
+          "raw": 0.000137795686740901,
+          "previous": 2.13920330256276e-05,
+          "growthPct": 544.1448859761114,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/FRA/indicator/NY.GDP.NGAS.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "mineral_rents": {
+          "score": 0,
+          "raw": 0,
+          "previous": 0,
+          "growthPct": null,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/FRA/indicator/NY.GDP.MINR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        }
+      },
       "stale": false
     },
     {
@@ -46,17 +300,144 @@
       "wb": "ITA",
       "id": "380",
       "gdpRank": 3,
-      "overall": null,
+      "overall": 45,
       "transport": null,
       "site": null,
-      "water": null,
-      "oil": null,
-      "mining": null,
-      "renewables": null,
-      "agriculture": null,
-      "coverage": {},
-      "confidence": {},
-      "indicators": {},
+      "water": 59,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 28,
+      "agriculture": 28,
+      "coverage": {
+        "overall": 55,
+        "transport": 0,
+        "site": 0,
+        "water": 35,
+        "renewables": 35,
+        "agriculture": 30,
+        "oil": 35,
+        "mining": 20
+      },
+      "confidence": {
+        "overall": "Medium",
+        "transport": "Insufficient",
+        "site": "Insufficient",
+        "water": "Insufficient",
+        "renewables": "Insufficient",
+        "agriculture": "Insufficient",
+        "oil": "Insufficient",
+        "mining": "Insufficient"
+      },
+      "indicators": {
+        "construction_production": {
+          "score": 45,
+          "raw": 154.8,
+          "previous": 156.7,
+          "growthPct": -1.2125079770261449,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=IT&lastTimePeriod=25",
+          "status": "live"
+        },
+        "building_output": {
+          "score": null,
+          "raw": null,
+          "previous": null,
+          "growthPct": null,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=IT&lastTimePeriod=25",
+          "status": "live"
+        },
+        "civil_output": {
+          "score": null,
+          "raw": null,
+          "previous": null,
+          "growthPct": null,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=IT&lastTimePeriod=25",
+          "status": "live"
+        },
+        "water_stress": {
+          "score": 30,
+          "raw": 29.76738039,
+          "previous": 29.73928981,
+          "growthPct": 0.09445612245440049,
+          "date": "2022",
+          "url": "https://api.worldbank.org/v2/country/ITA/indicator/ER.H2O.FWST.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "drinking_water": {
+          "score": 97,
+          "raw": 96.7584358284994,
+          "previous": 96.7099330826952,
+          "growthPct": 0.05015280670572775,
+          "date": "2024",
+          "url": "https://api.worldbank.org/v2/country/ITA/indicator/SH.H2O.SMDW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_share": {
+          "score": 18,
+          "raw": 17.5,
+          "previous": 18.7,
+          "growthPct": -6.4171122994652325,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/ITA/indicator/EG.FEC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_electricity": {
+          "score": 41,
+          "raw": 40.9735703240403,
+          "previous": 42.3735273463539,
+          "growthPct": -3.3038482042587414,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/ITA/indicator/EG.ELC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_growth": {
+          "score": 41,
+          "raw": -0.143010812861021,
+          "previous": 2.89734066545743,
+          "growthPct": -104.93593364998529,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/ITA/indicator/NV.AGR.TOTL.KD.ZG?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_share": {
+          "score": 2,
+          "raw": 2.06549575303668,
+          "previous": 2.00789616423237,
+          "growthPct": 2.8686537596096517,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/ITA/indicator/NV.AGR.TOTL.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "oil_rents": {
+          "score": 0,
+          "raw": 0.077005203060734,
+          "previous": 0.0398531422796994,
+          "growthPct": 93.22241272794018,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/ITA/indicator/NY.GDP.PETR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "gas_rents": {
+          "score": 0,
+          "raw": 0.0250363768484909,
+          "previous": 0.00622413506819306,
+          "growthPct": 302.2466828593303,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/ITA/indicator/NY.GDP.NGAS.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "mineral_rents": {
+          "score": 0,
+          "raw": 0,
+          "previous": 0,
+          "growthPct": null,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/ITA/indicator/NY.GDP.MINR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        }
+      },
       "stale": false
     },
     {
@@ -65,17 +446,144 @@
       "wb": "ESP",
       "id": "724",
       "gdpRank": 4,
-      "overall": null,
-      "transport": null,
-      "site": null,
-      "water": null,
-      "oil": null,
-      "mining": null,
-      "renewables": null,
-      "agriculture": null,
-      "coverage": {},
-      "confidence": {},
-      "indicators": {},
+      "overall": 26,
+      "transport": 33,
+      "site": 0,
+      "water": 67,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 31,
+      "agriculture": 15,
+      "coverage": {
+        "overall": 100,
+        "transport": 80,
+        "site": 60,
+        "water": 35,
+        "renewables": 35,
+        "agriculture": 30,
+        "oil": 35,
+        "mining": 20
+      },
+      "confidence": {
+        "overall": "High",
+        "transport": "High",
+        "site": "Medium",
+        "water": "Insufficient",
+        "renewables": "Insufficient",
+        "agriculture": "Insufficient",
+        "oil": "Insufficient",
+        "mining": "Insufficient"
+      },
+      "indicators": {
+        "construction_production": {
+          "score": 33,
+          "raw": 95.5,
+          "previous": 99.8,
+          "growthPct": -4.308617234468937,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=ES&lastTimePeriod=25",
+          "status": "live"
+        },
+        "building_output": {
+          "score": 0,
+          "raw": 61.0,
+          "previous": 78.7,
+          "growthPct": -22.49047013977129,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=ES&lastTimePeriod=25",
+          "status": "live"
+        },
+        "civil_output": {
+          "score": 33,
+          "raw": 78.9,
+          "previous": 82.3,
+          "growthPct": -4.131227217496947,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=ES&lastTimePeriod=25",
+          "status": "live"
+        },
+        "water_stress": {
+          "score": 43,
+          "raw": 43.25403923,
+          "previous": 43.25403923,
+          "growthPct": 0.0,
+          "date": "2022",
+          "url": "https://api.worldbank.org/v2/country/ESP/indicator/ER.H2O.FWST.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "drinking_water": {
+          "score": 99,
+          "raw": 99.4584646653876,
+          "previous": 99.4743158229589,
+          "growthPct": -0.015934924950389284,
+          "date": "2024",
+          "url": "https://api.worldbank.org/v2/country/ESP/indicator/SH.H2O.SMDW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_share": {
+          "score": 19,
+          "raw": 19,
+          "previous": 19.3,
+          "growthPct": -1.5544041450777257,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/ESP/indicator/EG.FEC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_electricity": {
+          "score": 47,
+          "raw": 47.0149136749395,
+          "previous": 44.5277230391878,
+          "growthPct": 5.5857125987843315,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/ESP/indicator/EG.ELC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_growth": {
+          "score": 21,
+          "raw": 1.18494496242477,
+          "previous": 10.8043673554004,
+          "growthPct": -89.03272238487436,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/ESP/indicator/NV.AGR.TOTL.KD.ZG?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_share": {
+          "score": 3,
+          "raw": 2.68233093402373,
+          "previous": 2.75300596488807,
+          "growthPct": -2.5671949776256087,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/ESP/indicator/NV.AGR.TOTL.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "oil_rents": {
+          "score": 0,
+          "raw": 0.000151493558291056,
+          "previous": 0.000295734987987405,
+          "growthPct": -48.77388051984302,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/ESP/indicator/NY.GDP.PETR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "gas_rents": {
+          "score": 0,
+          "raw": 0.000567219730435266,
+          "previous": 0.00011369527281599,
+          "growthPct": 398.89473536272885,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/ESP/indicator/NY.GDP.NGAS.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "mineral_rents": {
+          "score": 0,
+          "raw": 0.0964957986887776,
+          "previous": 0.0182082095958886,
+          "growthPct": 429.9576445482388,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/ESP/indicator/NY.GDP.MINR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        }
+      },
       "stale": false
     },
     {
@@ -84,17 +592,144 @@
       "wb": "NLD",
       "id": "528",
       "gdpRank": 5,
-      "overall": null,
-      "transport": null,
-      "site": null,
-      "water": null,
-      "oil": null,
-      "mining": null,
-      "renewables": null,
-      "agriculture": null,
-      "coverage": {},
-      "confidence": {},
-      "indicators": {},
+      "overall": 41,
+      "transport": 43,
+      "site": 28,
+      "water": 53,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 21,
+      "agriculture": 42,
+      "coverage": {
+        "overall": 100,
+        "transport": 80,
+        "site": 60,
+        "water": 35,
+        "renewables": 35,
+        "agriculture": 30,
+        "oil": 35,
+        "mining": 20
+      },
+      "confidence": {
+        "overall": "High",
+        "transport": "High",
+        "site": "Medium",
+        "water": "Insufficient",
+        "renewables": "Insufficient",
+        "agriculture": "Insufficient",
+        "oil": "Insufficient",
+        "mining": "Insufficient"
+      },
+      "indicators": {
+        "construction_production": {
+          "score": 44,
+          "raw": 41.7,
+          "previous": 42.3,
+          "growthPct": -1.4184397163120477,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=NL&lastTimePeriod=25",
+          "status": "live"
+        },
+        "building_output": {
+          "score": 28,
+          "raw": 41.5,
+          "previous": 43.9,
+          "growthPct": -5.46697038724373,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=NL&lastTimePeriod=25",
+          "status": "live"
+        },
+        "civil_output": {
+          "score": 43,
+          "raw": 41.4,
+          "previous": 42.1,
+          "growthPct": -1.6627078384798155,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=NL&lastTimePeriod=25",
+          "status": "live"
+        },
+        "water_stress": {
+          "score": 17,
+          "raw": 16.65850698,
+          "previous": 16.07566255,
+          "growthPct": 3.6256324004511953,
+          "date": "2022",
+          "url": "https://api.worldbank.org/v2/country/NLD/indicator/ER.H2O.FWST.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "drinking_water": {
+          "score": 100,
+          "raw": 99.9595063956065,
+          "previous": 99.9610869442031,
+          "growthPct": -0.0015811638757856628,
+          "date": "2024",
+          "url": "https://api.worldbank.org/v2/country/NLD/indicator/SH.H2O.SMDW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_share": {
+          "score": 12,
+          "raw": 12.2,
+          "previous": 10.7,
+          "growthPct": 14.018691588785037,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/NLD/indicator/EG.FEC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_electricity": {
+          "score": 33,
+          "raw": 33.1271998035524,
+          "previous": 26.5575690715294,
+          "growthPct": 24.73731957291929,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/NLD/indicator/EG.ELC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_growth": {
+          "score": 62,
+          "raw": 1.50237955821859,
+          "previous": -2.35278253122497,
+          "growthPct": -163.85543662789692,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/NLD/indicator/NV.AGR.TOTL.KD.ZG?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_share": {
+          "score": 2,
+          "raw": 1.68323077210041,
+          "previous": 1.73109724727451,
+          "growthPct": -2.7650945231102675,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/NLD/indicator/NV.AGR.TOTL.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "oil_rents": {
+          "score": 0,
+          "raw": 0.024399192645775,
+          "previous": 0.0111244987898519,
+          "growthPct": 119.3284668971574,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/NLD/indicator/NY.GDP.PETR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "gas_rents": {
+          "score": 0,
+          "raw": 0.312284681581925,
+          "previous": 0.0687746204407482,
+          "growthPct": 354.069654736909,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/NLD/indicator/NY.GDP.NGAS.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "mineral_rents": {
+          "score": 0,
+          "raw": 0,
+          "previous": 0,
+          "growthPct": null,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/NLD/indicator/NY.GDP.MINR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        }
+      },
       "stale": false
     },
     {
@@ -106,14 +741,141 @@
       "overall": null,
       "transport": null,
       "site": null,
-      "water": null,
-      "oil": null,
-      "mining": null,
-      "renewables": null,
-      "agriculture": null,
-      "coverage": {},
-      "confidence": {},
-      "indicators": {},
+      "water": 45,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 45,
+      "agriculture": 47,
+      "coverage": {
+        "overall": 0,
+        "transport": 0,
+        "site": 0,
+        "water": 35,
+        "renewables": 35,
+        "agriculture": 30,
+        "oil": 35,
+        "mining": 20
+      },
+      "confidence": {
+        "overall": "Insufficient",
+        "transport": "Insufficient",
+        "site": "Insufficient",
+        "water": "Insufficient",
+        "renewables": "Insufficient",
+        "agriculture": "Insufficient",
+        "oil": "Insufficient",
+        "mining": "Insufficient"
+      },
+      "indicators": {
+        "construction_production": {
+          "score": null,
+          "raw": null,
+          "previous": null,
+          "growthPct": null,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=CH&lastTimePeriod=25",
+          "status": "live"
+        },
+        "building_output": {
+          "score": null,
+          "raw": null,
+          "previous": null,
+          "growthPct": null,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=CH&lastTimePeriod=25",
+          "status": "live"
+        },
+        "civil_output": {
+          "score": null,
+          "raw": null,
+          "previous": null,
+          "growthPct": null,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=CH&lastTimePeriod=25",
+          "status": "live"
+        },
+        "water_stress": {
+          "score": 6,
+          "raw": 6.498855835,
+          "previous": 6.498855835,
+          "growthPct": 0.0,
+          "date": "2022",
+          "url": "https://api.worldbank.org/v2/country/CHE/indicator/ER.H2O.FWST.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "drinking_water": {
+          "score": 97,
+          "raw": 96.6999968881937,
+          "previous": 96.7000003832463,
+          "growthPct": -3.61432532791639e-06,
+          "date": "2024",
+          "url": "https://api.worldbank.org/v2/country/CHE/indicator/SH.H2O.SMDW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_share": {
+          "score": 28,
+          "raw": 27.7,
+          "previous": 26.4,
+          "growthPct": 4.924242424242431,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/CHE/indicator/EG.FEC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_electricity": {
+          "score": 68,
+          "raw": 67.8762344840083,
+          "previous": 63.7239746535757,
+          "growthPct": 6.516008853819355,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/CHE/indicator/EG.ELC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_growth": {
+          "score": 70,
+          "raw": 4.55902588620998,
+          "previous": -2.13414422362234,
+          "growthPct": -313.6231392305729,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/CHE/indicator/NV.AGR.TOTL.KD.ZG?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_share": {
+          "score": 1,
+          "raw": 0.644624328848247,
+          "previous": 0.609491823525514,
+          "growthPct": 5.764229144127708,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/CHE/indicator/NV.AGR.TOTL.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "oil_rents": {
+          "score": 0,
+          "raw": 0.000512290057871237,
+          "previous": 0.000231251911067443,
+          "growthPct": 121.52900510380266,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/CHE/indicator/NY.GDP.PETR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "gas_rents": {
+          "score": 0,
+          "raw": 0,
+          "previous": 0,
+          "growthPct": null,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/CHE/indicator/NY.GDP.NGAS.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "mineral_rents": {
+          "score": 0,
+          "raw": 0,
+          "previous": 0,
+          "growthPct": null,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/CHE/indicator/NY.GDP.MINR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        }
+      },
       "stale": false
     },
     {
@@ -122,17 +884,144 @@
       "wb": "POL",
       "id": "616",
       "gdpRank": 7,
-      "overall": null,
-      "transport": null,
-      "site": null,
-      "water": null,
-      "oil": null,
-      "mining": null,
-      "renewables": null,
-      "agriculture": null,
-      "coverage": {},
-      "confidence": {},
-      "indicators": {},
+      "overall": 62,
+      "transport": 100,
+      "site": 0,
+      "water": 56,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 16,
+      "agriculture": 40,
+      "coverage": {
+        "overall": 100,
+        "transport": 80,
+        "site": 60,
+        "water": 35,
+        "renewables": 35,
+        "agriculture": 30,
+        "oil": 35,
+        "mining": 20
+      },
+      "confidence": {
+        "overall": "High",
+        "transport": "High",
+        "site": "Medium",
+        "water": "Insufficient",
+        "renewables": "Insufficient",
+        "agriculture": "Insufficient",
+        "oil": "Insufficient",
+        "mining": "Insufficient"
+      },
+      "indicators": {
+        "construction_production": {
+          "score": 67,
+          "raw": 105.0,
+          "previous": 100.6,
+          "growthPct": 4.373757455268401,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=PL&lastTimePeriod=25",
+          "status": "live"
+        },
+        "building_output": {
+          "score": 0,
+          "raw": 80.7,
+          "previous": 100.4,
+          "growthPct": -19.62151394422311,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=PL&lastTimePeriod=25",
+          "status": "live"
+        },
+        "civil_output": {
+          "score": 100,
+          "raw": 122.6,
+          "previous": 95.0,
+          "growthPct": 29.052631578947352,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=PL&lastTimePeriod=25",
+          "status": "live"
+        },
+        "water_stress": {
+          "score": 32,
+          "raw": 32.48528903,
+          "previous": 32.0768432,
+          "growthPct": 1.2733354945601238,
+          "date": "2022",
+          "url": "https://api.worldbank.org/v2/country/POL/indicator/ER.H2O.FWST.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "drinking_water": {
+          "score": 89,
+          "raw": 88.6755462509034,
+          "previous": 89.1886328736699,
+          "growthPct": -0.5752825289891628,
+          "date": "2024",
+          "url": "https://api.worldbank.org/v2/country/POL/indicator/SH.H2O.SMDW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_share": {
+          "score": 15,
+          "raw": 15.2,
+          "previous": 16.1,
+          "growthPct": -5.590062111801252,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/POL/indicator/EG.FEC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_electricity": {
+          "score": 17,
+          "raw": 17.4599985525884,
+          "previous": 18.3995140532264,
+          "growthPct": -5.106197358909359,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/POL/indicator/EG.ELC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_growth": {
+          "score": 59,
+          "raw": 1.54994655850329,
+          "previous": -1.30658054952619,
+          "growthPct": -218.62617724298383,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/POL/indicator/NV.AGR.TOTL.KD.ZG?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_share": {
+          "score": 2,
+          "raw": 2.45366601523879,
+          "previous": 2.54032372848325,
+          "growthPct": -3.411286218083742,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/POL/indicator/NV.AGR.TOTL.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "oil_rents": {
+          "score": 0,
+          "raw": 0.0413524772617714,
+          "previous": 0.0207199460419149,
+          "growthPct": 99.57811269449464,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/POL/indicator/NY.GDP.PETR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "gas_rents": {
+          "score": 0,
+          "raw": 0.100227855236231,
+          "previous": 0.0205391007038032,
+          "growthPct": 387.98560697290867,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/POL/indicator/NY.GDP.NGAS.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "mineral_rents": {
+          "score": 0,
+          "raw": 0.478472019710133,
+          "previous": 0.162961120137964,
+          "growthPct": 193.6111505032951,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/POL/indicator/NY.GDP.MINR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        }
+      },
       "stale": false
     },
     {
@@ -141,17 +1030,144 @@
       "wb": "BEL",
       "id": "056",
       "gdpRank": 8,
-      "overall": null,
-      "transport": null,
-      "site": null,
-      "water": null,
-      "oil": null,
-      "mining": null,
-      "renewables": null,
-      "agriculture": null,
-      "coverage": {},
-      "confidence": {},
-      "indicators": {},
+      "overall": 51,
+      "transport": 67,
+      "site": 35,
+      "water": 73,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 17,
+      "agriculture": 27,
+      "coverage": {
+        "overall": 100,
+        "transport": 80,
+        "site": 60,
+        "water": 35,
+        "renewables": 35,
+        "agriculture": 30,
+        "oil": 35,
+        "mining": 20
+      },
+      "confidence": {
+        "overall": "High",
+        "transport": "High",
+        "site": "Medium",
+        "water": "Insufficient",
+        "renewables": "Insufficient",
+        "agriculture": "Insufficient",
+        "oil": "Insufficient",
+        "mining": "Insufficient"
+      },
+      "indicators": {
+        "construction_production": {
+          "score": 49,
+          "raw": 98.1,
+          "previous": 98.4,
+          "growthPct": -0.3048780487804992,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=BE&lastTimePeriod=25",
+          "status": "live"
+        },
+        "building_output": {
+          "score": 35,
+          "raw": 89.1,
+          "previous": 92.5,
+          "growthPct": -3.6756756756756825,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=BE&lastTimePeriod=25",
+          "status": "live"
+        },
+        "civil_output": {
+          "score": 67,
+          "raw": 112.0,
+          "previous": 107.5,
+          "growthPct": 4.1860465116279055,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=BE&lastTimePeriod=25",
+          "status": "live"
+        },
+        "water_stress": {
+          "score": 53,
+          "raw": 52.82574225,
+          "previous": 52.82574225,
+          "growthPct": 0.0,
+          "date": "2022",
+          "url": "https://api.worldbank.org/v2/country/BEL/indicator/ER.H2O.FWST.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "drinking_water": {
+          "score": 100,
+          "raw": 99.5471345182049,
+          "previous": 99.5609157233581,
+          "growthPct": -0.013841983124673884,
+          "date": "2024",
+          "url": "https://api.worldbank.org/v2/country/BEL/indicator/SH.H2O.SMDW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_share": {
+          "score": 12,
+          "raw": 11.7,
+          "previous": 12.3,
+          "growthPct": -4.87804878048782,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/BEL/indicator/EG.FEC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_electricity": {
+          "score": 24,
+          "raw": 23.5431574128442,
+          "previous": 27.404335237499,
+          "growthPct": -14.089660600018206,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/BEL/indicator/EG.ELC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_growth": {
+          "score": 40,
+          "raw": -0.154942671211657,
+          "previous": 3.20395406309058,
+          "growthPct": -104.83598291862515,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/BEL/indicator/NV.AGR.TOTL.KD.ZG?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_share": {
+          "score": 1,
+          "raw": 0.730169514651754,
+          "previous": 0.792093358711035,
+          "growthPct": -7.817745645544749,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/BEL/indicator/NV.AGR.TOTL.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "oil_rents": {
+          "score": 0,
+          "raw": 0.0312735679835233,
+          "previous": 0.0147576977551149,
+          "growthPct": 111.9135958905523,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/BEL/indicator/NY.GDP.PETR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "gas_rents": {
+          "score": 0,
+          "raw": 0.000136779184332235,
+          "previous": 3.13349862684409e-05,
+          "growthPct": 336.506284574289,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/BEL/indicator/NY.GDP.NGAS.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "mineral_rents": {
+          "score": 0,
+          "raw": 0,
+          "previous": 0,
+          "growthPct": null,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/BEL/indicator/NY.GDP.MINR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        }
+      },
       "stale": false
     },
     {
@@ -163,14 +1179,141 @@
       "overall": null,
       "transport": null,
       "site": null,
-      "water": null,
-      "oil": null,
-      "mining": null,
-      "renewables": null,
-      "agriculture": null,
-      "coverage": {},
-      "confidence": {},
-      "indicators": {},
+      "water": 46,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 23,
+      "agriculture": 36,
+      "coverage": {
+        "overall": 0,
+        "transport": 0,
+        "site": 0,
+        "water": 35,
+        "renewables": 35,
+        "agriculture": 30,
+        "oil": 35,
+        "mining": 20
+      },
+      "confidence": {
+        "overall": "Insufficient",
+        "transport": "Insufficient",
+        "site": "Insufficient",
+        "water": "Insufficient",
+        "renewables": "Insufficient",
+        "agriculture": "Insufficient",
+        "oil": "Insufficient",
+        "mining": "Insufficient"
+      },
+      "indicators": {
+        "construction_production": {
+          "score": null,
+          "raw": null,
+          "previous": null,
+          "growthPct": null,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=IE&lastTimePeriod=25",
+          "status": "live"
+        },
+        "building_output": {
+          "score": null,
+          "raw": null,
+          "previous": null,
+          "growthPct": null,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=IE&lastTimePeriod=25",
+          "status": "live"
+        },
+        "civil_output": {
+          "score": null,
+          "raw": null,
+          "previous": null,
+          "growthPct": null,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=IE&lastTimePeriod=25",
+          "status": "live"
+        },
+        "water_stress": {
+          "score": 8,
+          "raw": 8.051010587,
+          "previous": 7.60827719,
+          "growthPct": 5.819101827440121,
+          "date": "2022",
+          "url": "https://api.worldbank.org/v2/country/IRL/indicator/ER.H2O.FWST.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "drinking_water": {
+          "score": 96,
+          "raw": 96.1250111631294,
+          "previous": 95.6265995419887,
+          "growthPct": 0.5212060488691383,
+          "date": "2024",
+          "url": "https://api.worldbank.org/v2/country/IRL/indicator/SH.H2O.SMDW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_share": {
+          "score": 13,
+          "raw": 12.7,
+          "previous": 13.7,
+          "growthPct": -7.299270072992703,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/IRL/indicator/EG.FEC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_electricity": {
+          "score": 37,
+          "raw": 37.1541775946047,
+          "previous": 42.3895067623772,
+          "growthPct": -12.35053098664295,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/IRL/indicator/EG.ELC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_growth": {
+          "score": 53,
+          "raw": 2.43737750713338,
+          "previous": 1.27592226211331,
+          "growthPct": 91.02868407487081,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/IRL/indicator/NV.AGR.TOTL.KD.ZG?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_share": {
+          "score": 1,
+          "raw": 1.05705676036934,
+          "previous": 1.02114448018423,
+          "growthPct": 3.51686572096348,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/IRL/indicator/NV.AGR.TOTL.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "oil_rents": {
+          "score": 0,
+          "raw": 0.00194465680647297,
+          "previous": 0.00096047242789138,
+          "growthPct": 102.46877994637148,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/IRL/indicator/NY.GDP.PETR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "gas_rents": {
+          "score": 0,
+          "raw": 0.0510779344974277,
+          "previous": 0.0140574923991153,
+          "growthPct": 263.3502551325745,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/IRL/indicator/NY.GDP.NGAS.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "mineral_rents": {
+          "score": 0,
+          "raw": 0.0362496707797038,
+          "previous": 0.0101375129035784,
+          "growthPct": 257.5795278830982,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/IRL/indicator/NY.GDP.MINR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        }
+      },
       "stale": false
     },
     {
@@ -179,17 +1322,144 @@
       "wb": "SWE",
       "id": "752",
       "gdpRank": 10,
-      "overall": null,
-      "transport": null,
-      "site": null,
-      "water": null,
-      "oil": null,
-      "mining": null,
-      "renewables": null,
-      "agriculture": null,
-      "coverage": {},
-      "confidence": {},
-      "indicators": {},
+      "overall": 65,
+      "transport": 44,
+      "site": 87,
+      "water": 45,
+      "oil": 0,
+      "mining": 1,
+      "renewables": 62,
+      "agriculture": 27,
+      "coverage": {
+        "overall": 100,
+        "transport": 80,
+        "site": 60,
+        "water": 35,
+        "renewables": 35,
+        "agriculture": 30,
+        "oil": 35,
+        "mining": 20
+      },
+      "confidence": {
+        "overall": "High",
+        "transport": "High",
+        "site": "Medium",
+        "water": "Insufficient",
+        "renewables": "Insufficient",
+        "agriculture": "Insufficient",
+        "oil": "Insufficient",
+        "mining": "Insufficient"
+      },
+      "indicators": {
+        "construction_production": {
+          "score": 66,
+          "raw": 87.2,
+          "previous": 83.9,
+          "growthPct": 3.933253873659104,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=SE&lastTimePeriod=25",
+          "status": "live"
+        },
+        "building_output": {
+          "score": 87,
+          "raw": 72.0,
+          "previous": 65.9,
+          "growthPct": 9.256449165402113,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=SE&lastTimePeriod=25",
+          "status": "live"
+        },
+        "civil_output": {
+          "score": 44,
+          "raw": 106.6,
+          "previous": 108.3,
+          "growthPct": -1.5697137580794163,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=SE&lastTimePeriod=25",
+          "status": "live"
+        },
+        "water_stress": {
+          "score": 4,
+          "raw": 3.582972583,
+          "previous": 3.582972583,
+          "growthPct": 0.0,
+          "date": "2022",
+          "url": "https://api.worldbank.org/v2/country/SWE/indicator/ER.H2O.FWST.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "drinking_water": {
+          "score": 100,
+          "raw": 99.7607966673045,
+          "previous": 99.7602354276088,
+          "growthPct": 0.0005625885838078659,
+          "date": "2024",
+          "url": "https://api.worldbank.org/v2/country/SWE/indicator/SH.H2O.SMDW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_share": {
+          "score": 58,
+          "raw": 57.9,
+          "previous": 57.8,
+          "growthPct": 0.17301038062282892,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/SWE/indicator/EG.FEC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_electricity": {
+          "score": 67,
+          "raw": 67.3919370423404,
+          "previous": 68.4807090146674,
+          "growthPct": -1.5898958816179865,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/SWE/indicator/EG.ELC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_growth": {
+          "score": 39,
+          "raw": -7.02447402318592,
+          "previous": -3.40107839070924,
+          "growthPct": 106.5366691451378,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/SWE/indicator/NV.AGR.TOTL.KD.ZG?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_share": {
+          "score": 2,
+          "raw": 1.50330918888001,
+          "previous": 1.43580726942066,
+          "growthPct": 4.701321750974752,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/SWE/indicator/NV.AGR.TOTL.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "oil_rents": {
+          "score": 0,
+          "raw": 0.0272391808431431,
+          "previous": 0.0132039613355993,
+          "growthPct": 106.29552110019694,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/SWE/indicator/NY.GDP.PETR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "gas_rents": {
+          "score": 0,
+          "raw": 0,
+          "previous": 0,
+          "growthPct": null,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/SWE/indicator/NY.GDP.NGAS.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "mineral_rents": {
+          "score": 1,
+          "raw": 1.00125372772349,
+          "previous": 0.17739716332548,
+          "growthPct": 464.4136067082632,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/SWE/indicator/NY.GDP.MINR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        }
+      },
       "stale": false
     },
     {
@@ -198,17 +1468,144 @@
       "wb": "AUT",
       "id": "040",
       "gdpRank": 11,
-      "overall": null,
-      "transport": null,
-      "site": null,
-      "water": null,
-      "oil": null,
-      "mining": null,
-      "renewables": null,
-      "agriculture": null,
-      "coverage": {},
-      "confidence": {},
-      "indicators": {},
+      "overall": 49,
+      "transport": 0,
+      "site": 94,
+      "water": 48,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 55,
+      "agriculture": 32,
+      "coverage": {
+        "overall": 100,
+        "transport": 80,
+        "site": 60,
+        "water": 35,
+        "renewables": 35,
+        "agriculture": 30,
+        "oil": 35,
+        "mining": 20
+      },
+      "confidence": {
+        "overall": "High",
+        "transport": "High",
+        "site": "Medium",
+        "water": "Insufficient",
+        "renewables": "Insufficient",
+        "agriculture": "Insufficient",
+        "oil": "Insufficient",
+        "mining": "Insufficient"
+      },
+      "indicators": {
+        "construction_production": {
+          "score": 55,
+          "raw": 97.2,
+          "previous": 95.9,
+          "growthPct": 1.3555787278414888,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=AT&lastTimePeriod=25",
+          "status": "live"
+        },
+        "building_output": {
+          "score": 94,
+          "raw": 83.2,
+          "previous": 75.0,
+          "growthPct": 10.933333333333328,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=AT&lastTimePeriod=25",
+          "status": "live"
+        },
+        "civil_output": {
+          "score": 0,
+          "raw": 111.0,
+          "previous": 131.1,
+          "growthPct": -15.33180778032036,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=AT&lastTimePeriod=25",
+          "status": "live"
+        },
+        "water_stress": {
+          "score": 9,
+          "raw": 8.676429953,
+          "previous": 8.676429953,
+          "growthPct": 0.0,
+          "date": "2022",
+          "url": "https://api.worldbank.org/v2/country/AUT/indicator/ER.H2O.FWST.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "drinking_water": {
+          "score": 99,
+          "raw": 98.8915357232143,
+          "previous": 98.8939971369106,
+          "growthPct": -0.0024889414600992588,
+          "date": "2024",
+          "url": "https://api.worldbank.org/v2/country/AUT/indicator/SH.H2O.SMDW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_share": {
+          "score": 36,
+          "raw": 36,
+          "previous": 35.8,
+          "growthPct": 0.5586592178770999,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/AUT/indicator/EG.FEC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_electricity": {
+          "score": 80,
+          "raw": 79.9114280061055,
+          "previous": 80.9966233909424,
+          "growthPct": -1.3398032404376314,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/AUT/indicator/EG.ELC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_growth": {
+          "score": 48,
+          "raw": 1.56869211848507,
+          "previous": 2.2144915318766,
+          "growthPct": -29.16242415450864,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/AUT/indicator/NV.AGR.TOTL.KD.ZG?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_share": {
+          "score": 1,
+          "raw": 1.25694809585953,
+          "previous": 1.21663375792448,
+          "growthPct": 3.3135968546380346,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/AUT/indicator/NV.AGR.TOTL.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "oil_rents": {
+          "score": 0,
+          "raw": 0.0378037868173202,
+          "previous": 0.0172756920777442,
+          "growthPct": 118.82646812177083,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/AUT/indicator/NY.GDP.PETR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "gas_rents": {
+          "score": 0,
+          "raw": 0.0240584970736946,
+          "previous": 0.00526918629933914,
+          "growthPct": 356.58846939444925,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/AUT/indicator/NY.GDP.NGAS.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "mineral_rents": {
+          "score": 0,
+          "raw": 0,
+          "previous": 0,
+          "growthPct": null,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/AUT/indicator/NY.GDP.MINR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        }
+      },
       "stale": false
     },
     {
@@ -217,17 +1614,144 @@
       "wb": "NOR",
       "id": "578",
       "gdpRank": 12,
-      "overall": null,
-      "transport": null,
-      "site": null,
-      "water": null,
-      "oil": null,
-      "mining": null,
-      "renewables": null,
-      "agriculture": null,
-      "coverage": {},
-      "confidence": {},
-      "indicators": {},
+      "overall": 40,
+      "transport": 26,
+      "site": 48,
+      "water": 44,
+      "oil": 5,
+      "mining": 0,
+      "renewables": 77,
+      "agriculture": 41,
+      "coverage": {
+        "overall": 100,
+        "transport": 80,
+        "site": 60,
+        "water": 35,
+        "renewables": 35,
+        "agriculture": 30,
+        "oil": 35,
+        "mining": 20
+      },
+      "confidence": {
+        "overall": "High",
+        "transport": "High",
+        "site": "Medium",
+        "water": "Insufficient",
+        "renewables": "Insufficient",
+        "agriculture": "Insufficient",
+        "oil": "Insufficient",
+        "mining": "Insufficient"
+      },
+      "indicators": {
+        "construction_production": {
+          "score": 44,
+          "raw": 98.1,
+          "previous": 99.6,
+          "growthPct": -1.5060240963855387,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=NO&lastTimePeriod=25",
+          "status": "live"
+        },
+        "building_output": {
+          "score": 48,
+          "raw": 92.5,
+          "previous": 93.0,
+          "growthPct": -0.5376344086021501,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=NO&lastTimePeriod=25",
+          "status": "live"
+        },
+        "civil_output": {
+          "score": 26,
+          "raw": 102.9,
+          "previous": 109.5,
+          "growthPct": -6.02739726027397,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=NO&lastTimePeriod=25",
+          "status": "live"
+        },
+        "water_stress": {
+          "score": 2,
+          "raw": 2.044007605,
+          "previous": 2.009498099,
+          "growthPct": 1.7173196639087784,
+          "date": "2022",
+          "url": "https://api.worldbank.org/v2/country/NOR/indicator/ER.H2O.FWST.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "drinking_water": {
+          "score": 99,
+          "raw": 99.0624830632163,
+          "previous": 99.0904537812149,
+          "growthPct": -0.028227459791796417,
+          "date": "2024",
+          "url": "https://api.worldbank.org/v2/country/NOR/indicator/SH.H2O.SMDW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_share": {
+          "score": 61,
+          "raw": 61.4,
+          "previous": 60.9,
+          "growthPct": 0.8210180623973828,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/NOR/indicator/EG.FEC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_electricity": {
+          "score": 99,
+          "raw": 99.1038297387318,
+          "previous": 98.4304584554915,
+          "growthPct": 0.6841086527548557,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/NOR/indicator/EG.ELC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_growth": {
+          "score": 60,
+          "raw": 4.64029027035235,
+          "previous": 1.47037837977102,
+          "growthPct": 215.5847728851247,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/NOR/indicator/NV.AGR.TOTL.KD.ZG?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_share": {
+          "score": 2,
+          "raw": 1.64200398430636,
+          "previous": 1.69935908261698,
+          "growthPct": -3.375101760264476,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/NOR/indicator/NV.AGR.TOTL.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "oil_rents": {
+          "score": 6,
+          "raw": 6.06347788332955,
+          "previous": 3.22981815901586,
+          "growthPct": 87.73434245527676,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/NOR/indicator/NY.GDP.PETR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "gas_rents": {
+          "score": 4,
+          "raw": 3.94366899283053,
+          "previous": 0.91000200178554,
+          "growthPct": 333.36926568211373,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/NOR/indicator/NY.GDP.NGAS.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "mineral_rents": {
+          "score": 0,
+          "raw": 0,
+          "previous": 0,
+          "growthPct": null,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/NOR/indicator/NY.GDP.MINR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        }
+      },
       "stale": false
     },
     {
@@ -236,17 +1760,144 @@
       "wb": "DNK",
       "id": "208",
       "gdpRank": 13,
-      "overall": null,
-      "transport": null,
-      "site": null,
-      "water": null,
-      "oil": null,
-      "mining": null,
-      "renewables": null,
-      "agriculture": null,
-      "coverage": {},
-      "confidence": {},
-      "indicators": {},
+      "overall": 43,
+      "transport": 2,
+      "site": 72,
+      "water": 57,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 57,
+      "agriculture": 28,
+      "coverage": {
+        "overall": 100,
+        "transport": 80,
+        "site": 60,
+        "water": 35,
+        "renewables": 35,
+        "agriculture": 30,
+        "oil": 35,
+        "mining": 20
+      },
+      "confidence": {
+        "overall": "High",
+        "transport": "High",
+        "site": "Medium",
+        "water": "Insufficient",
+        "renewables": "Insufficient",
+        "agriculture": "Insufficient",
+        "oil": "Insufficient",
+        "mining": "Insufficient"
+      },
+      "indicators": {
+        "construction_production": {
+          "score": 51,
+          "raw": 107.6,
+          "previous": 107.3,
+          "growthPct": 0.2795899347623365,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=DK&lastTimePeriod=25",
+          "status": "live"
+        },
+        "building_output": {
+          "score": 72,
+          "raw": 110.0,
+          "previous": 104.2,
+          "growthPct": 5.566218809980805,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=DK&lastTimePeriod=25",
+          "status": "live"
+        },
+        "civil_output": {
+          "score": 2,
+          "raw": 118.4,
+          "previous": 134.6,
+          "growthPct": -12.035661218424954,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=DK&lastTimePeriod=25",
+          "status": "live"
+        },
+        "water_stress": {
+          "score": 25,
+          "raw": 25.26636019,
+          "previous": 25.93739859,
+          "growthPct": -2.587146115180239,
+          "date": "2022",
+          "url": "https://api.worldbank.org/v2/country/DNK/indicator/ER.H2O.FWST.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "drinking_water": {
+          "score": 100,
+          "raw": 99.9188271389611,
+          "previous": 99.9188250709331,
+          "growthPct": 2.0697080937992496e-06,
+          "date": "2024",
+          "url": "https://api.worldbank.org/v2/country/DNK/indicator/SH.H2O.SMDW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_share": {
+          "score": 40,
+          "raw": 39.5,
+          "previous": 39.5,
+          "growthPct": 0.0,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/DNK/indicator/EG.FEC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_electricity": {
+          "score": 79,
+          "raw": 78.958880484115,
+          "previous": 81.6167850181008,
+          "growthPct": -3.2565660769366733,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/DNK/indicator/EG.ELC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_growth": {
+          "score": 42,
+          "raw": -1.91627076344771,
+          "previous": 0.860321410111851,
+          "growthPct": -322.7389369745633,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/DNK/indicator/NV.AGR.TOTL.KD.ZG?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_share": {
+          "score": 1,
+          "raw": 1.16938005441414,
+          "previous": 0.927722262099888,
+          "growthPct": 26.04850634577449,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/DNK/indicator/NV.AGR.TOTL.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "oil_rents": {
+          "score": 0,
+          "raw": 0.270290117190291,
+          "previous": 0.137036781200766,
+          "growthPct": 97.2391023941973,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/DNK/indicator/NY.GDP.PETR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "gas_rents": {
+          "score": 0,
+          "raw": 0.0551051312906266,
+          "previous": 0.0121535304658443,
+          "growthPct": 353.4084268393569,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/DNK/indicator/NY.GDP.NGAS.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "mineral_rents": {
+          "score": 0,
+          "raw": 0,
+          "previous": 0,
+          "growthPct": null,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/DNK/indicator/NY.GDP.MINR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        }
+      },
       "stale": false
     },
     {
@@ -255,17 +1906,144 @@
       "wb": "ROU",
       "id": "642",
       "gdpRank": 14,
-      "overall": null,
+      "overall": 57,
       "transport": null,
       "site": null,
-      "water": null,
-      "oil": null,
-      "mining": null,
-      "renewables": null,
-      "agriculture": null,
-      "coverage": {},
-      "confidence": {},
-      "indicators": {},
+      "water": 40,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 33,
+      "agriculture": 59,
+      "coverage": {
+        "overall": 55,
+        "transport": 0,
+        "site": 0,
+        "water": 35,
+        "renewables": 35,
+        "agriculture": 30,
+        "oil": 35,
+        "mining": 20
+      },
+      "confidence": {
+        "overall": "Medium",
+        "transport": "Insufficient",
+        "site": "Insufficient",
+        "water": "Insufficient",
+        "renewables": "Insufficient",
+        "agriculture": "Insufficient",
+        "oil": "Insufficient",
+        "mining": "Insufficient"
+      },
+      "indicators": {
+        "construction_production": {
+          "score": 57,
+          "raw": 175.5,
+          "previous": 172.4,
+          "growthPct": 1.798143851508116,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=RO&lastTimePeriod=25",
+          "status": "live"
+        },
+        "building_output": {
+          "score": null,
+          "raw": null,
+          "previous": null,
+          "growthPct": null,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=RO&lastTimePeriod=25",
+          "status": "live"
+        },
+        "civil_output": {
+          "score": null,
+          "raw": null,
+          "previous": null,
+          "growthPct": null,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=RO&lastTimePeriod=25",
+          "status": "live"
+        },
+        "water_stress": {
+          "score": 8,
+          "raw": 7.63130793,
+          "previous": 7.362606498,
+          "growthPct": 3.6495422113485443,
+          "date": "2022",
+          "url": "https://api.worldbank.org/v2/country/ROU/indicator/ER.H2O.FWST.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "drinking_water": {
+          "score": 82,
+          "raw": 82.182992939047,
+          "previous": 82.1241205778657,
+          "growthPct": 0.07168705219251503,
+          "date": "2024",
+          "url": "https://api.worldbank.org/v2/country/ROU/indicator/SH.H2O.SMDW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_share": {
+          "score": 24,
+          "raw": 23.6,
+          "previous": 24.1,
+          "growthPct": -2.0746887966805017,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/ROU/indicator/EG.FEC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_electricity": {
+          "score": 45,
+          "raw": 44.8574239112157,
+          "previous": 44.5645939857689,
+          "growthPct": 0.6570909757201093,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/ROU/indicator/EG.ELC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_growth": {
+          "score": 87,
+          "raw": 6.5772580133161,
+          "previous": -5.73306706606758,
+          "growthPct": -214.72494456318242,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/ROU/indicator/NV.AGR.TOTL.KD.ZG?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_share": {
+          "score": 3,
+          "raw": 3.00114031225865,
+          "previous": 2.81143528363417,
+          "growthPct": 6.747622103513629,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/ROU/indicator/NV.AGR.TOTL.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "oil_rents": {
+          "score": 0,
+          "raw": 0.378228984068352,
+          "previous": 0.18364537995674,
+          "growthPct": 105.95616625773468,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/ROU/indicator/NY.GDP.PETR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "gas_rents": {
+          "score": 1,
+          "raw": 0.530624056118085,
+          "previous": 0.105530553930276,
+          "growthPct": 402.8155698573023,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/ROU/indicator/NY.GDP.NGAS.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "mineral_rents": {
+          "score": 0,
+          "raw": 0.0348196818124865,
+          "previous": 0.0124065679182321,
+          "growthPct": 180.6552306969372,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/ROU/indicator/NY.GDP.MINR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        }
+      },
       "stale": false
     },
     {
@@ -274,17 +2052,144 @@
       "wb": "CZE",
       "id": "203",
       "gdpRank": 15,
-      "overall": null,
-      "transport": null,
-      "site": null,
-      "water": null,
-      "oil": null,
-      "mining": null,
-      "renewables": null,
-      "agriculture": null,
-      "coverage": {},
-      "confidence": {},
-      "indicators": {},
+      "overall": 35,
+      "transport": 1,
+      "site": 55,
+      "water": 55,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 16,
+      "agriculture": 38,
+      "coverage": {
+        "overall": 100,
+        "transport": 80,
+        "site": 60,
+        "water": 35,
+        "renewables": 35,
+        "agriculture": 30,
+        "oil": 35,
+        "mining": 20
+      },
+      "confidence": {
+        "overall": "High",
+        "transport": "High",
+        "site": "Medium",
+        "water": "Insufficient",
+        "renewables": "Insufficient",
+        "agriculture": "Insufficient",
+        "oil": "Insufficient",
+        "mining": "Insufficient"
+      },
+      "indicators": {
+        "construction_production": {
+          "score": 44,
+          "raw": 128.5,
+          "previous": 130.3,
+          "growthPct": -1.3814274750575728,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=CZ&lastTimePeriod=25",
+          "status": "live"
+        },
+        "building_output": {
+          "score": 55,
+          "raw": 115.9,
+          "previous": 114.4,
+          "growthPct": 1.3111888111888126,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=CZ&lastTimePeriod=25",
+          "status": "live"
+        },
+        "civil_output": {
+          "score": 1,
+          "raw": 131.6,
+          "previous": 150.1,
+          "growthPct": -12.325116588940709,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=CZ&lastTimePeriod=25",
+          "status": "live"
+        },
+        "water_stress": {
+          "score": 22,
+          "raw": 21.97384428,
+          "previous": 20.51399027,
+          "growthPct": 7.116382482324335,
+          "date": "2022",
+          "url": "https://api.worldbank.org/v2/country/CZE/indicator/ER.H2O.FWST.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "drinking_water": {
+          "score": 98,
+          "raw": 98.1448728385564,
+          "previous": 98.1457976100181,
+          "growthPct": -0.000942242545509675,
+          "date": "2024",
+          "url": "https://api.worldbank.org/v2/country/CZE/indicator/SH.H2O.SMDW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_share": {
+          "score": 17,
+          "raw": 17.2,
+          "previous": 17,
+          "growthPct": 1.17647058823529,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/CZE/indicator/EG.FEC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_electricity": {
+          "score": 14,
+          "raw": 14.0234899723578,
+          "previous": 14.3377287669889,
+          "growthPct": -2.1916915833601336,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/CZE/indicator/EG.ELC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_growth": {
+          "score": 56,
+          "raw": 3.40883606189728,
+          "previous": 1.33323233088403,
+          "growthPct": 155.68207302901018,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/CZE/indicator/NV.AGR.TOTL.KD.ZG?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_share": {
+          "score": 2,
+          "raw": 1.94982686749134,
+          "previous": 1.89888309462287,
+          "growthPct": 2.682828290626693,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/CZE/indicator/NV.AGR.TOTL.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "oil_rents": {
+          "score": 0,
+          "raw": 0.00965696429550218,
+          "previous": 0.00507207922757448,
+          "growthPct": 90.39458695759055,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/CZE/indicator/NY.GDP.PETR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "gas_rents": {
+          "score": 0,
+          "raw": 0.0121354470762149,
+          "previous": 0.00239675481758074,
+          "growthPct": 406.32826466848604,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/CZE/indicator/NY.GDP.NGAS.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "mineral_rents": {
+          "score": 0,
+          "raw": 0,
+          "previous": 0,
+          "growthPct": null,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/CZE/indicator/NY.GDP.MINR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        }
+      },
       "stale": false
     },
     {
@@ -293,17 +2198,144 @@
       "wb": "PRT",
       "id": "620",
       "gdpRank": 16,
-      "overall": null,
-      "transport": null,
-      "site": null,
-      "water": null,
-      "oil": null,
-      "mining": null,
-      "renewables": null,
-      "agriculture": null,
-      "coverage": {},
-      "confidence": {},
-      "indicators": {},
+      "overall": 54,
+      "transport": 50,
+      "site": 50,
+      "water": 48,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 46,
+      "agriculture": 19,
+      "coverage": {
+        "overall": 100,
+        "transport": 80,
+        "site": 60,
+        "water": 35,
+        "renewables": 35,
+        "agriculture": 30,
+        "oil": 35,
+        "mining": 20
+      },
+      "confidence": {
+        "overall": "High",
+        "transport": "High",
+        "site": "Medium",
+        "water": "Insufficient",
+        "renewables": "Insufficient",
+        "agriculture": "Insufficient",
+        "oil": "Insufficient",
+        "mining": "Insufficient"
+      },
+      "indicators": {
+        "construction_production": {
+          "score": 58,
+          "raw": 108.4,
+          "previous": 106.3,
+          "growthPct": 1.9755409219190945,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=PT&lastTimePeriod=25",
+          "status": "live"
+        },
+        "building_output": {
+          "score": 50,
+          "raw": 103.4,
+          "previous": 103.5,
+          "growthPct": -0.09661835748792091,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=PT&lastTimePeriod=25",
+          "status": "live"
+        },
+        "civil_output": {
+          "score": 50,
+          "raw": 103.2,
+          "previous": 103.3,
+          "growthPct": -0.09680542110357404,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=PT&lastTimePeriod=25",
+          "status": "live"
+        },
+        "water_stress": {
+          "score": 12,
+          "raw": 12.31571228,
+          "previous": 12.31571228,
+          "growthPct": 0.0,
+          "date": "2022",
+          "url": "https://api.worldbank.org/v2/country/PRT/indicator/ER.H2O.FWST.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "drinking_water": {
+          "score": 95,
+          "raw": 95.2173479483637,
+          "previous": 95.1650547592568,
+          "growthPct": 0.054949991085684324,
+          "date": "2024",
+          "url": "https://api.worldbank.org/v2/country/PRT/indicator/SH.H2O.SMDW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_share": {
+          "score": 32,
+          "raw": 32.3,
+          "previous": 31.3,
+          "growthPct": 3.194888178913735,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/PRT/indicator/EG.FEC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_electricity": {
+          "score": 65,
+          "raw": 64.9061770532965,
+          "previous": 59.6286973887486,
+          "growthPct": 8.850570104091716,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/PRT/indicator/EG.ELC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_growth": {
+          "score": 27,
+          "raw": -2.81997429870749,
+          "previous": 4.81047651548818,
+          "growthPct": -158.62151680042683,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/PRT/indicator/NV.AGR.TOTL.KD.ZG?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_share": {
+          "score": 2,
+          "raw": 1.96014913476984,
+          "previous": 2.01918518592571,
+          "growthPct": -2.92375615507523,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/PRT/indicator/NV.AGR.TOTL.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "oil_rents": {
+          "score": 0,
+          "raw": 0.0518131827535177,
+          "previous": 0.023939484713493,
+          "growthPct": 116.43399335289058,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/PRT/indicator/NY.GDP.PETR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "gas_rents": {
+          "score": 0,
+          "raw": 0,
+          "previous": 0,
+          "growthPct": null,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/PRT/indicator/NY.GDP.NGAS.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "mineral_rents": {
+          "score": 0,
+          "raw": 0.148671649451181,
+          "previous": 0.0808489875825121,
+          "growthPct": 83.88807812769588,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/PRT/indicator/NY.GDP.MINR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        }
+      },
       "stale": false
     },
     {
@@ -312,17 +2344,144 @@
       "wb": "FIN",
       "id": "246",
       "gdpRank": 17,
-      "overall": null,
-      "transport": null,
-      "site": null,
-      "water": null,
-      "oil": null,
-      "mining": null,
-      "renewables": null,
-      "agriculture": null,
-      "coverage": {},
-      "confidence": {},
-      "indicators": {},
+      "overall": 90,
+      "transport": 79,
+      "site": 78,
+      "water": 47,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 51,
+      "agriculture": 45,
+      "coverage": {
+        "overall": 100,
+        "transport": 80,
+        "site": 60,
+        "water": 35,
+        "renewables": 35,
+        "agriculture": 30,
+        "oil": 35,
+        "mining": 20
+      },
+      "confidence": {
+        "overall": "High",
+        "transport": "High",
+        "site": "Medium",
+        "water": "Insufficient",
+        "renewables": "Insufficient",
+        "agriculture": "Insufficient",
+        "oil": "Insufficient",
+        "mining": "Insufficient"
+      },
+      "indicators": {
+        "construction_production": {
+          "score": 100,
+          "raw": 120.3,
+          "previous": 106.7,
+          "growthPct": 12.746016869728205,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=FI&lastTimePeriod=25",
+          "status": "live"
+        },
+        "building_output": {
+          "score": 78,
+          "raw": 93.2,
+          "previous": 87.2,
+          "growthPct": 6.8807339449541205,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=FI&lastTimePeriod=25",
+          "status": "live"
+        },
+        "civil_output": {
+          "score": 79,
+          "raw": 108.0,
+          "previous": 100.8,
+          "growthPct": 7.14285714285714,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=FI&lastTimePeriod=25",
+          "status": "live"
+        },
+        "water_stress": {
+          "score": 7,
+          "raw": 7.11406213,
+          "previous": 7.11406213,
+          "growthPct": 0.0,
+          "date": "2022",
+          "url": "https://api.worldbank.org/v2/country/FIN/indicator/ER.H2O.FWST.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "drinking_water": {
+          "score": 100,
+          "raw": 99.646796710852,
+          "previous": 99.6443238009603,
+          "growthPct": 0.002481736838966242,
+          "date": "2024",
+          "url": "https://api.worldbank.org/v2/country/FIN/indicator/SH.H2O.SMDW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_share": {
+          "score": 50,
+          "raw": 50.2,
+          "previous": 47.3,
+          "growthPct": 6.131078224101483,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/FIN/indicator/EG.FEC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_electricity": {
+          "score": 53,
+          "raw": 52.9302986606029,
+          "previous": 51.8681190177141,
+          "growthPct": 2.047846852757562,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/FIN/indicator/EG.ELC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_growth": {
+          "score": 66,
+          "raw": 3.8105664866567,
+          "previous": -1.64644361609105,
+          "growthPct": -331.44227044371326,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/FIN/indicator/NV.AGR.TOTL.KD.ZG?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_share": {
+          "score": 3,
+          "raw": 2.61075667391382,
+          "previous": 2.46672922863986,
+          "growthPct": 5.838802394755582,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/FIN/indicator/NV.AGR.TOTL.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "oil_rents": {
+          "score": 0,
+          "raw": 0.0456314892036643,
+          "previous": 0.0208151367431629,
+          "growthPct": 119.22262518238207,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/FIN/indicator/NY.GDP.PETR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "gas_rents": {
+          "score": 0,
+          "raw": 0,
+          "previous": 0,
+          "growthPct": null,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/FIN/indicator/NY.GDP.NGAS.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "mineral_rents": {
+          "score": 0,
+          "raw": 0.109078885852519,
+          "previous": 0.0143024115186818,
+          "growthPct": 662.6607982160227,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/FIN/indicator/NY.GDP.MINR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        }
+      },
       "stale": false
     },
     {
@@ -334,14 +2493,141 @@
       "overall": null,
       "transport": null,
       "site": null,
-      "water": null,
-      "oil": null,
-      "mining": null,
-      "renewables": null,
-      "agriculture": null,
-      "coverage": {},
-      "confidence": {},
-      "indicators": {},
+      "water": 53,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 30,
+      "agriculture": 35,
+      "coverage": {
+        "overall": 0,
+        "transport": 0,
+        "site": 0,
+        "water": 35,
+        "renewables": 35,
+        "agriculture": 30,
+        "oil": 35,
+        "mining": 20
+      },
+      "confidence": {
+        "overall": "Insufficient",
+        "transport": "Insufficient",
+        "site": "Insufficient",
+        "water": "Insufficient",
+        "renewables": "Insufficient",
+        "agriculture": "Insufficient",
+        "oil": "Insufficient",
+        "mining": "Insufficient"
+      },
+      "indicators": {
+        "construction_production": {
+          "score": null,
+          "raw": null,
+          "previous": null,
+          "growthPct": null,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=EL&lastTimePeriod=25",
+          "status": "live"
+        },
+        "building_output": {
+          "score": null,
+          "raw": null,
+          "previous": null,
+          "growthPct": null,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=EL&lastTimePeriod=25",
+          "status": "live"
+        },
+        "civil_output": {
+          "score": null,
+          "raw": null,
+          "previous": null,
+          "growthPct": null,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=EL&lastTimePeriod=25",
+          "status": "live"
+        },
+        "water_stress": {
+          "score": 20,
+          "raw": 20.32571313,
+          "previous": 20.40663565,
+          "growthPct": -0.3965500310189496,
+          "date": "2022",
+          "url": "https://api.worldbank.org/v2/country/GRC/indicator/ER.H2O.FWST.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "drinking_water": {
+          "score": 97,
+          "raw": 96.6861554835288,
+          "previous": 96.881822442758,
+          "growthPct": -0.20196457322508854,
+          "date": "2024",
+          "url": "https://api.worldbank.org/v2/country/GRC/indicator/SH.H2O.SMDW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_share": {
+          "score": 22,
+          "raw": 21.5,
+          "previous": 20.1,
+          "growthPct": 6.965174129353224,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/GRC/indicator/EG.FEC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_electricity": {
+          "score": 41,
+          "raw": 40.5640135246276,
+          "previous": 36.5812314770678,
+          "growthPct": 10.887501286162383,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/GRC/indicator/EG.ELC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_growth": {
+          "score": 51,
+          "raw": 0.966830234658488,
+          "previous": 0.490534310202833,
+          "growthPct": 97.0973720999678,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/GRC/indicator/NV.AGR.TOTL.KD.ZG?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_share": {
+          "score": 4,
+          "raw": 3.5703052168837,
+          "previous": 3.765512541308,
+          "growthPct": -5.1840837676905505,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/GRC/indicator/NV.AGR.TOTL.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "oil_rents": {
+          "score": 0,
+          "raw": 0.0116928580271195,
+          "previous": 0.00652358198539234,
+          "growthPct": 79.2398417510847,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/GRC/indicator/NY.GDP.PETR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "gas_rents": {
+          "score": 0,
+          "raw": 0.000385174877812254,
+          "previous": 0.000128253821992861,
+          "growthPct": 200.32233880226505,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/GRC/indicator/NY.GDP.NGAS.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "mineral_rents": {
+          "score": 0,
+          "raw": 0.0522192932667737,
+          "previous": 0.0136128575524908,
+          "growthPct": 283.6027304731395,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/GRC/indicator/NY.GDP.MINR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        }
+      },
       "stale": false
     },
     {
@@ -350,17 +2636,144 @@
       "wb": "HUN",
       "id": "348",
       "gdpRank": 19,
-      "overall": null,
+      "overall": 82,
       "transport": null,
-      "site": null,
-      "water": null,
-      "oil": null,
-      "mining": null,
-      "renewables": null,
-      "agriculture": null,
-      "coverage": {},
-      "confidence": {},
-      "indicators": {},
+      "site": 31,
+      "water": 47,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 17,
+      "agriculture": 44,
+      "coverage": {
+        "overall": 75,
+        "transport": 0,
+        "site": 60,
+        "water": 35,
+        "renewables": 35,
+        "agriculture": 30,
+        "oil": 35,
+        "mining": 20
+      },
+      "confidence": {
+        "overall": "Medium",
+        "transport": "Insufficient",
+        "site": "Medium",
+        "water": "Insufficient",
+        "renewables": "Insufficient",
+        "agriculture": "Insufficient",
+        "oil": "Insufficient",
+        "mining": "Insufficient"
+      },
+      "indicators": {
+        "construction_production": {
+          "score": 100,
+          "raw": 99.3,
+          "previous": 81.4,
+          "growthPct": 21.99017199017197,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=HU&lastTimePeriod=25",
+          "status": "live"
+        },
+        "building_output": {
+          "score": 31,
+          "raw": 81.6,
+          "previous": 85.7,
+          "growthPct": -4.784130688448085,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=HU&lastTimePeriod=25",
+          "status": "live"
+        },
+        "civil_output": {
+          "score": null,
+          "raw": 133.7,
+          "previous": 47.1,
+          "growthPct": 183.864118895966,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=HU&lastTimePeriod=25",
+          "status": "live"
+        },
+        "water_stress": {
+          "score": 8,
+          "raw": 8.108497409,
+          "previous": 7.718307427,
+          "growthPct": 5.0553827466763845,
+          "date": "2022",
+          "url": "https://api.worldbank.org/v2/country/HUN/indicator/ER.H2O.FWST.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "drinking_water": {
+          "score": 100,
+          "raw": 100,
+          "previous": 100,
+          "growthPct": 0.0,
+          "date": "2024",
+          "url": "https://api.worldbank.org/v2/country/HUN/indicator/SH.H2O.SMDW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_share": {
+          "score": 15,
+          "raw": 15.3,
+          "previous": 14.8,
+          "growthPct": 3.378378378378377,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/HUN/indicator/EG.FEC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_electricity": {
+          "score": 19,
+          "raw": 19.1445182724252,
+          "previous": 15.828800458059,
+          "growthPct": 20.947372627204032,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/HUN/indicator/EG.ELC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_growth": {
+          "score": 64,
+          "raw": -4.31377699252263,
+          "previous": -8.93230748412158,
+          "growthPct": -51.705905778647136,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/HUN/indicator/NV.AGR.TOTL.KD.ZG?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_share": {
+          "score": 3,
+          "raw": 2.65399769872221,
+          "previous": 2.71223925604515,
+          "growthPct": -2.147360605932125,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/HUN/indicator/NV.AGR.TOTL.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "oil_rents": {
+          "score": 0,
+          "raw": 0.183887560301271,
+          "previous": 0.0833512506762371,
+          "growthPct": 120.61763777912473,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/HUN/indicator/NY.GDP.PETR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "gas_rents": {
+          "score": 0,
+          "raw": 0.130992934287711,
+          "previous": 0.0304507621680197,
+          "growthPct": 330.1794929300117,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/HUN/indicator/NY.GDP.NGAS.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "mineral_rents": {
+          "score": 0,
+          "raw": 0,
+          "previous": 0,
+          "growthPct": null,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/HUN/indicator/NY.GDP.MINR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        }
+      },
       "stale": false
     },
     {
@@ -369,17 +2782,144 @@
       "wb": "SVK",
       "id": "703",
       "gdpRank": 20,
-      "overall": null,
-      "transport": null,
-      "site": null,
-      "water": null,
-      "oil": null,
-      "mining": null,
-      "renewables": null,
-      "agriculture": null,
-      "coverage": {},
-      "confidence": {},
-      "indicators": {},
+      "overall": 31,
+      "transport": 10,
+      "site": 58,
+      "water": 44,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 21,
+      "agriculture": 67,
+      "coverage": {
+        "overall": 100,
+        "transport": 80,
+        "site": 60,
+        "water": 35,
+        "renewables": 35,
+        "agriculture": 30,
+        "oil": 35,
+        "mining": 20
+      },
+      "confidence": {
+        "overall": "High",
+        "transport": "High",
+        "site": "Medium",
+        "water": "Insufficient",
+        "renewables": "Insufficient",
+        "agriculture": "Insufficient",
+        "oil": "Insufficient",
+        "mining": "Insufficient"
+      },
+      "indicators": {
+        "construction_production": {
+          "score": 31,
+          "raw": 84.0,
+          "previous": 88.3,
+          "growthPct": -4.869762174405434,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=SK&lastTimePeriod=25",
+          "status": "live"
+        },
+        "building_output": {
+          "score": 58,
+          "raw": 101.9,
+          "previous": 99.8,
+          "growthPct": 2.104208416833675,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=SK&lastTimePeriod=25",
+          "status": "live"
+        },
+        "civil_output": {
+          "score": 10,
+          "raw": 97.9,
+          "previous": 108.7,
+          "growthPct": -9.935602575896961,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=SK&lastTimePeriod=25",
+          "status": "live"
+        },
+        "water_stress": {
+          "score": 2,
+          "raw": 2.425230293,
+          "previous": 2.436631239,
+          "growthPct": -0.4678978836649583,
+          "date": "2022",
+          "url": "https://api.worldbank.org/v2/country/SVK/indicator/ER.H2O.FWST.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "drinking_water": {
+          "score": 100,
+          "raw": 99.5715569148418,
+          "previous": 99.5137496061142,
+          "growthPct": 0.05808977046530828,
+          "date": "2024",
+          "url": "https://api.worldbank.org/v2/country/SVK/indicator/SH.H2O.SMDW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_share": {
+          "score": 18,
+          "raw": 17.9,
+          "previous": 17.6,
+          "growthPct": 1.7045454545454364,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/SVK/indicator/EG.FEC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_electricity": {
+          "score": 24,
+          "raw": 23.5607675906183,
+          "previous": 24.7555308967335,
+          "growthPct": -4.826247964946084,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/SVK/indicator/EG.ELC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_growth": {
+          "score": 100,
+          "raw": -0.747406489058889,
+          "previous": -21.6422831608691,
+          "growthPct": -96.54654509645148,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/SVK/indicator/NV.AGR.TOTL.KD.ZG?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_share": {
+          "score": 2,
+          "raw": 1.59299327980239,
+          "previous": 1.58278262269337,
+          "growthPct": 0.645107986568938,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/SVK/indicator/NV.AGR.TOTL.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "oil_rents": {
+          "score": 0,
+          "raw": 0.00176348784699933,
+          "previous": 0.000491874857273577,
+          "growthPct": 258.523681566934,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/SVK/indicator/NY.GDP.PETR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "gas_rents": {
+          "score": 0,
+          "raw": 0.00854206904967972,
+          "previous": 0.00185795706821786,
+          "growthPct": 359.7559973693695,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/SVK/indicator/NY.GDP.NGAS.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "mineral_rents": {
+          "score": 0,
+          "raw": 0.011739036506355,
+          "previous": 0.00872625980669719,
+          "growthPct": 34.52540683404335,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/SVK/indicator/NY.GDP.MINR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        }
+      },
       "stale": false
     },
     {
@@ -388,17 +2928,144 @@
       "wb": "BGR",
       "id": "100",
       "gdpRank": 21,
-      "overall": null,
-      "transport": null,
-      "site": null,
-      "water": null,
-      "oil": null,
-      "mining": null,
-      "renewables": null,
-      "agriculture": null,
-      "coverage": {},
-      "confidence": {},
-      "indicators": {},
+      "overall": 70,
+      "transport": 67,
+      "site": 80,
+      "water": 64,
+      "oil": 0,
+      "mining": 1,
+      "renewables": 21,
+      "agriculture": 22,
+      "coverage": {
+        "overall": 100,
+        "transport": 80,
+        "site": 60,
+        "water": 35,
+        "renewables": 35,
+        "agriculture": 30,
+        "oil": 35,
+        "mining": 20
+      },
+      "confidence": {
+        "overall": "High",
+        "transport": "High",
+        "site": "Medium",
+        "water": "Insufficient",
+        "renewables": "Insufficient",
+        "agriculture": "Insufficient",
+        "oil": "Insufficient",
+        "mining": "Insufficient"
+      },
+      "indicators": {
+        "construction_production": {
+          "score": 67,
+          "raw": 119.0,
+          "previous": 114.2,
+          "growthPct": 4.203152364273199,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=BG&lastTimePeriod=25",
+          "status": "live"
+        },
+        "building_output": {
+          "score": 80,
+          "raw": 118.8,
+          "previous": 110.6,
+          "growthPct": 7.414104882459305,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=BG&lastTimePeriod=25",
+          "status": "live"
+        },
+        "civil_output": {
+          "score": 67,
+          "raw": 109.5,
+          "previous": 105.1,
+          "growthPct": 4.186489058039977,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=BG&lastTimePeriod=25",
+          "status": "live"
+        },
+        "water_stress": {
+          "score": 40,
+          "raw": 40.23530092,
+          "previous": 38.52465075,
+          "growthPct": 4.440404096330464,
+          "date": "2022",
+          "url": "https://api.worldbank.org/v2/country/BGR/indicator/ER.H2O.FWST.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "drinking_water": {
+          "score": 96,
+          "raw": 96.2070781494387,
+          "previous": 96.2874915022323,
+          "growthPct": -0.08351381008999681,
+          "date": "2024",
+          "url": "https://api.worldbank.org/v2/country/BGR/indicator/SH.H2O.SMDW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_share": {
+          "score": 20,
+          "raw": 20.4,
+          "previous": 21.1,
+          "growthPct": -3.3175355450237087,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/BGR/indicator/EG.FEC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_electricity": {
+          "score": 22,
+          "raw": 22.1918096199125,
+          "previous": 19.5452225548412,
+          "growthPct": 13.540838727445248,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/BGR/indicator/EG.ELC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_growth": {
+          "score": 32,
+          "raw": 1.40089649905796,
+          "previous": 7.26236880050128,
+          "growthPct": -80.71019886842893,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/BGR/indicator/NV.AGR.TOTL.KD.ZG?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_share": {
+          "score": 2,
+          "raw": 2.47498607309854,
+          "previous": 2.35105689831119,
+          "growthPct": 5.271211210429261,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/BGR/indicator/NV.AGR.TOTL.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "oil_rents": {
+          "score": 0,
+          "raw": 0.0193926462885907,
+          "previous": 0.00967333606272928,
+          "growthPct": 100.47526688656335,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/BGR/indicator/NY.GDP.PETR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "gas_rents": {
+          "score": 0,
+          "raw": 0.00649706344376637,
+          "previous": 0.0024673666719186,
+          "growthPct": 163.3197375043701,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/BGR/indicator/NY.GDP.NGAS.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "mineral_rents": {
+          "score": 1,
+          "raw": 0.593627371344038,
+          "previous": 0.34845622392036,
+          "growthPct": 70.3592390072252,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/BGR/indicator/NY.GDP.MINR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        }
+      },
       "stale": false
     },
     {
@@ -407,17 +3074,144 @@
       "wb": "HRV",
       "id": "191",
       "gdpRank": 22,
-      "overall": null,
+      "overall": 61,
       "transport": null,
       "site": null,
-      "water": null,
-      "oil": null,
-      "mining": null,
-      "renewables": null,
-      "agriculture": null,
-      "coverage": {},
-      "confidence": {},
-      "indicators": {},
+      "water": 38,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 49,
+      "agriculture": 34,
+      "coverage": {
+        "overall": 55,
+        "transport": 0,
+        "site": 0,
+        "water": 35,
+        "renewables": 35,
+        "agriculture": 30,
+        "oil": 35,
+        "mining": 20
+      },
+      "confidence": {
+        "overall": "Medium",
+        "transport": "Insufficient",
+        "site": "Insufficient",
+        "water": "Insufficient",
+        "renewables": "Insufficient",
+        "agriculture": "Insufficient",
+        "oil": "Insufficient",
+        "mining": "Insufficient"
+      },
+      "indicators": {
+        "construction_production": {
+          "score": 61,
+          "raw": 143.0,
+          "previous": 139.2,
+          "growthPct": 2.7298850574712707,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=HR&lastTimePeriod=25",
+          "status": "live"
+        },
+        "building_output": {
+          "score": null,
+          "raw": null,
+          "previous": null,
+          "growthPct": null,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=HR&lastTimePeriod=25",
+          "status": "live"
+        },
+        "civil_output": {
+          "score": null,
+          "raw": null,
+          "previous": null,
+          "growthPct": null,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=HR&lastTimePeriod=25",
+          "status": "live"
+        },
+        "water_stress": {
+          "score": 2,
+          "raw": 1.509559804,
+          "previous": 1.47843486,
+          "growthPct": 2.1052631294151247,
+          "date": "2022",
+          "url": "https://api.worldbank.org/v2/country/HRV/indicator/ER.H2O.FWST.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "drinking_water": {
+          "score": 87,
+          "raw": 87.2682692486734,
+          "previous": 87.1852397070888,
+          "growthPct": 0.09523348431863532,
+          "date": "2024",
+          "url": "https://api.worldbank.org/v2/country/HRV/indicator/SH.H2O.SMDW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_share": {
+          "score": 34,
+          "raw": 34.1,
+          "previous": 32.4,
+          "growthPct": 5.246913580246915,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/HRV/indicator/EG.FEC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_electricity": {
+          "score": 70,
+          "raw": 69.8809993425378,
+          "previous": 64.9876727680239,
+          "growthPct": 7.529622720882512,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/HRV/indicator/EG.ELC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_growth": {
+          "score": 49,
+          "raw": -1.06544901065449,
+          "previous": -0.705289672544083,
+          "growthPct": 51.06544901065395,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/HRV/indicator/NV.AGR.TOTL.KD.ZG?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_share": {
+          "score": 3,
+          "raw": 2.83194407098682,
+          "previous": 2.8962225714452,
+          "growthPct": -2.2193909091146047,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/HRV/indicator/NV.AGR.TOTL.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "oil_rents": {
+          "score": 0,
+          "raw": 0.280358036189526,
+          "previous": 0.141105225031332,
+          "growthPct": 98.68721099964463,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/HRV/indicator/NY.GDP.PETR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "gas_rents": {
+          "score": 0,
+          "raw": 0.183195535140786,
+          "previous": 0.0454518090024755,
+          "growthPct": 303.054441971294,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/HRV/indicator/NY.GDP.NGAS.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "mineral_rents": {
+          "score": 0,
+          "raw": 0,
+          "previous": 0,
+          "growthPct": null,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/HRV/indicator/NY.GDP.MINR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        }
+      },
       "stale": false
     },
     {
@@ -426,17 +3220,144 @@
       "wb": "LUX",
       "id": "442",
       "gdpRank": 23,
-      "overall": null,
+      "overall": 78,
       "transport": null,
       "site": null,
-      "water": null,
-      "oil": null,
-      "mining": null,
-      "renewables": null,
-      "agriculture": null,
-      "coverage": {},
-      "confidence": {},
-      "indicators": {},
+      "water": 45,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 50,
+      "agriculture": 0,
+      "coverage": {
+        "overall": 55,
+        "transport": 0,
+        "site": 0,
+        "water": 35,
+        "renewables": 35,
+        "agriculture": 30,
+        "oil": 35,
+        "mining": 20
+      },
+      "confidence": {
+        "overall": "Medium",
+        "transport": "Insufficient",
+        "site": "Insufficient",
+        "water": "Insufficient",
+        "renewables": "Insufficient",
+        "agriculture": "Insufficient",
+        "oil": "Insufficient",
+        "mining": "Insufficient"
+      },
+      "indicators": {
+        "construction_production": {
+          "score": 78,
+          "raw": 103.4,
+          "previous": 96.6,
+          "growthPct": 7.039337474120089,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=LU&lastTimePeriod=25",
+          "status": "live"
+        },
+        "building_output": {
+          "score": null,
+          "raw": null,
+          "previous": null,
+          "growthPct": null,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=LU&lastTimePeriod=25",
+          "status": "live"
+        },
+        "civil_output": {
+          "score": null,
+          "raw": null,
+          "previous": null,
+          "growthPct": null,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=LU&lastTimePeriod=25",
+          "status": "live"
+        },
+        "water_stress": {
+          "score": 4,
+          "raw": 3.95854063,
+          "previous": 3.816749585,
+          "growthPct": 3.7149685050663184,
+          "date": "2022",
+          "url": "https://api.worldbank.org/v2/country/LUX/indicator/ER.H2O.FWST.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "drinking_water": {
+          "score": 100,
+          "raw": 99.6530550152333,
+          "previous": 99.64948137305,
+          "growthPct": 0.0035862125262076106,
+          "date": "2024",
+          "url": "https://api.worldbank.org/v2/country/LUX/indicator/SH.H2O.SMDW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_share": {
+          "score": 20,
+          "raw": 20.5,
+          "previous": 20.8,
+          "growthPct": -1.4423076923076983,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/LUX/indicator/EG.FEC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_electricity": {
+          "score": 89,
+          "raw": 89.0447963800905,
+          "previous": 88.5747538048344,
+          "growthPct": 0.5306733070822744,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/LUX/indicator/EG.ELC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_growth": {
+          "score": 0,
+          "raw": 0.85508842391657,
+          "previous": 33.8820325576958,
+          "growthPct": -97.47627766291622,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/LUX/indicator/NV.AGR.TOTL.KD.ZG?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_share": {
+          "score": 0,
+          "raw": 0.232212272400724,
+          "previous": 0.209487599715387,
+          "growthPct": 10.847741210559047,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/LUX/indicator/NV.AGR.TOTL.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "oil_rents": {
+          "score": 0,
+          "raw": 0,
+          "previous": 0,
+          "growthPct": null,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/LUX/indicator/NY.GDP.PETR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "gas_rents": {
+          "score": 0,
+          "raw": 0,
+          "previous": 0,
+          "growthPct": null,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/LUX/indicator/NY.GDP.NGAS.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "mineral_rents": {
+          "score": 0,
+          "raw": 0,
+          "previous": 0,
+          "growthPct": null,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/LUX/indicator/NY.GDP.MINR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        }
+      },
       "stale": false
     },
     {
@@ -448,14 +3369,141 @@
       "overall": null,
       "transport": null,
       "site": null,
-      "water": null,
-      "oil": null,
-      "mining": null,
-      "renewables": null,
-      "agriculture": null,
-      "coverage": {},
-      "confidence": {},
-      "indicators": {},
+      "water": 43,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 47,
+      "agriculture": 25,
+      "coverage": {
+        "overall": 0,
+        "transport": 0,
+        "site": 0,
+        "water": 35,
+        "renewables": 35,
+        "agriculture": 30,
+        "oil": 35,
+        "mining": 20
+      },
+      "confidence": {
+        "overall": "Insufficient",
+        "transport": "Insufficient",
+        "site": "Insufficient",
+        "water": "Insufficient",
+        "renewables": "Insufficient",
+        "agriculture": "Insufficient",
+        "oil": "Insufficient",
+        "mining": "Insufficient"
+      },
+      "indicators": {
+        "construction_production": {
+          "score": null,
+          "raw": null,
+          "previous": null,
+          "growthPct": null,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=LT&lastTimePeriod=25",
+          "status": "live"
+        },
+        "building_output": {
+          "score": null,
+          "raw": null,
+          "previous": null,
+          "growthPct": null,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=LT&lastTimePeriod=25",
+          "status": "live"
+        },
+        "civil_output": {
+          "score": null,
+          "raw": null,
+          "previous": null,
+          "growthPct": null,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=LT&lastTimePeriod=25",
+          "status": "live"
+        },
+        "water_stress": {
+          "score": 2,
+          "raw": 2.165537131,
+          "previous": 2.558255227,
+          "growthPct": -15.351013137986659,
+          "date": "2022",
+          "url": "https://api.worldbank.org/v2/country/LTU/indicator/ER.H2O.FWST.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "drinking_water": {
+          "score": 97,
+          "raw": 96.7335742559147,
+          "previous": 96.7133919064612,
+          "growthPct": 0.02086820558730995,
+          "date": "2024",
+          "url": "https://api.worldbank.org/v2/country/LTU/indicator/SH.H2O.SMDW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_share": {
+          "score": 33,
+          "raw": 33.2,
+          "previous": 31.7,
+          "growthPct": 4.731861198738185,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/LTU/indicator/EG.FEC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_electricity": {
+          "score": 66,
+          "raw": 65.6144151240646,
+          "previous": 60.8065977886532,
+          "growthPct": 7.906736292206373,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/LTU/indicator/EG.ELC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_growth": {
+          "score": 36,
+          "raw": -0.0218258106837652,
+          "previous": 4.74485143247966,
+          "growthPct": -100.45998933779808,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/LTU/indicator/NV.AGR.TOTL.KD.ZG?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_share": {
+          "score": 2,
+          "raw": 2.27149750051117,
+          "previous": 2.41608345819694,
+          "growthPct": -5.984311394345243,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/LTU/indicator/NV.AGR.TOTL.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "oil_rents": {
+          "score": 0,
+          "raw": 0.015948543146471,
+          "previous": 0.00844361118604004,
+          "growthPct": 88.88296482480136,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/LTU/indicator/NY.GDP.PETR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "gas_rents": {
+          "score": 0,
+          "raw": 0,
+          "previous": 0,
+          "growthPct": null,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/LTU/indicator/NY.GDP.NGAS.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "mineral_rents": {
+          "score": 0,
+          "raw": 0,
+          "previous": 0,
+          "growthPct": null,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/LTU/indicator/NY.GDP.MINR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        }
+      },
       "stale": false
     },
     {
@@ -464,17 +3512,144 @@
       "wb": "SVN",
       "id": "705",
       "gdpRank": 25,
-      "overall": null,
-      "transport": null,
-      "site": null,
-      "water": null,
-      "oil": null,
-      "mining": null,
-      "renewables": null,
-      "agriculture": null,
-      "coverage": {},
-      "confidence": {},
-      "indicators": {},
+      "overall": 68,
+      "transport": 51,
+      "site": 100,
+      "water": 46,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 29,
+      "agriculture": 22,
+      "coverage": {
+        "overall": 100,
+        "transport": 80,
+        "site": 60,
+        "water": 35,
+        "renewables": 35,
+        "agriculture": 30,
+        "oil": 35,
+        "mining": 20
+      },
+      "confidence": {
+        "overall": "High",
+        "transport": "High",
+        "site": "Medium",
+        "water": "Insufficient",
+        "renewables": "Insufficient",
+        "agriculture": "Insufficient",
+        "oil": "Insufficient",
+        "mining": "Insufficient"
+      },
+      "indicators": {
+        "construction_production": {
+          "score": 64,
+          "raw": 156.4,
+          "previous": 151.0,
+          "growthPct": 3.576158940397356,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=SI&lastTimePeriod=25",
+          "status": "live"
+        },
+        "building_output": {
+          "score": 100,
+          "raw": 169.2,
+          "previous": 144.3,
+          "growthPct": 17.25571725571724,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=SI&lastTimePeriod=25",
+          "status": "live"
+        },
+        "civil_output": {
+          "score": 51,
+          "raw": 145.3,
+          "previous": 144.9,
+          "growthPct": 0.2760524499654915,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=SI&lastTimePeriod=25",
+          "status": "live"
+        },
+        "water_stress": {
+          "score": 6,
+          "raw": 5.591615957,
+          "previous": 6.29479378,
+          "growthPct": -11.170784104701836,
+          "date": "2022",
+          "url": "https://api.worldbank.org/v2/country/SVN/indicator/ER.H2O.FWST.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "drinking_water": {
+          "score": 100,
+          "raw": 99.5745942010052,
+          "previous": 99.5745942010052,
+          "growthPct": 0.0,
+          "date": "2024",
+          "url": "https://api.worldbank.org/v2/country/SVN/indicator/SH.H2O.SMDW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_share": {
+          "score": 23,
+          "raw": 23.4,
+          "previous": 22.7,
+          "growthPct": 3.083700440528636,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/SVN/indicator/EG.FEC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_electricity": {
+          "score": 36,
+          "raw": 36.1126858150668,
+          "previous": 34.1665503199535,
+          "growthPct": 5.696025723664411,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/SVN/indicator/EG.ELC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_growth": {
+          "score": 32,
+          "raw": 0.728021276418843,
+          "previous": 6.86544315334368,
+          "growthPct": -89.39585893935667,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/SVN/indicator/NV.AGR.TOTL.KD.ZG?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_share": {
+          "score": 2,
+          "raw": 1.63415417451495,
+          "previous": 1.53730419088458,
+          "growthPct": 6.299988265474088,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/SVN/indicator/NV.AGR.TOTL.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "oil_rents": {
+          "score": 0,
+          "raw": 2.90014634526052e-05,
+          "previous": 1.39101147863392e-05,
+          "growthPct": 108.49190605592169,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/SVN/indicator/NY.GDP.PETR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "gas_rents": {
+          "score": 0,
+          "raw": 0.00143387827318925,
+          "previous": 0.000309524314650989,
+          "growthPct": 363.2522245646683,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/SVN/indicator/NY.GDP.NGAS.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "mineral_rents": {
+          "score": 0,
+          "raw": 0,
+          "previous": 0,
+          "growthPct": null,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/SVN/indicator/NY.GDP.MINR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        }
+      },
       "stale": false
     },
     {
@@ -486,14 +3661,141 @@
       "overall": null,
       "transport": null,
       "site": null,
-      "water": null,
-      "oil": null,
-      "mining": null,
-      "renewables": null,
-      "agriculture": null,
-      "coverage": {},
-      "confidence": {},
-      "indicators": {},
+      "water": 42,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 53,
+      "agriculture": 20,
+      "coverage": {
+        "overall": 0,
+        "transport": 0,
+        "site": 0,
+        "water": 35,
+        "renewables": 35,
+        "agriculture": 30,
+        "oil": 35,
+        "mining": 20
+      },
+      "confidence": {
+        "overall": "Insufficient",
+        "transport": "Insufficient",
+        "site": "Insufficient",
+        "water": "Insufficient",
+        "renewables": "Insufficient",
+        "agriculture": "Insufficient",
+        "oil": "Insufficient",
+        "mining": "Insufficient"
+      },
+      "indicators": {
+        "construction_production": {
+          "score": null,
+          "raw": null,
+          "previous": null,
+          "growthPct": null,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=LV&lastTimePeriod=25",
+          "status": "live"
+        },
+        "building_output": {
+          "score": null,
+          "raw": null,
+          "previous": null,
+          "growthPct": null,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=LV&lastTimePeriod=25",
+          "status": "live"
+        },
+        "civil_output": {
+          "score": null,
+          "raw": null,
+          "previous": null,
+          "growthPct": null,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=LV&lastTimePeriod=25",
+          "status": "live"
+        },
+        "water_stress": {
+          "score": 1,
+          "raw": 1.015521509,
+          "previous": 1.086918091,
+          "growthPct": -6.5687177894254045,
+          "date": "2022",
+          "url": "https://api.worldbank.org/v2/country/LVA/indicator/ER.H2O.FWST.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "drinking_water": {
+          "score": 97,
+          "raw": 97.0114068663046,
+          "previous": 96.9699421478864,
+          "growthPct": 0.042760382753415094,
+          "date": "2024",
+          "url": "https://api.worldbank.org/v2/country/LVA/indicator/SH.H2O.SMDW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_share": {
+          "score": 44,
+          "raw": 44,
+          "previous": 43.8,
+          "growthPct": 0.4566210045662267,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/LVA/indicator/EG.FEC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_electricity": {
+          "score": 64,
+          "raw": 63.5961341087923,
+          "previous": 63.7583857442348,
+          "growthPct": -0.25447889489136344,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/LVA/indicator/EG.ELC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_growth": {
+          "score": 28,
+          "raw": -3.15854450188951,
+          "previous": 4.01065032277512,
+          "growthPct": -178.75392386998212,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/LVA/indicator/NV.AGR.TOTL.KD.ZG?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_share": {
+          "score": 4,
+          "raw": 4.0095997344873,
+          "previous": 3.94823488294075,
+          "growthPct": 1.554235078862476,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/LVA/indicator/NV.AGR.TOTL.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "oil_rents": {
+          "score": 0,
+          "raw": 0.0653994018600052,
+          "previous": 0.0314235592999339,
+          "growthPct": 108.12219658434037,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/LVA/indicator/NY.GDP.PETR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "gas_rents": {
+          "score": 0,
+          "raw": 0,
+          "previous": 0,
+          "growthPct": null,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/LVA/indicator/NY.GDP.NGAS.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "mineral_rents": {
+          "score": 0,
+          "raw": 0,
+          "previous": 0,
+          "growthPct": null,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/LVA/indicator/NY.GDP.MINR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        }
+      },
       "stale": false
     },
     {
@@ -505,14 +3807,141 @@
       "overall": null,
       "transport": null,
       "site": null,
-      "water": null,
-      "oil": null,
-      "mining": null,
-      "renewables": null,
-      "agriculture": null,
-      "coverage": {},
-      "confidence": {},
-      "indicators": {},
+      "water": 50,
+      "oil": 1,
+      "mining": 0,
+      "renewables": 39,
+      "agriculture": 1,
+      "coverage": {
+        "overall": 0,
+        "transport": 0,
+        "site": 0,
+        "water": 35,
+        "renewables": 35,
+        "agriculture": 30,
+        "oil": 35,
+        "mining": 20
+      },
+      "confidence": {
+        "overall": "Insufficient",
+        "transport": "Insufficient",
+        "site": "Insufficient",
+        "water": "Insufficient",
+        "renewables": "Insufficient",
+        "agriculture": "Insufficient",
+        "oil": "Insufficient",
+        "mining": "Insufficient"
+      },
+      "indicators": {
+        "construction_production": {
+          "score": null,
+          "raw": null,
+          "previous": null,
+          "growthPct": null,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=EE&lastTimePeriod=25",
+          "status": "live"
+        },
+        "building_output": {
+          "score": null,
+          "raw": null,
+          "previous": null,
+          "growthPct": null,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=EE&lastTimePeriod=25",
+          "status": "live"
+        },
+        "civil_output": {
+          "score": null,
+          "raw": null,
+          "previous": null,
+          "growthPct": null,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=EE&lastTimePeriod=25",
+          "status": "live"
+        },
+        "water_stress": {
+          "score": 13,
+          "raw": 13.04628519,
+          "previous": 10.81980133,
+          "growthPct": 20.577862680589543,
+          "date": "2022",
+          "url": "https://api.worldbank.org/v2/country/EST/indicator/ER.H2O.FWST.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "drinking_water": {
+          "score": 99,
+          "raw": 98.9439097263954,
+          "previous": 98.7763375997776,
+          "growthPct": 0.1696480459690397,
+          "date": "2024",
+          "url": "https://api.worldbank.org/v2/country/EST/indicator/SH.H2O.SMDW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_share": {
+          "score": 38,
+          "raw": 38,
+          "previous": 40.4,
+          "growthPct": -5.940594059405935,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/EST/indicator/EG.FEC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_electricity": {
+          "score": 40,
+          "raw": 39.9573847862299,
+          "previous": 48.8761105626851,
+          "growthPct": -18.247617647514446,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/EST/indicator/EG.ELC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_growth": {
+          "score": 0,
+          "raw": -10.2385493607795,
+          "previous": 28.5592014712176,
+          "growthPct": -135.85026483005157,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/EST/indicator/NV.AGR.TOTL.KD.ZG?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_share": {
+          "score": 2,
+          "raw": 1.64687016798416,
+          "previous": 1.76684782957851,
+          "growthPct": -6.7904920608228725,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/EST/indicator/NV.AGR.TOTL.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "oil_rents": {
+          "score": 1,
+          "raw": 0.962229214145247,
+          "previous": 0.480973513029608,
+          "growthPct": 100.05867019251298,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/EST/indicator/NY.GDP.PETR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "gas_rents": {
+          "score": 0,
+          "raw": 0,
+          "previous": 0,
+          "growthPct": null,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/EST/indicator/NY.GDP.NGAS.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "mineral_rents": {
+          "score": 0,
+          "raw": 0,
+          "previous": 0,
+          "growthPct": null,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/EST/indicator/NY.GDP.MINR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        }
+      },
       "stale": false
     },
     {
@@ -524,14 +3953,141 @@
       "overall": null,
       "transport": null,
       "site": null,
-      "water": null,
-      "oil": null,
-      "mining": null,
-      "renewables": null,
-      "agriculture": null,
-      "coverage": {},
-      "confidence": {},
-      "indicators": {},
+      "water": 60,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 16,
+      "agriculture": 33,
+      "coverage": {
+        "overall": 0,
+        "transport": 0,
+        "site": 0,
+        "water": 35,
+        "renewables": 35,
+        "agriculture": 30,
+        "oil": 35,
+        "mining": 20
+      },
+      "confidence": {
+        "overall": "Insufficient",
+        "transport": "Insufficient",
+        "site": "Insufficient",
+        "water": "Insufficient",
+        "renewables": "Insufficient",
+        "agriculture": "Insufficient",
+        "oil": "Insufficient",
+        "mining": "Insufficient"
+      },
+      "indicators": {
+        "construction_production": {
+          "score": null,
+          "raw": null,
+          "previous": null,
+          "growthPct": null,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=CY&lastTimePeriod=25",
+          "status": "live"
+        },
+        "building_output": {
+          "score": null,
+          "raw": null,
+          "previous": null,
+          "growthPct": null,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=CY&lastTimePeriod=25",
+          "status": "live"
+        },
+        "civil_output": {
+          "score": null,
+          "raw": null,
+          "previous": null,
+          "growthPct": null,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=CY&lastTimePeriod=25",
+          "status": "live"
+        },
+        "water_stress": {
+          "score": 30,
+          "raw": 30.48113723,
+          "previous": 32.1213778,
+          "growthPct": -5.106382983360058,
+          "date": "2022",
+          "url": "https://api.worldbank.org/v2/country/CYP/indicator/ER.H2O.FWST.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "drinking_water": {
+          "score": 100,
+          "raw": 99.7211088299984,
+          "previous": 99.7210789435355,
+          "growthPct": 2.997005570382072e-05,
+          "date": "2024",
+          "url": "https://api.worldbank.org/v2/country/CYP/indicator/SH.H2O.SMDW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_share": {
+          "score": 16,
+          "raw": 15.6,
+          "previous": 15,
+          "growthPct": 4.0000000000000036,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/CYP/indicator/EG.FEC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_electricity": {
+          "score": 15,
+          "raw": 15.1349873022075,
+          "previous": 12.3048051144566,
+          "growthPct": 23.00062586465341,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/CYP/indicator/EG.ELC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_growth": {
+          "score": 49,
+          "raw": 0.819440179662706,
+          "previous": 1.139955059464,
+          "growthPct": -28.11644872667157,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/CYP/indicator/NV.AGR.TOTL.KD.ZG?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_share": {
+          "score": 1,
+          "raw": 1.11541253313617,
+          "previous": 1.15512812146527,
+          "growthPct": -3.4381976848352647,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/CYP/indicator/NV.AGR.TOTL.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "oil_rents": {
+          "score": 0,
+          "raw": 0,
+          "previous": 0,
+          "growthPct": null,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/CYP/indicator/NY.GDP.PETR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "gas_rents": {
+          "score": 0,
+          "raw": 0,
+          "previous": 0,
+          "growthPct": null,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/CYP/indicator/NY.GDP.NGAS.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "mineral_rents": {
+          "score": 0,
+          "raw": 0.0119250208694213,
+          "previous": 0.00712423748271897,
+          "growthPct": 67.38662766853902,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/CYP/indicator/NY.GDP.MINR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        }
+      },
       "stale": false
     },
     {
@@ -543,17 +4099,551 @@
       "overall": null,
       "transport": null,
       "site": null,
-      "water": null,
-      "oil": null,
-      "mining": null,
-      "renewables": null,
-      "agriculture": null,
-      "coverage": {},
-      "confidence": {},
-      "indicators": {},
+      "water": 85,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 10,
+      "agriculture": 0,
+      "coverage": {
+        "overall": 0,
+        "transport": 0,
+        "site": 0,
+        "water": 35,
+        "renewables": 35,
+        "agriculture": 30,
+        "oil": 35,
+        "mining": 20
+      },
+      "confidence": {
+        "overall": "Insufficient",
+        "transport": "Insufficient",
+        "site": "Insufficient",
+        "water": "Insufficient",
+        "renewables": "Insufficient",
+        "agriculture": "Insufficient",
+        "oil": "Insufficient",
+        "mining": "Insufficient"
+      },
+      "indicators": {
+        "construction_production": {
+          "score": null,
+          "raw": null,
+          "previous": null,
+          "growthPct": null,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=MT&lastTimePeriod=25",
+          "status": "live"
+        },
+        "building_output": {
+          "score": null,
+          "raw": null,
+          "previous": null,
+          "growthPct": null,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=MT&lastTimePeriod=25",
+          "status": "live"
+        },
+        "civil_output": {
+          "score": null,
+          "raw": null,
+          "previous": null,
+          "growthPct": null,
+          "date": "2026-10-19T13:12:07.417463+00:00",
+          "url": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?lang=EN&geo=MT&lastTimePeriod=25",
+          "status": "live"
+        },
+        "water_stress": {
+          "score": 73,
+          "raw": 72.60000792,
+          "previous": 78.46721386,
+          "growthPct": -7.47727063492809,
+          "date": "2022",
+          "url": "https://api.worldbank.org/v2/country/MLT/indicator/ER.H2O.FWST.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "drinking_water": {
+          "score": 100,
+          "raw": 99.8267685287143,
+          "previous": 99.8378093859472,
+          "growthPct": -0.011058793558083035,
+          "date": "2024",
+          "url": "https://api.worldbank.org/v2/country/MLT/indicator/SH.H2O.SMDW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_share": {
+          "score": 9,
+          "raw": 8.6,
+          "previous": 9.2,
+          "growthPct": -6.521739130434778,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/MLT/indicator/EG.FEC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "renewable_electricity": {
+          "score": 12,
+          "raw": 11.8897922312556,
+          "previous": 11.3308446103593,
+          "growthPct": 4.932974020182734,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/MLT/indicator/EG.ELC.RNEW.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_growth": {
+          "score": 0,
+          "raw": -23.2323232323232,
+          "previous": 846.613545816733,
+          "growthPct": -102.74414735591206,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/MLT/indicator/NV.AGR.TOTL.KD.ZG?format=json&per_page=70",
+          "status": "live"
+        },
+        "agri_share": {
+          "score": 0,
+          "raw": 0.469133994108361,
+          "previous": 0.49056261264571,
+          "growthPct": -4.368171969278267,
+          "date": "2025",
+          "url": "https://api.worldbank.org/v2/country/MLT/indicator/NV.AGR.TOTL.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "oil_rents": {
+          "score": 0,
+          "raw": 0,
+          "previous": 0,
+          "growthPct": null,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/MLT/indicator/NY.GDP.PETR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "gas_rents": {
+          "score": 0,
+          "raw": 0,
+          "previous": 0,
+          "growthPct": null,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/MLT/indicator/NY.GDP.NGAS.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        },
+        "mineral_rents": {
+          "score": 0,
+          "raw": 0,
+          "previous": 0,
+          "growthPct": null,
+          "date": "2021",
+          "url": "https://api.worldbank.org/v2/country/MLT/indicator/NY.GDP.MINR.RT.ZS?format=json&per_page=70",
+          "status": "live"
+        }
+      },
       "stale": false
     }
   ],
   "history": {},
-  "diagnostics": []
+  "diagnostics": [
+    {
+      "country": "Germany",
+      "scores": {
+        "overall": 82,
+        "transport": 78,
+        "site": 59,
+        "water": 63,
+        "oil": 0,
+        "mining": 0,
+        "renewables": 27,
+        "agriculture": 35
+      },
+      "errors": []
+    },
+    {
+      "country": "France",
+      "scores": {
+        "overall": 20,
+        "transport": 21,
+        "site": 20,
+        "water": 55,
+        "oil": 0,
+        "mining": 0,
+        "renewables": 19,
+        "agriculture": 67
+      },
+      "errors": []
+    },
+    {
+      "country": "Italy",
+      "scores": {
+        "overall": 45,
+        "transport": null,
+        "site": null,
+        "water": 59,
+        "oil": 0,
+        "mining": 0,
+        "renewables": 28,
+        "agriculture": 28
+      },
+      "errors": []
+    },
+    {
+      "country": "Spain",
+      "scores": {
+        "overall": 26,
+        "transport": 33,
+        "site": 0,
+        "water": 67,
+        "oil": 0,
+        "mining": 0,
+        "renewables": 31,
+        "agriculture": 15
+      },
+      "errors": []
+    },
+    {
+      "country": "Netherlands",
+      "scores": {
+        "overall": 41,
+        "transport": 43,
+        "site": 28,
+        "water": 53,
+        "oil": 0,
+        "mining": 0,
+        "renewables": 21,
+        "agriculture": 42
+      },
+      "errors": []
+    },
+    {
+      "country": "Switzerland",
+      "scores": {
+        "overall": null,
+        "transport": null,
+        "site": null,
+        "water": 45,
+        "oil": 0,
+        "mining": 0,
+        "renewables": 45,
+        "agriculture": 47
+      },
+      "errors": []
+    },
+    {
+      "country": "Poland",
+      "scores": {
+        "overall": 62,
+        "transport": 100,
+        "site": 0,
+        "water": 56,
+        "oil": 0,
+        "mining": 0,
+        "renewables": 16,
+        "agriculture": 40
+      },
+      "errors": []
+    },
+    {
+      "country": "Belgium",
+      "scores": {
+        "overall": 51,
+        "transport": 67,
+        "site": 35,
+        "water": 73,
+        "oil": 0,
+        "mining": 0,
+        "renewables": 17,
+        "agriculture": 27
+      },
+      "errors": []
+    },
+    {
+      "country": "Ireland",
+      "scores": {
+        "overall": null,
+        "transport": null,
+        "site": null,
+        "water": 46,
+        "oil": 0,
+        "mining": 0,
+        "renewables": 23,
+        "agriculture": 36
+      },
+      "errors": []
+    },
+    {
+      "country": "Sweden",
+      "scores": {
+        "overall": 65,
+        "transport": 44,
+        "site": 87,
+        "water": 45,
+        "oil": 0,
+        "mining": 1,
+        "renewables": 62,
+        "agriculture": 27
+      },
+      "errors": []
+    },
+    {
+      "country": "Austria",
+      "scores": {
+        "overall": 49,
+        "transport": 0,
+        "site": 94,
+        "water": 48,
+        "oil": 0,
+        "mining": 0,
+        "renewables": 55,
+        "agriculture": 32
+      },
+      "errors": []
+    },
+    {
+      "country": "Norway",
+      "scores": {
+        "overall": 40,
+        "transport": 26,
+        "site": 48,
+        "water": 44,
+        "oil": 5,
+        "mining": 0,
+        "renewables": 77,
+        "agriculture": 41
+      },
+      "errors": []
+    },
+    {
+      "country": "Denmark",
+      "scores": {
+        "overall": 43,
+        "transport": 2,
+        "site": 72,
+        "water": 57,
+        "oil": 0,
+        "mining": 0,
+        "renewables": 57,
+        "agriculture": 28
+      },
+      "errors": []
+    },
+    {
+      "country": "Romania",
+      "scores": {
+        "overall": 57,
+        "transport": null,
+        "site": null,
+        "water": 40,
+        "oil": 0,
+        "mining": 0,
+        "renewables": 33,
+        "agriculture": 59
+      },
+      "errors": []
+    },
+    {
+      "country": "Czechia",
+      "scores": {
+        "overall": 35,
+        "transport": 1,
+        "site": 55,
+        "water": 55,
+        "oil": 0,
+        "mining": 0,
+        "renewables": 16,
+        "agriculture": 38
+      },
+      "errors": []
+    },
+    {
+      "country": "Portugal",
+      "scores": {
+        "overall": 54,
+        "transport": 50,
+        "site": 50,
+        "water": 48,
+        "oil": 0,
+        "mining": 0,
+        "renewables": 46,
+        "agriculture": 19
+      },
+      "errors": []
+    },
+    {
+      "country": "Finland",
+      "scores": {
+        "overall": 90,
+        "transport": 79,
+        "site": 78,
+        "water": 47,
+        "oil": 0,
+        "mining": 0,
+        "renewables": 51,
+        "agriculture": 45
+      },
+      "errors": []
+    },
+    {
+      "country": "Greece",
+      "scores": {
+        "overall": null,
+        "transport": null,
+        "site": null,
+        "water": 53,
+        "oil": 0,
+        "mining": 0,
+        "renewables": 30,
+        "agriculture": 35
+      },
+      "errors": []
+    },
+    {
+      "country": "Hungary",
+      "scores": {
+        "overall": 82,
+        "transport": null,
+        "site": 31,
+        "water": 47,
+        "oil": 0,
+        "mining": 0,
+        "renewables": 17,
+        "agriculture": 44
+      },
+      "errors": []
+    },
+    {
+      "country": "Slovakia",
+      "scores": {
+        "overall": 31,
+        "transport": 10,
+        "site": 58,
+        "water": 44,
+        "oil": 0,
+        "mining": 0,
+        "renewables": 21,
+        "agriculture": 67
+      },
+      "errors": []
+    },
+    {
+      "country": "Bulgaria",
+      "scores": {
+        "overall": 70,
+        "transport": 67,
+        "site": 80,
+        "water": 64,
+        "oil": 0,
+        "mining": 1,
+        "renewables": 21,
+        "agriculture": 22
+      },
+      "errors": []
+    },
+    {
+      "country": "Croatia",
+      "scores": {
+        "overall": 61,
+        "transport": null,
+        "site": null,
+        "water": 38,
+        "oil": 0,
+        "mining": 0,
+        "renewables": 49,
+        "agriculture": 34
+      },
+      "errors": []
+    },
+    {
+      "country": "Luxembourg",
+      "scores": {
+        "overall": 78,
+        "transport": null,
+        "site": null,
+        "water": 45,
+        "oil": 0,
+        "mining": 0,
+        "renewables": 50,
+        "agriculture": 0
+      },
+      "errors": []
+    },
+    {
+      "country": "Lithuania",
+      "scores": {
+        "overall": null,
+        "transport": null,
+        "site": null,
+        "water": 43,
+        "oil": 0,
+        "mining": 0,
+        "renewables": 47,
+        "agriculture": 25
+      },
+      "errors": []
+    },
+    {
+      "country": "Slovenia",
+      "scores": {
+        "overall": 68,
+        "transport": 51,
+        "site": 100,
+        "water": 46,
+        "oil": 0,
+        "mining": 0,
+        "renewables": 29,
+        "agriculture": 22
+      },
+      "errors": []
+    },
+    {
+      "country": "Latvia",
+      "scores": {
+        "overall": null,
+        "transport": null,
+        "site": null,
+        "water": 42,
+        "oil": 0,
+        "mining": 0,
+        "renewables": 53,
+        "agriculture": 20
+      },
+      "errors": []
+    },
+    {
+      "country": "Estonia",
+      "scores": {
+        "overall": null,
+        "transport": null,
+        "site": null,
+        "water": 50,
+        "oil": 1,
+        "mining": 0,
+        "renewables": 39,
+        "agriculture": 1
+      },
+      "errors": []
+    },
+    {
+      "country": "Cyprus",
+      "scores": {
+        "overall": null,
+        "transport": null,
+        "site": null,
+        "water": 60,
+        "oil": 0,
+        "mining": 0,
+        "renewables": 16,
+        "agriculture": 33
+      },
+      "errors": []
+    },
+    {
+      "country": "Malta",
+      "scores": {
+        "overall": null,
+        "transport": null,
+        "site": null,
+        "water": 85,
+        "oil": 0,
+        "mining": 0,
+        "renewables": 10,
+        "agriculture": 0
+      },
+      "errors": []
+    }
+  ]
 }

@@ -1,176 +1,408 @@
 [
   {
     "country": "Germany",
-    "status": "published",
-    "overall": 82,
-    "coverage": 100
+    "scores": {
+      "overall": 82,
+      "transport": 78,
+      "site": 59,
+      "water": 63,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 27,
+      "agriculture": 35
+    },
+    "errors": []
   },
   {
     "country": "France",
-    "status": "published",
-    "overall": 20,
-    "coverage": 100
+    "scores": {
+      "overall": 20,
+      "transport": 21,
+      "site": 20,
+      "water": 55,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 19,
+      "agriculture": 67
+    },
+    "errors": []
   },
   {
     "country": "Italy",
-    "status": "published",
-    "overall": 45,
-    "coverage": 55
+    "scores": {
+      "overall": 45,
+      "transport": null,
+      "site": null,
+      "water": 59,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 28,
+      "agriculture": 28
+    },
+    "errors": []
   },
   {
     "country": "Spain",
-    "status": "published",
-    "overall": 26,
-    "coverage": 100
+    "scores": {
+      "overall": 26,
+      "transport": 33,
+      "site": 0,
+      "water": 67,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 31,
+      "agriculture": 15
+    },
+    "errors": []
   },
   {
     "country": "Netherlands",
-    "status": "published",
-    "overall": 41,
-    "coverage": 100
+    "scores": {
+      "overall": 41,
+      "transport": 43,
+      "site": 28,
+      "water": 53,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 21,
+      "agriculture": 42
+    },
+    "errors": []
   },
   {
     "country": "Switzerland",
-    "status": "insufficient",
-    "overall": null,
-    "coverage": 0
+    "scores": {
+      "overall": null,
+      "transport": null,
+      "site": null,
+      "water": 45,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 45,
+      "agriculture": 47
+    },
+    "errors": []
   },
   {
     "country": "Poland",
-    "status": "published",
-    "overall": 62,
-    "coverage": 100
+    "scores": {
+      "overall": 62,
+      "transport": 100,
+      "site": 0,
+      "water": 56,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 16,
+      "agriculture": 40
+    },
+    "errors": []
   },
   {
     "country": "Belgium",
-    "status": "published",
-    "overall": 51,
-    "coverage": 100
+    "scores": {
+      "overall": 51,
+      "transport": 67,
+      "site": 35,
+      "water": 73,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 17,
+      "agriculture": 27
+    },
+    "errors": []
   },
   {
     "country": "Ireland",
-    "status": "insufficient",
-    "overall": null,
-    "coverage": 0
+    "scores": {
+      "overall": null,
+      "transport": null,
+      "site": null,
+      "water": 46,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 23,
+      "agriculture": 36
+    },
+    "errors": []
   },
   {
     "country": "Sweden",
-    "status": "published",
-    "overall": 65,
-    "coverage": 100
+    "scores": {
+      "overall": 65,
+      "transport": 44,
+      "site": 87,
+      "water": 45,
+      "oil": 0,
+      "mining": 1,
+      "renewables": 62,
+      "agriculture": 27
+    },
+    "errors": []
   },
   {
     "country": "Austria",
-    "status": "published",
-    "overall": 49,
-    "coverage": 100
+    "scores": {
+      "overall": 49,
+      "transport": 0,
+      "site": 94,
+      "water": 48,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 55,
+      "agriculture": 32
+    },
+    "errors": []
   },
   {
     "country": "Norway",
-    "status": "published",
-    "overall": 40,
-    "coverage": 100
+    "scores": {
+      "overall": 40,
+      "transport": 26,
+      "site": 48,
+      "water": 44,
+      "oil": 5,
+      "mining": 0,
+      "renewables": 77,
+      "agriculture": 41
+    },
+    "errors": []
   },
   {
     "country": "Denmark",
-    "status": "published",
-    "overall": 43,
-    "coverage": 100
+    "scores": {
+      "overall": 43,
+      "transport": 2,
+      "site": 72,
+      "water": 57,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 57,
+      "agriculture": 28
+    },
+    "errors": []
   },
   {
     "country": "Romania",
-    "status": "published",
-    "overall": 57,
-    "coverage": 55
+    "scores": {
+      "overall": 57,
+      "transport": null,
+      "site": null,
+      "water": 40,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 33,
+      "agriculture": 59
+    },
+    "errors": []
   },
   {
     "country": "Czechia",
-    "status": "published",
-    "overall": 35,
-    "coverage": 100
+    "scores": {
+      "overall": 35,
+      "transport": 1,
+      "site": 55,
+      "water": 55,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 16,
+      "agriculture": 38
+    },
+    "errors": []
   },
   {
     "country": "Portugal",
-    "status": "published",
-    "overall": 54,
-    "coverage": 100
+    "scores": {
+      "overall": 54,
+      "transport": 50,
+      "site": 50,
+      "water": 48,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 46,
+      "agriculture": 19
+    },
+    "errors": []
   },
   {
     "country": "Finland",
-    "status": "published",
-    "overall": 90,
-    "coverage": 100
+    "scores": {
+      "overall": 90,
+      "transport": 79,
+      "site": 78,
+      "water": 47,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 51,
+      "agriculture": 45
+    },
+    "errors": []
   },
   {
     "country": "Greece",
-    "status": "insufficient",
-    "overall": null,
-    "coverage": 0
+    "scores": {
+      "overall": null,
+      "transport": null,
+      "site": null,
+      "water": 53,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 30,
+      "agriculture": 35
+    },
+    "errors": []
   },
   {
     "country": "Hungary",
-    "status": "published",
-    "overall": 82,
-    "coverage": 75
+    "scores": {
+      "overall": 82,
+      "transport": null,
+      "site": 31,
+      "water": 47,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 17,
+      "agriculture": 44
+    },
+    "errors": []
   },
   {
     "country": "Slovakia",
-    "status": "published",
-    "overall": 31,
-    "coverage": 100
+    "scores": {
+      "overall": 31,
+      "transport": 10,
+      "site": 58,
+      "water": 44,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 21,
+      "agriculture": 67
+    },
+    "errors": []
   },
   {
     "country": "Bulgaria",
-    "status": "published",
-    "overall": 70,
-    "coverage": 100
+    "scores": {
+      "overall": 70,
+      "transport": 67,
+      "site": 80,
+      "water": 64,
+      "oil": 0,
+      "mining": 1,
+      "renewables": 21,
+      "agriculture": 22
+    },
+    "errors": []
   },
   {
     "country": "Croatia",
-    "status": "published",
-    "overall": 61,
-    "coverage": 55
+    "scores": {
+      "overall": 61,
+      "transport": null,
+      "site": null,
+      "water": 38,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 49,
+      "agriculture": 34
+    },
+    "errors": []
   },
   {
     "country": "Luxembourg",
-    "status": "published",
-    "overall": 78,
-    "coverage": 55
+    "scores": {
+      "overall": 78,
+      "transport": null,
+      "site": null,
+      "water": 45,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 50,
+      "agriculture": 0
+    },
+    "errors": []
   },
   {
     "country": "Lithuania",
-    "status": "insufficient",
-    "overall": null,
-    "coverage": 0
+    "scores": {
+      "overall": null,
+      "transport": null,
+      "site": null,
+      "water": 43,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 47,
+      "agriculture": 25
+    },
+    "errors": []
   },
   {
     "country": "Slovenia",
-    "status": "published",
-    "overall": 68,
-    "coverage": 100
+    "scores": {
+      "overall": 68,
+      "transport": 51,
+      "site": 100,
+      "water": 46,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 29,
+      "agriculture": 22
+    },
+    "errors": []
   },
   {
     "country": "Latvia",
-    "status": "insufficient",
-    "overall": null,
-    "coverage": 0
+    "scores": {
+      "overall": null,
+      "transport": null,
+      "site": null,
+      "water": 42,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 53,
+      "agriculture": 20
+    },
+    "errors": []
   },
   {
     "country": "Estonia",
-    "status": "insufficient",
-    "overall": null,
-    "coverage": 0
+    "scores": {
+      "overall": null,
+      "transport": null,
+      "site": null,
+      "water": 50,
+      "oil": 1,
+      "mining": 0,
+      "renewables": 39,
+      "agriculture": 1
+    },
+    "errors": []
   },
   {
     "country": "Cyprus",
-    "status": "insufficient",
-    "overall": null,
-    "coverage": 0
+    "scores": {
+      "overall": null,
+      "transport": null,
+      "site": null,
+      "water": 60,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 16,
+      "agriculture": 33
+    },
+    "errors": []
   },
   {
     "country": "Malta",
-    "status": "insufficient",
-    "overall": null,
-    "coverage": 0
+    "scores": {
+      "overall": null,
+      "transport": null,
+      "site": null,
+      "water": 85,
+      "oil": 0,
+      "mining": 0,
+      "renewables": 10,
+      "agriculture": 0
+    },
+    "errors": []
   }
 ]
