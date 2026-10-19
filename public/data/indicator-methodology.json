@@ -1,61 +1,579 @@
 {
-"Overall":[
-{"name":"Construction production","dataset":"Eurostat sts_copr_m · NACE F","url":"https://ec.europa.eu/eurostat/databrowser/view/sts_copr_m/default/table","weight":25,"frequency":"Monthly","role":"Direct","raw":"Construction production index","treatment":"Year-over-year change normalised to 0–100","field":"overall","pipelineStatus":"live"},
-{"name":"Civil engineering output","dataset":"Eurostat sts_copr_m · NACE F42","url":"https://ec.europa.eu/eurostat/databrowser/view/sts_copr_m/default/table","weight":20,"frequency":"Monthly","role":"Direct","raw":"Civil engineering production index","treatment":"Year-over-year change normalised to 0–100","field":"transport","pipelineStatus":"live"},
-{"name":"Building permits","dataset":"Eurostat building permits","url":"https://ec.europa.eu/eurostat/databrowser/","weight":15,"frequency":"Monthly / quarterly","role":"Leading","raw":"Permitted floor area / dwellings","treatment":"Year-over-year momentum with freshness adjustment","field":"overall","pipelineStatus":"adapter-pending"},
-{"name":"Construction confidence","dataset":"EC Business and Consumer Surveys","url":"https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys_en","weight":15,"frequency":"Monthly","role":"Leading","raw":"Construction confidence balance","treatment":"Balance versus neutral and recent trend","field":"overall","pipelineStatus":"adapter-pending"},
-{"name":"Construction employment","dataset":"Eurostat STS employment","url":"https://ec.europa.eu/eurostat/web/short-term-business-statistics","weight":10,"frequency":"Monthly / quarterly","role":"Direct","raw":"Construction employment index","treatment":"Year-over-year momentum","field":"overall","pipelineStatus":"adapter-pending"},
-{"name":"Construction prices and costs","dataset":"Eurostat construction costs","url":"https://ec.europa.eu/eurostat/web/short-term-business-statistics","weight":10,"frequency":"Quarterly","role":"Pressure","raw":"Input and output cost indices","treatment":"Cost pressure, inverted where adverse","field":"overall","pipelineStatus":"adapter-pending"},
-{"name":"Fixed investment","dataset":"Eurostat national accounts","url":"https://ec.europa.eu/eurostat/web/national-accounts","weight":5,"frequency":"Quarterly","role":"Context","raw":"Gross fixed capital formation","treatment":"Year-over-year real investment momentum","field":"overall","pipelineStatus":"adapter-pending"}],
-"Transportation":[
-{"name":"Civil engineering output","dataset":"Eurostat sts_copr_m · NACE F42","url":"https://ec.europa.eu/eurostat/databrowser/view/sts_copr_m/default/table","weight":25,"frequency":"Monthly","role":"Direct","raw":"Civil engineering production index","treatment":"Year-over-year momentum","field":"transport","pipelineStatus":"live"},
-{"name":"Transport investment and pipeline","dataset":"TEN-T / CEF projects","url":"https://transport.ec.europa.eu/transport-themes/infrastructure-and-investment/ten-t_en","weight":25,"frequency":"Event / annual","role":"Forward","raw":"Official awarded and planned projects","treatment":"Value, stage and recency score","field":"transport","pipelineStatus":"adapter-pending"},
-{"name":"Rail freight activity","dataset":"Eurostat rail transport","url":"https://ec.europa.eu/eurostat/web/transport","weight":15,"frequency":"Quarterly","role":"Demand","raw":"Tonne-km and freight volumes","treatment":"Year-over-year activity momentum","field":"transport","pipelineStatus":"adapter-pending"},
-{"name":"Road freight activity","dataset":"Eurostat road freight","url":"https://ec.europa.eu/eurostat/web/transport","weight":10,"frequency":"Quarterly","role":"Demand","raw":"Tonne-km and freight volumes","treatment":"Year-over-year activity momentum","field":"transport","pipelineStatus":"adapter-pending"},
-{"name":"Ports and logistics","dataset":"Eurostat maritime transport","url":"https://ec.europa.eu/eurostat/web/transport","weight":10,"frequency":"Quarterly","role":"Demand","raw":"Port freight volumes","treatment":"Year-over-year activity momentum","field":"transport","pipelineStatus":"adapter-pending"},
-{"name":"Construction confidence","dataset":"EC Business and Consumer Surveys","url":"https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys_en","weight":10,"frequency":"Monthly","role":"Leading","raw":"Construction confidence balance","treatment":"Balance and three-month trend","field":"transport","pipelineStatus":"adapter-pending"},
-{"name":"Funding announcements","dataset":"EIB / EBRD transport projects","url":"https://www.eib.org/en/projects/index.htm","weight":5,"frequency":"Event-driven","role":"Forward","raw":"Official financing announcements","treatment":"Value and recency score","field":"transport","pipelineStatus":"adapter-pending"}],
-"Site Development":[
-{"name":"Building permits","dataset":"Eurostat building permits","url":"https://ec.europa.eu/eurostat/databrowser/","weight":30,"frequency":"Monthly / quarterly","role":"Leading","raw":"Permitted floor area / dwellings","treatment":"Year-over-year permit momentum","field":"site","pipelineStatus":"adapter-pending"},
-{"name":"Non-residential permits","dataset":"Eurostat building permits","url":"https://ec.europa.eu/eurostat/databrowser/","weight":20,"frequency":"Monthly / quarterly","role":"Leading","raw":"Non-residential permit volumes","treatment":"Year-over-year momentum","field":"site","pipelineStatus":"adapter-pending"},
-{"name":"Building construction output","dataset":"Eurostat sts_copr_m · NACE F41","url":"https://ec.europa.eu/eurostat/databrowser/view/sts_copr_m/default/table","weight":20,"frequency":"Monthly","role":"Direct","raw":"Building production index","treatment":"Year-over-year momentum","field":"site","pipelineStatus":"live"},
-{"name":"Construction confidence","dataset":"EC Business and Consumer Surveys","url":"https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys_en","weight":10,"frequency":"Monthly","role":"Leading","raw":"Construction confidence balance","treatment":"Balance and trend","field":"site","pipelineStatus":"adapter-pending"},
-{"name":"Construction employment","dataset":"Eurostat STS employment","url":"https://ec.europa.eu/eurostat/web/short-term-business-statistics","weight":10,"frequency":"Monthly / quarterly","role":"Direct","raw":"Construction employment index","treatment":"Year-over-year momentum","field":"site","pipelineStatus":"adapter-pending"},
-{"name":"Financing and property conditions","dataset":"Eurostat / ECB conditions","url":"https://ec.europa.eu/eurostat/databrowser/","weight":10,"frequency":"Monthly / quarterly","role":"Context","raw":"Rates, lending and investment proxies","treatment":"Composite financing momentum","field":"site","pipelineStatus":"adapter-pending"}],
-"Waste & Water":[
-{"name":"Wastewater treatment connection","dataset":"Eurostat water statistics","url":"https://ec.europa.eu/eurostat/web/environment/information-data/water","weight":15,"frequency":"Annual","role":"Need","raw":"Population connected to treatment","treatment":"Infrastructure gap and progress","field":"water","pipelineStatus":"adapter-pending"},
-{"name":"Water stress and abstraction","dataset":"EEA WEI+ / freshwater abstraction","url":"https://www.eea.europa.eu/en/topics/in-depth/water","weight":15,"frequency":"Annual / seasonal","role":"Need","raw":"Water exploitation and abstraction","treatment":"Need score with seasonal context","field":"water","pipelineStatus":"adapter-pending"},
-{"name":"Waste generation and treatment","dataset":"Eurostat waste statistics","url":"https://ec.europa.eu/eurostat/web/waste","weight":15,"frequency":"Annual / biennial","role":"Need","raw":"Waste generated, recycled and landfilled","treatment":"Volume and treatment-gap momentum","field":"water","pipelineStatus":"adapter-pending"},
-{"name":"Water infrastructure funding","dataset":"EIB water projects","url":"https://www.eib.org/en/projects/index.htm","weight":20,"frequency":"Event-driven","role":"Forward","raw":"Official financed water projects","treatment":"Value, stage and recency","field":"water","pipelineStatus":"adapter-pending"},
-{"name":"Treatment and reservoir pipeline","dataset":"EBRD water projects","url":"https://www.ebrd.com/home/what-we-do/projects.html","weight":20,"frequency":"Event-driven","role":"Forward","raw":"Treatment, desalination and reservoir projects","treatment":"Count, value, stage and recency","field":"water","pipelineStatus":"adapter-pending"},
-{"name":"Landfill and remediation pipeline","dataset":"Official environment projects","url":"https://www.ebrd.com/home/what-we-do/projects.html","weight":15,"frequency":"Event-driven","role":"Forward","raw":"Landfill, remediation and waste projects","treatment":"Count, value, stage and recency","field":"water","pipelineStatus":"adapter-pending"}],
-"Oil & Gas":[
-{"name":"Oil and gas extraction index","dataset":"Eurostat extraction series","url":"https://ec.europa.eu/eurostat/databrowser/","weight":20,"frequency":"Monthly","role":"Direct","raw":"Extraction production index","treatment":"Year-over-year momentum","field":"oil","pipelineStatus":"adapter-pending"},
-{"name":"Crude and gas production","dataset":"Eurostat energy balances","url":"https://ec.europa.eu/eurostat/databrowser/","weight":15,"frequency":"Monthly","role":"Direct","raw":"Production volumes","treatment":"Year-over-year momentum","field":"oil","pipelineStatus":"adapter-pending"},
-{"name":"Refinery throughput","dataset":"Eurostat energy statistics","url":"https://ec.europa.eu/eurostat/databrowser/","weight":10,"frequency":"Monthly","role":"Demand","raw":"Refinery input and output volumes","treatment":"Year-over-year momentum","field":"oil","pipelineStatus":"adapter-pending"},
-{"name":"LNG imports and terminal use","dataset":"Eurostat energy imports","url":"https://ec.europa.eu/eurostat/databrowser/","weight":15,"frequency":"Monthly","role":"Demand","raw":"LNG import and send-out volumes","treatment":"Year-over-year momentum","field":"oil","pipelineStatus":"adapter-pending"},
-{"name":"Pipeline, storage and terminal projects","dataset":"EIB energy projects","url":"https://www.eib.org/en/projects/index.htm","weight":30,"frequency":"Event-driven","role":"Forward","raw":"Approved and financed infrastructure","treatment":"Value, stage and recency","field":"oil","pipelineStatus":"adapter-pending"},
-{"name":"Asset approvals and regulation","dataset":"Official regulators / ministries","url":"https://www.ebrd.com/home/what-we-do/projects.html","weight":10,"frequency":"Event-driven","role":"Forward","raw":"Approvals and investment decisions","treatment":"Stage and recency score","field":"oil","pipelineStatus":"adapter-pending"}],
-"Mining":[
-{"name":"Mining and quarrying production","dataset":"Eurostat mining production","url":"https://ec.europa.eu/eurostat/databrowser/","weight":20,"frequency":"Monthly","role":"Direct","raw":"Mining production index","treatment":"Year-over-year momentum","field":"mining","pipelineStatus":"adapter-pending"},
-{"name":"Metal ore production","dataset":"National mineral statistics","url":"https://ec.europa.eu/eurostat/databrowser/","weight":15,"frequency":"Monthly / annual","role":"Direct","raw":"Ore production volumes","treatment":"Year-over-year momentum","field":"mining","pipelineStatus":"adapter-pending"},
-{"name":"Mining investment and capex","dataset":"EBRD mining projects","url":"https://www.ebrd.com/home/what-we-do/projects.html","weight":20,"frequency":"Quarterly / annual","role":"Forward","raw":"Investment and capex announcements","treatment":"Value, stage and recency","field":"mining","pipelineStatus":"adapter-pending"},
-{"name":"Mine approvals and pipeline","dataset":"National authorities / EBRD","url":"https://www.ebrd.com/home/what-we-do/projects.html","weight":20,"frequency":"Event-driven","role":"Forward","raw":"Approved and proposed mines","treatment":"Stage, value and recency","field":"mining","pipelineStatus":"adapter-pending"},
-{"name":"Tailings and remediation projects","dataset":"EIB environment projects","url":"https://www.eib.org/en/projects/index.htm","weight":15,"frequency":"Event-driven","role":"Forward","raw":"Tailings and remediation projects","treatment":"Stage, value and recency","field":"mining","pipelineStatus":"adapter-pending"},
-{"name":"Commodity-price context","dataset":"World Bank Pink Sheet","url":"https://www.worldbank.org/en/research/commodity-markets","weight":10,"frequency":"Monthly","role":"Context","raw":"Metals and minerals price indices","treatment":"Price momentum with capped influence","field":"mining","pipelineStatus":"adapter-pending"}],
-"Renewables":[
-{"name":"Renewable capacity additions","dataset":"IRENA capacity statistics","url":"https://www.irena.org/Data","weight":20,"frequency":"Annual","role":"Structural","raw":"Installed capacity by technology","treatment":"Annual growth and country percentile","field":"renewables","pipelineStatus":"adapter-pending"},
-{"name":"Renewable generation","dataset":"ENTSO-E generation by type","url":"https://transparency.entsoe.eu/","weight":15,"frequency":"Daily / monthly","role":"Direct","raw":"Generation by production type","treatment":"Year-over-year generation momentum","field":"renewables","pipelineStatus":"adapter-pending"},
-{"name":"Auctions and awarded projects","dataset":"National auctions / EIB","url":"https://www.eib.org/en/projects/index.htm","weight":20,"frequency":"Event-driven","role":"Forward","raw":"Awarded renewable projects","treatment":"Capacity, stage and recency","field":"renewables","pipelineStatus":"adapter-pending"},
-{"name":"Permitted project pipeline","dataset":"National regulators / EBRD","url":"https://www.ebrd.com/home/what-we-do/projects.html","weight":20,"frequency":"Event-driven","role":"Forward","raw":"Permitted wind, solar and storage projects","treatment":"Capacity, stage and recency","field":"renewables","pipelineStatus":"adapter-pending"},
-{"name":"Grid investment","dataset":"ENTSO-E / EIB grid projects","url":"https://transparency.entsoe.eu/","weight":15,"frequency":"Annual / event-driven","role":"Forward","raw":"Grid development and financing","treatment":"Value, stage and recency","field":"renewables","pipelineStatus":"adapter-pending"},
-{"name":"Battery storage pipeline","dataset":"National regulators / EIB","url":"https://www.eib.org/en/projects/index.htm","weight":10,"frequency":"Event-driven","role":"Forward","raw":"Storage capacity in development","treatment":"Capacity, stage and recency","field":"renewables","pipelineStatus":"adapter-pending"}],
-"Agriculture":[
-{"name":"Drought and soil moisture","dataset":"Copernicus drought indicators","url":"https://drought.emergency.copernicus.eu/","weight":25,"frequency":"Weekly / monthly","role":"Need","raw":"Soil moisture and drought anomalies","treatment":"Seasonal need score","field":"agriculture","pipelineStatus":"adapter-pending"},
-{"name":"Agricultural investment","dataset":"Eurostat economic accounts for agriculture","url":"https://ec.europa.eu/eurostat/web/agriculture/database","weight":20,"frequency":"Annual / quarterly","role":"Direct","raw":"Investment and capital formation","treatment":"Real investment momentum","field":"agriculture","pipelineStatus":"adapter-pending"},
-{"name":"Irrigation and water programmes","dataset":"EIB / national programmes","url":"https://www.eib.org/en/projects/index.htm","weight":15,"frequency":"Event-driven","role":"Forward","raw":"Irrigation and rural water projects","treatment":"Value, stage and recency","field":"agriculture","pipelineStatus":"adapter-pending"},
-{"name":"Crop and livestock outlook","dataset":"Eurostat agricultural production","url":"https://ec.europa.eu/eurostat/web/agriculture/database","weight":15,"frequency":"Monthly / quarterly","role":"Demand","raw":"Crop and livestock production","treatment":"Year-over-year / seasonal momentum","field":"agriculture","pipelineStatus":"adapter-pending"},
-{"name":"Agricultural output prices","dataset":"Eurostat agricultural price indices","url":"https://ec.europa.eu/eurostat/web/agriculture/database","weight":10,"frequency":"Monthly / quarterly","role":"Context","raw":"Output price indices","treatment":"Price momentum","field":"agriculture","pipelineStatus":"adapter-pending"},
-{"name":"Input costs","dataset":"Eurostat agricultural input prices","url":"https://ec.europa.eu/eurostat/web/agriculture/database","weight":10,"frequency":"Quarterly","role":"Pressure","raw":"Fertiliser, energy and input prices","treatment":"Cost pressure inverted where adverse","field":"agriculture","pipelineStatus":"adapter-pending"},
-{"name":"CAP and rural development funding","dataset":"EU / EIB rural programmes","url":"https://www.eib.org/en/projects/index.htm","weight":5,"frequency":"Annual / event-driven","role":"Forward","raw":"Funding allocations and projects","treatment":"Value and recency score","field":"agriculture","pipelineStatus":"adapter-pending"}]
+  "Overall": [
+    {
+      "name": "Construction production",
+      "weight": 25,
+      "source": "Eurostat sts_copr_m F",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "construction_production",
+      "pipelineStatus": "live",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Civil engineering output",
+      "weight": 20,
+      "source": "Eurostat sts_copr_m F42",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "civil_output",
+      "pipelineStatus": "live",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Building permits",
+      "weight": 15,
+      "source": "Eurostat permits",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "permits",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Construction confidence",
+      "weight": 15,
+      "source": "EC BCS",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "confidence",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Construction employment",
+      "weight": 10,
+      "source": "Eurostat STS",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "employment",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Construction prices & costs",
+      "weight": 10,
+      "source": "Eurostat STS",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "costs",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Fixed investment",
+      "weight": 5,
+      "source": "Eurostat National Accounts",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "investment",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    }
+  ],
+  "Transportation": [
+    {
+      "name": "Civil engineering output",
+      "weight": 25,
+      "source": "Eurostat sts_copr_m F42",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "civil_output",
+      "pipelineStatus": "live",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Transport investment & pipeline",
+      "weight": 25,
+      "source": "TEN-T / CEF",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "transport_pipeline",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Rail freight activity",
+      "weight": 15,
+      "source": "Eurostat Transport",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "rail",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Road freight activity",
+      "weight": 10,
+      "source": "Eurostat Transport",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "road",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Ports & logistics",
+      "weight": 10,
+      "source": "Eurostat Maritime",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "ports",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Construction confidence",
+      "weight": 10,
+      "source": "EC BCS",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "confidence",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Funding announcements",
+      "weight": 5,
+      "source": "EIB / EBRD",
+      "url": "https://www.eib.org/en/projects/index.htm",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "transport_funding",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    }
+  ],
+  "Site Development": [
+    {
+      "name": "Building permits",
+      "weight": 30,
+      "source": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "permits",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Non-residential permits",
+      "weight": 20,
+      "source": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "nonres_permits",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Building construction output",
+      "weight": 20,
+      "source": "Eurostat sts_copr_m F41",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "building_output",
+      "pipelineStatus": "live",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Construction confidence",
+      "weight": 10,
+      "source": "EC BCS",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "confidence",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Construction employment",
+      "weight": 10,
+      "source": "Eurostat STS",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "employment",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Financing & property conditions",
+      "weight": 10,
+      "source": "Eurostat / ECB",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "financing",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    }
+  ],
+  "Waste & Water": [
+    {
+      "name": "Wastewater treatment connection",
+      "weight": 15,
+      "source": "World Bank / Eurostat Water",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "drinking_water",
+      "pipelineStatus": "live",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Water stress & abstraction",
+      "weight": 15,
+      "source": "World Bank / EEA",
+      "url": "https://data.worldbank.org/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "water_stress",
+      "pipelineStatus": "live",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Waste generation & treatment",
+      "weight": 15,
+      "source": "Eurostat Waste",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "waste",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Water infrastructure funding",
+      "weight": 20,
+      "source": "EIB",
+      "url": "https://www.eib.org/en/projects/index.htm",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "water_funding",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Treatment & reservoir pipeline",
+      "weight": 20,
+      "source": "EIB / EBRD",
+      "url": "https://www.eib.org/en/projects/index.htm",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "water_pipeline",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Landfill & remediation pipeline",
+      "weight": 15,
+      "source": "EIB / EBRD",
+      "url": "https://www.eib.org/en/projects/index.htm",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "remediation",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    }
+  ],
+  "Oil & Gas": [
+    {
+      "name": "Oil & gas extraction index",
+      "weight": 20,
+      "source": "Eurostat / World Bank",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "oil_rents",
+      "pipelineStatus": "live",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Crude & gas production",
+      "weight": 15,
+      "source": "World Bank / Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "gas_rents",
+      "pipelineStatus": "live",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Refinery throughput",
+      "weight": 10,
+      "source": "Eurostat Energy",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "refinery",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "LNG imports & terminal use",
+      "weight": 15,
+      "source": "Eurostat Energy",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "lng",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Pipeline, storage & terminal projects",
+      "weight": 30,
+      "source": "EIB / EBRD",
+      "url": "https://www.eib.org/en/projects/index.htm",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "oil_pipeline",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Asset approvals & regulation",
+      "weight": 10,
+      "source": "Official regulators",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "approvals",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    }
+  ],
+  "Mining": [
+    {
+      "name": "Mining & quarrying production",
+      "weight": 20,
+      "source": "Eurostat / World Bank",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "mineral_rents",
+      "pipelineStatus": "live",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Metal ore production",
+      "weight": 15,
+      "source": "National statistics",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "ore",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Mining investment & capex",
+      "weight": 20,
+      "source": "EBRD",
+      "url": "https://www.ebrd.com/home/what-we-do/projects.html",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "mining_capex",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Mine approvals & pipeline",
+      "weight": 20,
+      "source": "National authorities",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "mine_pipeline",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Tailings & remediation projects",
+      "weight": 15,
+      "source": "EIB / EBRD",
+      "url": "https://www.eib.org/en/projects/index.htm",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "tailings",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Commodity-price context",
+      "weight": 10,
+      "source": "World Bank Pink Sheet",
+      "url": "https://data.worldbank.org/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "metals",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    }
+  ],
+  "Renewables": [
+    {
+      "name": "Renewable capacity additions",
+      "weight": 20,
+      "source": "IRENA / World Bank",
+      "url": "https://data.worldbank.org/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "renewable_share",
+      "pipelineStatus": "live",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Renewable generation",
+      "weight": 15,
+      "source": "ENTSO-E / World Bank",
+      "url": "https://data.worldbank.org/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "renewable_electricity",
+      "pipelineStatus": "live",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Auctions & awarded projects",
+      "weight": 20,
+      "source": "National auctions / EIB",
+      "url": "https://www.eib.org/en/projects/index.htm",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "renewable_awards",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Permitted project pipeline",
+      "weight": 20,
+      "source": "National regulators",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "renewable_pipeline",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Grid investment",
+      "weight": 15,
+      "source": "ENTSO-E / EIB",
+      "url": "https://www.eib.org/en/projects/index.htm",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "grid",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Battery storage pipeline",
+      "weight": 10,
+      "source": "National regulators / EIB",
+      "url": "https://www.eib.org/en/projects/index.htm",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "storage",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    }
+  ],
+  "Agriculture": [
+    {
+      "name": "Drought & soil moisture",
+      "weight": 25,
+      "source": "Copernicus",
+      "url": "https://drought.emergency.copernicus.eu/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "drought",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Agricultural investment",
+      "weight": 20,
+      "source": "Eurostat Agriculture",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "agri_growth",
+      "pipelineStatus": "live",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Irrigation & water programmes",
+      "weight": 15,
+      "source": "EIB",
+      "url": "https://www.eib.org/en/projects/index.htm",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "irrigation",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Crop & livestock outlook",
+      "weight": 15,
+      "source": "Eurostat Agriculture",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "agri_share",
+      "pipelineStatus": "live",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Agricultural output prices",
+      "weight": 10,
+      "source": "Eurostat Agriculture",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "agri_prices",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "Input costs",
+      "weight": 10,
+      "source": "Eurostat Agriculture",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "input_costs",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    },
+    {
+      "name": "CAP & rural development funding",
+      "weight": 5,
+      "source": "EU / EIB",
+      "url": "https://www.eib.org/en/projects/index.htm",
+      "frequency": "Monthly / annual / event-driven",
+      "role": "Direct / leading / forward",
+      "key": "cap",
+      "pipelineStatus": "pending",
+      "treatment": "Validated source observation → normalised 0–100 → weighted contribution"
+    }
+  ]
 }
