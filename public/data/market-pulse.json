@@ -1,0 +1,436 @@
+{
+  "generatedAt": "Initial packaged dataset",
+  "europe": [
+    {
+      "country": "Spain",
+      "flag": "🇪🇸",
+      "overall": 67,
+      "confidence": "High",
+      "transport": 71,
+      "site": 44,
+      "water": 76,
+      "oil": 12,
+      "mining": 28,
+      "renewables": 82,
+      "agriculture": 63,
+      "coverage": 94
+    },
+    {
+      "country": "France",
+      "flag": "🇫🇷",
+      "overall": 42,
+      "confidence": "High",
+      "transport": 58,
+      "site": 31,
+      "water": 54,
+      "oil": 18,
+      "mining": null,
+      "renewables": 61,
+      "agriculture": 39,
+      "coverage": 96
+    },
+    {
+      "country": "Italy",
+      "flag": "🇮🇹",
+      "overall": 49,
+      "confidence": "High",
+      "transport": 52,
+      "site": 37,
+      "water": 69,
+      "oil": 22,
+      "mining": 20,
+      "renewables": 74,
+      "agriculture": 51,
+      "coverage": 93
+    },
+    {
+      "country": "Portugal",
+      "flag": "🇵🇹",
+      "overall": 60,
+      "confidence": "High",
+      "transport": 64,
+      "site": 49,
+      "water": 71,
+      "oil": 8,
+      "mining": 34,
+      "renewables": 79,
+      "agriculture": 58,
+      "coverage": 89
+    },
+    {
+      "country": "Germany",
+      "flag": "🇩🇪",
+      "overall": 23,
+      "confidence": "High",
+      "transport": 46,
+      "site": 8,
+      "water": 31,
+      "oil": 10,
+      "mining": 18,
+      "renewables": 55,
+      "agriculture": 24,
+      "coverage": 95
+    },
+    {
+      "country": "Poland",
+      "flag": "🇵🇱",
+      "overall": 72,
+      "confidence": "High",
+      "transport": 81,
+      "site": 61,
+      "water": 66,
+      "oil": 12,
+      "mining": 45,
+      "renewables": 68,
+      "agriculture": 52,
+      "coverage": 91
+    }
+  ],
+  "emea": [
+    {
+      "country": "Saudi Arabia",
+      "flag": "🇸🇦",
+      "overall": 78,
+      "confidence": "Medium",
+      "transport": 82,
+      "site": 88,
+      "water": 75,
+      "oil": 81,
+      "mining": 74,
+      "renewables": 62,
+      "agriculture": 27,
+      "coverage": 71
+    },
+    {
+      "country": "UAE",
+      "flag": "🇦🇪",
+      "overall": 73,
+      "confidence": "Medium",
+      "transport": 76,
+      "site": 84,
+      "water": 70,
+      "oil": 65,
+      "mining": 25,
+      "renewables": 72,
+      "agriculture": 20,
+      "coverage": 74
+    },
+    {
+      "country": "Morocco",
+      "flag": "🇲🇦",
+      "overall": 66,
+      "confidence": "Medium",
+      "transport": 63,
+      "site": 58,
+      "water": 82,
+      "oil": 5,
+      "mining": 61,
+      "renewables": 78,
+      "agriculture": 69,
+      "coverage": 68
+    },
+    {
+      "country": "South Africa",
+      "flag": "🇿🇦",
+      "overall": 38,
+      "confidence": "Medium",
+      "transport": 28,
+      "site": 31,
+      "water": 57,
+      "oil": 6,
+      "mining": 72,
+      "renewables": 64,
+      "agriculture": 44,
+      "coverage": 66
+    },
+    {
+      "country": "Kazakhstan",
+      "flag": "🇰🇿",
+      "overall": 59,
+      "confidence": "Low",
+      "transport": 54,
+      "site": 43,
+      "water": 37,
+      "oil": 77,
+      "mining": 86,
+      "renewables": 40,
+      "agriculture": 46,
+      "coverage": 49
+    },
+    {
+      "country": "Egypt",
+      "flag": "🇪🇬",
+      "overall": 55,
+      "confidence": "Medium",
+      "transport": 60,
+      "site": 62,
+      "water": 74,
+      "oil": 38,
+      "mining": 31,
+      "renewables": 57,
+      "agriculture": 49,
+      "coverage": 63
+    }
+  ],
+  "indicators": {
+    "Overall": [
+      {
+        "name": "Construction production",
+        "source": "Eurostat / official public source",
+        "url": "https://ec.europa.eu/eurostat/web/",
+        "weight": 20,
+        "frequency": "Monthly / quarterly",
+        "role": "Momentum input",
+        "status": "Pipeline configured"
+      },
+      {
+        "name": "Civil engineering output",
+        "source": "Eurostat / official public source",
+        "url": "https://ec.europa.eu/eurostat/web/",
+        "weight": 20,
+        "frequency": "Monthly / quarterly",
+        "role": "Momentum input",
+        "status": "Pipeline configured"
+      },
+      {
+        "name": "Building permits",
+        "source": "Eurostat / official public source",
+        "url": "https://ec.europa.eu/eurostat/web/",
+        "weight": 20,
+        "frequency": "Monthly / quarterly",
+        "role": "Momentum input",
+        "status": "Pipeline configured"
+      },
+      {
+        "name": "Construction confidence",
+        "source": "Eurostat / official public source",
+        "url": "https://ec.europa.eu/eurostat/web/",
+        "weight": 20,
+        "frequency": "Monthly / quarterly",
+        "role": "Momentum input",
+        "status": "Pipeline configured"
+      },
+      {
+        "name": "Construction employment",
+        "source": "Eurostat / official public source",
+        "url": "https://ec.europa.eu/eurostat/web/",
+        "weight": 20,
+        "frequency": "Monthly / quarterly",
+        "role": "Momentum input",
+        "status": "Pipeline configured"
+      }
+    ],
+    "Transportation": [
+      {
+        "name": "Civil engineering output",
+        "source": "Eurostat / official public source",
+        "url": "https://ec.europa.eu/eurostat/web/",
+        "weight": 25,
+        "frequency": "Monthly / quarterly",
+        "role": "Momentum input",
+        "status": "Pipeline configured"
+      },
+      {
+        "name": "Rail activity",
+        "source": "Eurostat / official public source",
+        "url": "https://ec.europa.eu/eurostat/web/",
+        "weight": 25,
+        "frequency": "Monthly / quarterly",
+        "role": "Momentum input",
+        "status": "Pipeline configured"
+      },
+      {
+        "name": "Road activity",
+        "source": "Eurostat / official public source",
+        "url": "https://ec.europa.eu/eurostat/web/",
+        "weight": 25,
+        "frequency": "Monthly / quarterly",
+        "role": "Momentum input",
+        "status": "Pipeline configured"
+      },
+      {
+        "name": "Ports and logistics",
+        "source": "Eurostat / official public source",
+        "url": "https://ec.europa.eu/eurostat/web/",
+        "weight": 25,
+        "frequency": "Monthly / quarterly",
+        "role": "Momentum input",
+        "status": "Pipeline configured"
+      }
+    ],
+    "Site Development": [
+      {
+        "name": "Building permits",
+        "source": "Eurostat / official public source",
+        "url": "https://ec.europa.eu/eurostat/web/",
+        "weight": 33,
+        "frequency": "Monthly / quarterly",
+        "role": "Momentum input",
+        "status": "Pipeline configured"
+      },
+      {
+        "name": "Non-residential permits",
+        "source": "Eurostat / official public source",
+        "url": "https://ec.europa.eu/eurostat/web/",
+        "weight": 33,
+        "frequency": "Monthly / quarterly",
+        "role": "Momentum input",
+        "status": "Pipeline configured"
+      },
+      {
+        "name": "Building construction output",
+        "source": "Eurostat / official public source",
+        "url": "https://ec.europa.eu/eurostat/web/",
+        "weight": 34,
+        "frequency": "Monthly / quarterly",
+        "role": "Momentum input",
+        "status": "Pipeline configured"
+      }
+    ],
+    "Waste & Water": [
+      {
+        "name": "Water infrastructure funding",
+        "source": "Eurostat / official public source",
+        "url": "https://ec.europa.eu/eurostat/web/",
+        "weight": 33,
+        "frequency": "Monthly / quarterly",
+        "role": "Momentum input",
+        "status": "Pipeline configured"
+      },
+      {
+        "name": "Wastewater treatment",
+        "source": "Eurostat / official public source",
+        "url": "https://ec.europa.eu/eurostat/web/",
+        "weight": 33,
+        "frequency": "Monthly / quarterly",
+        "role": "Momentum input",
+        "status": "Pipeline configured"
+      },
+      {
+        "name": "Waste generation and treatment",
+        "source": "Eurostat / official public source",
+        "url": "https://ec.europa.eu/eurostat/web/",
+        "weight": 34,
+        "frequency": "Monthly / quarterly",
+        "role": "Momentum input",
+        "status": "Pipeline configured"
+      }
+    ],
+    "Oil & Gas": [
+      {
+        "name": "Extraction index",
+        "source": "Eurostat / official public source",
+        "url": "https://ec.europa.eu/eurostat/web/",
+        "weight": 33,
+        "frequency": "Monthly / quarterly",
+        "role": "Momentum input",
+        "status": "Pipeline configured"
+      },
+      {
+        "name": "Production",
+        "source": "Eurostat / official public source",
+        "url": "https://ec.europa.eu/eurostat/web/",
+        "weight": 33,
+        "frequency": "Monthly / quarterly",
+        "role": "Momentum input",
+        "status": "Pipeline configured"
+      },
+      {
+        "name": "Pipeline and terminal projects",
+        "source": "Eurostat / official public source",
+        "url": "https://ec.europa.eu/eurostat/web/",
+        "weight": 34,
+        "frequency": "Monthly / quarterly",
+        "role": "Momentum input",
+        "status": "Pipeline configured"
+      }
+    ],
+    "Mining": [
+      {
+        "name": "Mining production",
+        "source": "Eurostat / official public source",
+        "url": "https://ec.europa.eu/eurostat/web/",
+        "weight": 33,
+        "frequency": "Monthly / quarterly",
+        "role": "Momentum input",
+        "status": "Pipeline configured"
+      },
+      {
+        "name": "Mine approvals",
+        "source": "Eurostat / official public source",
+        "url": "https://ec.europa.eu/eurostat/web/",
+        "weight": 33,
+        "frequency": "Monthly / quarterly",
+        "role": "Momentum input",
+        "status": "Pipeline configured"
+      },
+      {
+        "name": "Tailings projects",
+        "source": "Eurostat / official public source",
+        "url": "https://ec.europa.eu/eurostat/web/",
+        "weight": 34,
+        "frequency": "Monthly / quarterly",
+        "role": "Momentum input",
+        "status": "Pipeline configured"
+      }
+    ],
+    "Renewables": [
+      {
+        "name": "Capacity additions",
+        "source": "Eurostat / official public source",
+        "url": "https://ec.europa.eu/eurostat/web/",
+        "weight": 33,
+        "frequency": "Monthly / quarterly",
+        "role": "Momentum input",
+        "status": "Pipeline configured"
+      },
+      {
+        "name": "Auctions and awards",
+        "source": "Eurostat / official public source",
+        "url": "https://ec.europa.eu/eurostat/web/",
+        "weight": 33,
+        "frequency": "Monthly / quarterly",
+        "role": "Momentum input",
+        "status": "Pipeline configured"
+      },
+      {
+        "name": "Grid investment",
+        "source": "Eurostat / official public source",
+        "url": "https://ec.europa.eu/eurostat/web/",
+        "weight": 34,
+        "frequency": "Monthly / quarterly",
+        "role": "Momentum input",
+        "status": "Pipeline configured"
+      }
+    ],
+    "Agriculture": [
+      {
+        "name": "Drought and soil moisture",
+        "source": "Eurostat / official public source",
+        "url": "https://ec.europa.eu/eurostat/web/",
+        "weight": 33,
+        "frequency": "Monthly / quarterly",
+        "role": "Momentum input",
+        "status": "Pipeline configured"
+      },
+      {
+        "name": "Agricultural investment",
+        "source": "Eurostat / official public source",
+        "url": "https://ec.europa.eu/eurostat/web/",
+        "weight": 33,
+        "frequency": "Monthly / quarterly",
+        "role": "Momentum input",
+        "status": "Pipeline configured"
+      },
+      {
+        "name": "Irrigation programmes",
+        "source": "Eurostat / official public source",
+        "url": "https://ec.europa.eu/eurostat/web/",
+        "weight": 34,
+        "frequency": "Monthly / quarterly",
+        "role": "Momentum input",
+        "status": "Pipeline configured"
+      }
+    ]
+  }
+}
