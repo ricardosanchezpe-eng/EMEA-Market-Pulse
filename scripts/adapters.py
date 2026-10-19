@@ -22,18 +22,24 @@ def decode_nace(j,nace):
   a=[v for _,v in sorted(x) if isinstance(v,(int,float)) and math.isfinite(v)]
   if len(a)>=13:use.append(a)
  return max(use,key=len) if use else []
+def yoy_detail(a):
+ if len(a)<13 or not a[-13]:return (None,None,None,None)
+ latest=a[-1];previous=a[-13];growth=(latest/previous-1)*100
+ if not math.isfinite(growth) or abs(growth)>80:return (None,latest,previous,growth)
+ score=round(max(0,min(100,50+4*growth)))
+ return (score,latest,previous,growth)
 def yoy_index(a):
- if len(a)<13 or not a[-13]:return None
- g=(a[-1]/a[-13]-1)*100
- return None if not math.isfinite(g) or abs(g)>80 else round(max(0,min(100,50+4*g)))
+ return yoy_detail(a)[0]
 def wb_series(code,indicator):
  u=f'https://api.worldbank.org/v2/country/{code}/indicator/{indicator}?format=json&per_page=70'
  j=read_json(u);rows=j[1] if isinstance(j,list) and len(j)>1 else [];return [(x.get('date'),x.get('value')) for x in rows if isinstance(x.get('value'),(int,float))],u
+def wb_detail(rows,scale=3,level=False):
+ if not rows:return None,None,None,None,None
+ latest_date,latest=rows[0];previous_row=next(((d,v) for d,v in rows[1:] if v is not None),None)
+ previous_date,previous=previous_row if previous_row else (None,None)
+ change=(latest-previous) if previous is not None else None
+ growth=((latest/previous)-1)*100 if previous not in (None,0) else None
+ score=round(max(0,min(100,latest))) if level else (round(max(0,min(100,50+scale*change))) if change is not None else None)
+ return score,latest,previous,growth,latest_date
 def wb_change(rows,scale=3,level=False):
- if not rows:return None,None,None
- vals=[v for _,v in rows];latest=vals[0];date=rows[0][0]
- if level:return round(max(0,min(100,latest))),latest,date
- prior=next((v for v in vals[1:] if v is not None),None)
- if prior is None:return None,latest,date
- diff=latest-prior
- return round(max(0,min(100,50+scale*diff))),latest,date
+ score,latest,previous,growth,date=wb_detail(rows,scale,level);return score,latest,date

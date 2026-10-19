@@ -1,23 +1,23 @@
 import json,pathlib,datetime,time,traceback
 from config import WB
-from adapters import eurostat_cube,decode_nace,yoy_index,wb_series,wb_change
+from adapters import eurostat_cube,decode_nace,yoy_detail,wb_series,wb_detail
 P=pathlib.Path('public/data/market-pulse.json')
 def weighted(parts,mincov=.4):
  live=[(s,w) for s,w in parts if s is not None];cov=sum(w for s,w in live)
  return ((round(sum(s*w for s,w in live)/cov) if cov>=mincov else None),round(cov*100))
-def put(c,key,score,raw,date,url,status='live'):c['indicators'][key]={'score':score,'raw':raw,'date':date,'url':url,'status':status}
+def put(c,key,score,raw,date,url,status='live',previous=None,growth=None):c['indicators'][key]={'score':score,'raw':raw,'previous':previous,'growthPct':growth,'date':date,'url':url,'status':status}
 def main():
  d=json.loads(P.read_text());log=[];now=datetime.datetime.now(datetime.timezone.utc).isoformat()
  for c in d['europe']:
   c.setdefault('indicators',{});errors=[]
   try:
-   cube,url=eurostat_cube(c['geo']);f=yoy_index(decode_nace(cube,'F'));f41=yoy_index(decode_nace(cube,'F41'));f42=yoy_index(decode_nace(cube,'F42'))
-   put(c,'construction_production',f,None,now,url);put(c,'building_output',f41,None,now,url);put(c,'civil_output',f42,None,now,url)
+   cube,url=eurostat_cube(c['geo']);fd=yoy_detail(decode_nace(cube,'F'));bd=yoy_detail(decode_nace(cube,'F41'));cd=yoy_detail(decode_nace(cube,'F42'));f,f41,f42=fd[0],bd[0],cd[0]
+   put(c,'construction_production',fd[0],fd[1],now,url,previous=fd[2],growth=fd[3]);put(c,'building_output',bd[0],bd[1],now,url,previous=bd[2],growth=bd[3]);put(c,'civil_output',cd[0],cd[1],now,url,previous=cd[2],growth=cd[3])
   except Exception as e:f=f41=f42=None;errors.append('Eurostat construction: '+repr(e))
   w={}
   for k,ind in WB.items():
    try:
-    rows,u=wb_series(c['wb'],ind);level=k in ('renewable_share','renewable_electricity','water_stress','drinking_water','agri_share','oil_rents','gas_rents','mineral_rents');s,raw,date=wb_change(rows,3,level);w[k]=s;put(c,k,s,raw,date,u)
+    rows,u=wb_series(c['wb'],ind);level=k in ('renewable_share','renewable_electricity','water_stress','drinking_water','agri_share','oil_rents','gas_rents','mineral_rents');score,raw,previous,growth,date=wb_detail(rows,3,level);w[k]=score;put(c,k,score,raw,date,u,previous=previous,growth=growth)
    except Exception as e:w[k]=None;errors.append(k+': '+repr(e))
   c['overall'],co=weighted([(f,.55),(f42,.25),(f41,.20)],.45)
   c['transport'],ct=weighted([(f42,.80)],.40)
