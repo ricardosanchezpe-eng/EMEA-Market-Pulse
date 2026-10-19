@@ -1,408 +1,1787 @@
 [
   {
     "country": "Germany",
-    "scores": {
-      "overall": 82,
-      "transport": 78,
-      "site": 59,
-      "water": 63,
-      "oil": 0,
-      "mining": 0,
-      "renewables": 27,
-      "agriculture": 35
-    },
-    "errors": []
-  },
-  {
-    "country": "France",
-    "scores": {
-      "overall": 20,
-      "transport": 21,
-      "site": 20,
-      "water": 55,
-      "oil": 0,
-      "mining": 0,
-      "renewables": 19,
-      "agriculture": 67
-    },
-    "errors": []
-  },
-  {
-    "country": "Italy",
-    "scores": {
-      "overall": 45,
-      "transport": null,
-      "site": null,
-      "water": 59,
-      "oil": 0,
-      "mining": 0,
-      "renewables": 28,
-      "agriculture": 28
-    },
-    "errors": []
-  },
-  {
-    "country": "Spain",
-    "scores": {
-      "overall": 26,
-      "transport": 33,
-      "site": 0,
-      "water": 67,
-      "oil": 0,
-      "mining": 0,
-      "renewables": 31,
-      "agriculture": 15
-    },
-    "errors": []
-  },
-  {
-    "country": "Netherlands",
-    "scores": {
-      "overall": 41,
-      "transport": 43,
-      "site": 28,
-      "water": 53,
-      "oil": 0,
-      "mining": 0,
-      "renewables": 21,
-      "agriculture": 42
-    },
-    "errors": []
-  },
-  {
-    "country": "Switzerland",
-    "scores": {
-      "overall": null,
-      "transport": null,
-      "site": null,
-      "water": 45,
-      "oil": 0,
-      "mining": 0,
-      "renewables": 45,
-      "agriculture": 47
-    },
-    "errors": []
-  },
-  {
-    "country": "Poland",
-    "scores": {
-      "overall": 62,
-      "transport": 100,
-      "site": 0,
-      "water": 56,
-      "oil": 0,
-      "mining": 0,
-      "renewables": 16,
-      "agriculture": 40
-    },
-    "errors": []
-  },
-  {
-    "country": "Belgium",
-    "scores": {
-      "overall": 51,
-      "transport": 67,
-      "site": 35,
-      "water": 73,
-      "oil": 0,
-      "mining": 0,
-      "renewables": 17,
-      "agriculture": 27
-    },
-    "errors": []
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 95,
+      "transport": 60,
+      "site": 80,
+      "water": 30,
+      "renewables": 35,
+      "agriculture": 45,
+      "oil": 45,
+      "mining": 30
+    }
   },
   {
     "country": "Ireland",
-    "scores": {
-      "overall": null,
-      "transport": null,
-      "site": null,
-      "water": 46,
-      "oil": 0,
-      "mining": 0,
-      "renewables": 23,
-      "agriculture": 36
-    },
-    "errors": []
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 15,
+      "transport": 20,
+      "site": 10,
+      "water": 30,
+      "renewables": 35,
+      "agriculture": 45,
+      "oil": 35,
+      "mining": 20
+    }
+  },
+  {
+    "country": "Poland",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 80,
+      "transport": 60,
+      "site": 30,
+      "water": 30,
+      "renewables": 35,
+      "agriculture": 45,
+      "oil": 45,
+      "mining": 30
+    }
+  },
+  {
+    "country": "Italy",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 40,
+      "transport": 35,
+      "site": 10,
+      "water": 30,
+      "renewables": 35,
+      "agriculture": 45,
+      "oil": 45,
+      "mining": 30
+    }
+  },
+  {
+    "country": "France",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 95,
+      "transport": 60,
+      "site": 80,
+      "water": 30,
+      "renewables": 35,
+      "agriculture": 45,
+      "oil": 45,
+      "mining": 30
+    }
   },
   {
     "country": "Sweden",
-    "scores": {
-      "overall": 65,
-      "transport": 44,
-      "site": 87,
-      "water": 45,
-      "oil": 0,
-      "mining": 1,
-      "renewables": 62,
-      "agriculture": 27
-    },
-    "errors": []
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 95,
+      "transport": 60,
+      "site": 80,
+      "water": 30,
+      "renewables": 35,
+      "agriculture": 45,
+      "oil": 35,
+      "mining": 20
+    }
   },
   {
-    "country": "Austria",
-    "scores": {
-      "overall": 49,
-      "transport": 0,
-      "site": 94,
-      "water": 48,
-      "oil": 0,
-      "mining": 0,
-      "renewables": 55,
-      "agriculture": 32
-    },
-    "errors": []
+    "country": "Belgium",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 95,
+      "transport": 60,
+      "site": 80,
+      "water": 30,
+      "renewables": 35,
+      "agriculture": 45,
+      "oil": 45,
+      "mining": 30
+    }
   },
   {
-    "country": "Norway",
-    "scores": {
-      "overall": 40,
-      "transport": 26,
-      "site": 48,
-      "water": 44,
-      "oil": 5,
-      "mining": 0,
-      "renewables": 77,
-      "agriculture": 41
-    },
-    "errors": []
+    "country": "Switzerland",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 0,
+      "transport": 25,
+      "site": 0,
+      "water": 30,
+      "renewables": 35,
+      "agriculture": 45,
+      "oil": 45,
+      "mining": 30
+    }
   },
   {
-    "country": "Denmark",
-    "scores": {
-      "overall": 43,
-      "transport": 2,
-      "site": 72,
-      "water": 57,
-      "oil": 0,
-      "mining": 0,
-      "renewables": 57,
-      "agriculture": 28
-    },
-    "errors": []
+    "country": "Spain",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 95,
+      "transport": 60,
+      "site": 80,
+      "water": 30,
+      "renewables": 35,
+      "agriculture": 45,
+      "oil": 35,
+      "mining": 20
+    }
   },
   {
-    "country": "Romania",
-    "scores": {
-      "overall": 57,
-      "transport": null,
-      "site": null,
-      "water": 40,
-      "oil": 0,
-      "mining": 0,
-      "renewables": 33,
-      "agriculture": 59
-    },
-    "errors": []
+    "country": "Netherlands",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 95,
+      "transport": 60,
+      "site": 80,
+      "water": 30,
+      "renewables": 35,
+      "agriculture": 45,
+      "oil": 35,
+      "mining": 20
+    }
   },
   {
     "country": "Czechia",
-    "scores": {
-      "overall": 35,
-      "transport": 1,
-      "site": 55,
-      "water": 55,
-      "oil": 0,
-      "mining": 0,
-      "renewables": 16,
-      "agriculture": 38
-    },
-    "errors": []
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 80,
+      "transport": 60,
+      "site": 30,
+      "water": 30,
+      "renewables": 35,
+      "agriculture": 45,
+      "oil": 45,
+      "mining": 30
+    }
   },
   {
-    "country": "Portugal",
-    "scores": {
-      "overall": 54,
-      "transport": 50,
-      "site": 50,
-      "water": 48,
-      "oil": 0,
-      "mining": 0,
-      "renewables": 46,
-      "agriculture": 19
-    },
-    "errors": []
+    "country": "Austria",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 80,
+      "transport": 60,
+      "site": 30,
+      "water": 30,
+      "renewables": 35,
+      "agriculture": 45,
+      "oil": 45,
+      "mining": 30
+    }
   },
   {
-    "country": "Finland",
-    "scores": {
-      "overall": 90,
-      "transport": 79,
-      "site": 78,
-      "water": 47,
-      "oil": 0,
-      "mining": 0,
-      "renewables": 51,
-      "agriculture": 45
-    },
-    "errors": []
+    "country": "Romania",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 55,
+      "transport": 35,
+      "site": 60,
+      "water": 30,
+      "renewables": 35,
+      "agriculture": 45,
+      "oil": 45,
+      "mining": 30
+    }
   },
   {
     "country": "Greece",
-    "scores": {
-      "overall": null,
-      "transport": null,
-      "site": null,
-      "water": 53,
-      "oil": 0,
-      "mining": 0,
-      "renewables": 30,
-      "agriculture": 35
-    },
-    "errors": []
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 30,
+      "transport": 35,
+      "site": 60,
+      "water": 30,
+      "renewables": 35,
+      "agriculture": 45,
+      "oil": 45,
+      "mining": 30
+    }
+  },
+  {
+    "country": "Norway",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 65,
+      "transport": 50,
+      "site": 20,
+      "water": 30,
+      "renewables": 35,
+      "agriculture": 45,
+      "oil": 45,
+      "mining": 30
+    }
+  },
+  {
+    "country": "Finland",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 95,
+      "transport": 60,
+      "site": 80,
+      "water": 30,
+      "renewables": 35,
+      "agriculture": 45,
+      "oil": 45,
+      "mining": 30
+    }
+  },
+  {
+    "country": "Denmark",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 80,
+      "transport": 60,
+      "site": 30,
+      "water": 30,
+      "renewables": 35,
+      "agriculture": 45,
+      "oil": 45,
+      "mining": 30
+    }
+  },
+  {
+    "country": "Portugal",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 95,
+      "transport": 60,
+      "site": 80,
+      "water": 30,
+      "renewables": 35,
+      "agriculture": 45,
+      "oil": 45,
+      "mining": 30
+    }
   },
   {
     "country": "Hungary",
-    "scores": {
-      "overall": 82,
-      "transport": null,
-      "site": 31,
-      "water": 47,
-      "oil": 0,
-      "mining": 0,
-      "renewables": 17,
-      "agriculture": 44
-    },
-    "errors": []
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 75,
+      "transport": 35,
+      "site": 80,
+      "water": 30,
+      "renewables": 35,
+      "agriculture": 45,
+      "oil": 45,
+      "mining": 30
+    }
   },
   {
     "country": "Slovakia",
-    "scores": {
-      "overall": 31,
-      "transport": 10,
-      "site": 58,
-      "water": 44,
-      "oil": 0,
-      "mining": 0,
-      "renewables": 21,
-      "agriculture": 67
-    },
-    "errors": []
-  },
-  {
-    "country": "Bulgaria",
-    "scores": {
-      "overall": 70,
-      "transport": 67,
-      "site": 80,
-      "water": 64,
-      "oil": 0,
-      "mining": 1,
-      "renewables": 21,
-      "agriculture": 22
-    },
-    "errors": []
-  },
-  {
-    "country": "Croatia",
-    "scores": {
-      "overall": 61,
-      "transport": null,
-      "site": null,
-      "water": 38,
-      "oil": 0,
-      "mining": 0,
-      "renewables": 49,
-      "agriculture": 34
-    },
-    "errors": []
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 80,
+      "transport": 60,
+      "site": 30,
+      "water": 30,
+      "renewables": 35,
+      "agriculture": 45,
+      "oil": 45,
+      "mining": 30
+    }
   },
   {
     "country": "Luxembourg",
-    "scores": {
-      "overall": 78,
-      "transport": null,
-      "site": null,
-      "water": 45,
-      "oil": 0,
-      "mining": 0,
-      "renewables": 50,
-      "agriculture": 0
-    },
-    "errors": []
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 40,
+      "transport": 35,
+      "site": 10,
+      "water": 30,
+      "renewables": 35,
+      "agriculture": 45,
+      "oil": 45,
+      "mining": 30
+    }
+  },
+  {
+    "country": "Bulgaria",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 80,
+      "transport": 60,
+      "site": 30,
+      "water": 30,
+      "renewables": 35,
+      "agriculture": 45,
+      "oil": 45,
+      "mining": 30
+    }
   },
   {
     "country": "Lithuania",
-    "scores": {
-      "overall": null,
-      "transport": null,
-      "site": null,
-      "water": 43,
-      "oil": 0,
-      "mining": 0,
-      "renewables": 47,
-      "agriculture": 25
-    },
-    "errors": []
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 15,
+      "transport": 35,
+      "site": 10,
+      "water": 30,
+      "renewables": 35,
+      "agriculture": 45,
+      "oil": 45,
+      "mining": 30
+    }
   },
   {
     "country": "Slovenia",
-    "scores": {
-      "overall": 68,
-      "transport": 51,
-      "site": 100,
-      "water": 46,
-      "oil": 0,
-      "mining": 0,
-      "renewables": 29,
-      "agriculture": 22
-    },
-    "errors": []
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 95,
+      "transport": 60,
+      "site": 80,
+      "water": 30,
+      "renewables": 35,
+      "agriculture": 45,
+      "oil": 45,
+      "mining": 30
+    }
   },
   {
-    "country": "Latvia",
-    "scores": {
-      "overall": null,
-      "transport": null,
-      "site": null,
-      "water": 42,
-      "oil": 0,
-      "mining": 0,
-      "renewables": 53,
-      "agriculture": 20
-    },
-    "errors": []
-  },
-  {
-    "country": "Estonia",
-    "scores": {
-      "overall": null,
-      "transport": null,
-      "site": null,
-      "water": 50,
-      "oil": 1,
-      "mining": 0,
-      "renewables": 39,
-      "agriculture": 1
-    },
-    "errors": []
-  },
-  {
-    "country": "Cyprus",
-    "scores": {
-      "overall": null,
-      "transport": null,
-      "site": null,
-      "water": 60,
-      "oil": 0,
-      "mining": 0,
-      "renewables": 16,
-      "agriculture": 33
-    },
-    "errors": []
+    "country": "Croatia",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 40,
+      "transport": 35,
+      "site": 10,
+      "water": 30,
+      "renewables": 35,
+      "agriculture": 45,
+      "oil": 45,
+      "mining": 30
+    }
   },
   {
     "country": "Malta",
-    "scores": {
-      "overall": null,
-      "transport": null,
-      "site": null,
-      "water": 85,
-      "oil": 0,
-      "mining": 0,
-      "renewables": 10,
-      "agriculture": 0
-    },
-    "errors": []
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 15,
+      "transport": 10,
+      "site": 10,
+      "water": 30,
+      "renewables": 35,
+      "agriculture": 45,
+      "oil": 35,
+      "mining": 20
+    }
+  },
+  {
+    "country": "Estonia",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 15,
+      "transport": 35,
+      "site": 10,
+      "water": 30,
+      "renewables": 35,
+      "agriculture": 45,
+      "oil": 45,
+      "mining": 30
+    }
+  },
+  {
+    "country": "Latvia",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 15,
+      "transport": 35,
+      "site": 10,
+      "water": 30,
+      "renewables": 35,
+      "agriculture": 45,
+      "oil": 45,
+      "mining": 30
+    }
+  },
+  {
+    "country": "Cyprus",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 30,
+      "transport": 20,
+      "site": 60,
+      "water": 30,
+      "renewables": 35,
+      "agriculture": 45,
+      "oil": 45,
+      "mining": 30
+    }
+  },
+  {
+    "country": "Saudi Arabia",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 0,
+      "transport": 0,
+      "site": 0,
+      "water": 15,
+      "oil": 45,
+      "mining": 10,
+      "renewables": 35,
+      "agriculture": 45
+    }
+  },
+  {
+    "country": "Israel",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 0,
+      "transport": 0,
+      "site": 0,
+      "water": 30,
+      "oil": 45,
+      "mining": 10,
+      "renewables": 35,
+      "agriculture": 25
+    }
+  },
+  {
+    "country": "United Arab Emirates",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 0,
+      "transport": 0,
+      "site": 0,
+      "water": 30,
+      "oil": 45,
+      "mining": 10,
+      "renewables": 35,
+      "agriculture": 45
+    }
+  },
+  {
+    "country": "Nigeria",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 0,
+      "transport": 0,
+      "site": 0,
+      "water": 30,
+      "oil": 45,
+      "mining": 30,
+      "renewables": 35,
+      "agriculture": 45
+    }
+  },
+  {
+    "country": "Egypt",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 0,
+      "transport": 0,
+      "site": 0,
+      "water": 30,
+      "oil": 45,
+      "mining": 10,
+      "renewables": 35,
+      "agriculture": 45
+    }
+  },
+  {
+    "country": "Algeria",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 0,
+      "transport": 0,
+      "site": 0,
+      "water": 30,
+      "oil": 45,
+      "mining": 30,
+      "renewables": 35,
+      "agriculture": 45
+    }
+  },
+  {
+    "country": "South Africa",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 0,
+      "transport": 0,
+      "site": 0,
+      "water": 30,
+      "oil": 45,
+      "mining": 10,
+      "renewables": 35,
+      "agriculture": 25
+    }
+  },
+  {
+    "country": "Türkiye",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 80,
+      "transport": 50,
+      "site": 30,
+      "water": 15,
+      "oil": 30,
+      "mining": 10,
+      "renewables": 35,
+      "agriculture": 25
+    }
+  },
+  {
+    "country": "Morocco",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 0,
+      "transport": 0,
+      "site": 0,
+      "water": 30,
+      "oil": 45,
+      "mining": 30,
+      "renewables": 35,
+      "agriculture": 25
+    }
+  },
+  {
+    "country": "Ethiopia",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 0,
+      "transport": 0,
+      "site": 0,
+      "water": 30,
+      "oil": 10,
+      "mining": 10,
+      "renewables": 35,
+      "agriculture": 45
+    }
+  },
+  {
+    "country": "Kenya",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 0,
+      "transport": 0,
+      "site": 0,
+      "water": 15,
+      "oil": 10,
+      "mining": 10,
+      "renewables": 35,
+      "agriculture": 45
+    }
+  },
+  {
+    "country": "Tanzania",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 0,
+      "transport": 0,
+      "site": 0,
+      "water": 30,
+      "oil": 25,
+      "mining": 10,
+      "renewables": 35,
+      "agriculture": 45
+    }
+  },
+  {
+    "country": "Angola",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 0,
+      "transport": 0,
+      "site": 0,
+      "water": 15,
+      "oil": 45,
+      "mining": 10,
+      "renewables": 35,
+      "agriculture": 45
+    }
+  },
+  {
+    "country": "Qatar",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 0,
+      "transport": 0,
+      "site": 0,
+      "water": 30,
+      "oil": 45,
+      "mining": 10,
+      "renewables": 15,
+      "agriculture": 25
+    }
+  },
+  {
+    "country": "Kuwait",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 0,
+      "transport": 0,
+      "site": 0,
+      "water": 30,
+      "oil": 45,
+      "mining": 10,
+      "renewables": 20,
+      "agriculture": 45
+    }
+  },
+  {
+    "country": "Oman",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 0,
+      "transport": 0,
+      "site": 0,
+      "water": 30,
+      "oil": 45,
+      "mining": 10,
+      "renewables": 20,
+      "agriculture": 45
+    }
+  },
+  {
+    "country": "Kazakhstan",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 0,
+      "transport": 0,
+      "site": 0,
+      "water": 30,
+      "oil": 30,
+      "mining": 30,
+      "renewables": 35,
+      "agriculture": 45
+    }
+  },
+  {
+    "country": "Bahrain",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 0,
+      "transport": 0,
+      "site": 0,
+      "water": 30,
+      "oil": 45,
+      "mining": 10,
+      "renewables": 15,
+      "agriculture": 45
+    }
+  },
+  {
+    "country": "Ghana",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 0,
+      "transport": 0,
+      "site": 0,
+      "water": 30,
+      "oil": 45,
+      "mining": 30,
+      "renewables": 35,
+      "agriculture": 45
+    }
+  },
+  {
+    "country": "Jordan",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 0,
+      "transport": 0,
+      "site": 0,
+      "water": 30,
+      "oil": 25,
+      "mining": 10,
+      "renewables": 35,
+      "agriculture": 45
+    }
+  },
+  {
+    "country": "Côte d’Ivoire",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 0,
+      "transport": 0,
+      "site": 0,
+      "water": 30,
+      "oil": 45,
+      "mining": 10,
+      "renewables": 35,
+      "agriculture": 45
+    }
+  },
+  {
+    "country": "Tunisia",
+    "successfulChecks": [
+      "construction_production",
+      "building_output",
+      "civil_output",
+      "building_permits",
+      "rail_freight",
+      "road_freight",
+      "construction_confidence",
+      "water_stress",
+      "water_access",
+      "renewable_share",
+      "renewable_power",
+      "agri_growth",
+      "agri_share",
+      "oil_rents",
+      "gas_rents",
+      "mineral_rents",
+      "resource_rents"
+    ],
+    "errors": [
+      "port_freight:HTTPError"
+    ],
+    "coverage": {
+      "overall": 0,
+      "transport": 0,
+      "site": 0,
+      "water": 30,
+      "oil": 45,
+      "mining": 10,
+      "renewables": 35,
+      "agriculture": 45
+    }
   }
 ]
