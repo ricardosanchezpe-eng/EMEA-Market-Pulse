@@ -1,356 +1,5 @@
 [
   {
-    "country": "Switzerland",
-    "universe": "Europe",
-    "coverage": {
-      "overall": 0,
-      "transport": 25,
-      "site": 0,
-      "water": 30,
-      "renewables": 30,
-      "agriculture": 45,
-      "oil": 30,
-      "mining": 35
-    },
-    "sourceStatus": {
-      "construction_production": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "civil_output": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "building_output": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "building_permits": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "construction_confidence": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "rail_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "road_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "port_freight": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "wastewater_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_stress_eu": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "waste_generation": {
-        "adapterState": "candidate",
-        "retrieval": "no_usable_series"
-      },
-      "waste_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "no_usable_series"
-      },
-      "mining_production": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "renewable_share_eu": {
-        "adapterState": "candidate",
-        "retrieval": "no_usable_series"
-      },
-      "agri_output_prices": {
-        "adapterState": "candidate",
-        "retrieval": "no_usable_series"
-      },
-      "water_stress": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_access": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_power": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "agri_growth": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "agri_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "oil_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "gas_rents": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "mineral_rents": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "resource_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      }
-    },
-    "errors": []
-  },
-  {
-    "country": "Poland",
-    "universe": "Europe",
-    "coverage": {
-      "overall": 60,
-      "transport": 70,
-      "site": 30,
-      "water": 45,
-      "renewables": 50,
-      "agriculture": 60,
-      "oil": 45,
-      "mining": 50
-    },
-    "sourceStatus": {
-      "construction_production": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "civil_output": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "building_output": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "building_permits": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "construction_confidence": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "rail_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "road_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "port_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "wastewater_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_stress_eu": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "waste_generation": {
-        "adapterState": "candidate",
-        "retrieval": "no_usable_series"
-      },
-      "waste_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "mining_production": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "renewable_share_eu": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "agri_output_prices": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_stress": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_access": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_power": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "agri_growth": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "agri_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "oil_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "gas_rents": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "mineral_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "resource_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      }
-    },
-    "errors": []
-  },
-  {
-    "country": "Belgium",
-    "universe": "Europe",
-    "coverage": {
-      "overall": 75,
-      "transport": 70,
-      "site": 60,
-      "water": 60,
-      "renewables": 50,
-      "agriculture": 60,
-      "oil": 45,
-      "mining": 35
-    },
-    "sourceStatus": {
-      "construction_production": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "civil_output": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "building_output": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "building_permits": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "construction_confidence": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "rail_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "road_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "port_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "wastewater_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_stress_eu": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "waste_generation": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "waste_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "mining_production": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "renewable_share_eu": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "agri_output_prices": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_stress": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_access": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_power": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "agri_growth": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "agri_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "oil_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "gas_rents": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "mineral_rents": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "resource_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      }
-    },
-    "errors": []
-  },
-  {
     "country": "Italy",
     "universe": "Europe",
     "coverage": {
@@ -358,10 +7,10 @@
       "transport": 45,
       "site": 10,
       "water": 45,
+      "oil": 30,
+      "mining": 35,
       "renewables": 50,
-      "agriculture": 60,
-      "oil": 45,
-      "mining": 35
+      "agriculture": 60
     },
     "sourceStatus": {
       "construction_production": {
@@ -407,6 +56,477 @@
       "waste_generation": {
         "adapterState": "candidate",
         "retrieval": "no_usable_series"
+      },
+      "waste_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "mining_production": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "renewable_share_eu": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "agri_output_prices": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_stress": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_access": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_power": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_growth": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "oil_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "gas_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "mineral_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "resource_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      }
+    },
+    "errors": []
+  },
+  {
+    "country": "Netherlands",
+    "universe": "Europe",
+    "coverage": {
+      "overall": 75,
+      "transport": 70,
+      "site": 60,
+      "water": 60,
+      "oil": 20,
+      "mining": 25,
+      "renewables": 50,
+      "agriculture": 60
+    },
+    "sourceStatus": {
+      "construction_production": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "civil_output": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "building_output": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "building_permits": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "construction_confidence": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "rail_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "road_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "port_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "wastewater_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_stress_eu": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "waste_generation": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "waste_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "mining_production": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "renewable_share_eu": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "agri_output_prices": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_stress": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_access": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_power": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_growth": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "oil_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "gas_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "mineral_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "resource_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      }
+    },
+    "errors": []
+  },
+  {
+    "country": "Switzerland",
+    "universe": "Europe",
+    "coverage": {
+      "overall": 0,
+      "transport": 25,
+      "site": 0,
+      "water": 30,
+      "oil": 30,
+      "mining": 35,
+      "renewables": 30,
+      "agriculture": 25
+    },
+    "sourceStatus": {
+      "construction_production": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "civil_output": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "building_output": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "building_permits": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "construction_confidence": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "rail_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "road_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "port_freight": {
+        "adapterState": "connected",
+        "retrieval": "error",
+        "error": "HTTPError"
+      },
+      "wastewater_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_stress_eu": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "waste_generation": {
+        "adapterState": "candidate",
+        "retrieval": "no_usable_series"
+      },
+      "waste_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "no_usable_series"
+      },
+      "mining_production": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "renewable_share_eu": {
+        "adapterState": "candidate",
+        "retrieval": "no_usable_series"
+      },
+      "agri_output_prices": {
+        "adapterState": "candidate",
+        "retrieval": "no_usable_series"
+      },
+      "water_stress": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_access": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_power": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_growth": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "agri_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "oil_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "gas_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "mineral_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "resource_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      }
+    },
+    "errors": [
+      "port_freight:HTTPError"
+    ]
+  },
+  {
+    "country": "Germany",
+    "universe": "Europe",
+    "coverage": {
+      "overall": 75,
+      "transport": 70,
+      "site": 60,
+      "water": 45,
+      "oil": 30,
+      "mining": 50,
+      "renewables": 50,
+      "agriculture": 40
+    },
+    "sourceStatus": {
+      "construction_production": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "civil_output": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "building_output": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "building_permits": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "construction_confidence": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "rail_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "road_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "port_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "wastewater_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_stress_eu": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "waste_generation": {
+        "adapterState": "candidate",
+        "retrieval": "no_usable_series"
+      },
+      "waste_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "mining_production": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "renewable_share_eu": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "agri_output_prices": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_stress": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_access": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_power": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_growth": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "agri_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "oil_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "gas_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "mineral_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "resource_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      }
+    },
+    "errors": []
+  },
+  {
+    "country": "Spain",
+    "universe": "Europe",
+    "coverage": {
+      "overall": 75,
+      "transport": 70,
+      "site": 60,
+      "water": 60,
+      "oil": 30,
+      "mining": 35,
+      "renewables": 50,
+      "agriculture": 60
+    },
+    "sourceStatus": {
+      "construction_production": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "civil_output": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "building_output": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "building_permits": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "construction_confidence": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "rail_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "road_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "port_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "wastewater_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_stress_eu": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "waste_generation": {
+        "adapterState": "candidate",
+        "retrieval": "live"
       },
       "waste_treatment": {
         "adapterState": "candidate",
@@ -475,10 +595,10 @@
       "transport": 70,
       "site": 60,
       "water": 60,
+      "oil": 30,
+      "mining": 35,
       "renewables": 50,
-      "agriculture": 60,
-      "oil": 45,
-      "mining": 35
+      "agriculture": 60
     },
     "sourceStatus": {
       "construction_production": {
@@ -512,591 +632,6 @@
       "port_freight": {
         "adapterState": "connected",
         "retrieval": "live"
-      },
-      "wastewater_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_stress_eu": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "waste_generation": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "waste_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "mining_production": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "renewable_share_eu": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "agri_output_prices": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_stress": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_access": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_power": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "agri_growth": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "agri_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "oil_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "gas_rents": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "mineral_rents": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "resource_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      }
-    },
-    "errors": []
-  },
-  {
-    "country": "Germany",
-    "universe": "Europe",
-    "coverage": {
-      "overall": 75,
-      "transport": 70,
-      "site": 60,
-      "water": 45,
-      "renewables": 50,
-      "agriculture": 60,
-      "oil": 45,
-      "mining": 50
-    },
-    "sourceStatus": {
-      "construction_production": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "civil_output": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "building_output": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "building_permits": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "construction_confidence": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "rail_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "road_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "port_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "wastewater_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_stress_eu": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "waste_generation": {
-        "adapterState": "candidate",
-        "retrieval": "no_usable_series"
-      },
-      "waste_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "mining_production": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "renewable_share_eu": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "agri_output_prices": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_stress": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_access": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_power": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "agri_growth": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "agri_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "oil_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "gas_rents": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "mineral_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "resource_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      }
-    },
-    "errors": []
-  },
-  {
-    "country": "Netherlands",
-    "universe": "Europe",
-    "coverage": {
-      "overall": 75,
-      "transport": 70,
-      "site": 60,
-      "water": 60,
-      "renewables": 50,
-      "agriculture": 60,
-      "oil": 35,
-      "mining": 25
-    },
-    "sourceStatus": {
-      "construction_production": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "civil_output": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "building_output": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "building_permits": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "construction_confidence": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "rail_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "road_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "port_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "wastewater_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_stress_eu": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "waste_generation": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "waste_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "mining_production": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "renewable_share_eu": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "agri_output_prices": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_stress": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_access": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_power": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "agri_growth": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "agri_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "oil_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "gas_rents": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "mineral_rents": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "resource_rents": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      }
-    },
-    "errors": []
-  },
-  {
-    "country": "Spain",
-    "universe": "Europe",
-    "coverage": {
-      "overall": 75,
-      "transport": 70,
-      "site": 60,
-      "water": 60,
-      "renewables": 50,
-      "agriculture": 60,
-      "oil": 45,
-      "mining": 50
-    },
-    "sourceStatus": {
-      "construction_production": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "civil_output": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "building_output": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "building_permits": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "construction_confidence": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "rail_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "road_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "port_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "wastewater_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_stress_eu": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "waste_generation": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "waste_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "mining_production": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "renewable_share_eu": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "agri_output_prices": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_stress": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_access": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_power": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "agri_growth": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "agri_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "oil_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "gas_rents": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "mineral_rents": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "resource_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      }
-    },
-    "errors": []
-  },
-  {
-    "country": "Ireland",
-    "universe": "Europe",
-    "coverage": {
-      "overall": 15,
-      "transport": 30,
-      "site": 10,
-      "water": 45,
-      "renewables": 50,
-      "agriculture": 60,
-      "oil": 45,
-      "mining": 25
-    },
-    "sourceStatus": {
-      "construction_production": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "civil_output": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "building_output": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "building_permits": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "construction_confidence": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "rail_freight": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "road_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "port_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "wastewater_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_stress_eu": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "waste_generation": {
-        "adapterState": "candidate",
-        "retrieval": "no_usable_series"
-      },
-      "waste_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "mining_production": {
-        "adapterState": "candidate",
-        "retrieval": "no_usable_series"
-      },
-      "renewable_share_eu": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "agri_output_prices": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_stress": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_access": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_power": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "agri_growth": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "agri_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "oil_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "gas_rents": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "mineral_rents": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "resource_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      }
-    },
-    "errors": []
-  },
-  {
-    "country": "Austria",
-    "universe": "Europe",
-    "coverage": {
-      "overall": 60,
-      "transport": 60,
-      "site": 30,
-      "water": 60,
-      "renewables": 50,
-      "agriculture": 60,
-      "oil": 45,
-      "mining": 35
-    },
-    "sourceStatus": {
-      "construction_production": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "civil_output": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "building_output": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "building_permits": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "construction_confidence": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "rail_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "road_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "port_freight": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
       },
       "wastewater_treatment": {
         "adapterState": "candidate",
@@ -1177,10 +712,10 @@
       "transport": 70,
       "site": 60,
       "water": 60,
-      "renewables": 50,
-      "agriculture": 60,
       "oil": 30,
-      "mining": 50
+      "mining": 35,
+      "renewables": 50,
+      "agriculture": 60
     },
     "sourceStatus": {
       "construction_production": {
@@ -1294,10 +829,10 @@
       "transport": 60,
       "site": 20,
       "water": 60,
+      "oil": 30,
+      "mining": 35,
       "renewables": 50,
-      "agriculture": 45,
-      "oil": 45,
-      "mining": 35
+      "agriculture": 45
     },
     "sourceStatus": {
       "construction_production": {
@@ -1379,240 +914,6 @@
       "agri_growth": {
         "adapterState": "connected",
         "retrieval": "live"
-      },
-      "agri_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "oil_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "gas_rents": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "mineral_rents": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "resource_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      }
-    },
-    "errors": []
-  },
-  {
-    "country": "Czechia",
-    "universe": "Europe",
-    "coverage": {
-      "overall": 60,
-      "transport": 60,
-      "site": 30,
-      "water": 60,
-      "renewables": 50,
-      "agriculture": 60,
-      "oil": 45,
-      "mining": 35
-    },
-    "sourceStatus": {
-      "construction_production": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "civil_output": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "building_output": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "building_permits": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "construction_confidence": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "rail_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "road_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "port_freight": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "wastewater_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_stress_eu": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "waste_generation": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "waste_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "mining_production": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "renewable_share_eu": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "agri_output_prices": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_stress": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_access": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_power": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "agri_growth": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "agri_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "oil_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "gas_rents": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "mineral_rents": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "resource_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      }
-    },
-    "errors": []
-  },
-  {
-    "country": "Denmark",
-    "universe": "Europe",
-    "coverage": {
-      "overall": 60,
-      "transport": 70,
-      "site": 30,
-      "water": 30,
-      "renewables": 50,
-      "agriculture": 60,
-      "oil": 45,
-      "mining": 35
-    },
-    "sourceStatus": {
-      "construction_production": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "civil_output": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "building_output": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "building_permits": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "construction_confidence": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "rail_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "road_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "port_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "wastewater_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_stress_eu": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "waste_generation": {
-        "adapterState": "candidate",
-        "retrieval": "no_usable_series"
-      },
-      "waste_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "no_usable_series"
-      },
-      "mining_production": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "renewable_share_eu": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "agri_output_prices": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_stress": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_access": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_power": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "agri_growth": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
       },
       "agri_share": {
         "adapterState": "connected",
@@ -1645,10 +946,10 @@
       "transport": 45,
       "site": 40,
       "water": 45,
+      "oil": 30,
+      "mining": 50,
       "renewables": 50,
-      "agriculture": 60,
-      "oil": 45,
-      "mining": 50
+      "agriculture": 60
     },
     "sourceStatus": {
       "construction_production": {
@@ -1746,6 +1047,243 @@
       "mineral_rents": {
         "adapterState": "connected",
         "retrieval": "live"
+      },
+      "resource_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      }
+    },
+    "errors": []
+  },
+  {
+    "country": "Austria",
+    "universe": "Europe",
+    "coverage": {
+      "overall": 60,
+      "transport": 60,
+      "site": 30,
+      "water": 60,
+      "oil": 30,
+      "mining": 35,
+      "renewables": 50,
+      "agriculture": 60
+    },
+    "sourceStatus": {
+      "construction_production": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "civil_output": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "building_output": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "building_permits": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "construction_confidence": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "rail_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "road_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "port_freight": {
+        "adapterState": "connected",
+        "retrieval": "error",
+        "error": "HTTPError"
+      },
+      "wastewater_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_stress_eu": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "waste_generation": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "waste_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "mining_production": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "renewable_share_eu": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "agri_output_prices": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_stress": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_access": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_power": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_growth": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "oil_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "gas_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "mineral_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "resource_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      }
+    },
+    "errors": [
+      "port_freight:HTTPError"
+    ]
+  },
+  {
+    "country": "Belgium",
+    "universe": "Europe",
+    "coverage": {
+      "overall": 75,
+      "transport": 70,
+      "site": 60,
+      "water": 60,
+      "oil": 30,
+      "mining": 35,
+      "renewables": 50,
+      "agriculture": 60
+    },
+    "sourceStatus": {
+      "construction_production": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "civil_output": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "building_output": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "building_permits": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "construction_confidence": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "rail_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "road_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "port_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "wastewater_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_stress_eu": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "waste_generation": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "waste_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "mining_production": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "renewable_share_eu": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "agri_output_prices": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_stress": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_access": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_power": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_growth": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "oil_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "gas_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "mineral_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
       },
       "resource_rents": {
         "adapterState": "connected",
@@ -1762,10 +1300,10 @@
       "transport": 70,
       "site": 60,
       "water": 45,
-      "renewables": 50,
-      "agriculture": 60,
       "oil": 30,
-      "mining": 50
+      "mining": 50,
+      "renewables": 50,
+      "agriculture": 60
     },
     "sourceStatus": {
       "construction_production": {
@@ -1872,134 +1410,17 @@
     "errors": []
   },
   {
-    "country": "Finland",
-    "universe": "Europe",
-    "coverage": {
-      "overall": 75,
-      "transport": 70,
-      "site": 60,
-      "water": 45,
-      "renewables": 50,
-      "agriculture": 60,
-      "oil": 30,
-      "mining": 50
-    },
-    "sourceStatus": {
-      "construction_production": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "civil_output": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "building_output": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "building_permits": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "construction_confidence": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "rail_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "road_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "port_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "wastewater_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_stress_eu": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "waste_generation": {
-        "adapterState": "candidate",
-        "retrieval": "no_usable_series"
-      },
-      "waste_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "mining_production": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "renewable_share_eu": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "agri_output_prices": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_stress": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_access": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_power": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "agri_growth": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "agri_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "oil_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "gas_rents": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "mineral_rents": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "resource_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      }
-    },
-    "errors": []
-  },
-  {
-    "country": "Slovakia",
+    "country": "Czechia",
     "universe": "Europe",
     "coverage": {
       "overall": 60,
       "transport": 60,
       "site": 30,
       "water": 60,
+      "oil": 30,
+      "mining": 35,
       "renewables": 50,
-      "agriculture": 60,
-      "oil": 45,
-      "mining": 50
+      "agriculture": 60
     },
     "sourceStatus": {
       "construction_production": {
@@ -2032,7 +1453,8 @@
       },
       "port_freight": {
         "adapterState": "connected",
-        "retrieval": "no_usable_series"
+        "retrieval": "error",
+        "error": "HTTPError"
       },
       "wastewater_treatment": {
         "adapterState": "candidate",
@@ -2088,7 +1510,7 @@
       },
       "oil_rents": {
         "adapterState": "connected",
-        "retrieval": "no_usable_series"
+        "retrieval": "live"
       },
       "gas_rents": {
         "adapterState": "connected",
@@ -2096,7 +1518,243 @@
       },
       "mineral_rents": {
         "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "resource_rents": {
+        "adapterState": "connected",
         "retrieval": "live"
+      }
+    },
+    "errors": [
+      "port_freight:HTTPError"
+    ]
+  },
+  {
+    "country": "Denmark",
+    "universe": "Europe",
+    "coverage": {
+      "overall": 60,
+      "transport": 70,
+      "site": 30,
+      "water": 30,
+      "oil": 30,
+      "mining": 35,
+      "renewables": 50,
+      "agriculture": 40
+    },
+    "sourceStatus": {
+      "construction_production": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "civil_output": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "building_output": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "building_permits": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "construction_confidence": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "rail_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "road_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "port_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "wastewater_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_stress_eu": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "waste_generation": {
+        "adapterState": "candidate",
+        "retrieval": "no_usable_series"
+      },
+      "waste_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "no_usable_series"
+      },
+      "mining_production": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "renewable_share_eu": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "agri_output_prices": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_stress": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_access": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_power": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_growth": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "agri_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "oil_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "gas_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "mineral_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "resource_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      }
+    },
+    "errors": []
+  },
+  {
+    "country": "Greece",
+    "universe": "Europe",
+    "coverage": {
+      "overall": 30,
+      "transport": 45,
+      "site": 40,
+      "water": 30,
+      "oil": 45,
+      "mining": 35,
+      "renewables": 50,
+      "agriculture": 60
+    },
+    "sourceStatus": {
+      "construction_production": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "civil_output": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "building_output": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "building_permits": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "construction_confidence": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "rail_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "road_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "port_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "wastewater_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_stress_eu": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "waste_generation": {
+        "adapterState": "candidate",
+        "retrieval": "no_usable_series"
+      },
+      "waste_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "no_usable_series"
+      },
+      "mining_production": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "renewable_share_eu": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "agri_output_prices": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_stress": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_access": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_power": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_growth": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "oil_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "gas_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "mineral_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
       },
       "resource_rents": {
         "adapterState": "connected",
@@ -2113,10 +1771,10 @@
       "transport": 70,
       "site": 30,
       "water": 60,
-      "renewables": 50,
-      "agriculture": 60,
       "oil": 45,
-      "mining": 50
+      "mining": 50,
+      "renewables": 50,
+      "agriculture": 60
     },
     "sourceStatus": {
       "construction_production": {
@@ -2230,10 +1888,10 @@
       "transport": 60,
       "site": 60,
       "water": 60,
+      "oil": 30,
+      "mining": 35,
       "renewables": 50,
-      "agriculture": 60,
-      "oil": 45,
-      "mining": 35
+      "agriculture": 60
     },
     "sourceStatus": {
       "construction_production": {
@@ -2266,7 +1924,8 @@
       },
       "port_freight": {
         "adapterState": "connected",
-        "retrieval": "no_usable_series"
+        "retrieval": "error",
+        "error": "HTTPError"
       },
       "wastewater_treatment": {
         "adapterState": "candidate",
@@ -2337,137 +1996,22 @@
         "retrieval": "live"
       }
     },
-    "errors": []
+    "errors": [
+      "port_freight:HTTPError"
+    ]
   },
   {
-    "country": "Croatia",
+    "country": "Slovakia",
     "universe": "Europe",
     "coverage": {
-      "overall": 40,
-      "transport": 45,
-      "site": 10,
-      "water": 30,
-      "renewables": 50,
-      "agriculture": 60,
-      "oil": 45,
-      "mining": 35
-    },
-    "sourceStatus": {
-      "construction_production": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "civil_output": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "building_output": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "building_permits": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "construction_confidence": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "rail_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "road_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "port_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "wastewater_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_stress_eu": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "waste_generation": {
-        "adapterState": "candidate",
-        "retrieval": "no_usable_series"
-      },
-      "waste_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "no_usable_series"
-      },
-      "mining_production": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "renewable_share_eu": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "agri_output_prices": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_stress": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_access": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_power": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "agri_growth": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "agri_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "oil_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "gas_rents": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "mineral_rents": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "resource_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      }
-    },
-    "errors": []
-  },
-  {
-    "country": "Luxembourg",
-    "universe": "Europe",
-    "coverage": {
-      "overall": 40,
-      "transport": 35,
-      "site": 10,
-      "water": 30,
-      "renewables": 50,
-      "agriculture": 60,
+      "overall": 60,
+      "transport": 60,
+      "site": 30,
+      "water": 60,
       "oil": 10,
-      "mining": 35
+      "mining": 50,
+      "renewables": 50,
+      "agriculture": 60
     },
     "sourceStatus": {
       "construction_production": {
@@ -2476,11 +2020,11 @@
       },
       "civil_output": {
         "adapterState": "connected",
-        "retrieval": "no_usable_series"
+        "retrieval": "live"
       },
       "building_output": {
         "adapterState": "connected",
-        "retrieval": "no_usable_series"
+        "retrieval": "live"
       },
       "building_permits": {
         "adapterState": "connected",
@@ -2500,7 +2044,8 @@
       },
       "port_freight": {
         "adapterState": "connected",
-        "retrieval": "no_usable_series"
+        "retrieval": "error",
+        "error": "HTTPError"
       },
       "wastewater_treatment": {
         "adapterState": "candidate",
@@ -2512,11 +2057,11 @@
       },
       "waste_generation": {
         "adapterState": "candidate",
-        "retrieval": "no_usable_series"
+        "retrieval": "live"
       },
       "waste_treatment": {
         "adapterState": "candidate",
-        "retrieval": "no_usable_series"
+        "retrieval": "live"
       },
       "mining_production": {
         "adapterState": "candidate",
@@ -2564,27 +2109,29 @@
       },
       "mineral_rents": {
         "adapterState": "connected",
-        "retrieval": "no_usable_series"
+        "retrieval": "live"
       },
       "resource_rents": {
         "adapterState": "connected",
         "retrieval": "live"
       }
     },
-    "errors": []
+    "errors": [
+      "port_freight:HTTPError"
+    ]
   },
   {
-    "country": "Greece",
+    "country": "Ireland",
     "universe": "Europe",
     "coverage": {
-      "overall": 30,
-      "transport": 45,
-      "site": 40,
-      "water": 30,
+      "overall": 15,
+      "transport": 30,
+      "site": 10,
+      "water": 45,
+      "oil": 30,
+      "mining": 10,
       "renewables": 50,
-      "agriculture": 60,
-      "oil": 45,
-      "mining": 50
+      "agriculture": 60
     },
     "sourceStatus": {
       "construction_production": {
@@ -2598,6 +2145,123 @@
       "building_output": {
         "adapterState": "connected",
         "retrieval": "no_usable_series"
+      },
+      "building_permits": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "construction_confidence": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "rail_freight": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "road_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "port_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "wastewater_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_stress_eu": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "waste_generation": {
+        "adapterState": "candidate",
+        "retrieval": "no_usable_series"
+      },
+      "waste_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "mining_production": {
+        "adapterState": "candidate",
+        "retrieval": "no_usable_series"
+      },
+      "renewable_share_eu": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "agri_output_prices": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_stress": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_access": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_power": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_growth": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "oil_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "gas_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "mineral_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "resource_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      }
+    },
+    "errors": []
+  },
+  {
+    "country": "Slovenia",
+    "universe": "Europe",
+    "coverage": {
+      "overall": 75,
+      "transport": 70,
+      "site": 60,
+      "water": 45,
+      "oil": 30,
+      "mining": 35,
+      "renewables": 50,
+      "agriculture": 60
+    },
+    "sourceStatus": {
+      "construction_production": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "civil_output": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "building_output": {
+        "adapterState": "connected",
+        "retrieval": "live"
       },
       "building_permits": {
         "adapterState": "connected",
@@ -2630,6 +2294,240 @@
       "waste_generation": {
         "adapterState": "candidate",
         "retrieval": "no_usable_series"
+      },
+      "waste_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "mining_production": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "renewable_share_eu": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "agri_output_prices": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_stress": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_access": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_power": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_growth": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "oil_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "gas_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "mineral_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "resource_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      }
+    },
+    "errors": []
+  },
+  {
+    "country": "Lithuania",
+    "universe": "Europe",
+    "coverage": {
+      "overall": 15,
+      "transport": 45,
+      "site": 10,
+      "water": 60,
+      "oil": 30,
+      "mining": 35,
+      "renewables": 50,
+      "agriculture": 60
+    },
+    "sourceStatus": {
+      "construction_production": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "civil_output": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "building_output": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "building_permits": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "construction_confidence": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "rail_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "road_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "port_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "wastewater_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_stress_eu": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "waste_generation": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "waste_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "mining_production": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "renewable_share_eu": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "agri_output_prices": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_stress": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_access": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_power": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_growth": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "oil_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "gas_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "mineral_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "resource_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      }
+    },
+    "errors": []
+  },
+  {
+    "country": "Latvia",
+    "universe": "Europe",
+    "coverage": {
+      "overall": 15,
+      "transport": 45,
+      "site": 10,
+      "water": 45,
+      "oil": 30,
+      "mining": 35,
+      "renewables": 50,
+      "agriculture": 60
+    },
+    "sourceStatus": {
+      "construction_production": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "civil_output": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "building_output": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "building_permits": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "construction_confidence": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "rail_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "road_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "port_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "wastewater_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_stress_eu": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "waste_generation": {
+        "adapterState": "candidate",
+        "retrieval": "live"
       },
       "waste_treatment": {
         "adapterState": "candidate",
@@ -2677,7 +2575,7 @@
       },
       "gas_rents": {
         "adapterState": "connected",
-        "retrieval": "live"
+        "retrieval": "no_usable_series"
       },
       "mineral_rents": {
         "adapterState": "connected",
@@ -2748,123 +2646,6 @@
     "errors": []
   },
   {
-    "country": "Lithuania",
-    "universe": "Europe",
-    "coverage": {
-      "overall": 15,
-      "transport": 45,
-      "site": 10,
-      "water": 60,
-      "renewables": 50,
-      "agriculture": 60,
-      "oil": 30,
-      "mining": 35
-    },
-    "sourceStatus": {
-      "construction_production": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "civil_output": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "building_output": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "building_permits": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "construction_confidence": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "rail_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "road_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "port_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "wastewater_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_stress_eu": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "waste_generation": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "waste_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "mining_production": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "renewable_share_eu": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "agri_output_prices": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_stress": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_access": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_power": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "agri_growth": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "agri_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "oil_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "gas_rents": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "mineral_rents": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "resource_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      }
-    },
-    "errors": []
-  },
-  {
     "country": "United Arab Emirates",
     "universe": "Broader EMEA",
     "coverage": {
@@ -2923,9 +2704,60 @@
   },
   {
     "country": "Türkiye",
-    "errors": [
-      "fatal:KeyError('water_stress_eu')"
-    ]
+    "universe": "Broader EMEA",
+    "coverage": {
+      "overall": 0,
+      "transport": 0,
+      "site": 0,
+      "water": 15,
+      "oil": 30,
+      "mining": 25,
+      "renewables": 30,
+      "agriculture": 25
+    },
+    "sourceStatus": {
+      "water_stress": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "water_access": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "renewable_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_power": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_growth": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "agri_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "oil_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "gas_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "mineral_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "resource_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      }
+    },
+    "errors": []
   },
   {
     "country": "Israel",
@@ -2985,6 +2817,126 @@
     "errors": []
   },
   {
+    "country": "Luxembourg",
+    "universe": "Europe",
+    "coverage": {
+      "overall": 40,
+      "transport": 35,
+      "site": 10,
+      "water": 30,
+      "oil": 10,
+      "mining": 35,
+      "renewables": 50,
+      "agriculture": 60
+    },
+    "sourceStatus": {
+      "construction_production": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "civil_output": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "building_output": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "building_permits": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "construction_confidence": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "rail_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "road_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "port_freight": {
+        "adapterState": "connected",
+        "retrieval": "error",
+        "error": "HTTPError"
+      },
+      "wastewater_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_stress_eu": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "waste_generation": {
+        "adapterState": "candidate",
+        "retrieval": "no_usable_series"
+      },
+      "waste_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "no_usable_series"
+      },
+      "mining_production": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "renewable_share_eu": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "agri_output_prices": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_stress": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_access": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_power": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_growth": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "oil_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "gas_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "mineral_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "resource_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      }
+    },
+    "errors": [
+      "port_freight:HTTPError"
+    ]
+  },
+  {
     "country": "Egypt",
     "universe": "Broader EMEA",
     "coverage": {
@@ -3029,6 +2981,123 @@
       "gas_rents": {
         "adapterState": "connected",
         "retrieval": "live"
+      },
+      "mineral_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "resource_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      }
+    },
+    "errors": []
+  },
+  {
+    "country": "Estonia",
+    "universe": "Europe",
+    "coverage": {
+      "overall": 15,
+      "transport": 45,
+      "site": 10,
+      "water": 30,
+      "oil": 30,
+      "mining": 35,
+      "renewables": 50,
+      "agriculture": 60
+    },
+    "sourceStatus": {
+      "construction_production": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "civil_output": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "building_output": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "building_permits": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "construction_confidence": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "rail_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "road_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "port_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "wastewater_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_stress_eu": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "waste_generation": {
+        "adapterState": "candidate",
+        "retrieval": "no_usable_series"
+      },
+      "waste_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "no_usable_series"
+      },
+      "mining_production": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "renewable_share_eu": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "agri_output_prices": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_stress": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_access": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_power": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_growth": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "oil_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "gas_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
       },
       "mineral_rents": {
         "adapterState": "connected",
@@ -3099,21 +3168,81 @@
     "errors": []
   },
   {
-    "country": "Nigeria",
-    "universe": "Broader EMEA",
+    "country": "Finland",
+    "universe": "Europe",
     "coverage": {
-      "overall": 0,
-      "transport": 0,
-      "site": 0,
-      "water": 15,
-      "oil": 45,
-      "mining": 25,
-      "renewables": 30,
-      "agriculture": 45
+      "overall": 75,
+      "transport": 70,
+      "site": 60,
+      "water": 45,
+      "oil": 30,
+      "mining": 35,
+      "renewables": 50,
+      "agriculture": 40
     },
     "sourceStatus": {
-      "water_stress": {
+      "construction_production": {
         "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "civil_output": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "building_output": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "building_permits": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "construction_confidence": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "rail_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "road_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "port_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "wastewater_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_stress_eu": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "waste_generation": {
+        "adapterState": "candidate",
+        "retrieval": "no_usable_series"
+      },
+      "waste_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "mining_production": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "renewable_share_eu": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "agri_output_prices": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_stress": {
+        "adapterState": "candidate",
         "retrieval": "live"
       },
       "water_access": {
@@ -3130,7 +3259,7 @@
       },
       "agri_growth": {
         "adapterState": "connected",
-        "retrieval": "live"
+        "retrieval": "no_usable_series"
       },
       "agri_share": {
         "adapterState": "connected",
@@ -3142,11 +3271,11 @@
       },
       "gas_rents": {
         "adapterState": "connected",
-        "retrieval": "live"
+        "retrieval": "no_usable_series"
       },
       "mineral_rents": {
         "adapterState": "connected",
-        "retrieval": "live"
+        "retrieval": "no_usable_series"
       },
       "resource_rents": {
         "adapterState": "connected",
@@ -3441,63 +3570,6 @@
     "errors": []
   },
   {
-    "country": "Côte d’Ivoire",
-    "universe": "Broader EMEA",
-    "coverage": {
-      "overall": 0,
-      "transport": 0,
-      "site": 0,
-      "water": 15,
-      "oil": 45,
-      "mining": 25,
-      "renewables": 30,
-      "agriculture": 45
-    },
-    "sourceStatus": {
-      "water_stress": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "water_access": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_power": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "agri_growth": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "agri_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "oil_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "gas_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "mineral_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "resource_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      }
-    },
-    "errors": []
-  },
-  {
     "country": "Tanzania",
     "universe": "Broader EMEA",
     "coverage": {
@@ -3538,6 +3610,63 @@
       "oil_rents": {
         "adapterState": "connected",
         "retrieval": "no_usable_series"
+      },
+      "gas_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "mineral_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "resource_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      }
+    },
+    "errors": []
+  },
+  {
+    "country": "Côte d’Ivoire",
+    "universe": "Broader EMEA",
+    "coverage": {
+      "overall": 0,
+      "transport": 0,
+      "site": 0,
+      "water": 15,
+      "oil": 45,
+      "mining": 25,
+      "renewables": 30,
+      "agriculture": 45
+    },
+    "sourceStatus": {
+      "water_stress": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "water_access": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_power": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_growth": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "oil_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
       },
       "gas_rents": {
         "adapterState": "connected",
@@ -3607,6 +3736,240 @@
       "resource_rents": {
         "adapterState": "connected",
         "retrieval": "live"
+      }
+    },
+    "errors": []
+  },
+  {
+    "country": "Cyprus",
+    "universe": "Europe",
+    "coverage": {
+      "overall": 30,
+      "transport": 30,
+      "site": 40,
+      "water": 45,
+      "oil": 10,
+      "mining": 50,
+      "renewables": 50,
+      "agriculture": 60
+    },
+    "sourceStatus": {
+      "construction_production": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "civil_output": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "building_output": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "building_permits": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "construction_confidence": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "rail_freight": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "road_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "port_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "wastewater_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_stress_eu": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "waste_generation": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "waste_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "no_usable_series"
+      },
+      "mining_production": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "renewable_share_eu": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "agri_output_prices": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_stress": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_access": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_power": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_growth": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "oil_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "gas_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "mineral_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "resource_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      }
+    },
+    "errors": []
+  },
+  {
+    "country": "Malta",
+    "universe": "Europe",
+    "coverage": {
+      "overall": 15,
+      "transport": 20,
+      "site": 10,
+      "water": 45,
+      "oil": 0,
+      "mining": 25,
+      "renewables": 50,
+      "agriculture": 60
+    },
+    "sourceStatus": {
+      "construction_production": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "civil_output": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "building_output": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "building_permits": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "construction_confidence": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "rail_freight": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "road_freight": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "port_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "wastewater_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_stress_eu": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "waste_generation": {
+        "adapterState": "candidate",
+        "retrieval": "no_usable_series"
+      },
+      "waste_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "mining_production": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "renewable_share_eu": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "agri_output_prices": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_stress": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_access": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_power": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_growth": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "oil_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "gas_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "mineral_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "resource_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
       }
     },
     "errors": []
@@ -3726,123 +4089,6 @@
     "errors": []
   },
   {
-    "country": "Slovenia",
-    "universe": "Europe",
-    "coverage": {
-      "overall": 75,
-      "transport": 70,
-      "site": 60,
-      "water": 45,
-      "renewables": 50,
-      "agriculture": 60,
-      "oil": 45,
-      "mining": 35
-    },
-    "sourceStatus": {
-      "construction_production": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "civil_output": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "building_output": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "building_permits": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "construction_confidence": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "rail_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "road_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "port_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "wastewater_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_stress_eu": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "waste_generation": {
-        "adapterState": "candidate",
-        "retrieval": "no_usable_series"
-      },
-      "waste_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "mining_production": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "renewable_share_eu": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "agri_output_prices": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_stress": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_access": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_power": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "agri_growth": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "agri_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "oil_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "gas_rents": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "mineral_rents": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "resource_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      }
-    },
-    "errors": []
-  },
-  {
     "country": "Kuwait",
     "universe": "Broader EMEA",
     "coverage": {
@@ -3883,120 +4129,6 @@
       "oil_rents": {
         "adapterState": "connected",
         "retrieval": "live"
-      },
-      "gas_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "mineral_rents": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "resource_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      }
-    },
-    "errors": []
-  },
-  {
-    "country": "Oman",
-    "universe": "Broader EMEA",
-    "coverage": {
-      "overall": 0,
-      "transport": 0,
-      "site": 0,
-      "water": 15,
-      "oil": 45,
-      "mining": 10,
-      "renewables": 15,
-      "agriculture": 45
-    },
-    "sourceStatus": {
-      "water_stress": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "water_access": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_power": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "agri_growth": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "agri_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "oil_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "gas_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "mineral_rents": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "resource_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      }
-    },
-    "errors": []
-  },
-  {
-    "country": "Jordan",
-    "universe": "Broader EMEA",
-    "coverage": {
-      "overall": 0,
-      "transport": 0,
-      "site": 0,
-      "water": 15,
-      "oil": 25,
-      "mining": 10,
-      "renewables": 30,
-      "agriculture": 45
-    },
-    "sourceStatus": {
-      "water_stress": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "water_access": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_power": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "agri_growth": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "agri_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "oil_rents": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
       },
       "gas_rents": {
         "adapterState": "connected",
@@ -4071,6 +4203,180 @@
     "errors": []
   },
   {
+    "country": "Croatia",
+    "universe": "Europe",
+    "coverage": {
+      "overall": 40,
+      "transport": 45,
+      "site": 10,
+      "water": 30,
+      "oil": 30,
+      "mining": 35,
+      "renewables": 50,
+      "agriculture": 60
+    },
+    "sourceStatus": {
+      "construction_production": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "civil_output": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "building_output": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "building_permits": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "construction_confidence": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "rail_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "road_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "port_freight": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "wastewater_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_stress_eu": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "waste_generation": {
+        "adapterState": "candidate",
+        "retrieval": "no_usable_series"
+      },
+      "waste_treatment": {
+        "adapterState": "candidate",
+        "retrieval": "no_usable_series"
+      },
+      "mining_production": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "renewable_share_eu": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "agri_output_prices": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_stress": {
+        "adapterState": "candidate",
+        "retrieval": "live"
+      },
+      "water_access": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_power": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_growth": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "oil_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "gas_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "mineral_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "resource_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      }
+    },
+    "errors": []
+  },
+  {
+    "country": "Jordan",
+    "universe": "Broader EMEA",
+    "coverage": {
+      "overall": 0,
+      "transport": 0,
+      "site": 0,
+      "water": 15,
+      "oil": 25,
+      "mining": 10,
+      "renewables": 30,
+      "agriculture": 45
+    },
+    "sourceStatus": {
+      "water_stress": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "water_access": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "renewable_power": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_growth": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "agri_share": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "oil_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "gas_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      },
+      "mineral_rents": {
+        "adapterState": "connected",
+        "retrieval": "no_usable_series"
+      },
+      "resource_rents": {
+        "adapterState": "connected",
+        "retrieval": "live"
+      }
+    },
+    "errors": []
+  },
+  {
     "country": "Tunisia",
     "universe": "Broader EMEA",
     "coverage": {
@@ -4128,30 +4434,30 @@
     "errors": []
   },
   {
-    "country": "Estonia",
+    "country": "Poland",
     "universe": "Europe",
     "coverage": {
-      "overall": 15,
-      "transport": 45,
-      "site": 10,
-      "water": 30,
-      "renewables": 50,
-      "agriculture": 60,
+      "overall": 60,
+      "transport": 70,
+      "site": 30,
+      "water": 45,
       "oil": 30,
-      "mining": 35
+      "mining": 50,
+      "renewables": 50,
+      "agriculture": 60
     },
     "sourceStatus": {
       "construction_production": {
         "adapterState": "connected",
-        "retrieval": "no_usable_series"
+        "retrieval": "live"
       },
       "civil_output": {
         "adapterState": "connected",
-        "retrieval": "no_usable_series"
+        "retrieval": "live"
       },
       "building_output": {
         "adapterState": "connected",
-        "retrieval": "no_usable_series"
+        "retrieval": "live"
       },
       "building_permits": {
         "adapterState": "connected",
@@ -4187,7 +4493,7 @@
       },
       "waste_treatment": {
         "adapterState": "candidate",
-        "retrieval": "no_usable_series"
+        "retrieval": "live"
       },
       "mining_production": {
         "adapterState": "candidate",
@@ -4235,7 +4541,7 @@
       },
       "mineral_rents": {
         "adapterState": "connected",
-        "retrieval": "no_usable_series"
+        "retrieval": "live"
       },
       "resource_rents": {
         "adapterState": "connected",
@@ -4245,81 +4551,21 @@
     "errors": []
   },
   {
-    "country": "Latvia",
-    "universe": "Europe",
+    "country": "Nigeria",
+    "universe": "Broader EMEA",
     "coverage": {
-      "overall": 15,
-      "transport": 45,
-      "site": 10,
-      "water": 45,
-      "renewables": 50,
-      "agriculture": 60,
-      "oil": 30,
-      "mining": 35
+      "overall": 0,
+      "transport": 0,
+      "site": 0,
+      "water": 15,
+      "oil": 45,
+      "mining": 25,
+      "renewables": 30,
+      "agriculture": 45
     },
     "sourceStatus": {
-      "construction_production": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "civil_output": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "building_output": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "building_permits": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "construction_confidence": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "rail_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "road_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "port_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "wastewater_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_stress_eu": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "waste_generation": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "waste_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "no_usable_series"
-      },
-      "mining_production": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "renewable_share_eu": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "agri_output_prices": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
       "water_stress": {
-        "adapterState": "candidate",
+        "adapterState": "connected",
         "retrieval": "live"
       },
       "water_access": {
@@ -4348,11 +4594,11 @@
       },
       "gas_rents": {
         "adapterState": "connected",
-        "retrieval": "no_usable_series"
+        "retrieval": "live"
       },
       "mineral_rents": {
         "adapterState": "connected",
-        "retrieval": "no_usable_series"
+        "retrieval": "live"
       },
       "resource_rents": {
         "adapterState": "connected",
@@ -4362,81 +4608,21 @@
     "errors": []
   },
   {
-    "country": "Malta",
-    "universe": "Europe",
+    "country": "Oman",
+    "universe": "Broader EMEA",
     "coverage": {
-      "overall": 15,
-      "transport": 20,
-      "site": 10,
-      "water": 45,
-      "renewables": 50,
-      "agriculture": 60,
-      "oil": 0,
-      "mining": 25
+      "overall": 0,
+      "transport": 0,
+      "site": 0,
+      "water": 15,
+      "oil": 45,
+      "mining": 10,
+      "renewables": 15,
+      "agriculture": 45
     },
     "sourceStatus": {
-      "construction_production": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "civil_output": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "building_output": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "building_permits": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "construction_confidence": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "rail_freight": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "road_freight": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "port_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "wastewater_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_stress_eu": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "waste_generation": {
-        "adapterState": "candidate",
-        "retrieval": "no_usable_series"
-      },
-      "waste_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "mining_production": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "renewable_share_eu": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "agri_output_prices": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
       "water_stress": {
-        "adapterState": "candidate",
+        "adapterState": "connected",
         "retrieval": "live"
       },
       "water_access": {
@@ -4449,7 +4635,7 @@
       },
       "renewable_power": {
         "adapterState": "connected",
-        "retrieval": "live"
+        "retrieval": "no_usable_series"
       },
       "agri_growth": {
         "adapterState": "connected",
@@ -4461,132 +4647,15 @@
       },
       "oil_rents": {
         "adapterState": "connected",
-        "retrieval": "no_usable_series"
+        "retrieval": "live"
       },
       "gas_rents": {
         "adapterState": "connected",
-        "retrieval": "no_usable_series"
+        "retrieval": "live"
       },
       "mineral_rents": {
         "adapterState": "connected",
         "retrieval": "no_usable_series"
-      },
-      "resource_rents": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      }
-    },
-    "errors": []
-  },
-  {
-    "country": "Cyprus",
-    "universe": "Europe",
-    "coverage": {
-      "overall": 30,
-      "transport": 30,
-      "site": 40,
-      "water": 45,
-      "renewables": 50,
-      "agriculture": 60,
-      "oil": 10,
-      "mining": 50
-    },
-    "sourceStatus": {
-      "construction_production": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "civil_output": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "building_output": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "building_permits": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "construction_confidence": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "rail_freight": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "road_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "port_freight": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "wastewater_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_stress_eu": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "waste_generation": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "waste_treatment": {
-        "adapterState": "candidate",
-        "retrieval": "no_usable_series"
-      },
-      "mining_production": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "renewable_share_eu": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "agri_output_prices": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_stress": {
-        "adapterState": "candidate",
-        "retrieval": "live"
-      },
-      "water_access": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "renewable_power": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "agri_growth": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "agri_share": {
-        "adapterState": "connected",
-        "retrieval": "live"
-      },
-      "oil_rents": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "gas_rents": {
-        "adapterState": "connected",
-        "retrieval": "no_usable_series"
-      },
-      "mineral_rents": {
-        "adapterState": "connected",
-        "retrieval": "live"
       },
       "resource_rents": {
         "adapterState": "connected",
