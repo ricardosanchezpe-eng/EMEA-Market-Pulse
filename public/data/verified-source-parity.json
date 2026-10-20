@@ -2,8 +2,5 @@
   "verifiedPassRows": 1134,
   "appliedPassRows": 1134,
   "unrepresented": [],
-  "mismatches": [],
-  "technical": [],
-  "visibleMethodologyKeys": 51,
-  "weightedContractKeys": 49
+  "technical": []
 }

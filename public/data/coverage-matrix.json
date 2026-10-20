@@ -9,9 +9,9 @@
     "retrieval": "live",
     "latest": 98.9,
     "latestDate": "2026-08",
-    "previous": 89.5,
-    "previousDate": "2025-08",
-    "score": 92
+    "previous": 98.8,
+    "previousDate": "2026-07",
+    "score": 50
   },
   {
     "universe": "europe",
@@ -23,9 +23,9 @@
     "retrieval": "live",
     "latest": 117.6,
     "latestDate": "2026-08",
-    "previous": 109.9,
-    "previousDate": "2025-08",
-    "score": 78
+    "previous": 125.8,
+    "previousDate": "2026-07",
+    "score": 24
   },
   {
     "universe": "europe",
@@ -65,9 +65,9 @@
     "retrieval": "live",
     "latest": 99.9,
     "latestDate": "2026-Q2",
-    "previous": 100.5,
-    "previousDate": "2023-Q2",
-    "score": 48
+    "previous": 100.0,
+    "previousDate": "2026-Q1",
+    "score": 50
   },
   {
     "universe": "europe",
@@ -79,9 +79,9 @@
     "retrieval": "live",
     "latest": 141.7,
     "latestDate": "2026-Q3",
-    "previous": 126.4,
-    "previousDate": "2023-Q3",
-    "score": 98
+    "previous": 140.3,
+    "previousDate": "2026-Q2",
+    "score": 54
   },
   {
     "universe": "europe",
@@ -107,9 +107,9 @@
     "retrieval": "live",
     "latest": 117.6,
     "latestDate": "2026-08",
-    "previous": 109.9,
-    "previousDate": "2025-08",
-    "score": 78
+    "previous": 125.8,
+    "previousDate": "2026-07",
+    "score": 24
   },
   {
     "universe": "europe",
@@ -233,9 +233,9 @@
     "retrieval": "live",
     "latest": 25057,
     "latestDate": "2026-Q1",
-    "previous": 25277,
-    "previousDate": "2025-Q1",
-    "score": 47
+    "previous": 24078,
+    "previousDate": "2025-Q4",
+    "score": 66
   },
   {
     "universe": "europe",
@@ -289,9 +289,9 @@
     "retrieval": "live",
     "latest": 50.6,
     "latestDate": "2026-Q2",
-    "previous": 45.3,
-    "previousDate": "2025-Q2",
-    "score": 97
+    "previous": 51.5,
+    "previousDate": "2026-Q1",
+    "score": 43
   },
   {
     "universe": "europe",
@@ -303,9 +303,9 @@
     "retrieval": "live",
     "latest": 77.2,
     "latestDate": "2026-08",
-    "previous": 75.5,
-    "previousDate": "2025-08",
-    "score": 59
+    "previous": 88.0,
+    "previousDate": "2026-07",
+    "score": 1
   },
   {
     "universe": "europe",
@@ -331,9 +331,9 @@
     "retrieval": "live",
     "latest": 99.9,
     "latestDate": "2026-Q2",
-    "previous": 100.5,
-    "previousDate": "2023-Q2",
-    "score": 48
+    "previous": 100.0,
+    "previousDate": "2026-Q1",
+    "score": 50
   },
   {
     "universe": "europe",
@@ -527,9 +527,9 @@
     "retrieval": "live",
     "latest": 76.2,
     "latestDate": "2026-08",
-    "previous": 85.1,
-    "previousDate": "2025-08",
-    "score": 8
+    "previous": 84.6,
+    "previousDate": "2026-07",
+    "score": 10
   },
   {
     "universe": "europe",
@@ -793,9 +793,9 @@
     "retrieval": "live",
     "latest": 54.2,
     "latestDate": "2026-08",
-    "previous": 58.8,
-    "previousDate": "2025-08",
-    "score": 19
+    "previous": 92.2,
+    "previousDate": "2026-07",
+    "score": 0
   },
   {
     "universe": "europe",
@@ -807,9 +807,9 @@
     "retrieval": "live",
     "latest": 61.1,
     "latestDate": "2026-08",
-    "previous": 65.8,
-    "previousDate": "2025-08",
-    "score": 21
+    "previous": 89.5,
+    "previousDate": "2026-07",
+    "score": 0
   },
   {
     "universe": "europe",
@@ -849,9 +849,9 @@
     "retrieval": "live",
     "latest": 97.1,
     "latestDate": "2026-Q2",
-    "previous": 101.5,
-    "previousDate": "2023-Q2",
-    "score": 33
+    "previous": 97.4,
+    "previousDate": "2026-Q1",
+    "score": 49
   },
   {
     "universe": "europe",
@@ -863,9 +863,9 @@
     "retrieval": "live",
     "latest": 113.3,
     "latestDate": "2026-Q2",
-    "previous": 114.4,
-    "previousDate": "2023-Q2",
-    "score": 46
+    "previous": 112.3,
+    "previousDate": "2026-Q1",
+    "score": 54
   },
   {
     "universe": "europe",
@@ -891,9 +891,9 @@
     "retrieval": "live",
     "latest": 61.1,
     "latestDate": "2026-08",
-    "previous": 65.8,
-    "previousDate": "2025-08",
-    "score": 21
+    "previous": 89.5,
+    "previousDate": "2026-07",
+    "score": 0
   },
   {
     "universe": "europe",
@@ -1017,9 +1017,9 @@
     "retrieval": "live",
     "latest": 14288,
     "latestDate": "2026-Q1",
-    "previous": 13039,
-    "previousDate": "2025-Q1",
-    "score": 88
+    "previous": 14341,
+    "previousDate": "2025-Q4",
+    "score": 49
   },
   {
     "universe": "europe",
@@ -1073,9 +1073,9 @@
     "retrieval": "live",
     "latest": 65.0,
     "latestDate": "2026-Q2",
-    "previous": 60.2,
-    "previousDate": "2025-Q2",
-    "score": 82
+    "previous": 66.4,
+    "previousDate": "2026-Q1",
+    "score": 42
   },
   {
     "universe": "europe",
@@ -1087,9 +1087,9 @@
     "retrieval": "live",
     "latest": 52.0,
     "latestDate": "2026-08",
-    "previous": 56.2,
-    "previousDate": "2025-08",
-    "score": 20
+    "previous": 86.2,
+    "previousDate": "2026-07",
+    "score": 0
   },
   {
     "universe": "europe",
@@ -1115,9 +1115,9 @@
     "retrieval": "live",
     "latest": 97.1,
     "latestDate": "2026-Q2",
-    "previous": 101.5,
-    "previousDate": "2023-Q2",
-    "score": 33
+    "previous": 97.4,
+    "previousDate": "2026-Q1",
+    "score": 49
   },
   {
     "universe": "europe",
@@ -1311,9 +1311,9 @@
     "retrieval": "live",
     "latest": 56.5,
     "latestDate": "2026-08",
-    "previous": 60.2,
-    "previousDate": "2025-08",
-    "score": 25
+    "previous": 86.7,
+    "previousDate": "2026-07",
+    "score": 0
   },
   {
     "universe": "europe",
@@ -1577,9 +1577,9 @@
     "retrieval": "live",
     "latest": 92.8,
     "latestDate": "2026-08",
-    "previous": 94.9,
-    "previousDate": "2025-08",
-    "score": 41
+    "previous": 156.6,
+    "previousDate": "2026-07",
+    "score": 0
   },
   {
     "universe": "europe",
@@ -1605,9 +1605,9 @@
     "retrieval": "live",
     "latest": 77.2,
     "latestDate": "2026-Q2",
-    "previous": 87.7,
-    "previousDate": "2023-Q2",
-    "score": 2
+    "previous": 78.0,
+    "previousDate": "2026-Q1",
+    "score": 46
   },
   {
     "universe": "europe",
@@ -1633,9 +1633,9 @@
     "retrieval": "live",
     "latest": 117.4,
     "latestDate": "2026-Q2",
-    "previous": 108.8,
-    "previousDate": "2023-Q2",
-    "score": 82
+    "previous": 117.4,
+    "previousDate": "2026-Q1",
+    "score": 50
   },
   {
     "universe": "europe",
@@ -1647,9 +1647,9 @@
     "retrieval": "live",
     "latest": 113.4,
     "latestDate": "2026-08",
-    "previous": 111.1,
-    "previousDate": "2025-08",
-    "score": 58
+    "previous": 113.4,
+    "previousDate": "2026-07",
+    "score": 50
   },
   {
     "universe": "europe",
@@ -1801,9 +1801,9 @@
     "retrieval": "live",
     "latest": 18819,
     "latestDate": "2026-Q1",
-    "previous": 19878,
-    "previousDate": "2025-Q1",
-    "score": 29
+    "previous": 21765,
+    "previousDate": "2025-Q4",
+    "score": 0
   },
   {
     "universe": "europe",
@@ -1843,9 +1843,9 @@
     "retrieval": "live",
     "latest": 77.2,
     "latestDate": "2026-Q2",
-    "previous": 87.7,
-    "previousDate": "2023-Q2",
-    "score": 2
+    "previous": 78.0,
+    "previousDate": "2026-Q1",
+    "score": 46
   },
   {
     "universe": "europe",
@@ -1857,9 +1857,9 @@
     "retrieval": "live",
     "latest": 77.2,
     "latestDate": "2026-Q2",
-    "previous": 85.1,
-    "previousDate": "2025-Q2",
-    "score": 13
+    "previous": 78.0,
+    "previousDate": "2026-Q1",
+    "score": 46
   },
   {
     "universe": "europe",
@@ -1899,9 +1899,9 @@
     "retrieval": "live",
     "latest": 117.4,
     "latestDate": "2026-Q2",
-    "previous": 108.8,
-    "previousDate": "2023-Q2",
-    "score": 82
+    "previous": 117.4,
+    "previousDate": "2026-Q1",
+    "score": 50
   },
   {
     "universe": "europe",
@@ -2095,9 +2095,9 @@
     "retrieval": "live",
     "latest": 78.5,
     "latestDate": "2026-08",
-    "previous": 82.4,
-    "previousDate": "2025-08",
-    "score": 31
+    "previous": 94.7,
+    "previousDate": "2026-07",
+    "score": 0
   },
   {
     "universe": "europe",
@@ -2361,9 +2361,9 @@
     "retrieval": "live",
     "latest": 95.5,
     "latestDate": "2026-08",
-    "previous": 99.8,
-    "previousDate": "2025-08",
-    "score": 33
+    "previous": 125.8,
+    "previousDate": "2026-07",
+    "score": 0
   },
   {
     "universe": "europe",
@@ -2375,9 +2375,9 @@
     "retrieval": "live",
     "latest": 78.9,
     "latestDate": "2026-08",
-    "previous": 82.3,
-    "previousDate": "2025-08",
-    "score": 33
+    "previous": 99.7,
+    "previousDate": "2026-07",
+    "score": 0
   },
   {
     "universe": "europe",
@@ -2417,9 +2417,9 @@
     "retrieval": "live",
     "latest": 98.8,
     "latestDate": "2025-12",
-    "previous": 98.4,
-    "previousDate": "2024-12",
-    "score": 52
+    "previous": 107.1,
+    "previousDate": "2025-11",
+    "score": 19
   },
   {
     "universe": "europe",
@@ -2431,9 +2431,9 @@
     "retrieval": "live",
     "latest": 124.1,
     "latestDate": "2026-07",
-    "previous": 120.1,
-    "previousDate": "2025-07",
-    "score": 63
+    "previous": 123.6,
+    "previousDate": "2026-06",
+    "score": 52
   },
   {
     "universe": "europe",
@@ -2459,9 +2459,9 @@
     "retrieval": "live",
     "latest": 78.9,
     "latestDate": "2026-08",
-    "previous": 82.3,
-    "previousDate": "2025-08",
-    "score": 33
+    "previous": 99.7,
+    "previousDate": "2026-07",
+    "score": 0
   },
   {
     "universe": "europe",
@@ -2585,9 +2585,9 @@
     "retrieval": "live",
     "latest": 22601,
     "latestDate": "2026-Q1",
-    "previous": 22159,
-    "previousDate": "2025-Q1",
-    "score": 58
+    "previous": 23305,
+    "previousDate": "2025-Q4",
+    "score": 38
   },
   {
     "universe": "europe",
@@ -2641,9 +2641,9 @@
     "retrieval": "live",
     "latest": 281.6,
     "latestDate": "2026-Q2",
-    "previous": 262.7,
-    "previousDate": "2025-Q2",
-    "score": 79
+    "previous": 279.9,
+    "previousDate": "2026-Q1",
+    "score": 52
   },
   {
     "universe": "europe",
@@ -2655,8 +2655,8 @@
     "retrieval": "live",
     "latest": 61.0,
     "latestDate": "2026-08",
-    "previous": 78.7,
-    "previousDate": "2025-08",
+    "previous": 71.2,
+    "previousDate": "2026-07",
     "score": 0
   },
   {
@@ -2683,9 +2683,9 @@
     "retrieval": "live",
     "latest": 98.8,
     "latestDate": "2025-12",
-    "previous": 98.4,
-    "previousDate": "2024-12",
-    "score": 52
+    "previous": 107.1,
+    "previousDate": "2025-11",
+    "score": 19
   },
   {
     "universe": "europe",
@@ -2879,9 +2879,9 @@
     "retrieval": "live",
     "latest": 111.9,
     "latestDate": "2026-08",
-    "previous": 88.2,
-    "previousDate": "2025-08",
-    "score": 100
+    "previous": 113.7,
+    "previousDate": "2026-07",
+    "score": 44
   },
   {
     "universe": "europe",
@@ -3145,9 +3145,9 @@
     "retrieval": "live",
     "latest": 41.7,
     "latestDate": "2026-08",
-    "previous": 42.3,
-    "previousDate": "2025-08",
-    "score": 44
+    "previous": 109.1,
+    "previousDate": "2026-07",
+    "score": 0
   },
   {
     "universe": "europe",
@@ -3159,9 +3159,9 @@
     "retrieval": "live",
     "latest": 41.4,
     "latestDate": "2026-08",
-    "previous": 42.1,
-    "previousDate": "2025-08",
-    "score": 43
+    "previous": 126.5,
+    "previousDate": "2026-07",
+    "score": 0
   },
   {
     "universe": "europe",
@@ -3201,9 +3201,9 @@
     "retrieval": "live",
     "latest": 112.4,
     "latestDate": "2026-Q1",
-    "previous": 103.6,
-    "previousDate": "2023-Q1",
-    "score": 84
+    "previous": 110.7,
+    "previousDate": "2025-Q4",
+    "score": 56
   },
   {
     "universe": "europe",
@@ -3215,9 +3215,9 @@
     "retrieval": "live",
     "latest": 129.4,
     "latestDate": "2026-08",
-    "previous": 123.3,
-    "previousDate": "2025-08",
-    "score": 70
+    "previous": 129.5,
+    "previousDate": "2026-07",
+    "score": 50
   },
   {
     "universe": "europe",
@@ -3243,9 +3243,9 @@
     "retrieval": "live",
     "latest": 41.4,
     "latestDate": "2026-08",
-    "previous": 42.1,
-    "previousDate": "2025-08",
-    "score": 43
+    "previous": 126.5,
+    "previousDate": "2026-07",
+    "score": 0
   },
   {
     "universe": "europe",
@@ -3369,9 +3369,9 @@
     "retrieval": "live",
     "latest": 19992,
     "latestDate": "2026-Q1",
-    "previous": 20580,
-    "previousDate": "2025-Q1",
-    "score": 39
+    "previous": 19693,
+    "previousDate": "2025-Q4",
+    "score": 56
   },
   {
     "universe": "europe",
@@ -3425,8 +3425,8 @@
     "retrieval": "live",
     "latest": 127.7,
     "latestDate": "2026-Q2",
-    "previous": 60.1,
-    "previousDate": "2025-Q2",
+    "previous": 60.9,
+    "previousDate": "2026-Q1",
     "score": 100
   },
   {
@@ -3439,9 +3439,9 @@
     "retrieval": "live",
     "latest": 41.5,
     "latestDate": "2026-08",
-    "previous": 43.9,
-    "previousDate": "2025-08",
-    "score": 28
+    "previous": 100.3,
+    "previousDate": "2026-07",
+    "score": 0
   },
   {
     "universe": "europe",
@@ -3467,9 +3467,9 @@
     "retrieval": "live",
     "latest": 112.4,
     "latestDate": "2026-Q1",
-    "previous": 103.6,
-    "previousDate": "2023-Q1",
-    "score": 84
+    "previous": 110.7,
+    "previousDate": "2025-Q4",
+    "score": 56
   },
   {
     "universe": "europe",
@@ -3663,9 +3663,9 @@
     "retrieval": "live",
     "latest": 50.9,
     "latestDate": "2026-08",
-    "previous": 57.4,
-    "previousDate": "2025-08",
-    "score": 5
+    "previous": 55.1,
+    "previousDate": "2026-07",
+    "score": 20
   },
   {
     "universe": "europe",
@@ -3929,9 +3929,9 @@
     "retrieval": "live",
     "latest": 94.2,
     "latestDate": "2026-Q2",
-    "previous": 94.7,
-    "previousDate": "2023-Q2",
-    "score": 48
+    "previous": 80.7,
+    "previousDate": "2026-Q1",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -3943,9 +3943,9 @@
     "retrieval": "live",
     "latest": 89.4,
     "latestDate": "2026-Q2",
-    "previous": 85.5,
-    "previousDate": "2023-Q2",
-    "score": 68
+    "previous": 78.2,
+    "previousDate": "2026-Q1",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -3985,9 +3985,9 @@
     "retrieval": "live",
     "latest": 107.0,
     "latestDate": "2026-Q2",
-    "previous": 102.5,
-    "previousDate": "2023-Q2",
-    "score": 68
+    "previous": 105.9,
+    "previousDate": "2026-Q1",
+    "score": 54
   },
   {
     "universe": "europe",
@@ -3999,9 +3999,9 @@
     "retrieval": "live",
     "latest": 112.1,
     "latestDate": "2026-Q2",
-    "previous": 110.0,
-    "previousDate": "2023-Q2",
-    "score": 58
+    "previous": 111.8,
+    "previousDate": "2026-Q1",
+    "score": 51
   },
   {
     "universe": "europe",
@@ -4027,9 +4027,9 @@
     "retrieval": "live",
     "latest": 89.4,
     "latestDate": "2026-Q2",
-    "previous": 85.5,
-    "previousDate": "2023-Q2",
-    "score": 68
+    "previous": 78.2,
+    "previousDate": "2026-Q1",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -4223,9 +4223,9 @@
     "retrieval": "live",
     "latest": 104.5,
     "latestDate": "2026-Q2",
-    "previous": 100.6,
-    "previousDate": "2023-Q2",
-    "score": 66
+    "previous": 84.6,
+    "previousDate": "2026-Q1",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -4251,9 +4251,9 @@
     "retrieval": "live",
     "latest": 107.0,
     "latestDate": "2026-Q2",
-    "previous": 102.5,
-    "previousDate": "2023-Q2",
-    "score": 68
+    "previous": 105.9,
+    "previousDate": "2026-Q1",
+    "score": 54
   },
   {
     "universe": "europe",
@@ -4447,9 +4447,9 @@
     "retrieval": "live",
     "latest": 110.4,
     "latestDate": "2026-06",
-    "previous": 113.9,
-    "previousDate": "2025-06",
-    "score": 38
+    "previous": 101.2,
+    "previousDate": "2026-05",
+    "score": 86
   },
   {
     "universe": "europe",
@@ -4713,9 +4713,9 @@
     "retrieval": "live",
     "latest": 105.0,
     "latestDate": "2026-08",
-    "previous": 100.6,
-    "previousDate": "2025-08",
-    "score": 67
+    "previous": 102.8,
+    "previousDate": "2026-07",
+    "score": 59
   },
   {
     "universe": "europe",
@@ -4727,9 +4727,9 @@
     "retrieval": "live",
     "latest": 122.6,
     "latestDate": "2026-08",
-    "previous": 95.0,
-    "previousDate": "2025-08",
-    "score": 100
+    "previous": 109.2,
+    "previousDate": "2026-07",
+    "score": 99
   },
   {
     "universe": "europe",
@@ -4741,8 +4741,8 @@
     "retrieval": "live",
     "latest": 81.9,
     "latestDate": "2026-Q2",
-    "previous": 61.9,
-    "previousDate": "2023-Q2",
+    "previous": 67.0,
+    "previousDate": "2026-Q1",
     "score": 100
   },
   {
@@ -4769,9 +4769,9 @@
     "retrieval": "live",
     "latest": 97.1,
     "latestDate": "2026-Q2",
-    "previous": 98.5,
-    "previousDate": "2023-Q2",
-    "score": 44
+    "previous": 97.1,
+    "previousDate": "2026-Q1",
+    "score": 50
   },
   {
     "universe": "europe",
@@ -4783,9 +4783,9 @@
     "retrieval": "live",
     "latest": 144.5,
     "latestDate": "2026-07",
-    "previous": 136.0,
-    "previousDate": "2025-07",
-    "score": 75
+    "previous": 143.2,
+    "previousDate": "2026-06",
+    "score": 54
   },
   {
     "universe": "europe",
@@ -4811,9 +4811,9 @@
     "retrieval": "live",
     "latest": 122.6,
     "latestDate": "2026-08",
-    "previous": 95.0,
-    "previousDate": "2025-08",
-    "score": 100
+    "previous": 109.2,
+    "previousDate": "2026-07",
+    "score": 99
   },
   {
     "universe": "europe",
@@ -4937,9 +4937,9 @@
     "retrieval": "live",
     "latest": 12889,
     "latestDate": "2026-Q1",
-    "previous": 12347,
-    "previousDate": "2025-Q1",
-    "score": 68
+    "previous": 12907,
+    "previousDate": "2025-Q4",
+    "score": 49
   },
   {
     "universe": "europe",
@@ -4979,8 +4979,8 @@
     "retrieval": "live",
     "latest": 81.9,
     "latestDate": "2026-Q2",
-    "previous": 61.9,
-    "previousDate": "2023-Q2",
+    "previous": 67.0,
+    "previousDate": "2026-Q1",
     "score": 100
   },
   {
@@ -4993,9 +4993,9 @@
     "retrieval": "live",
     "latest": 81.9,
     "latestDate": "2026-Q2",
-    "previous": 74.3,
-    "previousDate": "2025-Q2",
-    "score": 91
+    "previous": 67.0,
+    "previousDate": "2026-Q1",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -5007,8 +5007,8 @@
     "retrieval": "live",
     "latest": 80.7,
     "latestDate": "2026-08",
-    "previous": 100.4,
-    "previousDate": "2025-08",
+    "previous": 96.7,
+    "previousDate": "2026-07",
     "score": 0
   },
   {
@@ -5035,9 +5035,9 @@
     "retrieval": "live",
     "latest": 97.1,
     "latestDate": "2026-Q2",
-    "previous": 98.5,
-    "previousDate": "2023-Q2",
-    "score": 44
+    "previous": 97.1,
+    "previousDate": "2026-Q1",
+    "score": 50
   },
   {
     "universe": "europe",
@@ -5231,9 +5231,9 @@
     "retrieval": "live",
     "latest": 116.4,
     "latestDate": "2026-08",
-    "previous": 102.0,
-    "previousDate": "2025-08",
-    "score": 100
+    "previous": 117.6,
+    "previousDate": "2026-07",
+    "score": 46
   },
   {
     "universe": "europe",
@@ -5497,9 +5497,9 @@
     "retrieval": "live",
     "latest": 98.1,
     "latestDate": "2026-08",
-    "previous": 98.4,
-    "previousDate": "2025-08",
-    "score": 49
+    "previous": 65.0,
+    "previousDate": "2026-07",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -5511,9 +5511,9 @@
     "retrieval": "live",
     "latest": 112.0,
     "latestDate": "2026-08",
-    "previous": 107.5,
-    "previousDate": "2025-08",
-    "score": 67
+    "previous": 75.6,
+    "previousDate": "2026-07",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -5553,9 +5553,9 @@
     "retrieval": "live",
     "latest": 111.2,
     "latestDate": "2026-Q1",
-    "previous": 108.5,
-    "previousDate": "2023-Q1",
-    "score": 60
+    "previous": 104.5,
+    "previousDate": "2025-Q4",
+    "score": 76
   },
   {
     "universe": "europe",
@@ -5567,9 +5567,9 @@
     "retrieval": "live",
     "latest": 133.9,
     "latestDate": "2026-Q2",
-    "previous": 121.0,
-    "previousDate": "2023-Q2",
-    "score": 93
+    "previous": 131.7,
+    "previousDate": "2026-Q1",
+    "score": 57
   },
   {
     "universe": "europe",
@@ -5595,9 +5595,9 @@
     "retrieval": "live",
     "latest": 112.0,
     "latestDate": "2026-08",
-    "previous": 107.5,
-    "previousDate": "2025-08",
-    "score": 67
+    "previous": 75.6,
+    "previousDate": "2026-07",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -5721,9 +5721,9 @@
     "retrieval": "live",
     "latest": 18388,
     "latestDate": "2026-Q1",
-    "previous": 17399,
-    "previousDate": "2025-Q1",
-    "score": 73
+    "previous": 18805,
+    "previousDate": "2025-Q4",
+    "score": 41
   },
   {
     "universe": "europe",
@@ -5777,9 +5777,9 @@
     "retrieval": "live",
     "latest": 72.1,
     "latestDate": "2026-Q2",
-    "previous": 67.2,
-    "previousDate": "2025-Q2",
-    "score": 79
+    "previous": 72.1,
+    "previousDate": "2026-Q1",
+    "score": 50
   },
   {
     "universe": "europe",
@@ -5791,9 +5791,9 @@
     "retrieval": "live",
     "latest": 89.1,
     "latestDate": "2026-08",
-    "previous": 92.5,
-    "previousDate": "2025-08",
-    "score": 35
+    "previous": 53.8,
+    "previousDate": "2026-07",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -5819,9 +5819,9 @@
     "retrieval": "live",
     "latest": 111.2,
     "latestDate": "2026-Q1",
-    "previous": 108.5,
-    "previousDate": "2023-Q1",
-    "score": 60
+    "previous": 104.5,
+    "previousDate": "2025-Q4",
+    "score": 76
   },
   {
     "universe": "europe",
@@ -6015,9 +6015,9 @@
     "retrieval": "live",
     "latest": 76.5,
     "latestDate": "2026-08",
-    "previous": 85.3,
-    "previousDate": "2025-08",
-    "score": 9
+    "previous": 67.7,
+    "previousDate": "2026-07",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -6281,9 +6281,9 @@
     "retrieval": "live",
     "latest": 127.8,
     "latestDate": "2023-Q4",
-    "previous": 151.8,
-    "previousDate": "2020-Q4",
-    "score": 0
+    "previous": 127.5,
+    "previousDate": "2023-Q3",
+    "score": 51
   },
   {
     "universe": "europe",
@@ -6309,8 +6309,8 @@
     "retrieval": "live",
     "latest": 150.1,
     "latestDate": "2026-Q2",
-    "previous": 88.6,
-    "previousDate": "2023-Q2",
+    "previous": 118.2,
+    "previousDate": "2026-Q1",
     "score": 100
   },
   {
@@ -6337,9 +6337,9 @@
     "retrieval": "live",
     "latest": 144.0,
     "latestDate": "2026-Q2",
-    "previous": 127.1,
-    "previousDate": "2023-Q2",
-    "score": 100
+    "previous": 138.8,
+    "previousDate": "2026-Q1",
+    "score": 65
   },
   {
     "universe": "europe",
@@ -6351,9 +6351,9 @@
     "retrieval": "live",
     "latest": 125.8,
     "latestDate": "2026-08",
-    "previous": 121.8,
-    "previousDate": "2025-08",
-    "score": 63
+    "previous": 124.1,
+    "previousDate": "2026-07",
+    "score": 55
   },
   {
     "universe": "europe",
@@ -6505,9 +6505,9 @@
     "retrieval": "live",
     "latest": 6792,
     "latestDate": "2026-Q2",
-    "previous": 6194,
-    "previousDate": "2025-Q2",
-    "score": 89
+    "previous": 6380,
+    "previousDate": "2026-Q1",
+    "score": 76
   },
   {
     "universe": "europe",
@@ -6547,8 +6547,8 @@
     "retrieval": "live",
     "latest": 150.1,
     "latestDate": "2026-Q2",
-    "previous": 88.6,
-    "previousDate": "2023-Q2",
+    "previous": 118.2,
+    "previousDate": "2026-Q1",
     "score": 100
   },
   {
@@ -6561,8 +6561,8 @@
     "retrieval": "live",
     "latest": 150.1,
     "latestDate": "2026-Q2",
-    "previous": 113.0,
-    "previousDate": "2025-Q2",
+    "previous": 118.2,
+    "previousDate": "2026-Q1",
     "score": 100
   },
   {
@@ -6603,9 +6603,9 @@
     "retrieval": "live",
     "latest": 144.0,
     "latestDate": "2026-Q2",
-    "previous": 127.1,
-    "previousDate": "2023-Q2",
-    "score": 100
+    "previous": 138.8,
+    "previousDate": "2026-Q1",
+    "score": 65
   },
   {
     "universe": "europe",
@@ -7065,9 +7065,9 @@
     "retrieval": "live",
     "latest": 87.2,
     "latestDate": "2026-08",
-    "previous": 83.9,
-    "previousDate": "2025-08",
-    "score": 66
+    "previous": 65.7,
+    "previousDate": "2026-07",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -7079,9 +7079,9 @@
     "retrieval": "live",
     "latest": 106.6,
     "latestDate": "2026-08",
-    "previous": 108.3,
-    "previousDate": "2025-08",
-    "score": 44
+    "previous": 82.4,
+    "previousDate": "2026-07",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -7121,9 +7121,9 @@
     "retrieval": "live",
     "latest": 100.6,
     "latestDate": "2026-07",
-    "previous": 97.0,
-    "previousDate": "2025-07",
-    "score": 65
+    "previous": 102.4,
+    "previousDate": "2026-06",
+    "score": 43
   },
   {
     "universe": "europe",
@@ -7135,9 +7135,9 @@
     "retrieval": "live",
     "latest": 125.8,
     "latestDate": "2026-Q2",
-    "previous": 116.6,
-    "previousDate": "2023-Q2",
-    "score": 82
+    "previous": 123.4,
+    "previousDate": "2026-Q1",
+    "score": 58
   },
   {
     "universe": "europe",
@@ -7163,9 +7163,9 @@
     "retrieval": "live",
     "latest": 106.6,
     "latestDate": "2026-08",
-    "previous": 108.3,
-    "previousDate": "2025-08",
-    "score": 44
+    "previous": 82.4,
+    "previousDate": "2026-07",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -7289,9 +7289,9 @@
     "retrieval": "live",
     "latest": 25024,
     "latestDate": "2026-Q2",
-    "previous": 24201,
-    "previousDate": "2025-Q2",
-    "score": 64
+    "previous": 24441,
+    "previousDate": "2026-Q1",
+    "score": 60
   },
   {
     "universe": "europe",
@@ -7345,9 +7345,9 @@
     "retrieval": "live",
     "latest": 41.9,
     "latestDate": "2026-Q2",
-    "previous": 44.5,
-    "previousDate": "2025-Q2",
-    "score": 27
+    "previous": 40.9,
+    "previousDate": "2026-Q1",
+    "score": 60
   },
   {
     "universe": "europe",
@@ -7359,9 +7359,9 @@
     "retrieval": "live",
     "latest": 72.0,
     "latestDate": "2026-08",
-    "previous": 65.9,
-    "previousDate": "2025-08",
-    "score": 87
+    "previous": 54.1,
+    "previousDate": "2026-07",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -7387,9 +7387,9 @@
     "retrieval": "live",
     "latest": 100.6,
     "latestDate": "2026-07",
-    "previous": 97.0,
-    "previousDate": "2025-07",
-    "score": 65
+    "previous": 102.4,
+    "previousDate": "2026-06",
+    "score": 43
   },
   {
     "universe": "europe",
@@ -7583,9 +7583,9 @@
     "retrieval": "live",
     "latest": 100.3,
     "latestDate": "2026-08",
-    "previous": 109.4,
-    "previousDate": "2025-08",
-    "score": 17
+    "previous": 89.0,
+    "previousDate": "2026-07",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -7849,9 +7849,9 @@
     "retrieval": "live",
     "latest": 97.2,
     "latestDate": "2026-08",
-    "previous": 95.9,
-    "previousDate": "2025-08",
-    "score": 55
+    "previous": 108.8,
+    "previousDate": "2026-07",
+    "score": 7
   },
   {
     "universe": "europe",
@@ -7863,8 +7863,8 @@
     "retrieval": "live",
     "latest": 111.0,
     "latestDate": "2026-08",
-    "previous": 131.1,
-    "previousDate": "2025-08",
+    "previous": 129.7,
+    "previousDate": "2026-07",
     "score": 0
   },
   {
@@ -7877,9 +7877,9 @@
     "retrieval": "live",
     "latest": 61.7,
     "latestDate": "2026-Q2",
-    "previous": 58.8,
-    "previousDate": "2023-Q2",
-    "score": 70
+    "previous": 52.2,
+    "previousDate": "2026-Q1",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -7905,9 +7905,9 @@
     "retrieval": "live",
     "latest": 102.7,
     "latestDate": "2026-08",
-    "previous": 103.0,
-    "previousDate": "2025-08",
-    "score": 49
+    "previous": 103.4,
+    "previousDate": "2026-07",
+    "score": 47
   },
   {
     "universe": "europe",
@@ -7919,9 +7919,9 @@
     "retrieval": "live",
     "latest": 124.9,
     "latestDate": "2026-09",
-    "previous": 118.1,
-    "previousDate": "2025-09",
-    "score": 73
+    "previous": 124.5,
+    "previousDate": "2026-08",
+    "score": 51
   },
   {
     "universe": "europe",
@@ -7947,8 +7947,8 @@
     "retrieval": "live",
     "latest": 111.0,
     "latestDate": "2026-08",
-    "previous": 131.1,
-    "previousDate": "2025-08",
+    "previous": 129.7,
+    "previousDate": "2026-07",
     "score": 0
   },
   {
@@ -8115,9 +8115,9 @@
     "retrieval": "live",
     "latest": 61.7,
     "latestDate": "2026-Q2",
-    "previous": 58.8,
-    "previousDate": "2023-Q2",
-    "score": 70
+    "previous": 52.2,
+    "previousDate": "2026-Q1",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -8129,8 +8129,8 @@
     "retrieval": "live",
     "latest": 61.7,
     "latestDate": "2026-Q2",
-    "previous": 48.8,
-    "previousDate": "2025-Q2",
+    "previous": 52.2,
+    "previousDate": "2026-Q1",
     "score": 100
   },
   {
@@ -8143,9 +8143,9 @@
     "retrieval": "live",
     "latest": 83.2,
     "latestDate": "2026-08",
-    "previous": 75.0,
-    "previousDate": "2025-08",
-    "score": 94
+    "previous": 92.1,
+    "previousDate": "2026-07",
+    "score": 11
   },
   {
     "universe": "europe",
@@ -8171,9 +8171,9 @@
     "retrieval": "live",
     "latest": 102.7,
     "latestDate": "2026-08",
-    "previous": 103.0,
-    "previousDate": "2025-08",
-    "score": 49
+    "previous": 103.4,
+    "previousDate": "2026-07",
+    "score": 47
   },
   {
     "universe": "europe",
@@ -8367,9 +8367,9 @@
     "retrieval": "live",
     "latest": 92.2,
     "latestDate": "2026-08",
-    "previous": 86.5,
-    "previousDate": "2025-08",
-    "score": 76
+    "previous": 92.3,
+    "previousDate": "2026-07",
+    "score": 50
   },
   {
     "universe": "europe",
@@ -8633,9 +8633,9 @@
     "retrieval": "live",
     "latest": 98.1,
     "latestDate": "2026-08",
-    "previous": 99.6,
-    "previousDate": "2025-08",
-    "score": 44
+    "previous": 63.3,
+    "previousDate": "2026-07",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -8647,9 +8647,9 @@
     "retrieval": "live",
     "latest": 102.9,
     "latestDate": "2026-08",
-    "previous": 109.5,
-    "previousDate": "2025-08",
-    "score": 26
+    "previous": 66.5,
+    "previousDate": "2026-07",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -8661,9 +8661,9 @@
     "retrieval": "live",
     "latest": 73.5,
     "latestDate": "2026-09",
-    "previous": 67.3,
-    "previousDate": "2025-09",
-    "score": 87
+    "previous": 53.3,
+    "previousDate": "2026-08",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -8689,9 +8689,9 @@
     "retrieval": "live",
     "latest": 99.4,
     "latestDate": "2026-Q2",
-    "previous": 105.1,
-    "previousDate": "2023-Q2",
-    "score": 28
+    "previous": 98.6,
+    "previousDate": "2026-Q1",
+    "score": 53
   },
   {
     "universe": "europe",
@@ -8703,9 +8703,9 @@
     "retrieval": "live",
     "latest": 129.0,
     "latestDate": "2026-09",
-    "previous": 123.9,
-    "previousDate": "2025-09",
-    "score": 66
+    "previous": 128.6,
+    "previousDate": "2026-08",
+    "score": 51
   },
   {
     "universe": "europe",
@@ -8731,9 +8731,9 @@
     "retrieval": "live",
     "latest": 102.9,
     "latestDate": "2026-08",
-    "previous": 109.5,
-    "previousDate": "2025-08",
-    "score": 26
+    "previous": 66.5,
+    "previousDate": "2026-07",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -8857,9 +8857,9 @@
     "retrieval": "live",
     "latest": 28157,
     "latestDate": "2026-Q1",
-    "previous": 27195,
-    "previousDate": "2025-Q1",
-    "score": 64
+    "previous": 28748,
+    "previousDate": "2025-Q4",
+    "score": 42
   },
   {
     "universe": "europe",
@@ -8899,9 +8899,9 @@
     "retrieval": "live",
     "latest": 73.5,
     "latestDate": "2026-09",
-    "previous": 67.3,
-    "previousDate": "2025-09",
-    "score": 87
+    "previous": 53.3,
+    "previousDate": "2026-08",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -8913,9 +8913,9 @@
     "retrieval": "live",
     "latest": 59.7,
     "latestDate": "2026-Q3",
-    "previous": 53.3,
-    "previousDate": "2025-Q3",
-    "score": 98
+    "previous": 61.2,
+    "previousDate": "2026-Q2",
+    "score": 40
   },
   {
     "universe": "europe",
@@ -8927,9 +8927,9 @@
     "retrieval": "live",
     "latest": 92.5,
     "latestDate": "2026-08",
-    "previous": 93.0,
-    "previousDate": "2025-08",
-    "score": 48
+    "previous": 59.3,
+    "previousDate": "2026-07",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -8955,9 +8955,9 @@
     "retrieval": "live",
     "latest": 99.4,
     "latestDate": "2026-Q2",
-    "previous": 105.1,
-    "previousDate": "2023-Q2",
-    "score": 28
+    "previous": 98.6,
+    "previousDate": "2026-Q1",
+    "score": 53
   },
   {
     "universe": "europe",
@@ -9151,9 +9151,9 @@
     "retrieval": "live",
     "latest": 109.0,
     "latestDate": "2026-08",
-    "previous": 109.4,
-    "previousDate": "2025-08",
-    "score": 49
+    "previous": 108.0,
+    "previousDate": "2026-07",
+    "score": 54
   },
   {
     "universe": "europe",
@@ -9417,9 +9417,9 @@
     "retrieval": "live",
     "latest": 107.6,
     "latestDate": "2026-08",
-    "previous": 107.3,
-    "previousDate": "2025-08",
-    "score": 51
+    "previous": 97.8,
+    "previousDate": "2026-07",
+    "score": 90
   },
   {
     "universe": "europe",
@@ -9431,9 +9431,9 @@
     "retrieval": "live",
     "latest": 118.4,
     "latestDate": "2026-08",
-    "previous": 134.6,
-    "previousDate": "2025-08",
-    "score": 2
+    "previous": 119.8,
+    "previousDate": "2026-07",
+    "score": 45
   },
   {
     "universe": "europe",
@@ -9445,9 +9445,9 @@
     "retrieval": "live",
     "latest": 61.0,
     "latestDate": "2026-Q2",
-    "previous": 51.9,
-    "previousDate": "2023-Q2",
-    "score": 100
+    "previous": 69.3,
+    "previousDate": "2026-Q1",
+    "score": 2
   },
   {
     "universe": "europe",
@@ -9473,9 +9473,9 @@
     "retrieval": "live",
     "latest": 103.3,
     "latestDate": "2026-Q2",
-    "previous": 101.6,
-    "previousDate": "2023-Q2",
-    "score": 57
+    "previous": 101.7,
+    "previousDate": "2026-Q1",
+    "score": 56
   },
   {
     "universe": "europe",
@@ -9487,9 +9487,9 @@
     "retrieval": "live",
     "latest": 122.8,
     "latestDate": "2026-Q2",
-    "previous": 115.2,
-    "previousDate": "2023-Q2",
-    "score": 76
+    "previous": 119.9,
+    "previousDate": "2026-Q1",
+    "score": 60
   },
   {
     "universe": "europe",
@@ -9515,9 +9515,9 @@
     "retrieval": "live",
     "latest": 118.4,
     "latestDate": "2026-08",
-    "previous": 134.6,
-    "previousDate": "2025-08",
-    "score": 2
+    "previous": 119.8,
+    "previousDate": "2026-07",
+    "score": 45
   },
   {
     "universe": "europe",
@@ -9641,9 +9641,9 @@
     "retrieval": "live",
     "latest": 10497,
     "latestDate": "2026-Q2",
-    "previous": 10353,
-    "previousDate": "2025-Q2",
-    "score": 56
+    "previous": 11120,
+    "previousDate": "2026-Q1",
+    "score": 28
   },
   {
     "universe": "europe",
@@ -9683,9 +9683,9 @@
     "retrieval": "live",
     "latest": 61.0,
     "latestDate": "2026-Q2",
-    "previous": 51.9,
-    "previousDate": "2023-Q2",
-    "score": 100
+    "previous": 69.3,
+    "previousDate": "2026-Q1",
+    "score": 2
   },
   {
     "universe": "europe",
@@ -9697,9 +9697,9 @@
     "retrieval": "live",
     "latest": 61.0,
     "latestDate": "2026-Q2",
-    "previous": 73.5,
-    "previousDate": "2025-Q2",
-    "score": 0
+    "previous": 69.3,
+    "previousDate": "2026-Q1",
+    "score": 2
   },
   {
     "universe": "europe",
@@ -9711,9 +9711,9 @@
     "retrieval": "live",
     "latest": 110.0,
     "latestDate": "2026-08",
-    "previous": 104.2,
-    "previousDate": "2025-08",
-    "score": 72
+    "previous": 94.8,
+    "previousDate": "2026-07",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -9739,9 +9739,9 @@
     "retrieval": "live",
     "latest": 103.3,
     "latestDate": "2026-Q2",
-    "previous": 101.6,
-    "previousDate": "2023-Q2",
-    "score": 57
+    "previous": 101.7,
+    "previousDate": "2026-Q1",
+    "score": 56
   },
   {
     "universe": "europe",
@@ -9935,9 +9935,9 @@
     "retrieval": "live",
     "latest": 143.8,
     "latestDate": "2026-08",
-    "previous": 143.4,
-    "previousDate": "2025-08",
-    "score": 51
+    "previous": 146.1,
+    "previousDate": "2026-07",
+    "score": 44
   },
   {
     "universe": "europe",
@@ -10201,9 +10201,9 @@
     "retrieval": "live",
     "latest": 184.5,
     "latestDate": "2026-08",
-    "previous": 132.7,
-    "previousDate": "2025-08",
-    "score": 100
+    "previous": 176.2,
+    "previousDate": "2026-07",
+    "score": 69
   },
   {
     "universe": "europe",
@@ -10257,9 +10257,9 @@
     "retrieval": "live",
     "latest": 108.7,
     "latestDate": "2026-08",
-    "previous": 108.4,
-    "previousDate": "2025-08",
-    "score": 51
+    "previous": 109.5,
+    "previousDate": "2026-07",
+    "score": 47
   },
   {
     "universe": "europe",
@@ -10271,9 +10271,9 @@
     "retrieval": "live",
     "latest": 164.7,
     "latestDate": "2026-Q2",
-    "previous": 126.8,
-    "previousDate": "2023-Q2",
-    "score": 100
+    "previous": 156.3,
+    "previousDate": "2026-Q1",
+    "score": 71
   },
   {
     "universe": "europe",
@@ -10425,9 +10425,9 @@
     "retrieval": "live",
     "latest": 2106,
     "latestDate": "2026-Q1",
-    "previous": 1710,
-    "previousDate": "2025-Q1",
-    "score": 100
+    "previous": 2070,
+    "previousDate": "2025-Q4",
+    "score": 57
   },
   {
     "universe": "europe",
@@ -10481,9 +10481,9 @@
     "retrieval": "live",
     "latest": 67.8,
     "latestDate": "2026-Q2",
-    "previous": 78.1,
-    "previousDate": "2025-Q2",
-    "score": 0
+    "previous": 56.4,
+    "previousDate": "2026-Q1",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -10523,9 +10523,9 @@
     "retrieval": "live",
     "latest": 108.7,
     "latestDate": "2026-08",
-    "previous": 108.4,
-    "previousDate": "2025-08",
-    "score": 51
+    "previous": 109.5,
+    "previousDate": "2026-07",
+    "score": 47
   },
   {
     "universe": "europe",
@@ -10719,9 +10719,9 @@
     "retrieval": "live",
     "latest": 103.9,
     "latestDate": "2026-08",
-    "previous": 96.1,
-    "previousDate": "2025-08",
-    "score": 82
+    "previous": 102.0,
+    "previousDate": "2026-07",
+    "score": 57
   },
   {
     "universe": "europe",
@@ -10985,9 +10985,9 @@
     "retrieval": "live",
     "latest": 128.5,
     "latestDate": "2026-08",
-    "previous": 130.3,
-    "previousDate": "2025-08",
-    "score": 44
+    "previous": 122.0,
+    "previousDate": "2026-07",
+    "score": 71
   },
   {
     "universe": "europe",
@@ -10999,9 +10999,9 @@
     "retrieval": "live",
     "latest": 131.6,
     "latestDate": "2026-08",
-    "previous": 150.1,
-    "previousDate": "2025-08",
-    "score": 1
+    "previous": 123.9,
+    "previousDate": "2026-07",
+    "score": 75
   },
   {
     "universe": "europe",
@@ -11013,9 +11013,9 @@
     "retrieval": "live",
     "latest": 83.9,
     "latestDate": "2026-Q2",
-    "previous": 76.8,
-    "previousDate": "2023-Q2",
-    "score": 87
+    "previous": 61.0,
+    "previousDate": "2026-Q1",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -11041,9 +11041,9 @@
     "retrieval": "live",
     "latest": 105.7,
     "latestDate": "2026-Q2",
-    "previous": 104.4,
-    "previousDate": "2023-Q2",
-    "score": 55
+    "previous": 103.0,
+    "previousDate": "2026-Q1",
+    "score": 60
   },
   {
     "universe": "europe",
@@ -11055,9 +11055,9 @@
     "retrieval": "live",
     "latest": 134.1,
     "latestDate": "2026-Q2",
-    "previous": 126.1,
-    "previousDate": "2023-Q2",
-    "score": 75
+    "previous": 131.3,
+    "previousDate": "2026-Q1",
+    "score": 59
   },
   {
     "universe": "europe",
@@ -11083,9 +11083,9 @@
     "retrieval": "live",
     "latest": 131.6,
     "latestDate": "2026-08",
-    "previous": 150.1,
-    "previousDate": "2025-08",
-    "score": 1
+    "previous": 123.9,
+    "previousDate": "2026-07",
+    "score": 75
   },
   {
     "universe": "europe",
@@ -11251,9 +11251,9 @@
     "retrieval": "live",
     "latest": 83.9,
     "latestDate": "2026-Q2",
-    "previous": 76.8,
-    "previousDate": "2023-Q2",
-    "score": 87
+    "previous": 61.0,
+    "previousDate": "2026-Q1",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -11265,8 +11265,8 @@
     "retrieval": "live",
     "latest": 83.9,
     "latestDate": "2026-Q2",
-    "previous": 64.2,
-    "previousDate": "2025-Q2",
+    "previous": 61.0,
+    "previousDate": "2026-Q1",
     "score": 100
   },
   {
@@ -11279,9 +11279,9 @@
     "retrieval": "live",
     "latest": 115.9,
     "latestDate": "2026-08",
-    "previous": 114.4,
-    "previousDate": "2025-08",
-    "score": 55
+    "previous": 111.3,
+    "previousDate": "2026-07",
+    "score": 67
   },
   {
     "universe": "europe",
@@ -11307,9 +11307,9 @@
     "retrieval": "live",
     "latest": 105.7,
     "latestDate": "2026-Q2",
-    "previous": 104.4,
-    "previousDate": "2023-Q2",
-    "score": 55
+    "previous": 103.0,
+    "previousDate": "2026-Q1",
+    "score": 60
   },
   {
     "universe": "europe",
@@ -11503,9 +11503,9 @@
     "retrieval": "live",
     "latest": 68.2,
     "latestDate": "2026-08",
-    "previous": 68.3,
-    "previousDate": "2025-08",
-    "score": 49
+    "previous": 66.8,
+    "previousDate": "2026-07",
+    "score": 58
   },
   {
     "universe": "europe",
@@ -11769,9 +11769,9 @@
     "retrieval": "live",
     "latest": 108.4,
     "latestDate": "2026-08",
-    "previous": 106.3,
-    "previousDate": "2025-08",
-    "score": 58
+    "previous": 120.5,
+    "previousDate": "2026-07",
+    "score": 10
   },
   {
     "universe": "europe",
@@ -11783,9 +11783,9 @@
     "retrieval": "live",
     "latest": 103.2,
     "latestDate": "2026-08",
-    "previous": 103.3,
-    "previousDate": "2025-08",
-    "score": 50
+    "previous": 114.6,
+    "previousDate": "2026-07",
+    "score": 10
   },
   {
     "universe": "europe",
@@ -11825,9 +11825,9 @@
     "retrieval": "live",
     "latest": 115.0,
     "latestDate": "2026-08",
-    "previous": 112.8,
-    "previousDate": "2025-08",
-    "score": 58
+    "previous": 115.9,
+    "previousDate": "2026-07",
+    "score": 47
   },
   {
     "universe": "europe",
@@ -11839,9 +11839,9 @@
     "retrieval": "live",
     "latest": 134.9,
     "latestDate": "2026-08",
-    "previous": 125.4,
-    "previousDate": "2025-08",
-    "score": 80
+    "previous": 134.2,
+    "previousDate": "2026-07",
+    "score": 52
   },
   {
     "universe": "europe",
@@ -11867,9 +11867,9 @@
     "retrieval": "live",
     "latest": 103.2,
     "latestDate": "2026-08",
-    "previous": 103.3,
-    "previousDate": "2025-08",
-    "score": 50
+    "previous": 114.6,
+    "previousDate": "2026-07",
+    "score": 10
   },
   {
     "universe": "europe",
@@ -11993,9 +11993,9 @@
     "retrieval": "live",
     "latest": 5771,
     "latestDate": "2026-Q1",
-    "previous": 5989,
-    "previousDate": "2025-Q1",
-    "score": 35
+    "previous": 5681,
+    "previousDate": "2025-Q4",
+    "score": 56
   },
   {
     "universe": "europe",
@@ -12049,9 +12049,9 @@
     "retrieval": "live",
     "latest": 100.1,
     "latestDate": "2026-Q2",
-    "previous": 102.8,
-    "previousDate": "2025-Q2",
-    "score": 39
+    "previous": 102.0,
+    "previousDate": "2026-Q1",
+    "score": 43
   },
   {
     "universe": "europe",
@@ -12063,9 +12063,9 @@
     "retrieval": "live",
     "latest": 103.4,
     "latestDate": "2026-08",
-    "previous": 103.5,
-    "previousDate": "2025-08",
-    "score": 50
+    "previous": 117.4,
+    "previousDate": "2026-07",
+    "score": 2
   },
   {
     "universe": "europe",
@@ -12091,9 +12091,9 @@
     "retrieval": "live",
     "latest": 115.0,
     "latestDate": "2026-08",
-    "previous": 112.8,
-    "previousDate": "2025-08",
-    "score": 58
+    "previous": 115.9,
+    "previousDate": "2026-07",
+    "score": 47
   },
   {
     "universe": "europe",
@@ -12287,9 +12287,9 @@
     "retrieval": "live",
     "latest": 125.8,
     "latestDate": "2026-08",
-    "previous": 85.4,
-    "previousDate": "2025-08",
-    "score": 100
+    "previous": 139.3,
+    "previousDate": "2026-07",
+    "score": 11
   },
   {
     "universe": "europe",
@@ -12553,9 +12553,9 @@
     "retrieval": "live",
     "latest": 120.3,
     "latestDate": "2026-08",
-    "previous": 106.7,
-    "previousDate": "2025-08",
-    "score": 100
+    "previous": 111.4,
+    "previousDate": "2026-07",
+    "score": 82
   },
   {
     "universe": "europe",
@@ -12567,9 +12567,9 @@
     "retrieval": "live",
     "latest": 108.0,
     "latestDate": "2026-08",
-    "previous": 100.8,
-    "previousDate": "2025-08",
-    "score": 79
+    "previous": 107.9,
+    "previousDate": "2026-07",
+    "score": 50
   },
   {
     "universe": "europe",
@@ -12609,9 +12609,9 @@
     "retrieval": "live",
     "latest": 114.6,
     "latestDate": "2026-08",
-    "previous": 105.6,
-    "previousDate": "2025-08",
-    "score": 84
+    "previous": 111.4,
+    "previousDate": "2026-07",
+    "score": 61
   },
   {
     "universe": "europe",
@@ -12623,9 +12623,9 @@
     "retrieval": "live",
     "latest": 115.9,
     "latestDate": "2026-09",
-    "previous": 112.0,
-    "previousDate": "2025-09",
-    "score": 64
+    "previous": 115.7,
+    "previousDate": "2026-08",
+    "score": 51
   },
   {
     "universe": "europe",
@@ -12651,9 +12651,9 @@
     "retrieval": "live",
     "latest": 108.0,
     "latestDate": "2026-08",
-    "previous": 100.8,
-    "previousDate": "2025-08",
-    "score": 79
+    "previous": 107.9,
+    "previousDate": "2026-07",
+    "score": 50
   },
   {
     "universe": "europe",
@@ -12777,9 +12777,9 @@
     "retrieval": "live",
     "latest": 16535,
     "latestDate": "2026-Q1",
-    "previous": 16626,
-    "previousDate": "2025-Q1",
-    "score": 48
+    "previous": 15336,
+    "previousDate": "2025-Q4",
+    "score": 81
   },
   {
     "universe": "europe",
@@ -12833,9 +12833,9 @@
     "retrieval": "live",
     "latest": 57.6,
     "latestDate": "2026-Q2",
-    "previous": 63.8,
-    "previousDate": "2025-Q2",
-    "score": 11
+    "previous": 42.2,
+    "previousDate": "2026-Q1",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -12847,9 +12847,9 @@
     "retrieval": "live",
     "latest": 93.2,
     "latestDate": "2026-08",
-    "previous": 87.2,
-    "previousDate": "2025-08",
-    "score": 78
+    "previous": 84.5,
+    "previousDate": "2026-07",
+    "score": 91
   },
   {
     "universe": "europe",
@@ -12875,9 +12875,9 @@
     "retrieval": "live",
     "latest": 114.6,
     "latestDate": "2026-08",
-    "previous": 105.6,
-    "previousDate": "2025-08",
-    "score": 84
+    "previous": 111.4,
+    "previousDate": "2026-07",
+    "score": 61
   },
   {
     "universe": "europe",
@@ -13071,9 +13071,9 @@
     "retrieval": "live",
     "latest": 83.0,
     "latestDate": "2026-08",
-    "previous": 98.6,
-    "previousDate": "2025-08",
-    "score": 0
+    "previous": 82.9,
+    "previousDate": "2026-07",
+    "score": 50
   },
   {
     "universe": "europe",
@@ -13338,7 +13338,7 @@
     "latest": 156.2,
     "latestDate": "2026-Q2",
     "previous": 119.6,
-    "previousDate": "2023-Q2",
+    "previousDate": "2026-Q1",
     "score": 100
   },
   {
@@ -13351,8 +13351,8 @@
     "retrieval": "live",
     "latest": 155.1,
     "latestDate": "2026-Q2",
-    "previous": 131.0,
-    "previousDate": "2023-Q2",
+    "previous": 116.6,
+    "previousDate": "2026-Q1",
     "score": 100
   },
   {
@@ -13393,9 +13393,9 @@
     "retrieval": "live",
     "latest": 120.1,
     "latestDate": "2026-Q2",
-    "previous": 110.2,
-    "previousDate": "2023-Q2",
-    "score": 86
+    "previous": 108.0,
+    "previousDate": "2026-Q1",
+    "score": 95
   },
   {
     "universe": "europe",
@@ -13407,9 +13407,9 @@
     "retrieval": "live",
     "latest": 127.6,
     "latestDate": "2026-Q2",
-    "previous": 115.1,
-    "previousDate": "2023-Q2",
-    "score": 93
+    "previous": 125.5,
+    "previousDate": "2026-Q1",
+    "score": 57
   },
   {
     "universe": "europe",
@@ -13435,8 +13435,8 @@
     "retrieval": "live",
     "latest": 155.1,
     "latestDate": "2026-Q2",
-    "previous": 131.0,
-    "previousDate": "2023-Q2",
+    "previous": 116.6,
+    "previousDate": "2026-Q1",
     "score": 100
   },
   {
@@ -13561,9 +13561,9 @@
     "retrieval": "live",
     "latest": 7917,
     "latestDate": "2026-Q1",
-    "previous": 8523,
-    "previousDate": "2025-Q1",
-    "score": 22
+    "previous": 8493,
+    "previousDate": "2025-Q4",
+    "score": 23
   },
   {
     "universe": "europe",
@@ -13617,9 +13617,9 @@
     "retrieval": "live",
     "latest": 116.7,
     "latestDate": "2026-Q2",
-    "previous": 105.0,
-    "previousDate": "2025-Q2",
-    "score": 95
+    "previous": 97.6,
+    "previousDate": "2026-Q1",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -13659,9 +13659,9 @@
     "retrieval": "live",
     "latest": 120.1,
     "latestDate": "2026-Q2",
-    "previous": 110.2,
-    "previousDate": "2023-Q2",
-    "score": 86
+    "previous": 108.0,
+    "previousDate": "2026-Q1",
+    "score": 95
   },
   {
     "universe": "europe",
@@ -13855,9 +13855,9 @@
     "retrieval": "live",
     "latest": 85.2,
     "latestDate": "2026-08",
-    "previous": 83.9,
-    "previousDate": "2025-08",
-    "score": 56
+    "previous": 109.3,
+    "previousDate": "2026-07",
+    "score": 0
   },
   {
     "universe": "europe",
@@ -14121,9 +14121,9 @@
     "retrieval": "live",
     "latest": 99.3,
     "latestDate": "2026-08",
-    "previous": 81.4,
-    "previousDate": "2025-08",
-    "score": 100
+    "previous": 91.9,
+    "previousDate": "2026-07",
+    "score": 82
   },
   {
     "universe": "europe",
@@ -14135,8 +14135,8 @@
     "retrieval": "live",
     "latest": 133.7,
     "latestDate": "2026-08",
-    "previous": 47.1,
-    "previousDate": "2025-08",
+    "previous": 65.4,
+    "previousDate": "2026-07",
     "score": 100
   },
   {
@@ -14177,9 +14177,9 @@
     "retrieval": "live",
     "latest": 98.1,
     "latestDate": "2026-Q2",
-    "previous": 105.6,
-    "previousDate": "2023-Q2",
-    "score": 22
+    "previous": 97.6,
+    "previousDate": "2026-Q1",
+    "score": 52
   },
   {
     "universe": "europe",
@@ -14191,9 +14191,9 @@
     "retrieval": "live",
     "latest": 167.9,
     "latestDate": "2026-Q2",
-    "previous": 142.5,
-    "previousDate": "2023-Q2",
-    "score": 100
+    "previous": 165.2,
+    "previousDate": "2026-Q1",
+    "score": 57
   },
   {
     "universe": "europe",
@@ -14219,8 +14219,8 @@
     "retrieval": "live",
     "latest": 133.7,
     "latestDate": "2026-08",
-    "previous": 47.1,
-    "previousDate": "2025-08",
+    "previous": 65.4,
+    "previousDate": "2026-07",
     "score": 100
   },
   {
@@ -14401,9 +14401,9 @@
     "retrieval": "live",
     "latest": 56.5,
     "latestDate": "2026-Q2",
-    "previous": 62.8,
-    "previousDate": "2025-Q2",
-    "score": 10
+    "previous": 75.8,
+    "previousDate": "2026-Q1",
+    "score": 0
   },
   {
     "universe": "europe",
@@ -14415,9 +14415,9 @@
     "retrieval": "live",
     "latest": 81.6,
     "latestDate": "2026-08",
-    "previous": 85.7,
-    "previousDate": "2025-08",
-    "score": 31
+    "previous": 100.7,
+    "previousDate": "2026-07",
+    "score": 0
   },
   {
     "universe": "europe",
@@ -14443,9 +14443,9 @@
     "retrieval": "live",
     "latest": 98.1,
     "latestDate": "2026-Q2",
-    "previous": 105.6,
-    "previousDate": "2023-Q2",
-    "score": 22
+    "previous": 97.6,
+    "previousDate": "2026-Q1",
+    "score": 52
   },
   {
     "universe": "europe",
@@ -14639,9 +14639,9 @@
     "retrieval": "live",
     "latest": 169.5,
     "latestDate": "2026-08",
-    "previous": 89.4,
-    "previousDate": "2025-08",
-    "score": 100
+    "previous": 167.1,
+    "previousDate": "2026-07",
+    "score": 56
   },
   {
     "universe": "europe",
@@ -14905,9 +14905,9 @@
     "retrieval": "live",
     "latest": 84.0,
     "latestDate": "2026-08",
-    "previous": 88.3,
-    "previousDate": "2025-08",
-    "score": 31
+    "previous": 89.8,
+    "previousDate": "2026-07",
+    "score": 24
   },
   {
     "universe": "europe",
@@ -14919,9 +14919,9 @@
     "retrieval": "live",
     "latest": 97.9,
     "latestDate": "2026-08",
-    "previous": 108.7,
-    "previousDate": "2025-08",
-    "score": 10
+    "previous": 111.9,
+    "previousDate": "2026-07",
+    "score": 0
   },
   {
     "universe": "europe",
@@ -14933,9 +14933,9 @@
     "retrieval": "live",
     "latest": 44.4,
     "latestDate": "2026-Q2",
-    "previous": 74.8,
-    "previousDate": "2023-Q2",
-    "score": 0
+    "previous": 41.0,
+    "previousDate": "2026-Q1",
+    "score": 83
   },
   {
     "universe": "europe",
@@ -14961,9 +14961,9 @@
     "retrieval": "live",
     "latest": 103.8,
     "latestDate": "2026-08",
-    "previous": 98.6,
-    "previousDate": "2025-08",
-    "score": 71
+    "previous": 104.2,
+    "previousDate": "2026-07",
+    "score": 48
   },
   {
     "universe": "europe",
@@ -14975,9 +14975,9 @@
     "retrieval": "live",
     "latest": 155.7,
     "latestDate": "2026-Q2",
-    "previous": 135.2,
-    "previousDate": "2023-Q2",
-    "score": 100
+    "previous": 154.4,
+    "previousDate": "2026-Q1",
+    "score": 53
   },
   {
     "universe": "europe",
@@ -15003,9 +15003,9 @@
     "retrieval": "live",
     "latest": 97.9,
     "latestDate": "2026-08",
-    "previous": 108.7,
-    "previousDate": "2025-08",
-    "score": 10
+    "previous": 111.9,
+    "previousDate": "2026-07",
+    "score": 0
   },
   {
     "universe": "europe",
@@ -15171,9 +15171,9 @@
     "retrieval": "live",
     "latest": 44.4,
     "latestDate": "2026-Q2",
-    "previous": 74.8,
-    "previousDate": "2023-Q2",
-    "score": 0
+    "previous": 41.0,
+    "previousDate": "2026-Q1",
+    "score": 83
   },
   {
     "universe": "europe",
@@ -15185,9 +15185,9 @@
     "retrieval": "live",
     "latest": 44.4,
     "latestDate": "2026-Q2",
-    "previous": 62.7,
-    "previousDate": "2025-Q2",
-    "score": 0
+    "previous": 41.0,
+    "previousDate": "2026-Q1",
+    "score": 83
   },
   {
     "universe": "europe",
@@ -15199,9 +15199,9 @@
     "retrieval": "live",
     "latest": 101.9,
     "latestDate": "2026-08",
-    "previous": 99.8,
-    "previousDate": "2025-08",
-    "score": 58
+    "previous": 107.6,
+    "previousDate": "2026-07",
+    "score": 29
   },
   {
     "universe": "europe",
@@ -15227,9 +15227,9 @@
     "retrieval": "live",
     "latest": 103.8,
     "latestDate": "2026-08",
-    "previous": 98.6,
-    "previousDate": "2025-08",
-    "score": 71
+    "previous": 104.2,
+    "previousDate": "2026-07",
+    "score": 48
   },
   {
     "universe": "europe",
@@ -15423,8 +15423,8 @@
     "retrieval": "live",
     "latest": 47.8,
     "latestDate": "2026-08",
-    "previous": 58.1,
-    "previousDate": "2025-08",
+    "previous": 56.4,
+    "previousDate": "2026-07",
     "score": 0
   },
   {
@@ -15689,9 +15689,9 @@
     "retrieval": "live",
     "latest": 119.0,
     "latestDate": "2026-08",
-    "previous": 114.2,
-    "previousDate": "2025-08",
-    "score": 67
+    "previous": 120.4,
+    "previousDate": "2026-07",
+    "score": 45
   },
   {
     "universe": "europe",
@@ -15703,9 +15703,9 @@
     "retrieval": "live",
     "latest": 109.5,
     "latestDate": "2026-08",
-    "previous": 105.1,
-    "previousDate": "2025-08",
-    "score": 67
+    "previous": 110.3,
+    "previousDate": "2026-07",
+    "score": 47
   },
   {
     "universe": "europe",
@@ -15717,9 +15717,9 @@
     "retrieval": "live",
     "latest": 131.1,
     "latestDate": "2026-Q2",
-    "previous": 118.0,
-    "previousDate": "2023-Q2",
-    "score": 94
+    "previous": 130.9,
+    "previousDate": "2026-Q1",
+    "score": 51
   },
   {
     "universe": "europe",
@@ -15745,9 +15745,9 @@
     "retrieval": "live",
     "latest": 100.4,
     "latestDate": "2026-Q2",
-    "previous": 101.6,
-    "previousDate": "2023-Q2",
-    "score": 45
+    "previous": 101.1,
+    "previousDate": "2026-Q1",
+    "score": 47
   },
   {
     "universe": "europe",
@@ -15759,9 +15759,9 @@
     "retrieval": "live",
     "latest": 230.8,
     "latestDate": "2026-Q2",
-    "previous": 179.3,
-    "previousDate": "2023-Q2",
-    "score": 100
+    "previous": 223.3,
+    "previousDate": "2026-Q1",
+    "score": 63
   },
   {
     "universe": "europe",
@@ -15787,9 +15787,9 @@
     "retrieval": "live",
     "latest": 109.5,
     "latestDate": "2026-08",
-    "previous": 105.1,
-    "previousDate": "2025-08",
-    "score": 67
+    "previous": 110.3,
+    "previousDate": "2026-07",
+    "score": 47
   },
   {
     "universe": "europe",
@@ -15913,9 +15913,9 @@
     "retrieval": "live",
     "latest": 1007,
     "latestDate": "2026-Q2",
-    "previous": 834,
-    "previousDate": "2025-Q2",
-    "score": 100
+    "previous": 1193,
+    "previousDate": "2026-Q1",
+    "score": 0
   },
   {
     "universe": "europe",
@@ -15955,9 +15955,9 @@
     "retrieval": "live",
     "latest": 131.1,
     "latestDate": "2026-Q2",
-    "previous": 118.0,
-    "previousDate": "2023-Q2",
-    "score": 94
+    "previous": 130.9,
+    "previousDate": "2026-Q1",
+    "score": 51
   },
   {
     "universe": "europe",
@@ -15969,9 +15969,9 @@
     "retrieval": "live",
     "latest": 131.1,
     "latestDate": "2026-Q2",
-    "previous": 117.9,
-    "previousDate": "2025-Q2",
-    "score": 95
+    "previous": 130.9,
+    "previousDate": "2026-Q1",
+    "score": 51
   },
   {
     "universe": "europe",
@@ -15983,9 +15983,9 @@
     "retrieval": "live",
     "latest": 118.8,
     "latestDate": "2026-08",
-    "previous": 110.6,
-    "previousDate": "2025-08",
-    "score": 80
+    "previous": 122.1,
+    "previousDate": "2026-07",
+    "score": 39
   },
   {
     "universe": "europe",
@@ -16011,9 +16011,9 @@
     "retrieval": "live",
     "latest": 100.4,
     "latestDate": "2026-Q2",
-    "previous": 101.6,
-    "previousDate": "2023-Q2",
-    "score": 45
+    "previous": 101.1,
+    "previousDate": "2026-Q1",
+    "score": 47
   },
   {
     "universe": "europe",
@@ -16207,8 +16207,8 @@
     "retrieval": "live",
     "latest": 43.3,
     "latestDate": "2026-08",
-    "previous": 94.2,
-    "previousDate": "2025-08",
+    "previous": 52.8,
+    "previousDate": "2026-07",
     "score": 0
   },
   {
@@ -16473,9 +16473,9 @@
     "retrieval": "live",
     "latest": 143.0,
     "latestDate": "2026-07",
-    "previous": 139.2,
-    "previousDate": "2025-07",
-    "score": 61
+    "previous": 136.4,
+    "previousDate": "2026-06",
+    "score": 69
   },
   {
     "universe": "europe",
@@ -16501,9 +16501,9 @@
     "retrieval": "live",
     "latest": 119.1,
     "latestDate": "2026-Q2",
-    "previous": 107.4,
-    "previousDate": "2023-Q2",
-    "score": 94
+    "previous": 92.0,
+    "previousDate": "2026-Q1",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -16529,9 +16529,9 @@
     "retrieval": "live",
     "latest": 129.4,
     "latestDate": "2026-Q2",
-    "previous": 109.1,
-    "previousDate": "2023-Q2",
-    "score": 100
+    "previous": 127.5,
+    "previousDate": "2026-Q1",
+    "score": 56
   },
   {
     "universe": "europe",
@@ -16543,9 +16543,9 @@
     "retrieval": "live",
     "latest": 161.8,
     "latestDate": "2026-Q2",
-    "previous": 127.4,
-    "previousDate": "2023-Q2",
-    "score": 100
+    "previous": 158.5,
+    "previousDate": "2026-Q1",
+    "score": 58
   },
   {
     "universe": "europe",
@@ -16697,9 +16697,9 @@
     "retrieval": "live",
     "latest": 1928,
     "latestDate": "2026-Q2",
-    "previous": 1495,
-    "previousDate": "2025-Q2",
-    "score": 100
+    "previous": 1717,
+    "previousDate": "2026-Q1",
+    "score": 99
   },
   {
     "universe": "europe",
@@ -16739,9 +16739,9 @@
     "retrieval": "live",
     "latest": 119.1,
     "latestDate": "2026-Q2",
-    "previous": 107.4,
-    "previousDate": "2023-Q2",
-    "score": 94
+    "previous": 92.0,
+    "previousDate": "2026-Q1",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -16753,9 +16753,9 @@
     "retrieval": "live",
     "latest": 119.1,
     "latestDate": "2026-Q2",
-    "previous": 129.3,
-    "previousDate": "2025-Q2",
-    "score": 18
+    "previous": 92.0,
+    "previousDate": "2026-Q1",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -16795,9 +16795,9 @@
     "retrieval": "live",
     "latest": 129.4,
     "latestDate": "2026-Q2",
-    "previous": 109.1,
-    "previousDate": "2023-Q2",
-    "score": 100
+    "previous": 127.5,
+    "previousDate": "2026-Q1",
+    "score": 56
   },
   {
     "universe": "europe",
@@ -16991,9 +16991,9 @@
     "retrieval": "live",
     "latest": 80.0,
     "latestDate": "2026-08",
-    "previous": 83.1,
-    "previousDate": "2025-08",
-    "score": 35
+    "previous": 88.7,
+    "previousDate": "2026-07",
+    "score": 11
   },
   {
     "universe": "europe",
@@ -17257,9 +17257,9 @@
     "retrieval": "live",
     "latest": 103.4,
     "latestDate": "2026-07",
-    "previous": 96.6,
-    "previousDate": "2025-07",
-    "score": 78
+    "previous": 100.8,
+    "previousDate": "2026-06",
+    "score": 60
   },
   {
     "universe": "europe",
@@ -17285,9 +17285,9 @@
     "retrieval": "live",
     "latest": 52.0,
     "latestDate": "2026-Q2",
-    "previous": 66.0,
-    "previousDate": "2023-Q2",
-    "score": 0
+    "previous": 51.3,
+    "previousDate": "2026-Q1",
+    "score": 55
   },
   {
     "universe": "europe",
@@ -17313,9 +17313,9 @@
     "retrieval": "live",
     "latest": 98.5,
     "latestDate": "2026-07",
-    "previous": 97.8,
-    "previousDate": "2025-07",
-    "score": 53
+    "previous": 98.4,
+    "previousDate": "2026-06",
+    "score": 50
   },
   {
     "universe": "europe",
@@ -17327,9 +17327,9 @@
     "retrieval": "live",
     "latest": 133.9,
     "latestDate": "2026-Q2",
-    "previous": 126.3,
-    "previousDate": "2023-Q2",
-    "score": 74
+    "previous": 132.7,
+    "previousDate": "2026-Q1",
+    "score": 54
   },
   {
     "universe": "europe",
@@ -17523,9 +17523,9 @@
     "retrieval": "live",
     "latest": 52.0,
     "latestDate": "2026-Q2",
-    "previous": 66.0,
-    "previousDate": "2023-Q2",
-    "score": 0
+    "previous": 51.3,
+    "previousDate": "2026-Q1",
+    "score": 55
   },
   {
     "universe": "europe",
@@ -17537,9 +17537,9 @@
     "retrieval": "live",
     "latest": 52.0,
     "latestDate": "2026-Q2",
-    "previous": 53.0,
-    "previousDate": "2025-Q2",
-    "score": 42
+    "previous": 51.3,
+    "previousDate": "2026-Q1",
+    "score": 55
   },
   {
     "universe": "europe",
@@ -17579,9 +17579,9 @@
     "retrieval": "live",
     "latest": 98.5,
     "latestDate": "2026-07",
-    "previous": 97.8,
-    "previousDate": "2025-07",
-    "score": 53
+    "previous": 98.4,
+    "previousDate": "2026-06",
+    "score": 50
   },
   {
     "universe": "europe",
@@ -17775,8 +17775,8 @@
     "retrieval": "live",
     "latest": 19.6,
     "latestDate": "2026-08",
-    "previous": 28.5,
-    "previousDate": "2025-08",
+    "previous": 83.2,
+    "previousDate": "2026-07",
     "score": 0
   },
   {
@@ -18041,8 +18041,8 @@
     "retrieval": "live",
     "latest": 146.0,
     "latestDate": "2026-Q2",
-    "previous": 120.3,
-    "previousDate": "2023-Q2",
+    "previous": 90.5,
+    "previousDate": "2026-Q1",
     "score": 100
   },
   {
@@ -18055,8 +18055,8 @@
     "retrieval": "live",
     "latest": 172.5,
     "latestDate": "2026-Q2",
-    "previous": 127.4,
-    "previousDate": "2023-Q2",
+    "previous": 78.6,
+    "previousDate": "2026-Q1",
     "score": 100
   },
   {
@@ -18069,9 +18069,9 @@
     "retrieval": "live",
     "latest": 66.7,
     "latestDate": "2026-Q2",
-    "previous": 66.2,
-    "previousDate": "2023-Q2",
-    "score": 53
+    "previous": 47.9,
+    "previousDate": "2026-Q1",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -18097,9 +18097,9 @@
     "retrieval": "live",
     "latest": 114.6,
     "latestDate": "2026-Q2",
-    "previous": 108.2,
-    "previousDate": "2023-Q2",
-    "score": 74
+    "previous": 113.0,
+    "previousDate": "2026-Q1",
+    "score": 56
   },
   {
     "universe": "europe",
@@ -18111,9 +18111,9 @@
     "retrieval": "live",
     "latest": 145.9,
     "latestDate": "2026-08",
-    "previous": 139.8,
-    "previousDate": "2025-08",
-    "score": 67
+    "previous": 144.3,
+    "previousDate": "2026-07",
+    "score": 54
   },
   {
     "universe": "europe",
@@ -18139,8 +18139,8 @@
     "retrieval": "live",
     "latest": 172.5,
     "latestDate": "2026-Q2",
-    "previous": 127.4,
-    "previousDate": "2023-Q2",
+    "previous": 78.6,
+    "previousDate": "2026-Q1",
     "score": 100
   },
   {
@@ -18265,9 +18265,9 @@
     "retrieval": "live",
     "latest": 5439,
     "latestDate": "2026-Q2",
-    "previous": 4802,
-    "previousDate": "2025-Q2",
-    "score": 100
+    "previous": 5782,
+    "previousDate": "2026-Q1",
+    "score": 26
   },
   {
     "universe": "europe",
@@ -18307,9 +18307,9 @@
     "retrieval": "live",
     "latest": 66.7,
     "latestDate": "2026-Q2",
-    "previous": 66.2,
-    "previousDate": "2023-Q2",
-    "score": 53
+    "previous": 47.9,
+    "previousDate": "2026-Q1",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -18321,8 +18321,8 @@
     "retrieval": "live",
     "latest": 66.7,
     "latestDate": "2026-Q2",
-    "previous": 50.0,
-    "previousDate": "2025-Q2",
+    "previous": 47.9,
+    "previousDate": "2026-Q1",
     "score": 100
   },
   {
@@ -18363,9 +18363,9 @@
     "retrieval": "live",
     "latest": 114.6,
     "latestDate": "2026-Q2",
-    "previous": 108.2,
-    "previousDate": "2023-Q2",
-    "score": 74
+    "previous": 113.0,
+    "previousDate": "2026-Q1",
+    "score": 56
   },
   {
     "universe": "europe",
@@ -18559,9 +18559,9 @@
     "retrieval": "live",
     "latest": 104.8,
     "latestDate": "2026-08",
-    "previous": 99.1,
-    "previousDate": "2025-08",
-    "score": 73
+    "previous": 109.0,
+    "previousDate": "2026-07",
+    "score": 35
   },
   {
     "universe": "europe",
@@ -18825,9 +18825,9 @@
     "retrieval": "live",
     "latest": 156.4,
     "latestDate": "2026-08",
-    "previous": 151.0,
-    "previousDate": "2025-08",
-    "score": 64
+    "previous": 171.1,
+    "previousDate": "2026-07",
+    "score": 16
   },
   {
     "universe": "europe",
@@ -18839,9 +18839,9 @@
     "retrieval": "live",
     "latest": 145.3,
     "latestDate": "2026-08",
-    "previous": 144.9,
-    "previousDate": "2025-08",
-    "score": 51
+    "previous": 147.8,
+    "previousDate": "2026-07",
+    "score": 43
   },
   {
     "universe": "europe",
@@ -18881,9 +18881,9 @@
     "retrieval": "live",
     "latest": 116.2,
     "latestDate": "2026-Q2",
-    "previous": 111.8,
-    "previousDate": "2023-Q2",
-    "score": 66
+    "previous": 114.7,
+    "previousDate": "2026-Q1",
+    "score": 55
   },
   {
     "universe": "europe",
@@ -18895,9 +18895,9 @@
     "retrieval": "live",
     "latest": 142.2,
     "latestDate": "2026-Q2",
-    "previous": 123.2,
-    "previousDate": "2023-Q2",
-    "score": 100
+    "previous": 133.8,
+    "previousDate": "2026-Q1",
+    "score": 75
   },
   {
     "universe": "europe",
@@ -18923,9 +18923,9 @@
     "retrieval": "live",
     "latest": 145.3,
     "latestDate": "2026-08",
-    "previous": 144.9,
-    "previousDate": "2025-08",
-    "score": 51
+    "previous": 147.8,
+    "previousDate": "2026-07",
+    "score": 43
   },
   {
     "universe": "europe",
@@ -19049,9 +19049,9 @@
     "retrieval": "live",
     "latest": 1262,
     "latestDate": "2026-Q1",
-    "previous": 1147,
-    "previousDate": "2025-Q1",
-    "score": 90
+    "previous": 1143,
+    "previousDate": "2025-Q4",
+    "score": 92
   },
   {
     "universe": "europe",
@@ -19105,9 +19105,9 @@
     "retrieval": "live",
     "latest": 95.6,
     "latestDate": "2026-Q2",
-    "previous": 97.9,
-    "previousDate": "2025-Q2",
-    "score": 41
+    "previous": 79.8,
+    "previousDate": "2026-Q1",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -19119,9 +19119,9 @@
     "retrieval": "live",
     "latest": 169.2,
     "latestDate": "2026-08",
-    "previous": 144.3,
-    "previousDate": "2025-08",
-    "score": 100
+    "previous": 192.1,
+    "previousDate": "2026-07",
+    "score": 2
   },
   {
     "universe": "europe",
@@ -19147,9 +19147,9 @@
     "retrieval": "live",
     "latest": 116.2,
     "latestDate": "2026-Q2",
-    "previous": 111.8,
-    "previousDate": "2023-Q2",
-    "score": 66
+    "previous": 114.7,
+    "previousDate": "2026-Q1",
+    "score": 55
   },
   {
     "universe": "europe",
@@ -19343,8 +19343,8 @@
     "retrieval": "live",
     "latest": 56.5,
     "latestDate": "2026-08",
-    "previous": 82.5,
-    "previousDate": "2025-08",
+    "previous": 71.0,
+    "previousDate": "2026-07",
     "score": 0
   },
   {
@@ -19609,9 +19609,9 @@
     "retrieval": "live",
     "latest": 109.6,
     "latestDate": "2026-Q2",
-    "previous": 97.7,
-    "previousDate": "2023-Q2",
-    "score": 99
+    "previous": 74.9,
+    "previousDate": "2026-Q1",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -19623,8 +19623,8 @@
     "retrieval": "live",
     "latest": 122.7,
     "latestDate": "2026-Q2",
-    "previous": 82.8,
-    "previousDate": "2023-Q2",
+    "previous": 70.9,
+    "previousDate": "2026-Q1",
     "score": 100
   },
   {
@@ -19637,9 +19637,9 @@
     "retrieval": "live",
     "latest": 57.1,
     "latestDate": "2026-Q2",
-    "previous": 99.7,
-    "previousDate": "2023-Q2",
-    "score": 0
+    "previous": 49.1,
+    "previousDate": "2026-Q1",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -19665,9 +19665,9 @@
     "retrieval": "live",
     "latest": 105.3,
     "latestDate": "2026-Q2",
-    "previous": 102.5,
-    "previousDate": "2023-Q2",
-    "score": 61
+    "previous": 90.4,
+    "previousDate": "2026-Q1",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -19679,9 +19679,9 @@
     "retrieval": "live",
     "latest": 133.1,
     "latestDate": "2026-Q2",
-    "previous": 119.1,
-    "previousDate": "2023-Q2",
-    "score": 97
+    "previous": 129.8,
+    "previousDate": "2026-Q1",
+    "score": 60
   },
   {
     "universe": "europe",
@@ -19707,8 +19707,8 @@
     "retrieval": "live",
     "latest": 122.7,
     "latestDate": "2026-Q2",
-    "previous": 82.8,
-    "previousDate": "2023-Q2",
+    "previous": 70.9,
+    "previousDate": "2026-Q1",
     "score": 100
   },
   {
@@ -19833,9 +19833,9 @@
     "retrieval": "live",
     "latest": 4847,
     "latestDate": "2025-Q4",
-    "previous": 4803,
-    "previousDate": "2024-Q4",
-    "score": 54
+    "previous": 4339,
+    "previousDate": "2025-Q3",
+    "score": 97
   },
   {
     "universe": "europe",
@@ -19875,9 +19875,9 @@
     "retrieval": "live",
     "latest": 57.1,
     "latestDate": "2026-Q2",
-    "previous": 99.7,
-    "previousDate": "2023-Q2",
-    "score": 0
+    "previous": 49.1,
+    "previousDate": "2026-Q1",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -19889,9 +19889,9 @@
     "retrieval": "live",
     "latest": 57.1,
     "latestDate": "2026-Q2",
-    "previous": 87.7,
-    "previousDate": "2025-Q2",
-    "score": 0
+    "previous": 49.1,
+    "previousDate": "2026-Q1",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -19903,9 +19903,9 @@
     "retrieval": "live",
     "latest": 102.5,
     "latestDate": "2026-Q2",
-    "previous": 109.3,
-    "previousDate": "2023-Q2",
-    "score": 25
+    "previous": 69.6,
+    "previousDate": "2026-Q1",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -19931,9 +19931,9 @@
     "retrieval": "live",
     "latest": 105.3,
     "latestDate": "2026-Q2",
-    "previous": 102.5,
-    "previousDate": "2023-Q2",
-    "score": 61
+    "previous": 90.4,
+    "previousDate": "2026-Q1",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -20127,9 +20127,9 @@
     "retrieval": "live",
     "latest": 100.8,
     "latestDate": "2026-08",
-    "previous": 74.1,
-    "previousDate": "2025-08",
-    "score": 100
+    "previous": 92.3,
+    "previousDate": "2026-07",
+    "score": 87
   },
   {
     "universe": "europe",
@@ -20393,9 +20393,9 @@
     "retrieval": "live",
     "latest": 90.0,
     "latestDate": "2026-Q2",
-    "previous": 92.0,
-    "previousDate": "2023-Q2",
-    "score": 41
+    "previous": 68.9,
+    "previousDate": "2026-Q1",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -20421,9 +20421,9 @@
     "retrieval": "live",
     "latest": 73.9,
     "latestDate": "2026-Q2",
-    "previous": 77.6,
-    "previousDate": "2023-Q2",
-    "score": 31
+    "previous": 55.0,
+    "previousDate": "2026-Q1",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -20449,9 +20449,9 @@
     "retrieval": "live",
     "latest": 90.1,
     "latestDate": "2026-Q2",
-    "previous": 101.4,
-    "previousDate": "2023-Q2",
-    "score": 5
+    "previous": 91.1,
+    "previousDate": "2026-Q1",
+    "score": 46
   },
   {
     "universe": "europe",
@@ -20463,9 +20463,9 @@
     "retrieval": "live",
     "latest": 131.8,
     "latestDate": "2026-Q2",
-    "previous": 123.8,
-    "previousDate": "2023-Q2",
-    "score": 76
+    "previous": 129.6,
+    "previousDate": "2026-Q1",
+    "score": 57
   },
   {
     "universe": "europe",
@@ -20617,9 +20617,9 @@
     "retrieval": "live",
     "latest": 4353,
     "latestDate": "2026-Q1",
-    "previous": 4761,
-    "previousDate": "2025-Q1",
-    "score": 16
+    "previous": 4833,
+    "previousDate": "2025-Q4",
+    "score": 10
   },
   {
     "universe": "europe",
@@ -20659,9 +20659,9 @@
     "retrieval": "live",
     "latest": 73.9,
     "latestDate": "2026-Q2",
-    "previous": 77.6,
-    "previousDate": "2023-Q2",
-    "score": 31
+    "previous": 55.0,
+    "previousDate": "2026-Q1",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -20673,9 +20673,9 @@
     "retrieval": "live",
     "latest": 73.9,
     "latestDate": "2026-Q2",
-    "previous": 78.8,
-    "previousDate": "2025-Q2",
-    "score": 25
+    "previous": 55.0,
+    "previousDate": "2026-Q1",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -20715,9 +20715,9 @@
     "retrieval": "live",
     "latest": 90.1,
     "latestDate": "2026-Q2",
-    "previous": 101.4,
-    "previousDate": "2023-Q2",
-    "score": 5
+    "previous": 91.1,
+    "previousDate": "2026-Q1",
+    "score": 46
   },
   {
     "universe": "europe",
@@ -20911,9 +20911,9 @@
     "retrieval": "live",
     "latest": 134.2,
     "latestDate": "2026-08",
-    "previous": 107.1,
-    "previousDate": "2025-08",
-    "score": 100
+    "previous": 129.7,
+    "previousDate": "2026-07",
+    "score": 64
   },
   {
     "universe": "europe",
@@ -21177,9 +21177,9 @@
     "retrieval": "live",
     "latest": 130.3,
     "latestDate": "2026-Q2",
-    "previous": 116.7,
-    "previousDate": "2023-Q2",
-    "score": 97
+    "previous": 121.5,
+    "previousDate": "2026-Q1",
+    "score": 79
   },
   {
     "universe": "europe",
@@ -21191,9 +21191,9 @@
     "retrieval": "live",
     "latest": 117.2,
     "latestDate": "2023-Q4",
-    "previous": 121.0,
-    "previousDate": "2020-Q4",
-    "score": 37
+    "previous": 101.1,
+    "previousDate": "2023-Q3",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -21233,9 +21233,9 @@
     "retrieval": "live",
     "latest": 111.3,
     "latestDate": "2026-Q2",
-    "previous": 104.3,
-    "previousDate": "2023-Q2",
-    "score": 77
+    "previous": 110.4,
+    "previousDate": "2026-Q1",
+    "score": 53
   },
   {
     "universe": "europe",
@@ -21247,9 +21247,9 @@
     "retrieval": "live",
     "latest": 120.3,
     "latestDate": "2026-Q2",
-    "previous": 113.2,
-    "previousDate": "2023-Q2",
-    "score": 75
+    "previous": 117.6,
+    "previousDate": "2026-Q1",
+    "score": 59
   },
   {
     "universe": "europe",
@@ -21275,9 +21275,9 @@
     "retrieval": "live",
     "latest": 117.2,
     "latestDate": "2023-Q4",
-    "previous": 121.0,
-    "previousDate": "2020-Q4",
-    "score": 37
+    "previous": 101.1,
+    "previousDate": "2023-Q3",
+    "score": 100
   },
   {
     "universe": "europe",
@@ -21401,9 +21401,9 @@
     "retrieval": "live",
     "latest": 1429,
     "latestDate": "2026-Q1",
-    "previous": 1349,
-    "previousDate": "2025-Q1",
-    "score": 74
+    "previous": 1359,
+    "previousDate": "2025-Q4",
+    "score": 71
   },
   {
     "universe": "europe",
@@ -21457,8 +21457,8 @@
     "retrieval": "live",
     "latest": 84.7,
     "latestDate": "2026-Q2",
-    "previous": 109.4,
-    "previousDate": "2025-Q2",
+    "previous": 113.5,
+    "previousDate": "2026-Q1",
     "score": 0
   },
   {
@@ -21499,9 +21499,9 @@
     "retrieval": "live",
     "latest": 111.3,
     "latestDate": "2026-Q2",
-    "previous": 104.3,
-    "previousDate": "2023-Q2",
-    "score": 77
+    "previous": 110.4,
+    "previousDate": "2026-Q1",
+    "score": 53
   },
   {
     "universe": "europe",
@@ -21695,9 +21695,9 @@
     "retrieval": "live",
     "latest": 85.7,
     "latestDate": "2026-08",
-    "previous": 81.4,
-    "previousDate": "2025-08",
-    "score": 71
+    "previous": 149.7,
+    "previousDate": "2026-07",
+    "score": 0
   },
   {
     "universe": "europe",
@@ -21961,9 +21961,9 @@
     "retrieval": "live",
     "latest": 135.3,
     "latestDate": "2026-Q2",
-    "previous": 111.4,
-    "previousDate": "2023-Q2",
-    "score": 100
+    "previous": 129.0,
+    "previousDate": "2026-Q1",
+    "score": 70
   },
   {
     "universe": "europe",
@@ -21989,9 +21989,9 @@
     "retrieval": "live",
     "latest": 145.2,
     "latestDate": "2026-Q2",
-    "previous": 116.8,
-    "previousDate": "2023-Q2",
-    "score": 100
+    "previous": 134.9,
+    "previousDate": "2026-Q1",
+    "score": 81
   },
   {
     "universe": "europe",
@@ -22017,9 +22017,9 @@
     "retrieval": "live",
     "latest": 105.6,
     "latestDate": "2026-Q2",
-    "previous": 104.7,
-    "previousDate": "2023-Q2",
-    "score": 53
+    "previous": 104.1,
+    "previousDate": "2026-Q1",
+    "score": 56
   },
   {
     "universe": "europe",
@@ -22031,9 +22031,9 @@
     "retrieval": "live",
     "latest": 122.1,
     "latestDate": "2026-Q2",
-    "previous": 118.6,
-    "previousDate": "2023-Q2",
-    "score": 62
+    "previous": 123.3,
+    "previousDate": "2026-Q1",
+    "score": 46
   },
   {
     "universe": "europe",
@@ -22185,9 +22185,9 @@
     "retrieval": "live",
     "latest": 772,
     "latestDate": "2026-Q1",
-    "previous": 1099,
-    "previousDate": "2025-Q1",
-    "score": 0
+    "previous": 717,
+    "previousDate": "2025-Q4",
+    "score": 81
   },
   {
     "universe": "europe",
@@ -22227,9 +22227,9 @@
     "retrieval": "live",
     "latest": 145.2,
     "latestDate": "2026-Q2",
-    "previous": 116.8,
-    "previousDate": "2023-Q2",
-    "score": 100
+    "previous": 134.9,
+    "previousDate": "2026-Q1",
+    "score": 81
   },
   {
     "universe": "europe",
@@ -22241,9 +22241,9 @@
     "retrieval": "live",
     "latest": 145.2,
     "latestDate": "2026-Q2",
-    "previous": 154.7,
-    "previousDate": "2025-Q2",
-    "score": 25
+    "previous": 134.9,
+    "previousDate": "2026-Q1",
+    "score": 81
   },
   {
     "universe": "europe",
@@ -22283,9 +22283,9 @@
     "retrieval": "live",
     "latest": 105.6,
     "latestDate": "2026-Q2",
-    "previous": 104.7,
-    "previousDate": "2023-Q2",
-    "score": 53
+    "previous": 104.1,
+    "previousDate": "2026-Q1",
+    "score": 56
   },
   {
     "universe": "europe",
@@ -22479,9 +22479,9 @@
     "retrieval": "live",
     "latest": 95.2,
     "latestDate": "2026-08",
-    "previous": 101.0,
-    "previousDate": "2025-08",
-    "score": 27
+    "previous": 115.0,
+    "previousDate": "2026-07",
+    "score": 0
   },
   {
     "universe": "europe",
