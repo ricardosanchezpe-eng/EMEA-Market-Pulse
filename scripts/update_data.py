@@ -12,8 +12,13 @@ def fetch(url):
    with urllib.request.urlopen(urllib.request.Request(url,headers=UA),timeout=35) as r:return json.load(r)
   except Exception as e:last=e;time.sleep(1.5*(i+1))
  raise last
-def euro(ds,geo,gd='geo'):
- u='https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/'+ds+'?'+urllib.parse.urlencode({'lang':'EN',gd:geo,'lastTimePeriod':'25'});return fetch(u),u
+def euro(ds,geo,gd='geo',filters=None):
+ q={'lang':'EN',gd:geo,'lastTimePeriod':'25'}
+ # Push known dimensions into the API request. This avoids downloading very large cubes
+ # such as gov_10a_exp and prevents HTTP 413 while keeping local series validation.
+ for k,v in (filters or {}).items():
+  if v is not None:q[k]=v
+ u='https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/'+ds+'?'+urllib.parse.urlencode(q);return fetch(u),u
 def candidates(j,filters=None):
  ids=j.get('id',[]);sizes=j.get('size',[]);dim=j.get('dimension',{});cats=[[k for k,v in sorted(dim[x]['category']['index'].items(),key=lambda q:q[1])] for x in ids];g={}
  for k,v in j.get('value',{}).items():
@@ -59,7 +64,7 @@ def process(src,contracts,europe):
    for ds in attempts:
     try:
      ck=(ds,conf.get('geo_dimension','geo'))
-     if ck not in cache:cache[ck]=euro(ds,c['geo'],conf.get('geo_dimension','geo'))
+     if ck not in cache:cache[ck]=euro(ds,c['geo'],conf.get('geo_dimension','geo'),conf.get('filters'))
      j,u=cache[ck];meta,a=choose(j,conf);z=calc(a,conf)
      if z and z.get('raw') is not None:chosen=(z,u,meta,ds);break
     except Exception as e:last_error=e

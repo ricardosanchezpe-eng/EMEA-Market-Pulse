@@ -4,7 +4,7 @@ import update_data as u
 from source_registry import EUROSTAT,WORLD_BANK
 contracts=json.load(open('public/data/indicator-contracts.json'))
 # Return a compact valid JSON-stat cube for any Eurostat dataset.
-def fake_euro(ds,geo,gd='geo'):
+def fake_euro(ds,geo,gd='geo',filters=None):
     j={'id':['freq',gd,'time'],'size':[1,1,2],'dimension':{
       'freq':{'category':{'index':{'A':0}}},gd:{'category':{'index':{geo:0}}},
       'time':{'category':{'index':{'2024':0,'2025':1}}}},'value':{'0':100.0,'1':105.0}}

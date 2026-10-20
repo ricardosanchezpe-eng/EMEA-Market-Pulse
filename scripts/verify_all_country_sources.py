@@ -11,7 +11,7 @@ def eu(c,k,conf):
  for ds in [conf['dataset']]+conf.get('fallbacks',[]):
   r['datasetsTried'].append(ds)
   try:
-   j,url=u.euro(ds,c['geo'],conf.get('geo_dimension','geo'));meta,a=u.choose(j,conf);z=u.calc(a,conf)
+   j,url=u.euro(ds,c['geo'],conf.get('geo_dimension','geo'),conf.get('filters'));meta,a=u.choose(j,conf);z=u.calc(a,conf)
    if z and z.get('raw') is not None:r.update(status='PASS',dataset=ds,latest=z.get('raw'),latestDate=z.get('date'),previous=z.get('previous'),previousDate=z.get('previousDate'),change=z.get('growthPct'),comparison=z.get('comparison') or conf.get('comparison'),selectedDimensions=dict(meta or []),sourceUrl=url);return r
   except Exception as e:r['error']=f'{type(e).__name__}: {e}';r['status']='HTTP_'+str(getattr(e,'code','ERROR')) if getattr(e,'code',None) else 'ERROR'
  return r
@@ -49,19 +49,8 @@ summary={'generatedAt':time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()),'countr
 md=['# All-country source verification','',f'- Total checks: {len(rows)}',f'- Countries: {summary["countries"]["total"]}',f'- Eurostat adapters: {len(EUROSTAT)}',f'- World Bank adapters: {len(WORLD_BANK)}','','## Results by indicator','','| Indicator | Pass | No usable series | Errors |','|---|---:|---:|---:|']
 for k,v in sorted(by.items()):md.append(f'| {k} | {v["PASS"]} | {v["NO_USABLE_SERIES"]} | {v["ERROR"]} |')
 (OUT/'all-country-source-verification.md').write_text('\n'.join(md)+'\n')
-hard=[r for r in rows if r['status'] not in ('PASS','NO_USABLE_SERIES')]
-# Weighted contracts are intentionally a subset of visible methodology. Methodology-only
-# evidence is valid when its declared weight is zero. Weighted methodology-only rows remain invalid.
-method_rows={x['key']:x for rows in method.values() for x in rows}
-missing_from_methodology=summary['contractIntegrity']['missingFromMethodology']
-uncontracted=summary['contractIntegrity']['missingFromContracts']
-invalid_uncontracted=[k for k in uncontracted if float(method_rows.get(k,{}).get('weight',0) or 0)!=0]
-summary['contractIntegrity']['allowedSupplementalWithoutContract']=[k for k in uncontracted if k not in invalid_uncontracted]
-summary['contractIntegrity']['invalidUncontractedWeightedKeys']=invalid_uncontracted
-# Rewrite the JSON report with the final integrity classification included.
-(OUT/'all-country-source-verification.json').write_text(json.dumps({'summary':summary,'results':rows},indent=2,ensure_ascii=False))
+hard=[r for r in rows if r['status'] not in ('PASS','NO_USABLE_SERIES')];bad=summary['contractIntegrity']['missingFromMethodology'] or summary['contractIntegrity']['missingFromContracts']
 print(json.dumps(summary,indent=2))
 import os
 strict=os.environ.get('VERIFICATION_STRICT','1')!='0'
-bad=bool(missing_from_methodology or invalid_uncontracted)
 sys.exit(2 if bad or (strict and hard) else 0)
