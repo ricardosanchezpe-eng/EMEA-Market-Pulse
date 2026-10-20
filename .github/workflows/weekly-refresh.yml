@@ -21,7 +21,18 @@ jobs:
         with: {python-version: '3.12'}
       - if: steps.gate.outputs.run == 'true'
         run: python -u scripts/update_data.py
-      - if: steps.gate.outputs.run == 'true'
+      - name: Validate refreshed country universe
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          python - <<'PY2'
+          import json
+          d=json.load(open("public/data/market-pulse.json"))
+          n=len(d.get("europe",[]))+len(d.get("emea",[]))
+          print("Countries available for audit:",n)
+          assert n > 0, "Refresh produced zero countries; preserve/restore the populated market-pulse.json baseline before auditing."
+          PY2
+      - name: Build complete coverage audit
+        if: steps.gate.outputs.run == 'true'
         run: python scripts/audit_coverage.py
       - if: steps.gate.outputs.run == 'true'
         run: |
