@@ -1,0 +1,23 @@
+name: Diagnose government transport investment
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Diagnose gov_10a_exp across Harmonised Europe
+        run: python scripts/diagnose_gov_transport_investment.py
+      - name: Upload diagnostic artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: government-transport-investment-diagnostic
+          path: transport-gov-diagnostic-output/
+          if-no-files-found: error
