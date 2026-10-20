@@ -39,6 +39,9 @@ jobs:
           assert populated>0, 'Refresh returned 51 country shells but zero countries with indicator data'
           assert observations>0, 'Refresh returned zero indicator observations'
           PY
+      - name: Verify terminal status for every country and configured source
+        if: steps.gate.outputs.run == 'true'
+        run: python scripts/verify_full_coverage.py
       - name: Build complete coverage audit
         if: steps.gate.outputs.run == 'true'
         run: python scripts/audit_coverage.py
