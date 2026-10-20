@@ -317,6 +317,30 @@
       "pipelineStatus": "pending",
       "treatment": "Explicit source contract → comparison → normalized 0–100 → weighted contribution",
       "displaySourceUrl": "https://ec.europa.eu/eurostat/"
+    },
+    {
+      "name": "Water stress — World Bank context",
+      "key": "water_stress_wb",
+      "source": "World Bank",
+      "url": "https://data.worldbank.org/indicator/ER.H2O.FWST.ZS",
+      "displaySourceUrl": "https://data.worldbank.org/indicator/ER.H2O.FWST.ZS",
+      "weight": 0,
+      "frequency": "Annual",
+      "role": "Context",
+      "pipelineStatus": "live",
+      "treatment": "Supplemental evidence; excluded from weighted composite"
+    },
+    {
+      "name": "Safely managed drinking-water access",
+      "key": "water_access",
+      "source": "World Bank",
+      "url": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS",
+      "displaySourceUrl": "https://data.worldbank.org/indicator/SH.H2O.SMDW.ZS",
+      "weight": 0,
+      "frequency": "Annual",
+      "role": "Need",
+      "pipelineStatus": "live",
+      "treatment": "Supplemental evidence; excluded from weighted composite"
     }
   ],
   "Oil & Gas": [
