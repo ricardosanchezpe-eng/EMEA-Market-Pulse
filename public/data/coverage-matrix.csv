@@ -6,13 +6,18 @@ europe,Germany,Overall,construction_confidence,15,eurostat,live,-12.0,2026-09,-1
 europe,Germany,Overall,construction_employment,10,eurostat,live,99.9,2026-Q2,100.5,2023-Q2,48
 europe,Germany,Overall,construction_costs,10,eurostat,live,141.7,2026-Q3,126.4,2023-Q3,98
 europe,Germany,Overall,fixed_investment,5,eurostat_candidate,live,126158.5,2025,129280.3,2024,40
-europe,Germany,Transportation,civil_output,25,eurostat,live,117.6,2026-08,109.9,2025-08,78
-europe,Germany,Transportation,transport_pipeline,25,pending,pending,,,,,
-europe,Germany,Transportation,rail_freight,15,eurostat,live,48907,2025,49226,2024,47
-europe,Germany,Transportation,road_freight,10,eurostat,live,453,2025,452,2024,51
-europe,Germany,Transportation,port_freight,10,eurostat,live,13370,2026-Q1,13248,2025-Q1,54
-europe,Germany,Transportation,construction_confidence,10,eurostat,live,-12.0,2026-09,-10.2,2026-08,43
-europe,Germany,Transportation,funding_announcements,5,pending,pending,,,,,
+europe,Germany,Transportation,civil_output,25,methodology,live,117.6,2026-08,109.9,2025-08,78
+europe,Germany,Transportation,gov_transport_investment,25,methodology,live,39611.0,2024,33928.0,2023,100
+europe,Germany,Transportation,road_infra_expenditure,15,methodology,live,13946,2024,12879,2023,83
+europe,Germany,Transportation,rail_infra_expenditure,15,methodology,no_usable_series,,,,,
+europe,Germany,Transportation,transport_pipeline,10,methodology,pending,,,,,
+europe,Germany,Transportation,motorway_network,5,methodology,live,13210,2023,13172,2022,51
+europe,Germany,Transportation,rail_network,5,methodology,live,4955.273,2021,4803,2020,63
+europe,Germany,Transportation,road_freight,0,methodology,live,453,2025,452,2024,51
+europe,Germany,Transportation,rail_freight,0,methodology,live,48907,2025,49226,2024,47
+europe,Germany,Transportation,port_freight,0,methodology,live,25057,2026-Q1,25277,2025-Q1,47
+europe,Germany,Transportation,inland_waterway_expenditure,0,methodology,no_usable_series,,,,,
+europe,Germany,Transportation,construction_confidence,0,methodology,live,-12.0,2026-09,-10.2,2026-08,43
 europe,Germany,Site Development,building_permits,30,eurostat,live,60.3,2026-08,63.1,2026-07,32
 europe,Germany,Site Development,nonres_permits,20,eurostat,live,50.6,2026-Q2,45.3,2025-Q2,97
 europe,Germany,Site Development,building_output,20,eurostat,live,77.2,2026-08,75.5,2025-08,59
@@ -57,13 +62,18 @@ europe,France,Overall,construction_confidence,15,eurostat,live,-15.8,2026-09,-16
 europe,France,Overall,construction_employment,10,eurostat,live,97.1,2026-Q2,101.5,2023-Q2,33
 europe,France,Overall,construction_costs,10,eurostat,live,113.3,2026-Q2,114.4,2023-Q2,46
 europe,France,Overall,fixed_investment,5,eurostat_candidate,live,109306.6,2025,110184.2,2024,47
-europe,France,Transportation,civil_output,25,eurostat,live,61.1,2026-08,65.8,2025-08,21
-europe,France,Transportation,transport_pipeline,25,pending,pending,,,,,
-europe,France,Transportation,rail_freight,15,eurostat,live,10170,2025,9414,2024,82
-europe,France,Transportation,road_freight,10,eurostat,live,174,2025,170,2024,59
-europe,France,Transportation,port_freight,10,eurostat,live,7785,2026-Q1,7529,2025-Q1,64
-europe,France,Transportation,construction_confidence,10,eurostat,live,-15.8,2026-09,-16.2,2026-08,52
-europe,France,Transportation,funding_announcements,5,pending,pending,,,,,
+europe,France,Transportation,civil_output,25,methodology,live,61.1,2026-08,65.8,2025-08,21
+europe,France,Transportation,gov_transport_investment,25,methodology,live,16729.6,2024,18628.3,2023,9
+europe,France,Transportation,road_infra_expenditure,15,methodology,live,15346.08,2024,14497.841,2023,73
+europe,France,Transportation,rail_infra_expenditure,15,methodology,live,16641.7,2024,15911.5,2023,68
+europe,France,Transportation,transport_pipeline,10,methodology,pending,,,,,
+europe,France,Transportation,motorway_network,5,methodology,live,11750.826,2024,11751.272,2023,50
+europe,France,Transportation,rail_network,5,methodology,live,16808.829,2024,16802,2023,50
+europe,France,Transportation,road_freight,0,methodology,live,174,2025,170,2024,59
+europe,France,Transportation,rail_freight,0,methodology,live,10170,2025,9414,2024,82
+europe,France,Transportation,port_freight,0,methodology,live,14288,2026-Q1,13039,2025-Q1,88
+europe,France,Transportation,inland_waterway_expenditure,0,methodology,live,873,2024,1026.5,2023,0
+europe,France,Transportation,construction_confidence,0,methodology,live,-15.8,2026-09,-16.2,2026-08,52
 europe,France,Site Development,building_permits,30,eurostat,live,78.0,2026-08,78.3,2026-07,48
 europe,France,Site Development,nonres_permits,20,eurostat,live,65.0,2026-Q2,60.2,2025-Q2,82
 europe,France,Site Development,building_output,20,eurostat,live,52.0,2026-08,56.2,2025-08,20
@@ -108,13 +118,18 @@ europe,Italy,Overall,construction_confidence,15,eurostat,live,-2.2,2026-09,3.0,2
 europe,Italy,Overall,construction_employment,10,eurostat,live,117.4,2026-Q2,108.8,2023-Q2,82
 europe,Italy,Overall,construction_costs,10,eurostat,live,113.4,2026-08,111.1,2025-08,58
 europe,Italy,Overall,fixed_investment,5,eurostat_candidate,live,68562.0,2025,71499.0,2024,34
-europe,Italy,Transportation,civil_output,25,eurostat,no_usable_series,,,,,
-europe,Italy,Transportation,transport_pipeline,25,pending,pending,,,,,
-europe,Italy,Transportation,rail_freight,15,eurostat,live,9273,2025,10616,2024,0
-europe,Italy,Transportation,road_freight,10,eurostat,live,15863,2025,16419,2024,36
-europe,Italy,Transportation,port_freight,10,eurostat,live,9771,2026-Q1,11079,2025-Q1,3
-europe,Italy,Transportation,construction_confidence,10,eurostat,live,-2.2,2026-09,3.0,2026-08,29
-europe,Italy,Transportation,funding_announcements,5,pending,pending,,,,,
+europe,Italy,Transportation,civil_output,25,methodology,no_usable_series,,,,,
+europe,Italy,Transportation,gov_transport_investment,25,methodology,live,24943.0,2024,21873.0,2023,100
+europe,Italy,Transportation,road_infra_expenditure,15,methodology,live,14687,2022,15513,2021,29
+europe,Italy,Transportation,rail_infra_expenditure,15,methodology,live,6284,2022,5836,2021,81
+europe,Italy,Transportation,transport_pipeline,10,methodology,pending,,,,,
+europe,Italy,Transportation,motorway_network,5,methodology,live,7561,2023,7558,2022,50
+europe,Italy,Transportation,rail_network,5,methodology,live,12277,2024,12205,2023,52
+europe,Italy,Transportation,road_freight,0,methodology,live,15863,2025,16419,2024,36
+europe,Italy,Transportation,rail_freight,0,methodology,live,9273,2025,10616,2024,0
+europe,Italy,Transportation,port_freight,0,methodology,live,18819,2026-Q1,19878,2025-Q1,29
+europe,Italy,Transportation,inland_waterway_expenditure,0,methodology,live,241.2,2022,113.2,2021,100
+europe,Italy,Transportation,construction_confidence,0,methodology,live,-2.2,2026-09,3.0,2026-08,29
 europe,Italy,Site Development,building_permits,30,eurostat,live,77.2,2026-Q2,87.7,2023-Q2,2
 europe,Italy,Site Development,nonres_permits,20,eurostat,live,77.2,2026-Q2,85.1,2025-Q2,13
 europe,Italy,Site Development,building_output,20,eurostat,no_usable_series,,,,,
@@ -159,13 +174,18 @@ europe,Spain,Overall,construction_confidence,15,eurostat,live,8.7,2026-09,-0.1,2
 europe,Spain,Overall,construction_employment,10,eurostat,live,98.8,2025-12,98.4,2024-12,52
 europe,Spain,Overall,construction_costs,10,eurostat,live,124.1,2026-07,120.1,2025-07,63
 europe,Spain,Overall,fixed_investment,5,eurostat_candidate,live,92877.2,2025,89632.1,2024,64
-europe,Spain,Transportation,civil_output,25,eurostat,live,78.9,2026-08,82.3,2025-08,33
-europe,Spain,Transportation,transport_pipeline,25,pending,pending,,,,,
-europe,Spain,Transportation,rail_freight,15,eurostat,live,1476,2025,1462,2024,54
-europe,Spain,Transportation,road_freight,10,eurostat,live,512,2025,568,2024,11
-europe,Spain,Transportation,port_freight,10,eurostat,live,12761,2026-Q1,11691,2025-Q1,87
-europe,Spain,Transportation,construction_confidence,10,eurostat,live,8.7,2026-09,-0.1,2026-08,85
-europe,Spain,Transportation,funding_announcements,5,pending,pending,,,,,
+europe,Spain,Transportation,civil_output,25,methodology,live,78.9,2026-08,82.3,2025-08,33
+europe,Spain,Transportation,gov_transport_investment,25,methodology,live,10776.0,2024,10574.0,2023,58
+europe,Spain,Transportation,road_infra_expenditure,15,methodology,live,5312.123,2024,5442.606,2023,40
+europe,Spain,Transportation,rail_infra_expenditure,15,methodology,live,4319.139,2024,3744.612,2023,100
+europe,Spain,Transportation,transport_pipeline,10,methodology,pending,,,,,
+europe,Spain,Transportation,motorway_network,5,methodology,live,15886,2024,15892,2023,50
+europe,Spain,Transportation,rail_network,5,methodology,live,4553.878,2024,4566.978,2023,49
+europe,Spain,Transportation,road_freight,0,methodology,live,512,2025,568,2024,11
+europe,Spain,Transportation,rail_freight,0,methodology,live,1476,2025,1462,2024,54
+europe,Spain,Transportation,port_freight,0,methodology,live,22601,2026-Q1,22159,2025-Q1,58
+europe,Spain,Transportation,inland_waterway_expenditure,0,methodology,no_usable_series,,,,,
+europe,Spain,Transportation,construction_confidence,0,methodology,live,8.7,2026-09,-0.1,2026-08,85
 europe,Spain,Site Development,building_permits,30,eurostat,live,177.3,2026-06,167.1,2026-05,74
 europe,Spain,Site Development,nonres_permits,20,eurostat,live,281.6,2026-Q2,262.7,2025-Q2,79
 europe,Spain,Site Development,building_output,20,eurostat,live,61.0,2026-08,78.7,2025-08,0
@@ -210,13 +230,18 @@ europe,Netherlands,Overall,construction_confidence,15,eurostat,live,18.9,2026-09
 europe,Netherlands,Overall,construction_employment,10,eurostat,live,112.4,2026-Q1,103.6,2023-Q1,84
 europe,Netherlands,Overall,construction_costs,10,eurostat,live,129.4,2026-08,123.3,2025-08,70
 europe,Netherlands,Overall,fixed_investment,5,eurostat_candidate,live,42634.3,2025,41262.1,2024,63
-europe,Netherlands,Transportation,civil_output,25,eurostat,live,41.4,2026-08,42.1,2025-08,43
-europe,Netherlands,Transportation,transport_pipeline,25,pending,pending,,,,,
-europe,Netherlands,Transportation,rail_freight,15,eurostat,live,5252,2025,5358,2024,42
-europe,Netherlands,Transportation,road_freight,10,eurostat,live,26288,2025,26822,2024,42
-europe,Netherlands,Transportation,port_freight,10,eurostat,live,11226,2026-Q1,12715,2025-Q1,3
-europe,Netherlands,Transportation,construction_confidence,10,eurostat,live,18.9,2026-09,16.5,2026-08,60
-europe,Netherlands,Transportation,funding_announcements,5,pending,pending,,,,,
+europe,Netherlands,Transportation,civil_output,25,methodology,live,41.4,2026-08,42.1,2025-08,43
+europe,Netherlands,Transportation,gov_transport_investment,25,methodology,live,8802.0,2024,8373.0,2023,70
+europe,Netherlands,Transportation,road_infra_expenditure,15,methodology,live,9293,2024,7900,2023,100
+europe,Netherlands,Transportation,rail_infra_expenditure,15,methodology,live,4095,2024,3586,2023,100
+europe,Netherlands,Transportation,transport_pipeline,10,methodology,pending,,,,,
+europe,Netherlands,Transportation,motorway_network,5,methodology,live,2806,2024,2793,2023,52
+europe,Netherlands,Transportation,rail_network,5,methodology,live,311,2024,311,2023,50
+europe,Netherlands,Transportation,road_freight,0,methodology,live,26288,2025,26822,2024,42
+europe,Netherlands,Transportation,rail_freight,0,methodology,live,5252,2025,5358,2024,42
+europe,Netherlands,Transportation,port_freight,0,methodology,live,19992,2026-Q1,20580,2025-Q1,39
+europe,Netherlands,Transportation,inland_waterway_expenditure,0,methodology,live,1258,2024,1195,2023,71
+europe,Netherlands,Transportation,construction_confidence,0,methodology,live,18.9,2026-09,16.5,2026-08,60
 europe,Netherlands,Site Development,building_permits,30,eurostat,live,51.9,2026-08,65.8,2026-07,0
 europe,Netherlands,Site Development,nonres_permits,20,eurostat,live,127.7,2026-Q2,60.1,2025-Q2,100
 europe,Netherlands,Site Development,building_output,20,eurostat,live,41.5,2026-08,43.9,2025-08,28
@@ -261,13 +286,18 @@ europe,Switzerland,Overall,construction_confidence,15,eurostat,no_usable_series,
 europe,Switzerland,Overall,construction_employment,10,eurostat,live,107.0,2026-Q2,102.5,2023-Q2,68
 europe,Switzerland,Overall,construction_costs,10,eurostat,live,112.1,2026-Q2,110.0,2023-Q2,58
 europe,Switzerland,Overall,fixed_investment,5,eurostat_candidate,live,131800.1,2025,132510.0,2024,48
-europe,Switzerland,Transportation,civil_output,25,eurostat,live,89.4,2026-Q2,85.5,2023-Q2,68
-europe,Switzerland,Transportation,transport_pipeline,25,pending,pending,,,,,
-europe,Switzerland,Transportation,rail_freight,15,eurostat,live,767,2025,840,2024,15
-europe,Switzerland,Transportation,road_freight,10,eurostat,live,32,2025,34,2024,26
-europe,Switzerland,Transportation,port_freight,10,eurostat,no_usable_series,,,,,
-europe,Switzerland,Transportation,construction_confidence,10,eurostat,no_usable_series,,,,,
-europe,Switzerland,Transportation,funding_announcements,5,pending,pending,,,,,
+europe,Switzerland,Transportation,civil_output,25,methodology,live,89.4,2026-Q2,85.5,2023-Q2,68
+europe,Switzerland,Transportation,gov_transport_investment,25,methodology,live,5726.3,2024,5742.3,2023,49
+europe,Switzerland,Transportation,road_infra_expenditure,15,methodology,live,8425.602,2023,7698.816,2022,88
+europe,Switzerland,Transportation,rail_infra_expenditure,15,methodology,live,5133.319,2024,4889.895,2023,70
+europe,Switzerland,Transportation,transport_pipeline,10,methodology,pending,,,,,
+europe,Switzerland,Transportation,motorway_network,5,methodology,live,1549,2024,1548.7,2023,50
+europe,Switzerland,Transportation,rail_network,5,methodology,live,3160,2024,3179,2023,48
+europe,Switzerland,Transportation,road_freight,0,methodology,live,32,2025,34,2024,26
+europe,Switzerland,Transportation,rail_freight,0,methodology,live,767,2025,840,2024,15
+europe,Switzerland,Transportation,port_freight,0,methodology,no_usable_series,,,,,
+europe,Switzerland,Transportation,inland_waterway_expenditure,0,methodology,no_usable_series,,,,,
+europe,Switzerland,Transportation,construction_confidence,0,methodology,no_usable_series,,,,,
 europe,Switzerland,Site Development,building_permits,30,eurostat,no_usable_series,,,,,
 europe,Switzerland,Site Development,nonres_permits,20,eurostat,no_usable_series,,,,,
 europe,Switzerland,Site Development,building_output,20,eurostat,live,104.5,2026-Q2,100.6,2023-Q2,66
@@ -312,13 +342,18 @@ europe,Poland,Overall,construction_confidence,15,eurostat,live,-14.1,2026-09,-13
 europe,Poland,Overall,construction_employment,10,eurostat,live,97.1,2026-Q2,98.5,2023-Q2,44
 europe,Poland,Overall,construction_costs,10,eurostat,live,144.5,2026-07,136.0,2025-07,75
 europe,Poland,Overall,fixed_investment,5,eurostat_candidate,live,12921.6,2025,12175.5,2024,75
-europe,Poland,Transportation,civil_output,25,eurostat,live,122.6,2026-08,95.0,2025-08,100
-europe,Poland,Transportation,transport_pipeline,25,pending,pending,,,,,
-europe,Poland,Transportation,rail_freight,15,eurostat,live,17163,2025,16358,2024,70
-europe,Poland,Transportation,road_freight,10,eurostat,live,1899,2025,1870,2024,56
-europe,Poland,Transportation,port_freight,10,eurostat,live,7535,2026-Q1,6582,2025-Q1,100
-europe,Poland,Transportation,construction_confidence,10,eurostat,live,-14.1,2026-09,-13.4,2026-08,47
-europe,Poland,Transportation,funding_announcements,5,pending,pending,,,,,
+europe,Poland,Transportation,civil_output,25,methodology,live,122.6,2026-08,95.0,2025-08,100
+europe,Poland,Transportation,gov_transport_investment,25,methodology,live,13051.8,2024,15791.0,2023,0
+europe,Poland,Transportation,road_infra_expenditure,15,methodology,live,5668.546,2017,5070.132,2016,97
+europe,Poland,Transportation,rail_infra_expenditure,15,methodology,live,3899.856,2024,3727.433,2023,69
+europe,Poland,Transportation,transport_pipeline,10,methodology,pending,,,,,
+europe,Poland,Transportation,motorway_network,5,methodology,live,1888.3,2024,1851,2023,58
+europe,Poland,Transportation,rail_network,5,methodology,live,4124,2024,4169,2023,46
+europe,Poland,Transportation,road_freight,0,methodology,live,1899,2025,1870,2024,56
+europe,Poland,Transportation,rail_freight,0,methodology,live,17163,2025,16358,2024,70
+europe,Poland,Transportation,port_freight,0,methodology,live,12889,2026-Q1,12347,2025-Q1,68
+europe,Poland,Transportation,inland_waterway_expenditure,0,methodology,no_usable_series,,,,,
+europe,Poland,Transportation,construction_confidence,0,methodology,live,-14.1,2026-09,-13.4,2026-08,47
 europe,Poland,Site Development,building_permits,30,eurostat,live,81.9,2026-Q2,61.9,2023-Q2,100
 europe,Poland,Site Development,nonres_permits,20,eurostat,live,81.9,2026-Q2,74.3,2025-Q2,91
 europe,Poland,Site Development,building_output,20,eurostat,live,80.7,2026-08,100.4,2025-08,0
@@ -363,13 +398,18 @@ europe,Belgium,Overall,construction_confidence,15,eurostat,live,-14.0,2026-09,-1
 europe,Belgium,Overall,construction_employment,10,eurostat,live,111.2,2026-Q1,108.5,2023-Q1,60
 europe,Belgium,Overall,construction_costs,10,eurostat,live,133.9,2026-Q2,121.0,2023-Q2,93
 europe,Belgium,Overall,fixed_investment,5,eurostat_candidate,live,17436.2,2025,18797.6,2024,21
-europe,Belgium,Transportation,civil_output,25,eurostat,live,112.0,2026-08,107.5,2025-08,67
-europe,Belgium,Transportation,transport_pipeline,25,pending,pending,,,,,
-europe,Belgium,Transportation,rail_freight,15,eurostat,live,4620,2011,5017,2010,18
-europe,Belgium,Transportation,road_freight,10,eurostat,live,10522,2025,10153,2024,65
-europe,Belgium,Transportation,port_freight,10,eurostat,live,9249,2026-Q1,8662,2025-Q1,77
-europe,Belgium,Transportation,construction_confidence,10,eurostat,live,-14.0,2026-09,-10.7,2026-08,37
-europe,Belgium,Transportation,funding_announcements,5,pending,pending,,,,,
+europe,Belgium,Transportation,civil_output,25,methodology,live,112.0,2026-08,107.5,2025-08,67
+europe,Belgium,Transportation,gov_transport_investment,25,methodology,live,5989.9,2024,5441.4,2023,90
+europe,Belgium,Transportation,road_infra_expenditure,15,methodology,live,1192,2024,1344,2023,5
+europe,Belgium,Transportation,rail_infra_expenditure,15,methodology,live,1669,2024,1514,2023,91
+europe,Belgium,Transportation,transport_pipeline,10,methodology,pending,,,,,
+europe,Belgium,Transportation,motorway_network,5,methodology,live,1763,2024,1763,2023,50
+europe,Belgium,Transportation,rail_network,5,methodology,live,3181,2024,3195,2023,48
+europe,Belgium,Transportation,road_freight,0,methodology,live,10522,2025,10153,2024,65
+europe,Belgium,Transportation,rail_freight,0,methodology,live,4620,2011,5017,2010,18
+europe,Belgium,Transportation,port_freight,0,methodology,live,18388,2026-Q1,17399,2025-Q1,73
+europe,Belgium,Transportation,inland_waterway_expenditure,0,methodology,live,394,2024,473,2023,0
+europe,Belgium,Transportation,construction_confidence,0,methodology,live,-14.0,2026-09,-10.7,2026-08,37
 europe,Belgium,Site Development,building_permits,30,eurostat,live,72.5,2026-06,62.5,2026-05,100
 europe,Belgium,Site Development,nonres_permits,20,eurostat,live,72.1,2026-Q2,67.2,2025-Q2,79
 europe,Belgium,Site Development,building_output,20,eurostat,live,89.1,2026-08,92.5,2025-08,35
@@ -414,13 +454,18 @@ europe,Ireland,Overall,construction_confidence,15,eurostat,live,21.0,2026-09,4.3
 europe,Ireland,Overall,construction_employment,10,eurostat,live,144.0,2026-Q2,127.1,2023-Q2,100
 europe,Ireland,Overall,construction_costs,10,eurostat,live,125.8,2026-08,121.8,2025-08,63
 europe,Ireland,Overall,fixed_investment,5,eurostat_candidate,live,15651.0,2025,13898.2,2024,100
-europe,Ireland,Transportation,civil_output,25,eurostat,live,13.0,2021-Q4,15.6,2021-Q3,0
-europe,Ireland,Transportation,transport_pipeline,25,pending,pending,,,,,
-europe,Ireland,Transportation,rail_freight,15,eurostat,live,0,2025,,,
-europe,Ireland,Transportation,road_freight,10,eurostat,live,45,2025,35,2024,100
-europe,Ireland,Transportation,port_freight,10,eurostat,live,4612,2026-Q2,4198,2025-Q2,89
-europe,Ireland,Transportation,construction_confidence,10,eurostat,live,21.0,2026-09,4.3,2026-08,100
-europe,Ireland,Transportation,funding_announcements,5,pending,pending,,,,,
+europe,Ireland,Transportation,civil_output,25,methodology,live,13.0,2021-Q4,15.6,2021-Q3,0
+europe,Ireland,Transportation,gov_transport_investment,25,methodology,live,3252.2,2024,2497.6,2023,100
+europe,Ireland,Transportation,road_infra_expenditure,15,methodology,live,1223,2003,1136,2002,81
+europe,Ireland,Transportation,rail_infra_expenditure,15,methodology,live,17.6,2014,17.6,2013,50
+europe,Ireland,Transportation,transport_pipeline,10,methodology,pending,,,,,
+europe,Ireland,Transportation,motorway_network,5,methodology,live,995,2024,995,2023,50
+europe,Ireland,Transportation,rail_network,5,methodology,live,8,2024,8,2023,50
+europe,Ireland,Transportation,road_freight,0,methodology,live,45,2025,35,2024,100
+europe,Ireland,Transportation,rail_freight,0,methodology,live,0,2025,,,
+europe,Ireland,Transportation,port_freight,0,methodology,live,6792,2026-Q2,6194,2025-Q2,89
+europe,Ireland,Transportation,inland_waterway_expenditure,0,methodology,live,963,2001,882,2000,87
+europe,Ireland,Transportation,construction_confidence,0,methodology,live,21.0,2026-09,4.3,2026-08,100
 europe,Ireland,Site Development,building_permits,30,eurostat,live,150.1,2026-Q2,88.6,2023-Q2,100
 europe,Ireland,Site Development,nonres_permits,20,eurostat,live,150.1,2026-Q2,113.0,2025-Q2,100
 europe,Ireland,Site Development,building_output,20,eurostat,no_usable_series,,,,,
@@ -465,13 +510,18 @@ europe,Sweden,Overall,construction_confidence,15,eurostat,live,-3.3,2026-09,-9.7
 europe,Sweden,Overall,construction_employment,10,eurostat,live,100.6,2026-07,97.0,2025-07,65
 europe,Sweden,Overall,construction_costs,10,eurostat,live,125.8,2026-Q2,116.6,2023-Q2,82
 europe,Sweden,Overall,fixed_investment,5,eurostat_candidate,live,11112.6,2025,11417.0,2024,39
-europe,Sweden,Transportation,civil_output,25,eurostat,live,106.6,2026-08,108.3,2025-08,44
-europe,Sweden,Transportation,transport_pipeline,25,pending,pending,,,,,
-europe,Sweden,Transportation,rail_freight,15,eurostat,live,7041,2025,6928,2024,57
-europe,Sweden,Transportation,road_freight,10,eurostat,live,23,2025,21,2024,88
-europe,Sweden,Transportation,port_freight,10,eurostat,live,12006,2026-Q2,11883,2025-Q2,54
-europe,Sweden,Transportation,construction_confidence,10,eurostat,live,-3.3,2026-09,-9.7,2026-08,76
-europe,Sweden,Transportation,funding_announcements,5,pending,pending,,,,,
+europe,Sweden,Transportation,civil_output,25,methodology,live,106.6,2026-08,108.3,2025-08,44
+europe,Sweden,Transportation,gov_transport_investment,25,methodology,live,8592.5,2024,8315.6,2023,63
+europe,Sweden,Transportation,road_infra_expenditure,15,methodology,live,4395.714,2024,4018.277,2023,88
+europe,Sweden,Transportation,rail_infra_expenditure,15,methodology,live,3236.562,2024,3131.948,2023,63
+europe,Sweden,Transportation,transport_pipeline,10,methodology,pending,,,,,
+europe,Sweden,Transportation,motorway_network,5,methodology,live,2218,2024,2193,2023,55
+europe,Sweden,Transportation,rail_network,5,methodology,live,6096,2024,6104,2023,49
+europe,Sweden,Transportation,road_freight,0,methodology,live,23,2025,21,2024,88
+europe,Sweden,Transportation,rail_freight,0,methodology,live,7041,2025,6928,2024,57
+europe,Sweden,Transportation,port_freight,0,methodology,live,25024,2026-Q2,24201,2025-Q2,64
+europe,Sweden,Transportation,inland_waterway_expenditure,0,methodology,no_usable_series,,,,,
+europe,Sweden,Transportation,construction_confidence,0,methodology,live,-3.3,2026-09,-9.7,2026-08,76
 europe,Sweden,Site Development,building_permits,30,eurostat,live,55.2,2026-07,55.8,2026-06,46
 europe,Sweden,Site Development,nonres_permits,20,eurostat,live,41.9,2026-Q2,44.5,2025-Q2,27
 europe,Sweden,Site Development,building_output,20,eurostat,live,72.0,2026-08,65.9,2025-08,87
@@ -516,13 +566,18 @@ europe,Austria,Overall,construction_confidence,15,eurostat,live,-8.8,2026-09,-7.
 europe,Austria,Overall,construction_employment,10,eurostat,live,102.7,2026-08,103.0,2025-08,49
 europe,Austria,Overall,construction_costs,10,eurostat,live,124.9,2026-09,118.1,2025-09,73
 europe,Austria,Overall,fixed_investment,5,eurostat_candidate,live,12878.4,2025,14081.0,2024,16
-europe,Austria,Transportation,civil_output,25,eurostat,live,111.0,2026-08,131.1,2025-08,0
-europe,Austria,Transportation,transport_pipeline,25,pending,pending,,,,,
-europe,Austria,Transportation,rail_freight,15,eurostat,live,8655,2025,8861,2024,41
-europe,Austria,Transportation,road_freight,10,eurostat,live,92,2025,96,2024,33
-europe,Austria,Transportation,port_freight,10,eurostat,no_usable_series,,,,,
-europe,Austria,Transportation,construction_confidence,10,eurostat,live,-8.8,2026-09,-7.0,2026-08,43
-europe,Austria,Transportation,funding_announcements,5,pending,pending,,,,,
+europe,Austria,Transportation,civil_output,25,methodology,live,111.0,2026-08,131.1,2025-08,0
+europe,Austria,Transportation,gov_transport_investment,25,methodology,live,6940.2,2024,6338.6,2023,88
+europe,Austria,Transportation,road_infra_expenditure,15,methodology,live,1940,2024,1710,2023,100
+europe,Austria,Transportation,rail_infra_expenditure,15,methodology,live,3584,2024,3419,2023,69
+europe,Austria,Transportation,transport_pipeline,10,methodology,pending,,,,,
+europe,Austria,Transportation,motorway_network,5,methodology,live,1749,2024,1749,2023,50
+europe,Austria,Transportation,rail_network,5,methodology,live,1898,2024,1869,2023,56
+europe,Austria,Transportation,road_freight,0,methodology,live,92,2025,96,2024,33
+europe,Austria,Transportation,rail_freight,0,methodology,live,8655,2025,8861,2024,41
+europe,Austria,Transportation,port_freight,0,methodology,no_usable_series,,,,,
+europe,Austria,Transportation,inland_waterway_expenditure,0,methodology,live,33,2024,21,2023,100
+europe,Austria,Transportation,construction_confidence,0,methodology,live,-8.8,2026-09,-7.0,2026-08,43
 europe,Austria,Site Development,building_permits,30,eurostat,live,61.7,2026-Q2,58.8,2023-Q2,70
 europe,Austria,Site Development,nonres_permits,20,eurostat,live,61.7,2026-Q2,48.8,2025-Q2,100
 europe,Austria,Site Development,building_output,20,eurostat,live,83.2,2026-08,75.0,2025-08,94
@@ -567,13 +622,18 @@ europe,Norway,Overall,construction_confidence,15,eurostat,no_usable_series,,,,,
 europe,Norway,Overall,construction_employment,10,eurostat,live,99.4,2026-Q2,105.1,2023-Q2,28
 europe,Norway,Overall,construction_costs,10,eurostat,live,129.0,2026-09,123.9,2025-09,66
 europe,Norway,Overall,fixed_investment,5,eurostat_candidate,live,11064.0,2025,11474.1,2024,36
-europe,Norway,Transportation,civil_output,25,eurostat,live,102.9,2026-08,109.5,2025-08,26
-europe,Norway,Transportation,transport_pipeline,25,pending,pending,,,,,
-europe,Norway,Transportation,rail_freight,15,eurostat,live,1239,2025,1196,2024,64
-europe,Norway,Transportation,road_freight,10,eurostat,live,28,2025,39,2024,0
-europe,Norway,Transportation,port_freight,10,eurostat,live,4758,2026-Q1,4770,2025-Q1,49
-europe,Norway,Transportation,construction_confidence,10,eurostat,no_usable_series,,,,,
-europe,Norway,Transportation,funding_announcements,5,pending,pending,,,,,
+europe,Norway,Transportation,civil_output,25,methodology,live,102.9,2026-08,109.5,2025-08,26
+europe,Norway,Transportation,gov_transport_investment,25,methodology,live,6323.8,2024,6116.1,2023,64
+europe,Norway,Transportation,road_infra_expenditure,15,methodology,no_usable_series,,,,,
+europe,Norway,Transportation,rail_infra_expenditure,15,methodology,live,1765.758,2024,1987.956,2023,5
+europe,Norway,Transportation,transport_pipeline,10,methodology,pending,,,,,
+europe,Norway,Transportation,motorway_network,5,methodology,live,634,2024,637,2023,48
+europe,Norway,Transportation,rail_network,5,methodology,live,2197,2024,2197,2023,50
+europe,Norway,Transportation,road_freight,0,methodology,live,28,2025,39,2024,0
+europe,Norway,Transportation,rail_freight,0,methodology,live,1239,2025,1196,2024,64
+europe,Norway,Transportation,port_freight,0,methodology,live,28157,2026-Q1,27195,2025-Q1,64
+europe,Norway,Transportation,inland_waterway_expenditure,0,methodology,no_usable_series,,,,,
+europe,Norway,Transportation,construction_confidence,0,methodology,no_usable_series,,,,,
 europe,Norway,Site Development,building_permits,30,eurostat,live,73.5,2026-09,67.3,2025-09,87
 europe,Norway,Site Development,nonres_permits,20,eurostat,live,59.7,2026-Q3,53.3,2025-Q3,98
 europe,Norway,Site Development,building_output,20,eurostat,live,92.5,2026-08,93.0,2025-08,48
@@ -618,13 +678,18 @@ europe,Denmark,Overall,construction_confidence,15,eurostat,live,-6.8,2026-09,-7.
 europe,Denmark,Overall,construction_employment,10,eurostat,live,103.3,2026-Q2,101.6,2023-Q2,57
 europe,Denmark,Overall,construction_costs,10,eurostat,live,122.8,2026-Q2,115.2,2023-Q2,76
 europe,Denmark,Overall,fixed_investment,5,eurostat_candidate,live,9531.3,2025,10173.1,2024,25
-europe,Denmark,Transportation,civil_output,25,eurostat,live,118.4,2026-08,134.6,2025-08,2
-europe,Denmark,Transportation,transport_pipeline,25,pending,pending,,,,,
-europe,Denmark,Transportation,rail_freight,15,eurostat,live,155,2025,243,2024,0
-europe,Denmark,Transportation,road_freight,10,eurostat,live,10,2025,12,2024,0
-europe,Denmark,Transportation,port_freight,10,eurostat,live,5578,2026-Q2,5591,2025-Q2,49
-europe,Denmark,Transportation,construction_confidence,10,eurostat,live,-6.8,2026-09,-7.4,2026-08,52
-europe,Denmark,Transportation,funding_announcements,5,pending,pending,,,,,
+europe,Denmark,Transportation,civil_output,25,methodology,live,118.4,2026-08,134.6,2025-08,2
+europe,Denmark,Transportation,gov_transport_investment,25,methodology,live,2971.3,2024,2578.2,2023,100
+europe,Denmark,Transportation,road_infra_expenditure,15,methodology,live,2292.462,2022,2112.949,2021,84
+europe,Denmark,Transportation,rail_infra_expenditure,15,methodology,live,1709.635,2024,1971.037,2023,0
+europe,Denmark,Transportation,transport_pipeline,10,methodology,pending,,,,,
+europe,Denmark,Transportation,motorway_network,5,methodology,live,1358,2023,1355,2022,51
+europe,Denmark,Transportation,rail_network,5,methodology,live,104,2024,104,2023,50
+europe,Denmark,Transportation,road_freight,0,methodology,live,10,2025,12,2024,0
+europe,Denmark,Transportation,rail_freight,0,methodology,live,155,2025,243,2024,0
+europe,Denmark,Transportation,port_freight,0,methodology,live,10497,2026-Q2,10353,2025-Q2,56
+europe,Denmark,Transportation,inland_waterway_expenditure,0,methodology,no_usable_series,,,,,
+europe,Denmark,Transportation,construction_confidence,0,methodology,live,-6.8,2026-09,-7.4,2026-08,52
 europe,Denmark,Site Development,building_permits,30,eurostat,live,61.0,2026-Q2,51.9,2023-Q2,100
 europe,Denmark,Site Development,nonres_permits,20,eurostat,live,61.0,2026-Q2,73.5,2025-Q2,0
 europe,Denmark,Site Development,building_output,20,eurostat,live,110.0,2026-08,104.2,2025-08,72
@@ -669,13 +734,18 @@ europe,Romania,Overall,construction_confidence,15,eurostat,live,-7.7,2026-09,-5.
 europe,Romania,Overall,construction_employment,10,eurostat,live,108.7,2026-08,108.4,2025-08,51
 europe,Romania,Overall,construction_costs,10,eurostat,live,164.7,2026-Q2,126.8,2023-Q2,100
 europe,Romania,Overall,fixed_investment,5,eurostat_candidate,live,6123.9,2025,5911.6,2024,64
-europe,Romania,Transportation,civil_output,25,eurostat,no_usable_series,,,,,
-europe,Romania,Transportation,transport_pipeline,25,pending,pending,,,,,
-europe,Romania,Transportation,rail_freight,15,eurostat,live,1795,2025,2217,2024,0
-europe,Romania,Transportation,road_freight,10,eurostat,live,39247,2025,38658,2024,56
-europe,Romania,Transportation,port_freight,10,eurostat,live,1169,2026-Q1,672,2025-Q1,100
-europe,Romania,Transportation,construction_confidence,10,eurostat,live,-7.7,2026-09,-5.9,2026-08,43
-europe,Romania,Transportation,funding_announcements,5,pending,pending,,,,,
+europe,Romania,Transportation,civil_output,25,methodology,no_usable_series,,,,,
+europe,Romania,Transportation,gov_transport_investment,25,methodology,live,6408.5,2024,5176.3,2023,100
+europe,Romania,Transportation,road_infra_expenditure,15,methodology,live,8524.491,2023,5001.115,2022,100
+europe,Romania,Transportation,rail_infra_expenditure,15,methodology,live,615.906,2023,392.817,2022,100
+europe,Romania,Transportation,transport_pipeline,10,methodology,pending,,,,,
+europe,Romania,Transportation,motorway_network,5,methodology,live,1137,2024,997,2023,100
+europe,Romania,Transportation,rail_network,5,methodology,live,1610,2024,1610,2023,50
+europe,Romania,Transportation,road_freight,0,methodology,live,39247,2025,38658,2024,56
+europe,Romania,Transportation,rail_freight,0,methodology,live,1795,2025,2217,2024,0
+europe,Romania,Transportation,port_freight,0,methodology,live,2106,2026-Q1,1710,2025-Q1,100
+europe,Romania,Transportation,inland_waterway_expenditure,0,methodology,no_usable_series,,,,,
+europe,Romania,Transportation,construction_confidence,0,methodology,live,-7.7,2026-09,-5.9,2026-08,43
 europe,Romania,Site Development,building_permits,30,eurostat,live,74.6,2026-08,68.6,2026-07,85
 europe,Romania,Site Development,nonres_permits,20,eurostat,live,67.8,2026-Q2,78.1,2025-Q2,0
 europe,Romania,Site Development,building_output,20,eurostat,no_usable_series,,,,,
@@ -720,13 +790,18 @@ europe,Czechia,Overall,construction_confidence,15,eurostat,live,-6.5,2026-09,-5.
 europe,Czechia,Overall,construction_employment,10,eurostat,live,105.7,2026-Q2,104.4,2023-Q2,55
 europe,Czechia,Overall,construction_costs,10,eurostat,live,134.1,2026-Q2,126.1,2023-Q2,75
 europe,Czechia,Overall,fixed_investment,5,eurostat_candidate,live,10485.8,2025,10292.7,2024,58
-europe,Czechia,Transportation,civil_output,25,eurostat,live,131.6,2026-08,150.1,2025-08,1
-europe,Czechia,Transportation,transport_pipeline,25,pending,pending,,,,,
-europe,Czechia,Transportation,rail_freight,15,eurostat,live,7337,2025,7446,2024,44
-europe,Czechia,Transportation,road_freight,10,eurostat,live,315,2025,295,2024,77
-europe,Czechia,Transportation,port_freight,10,eurostat,no_usable_series,,,,,
-europe,Czechia,Transportation,construction_confidence,10,eurostat,live,-6.5,2026-09,-5.3,2026-08,45
-europe,Czechia,Transportation,funding_announcements,5,pending,pending,,,,,
+europe,Czechia,Transportation,civil_output,25,methodology,live,131.6,2026-08,150.1,2025-08,1
+europe,Czechia,Transportation,gov_transport_investment,25,methodology,live,5087.3,2024,4802.4,2023,74
+europe,Czechia,Transportation,road_infra_expenditure,15,methodology,live,4247.93,2024,3865.522,2023,90
+europe,Czechia,Transportation,rail_infra_expenditure,15,methodology,live,2437.102,2024,2544.826,2023,33
+europe,Czechia,Transportation,transport_pipeline,10,methodology,pending,,,,,
+europe,Czechia,Transportation,motorway_network,5,methodology,live,1486,2024,1388,2023,78
+europe,Czechia,Transportation,rail_network,5,methodology,live,1285,2024,1285,2023,50
+europe,Czechia,Transportation,road_freight,0,methodology,live,315,2025,295,2024,77
+europe,Czechia,Transportation,rail_freight,0,methodology,live,7337,2025,7446,2024,44
+europe,Czechia,Transportation,port_freight,0,methodology,no_usable_series,,,,,
+europe,Czechia,Transportation,inland_waterway_expenditure,0,methodology,live,36.823,2024,27.995,2023,100
+europe,Czechia,Transportation,construction_confidence,0,methodology,live,-6.5,2026-09,-5.3,2026-08,45
 europe,Czechia,Site Development,building_permits,30,eurostat,live,83.9,2026-Q2,76.8,2023-Q2,87
 europe,Czechia,Site Development,nonres_permits,20,eurostat,live,83.9,2026-Q2,64.2,2025-Q2,100
 europe,Czechia,Site Development,building_output,20,eurostat,live,115.9,2026-08,114.4,2025-08,55
@@ -771,13 +846,18 @@ europe,Portugal,Overall,construction_confidence,15,eurostat,live,2.3,2026-09,6.1
 europe,Portugal,Overall,construction_employment,10,eurostat,live,115.0,2026-08,112.8,2025-08,58
 europe,Portugal,Overall,construction_costs,10,eurostat,live,134.9,2026-08,125.4,2025-08,80
 europe,Portugal,Overall,fixed_investment,5,eurostat_candidate,live,6796.8,2025,6507.7,2024,68
-europe,Portugal,Transportation,civil_output,25,eurostat,live,103.2,2026-08,103.3,2025-08,50
-europe,Portugal,Transportation,transport_pipeline,25,pending,pending,,,,,
-europe,Portugal,Transportation,rail_freight,15,eurostat,live,797,2025,709,2024,100
-europe,Portugal,Transportation,road_freight,10,eurostat,live,71,2025,67,2024,74
-europe,Portugal,Transportation,port_freight,10,eurostat,live,3581,2026-Q1,3628,2025-Q1,45
-europe,Portugal,Transportation,construction_confidence,10,eurostat,live,2.3,2026-09,6.1,2026-08,35
-europe,Portugal,Transportation,funding_announcements,5,pending,pending,,,,,
+europe,Portugal,Transportation,civil_output,25,methodology,live,103.2,2026-08,103.3,2025-08,50
+europe,Portugal,Transportation,gov_transport_investment,25,methodology,live,2037.1,2024,1878.8,2023,84
+europe,Portugal,Transportation,road_infra_expenditure,15,methodology,live,732.65,2002,858.699,2001,0
+europe,Portugal,Transportation,rail_infra_expenditure,15,methodology,no_usable_series,,,,,
+europe,Portugal,Transportation,transport_pipeline,10,methodology,pending,,,,,
+europe,Portugal,Transportation,motorway_network,5,methodology,live,3113,2024,3113,2023,50
+europe,Portugal,Transportation,rail_network,5,methodology,live,1180,2024,1180.692,2023,50
+europe,Portugal,Transportation,road_freight,0,methodology,live,71,2025,67,2024,74
+europe,Portugal,Transportation,rail_freight,0,methodology,live,797,2025,709,2024,100
+europe,Portugal,Transportation,port_freight,0,methodology,live,5771,2026-Q1,5989,2025-Q1,35
+europe,Portugal,Transportation,inland_waterway_expenditure,0,methodology,no_usable_series,,,,,
+europe,Portugal,Transportation,construction_confidence,0,methodology,live,2.3,2026-09,6.1,2026-08,35
 europe,Portugal,Site Development,building_permits,30,eurostat,live,128.0,2026-08,110.9,2026-07,100
 europe,Portugal,Site Development,nonres_permits,20,eurostat,live,100.1,2026-Q2,102.8,2025-Q2,39
 europe,Portugal,Site Development,building_output,20,eurostat,live,103.4,2026-08,103.5,2025-08,50
@@ -822,13 +902,18 @@ europe,Finland,Overall,construction_confidence,15,eurostat,live,-7.5,2026-09,-8.
 europe,Finland,Overall,construction_employment,10,eurostat,live,114.6,2026-08,105.6,2025-08,84
 europe,Finland,Overall,construction_costs,10,eurostat,live,115.9,2026-09,112.0,2025-09,64
 europe,Finland,Overall,fixed_investment,5,eurostat_candidate,live,7348.0,2025,7299.6,2024,53
-europe,Finland,Transportation,civil_output,25,eurostat,live,108.0,2026-08,100.8,2025-08,79
-europe,Finland,Transportation,transport_pipeline,25,pending,pending,,,,,
-europe,Finland,Transportation,rail_freight,15,eurostat,live,570,2025,434,2024,100
-europe,Finland,Transportation,road_freight,10,eurostat,live,4,2025,9,2024,0
-europe,Finland,Transportation,port_freight,10,eurostat,live,7833,2026-Q1,7680,2025-Q1,58
-europe,Finland,Transportation,construction_confidence,10,eurostat,live,-7.5,2026-09,-8.5,2026-08,54
-europe,Finland,Transportation,funding_announcements,5,pending,pending,,,,,
+europe,Finland,Transportation,civil_output,25,methodology,live,108.0,2026-08,100.8,2025-08,79
+europe,Finland,Transportation,gov_transport_investment,25,methodology,live,3177.0,2024,2835.0,2023,98
+europe,Finland,Transportation,road_infra_expenditure,15,methodology,live,1119,2020,899,2019,100
+europe,Finland,Transportation,rail_infra_expenditure,15,methodology,live,753,2024,735,2023,60
+europe,Finland,Transportation,transport_pipeline,10,methodology,pending,,,,,
+europe,Finland,Transportation,motorway_network,5,methodology,live,948,2024,948,2023,50
+europe,Finland,Transportation,rail_network,5,methodology,live,2920,2024,2710,2023,81
+europe,Finland,Transportation,road_freight,0,methodology,live,4,2025,9,2024,0
+europe,Finland,Transportation,rail_freight,0,methodology,live,570,2025,434,2024,100
+europe,Finland,Transportation,port_freight,0,methodology,live,16535,2026-Q1,16626,2025-Q1,48
+europe,Finland,Transportation,inland_waterway_expenditure,0,methodology,live,15.1,2023,16,2022,27
+europe,Finland,Transportation,construction_confidence,0,methodology,live,-7.5,2026-09,-8.5,2026-08,54
 europe,Finland,Site Development,building_permits,30,eurostat,live,62.2,2026-06,54.2,2026-05,100
 europe,Finland,Site Development,nonres_permits,20,eurostat,live,57.6,2026-Q2,63.8,2025-Q2,11
 europe,Finland,Site Development,building_output,20,eurostat,live,93.2,2026-08,87.2,2025-08,78
@@ -873,13 +958,18 @@ europe,Greece,Overall,construction_confidence,15,eurostat,live,14.2,2026-09,25.6
 europe,Greece,Overall,construction_employment,10,eurostat,live,120.1,2026-Q2,110.2,2023-Q2,86
 europe,Greece,Overall,construction_costs,10,eurostat,live,127.6,2026-Q2,115.1,2023-Q2,93
 europe,Greece,Overall,fixed_investment,5,eurostat_candidate,live,6518.0,2025,5324.5,2024,100
-europe,Greece,Transportation,civil_output,25,eurostat,live,155.1,2026-Q2,131.0,2023-Q2,100
-europe,Greece,Transportation,transport_pipeline,25,pending,pending,,,,,
-europe,Greece,Transportation,rail_freight,15,eurostat,live,248,2025,227,2024,87
-europe,Greece,Transportation,road_freight,10,eurostat,live,39,2025,29,2024,100
-europe,Greece,Transportation,port_freight,10,eurostat,live,3621,2026-Q1,4035,2025-Q1,9
-europe,Greece,Transportation,construction_confidence,10,eurostat,live,14.2,2026-09,25.6,2026-08,4
-europe,Greece,Transportation,funding_announcements,5,pending,pending,,,,,
+europe,Greece,Transportation,civil_output,25,methodology,live,155.1,2026-Q2,131.0,2023-Q2,100
+europe,Greece,Transportation,gov_transport_investment,25,methodology,live,4008.0,2024,3695.0,2023,84
+europe,Greece,Transportation,road_infra_expenditure,15,methodology,no_usable_series,,,,,
+europe,Greece,Transportation,rail_infra_expenditure,15,methodology,live,747.46,2003,612.18,2002,100
+europe,Greece,Transportation,transport_pipeline,10,methodology,pending,,,,,
+europe,Greece,Transportation,motorway_network,5,methodology,live,2296,2023,2205,2022,67
+europe,Greece,Transportation,rail_network,5,methodology,live,164,2024,175,2023,25
+europe,Greece,Transportation,road_freight,0,methodology,live,39,2025,29,2024,100
+europe,Greece,Transportation,rail_freight,0,methodology,live,248,2025,227,2024,87
+europe,Greece,Transportation,port_freight,0,methodology,live,7917,2026-Q1,8523,2025-Q1,22
+europe,Greece,Transportation,inland_waterway_expenditure,0,methodology,no_usable_series,,,,,
+europe,Greece,Transportation,construction_confidence,0,methodology,live,14.2,2026-09,25.6,2026-08,4
 europe,Greece,Site Development,building_permits,30,eurostat,live,156.1,2026-06,151.9,2026-05,61
 europe,Greece,Site Development,nonres_permits,20,eurostat,live,116.7,2026-Q2,105.0,2025-Q2,95
 europe,Greece,Site Development,building_output,20,eurostat,no_usable_series,,,,,
@@ -924,13 +1014,18 @@ europe,Hungary,Overall,construction_confidence,15,eurostat,live,-28.1,2026-09,-2
 europe,Hungary,Overall,construction_employment,10,eurostat,live,98.1,2026-Q2,105.6,2023-Q2,22
 europe,Hungary,Overall,construction_costs,10,eurostat,live,167.9,2026-Q2,142.5,2023-Q2,100
 europe,Hungary,Overall,fixed_investment,5,eurostat_candidate,live,2965.6,2025,3124.7,2024,30
-europe,Hungary,Transportation,civil_output,25,eurostat,live,133.7,2026-08,47.1,2025-08,100
-europe,Hungary,Transportation,transport_pipeline,25,pending,pending,,,,,
-europe,Hungary,Transportation,rail_freight,15,eurostat,live,4579,2025,5218,2024,1
-europe,Hungary,Transportation,road_freight,10,eurostat,live,140,2025,138,2024,56
-europe,Hungary,Transportation,port_freight,10,eurostat,no_usable_series,,,,,
-europe,Hungary,Transportation,construction_confidence,10,eurostat,live,-28.1,2026-09,-27.9,2026-08,49
-europe,Hungary,Transportation,funding_announcements,5,pending,pending,,,,,
+europe,Hungary,Transportation,civil_output,25,methodology,live,133.7,2026-08,47.1,2025-08,100
+europe,Hungary,Transportation,gov_transport_investment,25,methodology,live,2195.9,2024,2519.5,2023,0
+europe,Hungary,Transportation,road_infra_expenditure,15,methodology,live,1294.554,2024,1703.742,2023,0
+europe,Hungary,Transportation,rail_infra_expenditure,15,methodology,live,1686.411,2024,1954.199,2023,0
+europe,Hungary,Transportation,transport_pipeline,10,methodology,pending,,,,,
+europe,Hungary,Transportation,motorway_network,5,methodology,live,1897,2024,1870.6,2023,56
+europe,Hungary,Transportation,rail_network,5,methodology,live,2045,2024,2045,2023,50
+europe,Hungary,Transportation,road_freight,0,methodology,live,140,2025,138,2024,56
+europe,Hungary,Transportation,rail_freight,0,methodology,live,4579,2025,5218,2024,1
+europe,Hungary,Transportation,port_freight,0,methodology,no_usable_series,,,,,
+europe,Hungary,Transportation,inland_waterway_expenditure,0,methodology,no_usable_series,,,,,
+europe,Hungary,Transportation,construction_confidence,0,methodology,live,-28.1,2026-09,-27.9,2026-08,49
 europe,Hungary,Site Development,building_permits,30,eurostat,live,79.0,2026-07,66.8,2026-06,100
 europe,Hungary,Site Development,nonres_permits,20,eurostat,live,56.5,2026-Q2,62.8,2025-Q2,10
 europe,Hungary,Site Development,building_output,20,eurostat,live,81.6,2026-08,85.7,2025-08,31
@@ -975,13 +1070,18 @@ europe,Slovakia,Overall,construction_confidence,15,eurostat,live,-5.0,2026-09,-4
 europe,Slovakia,Overall,construction_employment,10,eurostat,live,103.8,2026-08,98.6,2025-08,71
 europe,Slovakia,Overall,construction_costs,10,eurostat,live,155.7,2026-Q2,135.2,2023-Q2,100
 europe,Slovakia,Overall,fixed_investment,5,eurostat_candidate,live,1734.6,2025,2129.6,2024,0
-europe,Slovakia,Transportation,civil_output,25,eurostat,live,97.9,2026-08,108.7,2025-08,10
-europe,Slovakia,Transportation,transport_pipeline,25,pending,pending,,,,,
-europe,Slovakia,Transportation,rail_freight,15,eurostat,live,3516,2025,3875,2024,13
-europe,Slovakia,Transportation,road_freight,10,eurostat,live,193,2025,198,2024,40
-europe,Slovakia,Transportation,port_freight,10,eurostat,no_usable_series,,,,,
-europe,Slovakia,Transportation,construction_confidence,10,eurostat,live,-5.0,2026-09,-4.5,2026-08,48
-europe,Slovakia,Transportation,funding_announcements,5,pending,pending,,,,,
+europe,Slovakia,Transportation,civil_output,25,methodology,live,97.9,2026-08,108.7,2025-08,10
+europe,Slovakia,Transportation,gov_transport_investment,25,methodology,live,1716.2,2024,2055.7,2023,0
+europe,Slovakia,Transportation,road_infra_expenditure,15,methodology,live,1227,2024,1236.4,2023,47
+europe,Slovakia,Transportation,rail_infra_expenditure,15,methodology,live,453.2,2024,392.9,2023,100
+europe,Slovakia,Transportation,transport_pipeline,10,methodology,pending,,,,,
+europe,Slovakia,Transportation,motorway_network,5,methodology,live,865.8,2024,864.6,2023,51
+europe,Slovakia,Transportation,rail_network,5,methodology,live,675,2024,677,2023,49
+europe,Slovakia,Transportation,road_freight,0,methodology,live,193,2025,198,2024,40
+europe,Slovakia,Transportation,rail_freight,0,methodology,live,3516,2025,3875,2024,13
+europe,Slovakia,Transportation,port_freight,0,methodology,no_usable_series,,,,,
+europe,Slovakia,Transportation,inland_waterway_expenditure,0,methodology,live,6,2024,2.9,2023,100
+europe,Slovakia,Transportation,construction_confidence,0,methodology,live,-5.0,2026-09,-4.5,2026-08,48
 europe,Slovakia,Site Development,building_permits,30,eurostat,live,44.4,2026-Q2,74.8,2023-Q2,0
 europe,Slovakia,Site Development,nonres_permits,20,eurostat,live,44.4,2026-Q2,62.7,2025-Q2,0
 europe,Slovakia,Site Development,building_output,20,eurostat,live,101.9,2026-08,99.8,2025-08,58
@@ -1026,13 +1126,18 @@ europe,Bulgaria,Overall,construction_confidence,15,eurostat,live,-6.6,2026-09,-8
 europe,Bulgaria,Overall,construction_employment,10,eurostat,live,100.4,2026-Q2,101.6,2023-Q2,45
 europe,Bulgaria,Overall,construction_costs,10,eurostat,live,230.8,2026-Q2,179.3,2023-Q2,100
 europe,Bulgaria,Overall,fixed_investment,5,eurostat_candidate,live,1610.8,2025,1339.4,2024,100
-europe,Bulgaria,Transportation,civil_output,25,eurostat,live,109.5,2026-08,105.1,2025-08,67
-europe,Bulgaria,Transportation,transport_pipeline,25,pending,pending,,,,,
-europe,Bulgaria,Transportation,rail_freight,15,eurostat,live,733,2025,845,2024,0
-europe,Bulgaria,Transportation,road_freight,10,eurostat,live,114,2025,118,2024,36
-europe,Bulgaria,Transportation,port_freight,10,eurostat,live,254,2026-Q2,206,2025-Q2,100
-europe,Bulgaria,Transportation,construction_confidence,10,eurostat,live,-6.6,2026-09,-8.0,2026-08,56
-europe,Bulgaria,Transportation,funding_announcements,5,pending,pending,,,,,
+europe,Bulgaria,Transportation,civil_output,25,methodology,live,109.5,2026-08,105.1,2025-08,67
+europe,Bulgaria,Transportation,gov_transport_investment,25,methodology,live,1230.2,2024,1300.1,2023,28
+europe,Bulgaria,Transportation,road_infra_expenditure,15,methodology,live,514.871,2024,674.394,2023,0
+europe,Bulgaria,Transportation,rail_infra_expenditure,15,methodology,live,285.301,2024,393.695,2023,0
+europe,Bulgaria,Transportation,transport_pipeline,10,methodology,pending,,,,,
+europe,Bulgaria,Transportation,motorway_network,5,methodology,live,845,2024,840,2023,52
+europe,Bulgaria,Transportation,rail_network,5,methodology,live,2006,2024,2006,2023,50
+europe,Bulgaria,Transportation,road_freight,0,methodology,live,114,2025,118,2024,36
+europe,Bulgaria,Transportation,rail_freight,0,methodology,live,733,2025,845,2024,0
+europe,Bulgaria,Transportation,port_freight,0,methodology,live,1007,2026-Q2,834,2025-Q2,100
+europe,Bulgaria,Transportation,inland_waterway_expenditure,0,methodology,live,2.045,2024,6.136,2023,0
+europe,Bulgaria,Transportation,construction_confidence,0,methodology,live,-6.6,2026-09,-8.0,2026-08,56
 europe,Bulgaria,Site Development,building_permits,30,eurostat,live,131.1,2026-Q2,118.0,2023-Q2,94
 europe,Bulgaria,Site Development,nonres_permits,20,eurostat,live,131.1,2026-Q2,117.9,2025-Q2,95
 europe,Bulgaria,Site Development,building_output,20,eurostat,live,118.8,2026-08,110.6,2025-08,80
@@ -1077,13 +1182,18 @@ europe,Croatia,Overall,construction_confidence,15,eurostat,live,8.4,2026-09,4.4,
 europe,Croatia,Overall,construction_employment,10,eurostat,live,129.4,2026-Q2,109.1,2023-Q2,100
 europe,Croatia,Overall,construction_costs,10,eurostat,live,161.8,2026-Q2,127.4,2023-Q2,100
 europe,Croatia,Overall,fixed_investment,5,eurostat_candidate,live,1752.0,2025,1588.7,2024,91
-europe,Croatia,Transportation,civil_output,25,eurostat,live,101.0,2022-Q4,100.5,2022-Q3,52
-europe,Croatia,Transportation,transport_pipeline,25,pending,pending,,,,,
-europe,Croatia,Transportation,rail_freight,15,eurostat,live,1584,2025,1567,2024,54
-europe,Croatia,Transportation,road_freight,10,eurostat,live,86,2025,75,2024,100
-europe,Croatia,Transportation,port_freight,10,eurostat,live,1010,2026-Q2,888,2025-Q2,100
-europe,Croatia,Transportation,construction_confidence,10,eurostat,live,8.4,2026-09,4.4,2026-08,66
-europe,Croatia,Transportation,funding_announcements,5,pending,pending,,,,,
+europe,Croatia,Transportation,civil_output,25,methodology,live,101.0,2022-Q4,100.5,2022-Q3,52
+europe,Croatia,Transportation,gov_transport_investment,25,methodology,live,955.3,2024,1014.8,2023,27
+europe,Croatia,Transportation,road_infra_expenditure,15,methodology,live,932,2024,948,2023,43
+europe,Croatia,Transportation,rail_infra_expenditure,15,methodology,live,328,2024,274,2023,100
+europe,Croatia,Transportation,transport_pipeline,10,methodology,pending,,,,,
+europe,Croatia,Transportation,motorway_network,5,methodology,live,1356,2024,1341,2023,54
+europe,Croatia,Transportation,rail_network,5,methodology,live,742,2024,742,2023,50
+europe,Croatia,Transportation,road_freight,0,methodology,live,86,2025,75,2024,100
+europe,Croatia,Transportation,rail_freight,0,methodology,live,1584,2025,1567,2024,54
+europe,Croatia,Transportation,port_freight,0,methodology,live,1928,2026-Q2,1495,2025-Q2,100
+europe,Croatia,Transportation,inland_waterway_expenditure,0,methodology,live,12,2024,12,2023,50
+europe,Croatia,Transportation,construction_confidence,0,methodology,live,8.4,2026-09,4.4,2026-08,66
 europe,Croatia,Site Development,building_permits,30,eurostat,live,119.1,2026-Q2,107.4,2023-Q2,94
 europe,Croatia,Site Development,nonres_permits,20,eurostat,live,119.1,2026-Q2,129.3,2025-Q2,18
 europe,Croatia,Site Development,building_output,20,eurostat,no_usable_series,,,,,
@@ -1128,13 +1238,18 @@ europe,Luxembourg,Overall,construction_confidence,15,eurostat,live,-6.9,2026-09,
 europe,Luxembourg,Overall,construction_employment,10,eurostat,live,98.5,2026-07,97.8,2025-07,53
 europe,Luxembourg,Overall,construction_costs,10,eurostat,live,133.9,2026-Q2,126.3,2023-Q2,74
 europe,Luxembourg,Overall,fixed_investment,5,eurostat_candidate,live,1457.5,2025,1627.7,2024,8
-europe,Luxembourg,Transportation,civil_output,25,eurostat,no_usable_series,,,,,
-europe,Luxembourg,Transportation,transport_pipeline,25,pending,pending,,,,,
-europe,Luxembourg,Transportation,rail_freight,15,eurostat,live,141,2025,157,2024,9
-europe,Luxembourg,Transportation,road_freight,10,eurostat,live,2695,2025,3103,2024,0
-europe,Luxembourg,Transportation,port_freight,10,eurostat,no_usable_series,,,,,
-europe,Luxembourg,Transportation,construction_confidence,10,eurostat,live,-6.9,2026-09,-8.4,2026-08,56
-europe,Luxembourg,Transportation,funding_announcements,5,pending,pending,,,,,
+europe,Luxembourg,Transportation,civil_output,25,methodology,no_usable_series,,,,,
+europe,Luxembourg,Transportation,gov_transport_investment,25,methodology,live,1205.0,2025,1118.1,2024,81
+europe,Luxembourg,Transportation,road_infra_expenditure,15,methodology,live,164.6,2008,180.5,2007,15
+europe,Luxembourg,Transportation,rail_infra_expenditure,15,methodology,no_usable_series,,,,,
+europe,Luxembourg,Transportation,transport_pipeline,10,methodology,pending,,,,,
+europe,Luxembourg,Transportation,motorway_network,5,methodology,live,167,2024,167,2023,50
+europe,Luxembourg,Transportation,rail_network,5,methodology,live,102,2024,102,2023,50
+europe,Luxembourg,Transportation,road_freight,0,methodology,live,2695,2025,3103,2024,0
+europe,Luxembourg,Transportation,rail_freight,0,methodology,live,141,2025,157,2024,9
+europe,Luxembourg,Transportation,port_freight,0,methodology,no_usable_series,,,,,
+europe,Luxembourg,Transportation,inland_waterway_expenditure,0,methodology,no_usable_series,,,,,
+europe,Luxembourg,Transportation,construction_confidence,0,methodology,live,-6.9,2026-09,-8.4,2026-08,56
 europe,Luxembourg,Site Development,building_permits,30,eurostat,live,52.0,2026-Q2,66.0,2023-Q2,0
 europe,Luxembourg,Site Development,nonres_permits,20,eurostat,live,52.0,2026-Q2,53.0,2025-Q2,42
 europe,Luxembourg,Site Development,building_output,20,eurostat,no_usable_series,,,,,
@@ -1179,13 +1294,18 @@ europe,Lithuania,Overall,construction_confidence,15,eurostat,live,-4.8,2026-09,-
 europe,Lithuania,Overall,construction_employment,10,eurostat,live,114.6,2026-Q2,108.2,2023-Q2,74
 europe,Lithuania,Overall,construction_costs,10,eurostat,live,145.9,2026-08,139.8,2025-08,67
 europe,Lithuania,Overall,fixed_investment,5,eurostat_candidate,live,1204.4,2025,1284.0,2024,25
-europe,Lithuania,Transportation,civil_output,25,eurostat,live,172.5,2026-Q2,127.4,2023-Q2,100
-europe,Lithuania,Transportation,transport_pipeline,25,pending,pending,,,,,
-europe,Lithuania,Transportation,rail_freight,15,eurostat,live,689,2025,733,2024,26
-europe,Lithuania,Transportation,road_freight,10,eurostat,live,316,2025,316,2024,50
-europe,Lithuania,Transportation,port_freight,10,eurostat,live,2208,2026-Q2,2081,2025-Q2,74
-europe,Lithuania,Transportation,construction_confidence,10,eurostat,live,-4.8,2026-09,-1.7,2026-08,38
-europe,Lithuania,Transportation,funding_announcements,5,pending,pending,,,,,
+europe,Lithuania,Transportation,civil_output,25,methodology,live,172.5,2026-Q2,127.4,2023-Q2,100
+europe,Lithuania,Transportation,gov_transport_investment,25,methodology,live,893.7,2024,658.1,2023,100
+europe,Lithuania,Transportation,road_infra_expenditure,15,methodology,live,1160.5,2024,912.4,2023,100
+europe,Lithuania,Transportation,rail_infra_expenditure,15,methodology,live,270.9,2022,233.1,2021,100
+europe,Lithuania,Transportation,transport_pipeline,10,methodology,pending,,,,,
+europe,Lithuania,Transportation,motorway_network,5,methodology,live,462,2024,462,2023,50
+europe,Lithuania,Transportation,rail_network,5,methodology,live,5.1,2024,6.5,2023,0
+europe,Lithuania,Transportation,road_freight,0,methodology,live,316,2025,316,2024,50
+europe,Lithuania,Transportation,rail_freight,0,methodology,live,689,2025,733,2024,26
+europe,Lithuania,Transportation,port_freight,0,methodology,live,5439,2026-Q2,4802,2025-Q2,100
+europe,Lithuania,Transportation,inland_waterway_expenditure,0,methodology,live,28.1,2023,11.7,2022,100
+europe,Lithuania,Transportation,construction_confidence,0,methodology,live,-4.8,2026-09,-1.7,2026-08,38
 europe,Lithuania,Site Development,building_permits,30,eurostat,live,66.7,2026-Q2,66.2,2023-Q2,53
 europe,Lithuania,Site Development,nonres_permits,20,eurostat,live,66.7,2026-Q2,50.0,2025-Q2,100
 europe,Lithuania,Site Development,building_output,20,eurostat,no_usable_series,,,,,
@@ -1230,13 +1350,18 @@ europe,Slovenia,Overall,construction_confidence,15,eurostat,live,8.9,2026-09,4.5
 europe,Slovenia,Overall,construction_employment,10,eurostat,live,116.2,2026-Q2,111.8,2023-Q2,66
 europe,Slovenia,Overall,construction_costs,10,eurostat,live,142.2,2026-Q2,123.2,2023-Q2,100
 europe,Slovenia,Overall,fixed_investment,5,eurostat_candidate,live,922.6,2025,947.8,2024,39
-europe,Slovenia,Transportation,civil_output,25,eurostat,live,145.3,2026-08,144.9,2025-08,51
-europe,Slovenia,Transportation,transport_pipeline,25,pending,pending,,,,,
-europe,Slovenia,Transportation,rail_freight,15,eurostat,live,2343,2025,2390,2024,42
-europe,Slovenia,Transportation,road_freight,10,eurostat,live,181,2025,197,2024,18
-europe,Slovenia,Transportation,port_freight,10,eurostat,live,1035,2026-Q1,791,2025-Q1,100
-europe,Slovenia,Transportation,construction_confidence,10,eurostat,live,8.9,2026-09,4.5,2026-08,68
-europe,Slovenia,Transportation,funding_announcements,5,pending,pending,,,,,
+europe,Slovenia,Transportation,civil_output,25,methodology,live,145.3,2026-08,144.9,2025-08,51
+europe,Slovenia,Transportation,gov_transport_investment,25,methodology,live,855.0,2024,1055.3,2023,0
+europe,Slovenia,Transportation,road_infra_expenditure,15,methodology,live,598.3,2020,579.57,2018,63
+europe,Slovenia,Transportation,rail_infra_expenditure,15,methodology,live,326.23,2024,483.17,2023,0
+europe,Slovenia,Transportation,transport_pipeline,10,methodology,pending,,,,,
+europe,Slovenia,Transportation,motorway_network,5,methodology,live,616.023,2024,616.023,2023,50
+europe,Slovenia,Transportation,rail_network,5,methodology,live,280,2024,280,2023,50
+europe,Slovenia,Transportation,road_freight,0,methodology,live,181,2025,197,2024,18
+europe,Slovenia,Transportation,rail_freight,0,methodology,live,2343,2025,2390,2024,42
+europe,Slovenia,Transportation,port_freight,0,methodology,live,1262,2026-Q1,1147,2025-Q1,90
+europe,Slovenia,Transportation,inland_waterway_expenditure,0,methodology,no_usable_series,,,,,
+europe,Slovenia,Transportation,construction_confidence,0,methodology,live,8.9,2026-09,4.5,2026-08,68
 europe,Slovenia,Site Development,building_permits,30,eurostat,live,94.5,2026-08,97.4,2026-07,38
 europe,Slovenia,Site Development,nonres_permits,20,eurostat,live,95.6,2026-Q2,97.9,2025-Q2,41
 europe,Slovenia,Site Development,building_output,20,eurostat,live,169.2,2026-08,144.3,2025-08,100
@@ -1281,13 +1406,18 @@ europe,Latvia,Overall,construction_confidence,15,eurostat,live,-13.4,2026-09,-5.
 europe,Latvia,Overall,construction_employment,10,eurostat,live,105.3,2026-Q2,102.5,2023-Q2,61
 europe,Latvia,Overall,construction_costs,10,eurostat,live,133.1,2026-Q2,119.1,2023-Q2,97
 europe,Latvia,Overall,fixed_investment,5,eurostat_candidate,live,399.2,2025,391.6,2024,58
-europe,Latvia,Transportation,civil_output,25,eurostat,live,122.7,2026-Q2,82.8,2023-Q2,100
-europe,Latvia,Transportation,transport_pipeline,25,pending,pending,,,,,
-europe,Latvia,Transportation,rail_freight,15,eurostat,live,2172,2025,2927,2024,0
-europe,Latvia,Transportation,road_freight,10,eurostat,live,10647,2025,10683,2024,49
-europe,Latvia,Transportation,port_freight,10,eurostat,live,1348,2025-Q4,1585,2024-Q4,0
-europe,Latvia,Transportation,construction_confidence,10,eurostat,live,-13.4,2026-09,-5.6,2026-08,19
-europe,Latvia,Transportation,funding_announcements,5,pending,pending,,,,,
+europe,Latvia,Transportation,civil_output,25,methodology,live,122.7,2026-Q2,82.8,2023-Q2,100
+europe,Latvia,Transportation,gov_transport_investment,25,methodology,live,806.0,2024,823.3,2023,42
+europe,Latvia,Transportation,road_infra_expenditure,15,methodology,live,532.8,2024,465,2023,100
+europe,Latvia,Transportation,rail_infra_expenditure,15,methodology,live,301.3,2024,257.19,2023,100
+europe,Latvia,Transportation,transport_pipeline,10,methodology,pending,,,,,
+europe,Latvia,Transportation,motorway_network,5,methodology,live,0,2024,,,
+europe,Latvia,Transportation,rail_network,5,methodology,live,46.6,2024,46.6,2023,50
+europe,Latvia,Transportation,road_freight,0,methodology,live,10647,2025,10683,2024,49
+europe,Latvia,Transportation,rail_freight,0,methodology,live,2172,2025,2927,2024,0
+europe,Latvia,Transportation,port_freight,0,methodology,live,4847,2025-Q4,4803,2024-Q4,54
+europe,Latvia,Transportation,inland_waterway_expenditure,0,methodology,no_usable_series,,,,,
+europe,Latvia,Transportation,construction_confidence,0,methodology,live,-13.4,2026-09,-5.6,2026-08,19
 europe,Latvia,Site Development,building_permits,30,eurostat,live,57.1,2026-Q2,99.7,2023-Q2,0
 europe,Latvia,Site Development,nonres_permits,20,eurostat,live,57.1,2026-Q2,87.7,2025-Q2,0
 europe,Latvia,Site Development,building_output,20,eurostat,live,102.5,2026-Q2,109.3,2023-Q2,25
@@ -1332,13 +1462,18 @@ europe,Estonia,Overall,construction_confidence,15,eurostat,live,-2.7,2026-04,-4.
 europe,Estonia,Overall,construction_employment,10,eurostat,live,90.1,2026-Q2,101.4,2023-Q2,5
 europe,Estonia,Overall,construction_costs,10,eurostat,live,131.8,2026-Q2,123.8,2023-Q2,76
 europe,Estonia,Overall,fixed_investment,5,eurostat_candidate,live,781.3,2025,745.0,2024,69
-europe,Estonia,Transportation,civil_output,25,eurostat,no_usable_series,,,,,
-europe,Estonia,Transportation,transport_pipeline,25,pending,pending,,,,,
-europe,Estonia,Transportation,rail_freight,15,eurostat,live,294,2025,342,2024,0
-europe,Estonia,Transportation,road_freight,10,eurostat,live,2095,2025,2386,2024,1
-europe,Estonia,Transportation,port_freight,10,eurostat,live,1589,2026-Q1,1689,2025-Q1,26
-europe,Estonia,Transportation,construction_confidence,10,eurostat,live,-2.7,2026-04,-4.9,2026-03,59
-europe,Estonia,Transportation,funding_announcements,5,pending,pending,,,,,
+europe,Estonia,Transportation,civil_output,25,methodology,no_usable_series,,,,,
+europe,Estonia,Transportation,gov_transport_investment,25,methodology,live,539.2,2024,498.8,2023,82
+europe,Estonia,Transportation,road_infra_expenditure,15,methodology,live,227.557,2002,123.631,2001,100
+europe,Estonia,Transportation,rail_infra_expenditure,15,methodology,no_usable_series,,,,,
+europe,Estonia,Transportation,transport_pipeline,10,methodology,pending,,,,,
+europe,Estonia,Transportation,motorway_network,5,methodology,live,233,2024,225,2023,64
+europe,Estonia,Transportation,rail_network,5,methodology,live,53,2024,53,2023,50
+europe,Estonia,Transportation,road_freight,0,methodology,live,2095,2025,2386,2024,1
+europe,Estonia,Transportation,rail_freight,0,methodology,live,294,2025,342,2024,0
+europe,Estonia,Transportation,port_freight,0,methodology,live,4353,2026-Q1,4761,2025-Q1,16
+europe,Estonia,Transportation,inland_waterway_expenditure,0,methodology,no_usable_series,,,,,
+europe,Estonia,Transportation,construction_confidence,0,methodology,live,-2.7,2026-04,-4.9,2026-03,59
 europe,Estonia,Site Development,building_permits,30,eurostat,live,73.9,2026-Q2,77.6,2023-Q2,31
 europe,Estonia,Site Development,nonres_permits,20,eurostat,live,73.9,2026-Q2,78.8,2025-Q2,25
 europe,Estonia,Site Development,building_output,20,eurostat,no_usable_series,,,,,
@@ -1383,13 +1518,18 @@ europe,Cyprus,Overall,construction_confidence,15,eurostat,live,6.5,2026-09,5.6,2
 europe,Cyprus,Overall,construction_employment,10,eurostat,live,111.3,2026-Q2,104.3,2023-Q2,77
 europe,Cyprus,Overall,construction_costs,10,eurostat,live,120.3,2026-Q2,113.2,2023-Q2,75
 europe,Cyprus,Overall,fixed_investment,5,eurostat_candidate,live,2347.1,2025,2233.3,2024,70
-europe,Cyprus,Transportation,civil_output,25,eurostat,live,117.2,2023-Q4,121.0,2020-Q4,37
-europe,Cyprus,Transportation,transport_pipeline,25,pending,pending,,,,,
-europe,Cyprus,Transportation,rail_freight,15,eurostat,no_usable_series,,,,,
-europe,Cyprus,Transportation,road_freight,10,eurostat,live,22,2025,25,2024,2
-europe,Cyprus,Transportation,port_freight,10,eurostat,live,1253,2026-Q1,1273,2025-Q1,44
-europe,Cyprus,Transportation,construction_confidence,10,eurostat,live,6.5,2026-09,5.6,2026-08,54
-europe,Cyprus,Transportation,funding_announcements,5,pending,pending,,,,,
+europe,Cyprus,Transportation,civil_output,25,methodology,live,117.2,2023-Q4,121.0,2020-Q4,37
+europe,Cyprus,Transportation,gov_transport_investment,25,methodology,live,112.1,2024,110.3,2023,57
+europe,Cyprus,Transportation,road_infra_expenditure,15,methodology,live,323.3,2023,279.8,2022,100
+europe,Cyprus,Transportation,rail_infra_expenditure,15,methodology,no_usable_series,,,,,
+europe,Cyprus,Transportation,transport_pipeline,10,methodology,pending,,,,,
+europe,Cyprus,Transportation,motorway_network,5,methodology,live,0,2024,,,
+europe,Cyprus,Transportation,rail_network,5,methodology,no_usable_series,,,,,
+europe,Cyprus,Transportation,road_freight,0,methodology,live,22,2025,25,2024,2
+europe,Cyprus,Transportation,rail_freight,0,methodology,no_usable_series,,,,,
+europe,Cyprus,Transportation,port_freight,0,methodology,live,1429,2026-Q1,1349,2025-Q1,74
+europe,Cyprus,Transportation,inland_waterway_expenditure,0,methodology,no_usable_series,,,,,
+europe,Cyprus,Transportation,construction_confidence,0,methodology,live,6.5,2026-09,5.6,2026-08,54
 europe,Cyprus,Site Development,building_permits,30,eurostat,live,163.6,2026-06,167.8,2026-05,40
 europe,Cyprus,Site Development,nonres_permits,20,eurostat,live,84.7,2026-Q2,109.4,2025-Q2,0
 europe,Cyprus,Site Development,building_output,20,eurostat,no_usable_series,,,,,
@@ -1434,13 +1574,18 @@ europe,Malta,Overall,construction_confidence,15,eurostat,live,15.1,2026-04,-14.8
 europe,Malta,Overall,construction_employment,10,eurostat,live,105.6,2026-Q2,104.7,2023-Q2,53
 europe,Malta,Overall,construction_costs,10,eurostat,live,122.1,2026-Q2,118.6,2023-Q2,62
 europe,Malta,Overall,fixed_investment,5,eurostat_candidate,live,462.1,2025,449.4,2024,61
-europe,Malta,Transportation,civil_output,25,eurostat,no_usable_series,,,,,
-europe,Malta,Transportation,transport_pipeline,25,pending,pending,,,,,
-europe,Malta,Transportation,rail_freight,15,eurostat,no_usable_series,,,,,
-europe,Malta,Transportation,road_freight,10,eurostat,no_usable_series,,,,,
-europe,Malta,Transportation,port_freight,10,eurostat,live,720,2026-Q1,1049,2025-Q1,0
-europe,Malta,Transportation,construction_confidence,10,eurostat,live,15.1,2026-04,-14.8,2026-03,100
-europe,Malta,Transportation,funding_announcements,5,pending,pending,,,,,
+europe,Malta,Transportation,civil_output,25,methodology,no_usable_series,,,,,
+europe,Malta,Transportation,gov_transport_investment,25,methodology,live,197.1,2024,183.5,2023,80
+europe,Malta,Transportation,road_infra_expenditure,15,methodology,live,169.852,2024,140.196,2023,100
+europe,Malta,Transportation,rail_infra_expenditure,15,methodology,no_usable_series,,,,,
+europe,Malta,Transportation,transport_pipeline,10,methodology,pending,,,,,
+europe,Malta,Transportation,motorway_network,5,methodology,live,0,2024,,,
+europe,Malta,Transportation,rail_network,5,methodology,no_usable_series,,,,,
+europe,Malta,Transportation,road_freight,0,methodology,no_usable_series,,,,,
+europe,Malta,Transportation,rail_freight,0,methodology,no_usable_series,,,,,
+europe,Malta,Transportation,port_freight,0,methodology,live,772,2026-Q1,1099,2025-Q1,0
+europe,Malta,Transportation,inland_waterway_expenditure,0,methodology,no_usable_series,,,,,
+europe,Malta,Transportation,construction_confidence,0,methodology,live,15.1,2026-04,-14.8,2026-03,100
 europe,Malta,Site Development,building_permits,30,eurostat,live,145.2,2026-Q2,116.8,2023-Q2,100
 europe,Malta,Site Development,nonres_permits,20,eurostat,live,145.2,2026-Q2,154.7,2025-Q2,25
 europe,Malta,Site Development,building_output,20,eurostat,no_usable_series,,,,,
@@ -1485,13 +1630,18 @@ emea,Saudi Arabia,Overall,construction_confidence,15,eurostat,pending,,,,,
 emea,Saudi Arabia,Overall,construction_employment,10,eurostat,pending,,,,,
 emea,Saudi Arabia,Overall,construction_costs,10,eurostat,pending,,,,,
 emea,Saudi Arabia,Overall,fixed_investment,5,eurostat_candidate,pending,,,,,
-emea,Saudi Arabia,Transportation,civil_output,25,eurostat,pending,,,,,
-emea,Saudi Arabia,Transportation,transport_pipeline,25,pending,pending,,,,,
-emea,Saudi Arabia,Transportation,rail_freight,15,eurostat,pending,,,,,
-emea,Saudi Arabia,Transportation,road_freight,10,eurostat,pending,,,,,
-emea,Saudi Arabia,Transportation,port_freight,10,eurostat,pending,,,,,
-emea,Saudi Arabia,Transportation,construction_confidence,10,eurostat,pending,,,,,
-emea,Saudi Arabia,Transportation,funding_announcements,5,pending,pending,,,,,
+emea,Saudi Arabia,Transportation,civil_output,25,methodology,pending,,,,,
+emea,Saudi Arabia,Transportation,gov_transport_investment,25,methodology,pending,,,,,
+emea,Saudi Arabia,Transportation,road_infra_expenditure,15,methodology,pending,,,,,
+emea,Saudi Arabia,Transportation,rail_infra_expenditure,15,methodology,pending,,,,,
+emea,Saudi Arabia,Transportation,transport_pipeline,10,methodology,pending,,,,,
+emea,Saudi Arabia,Transportation,motorway_network,5,methodology,pending,,,,,
+emea,Saudi Arabia,Transportation,rail_network,5,methodology,pending,,,,,
+emea,Saudi Arabia,Transportation,road_freight,0,methodology,pending,,,,,
+emea,Saudi Arabia,Transportation,rail_freight,0,methodology,pending,,,,,
+emea,Saudi Arabia,Transportation,port_freight,0,methodology,pending,,,,,
+emea,Saudi Arabia,Transportation,inland_waterway_expenditure,0,methodology,pending,,,,,
+emea,Saudi Arabia,Transportation,construction_confidence,0,methodology,pending,,,,,
 emea,Saudi Arabia,Site Development,building_permits,30,eurostat,pending,,,,,
 emea,Saudi Arabia,Site Development,nonres_permits,20,eurostat,pending,,,,,
 emea,Saudi Arabia,Site Development,building_output,20,eurostat,pending,,,,,
@@ -1536,13 +1686,18 @@ emea,United Arab Emirates,Overall,construction_confidence,15,eurostat,pending,,,
 emea,United Arab Emirates,Overall,construction_employment,10,eurostat,pending,,,,,
 emea,United Arab Emirates,Overall,construction_costs,10,eurostat,pending,,,,,
 emea,United Arab Emirates,Overall,fixed_investment,5,eurostat_candidate,pending,,,,,
-emea,United Arab Emirates,Transportation,civil_output,25,eurostat,pending,,,,,
-emea,United Arab Emirates,Transportation,transport_pipeline,25,pending,pending,,,,,
-emea,United Arab Emirates,Transportation,rail_freight,15,eurostat,pending,,,,,
-emea,United Arab Emirates,Transportation,road_freight,10,eurostat,pending,,,,,
-emea,United Arab Emirates,Transportation,port_freight,10,eurostat,pending,,,,,
-emea,United Arab Emirates,Transportation,construction_confidence,10,eurostat,pending,,,,,
-emea,United Arab Emirates,Transportation,funding_announcements,5,pending,pending,,,,,
+emea,United Arab Emirates,Transportation,civil_output,25,methodology,pending,,,,,
+emea,United Arab Emirates,Transportation,gov_transport_investment,25,methodology,pending,,,,,
+emea,United Arab Emirates,Transportation,road_infra_expenditure,15,methodology,pending,,,,,
+emea,United Arab Emirates,Transportation,rail_infra_expenditure,15,methodology,pending,,,,,
+emea,United Arab Emirates,Transportation,transport_pipeline,10,methodology,pending,,,,,
+emea,United Arab Emirates,Transportation,motorway_network,5,methodology,pending,,,,,
+emea,United Arab Emirates,Transportation,rail_network,5,methodology,pending,,,,,
+emea,United Arab Emirates,Transportation,road_freight,0,methodology,pending,,,,,
+emea,United Arab Emirates,Transportation,rail_freight,0,methodology,pending,,,,,
+emea,United Arab Emirates,Transportation,port_freight,0,methodology,pending,,,,,
+emea,United Arab Emirates,Transportation,inland_waterway_expenditure,0,methodology,pending,,,,,
+emea,United Arab Emirates,Transportation,construction_confidence,0,methodology,pending,,,,,
 emea,United Arab Emirates,Site Development,building_permits,30,eurostat,pending,,,,,
 emea,United Arab Emirates,Site Development,nonres_permits,20,eurostat,pending,,,,,
 emea,United Arab Emirates,Site Development,building_output,20,eurostat,pending,,,,,
@@ -1587,13 +1742,18 @@ emea,Türkiye,Overall,construction_confidence,15,eurostat,pending,,,,,
 emea,Türkiye,Overall,construction_employment,10,eurostat,pending,,,,,
 emea,Türkiye,Overall,construction_costs,10,eurostat,pending,,,,,
 emea,Türkiye,Overall,fixed_investment,5,eurostat_candidate,pending,,,,,
-emea,Türkiye,Transportation,civil_output,25,eurostat,pending,,,,,
-emea,Türkiye,Transportation,transport_pipeline,25,pending,pending,,,,,
-emea,Türkiye,Transportation,rail_freight,15,eurostat,pending,,,,,
-emea,Türkiye,Transportation,road_freight,10,eurostat,pending,,,,,
-emea,Türkiye,Transportation,port_freight,10,eurostat,pending,,,,,
-emea,Türkiye,Transportation,construction_confidence,10,eurostat,pending,,,,,
-emea,Türkiye,Transportation,funding_announcements,5,pending,pending,,,,,
+emea,Türkiye,Transportation,civil_output,25,methodology,pending,,,,,
+emea,Türkiye,Transportation,gov_transport_investment,25,methodology,pending,,,,,
+emea,Türkiye,Transportation,road_infra_expenditure,15,methodology,pending,,,,,
+emea,Türkiye,Transportation,rail_infra_expenditure,15,methodology,pending,,,,,
+emea,Türkiye,Transportation,transport_pipeline,10,methodology,pending,,,,,
+emea,Türkiye,Transportation,motorway_network,5,methodology,pending,,,,,
+emea,Türkiye,Transportation,rail_network,5,methodology,pending,,,,,
+emea,Türkiye,Transportation,road_freight,0,methodology,pending,,,,,
+emea,Türkiye,Transportation,rail_freight,0,methodology,pending,,,,,
+emea,Türkiye,Transportation,port_freight,0,methodology,pending,,,,,
+emea,Türkiye,Transportation,inland_waterway_expenditure,0,methodology,pending,,,,,
+emea,Türkiye,Transportation,construction_confidence,0,methodology,pending,,,,,
 emea,Türkiye,Site Development,building_permits,30,eurostat,pending,,,,,
 emea,Türkiye,Site Development,nonres_permits,20,eurostat,pending,,,,,
 emea,Türkiye,Site Development,building_output,20,eurostat,pending,,,,,
@@ -1638,13 +1798,18 @@ emea,Israel,Overall,construction_confidence,15,eurostat,pending,,,,,
 emea,Israel,Overall,construction_employment,10,eurostat,pending,,,,,
 emea,Israel,Overall,construction_costs,10,eurostat,pending,,,,,
 emea,Israel,Overall,fixed_investment,5,eurostat_candidate,pending,,,,,
-emea,Israel,Transportation,civil_output,25,eurostat,pending,,,,,
-emea,Israel,Transportation,transport_pipeline,25,pending,pending,,,,,
-emea,Israel,Transportation,rail_freight,15,eurostat,pending,,,,,
-emea,Israel,Transportation,road_freight,10,eurostat,pending,,,,,
-emea,Israel,Transportation,port_freight,10,eurostat,pending,,,,,
-emea,Israel,Transportation,construction_confidence,10,eurostat,pending,,,,,
-emea,Israel,Transportation,funding_announcements,5,pending,pending,,,,,
+emea,Israel,Transportation,civil_output,25,methodology,pending,,,,,
+emea,Israel,Transportation,gov_transport_investment,25,methodology,pending,,,,,
+emea,Israel,Transportation,road_infra_expenditure,15,methodology,pending,,,,,
+emea,Israel,Transportation,rail_infra_expenditure,15,methodology,pending,,,,,
+emea,Israel,Transportation,transport_pipeline,10,methodology,pending,,,,,
+emea,Israel,Transportation,motorway_network,5,methodology,pending,,,,,
+emea,Israel,Transportation,rail_network,5,methodology,pending,,,,,
+emea,Israel,Transportation,road_freight,0,methodology,pending,,,,,
+emea,Israel,Transportation,rail_freight,0,methodology,pending,,,,,
+emea,Israel,Transportation,port_freight,0,methodology,pending,,,,,
+emea,Israel,Transportation,inland_waterway_expenditure,0,methodology,pending,,,,,
+emea,Israel,Transportation,construction_confidence,0,methodology,pending,,,,,
 emea,Israel,Site Development,building_permits,30,eurostat,pending,,,,,
 emea,Israel,Site Development,nonres_permits,20,eurostat,pending,,,,,
 emea,Israel,Site Development,building_output,20,eurostat,pending,,,,,
@@ -1689,13 +1854,18 @@ emea,Egypt,Overall,construction_confidence,15,eurostat,pending,,,,,
 emea,Egypt,Overall,construction_employment,10,eurostat,pending,,,,,
 emea,Egypt,Overall,construction_costs,10,eurostat,pending,,,,,
 emea,Egypt,Overall,fixed_investment,5,eurostat_candidate,pending,,,,,
-emea,Egypt,Transportation,civil_output,25,eurostat,pending,,,,,
-emea,Egypt,Transportation,transport_pipeline,25,pending,pending,,,,,
-emea,Egypt,Transportation,rail_freight,15,eurostat,pending,,,,,
-emea,Egypt,Transportation,road_freight,10,eurostat,pending,,,,,
-emea,Egypt,Transportation,port_freight,10,eurostat,pending,,,,,
-emea,Egypt,Transportation,construction_confidence,10,eurostat,pending,,,,,
-emea,Egypt,Transportation,funding_announcements,5,pending,pending,,,,,
+emea,Egypt,Transportation,civil_output,25,methodology,pending,,,,,
+emea,Egypt,Transportation,gov_transport_investment,25,methodology,pending,,,,,
+emea,Egypt,Transportation,road_infra_expenditure,15,methodology,pending,,,,,
+emea,Egypt,Transportation,rail_infra_expenditure,15,methodology,pending,,,,,
+emea,Egypt,Transportation,transport_pipeline,10,methodology,pending,,,,,
+emea,Egypt,Transportation,motorway_network,5,methodology,pending,,,,,
+emea,Egypt,Transportation,rail_network,5,methodology,pending,,,,,
+emea,Egypt,Transportation,road_freight,0,methodology,pending,,,,,
+emea,Egypt,Transportation,rail_freight,0,methodology,pending,,,,,
+emea,Egypt,Transportation,port_freight,0,methodology,pending,,,,,
+emea,Egypt,Transportation,inland_waterway_expenditure,0,methodology,pending,,,,,
+emea,Egypt,Transportation,construction_confidence,0,methodology,pending,,,,,
 emea,Egypt,Site Development,building_permits,30,eurostat,pending,,,,,
 emea,Egypt,Site Development,nonres_permits,20,eurostat,pending,,,,,
 emea,Egypt,Site Development,building_output,20,eurostat,pending,,,,,
@@ -1740,13 +1910,18 @@ emea,South Africa,Overall,construction_confidence,15,eurostat,pending,,,,,
 emea,South Africa,Overall,construction_employment,10,eurostat,pending,,,,,
 emea,South Africa,Overall,construction_costs,10,eurostat,pending,,,,,
 emea,South Africa,Overall,fixed_investment,5,eurostat_candidate,pending,,,,,
-emea,South Africa,Transportation,civil_output,25,eurostat,pending,,,,,
-emea,South Africa,Transportation,transport_pipeline,25,pending,pending,,,,,
-emea,South Africa,Transportation,rail_freight,15,eurostat,pending,,,,,
-emea,South Africa,Transportation,road_freight,10,eurostat,pending,,,,,
-emea,South Africa,Transportation,port_freight,10,eurostat,pending,,,,,
-emea,South Africa,Transportation,construction_confidence,10,eurostat,pending,,,,,
-emea,South Africa,Transportation,funding_announcements,5,pending,pending,,,,,
+emea,South Africa,Transportation,civil_output,25,methodology,pending,,,,,
+emea,South Africa,Transportation,gov_transport_investment,25,methodology,pending,,,,,
+emea,South Africa,Transportation,road_infra_expenditure,15,methodology,pending,,,,,
+emea,South Africa,Transportation,rail_infra_expenditure,15,methodology,pending,,,,,
+emea,South Africa,Transportation,transport_pipeline,10,methodology,pending,,,,,
+emea,South Africa,Transportation,motorway_network,5,methodology,pending,,,,,
+emea,South Africa,Transportation,rail_network,5,methodology,pending,,,,,
+emea,South Africa,Transportation,road_freight,0,methodology,pending,,,,,
+emea,South Africa,Transportation,rail_freight,0,methodology,pending,,,,,
+emea,South Africa,Transportation,port_freight,0,methodology,pending,,,,,
+emea,South Africa,Transportation,inland_waterway_expenditure,0,methodology,pending,,,,,
+emea,South Africa,Transportation,construction_confidence,0,methodology,pending,,,,,
 emea,South Africa,Site Development,building_permits,30,eurostat,pending,,,,,
 emea,South Africa,Site Development,nonres_permits,20,eurostat,pending,,,,,
 emea,South Africa,Site Development,building_output,20,eurostat,pending,,,,,
@@ -1791,13 +1966,18 @@ emea,Nigeria,Overall,construction_confidence,15,eurostat,pending,,,,,
 emea,Nigeria,Overall,construction_employment,10,eurostat,pending,,,,,
 emea,Nigeria,Overall,construction_costs,10,eurostat,pending,,,,,
 emea,Nigeria,Overall,fixed_investment,5,eurostat_candidate,pending,,,,,
-emea,Nigeria,Transportation,civil_output,25,eurostat,pending,,,,,
-emea,Nigeria,Transportation,transport_pipeline,25,pending,pending,,,,,
-emea,Nigeria,Transportation,rail_freight,15,eurostat,pending,,,,,
-emea,Nigeria,Transportation,road_freight,10,eurostat,pending,,,,,
-emea,Nigeria,Transportation,port_freight,10,eurostat,pending,,,,,
-emea,Nigeria,Transportation,construction_confidence,10,eurostat,pending,,,,,
-emea,Nigeria,Transportation,funding_announcements,5,pending,pending,,,,,
+emea,Nigeria,Transportation,civil_output,25,methodology,pending,,,,,
+emea,Nigeria,Transportation,gov_transport_investment,25,methodology,pending,,,,,
+emea,Nigeria,Transportation,road_infra_expenditure,15,methodology,pending,,,,,
+emea,Nigeria,Transportation,rail_infra_expenditure,15,methodology,pending,,,,,
+emea,Nigeria,Transportation,transport_pipeline,10,methodology,pending,,,,,
+emea,Nigeria,Transportation,motorway_network,5,methodology,pending,,,,,
+emea,Nigeria,Transportation,rail_network,5,methodology,pending,,,,,
+emea,Nigeria,Transportation,road_freight,0,methodology,pending,,,,,
+emea,Nigeria,Transportation,rail_freight,0,methodology,pending,,,,,
+emea,Nigeria,Transportation,port_freight,0,methodology,pending,,,,,
+emea,Nigeria,Transportation,inland_waterway_expenditure,0,methodology,pending,,,,,
+emea,Nigeria,Transportation,construction_confidence,0,methodology,pending,,,,,
 emea,Nigeria,Site Development,building_permits,30,eurostat,pending,,,,,
 emea,Nigeria,Site Development,nonres_permits,20,eurostat,pending,,,,,
 emea,Nigeria,Site Development,building_output,20,eurostat,pending,,,,,
@@ -1842,13 +2022,18 @@ emea,Algeria,Overall,construction_confidence,15,eurostat,pending,,,,,
 emea,Algeria,Overall,construction_employment,10,eurostat,pending,,,,,
 emea,Algeria,Overall,construction_costs,10,eurostat,pending,,,,,
 emea,Algeria,Overall,fixed_investment,5,eurostat_candidate,pending,,,,,
-emea,Algeria,Transportation,civil_output,25,eurostat,pending,,,,,
-emea,Algeria,Transportation,transport_pipeline,25,pending,pending,,,,,
-emea,Algeria,Transportation,rail_freight,15,eurostat,pending,,,,,
-emea,Algeria,Transportation,road_freight,10,eurostat,pending,,,,,
-emea,Algeria,Transportation,port_freight,10,eurostat,pending,,,,,
-emea,Algeria,Transportation,construction_confidence,10,eurostat,pending,,,,,
-emea,Algeria,Transportation,funding_announcements,5,pending,pending,,,,,
+emea,Algeria,Transportation,civil_output,25,methodology,pending,,,,,
+emea,Algeria,Transportation,gov_transport_investment,25,methodology,pending,,,,,
+emea,Algeria,Transportation,road_infra_expenditure,15,methodology,pending,,,,,
+emea,Algeria,Transportation,rail_infra_expenditure,15,methodology,pending,,,,,
+emea,Algeria,Transportation,transport_pipeline,10,methodology,pending,,,,,
+emea,Algeria,Transportation,motorway_network,5,methodology,pending,,,,,
+emea,Algeria,Transportation,rail_network,5,methodology,pending,,,,,
+emea,Algeria,Transportation,road_freight,0,methodology,pending,,,,,
+emea,Algeria,Transportation,rail_freight,0,methodology,pending,,,,,
+emea,Algeria,Transportation,port_freight,0,methodology,pending,,,,,
+emea,Algeria,Transportation,inland_waterway_expenditure,0,methodology,pending,,,,,
+emea,Algeria,Transportation,construction_confidence,0,methodology,pending,,,,,
 emea,Algeria,Site Development,building_permits,30,eurostat,pending,,,,,
 emea,Algeria,Site Development,nonres_permits,20,eurostat,pending,,,,,
 emea,Algeria,Site Development,building_output,20,eurostat,pending,,,,,
@@ -1893,13 +2078,18 @@ emea,Morocco,Overall,construction_confidence,15,eurostat,pending,,,,,
 emea,Morocco,Overall,construction_employment,10,eurostat,pending,,,,,
 emea,Morocco,Overall,construction_costs,10,eurostat,pending,,,,,
 emea,Morocco,Overall,fixed_investment,5,eurostat_candidate,pending,,,,,
-emea,Morocco,Transportation,civil_output,25,eurostat,pending,,,,,
-emea,Morocco,Transportation,transport_pipeline,25,pending,pending,,,,,
-emea,Morocco,Transportation,rail_freight,15,eurostat,pending,,,,,
-emea,Morocco,Transportation,road_freight,10,eurostat,pending,,,,,
-emea,Morocco,Transportation,port_freight,10,eurostat,pending,,,,,
-emea,Morocco,Transportation,construction_confidence,10,eurostat,pending,,,,,
-emea,Morocco,Transportation,funding_announcements,5,pending,pending,,,,,
+emea,Morocco,Transportation,civil_output,25,methodology,pending,,,,,
+emea,Morocco,Transportation,gov_transport_investment,25,methodology,pending,,,,,
+emea,Morocco,Transportation,road_infra_expenditure,15,methodology,pending,,,,,
+emea,Morocco,Transportation,rail_infra_expenditure,15,methodology,pending,,,,,
+emea,Morocco,Transportation,transport_pipeline,10,methodology,pending,,,,,
+emea,Morocco,Transportation,motorway_network,5,methodology,pending,,,,,
+emea,Morocco,Transportation,rail_network,5,methodology,pending,,,,,
+emea,Morocco,Transportation,road_freight,0,methodology,pending,,,,,
+emea,Morocco,Transportation,rail_freight,0,methodology,pending,,,,,
+emea,Morocco,Transportation,port_freight,0,methodology,pending,,,,,
+emea,Morocco,Transportation,inland_waterway_expenditure,0,methodology,pending,,,,,
+emea,Morocco,Transportation,construction_confidence,0,methodology,pending,,,,,
 emea,Morocco,Site Development,building_permits,30,eurostat,pending,,,,,
 emea,Morocco,Site Development,nonres_permits,20,eurostat,pending,,,,,
 emea,Morocco,Site Development,building_output,20,eurostat,pending,,,,,
@@ -1944,13 +2134,18 @@ emea,Ethiopia,Overall,construction_confidence,15,eurostat,pending,,,,,
 emea,Ethiopia,Overall,construction_employment,10,eurostat,pending,,,,,
 emea,Ethiopia,Overall,construction_costs,10,eurostat,pending,,,,,
 emea,Ethiopia,Overall,fixed_investment,5,eurostat_candidate,pending,,,,,
-emea,Ethiopia,Transportation,civil_output,25,eurostat,pending,,,,,
-emea,Ethiopia,Transportation,transport_pipeline,25,pending,pending,,,,,
-emea,Ethiopia,Transportation,rail_freight,15,eurostat,pending,,,,,
-emea,Ethiopia,Transportation,road_freight,10,eurostat,pending,,,,,
-emea,Ethiopia,Transportation,port_freight,10,eurostat,pending,,,,,
-emea,Ethiopia,Transportation,construction_confidence,10,eurostat,pending,,,,,
-emea,Ethiopia,Transportation,funding_announcements,5,pending,pending,,,,,
+emea,Ethiopia,Transportation,civil_output,25,methodology,pending,,,,,
+emea,Ethiopia,Transportation,gov_transport_investment,25,methodology,pending,,,,,
+emea,Ethiopia,Transportation,road_infra_expenditure,15,methodology,pending,,,,,
+emea,Ethiopia,Transportation,rail_infra_expenditure,15,methodology,pending,,,,,
+emea,Ethiopia,Transportation,transport_pipeline,10,methodology,pending,,,,,
+emea,Ethiopia,Transportation,motorway_network,5,methodology,pending,,,,,
+emea,Ethiopia,Transportation,rail_network,5,methodology,pending,,,,,
+emea,Ethiopia,Transportation,road_freight,0,methodology,pending,,,,,
+emea,Ethiopia,Transportation,rail_freight,0,methodology,pending,,,,,
+emea,Ethiopia,Transportation,port_freight,0,methodology,pending,,,,,
+emea,Ethiopia,Transportation,inland_waterway_expenditure,0,methodology,pending,,,,,
+emea,Ethiopia,Transportation,construction_confidence,0,methodology,pending,,,,,
 emea,Ethiopia,Site Development,building_permits,30,eurostat,pending,,,,,
 emea,Ethiopia,Site Development,nonres_permits,20,eurostat,pending,,,,,
 emea,Ethiopia,Site Development,building_output,20,eurostat,pending,,,,,
@@ -1995,13 +2190,18 @@ emea,Kenya,Overall,construction_confidence,15,eurostat,pending,,,,,
 emea,Kenya,Overall,construction_employment,10,eurostat,pending,,,,,
 emea,Kenya,Overall,construction_costs,10,eurostat,pending,,,,,
 emea,Kenya,Overall,fixed_investment,5,eurostat_candidate,pending,,,,,
-emea,Kenya,Transportation,civil_output,25,eurostat,pending,,,,,
-emea,Kenya,Transportation,transport_pipeline,25,pending,pending,,,,,
-emea,Kenya,Transportation,rail_freight,15,eurostat,pending,,,,,
-emea,Kenya,Transportation,road_freight,10,eurostat,pending,,,,,
-emea,Kenya,Transportation,port_freight,10,eurostat,pending,,,,,
-emea,Kenya,Transportation,construction_confidence,10,eurostat,pending,,,,,
-emea,Kenya,Transportation,funding_announcements,5,pending,pending,,,,,
+emea,Kenya,Transportation,civil_output,25,methodology,pending,,,,,
+emea,Kenya,Transportation,gov_transport_investment,25,methodology,pending,,,,,
+emea,Kenya,Transportation,road_infra_expenditure,15,methodology,pending,,,,,
+emea,Kenya,Transportation,rail_infra_expenditure,15,methodology,pending,,,,,
+emea,Kenya,Transportation,transport_pipeline,10,methodology,pending,,,,,
+emea,Kenya,Transportation,motorway_network,5,methodology,pending,,,,,
+emea,Kenya,Transportation,rail_network,5,methodology,pending,,,,,
+emea,Kenya,Transportation,road_freight,0,methodology,pending,,,,,
+emea,Kenya,Transportation,rail_freight,0,methodology,pending,,,,,
+emea,Kenya,Transportation,port_freight,0,methodology,pending,,,,,
+emea,Kenya,Transportation,inland_waterway_expenditure,0,methodology,pending,,,,,
+emea,Kenya,Transportation,construction_confidence,0,methodology,pending,,,,,
 emea,Kenya,Site Development,building_permits,30,eurostat,pending,,,,,
 emea,Kenya,Site Development,nonres_permits,20,eurostat,pending,,,,,
 emea,Kenya,Site Development,building_output,20,eurostat,pending,,,,,
@@ -2046,13 +2246,18 @@ emea,Ghana,Overall,construction_confidence,15,eurostat,pending,,,,,
 emea,Ghana,Overall,construction_employment,10,eurostat,pending,,,,,
 emea,Ghana,Overall,construction_costs,10,eurostat,pending,,,,,
 emea,Ghana,Overall,fixed_investment,5,eurostat_candidate,pending,,,,,
-emea,Ghana,Transportation,civil_output,25,eurostat,pending,,,,,
-emea,Ghana,Transportation,transport_pipeline,25,pending,pending,,,,,
-emea,Ghana,Transportation,rail_freight,15,eurostat,pending,,,,,
-emea,Ghana,Transportation,road_freight,10,eurostat,pending,,,,,
-emea,Ghana,Transportation,port_freight,10,eurostat,pending,,,,,
-emea,Ghana,Transportation,construction_confidence,10,eurostat,pending,,,,,
-emea,Ghana,Transportation,funding_announcements,5,pending,pending,,,,,
+emea,Ghana,Transportation,civil_output,25,methodology,pending,,,,,
+emea,Ghana,Transportation,gov_transport_investment,25,methodology,pending,,,,,
+emea,Ghana,Transportation,road_infra_expenditure,15,methodology,pending,,,,,
+emea,Ghana,Transportation,rail_infra_expenditure,15,methodology,pending,,,,,
+emea,Ghana,Transportation,transport_pipeline,10,methodology,pending,,,,,
+emea,Ghana,Transportation,motorway_network,5,methodology,pending,,,,,
+emea,Ghana,Transportation,rail_network,5,methodology,pending,,,,,
+emea,Ghana,Transportation,road_freight,0,methodology,pending,,,,,
+emea,Ghana,Transportation,rail_freight,0,methodology,pending,,,,,
+emea,Ghana,Transportation,port_freight,0,methodology,pending,,,,,
+emea,Ghana,Transportation,inland_waterway_expenditure,0,methodology,pending,,,,,
+emea,Ghana,Transportation,construction_confidence,0,methodology,pending,,,,,
 emea,Ghana,Site Development,building_permits,30,eurostat,pending,,,,,
 emea,Ghana,Site Development,nonres_permits,20,eurostat,pending,,,,,
 emea,Ghana,Site Development,building_output,20,eurostat,pending,,,,,
@@ -2097,13 +2302,18 @@ emea,Tanzania,Overall,construction_confidence,15,eurostat,pending,,,,,
 emea,Tanzania,Overall,construction_employment,10,eurostat,pending,,,,,
 emea,Tanzania,Overall,construction_costs,10,eurostat,pending,,,,,
 emea,Tanzania,Overall,fixed_investment,5,eurostat_candidate,pending,,,,,
-emea,Tanzania,Transportation,civil_output,25,eurostat,pending,,,,,
-emea,Tanzania,Transportation,transport_pipeline,25,pending,pending,,,,,
-emea,Tanzania,Transportation,rail_freight,15,eurostat,pending,,,,,
-emea,Tanzania,Transportation,road_freight,10,eurostat,pending,,,,,
-emea,Tanzania,Transportation,port_freight,10,eurostat,pending,,,,,
-emea,Tanzania,Transportation,construction_confidence,10,eurostat,pending,,,,,
-emea,Tanzania,Transportation,funding_announcements,5,pending,pending,,,,,
+emea,Tanzania,Transportation,civil_output,25,methodology,pending,,,,,
+emea,Tanzania,Transportation,gov_transport_investment,25,methodology,pending,,,,,
+emea,Tanzania,Transportation,road_infra_expenditure,15,methodology,pending,,,,,
+emea,Tanzania,Transportation,rail_infra_expenditure,15,methodology,pending,,,,,
+emea,Tanzania,Transportation,transport_pipeline,10,methodology,pending,,,,,
+emea,Tanzania,Transportation,motorway_network,5,methodology,pending,,,,,
+emea,Tanzania,Transportation,rail_network,5,methodology,pending,,,,,
+emea,Tanzania,Transportation,road_freight,0,methodology,pending,,,,,
+emea,Tanzania,Transportation,rail_freight,0,methodology,pending,,,,,
+emea,Tanzania,Transportation,port_freight,0,methodology,pending,,,,,
+emea,Tanzania,Transportation,inland_waterway_expenditure,0,methodology,pending,,,,,
+emea,Tanzania,Transportation,construction_confidence,0,methodology,pending,,,,,
 emea,Tanzania,Site Development,building_permits,30,eurostat,pending,,,,,
 emea,Tanzania,Site Development,nonres_permits,20,eurostat,pending,,,,,
 emea,Tanzania,Site Development,building_output,20,eurostat,pending,,,,,
@@ -2148,13 +2358,18 @@ emea,Côte d’Ivoire,Overall,construction_confidence,15,eurostat,pending,,,,,
 emea,Côte d’Ivoire,Overall,construction_employment,10,eurostat,pending,,,,,
 emea,Côte d’Ivoire,Overall,construction_costs,10,eurostat,pending,,,,,
 emea,Côte d’Ivoire,Overall,fixed_investment,5,eurostat_candidate,pending,,,,,
-emea,Côte d’Ivoire,Transportation,civil_output,25,eurostat,pending,,,,,
-emea,Côte d’Ivoire,Transportation,transport_pipeline,25,pending,pending,,,,,
-emea,Côte d’Ivoire,Transportation,rail_freight,15,eurostat,pending,,,,,
-emea,Côte d’Ivoire,Transportation,road_freight,10,eurostat,pending,,,,,
-emea,Côte d’Ivoire,Transportation,port_freight,10,eurostat,pending,,,,,
-emea,Côte d’Ivoire,Transportation,construction_confidence,10,eurostat,pending,,,,,
-emea,Côte d’Ivoire,Transportation,funding_announcements,5,pending,pending,,,,,
+emea,Côte d’Ivoire,Transportation,civil_output,25,methodology,pending,,,,,
+emea,Côte d’Ivoire,Transportation,gov_transport_investment,25,methodology,pending,,,,,
+emea,Côte d’Ivoire,Transportation,road_infra_expenditure,15,methodology,pending,,,,,
+emea,Côte d’Ivoire,Transportation,rail_infra_expenditure,15,methodology,pending,,,,,
+emea,Côte d’Ivoire,Transportation,transport_pipeline,10,methodology,pending,,,,,
+emea,Côte d’Ivoire,Transportation,motorway_network,5,methodology,pending,,,,,
+emea,Côte d’Ivoire,Transportation,rail_network,5,methodology,pending,,,,,
+emea,Côte d’Ivoire,Transportation,road_freight,0,methodology,pending,,,,,
+emea,Côte d’Ivoire,Transportation,rail_freight,0,methodology,pending,,,,,
+emea,Côte d’Ivoire,Transportation,port_freight,0,methodology,pending,,,,,
+emea,Côte d’Ivoire,Transportation,inland_waterway_expenditure,0,methodology,pending,,,,,
+emea,Côte d’Ivoire,Transportation,construction_confidence,0,methodology,pending,,,,,
 emea,Côte d’Ivoire,Site Development,building_permits,30,eurostat,pending,,,,,
 emea,Côte d’Ivoire,Site Development,nonres_permits,20,eurostat,pending,,,,,
 emea,Côte d’Ivoire,Site Development,building_output,20,eurostat,pending,,,,,
@@ -2199,13 +2414,18 @@ emea,Angola,Overall,construction_confidence,15,eurostat,pending,,,,,
 emea,Angola,Overall,construction_employment,10,eurostat,pending,,,,,
 emea,Angola,Overall,construction_costs,10,eurostat,pending,,,,,
 emea,Angola,Overall,fixed_investment,5,eurostat_candidate,pending,,,,,
-emea,Angola,Transportation,civil_output,25,eurostat,pending,,,,,
-emea,Angola,Transportation,transport_pipeline,25,pending,pending,,,,,
-emea,Angola,Transportation,rail_freight,15,eurostat,pending,,,,,
-emea,Angola,Transportation,road_freight,10,eurostat,pending,,,,,
-emea,Angola,Transportation,port_freight,10,eurostat,pending,,,,,
-emea,Angola,Transportation,construction_confidence,10,eurostat,pending,,,,,
-emea,Angola,Transportation,funding_announcements,5,pending,pending,,,,,
+emea,Angola,Transportation,civil_output,25,methodology,pending,,,,,
+emea,Angola,Transportation,gov_transport_investment,25,methodology,pending,,,,,
+emea,Angola,Transportation,road_infra_expenditure,15,methodology,pending,,,,,
+emea,Angola,Transportation,rail_infra_expenditure,15,methodology,pending,,,,,
+emea,Angola,Transportation,transport_pipeline,10,methodology,pending,,,,,
+emea,Angola,Transportation,motorway_network,5,methodology,pending,,,,,
+emea,Angola,Transportation,rail_network,5,methodology,pending,,,,,
+emea,Angola,Transportation,road_freight,0,methodology,pending,,,,,
+emea,Angola,Transportation,rail_freight,0,methodology,pending,,,,,
+emea,Angola,Transportation,port_freight,0,methodology,pending,,,,,
+emea,Angola,Transportation,inland_waterway_expenditure,0,methodology,pending,,,,,
+emea,Angola,Transportation,construction_confidence,0,methodology,pending,,,,,
 emea,Angola,Site Development,building_permits,30,eurostat,pending,,,,,
 emea,Angola,Site Development,nonres_permits,20,eurostat,pending,,,,,
 emea,Angola,Site Development,building_output,20,eurostat,pending,,,,,
@@ -2250,13 +2470,18 @@ emea,Kazakhstan,Overall,construction_confidence,15,eurostat,pending,,,,,
 emea,Kazakhstan,Overall,construction_employment,10,eurostat,pending,,,,,
 emea,Kazakhstan,Overall,construction_costs,10,eurostat,pending,,,,,
 emea,Kazakhstan,Overall,fixed_investment,5,eurostat_candidate,pending,,,,,
-emea,Kazakhstan,Transportation,civil_output,25,eurostat,pending,,,,,
-emea,Kazakhstan,Transportation,transport_pipeline,25,pending,pending,,,,,
-emea,Kazakhstan,Transportation,rail_freight,15,eurostat,pending,,,,,
-emea,Kazakhstan,Transportation,road_freight,10,eurostat,pending,,,,,
-emea,Kazakhstan,Transportation,port_freight,10,eurostat,pending,,,,,
-emea,Kazakhstan,Transportation,construction_confidence,10,eurostat,pending,,,,,
-emea,Kazakhstan,Transportation,funding_announcements,5,pending,pending,,,,,
+emea,Kazakhstan,Transportation,civil_output,25,methodology,pending,,,,,
+emea,Kazakhstan,Transportation,gov_transport_investment,25,methodology,pending,,,,,
+emea,Kazakhstan,Transportation,road_infra_expenditure,15,methodology,pending,,,,,
+emea,Kazakhstan,Transportation,rail_infra_expenditure,15,methodology,pending,,,,,
+emea,Kazakhstan,Transportation,transport_pipeline,10,methodology,pending,,,,,
+emea,Kazakhstan,Transportation,motorway_network,5,methodology,pending,,,,,
+emea,Kazakhstan,Transportation,rail_network,5,methodology,pending,,,,,
+emea,Kazakhstan,Transportation,road_freight,0,methodology,pending,,,,,
+emea,Kazakhstan,Transportation,rail_freight,0,methodology,pending,,,,,
+emea,Kazakhstan,Transportation,port_freight,0,methodology,pending,,,,,
+emea,Kazakhstan,Transportation,inland_waterway_expenditure,0,methodology,pending,,,,,
+emea,Kazakhstan,Transportation,construction_confidence,0,methodology,pending,,,,,
 emea,Kazakhstan,Site Development,building_permits,30,eurostat,pending,,,,,
 emea,Kazakhstan,Site Development,nonres_permits,20,eurostat,pending,,,,,
 emea,Kazakhstan,Site Development,building_output,20,eurostat,pending,,,,,
@@ -2301,13 +2526,18 @@ emea,Qatar,Overall,construction_confidence,15,eurostat,pending,,,,,
 emea,Qatar,Overall,construction_employment,10,eurostat,pending,,,,,
 emea,Qatar,Overall,construction_costs,10,eurostat,pending,,,,,
 emea,Qatar,Overall,fixed_investment,5,eurostat_candidate,pending,,,,,
-emea,Qatar,Transportation,civil_output,25,eurostat,pending,,,,,
-emea,Qatar,Transportation,transport_pipeline,25,pending,pending,,,,,
-emea,Qatar,Transportation,rail_freight,15,eurostat,pending,,,,,
-emea,Qatar,Transportation,road_freight,10,eurostat,pending,,,,,
-emea,Qatar,Transportation,port_freight,10,eurostat,pending,,,,,
-emea,Qatar,Transportation,construction_confidence,10,eurostat,pending,,,,,
-emea,Qatar,Transportation,funding_announcements,5,pending,pending,,,,,
+emea,Qatar,Transportation,civil_output,25,methodology,pending,,,,,
+emea,Qatar,Transportation,gov_transport_investment,25,methodology,pending,,,,,
+emea,Qatar,Transportation,road_infra_expenditure,15,methodology,pending,,,,,
+emea,Qatar,Transportation,rail_infra_expenditure,15,methodology,pending,,,,,
+emea,Qatar,Transportation,transport_pipeline,10,methodology,pending,,,,,
+emea,Qatar,Transportation,motorway_network,5,methodology,pending,,,,,
+emea,Qatar,Transportation,rail_network,5,methodology,pending,,,,,
+emea,Qatar,Transportation,road_freight,0,methodology,pending,,,,,
+emea,Qatar,Transportation,rail_freight,0,methodology,pending,,,,,
+emea,Qatar,Transportation,port_freight,0,methodology,pending,,,,,
+emea,Qatar,Transportation,inland_waterway_expenditure,0,methodology,pending,,,,,
+emea,Qatar,Transportation,construction_confidence,0,methodology,pending,,,,,
 emea,Qatar,Site Development,building_permits,30,eurostat,pending,,,,,
 emea,Qatar,Site Development,nonres_permits,20,eurostat,pending,,,,,
 emea,Qatar,Site Development,building_output,20,eurostat,pending,,,,,
@@ -2352,13 +2582,18 @@ emea,Kuwait,Overall,construction_confidence,15,eurostat,pending,,,,,
 emea,Kuwait,Overall,construction_employment,10,eurostat,pending,,,,,
 emea,Kuwait,Overall,construction_costs,10,eurostat,pending,,,,,
 emea,Kuwait,Overall,fixed_investment,5,eurostat_candidate,pending,,,,,
-emea,Kuwait,Transportation,civil_output,25,eurostat,pending,,,,,
-emea,Kuwait,Transportation,transport_pipeline,25,pending,pending,,,,,
-emea,Kuwait,Transportation,rail_freight,15,eurostat,pending,,,,,
-emea,Kuwait,Transportation,road_freight,10,eurostat,pending,,,,,
-emea,Kuwait,Transportation,port_freight,10,eurostat,pending,,,,,
-emea,Kuwait,Transportation,construction_confidence,10,eurostat,pending,,,,,
-emea,Kuwait,Transportation,funding_announcements,5,pending,pending,,,,,
+emea,Kuwait,Transportation,civil_output,25,methodology,pending,,,,,
+emea,Kuwait,Transportation,gov_transport_investment,25,methodology,pending,,,,,
+emea,Kuwait,Transportation,road_infra_expenditure,15,methodology,pending,,,,,
+emea,Kuwait,Transportation,rail_infra_expenditure,15,methodology,pending,,,,,
+emea,Kuwait,Transportation,transport_pipeline,10,methodology,pending,,,,,
+emea,Kuwait,Transportation,motorway_network,5,methodology,pending,,,,,
+emea,Kuwait,Transportation,rail_network,5,methodology,pending,,,,,
+emea,Kuwait,Transportation,road_freight,0,methodology,pending,,,,,
+emea,Kuwait,Transportation,rail_freight,0,methodology,pending,,,,,
+emea,Kuwait,Transportation,port_freight,0,methodology,pending,,,,,
+emea,Kuwait,Transportation,inland_waterway_expenditure,0,methodology,pending,,,,,
+emea,Kuwait,Transportation,construction_confidence,0,methodology,pending,,,,,
 emea,Kuwait,Site Development,building_permits,30,eurostat,pending,,,,,
 emea,Kuwait,Site Development,nonres_permits,20,eurostat,pending,,,,,
 emea,Kuwait,Site Development,building_output,20,eurostat,pending,,,,,
@@ -2403,13 +2638,18 @@ emea,Oman,Overall,construction_confidence,15,eurostat,pending,,,,,
 emea,Oman,Overall,construction_employment,10,eurostat,pending,,,,,
 emea,Oman,Overall,construction_costs,10,eurostat,pending,,,,,
 emea,Oman,Overall,fixed_investment,5,eurostat_candidate,pending,,,,,
-emea,Oman,Transportation,civil_output,25,eurostat,pending,,,,,
-emea,Oman,Transportation,transport_pipeline,25,pending,pending,,,,,
-emea,Oman,Transportation,rail_freight,15,eurostat,pending,,,,,
-emea,Oman,Transportation,road_freight,10,eurostat,pending,,,,,
-emea,Oman,Transportation,port_freight,10,eurostat,pending,,,,,
-emea,Oman,Transportation,construction_confidence,10,eurostat,pending,,,,,
-emea,Oman,Transportation,funding_announcements,5,pending,pending,,,,,
+emea,Oman,Transportation,civil_output,25,methodology,pending,,,,,
+emea,Oman,Transportation,gov_transport_investment,25,methodology,pending,,,,,
+emea,Oman,Transportation,road_infra_expenditure,15,methodology,pending,,,,,
+emea,Oman,Transportation,rail_infra_expenditure,15,methodology,pending,,,,,
+emea,Oman,Transportation,transport_pipeline,10,methodology,pending,,,,,
+emea,Oman,Transportation,motorway_network,5,methodology,pending,,,,,
+emea,Oman,Transportation,rail_network,5,methodology,pending,,,,,
+emea,Oman,Transportation,road_freight,0,methodology,pending,,,,,
+emea,Oman,Transportation,rail_freight,0,methodology,pending,,,,,
+emea,Oman,Transportation,port_freight,0,methodology,pending,,,,,
+emea,Oman,Transportation,inland_waterway_expenditure,0,methodology,pending,,,,,
+emea,Oman,Transportation,construction_confidence,0,methodology,pending,,,,,
 emea,Oman,Site Development,building_permits,30,eurostat,pending,,,,,
 emea,Oman,Site Development,nonres_permits,20,eurostat,pending,,,,,
 emea,Oman,Site Development,building_output,20,eurostat,pending,,,,,
@@ -2454,13 +2694,18 @@ emea,Bahrain,Overall,construction_confidence,15,eurostat,pending,,,,,
 emea,Bahrain,Overall,construction_employment,10,eurostat,pending,,,,,
 emea,Bahrain,Overall,construction_costs,10,eurostat,pending,,,,,
 emea,Bahrain,Overall,fixed_investment,5,eurostat_candidate,pending,,,,,
-emea,Bahrain,Transportation,civil_output,25,eurostat,pending,,,,,
-emea,Bahrain,Transportation,transport_pipeline,25,pending,pending,,,,,
-emea,Bahrain,Transportation,rail_freight,15,eurostat,pending,,,,,
-emea,Bahrain,Transportation,road_freight,10,eurostat,pending,,,,,
-emea,Bahrain,Transportation,port_freight,10,eurostat,pending,,,,,
-emea,Bahrain,Transportation,construction_confidence,10,eurostat,pending,,,,,
-emea,Bahrain,Transportation,funding_announcements,5,pending,pending,,,,,
+emea,Bahrain,Transportation,civil_output,25,methodology,pending,,,,,
+emea,Bahrain,Transportation,gov_transport_investment,25,methodology,pending,,,,,
+emea,Bahrain,Transportation,road_infra_expenditure,15,methodology,pending,,,,,
+emea,Bahrain,Transportation,rail_infra_expenditure,15,methodology,pending,,,,,
+emea,Bahrain,Transportation,transport_pipeline,10,methodology,pending,,,,,
+emea,Bahrain,Transportation,motorway_network,5,methodology,pending,,,,,
+emea,Bahrain,Transportation,rail_network,5,methodology,pending,,,,,
+emea,Bahrain,Transportation,road_freight,0,methodology,pending,,,,,
+emea,Bahrain,Transportation,rail_freight,0,methodology,pending,,,,,
+emea,Bahrain,Transportation,port_freight,0,methodology,pending,,,,,
+emea,Bahrain,Transportation,inland_waterway_expenditure,0,methodology,pending,,,,,
+emea,Bahrain,Transportation,construction_confidence,0,methodology,pending,,,,,
 emea,Bahrain,Site Development,building_permits,30,eurostat,pending,,,,,
 emea,Bahrain,Site Development,nonres_permits,20,eurostat,pending,,,,,
 emea,Bahrain,Site Development,building_output,20,eurostat,pending,,,,,
@@ -2505,13 +2750,18 @@ emea,Jordan,Overall,construction_confidence,15,eurostat,pending,,,,,
 emea,Jordan,Overall,construction_employment,10,eurostat,pending,,,,,
 emea,Jordan,Overall,construction_costs,10,eurostat,pending,,,,,
 emea,Jordan,Overall,fixed_investment,5,eurostat_candidate,pending,,,,,
-emea,Jordan,Transportation,civil_output,25,eurostat,pending,,,,,
-emea,Jordan,Transportation,transport_pipeline,25,pending,pending,,,,,
-emea,Jordan,Transportation,rail_freight,15,eurostat,pending,,,,,
-emea,Jordan,Transportation,road_freight,10,eurostat,pending,,,,,
-emea,Jordan,Transportation,port_freight,10,eurostat,pending,,,,,
-emea,Jordan,Transportation,construction_confidence,10,eurostat,pending,,,,,
-emea,Jordan,Transportation,funding_announcements,5,pending,pending,,,,,
+emea,Jordan,Transportation,civil_output,25,methodology,pending,,,,,
+emea,Jordan,Transportation,gov_transport_investment,25,methodology,pending,,,,,
+emea,Jordan,Transportation,road_infra_expenditure,15,methodology,pending,,,,,
+emea,Jordan,Transportation,rail_infra_expenditure,15,methodology,pending,,,,,
+emea,Jordan,Transportation,transport_pipeline,10,methodology,pending,,,,,
+emea,Jordan,Transportation,motorway_network,5,methodology,pending,,,,,
+emea,Jordan,Transportation,rail_network,5,methodology,pending,,,,,
+emea,Jordan,Transportation,road_freight,0,methodology,pending,,,,,
+emea,Jordan,Transportation,rail_freight,0,methodology,pending,,,,,
+emea,Jordan,Transportation,port_freight,0,methodology,pending,,,,,
+emea,Jordan,Transportation,inland_waterway_expenditure,0,methodology,pending,,,,,
+emea,Jordan,Transportation,construction_confidence,0,methodology,pending,,,,,
 emea,Jordan,Site Development,building_permits,30,eurostat,pending,,,,,
 emea,Jordan,Site Development,nonres_permits,20,eurostat,pending,,,,,
 emea,Jordan,Site Development,building_output,20,eurostat,pending,,,,,
@@ -2556,13 +2806,18 @@ emea,Tunisia,Overall,construction_confidence,15,eurostat,pending,,,,,
 emea,Tunisia,Overall,construction_employment,10,eurostat,pending,,,,,
 emea,Tunisia,Overall,construction_costs,10,eurostat,pending,,,,,
 emea,Tunisia,Overall,fixed_investment,5,eurostat_candidate,pending,,,,,
-emea,Tunisia,Transportation,civil_output,25,eurostat,pending,,,,,
-emea,Tunisia,Transportation,transport_pipeline,25,pending,pending,,,,,
-emea,Tunisia,Transportation,rail_freight,15,eurostat,pending,,,,,
-emea,Tunisia,Transportation,road_freight,10,eurostat,pending,,,,,
-emea,Tunisia,Transportation,port_freight,10,eurostat,pending,,,,,
-emea,Tunisia,Transportation,construction_confidence,10,eurostat,pending,,,,,
-emea,Tunisia,Transportation,funding_announcements,5,pending,pending,,,,,
+emea,Tunisia,Transportation,civil_output,25,methodology,pending,,,,,
+emea,Tunisia,Transportation,gov_transport_investment,25,methodology,pending,,,,,
+emea,Tunisia,Transportation,road_infra_expenditure,15,methodology,pending,,,,,
+emea,Tunisia,Transportation,rail_infra_expenditure,15,methodology,pending,,,,,
+emea,Tunisia,Transportation,transport_pipeline,10,methodology,pending,,,,,
+emea,Tunisia,Transportation,motorway_network,5,methodology,pending,,,,,
+emea,Tunisia,Transportation,rail_network,5,methodology,pending,,,,,
+emea,Tunisia,Transportation,road_freight,0,methodology,pending,,,,,
+emea,Tunisia,Transportation,rail_freight,0,methodology,pending,,,,,
+emea,Tunisia,Transportation,port_freight,0,methodology,pending,,,,,
+emea,Tunisia,Transportation,inland_waterway_expenditure,0,methodology,pending,,,,,
+emea,Tunisia,Transportation,construction_confidence,0,methodology,pending,,,,,
 emea,Tunisia,Site Development,building_permits,30,eurostat,pending,,,,,
 emea,Tunisia,Site Development,nonres_permits,20,eurostat,pending,,,,,
 emea,Tunisia,Site Development,building_output,20,eurostat,pending,,,,,

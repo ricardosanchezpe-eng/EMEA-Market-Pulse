@@ -1,9 +1,9 @@
 {
-  "verifiedPassRows": 987,
-  "appliedPassRows": 987,
+  "verifiedPassRows": 1134,
+  "appliedPassRows": 1134,
   "unrepresented": [],
   "mismatches": [],
   "technical": [],
-  "visibleMethodologyKeys": 46,
-  "weightedContractKeys": 44
+  "visibleMethodologyKeys": 51,
+  "weightedContractKeys": 49
 }
