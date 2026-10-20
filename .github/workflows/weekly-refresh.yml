@@ -4,27 +4,22 @@ on:
   schedule:
     - cron: '30 5 * * 1'
     - cron: '30 6 * * 1'
-permissions:
-  contents: write
-concurrency:
-  group: market-data-refresh
-  cancel-in-progress: true
+permissions: {contents: write}
+concurrency: {group: market-data-refresh, cancel-in-progress: true}
 jobs:
   refresh:
     runs-on: ubuntu-latest
     timeout-minutes: 35
     steps:
       - uses: actions/checkout@v4
-      - name: Europe/Madrid 07:30 gate
-        id: gate
+      - id: gate
+        name: Europe/Madrid 07:30 gate
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then echo "run=true" >> "$GITHUB_OUTPUT"; exit 0; fi
-          H=$(TZ=Europe/Madrid date +%H:%M)
-          if [ "$H" = "07:30" ]; then echo "run=true" >> "$GITHUB_OUTPUT"; else echo "run=false" >> "$GITHUB_OUTPUT"; fi
+          H=$(TZ=Europe/Madrid date +%H:%M); if [ "$H" = "07:30" ]; then echo "run=true" >> "$GITHUB_OUTPUT"; else echo "run=false" >> "$GITHUB_OUTPUT"; fi
       - uses: actions/setup-python@v5
         if: steps.gate.outputs.run == 'true'
-        with:
-          python-version: '3.11'
+        with: {python-version: '3.11'}
       - name: Validate code and source configuration
         if: steps.gate.outputs.run == 'true'
         run: |
@@ -34,8 +29,7 @@ jobs:
           python scripts/ensure_country_universe.py
       - name: Collect and verify every configured source-country combination
         if: steps.gate.outputs.run == 'true'
-        env:
-          VERIFICATION_STRICT: '0'
+        env: {VERIFICATION_STRICT: '1'}
         run: python scripts/verify_all_country_sources.py
       - name: Apply every verified PASS observation to the live dataset
         if: steps.gate.outputs.run == 'true'
@@ -43,19 +37,24 @@ jobs:
       - name: Build complete coverage audit
         if: steps.gate.outputs.run == 'true'
         run: python scripts/audit_coverage.py
-      - name: Validate production parity and JSON
+      - name: Verify production parity
         if: steps.gate.outputs.run == 'true'
         run: |
           python -m json.tool public/data/market-pulse.json >/dev/null
-          python -m json.tool public/data/verified-source-parity.json >/dev/null
           python - <<'PY'
           import json
           p=json.load(open('public/data/verified-source-parity.json'))
-          assert p['verifiedPassRows']==p['appliedPassRows']
-          assert not p['unrepresented'] and not p['mismatches'] and not p['technical']
+          assert p['verifiedPassRows']==p['appliedPassRows'],p
+          assert not p.get('unrepresented'),p.get('unrepresented')
+          assert not p.get('mismatches'),p.get('mismatches')
+          assert not p.get('technical'),p.get('technical')
           d=json.load(open('public/data/market-pulse.json'))
           assert len(d['europe'])==29 and len(d['emea'])==22
-          print('PRODUCTION_PARITY_OK',p['appliedPassRows'])
+          f=next(c for c in d['europe'] if c['country']=='France')
+          required=['gov_transport_investment','road_infra_expenditure','rail_infra_expenditure','motorway_network','rail_network']
+          missing=[k for k in required if k not in f.get('indicators',{}) or f['indicators'][k].get('raw') is None]
+          assert not missing,('France Transportation not materialized',missing)
+          print('PRODUCTION_PARITY_OK',p['appliedPassRows'],'France Transportation populated')
           PY
       - name: Commit refreshed verified data
         if: steps.gate.outputs.run == 'true'
@@ -63,12 +62,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add public/data/
-          if git diff --cached --quiet; then echo "No verified data changes"; exit 0; fi
-          git commit -m "Weekly verified market data refresh"
+          git diff --cached --quiet || git commit -m "Weekly verified market data refresh"
           git push
-      - name: Upload verification and coverage artifacts
+      - uses: actions/upload-artifact@v4
         if: always() && steps.gate.outputs.run == 'true'
-        uses: actions/upload-artifact@v4
         with:
           name: verified-market-data-audit
           path: |
@@ -79,4 +76,3 @@ jobs:
             public/data/coverage-summary.json
             public/data/coverage-audit.json
           if-no-files-found: error
-          retention-days: 30
