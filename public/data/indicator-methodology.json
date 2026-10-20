@@ -51,38 +51,38 @@
     {
       "name": "Construction employment",
       "key": "construction_employment",
-      "source": "Official project/statistical source",
-      "url": "https://ec.europa.eu/eurostat/",
+      "source": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
       "weight": 10,
-      "frequency": "Source-defined",
+      "frequency": "Monthly / quarterly fallback",
       "role": "Now",
-      "pipelineStatus": "pending",
+      "pipelineStatus": "live",
       "treatment": "Explicit source contract → comparison → normalized 0–100 → weighted contribution",
-      "displaySourceUrl": "https://ec.europa.eu/eurostat/"
+      "displaySourceUrl": "https://ec.europa.eu/eurostat/databrowser/"
     },
     {
       "name": "Construction prices & costs",
       "key": "construction_costs",
-      "source": "Official project/statistical source",
-      "url": "https://ec.europa.eu/eurostat/",
+      "source": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
       "weight": 10,
-      "frequency": "Source-defined",
+      "frequency": "Monthly / quarterly fallback",
       "role": "Context",
-      "pipelineStatus": "pending",
+      "pipelineStatus": "live",
       "treatment": "Explicit source contract → comparison → normalized 0–100 → weighted contribution",
-      "displaySourceUrl": "https://ec.europa.eu/eurostat/"
+      "displaySourceUrl": "https://ec.europa.eu/eurostat/databrowser/"
     },
     {
       "name": "Fixed investment",
       "key": "fixed_investment",
-      "source": "Official project/statistical source",
-      "url": "https://ec.europa.eu/eurostat/",
+      "source": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
       "weight": 5,
-      "frequency": "Source-defined",
+      "frequency": "Annual",
       "role": "Now",
-      "pipelineStatus": "pending",
+      "pipelineStatus": "candidate",
       "treatment": "Explicit source contract → comparison → normalized 0–100 → weighted contribution",
-      "displaySourceUrl": "https://ec.europa.eu/eurostat/"
+      "displaySourceUrl": "https://ec.europa.eu/eurostat/databrowser/"
     }
   ],
   "Transportation": [
@@ -187,14 +187,14 @@
     {
       "name": "Non-residential permits",
       "key": "nonres_permits",
-      "source": "Official project/statistical source",
-      "url": "https://ec.europa.eu/eurostat/",
+      "source": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
       "weight": 20,
-      "frequency": "Source-defined",
+      "frequency": "Monthly / quarterly fallback",
       "role": "Now",
-      "pipelineStatus": "pending",
+      "pipelineStatus": "live",
       "treatment": "Explicit source contract → comparison → normalized 0–100 → weighted contribution",
-      "displaySourceUrl": "https://ec.europa.eu/eurostat/"
+      "displaySourceUrl": "https://ec.europa.eu/eurostat/databrowser/"
     },
     {
       "name": "Building construction output",
@@ -223,14 +223,14 @@
     {
       "name": "Construction employment",
       "key": "construction_employment",
-      "source": "Official project/statistical source",
-      "url": "https://ec.europa.eu/eurostat/",
+      "source": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
       "weight": 10,
-      "frequency": "Source-defined",
+      "frequency": "Monthly / quarterly fallback",
       "role": "Now",
-      "pipelineStatus": "pending",
+      "pipelineStatus": "live",
       "treatment": "Explicit source contract → comparison → normalized 0–100 → weighted contribution",
-      "displaySourceUrl": "https://ec.europa.eu/eurostat/"
+      "displaySourceUrl": "https://ec.europa.eu/eurostat/databrowser/"
     },
     {
       "name": "Financing & property conditions",

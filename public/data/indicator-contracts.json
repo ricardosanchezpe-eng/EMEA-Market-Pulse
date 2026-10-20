@@ -32,21 +32,21 @@
       "key": "construction_employment",
       "label": "Construction employment",
       "weight": 10,
-      "adapter": "pending",
+      "adapter": "eurostat",
       "required": false
     },
     {
       "key": "construction_costs",
       "label": "Construction prices & costs",
       "weight": 10,
-      "adapter": "pending",
+      "adapter": "eurostat",
       "required": false
     },
     {
       "key": "fixed_investment",
       "label": "Fixed investment",
       "weight": 5,
-      "adapter": "pending",
+      "adapter": "eurostat_candidate",
       "required": false
     }
   ],
@@ -113,7 +113,7 @@
       "key": "nonres_permits",
       "label": "Non-residential permits",
       "weight": 20,
-      "adapter": "pending",
+      "adapter": "eurostat",
       "required": false
     },
     {
@@ -134,7 +134,7 @@
       "key": "construction_employment",
       "label": "Construction employment",
       "weight": 10,
-      "adapter": "pending",
+      "adapter": "eurostat",
       "required": false
     },
     {
