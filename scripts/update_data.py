@@ -69,6 +69,8 @@ def process(src,contracts,europe):
   vals=[(c['indicators'][x['key']]['score'],x['weight']) for x in items if c['indicators'].get(x['key'],{}).get('score') is not None];cov=sum(w for _,w in vals);field=FIELD[vertical];c[field]=round(sum(s*w for s,w in vals)/cov) if cov>=15 else None;c['coverage'][field]=cov;c['confidence'][field]='High' if cov>=75 else 'Medium' if cov>=50 else 'Low' if cov>=15 else 'Insufficient'
  c['stale']=bool(errors);return c,{'country':c['country'],'universe':'Europe' if europe else 'Broader EMEA','coverage':c['coverage'],'sourceStatus':c['sourceStatus'],'errors':errors}
 def main():
+ import subprocess,sys
+ subprocess.check_call([sys.executable,str(pathlib.Path(__file__).with_name('ensure_country_universe.py'))])
  d=json.loads(P.read_text());contracts=json.loads(C.read_text());jobs=[(c,True) for c in d.get('europe',[])]+[(c,False) for c in d.get('emea',[])];out={};diag=[];log(f'[START] {len(jobs)} countries')
  with ThreadPoolExecutor(max_workers=8) as ex:
   fs={ex.submit(process,c,contracts,eu):(c['country'],eu) for c,eu in jobs}
