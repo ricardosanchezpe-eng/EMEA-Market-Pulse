@@ -1,0 +1,23 @@
+name: Verify transportation infrastructure candidates
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate Transportation infrastructure sources across all Harmonised Europe markets
+        run: python scripts/verify_transport_infrastructure.py
+      - name: Upload Transportation verification
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: transportation-infrastructure-verification
+          path: transport-verification-output/
+          if-no-files-found: error
