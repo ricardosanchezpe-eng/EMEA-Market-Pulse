@@ -53,7 +53,7 @@
     "latestDate": "2026-09",
     "previous": -10.2,
     "previousDate": "2026-08",
-    "score": 26
+    "score": 43
   },
   {
     "universe": "europe",
@@ -179,7 +179,7 @@
     "latestDate": "2026-09",
     "previous": -10.2,
     "previousDate": "2026-08",
-    "score": 26
+    "score": 43
   },
   {
     "universe": "europe",
@@ -249,7 +249,7 @@
     "latestDate": "2026-09",
     "previous": -10.2,
     "previousDate": "2026-08",
-    "score": 26
+    "score": 43
   },
   {
     "universe": "europe",
@@ -314,7 +314,7 @@
     "indicator": "waste_generation",
     "weight": 15,
     "adapter": "eurostat_candidate",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
     "previous": null,
@@ -767,7 +767,7 @@
     "latestDate": "2026-09",
     "previous": -16.2,
     "previousDate": "2026-08",
-    "score": 18
+    "score": 52
   },
   {
     "universe": "europe",
@@ -893,7 +893,7 @@
     "latestDate": "2026-09",
     "previous": -16.2,
     "previousDate": "2026-08",
-    "score": 18
+    "score": 52
   },
   {
     "universe": "europe",
@@ -963,7 +963,7 @@
     "latestDate": "2026-09",
     "previous": -16.2,
     "previousDate": "2026-08",
-    "score": 18
+    "score": 52
   },
   {
     "universe": "europe",
@@ -1182,7 +1182,7 @@
     "indicator": "mineral_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -1481,7 +1481,7 @@
     "latestDate": "2026-09",
     "previous": 3.0,
     "previousDate": "2026-08",
-    "score": 46
+    "score": 29
   },
   {
     "universe": "europe",
@@ -1607,7 +1607,7 @@
     "latestDate": "2026-09",
     "previous": 3.0,
     "previousDate": "2026-08",
-    "score": 46
+    "score": 29
   },
   {
     "universe": "europe",
@@ -1677,7 +1677,7 @@
     "latestDate": "2026-09",
     "previous": 3.0,
     "previousDate": "2026-08",
-    "score": 46
+    "score": 29
   },
   {
     "universe": "europe",
@@ -1742,7 +1742,7 @@
     "indicator": "waste_generation",
     "weight": 15,
     "adapter": "eurostat_candidate",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
     "previous": null,
@@ -1896,7 +1896,7 @@
     "indicator": "mineral_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -2195,7 +2195,7 @@
     "latestDate": "2026-09",
     "previous": -0.1,
     "previousDate": "2026-08",
-    "score": 67
+    "score": 85
   },
   {
     "universe": "europe",
@@ -2321,7 +2321,7 @@
     "latestDate": "2026-09",
     "previous": -0.1,
     "previousDate": "2026-08",
-    "score": 67
+    "score": 85
   },
   {
     "universe": "europe",
@@ -2391,7 +2391,7 @@
     "latestDate": "2026-09",
     "previous": -0.1,
     "previousDate": "2026-08",
-    "score": 67
+    "score": 85
   },
   {
     "universe": "europe",
@@ -2909,7 +2909,7 @@
     "latestDate": "2026-09",
     "previous": 16.5,
     "previousDate": "2026-08",
-    "score": 88
+    "score": 60
   },
   {
     "universe": "europe",
@@ -3035,7 +3035,7 @@
     "latestDate": "2026-09",
     "previous": 16.5,
     "previousDate": "2026-08",
-    "score": 88
+    "score": 60
   },
   {
     "universe": "europe",
@@ -3105,7 +3105,7 @@
     "latestDate": "2026-09",
     "previous": 16.5,
     "previousDate": "2026-08",
-    "score": 88
+    "score": 60
   },
   {
     "universe": "europe",
@@ -3324,7 +3324,7 @@
     "indicator": "mineral_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -3954,7 +3954,7 @@
     "indicator": "gas_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -4038,7 +4038,7 @@
     "indicator": "mineral_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -4337,7 +4337,7 @@
     "latestDate": "2026-09",
     "previous": -13.4,
     "previousDate": "2026-08",
-    "score": 22
+    "score": 47
   },
   {
     "universe": "europe",
@@ -4463,7 +4463,7 @@
     "latestDate": "2026-09",
     "previous": -13.4,
     "previousDate": "2026-08",
-    "score": 22
+    "score": 47
   },
   {
     "universe": "europe",
@@ -4533,7 +4533,7 @@
     "latestDate": "2026-09",
     "previous": -13.4,
     "previousDate": "2026-08",
-    "score": 22
+    "score": 47
   },
   {
     "universe": "europe",
@@ -4598,7 +4598,7 @@
     "indicator": "waste_generation",
     "weight": 15,
     "adapter": "eurostat_candidate",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
     "previous": null,
@@ -5051,7 +5051,7 @@
     "latestDate": "2026-09",
     "previous": -10.7,
     "previousDate": "2026-08",
-    "score": 22
+    "score": 37
   },
   {
     "universe": "europe",
@@ -5177,7 +5177,7 @@
     "latestDate": "2026-09",
     "previous": -10.7,
     "previousDate": "2026-08",
-    "score": 22
+    "score": 37
   },
   {
     "universe": "europe",
@@ -5247,7 +5247,7 @@
     "latestDate": "2026-09",
     "previous": -10.7,
     "previousDate": "2026-08",
-    "score": 22
+    "score": 37
   },
   {
     "universe": "europe",
@@ -5466,7 +5466,7 @@
     "indicator": "mineral_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -5765,7 +5765,7 @@
     "latestDate": "2026-09",
     "previous": 4.3,
     "previousDate": "2026-08",
-    "score": 92
+    "score": 100
   },
   {
     "universe": "europe",
@@ -5844,7 +5844,7 @@
     "indicator": "rail_freight",
     "weight": 15,
     "adapter": "eurostat",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2025",
     "previous": null,
@@ -5891,7 +5891,7 @@
     "latestDate": "2026-09",
     "previous": 4.3,
     "previousDate": "2026-08",
-    "score": 92
+    "score": 100
   },
   {
     "universe": "europe",
@@ -5961,7 +5961,7 @@
     "latestDate": "2026-09",
     "previous": 4.3,
     "previousDate": "2026-08",
-    "score": 92
+    "score": 100
   },
   {
     "universe": "europe",
@@ -6026,7 +6026,7 @@
     "indicator": "waste_generation",
     "weight": 15,
     "adapter": "eurostat_candidate",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 6,
     "latestDate": "2022",
     "previous": null,
@@ -6479,7 +6479,7 @@
     "latestDate": "2026-09",
     "previous": -9.7,
     "previousDate": "2026-08",
-    "score": 43
+    "score": 76
   },
   {
     "universe": "europe",
@@ -6605,7 +6605,7 @@
     "latestDate": "2026-09",
     "previous": -9.7,
     "previousDate": "2026-08",
-    "score": 43
+    "score": 76
   },
   {
     "universe": "europe",
@@ -6675,7 +6675,7 @@
     "latestDate": "2026-09",
     "previous": -9.7,
     "previousDate": "2026-08",
-    "score": 43
+    "score": 76
   },
   {
     "universe": "europe",
@@ -6810,7 +6810,7 @@
     "indicator": "gas_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -7193,7 +7193,7 @@
     "latestDate": "2026-09",
     "previous": -7.0,
     "previousDate": "2026-08",
-    "score": 32
+    "score": 43
   },
   {
     "universe": "europe",
@@ -7319,7 +7319,7 @@
     "latestDate": "2026-09",
     "previous": -7.0,
     "previousDate": "2026-08",
-    "score": 32
+    "score": 43
   },
   {
     "universe": "europe",
@@ -7389,7 +7389,7 @@
     "latestDate": "2026-09",
     "previous": -7.0,
     "previousDate": "2026-08",
-    "score": 32
+    "score": 43
   },
   {
     "universe": "europe",
@@ -7608,7 +7608,7 @@
     "indicator": "mineral_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -8322,7 +8322,7 @@
     "indicator": "mineral_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -8621,7 +8621,7 @@
     "latestDate": "2026-09",
     "previous": -7.4,
     "previousDate": "2026-08",
-    "score": 36
+    "score": 52
   },
   {
     "universe": "europe",
@@ -8747,7 +8747,7 @@
     "latestDate": "2026-09",
     "previous": -7.4,
     "previousDate": "2026-08",
-    "score": 36
+    "score": 52
   },
   {
     "universe": "europe",
@@ -8817,7 +8817,7 @@
     "latestDate": "2026-09",
     "previous": -7.4,
     "previousDate": "2026-08",
-    "score": 36
+    "score": 52
   },
   {
     "universe": "europe",
@@ -8882,7 +8882,7 @@
     "indicator": "waste_generation",
     "weight": 15,
     "adapter": "eurostat_candidate",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 1,
     "latestDate": "2022",
     "previous": null,
@@ -8896,7 +8896,7 @@
     "indicator": "waste_treatment",
     "weight": 15,
     "adapter": "eurostat_candidate",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 1,
     "latestDate": "2022",
     "previous": null,
@@ -9036,7 +9036,7 @@
     "indicator": "mineral_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -9335,7 +9335,7 @@
     "latestDate": "2026-09",
     "previous": -5.9,
     "previousDate": "2026-08",
-    "score": 35
+    "score": 43
   },
   {
     "universe": "europe",
@@ -9461,7 +9461,7 @@
     "latestDate": "2026-09",
     "previous": -5.9,
     "previousDate": "2026-08",
-    "score": 35
+    "score": 43
   },
   {
     "universe": "europe",
@@ -9531,7 +9531,7 @@
     "latestDate": "2026-09",
     "previous": -5.9,
     "previousDate": "2026-08",
-    "score": 35
+    "score": 43
   },
   {
     "universe": "europe",
@@ -9596,7 +9596,7 @@
     "indicator": "waste_generation",
     "weight": 15,
     "adapter": "eurostat_candidate",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 1,
     "latestDate": "2022",
     "previous": null,
@@ -10049,7 +10049,7 @@
     "latestDate": "2026-09",
     "previous": -5.3,
     "previousDate": "2026-08",
-    "score": 37
+    "score": 45
   },
   {
     "universe": "europe",
@@ -10175,7 +10175,7 @@
     "latestDate": "2026-09",
     "previous": -5.3,
     "previousDate": "2026-08",
-    "score": 37
+    "score": 45
   },
   {
     "universe": "europe",
@@ -10245,7 +10245,7 @@
     "latestDate": "2026-09",
     "previous": -5.3,
     "previousDate": "2026-08",
-    "score": 37
+    "score": 45
   },
   {
     "universe": "europe",
@@ -10464,7 +10464,7 @@
     "indicator": "mineral_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -10763,7 +10763,7 @@
     "latestDate": "2026-09",
     "previous": 6.1,
     "previousDate": "2026-08",
-    "score": 55
+    "score": 35
   },
   {
     "universe": "europe",
@@ -10889,7 +10889,7 @@
     "latestDate": "2026-09",
     "previous": 6.1,
     "previousDate": "2026-08",
-    "score": 55
+    "score": 35
   },
   {
     "universe": "europe",
@@ -10959,7 +10959,7 @@
     "latestDate": "2026-09",
     "previous": 6.1,
     "previousDate": "2026-08",
-    "score": 55
+    "score": 35
   },
   {
     "universe": "europe",
@@ -11024,7 +11024,7 @@
     "indicator": "waste_generation",
     "weight": 15,
     "adapter": "eurostat_candidate",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
     "previous": null,
@@ -11094,7 +11094,7 @@
     "indicator": "gas_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -11477,7 +11477,7 @@
     "latestDate": "2026-09",
     "previous": -8.5,
     "previousDate": "2026-08",
-    "score": 35
+    "score": 54
   },
   {
     "universe": "europe",
@@ -11603,7 +11603,7 @@
     "latestDate": "2026-09",
     "previous": -8.5,
     "previousDate": "2026-08",
-    "score": 35
+    "score": 54
   },
   {
     "universe": "europe",
@@ -11673,7 +11673,7 @@
     "latestDate": "2026-09",
     "previous": -8.5,
     "previousDate": "2026-08",
-    "score": 35
+    "score": 54
   },
   {
     "universe": "europe",
@@ -11738,7 +11738,7 @@
     "indicator": "waste_generation",
     "weight": 15,
     "adapter": "eurostat_candidate",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
     "previous": null,
@@ -11808,7 +11808,7 @@
     "indicator": "gas_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -12191,7 +12191,7 @@
     "latestDate": "2026-09",
     "previous": 25.6,
     "previousDate": "2026-08",
-    "score": 78
+    "score": 4
   },
   {
     "universe": "europe",
@@ -12317,7 +12317,7 @@
     "latestDate": "2026-09",
     "previous": 25.6,
     "previousDate": "2026-08",
-    "score": 78
+    "score": 4
   },
   {
     "universe": "europe",
@@ -12387,7 +12387,7 @@
     "latestDate": "2026-09",
     "previous": 25.6,
     "previousDate": "2026-08",
-    "score": 78
+    "score": 4
   },
   {
     "universe": "europe",
@@ -12452,7 +12452,7 @@
     "indicator": "waste_generation",
     "weight": 15,
     "adapter": "eurostat_candidate",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
     "previous": null,
@@ -12466,7 +12466,7 @@
     "indicator": "waste_treatment",
     "weight": 15,
     "adapter": "eurostat_candidate",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
     "previous": null,
@@ -12905,7 +12905,7 @@
     "latestDate": "2026-09",
     "previous": -27.9,
     "previousDate": "2026-08",
-    "score": 0
+    "score": 49
   },
   {
     "universe": "europe",
@@ -13031,7 +13031,7 @@
     "latestDate": "2026-09",
     "previous": -27.9,
     "previousDate": "2026-08",
-    "score": 0
+    "score": 49
   },
   {
     "universe": "europe",
@@ -13101,7 +13101,7 @@
     "latestDate": "2026-09",
     "previous": -27.9,
     "previousDate": "2026-08",
-    "score": 0
+    "score": 49
   },
   {
     "universe": "europe",
@@ -13320,7 +13320,7 @@
     "indicator": "mineral_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -13619,7 +13619,7 @@
     "latestDate": "2026-09",
     "previous": -4.5,
     "previousDate": "2026-08",
-    "score": 40
+    "score": 48
   },
   {
     "universe": "europe",
@@ -13745,7 +13745,7 @@
     "latestDate": "2026-09",
     "previous": -4.5,
     "previousDate": "2026-08",
-    "score": 40
+    "score": 48
   },
   {
     "universe": "europe",
@@ -13815,7 +13815,7 @@
     "latestDate": "2026-09",
     "previous": -4.5,
     "previousDate": "2026-08",
-    "score": 40
+    "score": 48
   },
   {
     "universe": "europe",
@@ -14333,7 +14333,7 @@
     "latestDate": "2026-09",
     "previous": -8.0,
     "previousDate": "2026-08",
-    "score": 37
+    "score": 56
   },
   {
     "universe": "europe",
@@ -14459,7 +14459,7 @@
     "latestDate": "2026-09",
     "previous": -8.0,
     "previousDate": "2026-08",
-    "score": 37
+    "score": 56
   },
   {
     "universe": "europe",
@@ -14529,7 +14529,7 @@
     "latestDate": "2026-09",
     "previous": -8.0,
     "previousDate": "2026-08",
-    "score": 37
+    "score": 56
   },
   {
     "universe": "europe",
@@ -15047,7 +15047,7 @@
     "latestDate": "2026-09",
     "previous": 4.4,
     "previousDate": "2026-08",
-    "score": 67
+    "score": 66
   },
   {
     "universe": "europe",
@@ -15173,7 +15173,7 @@
     "latestDate": "2026-09",
     "previous": 4.4,
     "previousDate": "2026-08",
-    "score": 67
+    "score": 66
   },
   {
     "universe": "europe",
@@ -15243,7 +15243,7 @@
     "latestDate": "2026-09",
     "previous": 4.4,
     "previousDate": "2026-08",
-    "score": 67
+    "score": 66
   },
   {
     "universe": "europe",
@@ -15308,7 +15308,7 @@
     "indicator": "waste_generation",
     "weight": 15,
     "adapter": "eurostat_candidate",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
     "previous": null,
@@ -15322,7 +15322,7 @@
     "indicator": "waste_treatment",
     "weight": 15,
     "adapter": "eurostat_candidate",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
     "previous": null,
@@ -15462,7 +15462,7 @@
     "indicator": "mineral_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -15761,7 +15761,7 @@
     "latestDate": "2026-09",
     "previous": -8.4,
     "previousDate": "2026-08",
-    "score": 36
+    "score": 56
   },
   {
     "universe": "europe",
@@ -15887,7 +15887,7 @@
     "latestDate": "2026-09",
     "previous": -8.4,
     "previousDate": "2026-08",
-    "score": 36
+    "score": 56
   },
   {
     "universe": "europe",
@@ -15957,7 +15957,7 @@
     "latestDate": "2026-09",
     "previous": -8.4,
     "previousDate": "2026-08",
-    "score": 36
+    "score": 56
   },
   {
     "universe": "europe",
@@ -16022,7 +16022,7 @@
     "indicator": "waste_generation",
     "weight": 15,
     "adapter": "eurostat_candidate",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
     "previous": null,
@@ -16036,7 +16036,7 @@
     "indicator": "waste_treatment",
     "weight": 15,
     "adapter": "eurostat_candidate",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
     "previous": null,
@@ -16078,7 +16078,7 @@
     "indicator": "oil_rents",
     "weight": 20,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -16092,7 +16092,7 @@
     "indicator": "gas_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -16176,7 +16176,7 @@
     "indicator": "mineral_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -16475,7 +16475,7 @@
     "latestDate": "2026-09",
     "previous": -1.7,
     "previousDate": "2026-08",
-    "score": 40
+    "score": 38
   },
   {
     "universe": "europe",
@@ -16601,7 +16601,7 @@
     "latestDate": "2026-09",
     "previous": -1.7,
     "previousDate": "2026-08",
-    "score": 40
+    "score": 38
   },
   {
     "universe": "europe",
@@ -16671,7 +16671,7 @@
     "latestDate": "2026-09",
     "previous": -1.7,
     "previousDate": "2026-08",
-    "score": 40
+    "score": 38
   },
   {
     "universe": "europe",
@@ -16806,7 +16806,7 @@
     "indicator": "gas_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -16890,7 +16890,7 @@
     "indicator": "mineral_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -17450,7 +17450,7 @@
     "indicator": "waste_generation",
     "weight": 15,
     "adapter": "eurostat_candidate",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
     "previous": null,
@@ -17604,7 +17604,7 @@
     "indicator": "mineral_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -17903,7 +17903,7 @@
     "latestDate": "2026-09",
     "previous": -5.6,
     "previousDate": "2026-08",
-    "score": 23
+    "score": 19
   },
   {
     "universe": "europe",
@@ -18029,7 +18029,7 @@
     "latestDate": "2026-09",
     "previous": -5.6,
     "previousDate": "2026-08",
-    "score": 23
+    "score": 19
   },
   {
     "universe": "europe",
@@ -18099,7 +18099,7 @@
     "latestDate": "2026-09",
     "previous": -5.6,
     "previousDate": "2026-08",
-    "score": 23
+    "score": 19
   },
   {
     "universe": "europe",
@@ -18178,7 +18178,7 @@
     "indicator": "waste_treatment",
     "weight": 15,
     "adapter": "eurostat_candidate",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
     "previous": null,
@@ -18234,7 +18234,7 @@
     "indicator": "gas_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -18318,7 +18318,7 @@
     "indicator": "mineral_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -18617,7 +18617,7 @@
     "latestDate": "2026-04",
     "previous": -4.9,
     "previousDate": "2026-03",
-    "score": 45
+    "score": 59
   },
   {
     "universe": "europe",
@@ -18743,7 +18743,7 @@
     "latestDate": "2026-04",
     "previous": -4.9,
     "previousDate": "2026-03",
-    "score": 45
+    "score": 59
   },
   {
     "universe": "europe",
@@ -18813,7 +18813,7 @@
     "latestDate": "2026-04",
     "previous": -4.9,
     "previousDate": "2026-03",
-    "score": 45
+    "score": 59
   },
   {
     "universe": "europe",
@@ -18878,7 +18878,7 @@
     "indicator": "waste_generation",
     "weight": 15,
     "adapter": "eurostat_candidate",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
     "previous": null,
@@ -18892,7 +18892,7 @@
     "indicator": "waste_treatment",
     "weight": 15,
     "adapter": "eurostat_candidate",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
     "previous": null,
@@ -18948,7 +18948,7 @@
     "indicator": "gas_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -19032,7 +19032,7 @@
     "indicator": "mineral_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -19331,7 +19331,7 @@
     "latestDate": "2026-09",
     "previous": 5.6,
     "previousDate": "2026-08",
-    "score": 63
+    "score": 54
   },
   {
     "universe": "europe",
@@ -19457,7 +19457,7 @@
     "latestDate": "2026-09",
     "previous": 5.6,
     "previousDate": "2026-08",
-    "score": 63
+    "score": 54
   },
   {
     "universe": "europe",
@@ -19527,7 +19527,7 @@
     "latestDate": "2026-09",
     "previous": 5.6,
     "previousDate": "2026-08",
-    "score": 63
+    "score": 54
   },
   {
     "universe": "europe",
@@ -19606,7 +19606,7 @@
     "indicator": "waste_treatment",
     "weight": 15,
     "adapter": "eurostat_candidate",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
     "previous": null,
@@ -19648,7 +19648,7 @@
     "indicator": "oil_rents",
     "weight": 20,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -19662,7 +19662,7 @@
     "indicator": "gas_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -20045,7 +20045,7 @@
     "latestDate": "2026-04",
     "previous": -14.8,
     "previousDate": "2026-03",
-    "score": 80
+    "score": 100
   },
   {
     "universe": "europe",
@@ -20171,7 +20171,7 @@
     "latestDate": "2026-04",
     "previous": -14.8,
     "previousDate": "2026-03",
-    "score": 80
+    "score": 100
   },
   {
     "universe": "europe",
@@ -20241,7 +20241,7 @@
     "latestDate": "2026-04",
     "previous": -14.8,
     "previousDate": "2026-03",
-    "score": 80
+    "score": 100
   },
   {
     "universe": "europe",
@@ -20306,7 +20306,7 @@
     "indicator": "waste_generation",
     "weight": 15,
     "adapter": "eurostat_candidate",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
     "previous": null,
@@ -20362,7 +20362,7 @@
     "indicator": "oil_rents",
     "weight": 20,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -20376,7 +20376,7 @@
     "indicator": "gas_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -20390,7 +20390,7 @@
     "indicator": "resource_rents",
     "weight": 10,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -20460,7 +20460,7 @@
     "indicator": "mineral_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -20474,7 +20474,7 @@
     "indicator": "resource_rents",
     "weight": 10,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -21888,7 +21888,7 @@
     "indicator": "mineral_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -23316,7 +23316,7 @@
     "indicator": "mineral_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -24030,7 +24030,7 @@
     "indicator": "mineral_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -27502,7 +27502,7 @@
     "indicator": "oil_rents",
     "weight": 20,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -27516,7 +27516,7 @@
     "indicator": "gas_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -28216,7 +28216,7 @@
     "indicator": "oil_rents",
     "weight": 20,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -28230,7 +28230,7 @@
     "indicator": "gas_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -29644,7 +29644,7 @@
     "indicator": "oil_rents",
     "weight": 20,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -31170,7 +31170,7 @@
     "indicator": "mineral_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -32598,7 +32598,7 @@
     "indicator": "mineral_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -32682,7 +32682,7 @@
     "indicator": "renewable_share",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -33312,7 +33312,7 @@
     "indicator": "mineral_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2020",
     "previous": null,
@@ -34026,7 +34026,7 @@
     "indicator": "mineral_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -34740,7 +34740,7 @@
     "indicator": "mineral_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -34824,7 +34824,7 @@
     "indicator": "renewable_share",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -35454,7 +35454,7 @@
     "indicator": "mineral_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,
@@ -36168,7 +36168,7 @@
     "indicator": "mineral_rents",
     "weight": 15,
     "adapter": "worldbank",
-    "retrieval": "no_usable_series",
+    "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
     "previous": null,

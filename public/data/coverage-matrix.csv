@@ -2,7 +2,7 @@ universe,country,vertical,indicator,weight,adapter,retrieval,latest,latestDate,p
 europe,Germany,Overall,construction_production,25,eurostat,live,98.9,2026-08,89.5,2025-08,92
 europe,Germany,Overall,civil_output,20,eurostat,live,117.6,2026-08,109.9,2025-08,78
 europe,Germany,Overall,building_permits,15,eurostat,live,60.3,2026-08,63.1,2026-07,32
-europe,Germany,Overall,construction_confidence,15,eurostat,live,-12.0,2026-09,-10.2,2026-08,26
+europe,Germany,Overall,construction_confidence,15,eurostat,live,-12.0,2026-09,-10.2,2026-08,43
 europe,Germany,Overall,construction_employment,10,eurostat,live,99.9,2026-Q2,100.5,2023-Q2,48
 europe,Germany,Overall,construction_costs,10,eurostat,live,141.7,2026-Q3,126.4,2023-Q3,98
 europe,Germany,Overall,fixed_investment,5,eurostat_candidate,live,126158.5,2025,129280.3,2024,40
@@ -11,17 +11,17 @@ europe,Germany,Transportation,transport_pipeline,25,pending,pending,,,,,
 europe,Germany,Transportation,rail_freight,15,eurostat,live,48907,2025,49226,2024,47
 europe,Germany,Transportation,road_freight,10,eurostat,live,453,2025,452,2024,51
 europe,Germany,Transportation,port_freight,10,eurostat,live,13370,2026-Q1,13248,2025-Q1,54
-europe,Germany,Transportation,construction_confidence,10,eurostat,live,-12.0,2026-09,-10.2,2026-08,26
+europe,Germany,Transportation,construction_confidence,10,eurostat,live,-12.0,2026-09,-10.2,2026-08,43
 europe,Germany,Transportation,funding_announcements,5,pending,pending,,,,,
 europe,Germany,Site Development,building_permits,30,eurostat,live,60.3,2026-08,63.1,2026-07,32
 europe,Germany,Site Development,nonres_permits,20,eurostat,live,50.6,2026-Q2,45.3,2025-Q2,97
 europe,Germany,Site Development,building_output,20,eurostat,live,77.2,2026-08,75.5,2025-08,59
-europe,Germany,Site Development,construction_confidence,10,eurostat,live,-12.0,2026-09,-10.2,2026-08,26
+europe,Germany,Site Development,construction_confidence,10,eurostat,live,-12.0,2026-09,-10.2,2026-08,43
 europe,Germany,Site Development,construction_employment,10,eurostat,live,99.9,2026-Q2,100.5,2023-Q2,48
 europe,Germany,Site Development,financing,10,pending,pending,,,,,
 europe,Germany,Waste & Water,wastewater_treatment,15,eurostat_candidate,live,97.14,2022,96.86,2021,51
 europe,Germany,Waste & Water,water_stress,15,eurostat_with_worldbank_fallback,live,3.35,2023,4.57,2022,0
-europe,Germany,Waste & Water,waste_generation,15,eurostat_candidate,no_usable_series,0,2022,,,
+europe,Germany,Waste & Water,waste_generation,15,eurostat_candidate,live,0,2022,,,
 europe,Germany,Waste & Water,waste_treatment,15,eurostat_candidate,live,11,2022,13,2020,0
 europe,Germany,Waste & Water,water_pipeline,25,pending,pending,,,,,
 europe,Germany,Waste & Water,remediation,15,pending,pending,,,,,
@@ -53,7 +53,7 @@ europe,Germany,Agriculture,cap,5,pending,pending,,,,,
 europe,France,Overall,construction_production,25,eurostat,live,54.2,2026-08,58.8,2025-08,19
 europe,France,Overall,civil_output,20,eurostat,live,61.1,2026-08,65.8,2025-08,21
 europe,France,Overall,building_permits,15,eurostat,live,78.0,2026-08,78.3,2026-07,48
-europe,France,Overall,construction_confidence,15,eurostat,live,-15.8,2026-09,-16.2,2026-08,18
+europe,France,Overall,construction_confidence,15,eurostat,live,-15.8,2026-09,-16.2,2026-08,52
 europe,France,Overall,construction_employment,10,eurostat,live,97.1,2026-Q2,101.5,2023-Q2,33
 europe,France,Overall,construction_costs,10,eurostat,live,113.3,2026-Q2,114.4,2023-Q2,46
 europe,France,Overall,fixed_investment,5,eurostat_candidate,live,109306.6,2025,110184.2,2024,47
@@ -62,12 +62,12 @@ europe,France,Transportation,transport_pipeline,25,pending,pending,,,,,
 europe,France,Transportation,rail_freight,15,eurostat,live,10170,2025,9414,2024,82
 europe,France,Transportation,road_freight,10,eurostat,live,174,2025,170,2024,59
 europe,France,Transportation,port_freight,10,eurostat,live,7785,2026-Q1,7529,2025-Q1,64
-europe,France,Transportation,construction_confidence,10,eurostat,live,-15.8,2026-09,-16.2,2026-08,18
+europe,France,Transportation,construction_confidence,10,eurostat,live,-15.8,2026-09,-16.2,2026-08,52
 europe,France,Transportation,funding_announcements,5,pending,pending,,,,,
 europe,France,Site Development,building_permits,30,eurostat,live,78.0,2026-08,78.3,2026-07,48
 europe,France,Site Development,nonres_permits,20,eurostat,live,65.0,2026-Q2,60.2,2025-Q2,82
 europe,France,Site Development,building_output,20,eurostat,live,52.0,2026-08,56.2,2025-08,20
-europe,France,Site Development,construction_confidence,10,eurostat,live,-15.8,2026-09,-16.2,2026-08,18
+europe,France,Site Development,construction_confidence,10,eurostat,live,-15.8,2026-09,-16.2,2026-08,52
 europe,France,Site Development,construction_employment,10,eurostat,live,97.1,2026-Q2,101.5,2023-Q2,33
 europe,France,Site Development,financing,10,pending,pending,,,,,
 europe,France,Waste & Water,wastewater_treatment,15,eurostat_candidate,live,80.0,2024,79.56,2023,52
@@ -83,7 +83,7 @@ europe,France,Oil & Gas,refinery,10,pending,pending,,,,,
 europe,France,Oil & Gas,lng,15,pending,pending,,,,,
 europe,France,Oil & Gas,oil_pipeline,30,pending,pending,,,,,
 europe,France,Mining,mining_production,25,eurostat_candidate,live,56.5,2026-08,60.2,2025-08,25
-europe,France,Mining,mineral_rents,15,worldbank,no_usable_series,0,2021,,,
+europe,France,Mining,mineral_rents,15,worldbank,live,0,2021,,,
 europe,France,Mining,resource_rents,10,worldbank,live,0.0325366370984223,2021,0.0266318650223516,2020,100
 europe,France,Mining,mining_capex,20,pending,pending,,,,,
 europe,France,Mining,mine_pipeline,20,pending,pending,,,,,
@@ -104,7 +104,7 @@ europe,France,Agriculture,cap,5,pending,pending,,,,,
 europe,Italy,Overall,construction_production,25,eurostat,live,92.8,2026-08,94.9,2025-08,41
 europe,Italy,Overall,civil_output,20,eurostat,no_usable_series,,,,,
 europe,Italy,Overall,building_permits,15,eurostat,live,77.2,2026-Q2,87.7,2023-Q2,2
-europe,Italy,Overall,construction_confidence,15,eurostat,live,-2.2,2026-09,3.0,2026-08,46
+europe,Italy,Overall,construction_confidence,15,eurostat,live,-2.2,2026-09,3.0,2026-08,29
 europe,Italy,Overall,construction_employment,10,eurostat,live,117.4,2026-Q2,108.8,2023-Q2,82
 europe,Italy,Overall,construction_costs,10,eurostat,live,113.4,2026-08,111.1,2025-08,58
 europe,Italy,Overall,fixed_investment,5,eurostat_candidate,live,68562.0,2025,71499.0,2024,34
@@ -113,17 +113,17 @@ europe,Italy,Transportation,transport_pipeline,25,pending,pending,,,,,
 europe,Italy,Transportation,rail_freight,15,eurostat,live,9273,2025,10616,2024,0
 europe,Italy,Transportation,road_freight,10,eurostat,live,15863,2025,16419,2024,36
 europe,Italy,Transportation,port_freight,10,eurostat,live,9771,2026-Q1,11079,2025-Q1,3
-europe,Italy,Transportation,construction_confidence,10,eurostat,live,-2.2,2026-09,3.0,2026-08,46
+europe,Italy,Transportation,construction_confidence,10,eurostat,live,-2.2,2026-09,3.0,2026-08,29
 europe,Italy,Transportation,funding_announcements,5,pending,pending,,,,,
 europe,Italy,Site Development,building_permits,30,eurostat,live,77.2,2026-Q2,87.7,2023-Q2,2
 europe,Italy,Site Development,nonres_permits,20,eurostat,live,77.2,2026-Q2,85.1,2025-Q2,13
 europe,Italy,Site Development,building_output,20,eurostat,no_usable_series,,,,,
-europe,Italy,Site Development,construction_confidence,10,eurostat,live,-2.2,2026-09,3.0,2026-08,46
+europe,Italy,Site Development,construction_confidence,10,eurostat,live,-2.2,2026-09,3.0,2026-08,29
 europe,Italy,Site Development,construction_employment,10,eurostat,live,117.4,2026-Q2,108.8,2023-Q2,82
 europe,Italy,Site Development,financing,10,pending,pending,,,,,
 europe,Italy,Waste & Water,wastewater_treatment,15,eurostat_candidate,live,59.6,2015,58.93,2014,55
 europe,Italy,Waste & Water,water_stress,15,eurostat_with_worldbank_fallback,live,10.02,2023,15.62,2022,0
-europe,Italy,Waste & Water,waste_generation,15,eurostat_candidate,no_usable_series,0,2022,,,
+europe,Italy,Waste & Water,waste_generation,15,eurostat_candidate,live,0,2022,,,
 europe,Italy,Waste & Water,waste_treatment,15,eurostat_candidate,live,7,2022,6,2020,100
 europe,Italy,Waste & Water,water_pipeline,25,pending,pending,,,,,
 europe,Italy,Waste & Water,remediation,15,pending,pending,,,,,
@@ -134,7 +134,7 @@ europe,Italy,Oil & Gas,refinery,10,pending,pending,,,,,
 europe,Italy,Oil & Gas,lng,15,pending,pending,,,,,
 europe,Italy,Oil & Gas,oil_pipeline,30,pending,pending,,,,,
 europe,Italy,Mining,mining_production,25,eurostat_candidate,live,78.5,2026-08,82.4,2025-08,31
-europe,Italy,Mining,mineral_rents,15,worldbank,no_usable_series,0,2021,,,
+europe,Italy,Mining,mineral_rents,15,worldbank,live,0,2021,,,
 europe,Italy,Mining,resource_rents,10,worldbank,live,0.112009125283042,2021,0.0559705463881882,2020,100
 europe,Italy,Mining,mining_capex,20,pending,pending,,,,,
 europe,Italy,Mining,mine_pipeline,20,pending,pending,,,,,
@@ -155,7 +155,7 @@ europe,Italy,Agriculture,cap,5,pending,pending,,,,,
 europe,Spain,Overall,construction_production,25,eurostat,live,95.5,2026-08,99.8,2025-08,33
 europe,Spain,Overall,civil_output,20,eurostat,live,78.9,2026-08,82.3,2025-08,33
 europe,Spain,Overall,building_permits,15,eurostat,live,177.3,2026-06,167.1,2026-05,74
-europe,Spain,Overall,construction_confidence,15,eurostat,live,8.7,2026-09,-0.1,2026-08,67
+europe,Spain,Overall,construction_confidence,15,eurostat,live,8.7,2026-09,-0.1,2026-08,85
 europe,Spain,Overall,construction_employment,10,eurostat,live,98.8,2025-12,98.4,2024-12,52
 europe,Spain,Overall,construction_costs,10,eurostat,live,124.1,2026-07,120.1,2025-07,63
 europe,Spain,Overall,fixed_investment,5,eurostat_candidate,live,92877.2,2025,89632.1,2024,64
@@ -164,12 +164,12 @@ europe,Spain,Transportation,transport_pipeline,25,pending,pending,,,,,
 europe,Spain,Transportation,rail_freight,15,eurostat,live,1476,2025,1462,2024,54
 europe,Spain,Transportation,road_freight,10,eurostat,live,512,2025,568,2024,11
 europe,Spain,Transportation,port_freight,10,eurostat,live,12761,2026-Q1,11691,2025-Q1,87
-europe,Spain,Transportation,construction_confidence,10,eurostat,live,8.7,2026-09,-0.1,2026-08,67
+europe,Spain,Transportation,construction_confidence,10,eurostat,live,8.7,2026-09,-0.1,2026-08,85
 europe,Spain,Transportation,funding_announcements,5,pending,pending,,,,,
 europe,Spain,Site Development,building_permits,30,eurostat,live,177.3,2026-06,167.1,2026-05,74
 europe,Spain,Site Development,nonres_permits,20,eurostat,live,281.6,2026-Q2,262.7,2025-Q2,79
 europe,Spain,Site Development,building_output,20,eurostat,live,61.0,2026-08,78.7,2025-08,0
-europe,Spain,Site Development,construction_confidence,10,eurostat,live,8.7,2026-09,-0.1,2026-08,67
+europe,Spain,Site Development,construction_confidence,10,eurostat,live,8.7,2026-09,-0.1,2026-08,85
 europe,Spain,Site Development,construction_employment,10,eurostat,live,98.8,2025-12,98.4,2024-12,52
 europe,Spain,Site Development,financing,10,pending,pending,,,,,
 europe,Spain,Waste & Water,wastewater_treatment,15,eurostat_candidate,live,87.45,2023,87.45,2022,50
@@ -206,7 +206,7 @@ europe,Spain,Agriculture,cap,5,pending,pending,,,,,
 europe,Netherlands,Overall,construction_production,25,eurostat,live,41.7,2026-08,42.3,2025-08,44
 europe,Netherlands,Overall,civil_output,20,eurostat,live,41.4,2026-08,42.1,2025-08,43
 europe,Netherlands,Overall,building_permits,15,eurostat,live,51.9,2026-08,65.8,2026-07,0
-europe,Netherlands,Overall,construction_confidence,15,eurostat,live,18.9,2026-09,16.5,2026-08,88
+europe,Netherlands,Overall,construction_confidence,15,eurostat,live,18.9,2026-09,16.5,2026-08,60
 europe,Netherlands,Overall,construction_employment,10,eurostat,live,112.4,2026-Q1,103.6,2023-Q1,84
 europe,Netherlands,Overall,construction_costs,10,eurostat,live,129.4,2026-08,123.3,2025-08,70
 europe,Netherlands,Overall,fixed_investment,5,eurostat_candidate,live,42634.3,2025,41262.1,2024,63
@@ -215,12 +215,12 @@ europe,Netherlands,Transportation,transport_pipeline,25,pending,pending,,,,,
 europe,Netherlands,Transportation,rail_freight,15,eurostat,live,5252,2025,5358,2024,42
 europe,Netherlands,Transportation,road_freight,10,eurostat,live,26288,2025,26822,2024,42
 europe,Netherlands,Transportation,port_freight,10,eurostat,live,11226,2026-Q1,12715,2025-Q1,3
-europe,Netherlands,Transportation,construction_confidence,10,eurostat,live,18.9,2026-09,16.5,2026-08,88
+europe,Netherlands,Transportation,construction_confidence,10,eurostat,live,18.9,2026-09,16.5,2026-08,60
 europe,Netherlands,Transportation,funding_announcements,5,pending,pending,,,,,
 europe,Netherlands,Site Development,building_permits,30,eurostat,live,51.9,2026-08,65.8,2026-07,0
 europe,Netherlands,Site Development,nonres_permits,20,eurostat,live,127.7,2026-Q2,60.1,2025-Q2,100
 europe,Netherlands,Site Development,building_output,20,eurostat,live,41.5,2026-08,43.9,2025-08,28
-europe,Netherlands,Site Development,construction_confidence,10,eurostat,live,18.9,2026-09,16.5,2026-08,88
+europe,Netherlands,Site Development,construction_confidence,10,eurostat,live,18.9,2026-09,16.5,2026-08,60
 europe,Netherlands,Site Development,construction_employment,10,eurostat,live,112.4,2026-Q1,103.6,2023-Q1,84
 europe,Netherlands,Site Development,financing,10,pending,pending,,,,,
 europe,Netherlands,Waste & Water,wastewater_treatment,15,eurostat_candidate,live,99.66,2024,99.65,2023,50
@@ -236,7 +236,7 @@ europe,Netherlands,Oil & Gas,refinery,10,pending,pending,,,,,
 europe,Netherlands,Oil & Gas,lng,15,pending,pending,,,,,
 europe,Netherlands,Oil & Gas,oil_pipeline,30,pending,pending,,,,,
 europe,Netherlands,Mining,mining_production,25,eurostat_candidate,live,50.9,2026-08,57.4,2025-08,5
-europe,Netherlands,Mining,mineral_rents,15,worldbank,no_usable_series,0,2021,,,
+europe,Netherlands,Mining,mineral_rents,15,worldbank,live,0,2021,,,
 europe,Netherlands,Mining,resource_rents,10,worldbank,no_usable_series,,,,,
 europe,Netherlands,Mining,mining_capex,20,pending,pending,,,,,
 europe,Netherlands,Mining,mine_pipeline,20,pending,pending,,,,,
@@ -281,13 +281,13 @@ europe,Switzerland,Waste & Water,waste_treatment,15,eurostat_candidate,no_usable
 europe,Switzerland,Waste & Water,water_pipeline,25,pending,pending,,,,,
 europe,Switzerland,Waste & Water,remediation,15,pending,pending,,,,,
 europe,Switzerland,Oil & Gas,oil_rents,20,worldbank,live,0.000512290057871237,2021,0.000231251911067443,2020,100
-europe,Switzerland,Oil & Gas,gas_rents,15,worldbank,no_usable_series,0,2021,,,
+europe,Switzerland,Oil & Gas,gas_rents,15,worldbank,live,0,2021,,,
 europe,Switzerland,Oil & Gas,resource_rents,10,worldbank,live,0.00910740311945595,2021,0.00802785319765779,2020,100
 europe,Switzerland,Oil & Gas,refinery,10,pending,pending,,,,,
 europe,Switzerland,Oil & Gas,lng,15,pending,pending,,,,,
 europe,Switzerland,Oil & Gas,oil_pipeline,30,pending,pending,,,,,
 europe,Switzerland,Mining,mining_production,25,eurostat_candidate,live,110.4,2026-06,113.9,2025-06,38
-europe,Switzerland,Mining,mineral_rents,15,worldbank,no_usable_series,0,2021,,,
+europe,Switzerland,Mining,mineral_rents,15,worldbank,live,0,2021,,,
 europe,Switzerland,Mining,resource_rents,10,worldbank,live,0.00910740311945595,2021,0.00802785319765779,2020,100
 europe,Switzerland,Mining,mining_capex,20,pending,pending,,,,,
 europe,Switzerland,Mining,mine_pipeline,20,pending,pending,,,,,
@@ -308,7 +308,7 @@ europe,Switzerland,Agriculture,cap,5,pending,pending,,,,,
 europe,Poland,Overall,construction_production,25,eurostat,live,105.0,2026-08,100.6,2025-08,67
 europe,Poland,Overall,civil_output,20,eurostat,live,122.6,2026-08,95.0,2025-08,100
 europe,Poland,Overall,building_permits,15,eurostat,live,81.9,2026-Q2,61.9,2023-Q2,100
-europe,Poland,Overall,construction_confidence,15,eurostat,live,-14.1,2026-09,-13.4,2026-08,22
+europe,Poland,Overall,construction_confidence,15,eurostat,live,-14.1,2026-09,-13.4,2026-08,47
 europe,Poland,Overall,construction_employment,10,eurostat,live,97.1,2026-Q2,98.5,2023-Q2,44
 europe,Poland,Overall,construction_costs,10,eurostat,live,144.5,2026-07,136.0,2025-07,75
 europe,Poland,Overall,fixed_investment,5,eurostat_candidate,live,12921.6,2025,12175.5,2024,75
@@ -317,17 +317,17 @@ europe,Poland,Transportation,transport_pipeline,25,pending,pending,,,,,
 europe,Poland,Transportation,rail_freight,15,eurostat,live,17163,2025,16358,2024,70
 europe,Poland,Transportation,road_freight,10,eurostat,live,1899,2025,1870,2024,56
 europe,Poland,Transportation,port_freight,10,eurostat,live,7535,2026-Q1,6582,2025-Q1,100
-europe,Poland,Transportation,construction_confidence,10,eurostat,live,-14.1,2026-09,-13.4,2026-08,22
+europe,Poland,Transportation,construction_confidence,10,eurostat,live,-14.1,2026-09,-13.4,2026-08,47
 europe,Poland,Transportation,funding_announcements,5,pending,pending,,,,,
 europe,Poland,Site Development,building_permits,30,eurostat,live,81.9,2026-Q2,61.9,2023-Q2,100
 europe,Poland,Site Development,nonres_permits,20,eurostat,live,81.9,2026-Q2,74.3,2025-Q2,91
 europe,Poland,Site Development,building_output,20,eurostat,live,80.7,2026-08,100.4,2025-08,0
-europe,Poland,Site Development,construction_confidence,10,eurostat,live,-14.1,2026-09,-13.4,2026-08,22
+europe,Poland,Site Development,construction_confidence,10,eurostat,live,-14.1,2026-09,-13.4,2026-08,47
 europe,Poland,Site Development,construction_employment,10,eurostat,live,97.1,2026-Q2,98.5,2023-Q2,44
 europe,Poland,Site Development,financing,10,pending,pending,,,,,
 europe,Poland,Waste & Water,wastewater_treatment,15,eurostat_candidate,live,76.21,2024,75.89,2023,52
 europe,Poland,Waste & Water,water_stress,15,eurostat_with_worldbank_fallback,live,5.16,2023,6.33,2022,0
-europe,Poland,Waste & Water,waste_generation,15,eurostat_candidate,no_usable_series,0,2022,,,
+europe,Poland,Waste & Water,waste_generation,15,eurostat_candidate,live,0,2022,,,
 europe,Poland,Waste & Water,waste_treatment,15,eurostat_candidate,live,5,2022,4,2020,100
 europe,Poland,Waste & Water,water_pipeline,25,pending,pending,,,,,
 europe,Poland,Waste & Water,remediation,15,pending,pending,,,,,
@@ -359,7 +359,7 @@ europe,Poland,Agriculture,cap,5,pending,pending,,,,,
 europe,Belgium,Overall,construction_production,25,eurostat,live,98.1,2026-08,98.4,2025-08,49
 europe,Belgium,Overall,civil_output,20,eurostat,live,112.0,2026-08,107.5,2025-08,67
 europe,Belgium,Overall,building_permits,15,eurostat,live,72.5,2026-06,62.5,2026-05,100
-europe,Belgium,Overall,construction_confidence,15,eurostat,live,-14.0,2026-09,-10.7,2026-08,22
+europe,Belgium,Overall,construction_confidence,15,eurostat,live,-14.0,2026-09,-10.7,2026-08,37
 europe,Belgium,Overall,construction_employment,10,eurostat,live,111.2,2026-Q1,108.5,2023-Q1,60
 europe,Belgium,Overall,construction_costs,10,eurostat,live,133.9,2026-Q2,121.0,2023-Q2,93
 europe,Belgium,Overall,fixed_investment,5,eurostat_candidate,live,17436.2,2025,18797.6,2024,21
@@ -368,12 +368,12 @@ europe,Belgium,Transportation,transport_pipeline,25,pending,pending,,,,,
 europe,Belgium,Transportation,rail_freight,15,eurostat,live,4620,2011,5017,2010,18
 europe,Belgium,Transportation,road_freight,10,eurostat,live,10522,2025,10153,2024,65
 europe,Belgium,Transportation,port_freight,10,eurostat,live,9249,2026-Q1,8662,2025-Q1,77
-europe,Belgium,Transportation,construction_confidence,10,eurostat,live,-14.0,2026-09,-10.7,2026-08,22
+europe,Belgium,Transportation,construction_confidence,10,eurostat,live,-14.0,2026-09,-10.7,2026-08,37
 europe,Belgium,Transportation,funding_announcements,5,pending,pending,,,,,
 europe,Belgium,Site Development,building_permits,30,eurostat,live,72.5,2026-06,62.5,2026-05,100
 europe,Belgium,Site Development,nonres_permits,20,eurostat,live,72.1,2026-Q2,67.2,2025-Q2,79
 europe,Belgium,Site Development,building_output,20,eurostat,live,89.1,2026-08,92.5,2025-08,35
-europe,Belgium,Site Development,construction_confidence,10,eurostat,live,-14.0,2026-09,-10.7,2026-08,22
+europe,Belgium,Site Development,construction_confidence,10,eurostat,live,-14.0,2026-09,-10.7,2026-08,37
 europe,Belgium,Site Development,construction_employment,10,eurostat,live,111.2,2026-Q1,108.5,2023-Q1,60
 europe,Belgium,Site Development,financing,10,pending,pending,,,,,
 europe,Belgium,Waste & Water,wastewater_treatment,15,eurostat_candidate,live,84.5,2024,84.46,2023,50
@@ -389,7 +389,7 @@ europe,Belgium,Oil & Gas,refinery,10,pending,pending,,,,,
 europe,Belgium,Oil & Gas,lng,15,pending,pending,,,,,
 europe,Belgium,Oil & Gas,oil_pipeline,30,pending,pending,,,,,
 europe,Belgium,Mining,mining_production,25,eurostat_candidate,live,76.5,2026-08,85.3,2025-08,9
-europe,Belgium,Mining,mineral_rents,15,worldbank,no_usable_series,0,2021,,,
+europe,Belgium,Mining,mineral_rents,15,worldbank,live,0,2021,,,
 europe,Belgium,Mining,resource_rents,10,worldbank,live,0.0448914290094104,2021,0.0284876381171316,2020,100
 europe,Belgium,Mining,mining_capex,20,pending,pending,,,,,
 europe,Belgium,Mining,mine_pipeline,20,pending,pending,,,,,
@@ -410,26 +410,26 @@ europe,Belgium,Agriculture,cap,5,pending,pending,,,,,
 europe,Ireland,Overall,construction_production,25,eurostat,live,127.8,2023-Q4,151.8,2020-Q4,0
 europe,Ireland,Overall,civil_output,20,eurostat,live,13.0,2021-Q4,15.6,2021-Q3,0
 europe,Ireland,Overall,building_permits,15,eurostat,live,150.1,2026-Q2,88.6,2023-Q2,100
-europe,Ireland,Overall,construction_confidence,15,eurostat,live,21.0,2026-09,4.3,2026-08,92
+europe,Ireland,Overall,construction_confidence,15,eurostat,live,21.0,2026-09,4.3,2026-08,100
 europe,Ireland,Overall,construction_employment,10,eurostat,live,144.0,2026-Q2,127.1,2023-Q2,100
 europe,Ireland,Overall,construction_costs,10,eurostat,live,125.8,2026-08,121.8,2025-08,63
 europe,Ireland,Overall,fixed_investment,5,eurostat_candidate,live,15651.0,2025,13898.2,2024,100
 europe,Ireland,Transportation,civil_output,25,eurostat,live,13.0,2021-Q4,15.6,2021-Q3,0
 europe,Ireland,Transportation,transport_pipeline,25,pending,pending,,,,,
-europe,Ireland,Transportation,rail_freight,15,eurostat,no_usable_series,0,2025,,,
+europe,Ireland,Transportation,rail_freight,15,eurostat,live,0,2025,,,
 europe,Ireland,Transportation,road_freight,10,eurostat,live,45,2025,35,2024,100
 europe,Ireland,Transportation,port_freight,10,eurostat,live,4612,2026-Q2,4198,2025-Q2,89
-europe,Ireland,Transportation,construction_confidence,10,eurostat,live,21.0,2026-09,4.3,2026-08,92
+europe,Ireland,Transportation,construction_confidence,10,eurostat,live,21.0,2026-09,4.3,2026-08,100
 europe,Ireland,Transportation,funding_announcements,5,pending,pending,,,,,
 europe,Ireland,Site Development,building_permits,30,eurostat,live,150.1,2026-Q2,88.6,2023-Q2,100
 europe,Ireland,Site Development,nonres_permits,20,eurostat,live,150.1,2026-Q2,113.0,2025-Q2,100
 europe,Ireland,Site Development,building_output,20,eurostat,no_usable_series,,,,,
-europe,Ireland,Site Development,construction_confidence,10,eurostat,live,21.0,2026-09,4.3,2026-08,92
+europe,Ireland,Site Development,construction_confidence,10,eurostat,live,21.0,2026-09,4.3,2026-08,100
 europe,Ireland,Site Development,construction_employment,10,eurostat,live,144.0,2026-Q2,127.1,2023-Q2,100
 europe,Ireland,Site Development,financing,10,pending,pending,,,,,
 europe,Ireland,Waste & Water,wastewater_treatment,15,eurostat_candidate,live,64.76,2024,64.74,2023,50
 europe,Ireland,Waste & Water,water_stress,15,eurostat_with_worldbank_fallback,live,0.99,2023,1.15,2022,0
-europe,Ireland,Waste & Water,waste_generation,15,eurostat_candidate,no_usable_series,6,2022,,,
+europe,Ireland,Waste & Water,waste_generation,15,eurostat_candidate,live,6,2022,,,
 europe,Ireland,Waste & Water,waste_treatment,15,eurostat_candidate,live,2,2022,2,2020,50
 europe,Ireland,Waste & Water,water_pipeline,25,pending,pending,,,,,
 europe,Ireland,Waste & Water,remediation,15,pending,pending,,,,,
@@ -461,7 +461,7 @@ europe,Ireland,Agriculture,cap,5,pending,pending,,,,,
 europe,Sweden,Overall,construction_production,25,eurostat,live,87.2,2026-08,83.9,2025-08,66
 europe,Sweden,Overall,civil_output,20,eurostat,live,106.6,2026-08,108.3,2025-08,44
 europe,Sweden,Overall,building_permits,15,eurostat,live,55.2,2026-07,55.8,2026-06,46
-europe,Sweden,Overall,construction_confidence,15,eurostat,live,-3.3,2026-09,-9.7,2026-08,43
+europe,Sweden,Overall,construction_confidence,15,eurostat,live,-3.3,2026-09,-9.7,2026-08,76
 europe,Sweden,Overall,construction_employment,10,eurostat,live,100.6,2026-07,97.0,2025-07,65
 europe,Sweden,Overall,construction_costs,10,eurostat,live,125.8,2026-Q2,116.6,2023-Q2,82
 europe,Sweden,Overall,fixed_investment,5,eurostat_candidate,live,11112.6,2025,11417.0,2024,39
@@ -470,12 +470,12 @@ europe,Sweden,Transportation,transport_pipeline,25,pending,pending,,,,,
 europe,Sweden,Transportation,rail_freight,15,eurostat,live,7041,2025,6928,2024,57
 europe,Sweden,Transportation,road_freight,10,eurostat,live,23,2025,21,2024,88
 europe,Sweden,Transportation,port_freight,10,eurostat,live,12006,2026-Q2,11883,2025-Q2,54
-europe,Sweden,Transportation,construction_confidence,10,eurostat,live,-3.3,2026-09,-9.7,2026-08,43
+europe,Sweden,Transportation,construction_confidence,10,eurostat,live,-3.3,2026-09,-9.7,2026-08,76
 europe,Sweden,Transportation,funding_announcements,5,pending,pending,,,,,
 europe,Sweden,Site Development,building_permits,30,eurostat,live,55.2,2026-07,55.8,2026-06,46
 europe,Sweden,Site Development,nonres_permits,20,eurostat,live,41.9,2026-Q2,44.5,2025-Q2,27
 europe,Sweden,Site Development,building_output,20,eurostat,live,72.0,2026-08,65.9,2025-08,87
-europe,Sweden,Site Development,construction_confidence,10,eurostat,live,-3.3,2026-09,-9.7,2026-08,43
+europe,Sweden,Site Development,construction_confidence,10,eurostat,live,-3.3,2026-09,-9.7,2026-08,76
 europe,Sweden,Site Development,construction_employment,10,eurostat,live,100.6,2026-07,97.0,2025-07,65
 europe,Sweden,Site Development,financing,10,pending,pending,,,,,
 europe,Sweden,Waste & Water,wastewater_treatment,15,eurostat_candidate,live,96.0,2023,96.0,2022,50
@@ -485,7 +485,7 @@ europe,Sweden,Waste & Water,waste_treatment,15,eurostat_candidate,live,2,2022,7,
 europe,Sweden,Waste & Water,water_pipeline,25,pending,pending,,,,,
 europe,Sweden,Waste & Water,remediation,15,pending,pending,,,,,
 europe,Sweden,Oil & Gas,oil_rents,20,worldbank,live,0.0272391808431431,2021,0.0132039613355993,2020,100
-europe,Sweden,Oil & Gas,gas_rents,15,worldbank,no_usable_series,0,2021,,,
+europe,Sweden,Oil & Gas,gas_rents,15,worldbank,live,0,2021,,,
 europe,Sweden,Oil & Gas,resource_rents,10,worldbank,live,1.20827979934218,2021,0.370599691340783,2020,100
 europe,Sweden,Oil & Gas,refinery,10,pending,pending,,,,,
 europe,Sweden,Oil & Gas,lng,15,pending,pending,,,,,
@@ -512,7 +512,7 @@ europe,Sweden,Agriculture,cap,5,pending,pending,,,,,
 europe,Austria,Overall,construction_production,25,eurostat,live,97.2,2026-08,95.9,2025-08,55
 europe,Austria,Overall,civil_output,20,eurostat,live,111.0,2026-08,131.1,2025-08,0
 europe,Austria,Overall,building_permits,15,eurostat,live,61.7,2026-Q2,58.8,2023-Q2,70
-europe,Austria,Overall,construction_confidence,15,eurostat,live,-8.8,2026-09,-7.0,2026-08,32
+europe,Austria,Overall,construction_confidence,15,eurostat,live,-8.8,2026-09,-7.0,2026-08,43
 europe,Austria,Overall,construction_employment,10,eurostat,live,102.7,2026-08,103.0,2025-08,49
 europe,Austria,Overall,construction_costs,10,eurostat,live,124.9,2026-09,118.1,2025-09,73
 europe,Austria,Overall,fixed_investment,5,eurostat_candidate,live,12878.4,2025,14081.0,2024,16
@@ -521,12 +521,12 @@ europe,Austria,Transportation,transport_pipeline,25,pending,pending,,,,,
 europe,Austria,Transportation,rail_freight,15,eurostat,live,8655,2025,8861,2024,41
 europe,Austria,Transportation,road_freight,10,eurostat,live,92,2025,96,2024,33
 europe,Austria,Transportation,port_freight,10,eurostat,no_usable_series,,,,,
-europe,Austria,Transportation,construction_confidence,10,eurostat,live,-8.8,2026-09,-7.0,2026-08,32
+europe,Austria,Transportation,construction_confidence,10,eurostat,live,-8.8,2026-09,-7.0,2026-08,43
 europe,Austria,Transportation,funding_announcements,5,pending,pending,,,,,
 europe,Austria,Site Development,building_permits,30,eurostat,live,61.7,2026-Q2,58.8,2023-Q2,70
 europe,Austria,Site Development,nonres_permits,20,eurostat,live,61.7,2026-Q2,48.8,2025-Q2,100
 europe,Austria,Site Development,building_output,20,eurostat,live,83.2,2026-08,75.0,2025-08,94
-europe,Austria,Site Development,construction_confidence,10,eurostat,live,-8.8,2026-09,-7.0,2026-08,32
+europe,Austria,Site Development,construction_confidence,10,eurostat,live,-8.8,2026-09,-7.0,2026-08,43
 europe,Austria,Site Development,construction_employment,10,eurostat,live,102.7,2026-08,103.0,2025-08,49
 europe,Austria,Site Development,financing,10,pending,pending,,,,,
 europe,Austria,Waste & Water,wastewater_treatment,15,eurostat_candidate,live,99.21,2024,99.15,2023,50
@@ -542,7 +542,7 @@ europe,Austria,Oil & Gas,refinery,10,pending,pending,,,,,
 europe,Austria,Oil & Gas,lng,15,pending,pending,,,,,
 europe,Austria,Oil & Gas,oil_pipeline,30,pending,pending,,,,,
 europe,Austria,Mining,mining_production,25,eurostat_candidate,live,92.2,2026-08,86.5,2025-08,76
-europe,Austria,Mining,mineral_rents,15,worldbank,no_usable_series,0,2021,,,
+europe,Austria,Mining,mineral_rents,15,worldbank,live,0,2021,,,
 europe,Austria,Mining,resource_rents,10,worldbank,live,0.117855774382781,2021,0.07085049948111,2020,100
 europe,Austria,Mining,mining_capex,20,pending,pending,,,,,
 europe,Austria,Mining,mine_pipeline,20,pending,pending,,,,,
@@ -593,7 +593,7 @@ europe,Norway,Oil & Gas,refinery,10,pending,pending,,,,,
 europe,Norway,Oil & Gas,lng,15,pending,pending,,,,,
 europe,Norway,Oil & Gas,oil_pipeline,30,pending,pending,,,,,
 europe,Norway,Mining,mining_production,25,eurostat_candidate,live,109.0,2026-08,109.4,2025-08,49
-europe,Norway,Mining,mineral_rents,15,worldbank,no_usable_series,0,2021,,,
+europe,Norway,Mining,mineral_rents,15,worldbank,live,0,2021,,,
 europe,Norway,Mining,resource_rents,10,worldbank,live,10.0482763904291,2021,4.18128689630728,2020,100
 europe,Norway,Mining,mining_capex,20,pending,pending,,,,,
 europe,Norway,Mining,mine_pipeline,20,pending,pending,,,,,
@@ -614,7 +614,7 @@ europe,Norway,Agriculture,cap,5,pending,pending,,,,,
 europe,Denmark,Overall,construction_production,25,eurostat,live,107.6,2026-08,107.3,2025-08,51
 europe,Denmark,Overall,civil_output,20,eurostat,live,118.4,2026-08,134.6,2025-08,2
 europe,Denmark,Overall,building_permits,15,eurostat,live,61.0,2026-Q2,51.9,2023-Q2,100
-europe,Denmark,Overall,construction_confidence,15,eurostat,live,-6.8,2026-09,-7.4,2026-08,36
+europe,Denmark,Overall,construction_confidence,15,eurostat,live,-6.8,2026-09,-7.4,2026-08,52
 europe,Denmark,Overall,construction_employment,10,eurostat,live,103.3,2026-Q2,101.6,2023-Q2,57
 europe,Denmark,Overall,construction_costs,10,eurostat,live,122.8,2026-Q2,115.2,2023-Q2,76
 europe,Denmark,Overall,fixed_investment,5,eurostat_candidate,live,9531.3,2025,10173.1,2024,25
@@ -623,18 +623,18 @@ europe,Denmark,Transportation,transport_pipeline,25,pending,pending,,,,,
 europe,Denmark,Transportation,rail_freight,15,eurostat,live,155,2025,243,2024,0
 europe,Denmark,Transportation,road_freight,10,eurostat,live,10,2025,12,2024,0
 europe,Denmark,Transportation,port_freight,10,eurostat,live,5578,2026-Q2,5591,2025-Q2,49
-europe,Denmark,Transportation,construction_confidence,10,eurostat,live,-6.8,2026-09,-7.4,2026-08,36
+europe,Denmark,Transportation,construction_confidence,10,eurostat,live,-6.8,2026-09,-7.4,2026-08,52
 europe,Denmark,Transportation,funding_announcements,5,pending,pending,,,,,
 europe,Denmark,Site Development,building_permits,30,eurostat,live,61.0,2026-Q2,51.9,2023-Q2,100
 europe,Denmark,Site Development,nonres_permits,20,eurostat,live,61.0,2026-Q2,73.5,2025-Q2,0
 europe,Denmark,Site Development,building_output,20,eurostat,live,110.0,2026-08,104.2,2025-08,72
-europe,Denmark,Site Development,construction_confidence,10,eurostat,live,-6.8,2026-09,-7.4,2026-08,36
+europe,Denmark,Site Development,construction_confidence,10,eurostat,live,-6.8,2026-09,-7.4,2026-08,52
 europe,Denmark,Site Development,construction_employment,10,eurostat,live,103.3,2026-Q2,101.6,2023-Q2,57
 europe,Denmark,Site Development,financing,10,pending,pending,,,,,
 europe,Denmark,Waste & Water,wastewater_treatment,15,eurostat_candidate,live,98.03,2024,97.69,2023,51
 europe,Denmark,Waste & Water,water_stress,15,eurostat_with_worldbank_fallback,live,3.85,2023,5.21,2022,0
-europe,Denmark,Waste & Water,waste_generation,15,eurostat_candidate,no_usable_series,1,2022,,,
-europe,Denmark,Waste & Water,waste_treatment,15,eurostat_candidate,no_usable_series,1,2022,,,
+europe,Denmark,Waste & Water,waste_generation,15,eurostat_candidate,live,1,2022,,,
+europe,Denmark,Waste & Water,waste_treatment,15,eurostat_candidate,live,1,2022,,,
 europe,Denmark,Waste & Water,water_pipeline,25,pending,pending,,,,,
 europe,Denmark,Waste & Water,remediation,15,pending,pending,,,,,
 europe,Denmark,Oil & Gas,oil_rents,20,worldbank,live,0.270290117190291,2021,0.137036781200766,2020,100
@@ -644,7 +644,7 @@ europe,Denmark,Oil & Gas,refinery,10,pending,pending,,,,,
 europe,Denmark,Oil & Gas,lng,15,pending,pending,,,,,
 europe,Denmark,Oil & Gas,oil_pipeline,30,pending,pending,,,,,
 europe,Denmark,Mining,mining_production,25,eurostat_candidate,live,143.8,2026-08,143.4,2025-08,51
-europe,Denmark,Mining,mineral_rents,15,worldbank,no_usable_series,0,2021,,,
+europe,Denmark,Mining,mineral_rents,15,worldbank,live,0,2021,,,
 europe,Denmark,Mining,resource_rents,10,worldbank,live,0.33866438619955,2021,0.162332732247836,2020,100
 europe,Denmark,Mining,mining_capex,20,pending,pending,,,,,
 europe,Denmark,Mining,mine_pipeline,20,pending,pending,,,,,
@@ -665,7 +665,7 @@ europe,Denmark,Agriculture,cap,5,pending,pending,,,,,
 europe,Romania,Overall,construction_production,25,eurostat,live,184.5,2026-08,132.7,2025-08,100
 europe,Romania,Overall,civil_output,20,eurostat,no_usable_series,,,,,
 europe,Romania,Overall,building_permits,15,eurostat,live,74.6,2026-08,68.6,2026-07,85
-europe,Romania,Overall,construction_confidence,15,eurostat,live,-7.7,2026-09,-5.9,2026-08,35
+europe,Romania,Overall,construction_confidence,15,eurostat,live,-7.7,2026-09,-5.9,2026-08,43
 europe,Romania,Overall,construction_employment,10,eurostat,live,108.7,2026-08,108.4,2025-08,51
 europe,Romania,Overall,construction_costs,10,eurostat,live,164.7,2026-Q2,126.8,2023-Q2,100
 europe,Romania,Overall,fixed_investment,5,eurostat_candidate,live,6123.9,2025,5911.6,2024,64
@@ -674,17 +674,17 @@ europe,Romania,Transportation,transport_pipeline,25,pending,pending,,,,,
 europe,Romania,Transportation,rail_freight,15,eurostat,live,1795,2025,2217,2024,0
 europe,Romania,Transportation,road_freight,10,eurostat,live,39247,2025,38658,2024,56
 europe,Romania,Transportation,port_freight,10,eurostat,live,1169,2026-Q1,672,2025-Q1,100
-europe,Romania,Transportation,construction_confidence,10,eurostat,live,-7.7,2026-09,-5.9,2026-08,35
+europe,Romania,Transportation,construction_confidence,10,eurostat,live,-7.7,2026-09,-5.9,2026-08,43
 europe,Romania,Transportation,funding_announcements,5,pending,pending,,,,,
 europe,Romania,Site Development,building_permits,30,eurostat,live,74.6,2026-08,68.6,2026-07,85
 europe,Romania,Site Development,nonres_permits,20,eurostat,live,67.8,2026-Q2,78.1,2025-Q2,0
 europe,Romania,Site Development,building_output,20,eurostat,no_usable_series,,,,,
-europe,Romania,Site Development,construction_confidence,10,eurostat,live,-7.7,2026-09,-5.9,2026-08,35
+europe,Romania,Site Development,construction_confidence,10,eurostat,live,-7.7,2026-09,-5.9,2026-08,43
 europe,Romania,Site Development,construction_employment,10,eurostat,live,108.7,2026-08,108.4,2025-08,51
 europe,Romania,Site Development,financing,10,pending,pending,,,,,
 europe,Romania,Waste & Water,wastewater_treatment,15,eurostat_candidate,live,55.45,2024,54.75,2023,55
 europe,Romania,Waste & Water,water_stress,15,eurostat_with_worldbank_fallback,live,47.38,2023,23.26,2022,100
-europe,Romania,Waste & Water,waste_generation,15,eurostat_candidate,no_usable_series,1,2022,,,
+europe,Romania,Waste & Water,waste_generation,15,eurostat_candidate,live,1,2022,,,
 europe,Romania,Waste & Water,waste_treatment,15,eurostat_candidate,live,1,2022,1,2020,50
 europe,Romania,Waste & Water,water_pipeline,25,pending,pending,,,,,
 europe,Romania,Waste & Water,remediation,15,pending,pending,,,,,
@@ -716,7 +716,7 @@ europe,Romania,Agriculture,cap,5,pending,pending,,,,,
 europe,Czechia,Overall,construction_production,25,eurostat,live,128.5,2026-08,130.3,2025-08,44
 europe,Czechia,Overall,civil_output,20,eurostat,live,131.6,2026-08,150.1,2025-08,1
 europe,Czechia,Overall,building_permits,15,eurostat,live,83.9,2026-Q2,76.8,2023-Q2,87
-europe,Czechia,Overall,construction_confidence,15,eurostat,live,-6.5,2026-09,-5.3,2026-08,37
+europe,Czechia,Overall,construction_confidence,15,eurostat,live,-6.5,2026-09,-5.3,2026-08,45
 europe,Czechia,Overall,construction_employment,10,eurostat,live,105.7,2026-Q2,104.4,2023-Q2,55
 europe,Czechia,Overall,construction_costs,10,eurostat,live,134.1,2026-Q2,126.1,2023-Q2,75
 europe,Czechia,Overall,fixed_investment,5,eurostat_candidate,live,10485.8,2025,10292.7,2024,58
@@ -725,12 +725,12 @@ europe,Czechia,Transportation,transport_pipeline,25,pending,pending,,,,,
 europe,Czechia,Transportation,rail_freight,15,eurostat,live,7337,2025,7446,2024,44
 europe,Czechia,Transportation,road_freight,10,eurostat,live,315,2025,295,2024,77
 europe,Czechia,Transportation,port_freight,10,eurostat,no_usable_series,,,,,
-europe,Czechia,Transportation,construction_confidence,10,eurostat,live,-6.5,2026-09,-5.3,2026-08,37
+europe,Czechia,Transportation,construction_confidence,10,eurostat,live,-6.5,2026-09,-5.3,2026-08,45
 europe,Czechia,Transportation,funding_announcements,5,pending,pending,,,,,
 europe,Czechia,Site Development,building_permits,30,eurostat,live,83.9,2026-Q2,76.8,2023-Q2,87
 europe,Czechia,Site Development,nonres_permits,20,eurostat,live,83.9,2026-Q2,64.2,2025-Q2,100
 europe,Czechia,Site Development,building_output,20,eurostat,live,115.9,2026-08,114.4,2025-08,55
-europe,Czechia,Site Development,construction_confidence,10,eurostat,live,-6.5,2026-09,-5.3,2026-08,37
+europe,Czechia,Site Development,construction_confidence,10,eurostat,live,-6.5,2026-09,-5.3,2026-08,45
 europe,Czechia,Site Development,construction_employment,10,eurostat,live,105.7,2026-Q2,104.4,2023-Q2,55
 europe,Czechia,Site Development,financing,10,pending,pending,,,,,
 europe,Czechia,Waste & Water,wastewater_treatment,15,eurostat_candidate,live,86.5,2024,84.4,2023,60
@@ -746,7 +746,7 @@ europe,Czechia,Oil & Gas,refinery,10,pending,pending,,,,,
 europe,Czechia,Oil & Gas,lng,15,pending,pending,,,,,
 europe,Czechia,Oil & Gas,oil_pipeline,30,pending,pending,,,,,
 europe,Czechia,Mining,mining_production,25,eurostat_candidate,live,68.2,2026-08,68.3,2025-08,49
-europe,Czechia,Mining,mineral_rents,15,worldbank,no_usable_series,0,2021,,,
+europe,Czechia,Mining,mineral_rents,15,worldbank,live,0,2021,,,
 europe,Czechia,Mining,resource_rents,10,worldbank,live,0.394999591152656,2021,0.416571327081177,2020,29
 europe,Czechia,Mining,mining_capex,20,pending,pending,,,,,
 europe,Czechia,Mining,mine_pipeline,20,pending,pending,,,,,
@@ -767,7 +767,7 @@ europe,Czechia,Agriculture,cap,5,pending,pending,,,,,
 europe,Portugal,Overall,construction_production,25,eurostat,live,108.4,2026-08,106.3,2025-08,58
 europe,Portugal,Overall,civil_output,20,eurostat,live,103.2,2026-08,103.3,2025-08,50
 europe,Portugal,Overall,building_permits,15,eurostat,live,128.0,2026-08,110.9,2026-07,100
-europe,Portugal,Overall,construction_confidence,15,eurostat,live,2.3,2026-09,6.1,2026-08,55
+europe,Portugal,Overall,construction_confidence,15,eurostat,live,2.3,2026-09,6.1,2026-08,35
 europe,Portugal,Overall,construction_employment,10,eurostat,live,115.0,2026-08,112.8,2025-08,58
 europe,Portugal,Overall,construction_costs,10,eurostat,live,134.9,2026-08,125.4,2025-08,80
 europe,Portugal,Overall,fixed_investment,5,eurostat_candidate,live,6796.8,2025,6507.7,2024,68
@@ -776,22 +776,22 @@ europe,Portugal,Transportation,transport_pipeline,25,pending,pending,,,,,
 europe,Portugal,Transportation,rail_freight,15,eurostat,live,797,2025,709,2024,100
 europe,Portugal,Transportation,road_freight,10,eurostat,live,71,2025,67,2024,74
 europe,Portugal,Transportation,port_freight,10,eurostat,live,3581,2026-Q1,3628,2025-Q1,45
-europe,Portugal,Transportation,construction_confidence,10,eurostat,live,2.3,2026-09,6.1,2026-08,55
+europe,Portugal,Transportation,construction_confidence,10,eurostat,live,2.3,2026-09,6.1,2026-08,35
 europe,Portugal,Transportation,funding_announcements,5,pending,pending,,,,,
 europe,Portugal,Site Development,building_permits,30,eurostat,live,128.0,2026-08,110.9,2026-07,100
 europe,Portugal,Site Development,nonres_permits,20,eurostat,live,100.1,2026-Q2,102.8,2025-Q2,39
 europe,Portugal,Site Development,building_output,20,eurostat,live,103.4,2026-08,103.5,2025-08,50
-europe,Portugal,Site Development,construction_confidence,10,eurostat,live,2.3,2026-09,6.1,2026-08,55
+europe,Portugal,Site Development,construction_confidence,10,eurostat,live,2.3,2026-09,6.1,2026-08,35
 europe,Portugal,Site Development,construction_employment,10,eurostat,live,115.0,2026-08,112.8,2025-08,58
 europe,Portugal,Site Development,financing,10,pending,pending,,,,,
 europe,Portugal,Waste & Water,wastewater_treatment,15,eurostat_candidate,live,55.8,2009,52.0,2008,79
 europe,Portugal,Waste & Water,water_stress,15,eurostat_with_worldbank_fallback,live,7.27,2023,10.09,2022,0
-europe,Portugal,Waste & Water,waste_generation,15,eurostat_candidate,no_usable_series,0,2022,,,
+europe,Portugal,Waste & Water,waste_generation,15,eurostat_candidate,live,0,2022,,,
 europe,Portugal,Waste & Water,waste_treatment,15,eurostat_candidate,live,2,2022,3,2020,0
 europe,Portugal,Waste & Water,water_pipeline,25,pending,pending,,,,,
 europe,Portugal,Waste & Water,remediation,15,pending,pending,,,,,
 europe,Portugal,Oil & Gas,oil_rents,20,worldbank,live,0.0518131827535177,2021,0.023939484713493,2020,100
-europe,Portugal,Oil & Gas,gas_rents,15,worldbank,no_usable_series,0,2021,,,
+europe,Portugal,Oil & Gas,gas_rents,15,worldbank,live,0,2021,,,
 europe,Portugal,Oil & Gas,resource_rents,10,worldbank,live,0.291415692065373,2021,0.200282467054982,2020,100
 europe,Portugal,Oil & Gas,refinery,10,pending,pending,,,,,
 europe,Portugal,Oil & Gas,lng,15,pending,pending,,,,,
@@ -818,7 +818,7 @@ europe,Portugal,Agriculture,cap,5,pending,pending,,,,,
 europe,Finland,Overall,construction_production,25,eurostat,live,120.3,2026-08,106.7,2025-08,100
 europe,Finland,Overall,civil_output,20,eurostat,live,108.0,2026-08,100.8,2025-08,79
 europe,Finland,Overall,building_permits,15,eurostat,live,62.2,2026-06,54.2,2026-05,100
-europe,Finland,Overall,construction_confidence,15,eurostat,live,-7.5,2026-09,-8.5,2026-08,35
+europe,Finland,Overall,construction_confidence,15,eurostat,live,-7.5,2026-09,-8.5,2026-08,54
 europe,Finland,Overall,construction_employment,10,eurostat,live,114.6,2026-08,105.6,2025-08,84
 europe,Finland,Overall,construction_costs,10,eurostat,live,115.9,2026-09,112.0,2025-09,64
 europe,Finland,Overall,fixed_investment,5,eurostat_candidate,live,7348.0,2025,7299.6,2024,53
@@ -827,22 +827,22 @@ europe,Finland,Transportation,transport_pipeline,25,pending,pending,,,,,
 europe,Finland,Transportation,rail_freight,15,eurostat,live,570,2025,434,2024,100
 europe,Finland,Transportation,road_freight,10,eurostat,live,4,2025,9,2024,0
 europe,Finland,Transportation,port_freight,10,eurostat,live,7833,2026-Q1,7680,2025-Q1,58
-europe,Finland,Transportation,construction_confidence,10,eurostat,live,-7.5,2026-09,-8.5,2026-08,35
+europe,Finland,Transportation,construction_confidence,10,eurostat,live,-7.5,2026-09,-8.5,2026-08,54
 europe,Finland,Transportation,funding_announcements,5,pending,pending,,,,,
 europe,Finland,Site Development,building_permits,30,eurostat,live,62.2,2026-06,54.2,2026-05,100
 europe,Finland,Site Development,nonres_permits,20,eurostat,live,57.6,2026-Q2,63.8,2025-Q2,11
 europe,Finland,Site Development,building_output,20,eurostat,live,93.2,2026-08,87.2,2025-08,78
-europe,Finland,Site Development,construction_confidence,10,eurostat,live,-7.5,2026-09,-8.5,2026-08,35
+europe,Finland,Site Development,construction_confidence,10,eurostat,live,-7.5,2026-09,-8.5,2026-08,54
 europe,Finland,Site Development,construction_employment,10,eurostat,live,114.6,2026-08,105.6,2025-08,84
 europe,Finland,Site Development,financing,10,pending,pending,,,,,
 europe,Finland,Waste & Water,wastewater_treatment,15,eurostat_candidate,live,85.0,2024,85.0,2023,50
 europe,Finland,Waste & Water,water_stress,15,eurostat_with_worldbank_fallback,live,0.5,2023,0.6,2022,0
-europe,Finland,Waste & Water,waste_generation,15,eurostat_candidate,no_usable_series,0,2022,,,
+europe,Finland,Waste & Water,waste_generation,15,eurostat_candidate,live,0,2022,,,
 europe,Finland,Waste & Water,waste_treatment,15,eurostat_candidate,live,14,2022,19,2020,0
 europe,Finland,Waste & Water,water_pipeline,25,pending,pending,,,,,
 europe,Finland,Waste & Water,remediation,15,pending,pending,,,,,
 europe,Finland,Oil & Gas,oil_rents,20,worldbank,live,0.0456314892036643,2021,0.0208151367431629,2020,100
-europe,Finland,Oil & Gas,gas_rents,15,worldbank,no_usable_series,0,2021,,,
+europe,Finland,Oil & Gas,gas_rents,15,worldbank,live,0,2021,,,
 europe,Finland,Oil & Gas,resource_rents,10,worldbank,live,0.448312840515242,2021,0.289254242774969,2020,100
 europe,Finland,Oil & Gas,refinery,10,pending,pending,,,,,
 europe,Finland,Oil & Gas,lng,15,pending,pending,,,,,
@@ -869,7 +869,7 @@ europe,Finland,Agriculture,cap,5,pending,pending,,,,,
 europe,Greece,Overall,construction_production,25,eurostat,live,156.2,2026-Q2,119.6,2023-Q2,100
 europe,Greece,Overall,civil_output,20,eurostat,live,155.1,2026-Q2,131.0,2023-Q2,100
 europe,Greece,Overall,building_permits,15,eurostat,live,156.1,2026-06,151.9,2026-05,61
-europe,Greece,Overall,construction_confidence,15,eurostat,live,14.2,2026-09,25.6,2026-08,78
+europe,Greece,Overall,construction_confidence,15,eurostat,live,14.2,2026-09,25.6,2026-08,4
 europe,Greece,Overall,construction_employment,10,eurostat,live,120.1,2026-Q2,110.2,2023-Q2,86
 europe,Greece,Overall,construction_costs,10,eurostat,live,127.6,2026-Q2,115.1,2023-Q2,93
 europe,Greece,Overall,fixed_investment,5,eurostat_candidate,live,6518.0,2025,5324.5,2024,100
@@ -878,18 +878,18 @@ europe,Greece,Transportation,transport_pipeline,25,pending,pending,,,,,
 europe,Greece,Transportation,rail_freight,15,eurostat,live,248,2025,227,2024,87
 europe,Greece,Transportation,road_freight,10,eurostat,live,39,2025,29,2024,100
 europe,Greece,Transportation,port_freight,10,eurostat,live,3621,2026-Q1,4035,2025-Q1,9
-europe,Greece,Transportation,construction_confidence,10,eurostat,live,14.2,2026-09,25.6,2026-08,78
+europe,Greece,Transportation,construction_confidence,10,eurostat,live,14.2,2026-09,25.6,2026-08,4
 europe,Greece,Transportation,funding_announcements,5,pending,pending,,,,,
 europe,Greece,Site Development,building_permits,30,eurostat,live,156.1,2026-06,151.9,2026-05,61
 europe,Greece,Site Development,nonres_permits,20,eurostat,live,116.7,2026-Q2,105.0,2025-Q2,95
 europe,Greece,Site Development,building_output,20,eurostat,no_usable_series,,,,,
-europe,Greece,Site Development,construction_confidence,10,eurostat,live,14.2,2026-09,25.6,2026-08,78
+europe,Greece,Site Development,construction_confidence,10,eurostat,live,14.2,2026-09,25.6,2026-08,4
 europe,Greece,Site Development,construction_employment,10,eurostat,live,120.1,2026-Q2,110.2,2023-Q2,86
 europe,Greece,Site Development,financing,10,pending,pending,,,,,
 europe,Greece,Waste & Water,wastewater_treatment,15,eurostat_candidate,live,95.19,2023,94.9,2022,51
 europe,Greece,Waste & Water,water_stress,15,eurostat_with_worldbank_fallback,live,13.16,2023,13.99,2022,26
-europe,Greece,Waste & Water,waste_generation,15,eurostat_candidate,no_usable_series,0,2022,,,
-europe,Greece,Waste & Water,waste_treatment,15,eurostat_candidate,no_usable_series,0,2022,,,
+europe,Greece,Waste & Water,waste_generation,15,eurostat_candidate,live,0,2022,,,
+europe,Greece,Waste & Water,waste_treatment,15,eurostat_candidate,live,0,2022,,,
 europe,Greece,Waste & Water,water_pipeline,25,pending,pending,,,,,
 europe,Greece,Waste & Water,remediation,15,pending,pending,,,,,
 europe,Greece,Oil & Gas,oil_rents,20,worldbank,live,0.0116928580271195,2021,0.00652358198539234,2020,100
@@ -920,7 +920,7 @@ europe,Greece,Agriculture,cap,5,pending,pending,,,,,
 europe,Hungary,Overall,construction_production,25,eurostat,live,99.3,2026-08,81.4,2025-08,100
 europe,Hungary,Overall,civil_output,20,eurostat,live,133.7,2026-08,47.1,2025-08,100
 europe,Hungary,Overall,building_permits,15,eurostat,live,79.0,2026-07,66.8,2026-06,100
-europe,Hungary,Overall,construction_confidence,15,eurostat,live,-28.1,2026-09,-27.9,2026-08,0
+europe,Hungary,Overall,construction_confidence,15,eurostat,live,-28.1,2026-09,-27.9,2026-08,49
 europe,Hungary,Overall,construction_employment,10,eurostat,live,98.1,2026-Q2,105.6,2023-Q2,22
 europe,Hungary,Overall,construction_costs,10,eurostat,live,167.9,2026-Q2,142.5,2023-Q2,100
 europe,Hungary,Overall,fixed_investment,5,eurostat_candidate,live,2965.6,2025,3124.7,2024,30
@@ -929,12 +929,12 @@ europe,Hungary,Transportation,transport_pipeline,25,pending,pending,,,,,
 europe,Hungary,Transportation,rail_freight,15,eurostat,live,4579,2025,5218,2024,1
 europe,Hungary,Transportation,road_freight,10,eurostat,live,140,2025,138,2024,56
 europe,Hungary,Transportation,port_freight,10,eurostat,no_usable_series,,,,,
-europe,Hungary,Transportation,construction_confidence,10,eurostat,live,-28.1,2026-09,-27.9,2026-08,0
+europe,Hungary,Transportation,construction_confidence,10,eurostat,live,-28.1,2026-09,-27.9,2026-08,49
 europe,Hungary,Transportation,funding_announcements,5,pending,pending,,,,,
 europe,Hungary,Site Development,building_permits,30,eurostat,live,79.0,2026-07,66.8,2026-06,100
 europe,Hungary,Site Development,nonres_permits,20,eurostat,live,56.5,2026-Q2,62.8,2025-Q2,10
 europe,Hungary,Site Development,building_output,20,eurostat,live,81.6,2026-08,85.7,2025-08,31
-europe,Hungary,Site Development,construction_confidence,10,eurostat,live,-28.1,2026-09,-27.9,2026-08,0
+europe,Hungary,Site Development,construction_confidence,10,eurostat,live,-28.1,2026-09,-27.9,2026-08,49
 europe,Hungary,Site Development,construction_employment,10,eurostat,live,98.1,2026-Q2,105.6,2023-Q2,22
 europe,Hungary,Site Development,financing,10,pending,pending,,,,,
 europe,Hungary,Waste & Water,wastewater_treatment,15,eurostat_candidate,live,84.51,2024,80.62,2023,69
@@ -950,7 +950,7 @@ europe,Hungary,Oil & Gas,refinery,10,pending,pending,,,,,
 europe,Hungary,Oil & Gas,lng,15,pending,pending,,,,,
 europe,Hungary,Oil & Gas,oil_pipeline,30,pending,pending,,,,,
 europe,Hungary,Mining,mining_production,25,eurostat_candidate,live,169.5,2026-08,89.4,2025-08,100
-europe,Hungary,Mining,mineral_rents,15,worldbank,no_usable_series,0,2021,,,
+europe,Hungary,Mining,mineral_rents,15,worldbank,live,0,2021,,,
 europe,Hungary,Mining,resource_rents,10,worldbank,live,0.402362635857113,2021,0.204655214271402,2020,100
 europe,Hungary,Mining,mining_capex,20,pending,pending,,,,,
 europe,Hungary,Mining,mine_pipeline,20,pending,pending,,,,,
@@ -971,7 +971,7 @@ europe,Hungary,Agriculture,cap,5,pending,pending,,,,,
 europe,Slovakia,Overall,construction_production,25,eurostat,live,84.0,2026-08,88.3,2025-08,31
 europe,Slovakia,Overall,civil_output,20,eurostat,live,97.9,2026-08,108.7,2025-08,10
 europe,Slovakia,Overall,building_permits,15,eurostat,live,44.4,2026-Q2,74.8,2023-Q2,0
-europe,Slovakia,Overall,construction_confidence,15,eurostat,live,-5.0,2026-09,-4.5,2026-08,40
+europe,Slovakia,Overall,construction_confidence,15,eurostat,live,-5.0,2026-09,-4.5,2026-08,48
 europe,Slovakia,Overall,construction_employment,10,eurostat,live,103.8,2026-08,98.6,2025-08,71
 europe,Slovakia,Overall,construction_costs,10,eurostat,live,155.7,2026-Q2,135.2,2023-Q2,100
 europe,Slovakia,Overall,fixed_investment,5,eurostat_candidate,live,1734.6,2025,2129.6,2024,0
@@ -980,12 +980,12 @@ europe,Slovakia,Transportation,transport_pipeline,25,pending,pending,,,,,
 europe,Slovakia,Transportation,rail_freight,15,eurostat,live,3516,2025,3875,2024,13
 europe,Slovakia,Transportation,road_freight,10,eurostat,live,193,2025,198,2024,40
 europe,Slovakia,Transportation,port_freight,10,eurostat,no_usable_series,,,,,
-europe,Slovakia,Transportation,construction_confidence,10,eurostat,live,-5.0,2026-09,-4.5,2026-08,40
+europe,Slovakia,Transportation,construction_confidence,10,eurostat,live,-5.0,2026-09,-4.5,2026-08,48
 europe,Slovakia,Transportation,funding_announcements,5,pending,pending,,,,,
 europe,Slovakia,Site Development,building_permits,30,eurostat,live,44.4,2026-Q2,74.8,2023-Q2,0
 europe,Slovakia,Site Development,nonres_permits,20,eurostat,live,44.4,2026-Q2,62.7,2025-Q2,0
 europe,Slovakia,Site Development,building_output,20,eurostat,live,101.9,2026-08,99.8,2025-08,58
-europe,Slovakia,Site Development,construction_confidence,10,eurostat,live,-5.0,2026-09,-4.5,2026-08,40
+europe,Slovakia,Site Development,construction_confidence,10,eurostat,live,-5.0,2026-09,-4.5,2026-08,48
 europe,Slovakia,Site Development,construction_employment,10,eurostat,live,103.8,2026-08,98.6,2025-08,71
 europe,Slovakia,Site Development,financing,10,pending,pending,,,,,
 europe,Slovakia,Waste & Water,wastewater_treatment,15,eurostat_candidate,live,71.75,2024,71.1,2023,54
@@ -1022,7 +1022,7 @@ europe,Slovakia,Agriculture,cap,5,pending,pending,,,,,
 europe,Bulgaria,Overall,construction_production,25,eurostat,live,119.0,2026-08,114.2,2025-08,67
 europe,Bulgaria,Overall,civil_output,20,eurostat,live,109.5,2026-08,105.1,2025-08,67
 europe,Bulgaria,Overall,building_permits,15,eurostat,live,131.1,2026-Q2,118.0,2023-Q2,94
-europe,Bulgaria,Overall,construction_confidence,15,eurostat,live,-6.6,2026-09,-8.0,2026-08,37
+europe,Bulgaria,Overall,construction_confidence,15,eurostat,live,-6.6,2026-09,-8.0,2026-08,56
 europe,Bulgaria,Overall,construction_employment,10,eurostat,live,100.4,2026-Q2,101.6,2023-Q2,45
 europe,Bulgaria,Overall,construction_costs,10,eurostat,live,230.8,2026-Q2,179.3,2023-Q2,100
 europe,Bulgaria,Overall,fixed_investment,5,eurostat_candidate,live,1610.8,2025,1339.4,2024,100
@@ -1031,12 +1031,12 @@ europe,Bulgaria,Transportation,transport_pipeline,25,pending,pending,,,,,
 europe,Bulgaria,Transportation,rail_freight,15,eurostat,live,733,2025,845,2024,0
 europe,Bulgaria,Transportation,road_freight,10,eurostat,live,114,2025,118,2024,36
 europe,Bulgaria,Transportation,port_freight,10,eurostat,live,254,2026-Q2,206,2025-Q2,100
-europe,Bulgaria,Transportation,construction_confidence,10,eurostat,live,-6.6,2026-09,-8.0,2026-08,37
+europe,Bulgaria,Transportation,construction_confidence,10,eurostat,live,-6.6,2026-09,-8.0,2026-08,56
 europe,Bulgaria,Transportation,funding_announcements,5,pending,pending,,,,,
 europe,Bulgaria,Site Development,building_permits,30,eurostat,live,131.1,2026-Q2,118.0,2023-Q2,94
 europe,Bulgaria,Site Development,nonres_permits,20,eurostat,live,131.1,2026-Q2,117.9,2025-Q2,95
 europe,Bulgaria,Site Development,building_output,20,eurostat,live,118.8,2026-08,110.6,2025-08,80
-europe,Bulgaria,Site Development,construction_confidence,10,eurostat,live,-6.6,2026-09,-8.0,2026-08,37
+europe,Bulgaria,Site Development,construction_confidence,10,eurostat,live,-6.6,2026-09,-8.0,2026-08,56
 europe,Bulgaria,Site Development,construction_employment,10,eurostat,live,100.4,2026-Q2,101.6,2023-Q2,45
 europe,Bulgaria,Site Development,financing,10,pending,pending,,,,,
 europe,Bulgaria,Waste & Water,wastewater_treatment,15,eurostat_candidate,live,67.46,2024,67.23,2023,51
@@ -1073,7 +1073,7 @@ europe,Bulgaria,Agriculture,cap,5,pending,pending,,,,,
 europe,Croatia,Overall,construction_production,25,eurostat,live,143.0,2026-07,139.2,2025-07,61
 europe,Croatia,Overall,civil_output,20,eurostat,live,101.0,2022-Q4,100.5,2022-Q3,52
 europe,Croatia,Overall,building_permits,15,eurostat,live,119.1,2026-Q2,107.4,2023-Q2,94
-europe,Croatia,Overall,construction_confidence,15,eurostat,live,8.4,2026-09,4.4,2026-08,67
+europe,Croatia,Overall,construction_confidence,15,eurostat,live,8.4,2026-09,4.4,2026-08,66
 europe,Croatia,Overall,construction_employment,10,eurostat,live,129.4,2026-Q2,109.1,2023-Q2,100
 europe,Croatia,Overall,construction_costs,10,eurostat,live,161.8,2026-Q2,127.4,2023-Q2,100
 europe,Croatia,Overall,fixed_investment,5,eurostat_candidate,live,1752.0,2025,1588.7,2024,91
@@ -1082,18 +1082,18 @@ europe,Croatia,Transportation,transport_pipeline,25,pending,pending,,,,,
 europe,Croatia,Transportation,rail_freight,15,eurostat,live,1584,2025,1567,2024,54
 europe,Croatia,Transportation,road_freight,10,eurostat,live,86,2025,75,2024,100
 europe,Croatia,Transportation,port_freight,10,eurostat,live,1010,2026-Q2,888,2025-Q2,100
-europe,Croatia,Transportation,construction_confidence,10,eurostat,live,8.4,2026-09,4.4,2026-08,67
+europe,Croatia,Transportation,construction_confidence,10,eurostat,live,8.4,2026-09,4.4,2026-08,66
 europe,Croatia,Transportation,funding_announcements,5,pending,pending,,,,,
 europe,Croatia,Site Development,building_permits,30,eurostat,live,119.1,2026-Q2,107.4,2023-Q2,94
 europe,Croatia,Site Development,nonres_permits,20,eurostat,live,119.1,2026-Q2,129.3,2025-Q2,18
 europe,Croatia,Site Development,building_output,20,eurostat,no_usable_series,,,,,
-europe,Croatia,Site Development,construction_confidence,10,eurostat,live,8.4,2026-09,4.4,2026-08,67
+europe,Croatia,Site Development,construction_confidence,10,eurostat,live,8.4,2026-09,4.4,2026-08,66
 europe,Croatia,Site Development,construction_employment,10,eurostat,live,129.4,2026-Q2,109.1,2023-Q2,100
 europe,Croatia,Site Development,financing,10,pending,pending,,,,,
 europe,Croatia,Waste & Water,wastewater_treatment,15,eurostat_candidate,live,36.5,2024,33.1,2022,91
 europe,Croatia,Waste & Water,water_stress,15,eurostat_with_worldbank_fallback,live,0.23,2023,0.34,2022,0
-europe,Croatia,Waste & Water,waste_generation,15,eurostat_candidate,no_usable_series,0,2022,,,
-europe,Croatia,Waste & Water,waste_treatment,15,eurostat_candidate,no_usable_series,0,2022,,,
+europe,Croatia,Waste & Water,waste_generation,15,eurostat_candidate,live,0,2022,,,
+europe,Croatia,Waste & Water,waste_treatment,15,eurostat_candidate,live,0,2022,,,
 europe,Croatia,Waste & Water,water_pipeline,25,pending,pending,,,,,
 europe,Croatia,Waste & Water,remediation,15,pending,pending,,,,,
 europe,Croatia,Oil & Gas,oil_rents,20,worldbank,live,0.280358036189526,2021,0.141105225031332,2020,100
@@ -1103,7 +1103,7 @@ europe,Croatia,Oil & Gas,refinery,10,pending,pending,,,,,
 europe,Croatia,Oil & Gas,lng,15,pending,pending,,,,,
 europe,Croatia,Oil & Gas,oil_pipeline,30,pending,pending,,,,,
 europe,Croatia,Mining,mining_production,25,eurostat_candidate,live,80.0,2026-08,83.1,2025-08,35
-europe,Croatia,Mining,mineral_rents,15,worldbank,no_usable_series,0,2021,,,
+europe,Croatia,Mining,mineral_rents,15,worldbank,live,0,2021,,,
 europe,Croatia,Mining,resource_rents,10,worldbank,live,0.681198197003712,2021,0.439094632914067,2020,100
 europe,Croatia,Mining,mining_capex,20,pending,pending,,,,,
 europe,Croatia,Mining,mine_pipeline,20,pending,pending,,,,,
@@ -1124,7 +1124,7 @@ europe,Croatia,Agriculture,cap,5,pending,pending,,,,,
 europe,Luxembourg,Overall,construction_production,25,eurostat,live,103.4,2026-07,96.6,2025-07,78
 europe,Luxembourg,Overall,civil_output,20,eurostat,no_usable_series,,,,,
 europe,Luxembourg,Overall,building_permits,15,eurostat,live,52.0,2026-Q2,66.0,2023-Q2,0
-europe,Luxembourg,Overall,construction_confidence,15,eurostat,live,-6.9,2026-09,-8.4,2026-08,36
+europe,Luxembourg,Overall,construction_confidence,15,eurostat,live,-6.9,2026-09,-8.4,2026-08,56
 europe,Luxembourg,Overall,construction_employment,10,eurostat,live,98.5,2026-07,97.8,2025-07,53
 europe,Luxembourg,Overall,construction_costs,10,eurostat,live,133.9,2026-Q2,126.3,2023-Q2,74
 europe,Luxembourg,Overall,fixed_investment,5,eurostat_candidate,live,1457.5,2025,1627.7,2024,8
@@ -1133,28 +1133,28 @@ europe,Luxembourg,Transportation,transport_pipeline,25,pending,pending,,,,,
 europe,Luxembourg,Transportation,rail_freight,15,eurostat,live,141,2025,157,2024,9
 europe,Luxembourg,Transportation,road_freight,10,eurostat,live,2695,2025,3103,2024,0
 europe,Luxembourg,Transportation,port_freight,10,eurostat,no_usable_series,,,,,
-europe,Luxembourg,Transportation,construction_confidence,10,eurostat,live,-6.9,2026-09,-8.4,2026-08,36
+europe,Luxembourg,Transportation,construction_confidence,10,eurostat,live,-6.9,2026-09,-8.4,2026-08,56
 europe,Luxembourg,Transportation,funding_announcements,5,pending,pending,,,,,
 europe,Luxembourg,Site Development,building_permits,30,eurostat,live,52.0,2026-Q2,66.0,2023-Q2,0
 europe,Luxembourg,Site Development,nonres_permits,20,eurostat,live,52.0,2026-Q2,53.0,2025-Q2,42
 europe,Luxembourg,Site Development,building_output,20,eurostat,no_usable_series,,,,,
-europe,Luxembourg,Site Development,construction_confidence,10,eurostat,live,-6.9,2026-09,-8.4,2026-08,36
+europe,Luxembourg,Site Development,construction_confidence,10,eurostat,live,-6.9,2026-09,-8.4,2026-08,56
 europe,Luxembourg,Site Development,construction_employment,10,eurostat,live,98.5,2026-07,97.8,2025-07,53
 europe,Luxembourg,Site Development,financing,10,pending,pending,,,,,
 europe,Luxembourg,Waste & Water,wastewater_treatment,15,eurostat_candidate,live,97.0,2017,96.9,2016,50
 europe,Luxembourg,Waste & Water,water_stress,15,eurostat_with_worldbank_fallback,live,1.88,2023,2.61,2022,0
-europe,Luxembourg,Waste & Water,waste_generation,15,eurostat_candidate,no_usable_series,0,2022,,,
-europe,Luxembourg,Waste & Water,waste_treatment,15,eurostat_candidate,no_usable_series,0,2022,,,
+europe,Luxembourg,Waste & Water,waste_generation,15,eurostat_candidate,live,0,2022,,,
+europe,Luxembourg,Waste & Water,waste_treatment,15,eurostat_candidate,live,0,2022,,,
 europe,Luxembourg,Waste & Water,water_pipeline,25,pending,pending,,,,,
 europe,Luxembourg,Waste & Water,remediation,15,pending,pending,,,,,
-europe,Luxembourg,Oil & Gas,oil_rents,20,worldbank,no_usable_series,0,2021,,,
-europe,Luxembourg,Oil & Gas,gas_rents,15,worldbank,no_usable_series,0,2021,,,
+europe,Luxembourg,Oil & Gas,oil_rents,20,worldbank,live,0,2021,,,
+europe,Luxembourg,Oil & Gas,gas_rents,15,worldbank,live,0,2021,,,
 europe,Luxembourg,Oil & Gas,resource_rents,10,worldbank,live,0.00475136757511518,2021,0.00666359766515693,2020,0
 europe,Luxembourg,Oil & Gas,refinery,10,pending,pending,,,,,
 europe,Luxembourg,Oil & Gas,lng,15,pending,pending,,,,,
 europe,Luxembourg,Oil & Gas,oil_pipeline,30,pending,pending,,,,,
 europe,Luxembourg,Mining,mining_production,25,eurostat_candidate,live,19.6,2026-08,28.5,2025-08,0
-europe,Luxembourg,Mining,mineral_rents,15,worldbank,no_usable_series,0,2021,,,
+europe,Luxembourg,Mining,mineral_rents,15,worldbank,live,0,2021,,,
 europe,Luxembourg,Mining,resource_rents,10,worldbank,live,0.00475136757511518,2021,0.00666359766515693,2020,0
 europe,Luxembourg,Mining,mining_capex,20,pending,pending,,,,,
 europe,Luxembourg,Mining,mine_pipeline,20,pending,pending,,,,,
@@ -1175,7 +1175,7 @@ europe,Luxembourg,Agriculture,cap,5,pending,pending,,,,,
 europe,Lithuania,Overall,construction_production,25,eurostat,live,146.0,2026-Q2,120.3,2023-Q2,100
 europe,Lithuania,Overall,civil_output,20,eurostat,live,172.5,2026-Q2,127.4,2023-Q2,100
 europe,Lithuania,Overall,building_permits,15,eurostat,live,66.7,2026-Q2,66.2,2023-Q2,53
-europe,Lithuania,Overall,construction_confidence,15,eurostat,live,-4.8,2026-09,-1.7,2026-08,40
+europe,Lithuania,Overall,construction_confidence,15,eurostat,live,-4.8,2026-09,-1.7,2026-08,38
 europe,Lithuania,Overall,construction_employment,10,eurostat,live,114.6,2026-Q2,108.2,2023-Q2,74
 europe,Lithuania,Overall,construction_costs,10,eurostat,live,145.9,2026-08,139.8,2025-08,67
 europe,Lithuania,Overall,fixed_investment,5,eurostat_candidate,live,1204.4,2025,1284.0,2024,25
@@ -1184,12 +1184,12 @@ europe,Lithuania,Transportation,transport_pipeline,25,pending,pending,,,,,
 europe,Lithuania,Transportation,rail_freight,15,eurostat,live,689,2025,733,2024,26
 europe,Lithuania,Transportation,road_freight,10,eurostat,live,316,2025,316,2024,50
 europe,Lithuania,Transportation,port_freight,10,eurostat,live,2208,2026-Q2,2081,2025-Q2,74
-europe,Lithuania,Transportation,construction_confidence,10,eurostat,live,-4.8,2026-09,-1.7,2026-08,40
+europe,Lithuania,Transportation,construction_confidence,10,eurostat,live,-4.8,2026-09,-1.7,2026-08,38
 europe,Lithuania,Transportation,funding_announcements,5,pending,pending,,,,,
 europe,Lithuania,Site Development,building_permits,30,eurostat,live,66.7,2026-Q2,66.2,2023-Q2,53
 europe,Lithuania,Site Development,nonres_permits,20,eurostat,live,66.7,2026-Q2,50.0,2025-Q2,100
 europe,Lithuania,Site Development,building_output,20,eurostat,no_usable_series,,,,,
-europe,Lithuania,Site Development,construction_confidence,10,eurostat,live,-4.8,2026-09,-1.7,2026-08,40
+europe,Lithuania,Site Development,construction_confidence,10,eurostat,live,-4.8,2026-09,-1.7,2026-08,38
 europe,Lithuania,Site Development,construction_employment,10,eurostat,live,114.6,2026-Q2,108.2,2023-Q2,74
 europe,Lithuania,Site Development,financing,10,pending,pending,,,,,
 europe,Lithuania,Waste & Water,wastewater_treatment,15,eurostat_candidate,live,78.01,2024,78.0,2023,50
@@ -1199,13 +1199,13 @@ europe,Lithuania,Waste & Water,waste_treatment,15,eurostat_candidate,live,1,2022
 europe,Lithuania,Waste & Water,water_pipeline,25,pending,pending,,,,,
 europe,Lithuania,Waste & Water,remediation,15,pending,pending,,,,,
 europe,Lithuania,Oil & Gas,oil_rents,20,worldbank,live,0.015948543146471,2021,0.00844361118604004,2020,100
-europe,Lithuania,Oil & Gas,gas_rents,15,worldbank,no_usable_series,0,2021,,,
+europe,Lithuania,Oil & Gas,gas_rents,15,worldbank,live,0,2021,,,
 europe,Lithuania,Oil & Gas,resource_rents,10,worldbank,live,0.28612663033099,2021,0.310782585398606,2020,18
 europe,Lithuania,Oil & Gas,refinery,10,pending,pending,,,,,
 europe,Lithuania,Oil & Gas,lng,15,pending,pending,,,,,
 europe,Lithuania,Oil & Gas,oil_pipeline,30,pending,pending,,,,,
 europe,Lithuania,Mining,mining_production,25,eurostat_candidate,live,104.8,2026-08,99.1,2025-08,73
-europe,Lithuania,Mining,mineral_rents,15,worldbank,no_usable_series,0,2021,,,
+europe,Lithuania,Mining,mineral_rents,15,worldbank,live,0,2021,,,
 europe,Lithuania,Mining,resource_rents,10,worldbank,live,0.28612663033099,2021,0.310782585398606,2020,18
 europe,Lithuania,Mining,mining_capex,20,pending,pending,,,,,
 europe,Lithuania,Mining,mine_pipeline,20,pending,pending,,,,,
@@ -1245,7 +1245,7 @@ europe,Slovenia,Site Development,construction_employment,10,eurostat,live,116.2,
 europe,Slovenia,Site Development,financing,10,pending,pending,,,,,
 europe,Slovenia,Waste & Water,wastewater_treatment,15,eurostat_candidate,live,72.41,2024,71.96,2023,53
 europe,Slovenia,Waste & Water,water_stress,15,eurostat_with_worldbank_fallback,live,0.42,2023,0.66,2022,0
-europe,Slovenia,Waste & Water,waste_generation,15,eurostat_candidate,no_usable_series,0,2022,,,
+europe,Slovenia,Waste & Water,waste_generation,15,eurostat_candidate,live,0,2022,,,
 europe,Slovenia,Waste & Water,waste_treatment,15,eurostat_candidate,live,3,2022,3,2020,50
 europe,Slovenia,Waste & Water,water_pipeline,25,pending,pending,,,,,
 europe,Slovenia,Waste & Water,remediation,15,pending,pending,,,,,
@@ -1256,7 +1256,7 @@ europe,Slovenia,Oil & Gas,refinery,10,pending,pending,,,,,
 europe,Slovenia,Oil & Gas,lng,15,pending,pending,,,,,
 europe,Slovenia,Oil & Gas,oil_pipeline,30,pending,pending,,,,,
 europe,Slovenia,Mining,mining_production,25,eurostat_candidate,live,56.5,2026-08,82.5,2025-08,0
-europe,Slovenia,Mining,mineral_rents,15,worldbank,no_usable_series,0,2021,,,
+europe,Slovenia,Mining,mineral_rents,15,worldbank,live,0,2021,,,
 europe,Slovenia,Mining,resource_rents,10,worldbank,live,0.189323915465621,2021,0.214171558575469,2020,4
 europe,Slovenia,Mining,mining_capex,20,pending,pending,,,,,
 europe,Slovenia,Mining,mine_pipeline,20,pending,pending,,,,,
@@ -1277,7 +1277,7 @@ europe,Slovenia,Agriculture,cap,5,pending,pending,,,,,
 europe,Latvia,Overall,construction_production,25,eurostat,live,109.6,2026-Q2,97.7,2023-Q2,99
 europe,Latvia,Overall,civil_output,20,eurostat,live,122.7,2026-Q2,82.8,2023-Q2,100
 europe,Latvia,Overall,building_permits,15,eurostat,live,57.1,2026-Q2,99.7,2023-Q2,0
-europe,Latvia,Overall,construction_confidence,15,eurostat,live,-13.4,2026-09,-5.6,2026-08,23
+europe,Latvia,Overall,construction_confidence,15,eurostat,live,-13.4,2026-09,-5.6,2026-08,19
 europe,Latvia,Overall,construction_employment,10,eurostat,live,105.3,2026-Q2,102.5,2023-Q2,61
 europe,Latvia,Overall,construction_costs,10,eurostat,live,133.1,2026-Q2,119.1,2023-Q2,97
 europe,Latvia,Overall,fixed_investment,5,eurostat_candidate,live,399.2,2025,391.6,2024,58
@@ -1286,28 +1286,28 @@ europe,Latvia,Transportation,transport_pipeline,25,pending,pending,,,,,
 europe,Latvia,Transportation,rail_freight,15,eurostat,live,2172,2025,2927,2024,0
 europe,Latvia,Transportation,road_freight,10,eurostat,live,10647,2025,10683,2024,49
 europe,Latvia,Transportation,port_freight,10,eurostat,live,1348,2025-Q4,1585,2024-Q4,0
-europe,Latvia,Transportation,construction_confidence,10,eurostat,live,-13.4,2026-09,-5.6,2026-08,23
+europe,Latvia,Transportation,construction_confidence,10,eurostat,live,-13.4,2026-09,-5.6,2026-08,19
 europe,Latvia,Transportation,funding_announcements,5,pending,pending,,,,,
 europe,Latvia,Site Development,building_permits,30,eurostat,live,57.1,2026-Q2,99.7,2023-Q2,0
 europe,Latvia,Site Development,nonres_permits,20,eurostat,live,57.1,2026-Q2,87.7,2025-Q2,0
 europe,Latvia,Site Development,building_output,20,eurostat,live,102.5,2026-Q2,109.3,2023-Q2,25
-europe,Latvia,Site Development,construction_confidence,10,eurostat,live,-13.4,2026-09,-5.6,2026-08,23
+europe,Latvia,Site Development,construction_confidence,10,eurostat,live,-13.4,2026-09,-5.6,2026-08,19
 europe,Latvia,Site Development,construction_employment,10,eurostat,live,105.3,2026-Q2,102.5,2023-Q2,61
 europe,Latvia,Site Development,financing,10,pending,pending,,,,,
 europe,Latvia,Waste & Water,wastewater_treatment,15,eurostat_candidate,live,78.96,2024,80.15,2023,44
 europe,Latvia,Waste & Water,water_stress,15,eurostat_with_worldbank_fallback,live,0.14,2023,0.2,2022,0
 europe,Latvia,Waste & Water,waste_generation,15,eurostat_candidate,live,1,2022,1,2020,50
-europe,Latvia,Waste & Water,waste_treatment,15,eurostat_candidate,no_usable_series,0,2022,,,
+europe,Latvia,Waste & Water,waste_treatment,15,eurostat_candidate,live,0,2022,,,
 europe,Latvia,Waste & Water,water_pipeline,25,pending,pending,,,,,
 europe,Latvia,Waste & Water,remediation,15,pending,pending,,,,,
 europe,Latvia,Oil & Gas,oil_rents,20,worldbank,live,0.0653994018600052,2021,0.0314235592999339,2020,100
-europe,Latvia,Oil & Gas,gas_rents,15,worldbank,no_usable_series,0,2021,,,
+europe,Latvia,Oil & Gas,gas_rents,15,worldbank,live,0,2021,,,
 europe,Latvia,Oil & Gas,resource_rents,10,worldbank,live,1.16511975350878,2021,1.27458711674516,2020,16
 europe,Latvia,Oil & Gas,refinery,10,pending,pending,,,,,
 europe,Latvia,Oil & Gas,lng,15,pending,pending,,,,,
 europe,Latvia,Oil & Gas,oil_pipeline,30,pending,pending,,,,,
 europe,Latvia,Mining,mining_production,25,eurostat_candidate,live,100.8,2026-08,74.1,2025-08,100
-europe,Latvia,Mining,mineral_rents,15,worldbank,no_usable_series,0,2021,,,
+europe,Latvia,Mining,mineral_rents,15,worldbank,live,0,2021,,,
 europe,Latvia,Mining,resource_rents,10,worldbank,live,1.16511975350878,2021,1.27458711674516,2020,16
 europe,Latvia,Mining,mining_capex,20,pending,pending,,,,,
 europe,Latvia,Mining,mine_pipeline,20,pending,pending,,,,,
@@ -1328,7 +1328,7 @@ europe,Latvia,Agriculture,cap,5,pending,pending,,,,,
 europe,Estonia,Overall,construction_production,25,eurostat,live,90.0,2026-Q2,92.0,2023-Q2,41
 europe,Estonia,Overall,civil_output,20,eurostat,no_usable_series,,,,,
 europe,Estonia,Overall,building_permits,15,eurostat,live,73.9,2026-Q2,77.6,2023-Q2,31
-europe,Estonia,Overall,construction_confidence,15,eurostat,live,-2.7,2026-04,-4.9,2026-03,45
+europe,Estonia,Overall,construction_confidence,15,eurostat,live,-2.7,2026-04,-4.9,2026-03,59
 europe,Estonia,Overall,construction_employment,10,eurostat,live,90.1,2026-Q2,101.4,2023-Q2,5
 europe,Estonia,Overall,construction_costs,10,eurostat,live,131.8,2026-Q2,123.8,2023-Q2,76
 europe,Estonia,Overall,fixed_investment,5,eurostat_candidate,live,781.3,2025,745.0,2024,69
@@ -1337,28 +1337,28 @@ europe,Estonia,Transportation,transport_pipeline,25,pending,pending,,,,,
 europe,Estonia,Transportation,rail_freight,15,eurostat,live,294,2025,342,2024,0
 europe,Estonia,Transportation,road_freight,10,eurostat,live,2095,2025,2386,2024,1
 europe,Estonia,Transportation,port_freight,10,eurostat,live,1589,2026-Q1,1689,2025-Q1,26
-europe,Estonia,Transportation,construction_confidence,10,eurostat,live,-2.7,2026-04,-4.9,2026-03,45
+europe,Estonia,Transportation,construction_confidence,10,eurostat,live,-2.7,2026-04,-4.9,2026-03,59
 europe,Estonia,Transportation,funding_announcements,5,pending,pending,,,,,
 europe,Estonia,Site Development,building_permits,30,eurostat,live,73.9,2026-Q2,77.6,2023-Q2,31
 europe,Estonia,Site Development,nonres_permits,20,eurostat,live,73.9,2026-Q2,78.8,2025-Q2,25
 europe,Estonia,Site Development,building_output,20,eurostat,no_usable_series,,,,,
-europe,Estonia,Site Development,construction_confidence,10,eurostat,live,-2.7,2026-04,-4.9,2026-03,45
+europe,Estonia,Site Development,construction_confidence,10,eurostat,live,-2.7,2026-04,-4.9,2026-03,59
 europe,Estonia,Site Development,construction_employment,10,eurostat,live,90.1,2026-Q2,101.4,2023-Q2,5
 europe,Estonia,Site Development,financing,10,pending,pending,,,,,
 europe,Estonia,Waste & Water,wastewater_treatment,15,eurostat_candidate,live,84.0,2024,83.0,2023,55
 europe,Estonia,Waste & Water,water_stress,15,eurostat_with_worldbank_fallback,live,1.14,2023,2.15,2022,0
-europe,Estonia,Waste & Water,waste_generation,15,eurostat_candidate,no_usable_series,0,2022,,,
-europe,Estonia,Waste & Water,waste_treatment,15,eurostat_candidate,no_usable_series,0,2022,,,
+europe,Estonia,Waste & Water,waste_generation,15,eurostat_candidate,live,0,2022,,,
+europe,Estonia,Waste & Water,waste_treatment,15,eurostat_candidate,live,0,2022,,,
 europe,Estonia,Waste & Water,water_pipeline,25,pending,pending,,,,,
 europe,Estonia,Waste & Water,remediation,15,pending,pending,,,,,
 europe,Estonia,Oil & Gas,oil_rents,20,worldbank,live,0.962229214145247,2021,0.480973513029608,2020,100
-europe,Estonia,Oil & Gas,gas_rents,15,worldbank,no_usable_series,0,2021,,,
+europe,Estonia,Oil & Gas,gas_rents,15,worldbank,live,0,2021,,,
 europe,Estonia,Oil & Gas,resource_rents,10,worldbank,live,1.72122598420606,2021,1.43024326219824,2020,100
 europe,Estonia,Oil & Gas,refinery,10,pending,pending,,,,,
 europe,Estonia,Oil & Gas,lng,15,pending,pending,,,,,
 europe,Estonia,Oil & Gas,oil_pipeline,30,pending,pending,,,,,
 europe,Estonia,Mining,mining_production,25,eurostat_candidate,live,134.2,2026-08,107.1,2025-08,100
-europe,Estonia,Mining,mineral_rents,15,worldbank,no_usable_series,0,2021,,,
+europe,Estonia,Mining,mineral_rents,15,worldbank,live,0,2021,,,
 europe,Estonia,Mining,resource_rents,10,worldbank,live,1.72122598420606,2021,1.43024326219824,2020,100
 europe,Estonia,Mining,mining_capex,20,pending,pending,,,,,
 europe,Estonia,Mining,mine_pipeline,20,pending,pending,,,,,
@@ -1379,7 +1379,7 @@ europe,Estonia,Agriculture,cap,5,pending,pending,,,,,
 europe,Cyprus,Overall,construction_production,25,eurostat,live,130.3,2026-Q2,116.7,2023-Q2,97
 europe,Cyprus,Overall,civil_output,20,eurostat,live,117.2,2023-Q4,121.0,2020-Q4,37
 europe,Cyprus,Overall,building_permits,15,eurostat,live,163.6,2026-06,167.8,2026-05,40
-europe,Cyprus,Overall,construction_confidence,15,eurostat,live,6.5,2026-09,5.6,2026-08,63
+europe,Cyprus,Overall,construction_confidence,15,eurostat,live,6.5,2026-09,5.6,2026-08,54
 europe,Cyprus,Overall,construction_employment,10,eurostat,live,111.3,2026-Q2,104.3,2023-Q2,77
 europe,Cyprus,Overall,construction_costs,10,eurostat,live,120.3,2026-Q2,113.2,2023-Q2,75
 europe,Cyprus,Overall,fixed_investment,5,eurostat_candidate,live,2347.1,2025,2233.3,2024,70
@@ -1388,22 +1388,22 @@ europe,Cyprus,Transportation,transport_pipeline,25,pending,pending,,,,,
 europe,Cyprus,Transportation,rail_freight,15,eurostat,no_usable_series,,,,,
 europe,Cyprus,Transportation,road_freight,10,eurostat,live,22,2025,25,2024,2
 europe,Cyprus,Transportation,port_freight,10,eurostat,live,1253,2026-Q1,1273,2025-Q1,44
-europe,Cyprus,Transportation,construction_confidence,10,eurostat,live,6.5,2026-09,5.6,2026-08,63
+europe,Cyprus,Transportation,construction_confidence,10,eurostat,live,6.5,2026-09,5.6,2026-08,54
 europe,Cyprus,Transportation,funding_announcements,5,pending,pending,,,,,
 europe,Cyprus,Site Development,building_permits,30,eurostat,live,163.6,2026-06,167.8,2026-05,40
 europe,Cyprus,Site Development,nonres_permits,20,eurostat,live,84.7,2026-Q2,109.4,2025-Q2,0
 europe,Cyprus,Site Development,building_output,20,eurostat,no_usable_series,,,,,
-europe,Cyprus,Site Development,construction_confidence,10,eurostat,live,6.5,2026-09,5.6,2026-08,63
+europe,Cyprus,Site Development,construction_confidence,10,eurostat,live,6.5,2026-09,5.6,2026-08,54
 europe,Cyprus,Site Development,construction_employment,10,eurostat,live,111.3,2026-Q2,104.3,2023-Q2,77
 europe,Cyprus,Site Development,financing,10,pending,pending,,,,,
 europe,Cyprus,Waste & Water,wastewater_treatment,15,eurostat_candidate,live,83.61,2022,83.73,2021,49
 europe,Cyprus,Waste & Water,water_stress,15,eurostat_with_worldbank_fallback,live,75.29,2023,71.04,2022,74
 europe,Cyprus,Waste & Water,waste_generation,15,eurostat_candidate,live,1,2022,1,2020,50
-europe,Cyprus,Waste & Water,waste_treatment,15,eurostat_candidate,no_usable_series,0,2022,,,
+europe,Cyprus,Waste & Water,waste_treatment,15,eurostat_candidate,live,0,2022,,,
 europe,Cyprus,Waste & Water,water_pipeline,25,pending,pending,,,,,
 europe,Cyprus,Waste & Water,remediation,15,pending,pending,,,,,
-europe,Cyprus,Oil & Gas,oil_rents,20,worldbank,no_usable_series,0,2021,,,
-europe,Cyprus,Oil & Gas,gas_rents,15,worldbank,no_usable_series,0,2021,,,
+europe,Cyprus,Oil & Gas,oil_rents,20,worldbank,live,0,2021,,,
+europe,Cyprus,Oil & Gas,gas_rents,15,worldbank,live,0,2021,,,
 europe,Cyprus,Oil & Gas,resource_rents,10,worldbank,live,0.0127645649104764,2021,0.0079310862289615,2020,100
 europe,Cyprus,Oil & Gas,refinery,10,pending,pending,,,,,
 europe,Cyprus,Oil & Gas,lng,15,pending,pending,,,,,
@@ -1430,7 +1430,7 @@ europe,Cyprus,Agriculture,cap,5,pending,pending,,,,,
 europe,Malta,Overall,construction_production,25,eurostat,live,135.3,2026-Q2,111.4,2023-Q2,100
 europe,Malta,Overall,civil_output,20,eurostat,no_usable_series,,,,,
 europe,Malta,Overall,building_permits,15,eurostat,live,145.2,2026-Q2,116.8,2023-Q2,100
-europe,Malta,Overall,construction_confidence,15,eurostat,live,15.1,2026-04,-14.8,2026-03,80
+europe,Malta,Overall,construction_confidence,15,eurostat,live,15.1,2026-04,-14.8,2026-03,100
 europe,Malta,Overall,construction_employment,10,eurostat,live,105.6,2026-Q2,104.7,2023-Q2,53
 europe,Malta,Overall,construction_costs,10,eurostat,live,122.1,2026-Q2,118.6,2023-Q2,62
 europe,Malta,Overall,fixed_investment,5,eurostat_candidate,live,462.1,2025,449.4,2024,61
@@ -1439,29 +1439,29 @@ europe,Malta,Transportation,transport_pipeline,25,pending,pending,,,,,
 europe,Malta,Transportation,rail_freight,15,eurostat,no_usable_series,,,,,
 europe,Malta,Transportation,road_freight,10,eurostat,no_usable_series,,,,,
 europe,Malta,Transportation,port_freight,10,eurostat,live,720,2026-Q1,1049,2025-Q1,0
-europe,Malta,Transportation,construction_confidence,10,eurostat,live,15.1,2026-04,-14.8,2026-03,80
+europe,Malta,Transportation,construction_confidence,10,eurostat,live,15.1,2026-04,-14.8,2026-03,100
 europe,Malta,Transportation,funding_announcements,5,pending,pending,,,,,
 europe,Malta,Site Development,building_permits,30,eurostat,live,145.2,2026-Q2,116.8,2023-Q2,100
 europe,Malta,Site Development,nonres_permits,20,eurostat,live,145.2,2026-Q2,154.7,2025-Q2,25
 europe,Malta,Site Development,building_output,20,eurostat,no_usable_series,,,,,
-europe,Malta,Site Development,construction_confidence,10,eurostat,live,15.1,2026-04,-14.8,2026-03,80
+europe,Malta,Site Development,construction_confidence,10,eurostat,live,15.1,2026-04,-14.8,2026-03,100
 europe,Malta,Site Development,construction_employment,10,eurostat,live,105.6,2026-Q2,104.7,2023-Q2,53
 europe,Malta,Site Development,financing,10,pending,pending,,,,,
 europe,Malta,Waste & Water,wastewater_treatment,15,eurostat_candidate,live,83.13,2024,81.78,2023,57
 europe,Malta,Waste & Water,water_stress,15,eurostat_with_worldbank_fallback,live,30.08,2023,36.73,2022,0
-europe,Malta,Waste & Water,waste_generation,15,eurostat_candidate,no_usable_series,0,2022,,,
+europe,Malta,Waste & Water,waste_generation,15,eurostat_candidate,live,0,2022,,,
 europe,Malta,Waste & Water,waste_treatment,15,eurostat_candidate,live,0,2022,1,2020,0
 europe,Malta,Waste & Water,water_pipeline,25,pending,pending,,,,,
 europe,Malta,Waste & Water,remediation,15,pending,pending,,,,,
-europe,Malta,Oil & Gas,oil_rents,20,worldbank,no_usable_series,0,2021,,,
-europe,Malta,Oil & Gas,gas_rents,15,worldbank,no_usable_series,0,2021,,,
-europe,Malta,Oil & Gas,resource_rents,10,worldbank,no_usable_series,0,2021,,,
+europe,Malta,Oil & Gas,oil_rents,20,worldbank,live,0,2021,,,
+europe,Malta,Oil & Gas,gas_rents,15,worldbank,live,0,2021,,,
+europe,Malta,Oil & Gas,resource_rents,10,worldbank,live,0,2021,,,
 europe,Malta,Oil & Gas,refinery,10,pending,pending,,,,,
 europe,Malta,Oil & Gas,lng,15,pending,pending,,,,,
 europe,Malta,Oil & Gas,oil_pipeline,30,pending,pending,,,,,
 europe,Malta,Mining,mining_production,25,eurostat_candidate,live,95.2,2026-08,101.0,2025-08,27
-europe,Malta,Mining,mineral_rents,15,worldbank,no_usable_series,0,2021,,,
-europe,Malta,Mining,resource_rents,10,worldbank,no_usable_series,0,2021,,,
+europe,Malta,Mining,mineral_rents,15,worldbank,live,0,2021,,,
+europe,Malta,Mining,resource_rents,10,worldbank,live,0,2021,,,
 europe,Malta,Mining,mining_capex,20,pending,pending,,,,,
 europe,Malta,Mining,mine_pipeline,20,pending,pending,,,,,
 europe,Malta,Mining,tailings,10,pending,pending,,,,,
@@ -1562,7 +1562,7 @@ emea,United Arab Emirates,Oil & Gas,refinery,10,pending,pending,,,,,
 emea,United Arab Emirates,Oil & Gas,lng,15,pending,pending,,,,,
 emea,United Arab Emirates,Oil & Gas,oil_pipeline,30,pending,pending,,,,,
 emea,United Arab Emirates,Mining,mining_production,25,eurostat_candidate,pending,,,,,
-emea,United Arab Emirates,Mining,mineral_rents,15,worldbank,no_usable_series,0,2021,,,
+emea,United Arab Emirates,Mining,mineral_rents,15,worldbank,live,0,2021,,,
 emea,United Arab Emirates,Mining,resource_rents,10,worldbank,live,17.634095847399,2021,11.9722335248016,2020,100
 emea,United Arab Emirates,Mining,mining_capex,20,pending,pending,,,,,
 emea,United Arab Emirates,Mining,mine_pipeline,20,pending,pending,,,,,
@@ -1664,7 +1664,7 @@ emea,Israel,Oil & Gas,refinery,10,pending,pending,,,,,
 emea,Israel,Oil & Gas,lng,15,pending,pending,,,,,
 emea,Israel,Oil & Gas,oil_pipeline,30,pending,pending,,,,,
 emea,Israel,Mining,mining_production,25,eurostat_candidate,pending,,,,,
-emea,Israel,Mining,mineral_rents,15,worldbank,no_usable_series,0,2021,,,
+emea,Israel,Mining,mineral_rents,15,worldbank,live,0,2021,,,
 emea,Israel,Mining,resource_rents,10,worldbank,live,0.441424749575518,2021,0.272440677318125,2020,100
 emea,Israel,Mining,mining_capex,20,pending,pending,,,,,
 emea,Israel,Mining,mine_pipeline,20,pending,pending,,,,,
@@ -1715,7 +1715,7 @@ emea,Egypt,Oil & Gas,refinery,10,pending,pending,,,,,
 emea,Egypt,Oil & Gas,lng,15,pending,pending,,,,,
 emea,Egypt,Oil & Gas,oil_pipeline,30,pending,pending,,,,,
 emea,Egypt,Mining,mining_production,25,eurostat_candidate,pending,,,,,
-emea,Egypt,Mining,mineral_rents,15,worldbank,no_usable_series,0,2021,,,
+emea,Egypt,Mining,mineral_rents,15,worldbank,live,0,2021,,,
 emea,Egypt,Mining,resource_rents,10,worldbank,live,5.1391200748227,2021,3.25774327235436,2020,100
 emea,Egypt,Mining,mining_capex,20,pending,pending,,,,,
 emea,Egypt,Mining,mine_pipeline,20,pending,pending,,,,,
@@ -1963,8 +1963,8 @@ emea,Ethiopia,Waste & Water,waste_generation,15,eurostat_candidate,pending,,,,,
 emea,Ethiopia,Waste & Water,waste_treatment,15,eurostat_candidate,pending,,,,,
 emea,Ethiopia,Waste & Water,water_pipeline,25,pending,pending,,,,,
 emea,Ethiopia,Waste & Water,remediation,15,pending,pending,,,,,
-emea,Ethiopia,Oil & Gas,oil_rents,20,worldbank,no_usable_series,0,2021,,,
-emea,Ethiopia,Oil & Gas,gas_rents,15,worldbank,no_usable_series,0,2021,,,
+emea,Ethiopia,Oil & Gas,oil_rents,20,worldbank,live,0,2021,,,
+emea,Ethiopia,Oil & Gas,gas_rents,15,worldbank,live,0,2021,,,
 emea,Ethiopia,Oil & Gas,resource_rents,10,worldbank,live,5.86707347361267,2021,5.49770060254135,2020,77
 emea,Ethiopia,Oil & Gas,refinery,10,pending,pending,,,,,
 emea,Ethiopia,Oil & Gas,lng,15,pending,pending,,,,,
@@ -2014,8 +2014,8 @@ emea,Kenya,Waste & Water,waste_generation,15,eurostat_candidate,pending,,,,,
 emea,Kenya,Waste & Water,waste_treatment,15,eurostat_candidate,pending,,,,,
 emea,Kenya,Waste & Water,water_pipeline,25,pending,pending,,,,,
 emea,Kenya,Waste & Water,remediation,15,pending,pending,,,,,
-emea,Kenya,Oil & Gas,oil_rents,20,worldbank,no_usable_series,0,2021,,,
-emea,Kenya,Oil & Gas,gas_rents,15,worldbank,no_usable_series,0,2021,,,
+emea,Kenya,Oil & Gas,oil_rents,20,worldbank,live,0,2021,,,
+emea,Kenya,Oil & Gas,gas_rents,15,worldbank,live,0,2021,,,
 emea,Kenya,Oil & Gas,resource_rents,10,worldbank,live,1.22792857770901,2021,1.26881196888613,2020,37
 emea,Kenya,Oil & Gas,refinery,10,pending,pending,,,,,
 emea,Kenya,Oil & Gas,lng,15,pending,pending,,,,,
@@ -2116,7 +2116,7 @@ emea,Tanzania,Waste & Water,waste_generation,15,eurostat_candidate,pending,,,,,
 emea,Tanzania,Waste & Water,waste_treatment,15,eurostat_candidate,pending,,,,,
 emea,Tanzania,Waste & Water,water_pipeline,25,pending,pending,,,,,
 emea,Tanzania,Waste & Water,remediation,15,pending,pending,,,,,
-emea,Tanzania,Oil & Gas,oil_rents,20,worldbank,no_usable_series,0,2021,,,
+emea,Tanzania,Oil & Gas,oil_rents,20,worldbank,live,0,2021,,,
 emea,Tanzania,Oil & Gas,gas_rents,15,worldbank,live,0.223340416897822,2021,0.125414392830039,2020,100
 emea,Tanzania,Oil & Gas,resource_rents,10,worldbank,live,6.69370906979479,2021,3.85169508025186,2020,100
 emea,Tanzania,Oil & Gas,refinery,10,pending,pending,,,,,
@@ -2225,7 +2225,7 @@ emea,Angola,Oil & Gas,refinery,10,pending,pending,,,,,
 emea,Angola,Oil & Gas,lng,15,pending,pending,,,,,
 emea,Angola,Oil & Gas,oil_pipeline,30,pending,pending,,,,,
 emea,Angola,Mining,mining_production,25,eurostat_candidate,pending,,,,,
-emea,Angola,Mining,mineral_rents,15,worldbank,no_usable_series,0,2021,,,
+emea,Angola,Mining,mineral_rents,15,worldbank,live,0,2021,,,
 emea,Angola,Mining,resource_rents,10,worldbank,live,29.9674348417559,2021,20.2476653863539,2020,100
 emea,Angola,Mining,mining_capex,20,pending,pending,,,,,
 emea,Angola,Mining,mine_pipeline,20,pending,pending,,,,,
@@ -2327,13 +2327,13 @@ emea,Qatar,Oil & Gas,refinery,10,pending,pending,,,,,
 emea,Qatar,Oil & Gas,lng,15,pending,pending,,,,,
 emea,Qatar,Oil & Gas,oil_pipeline,30,pending,pending,,,,,
 emea,Qatar,Mining,mining_production,25,eurostat_candidate,pending,,,,,
-emea,Qatar,Mining,mineral_rents,15,worldbank,no_usable_series,0,2021,,,
+emea,Qatar,Mining,mineral_rents,15,worldbank,live,0,2021,,,
 emea,Qatar,Mining,resource_rents,10,worldbank,live,27.2897873992471,2021,20.2259593186526,2020,100
 emea,Qatar,Mining,mining_capex,20,pending,pending,,,,,
 emea,Qatar,Mining,mine_pipeline,20,pending,pending,,,,,
 emea,Qatar,Mining,tailings,10,pending,pending,,,,,
 emea,Qatar,Renewables,renewable_share_eu,20,eurostat_candidate,pending,,,,,
-emea,Qatar,Renewables,renewable_share,15,worldbank,no_usable_series,0,2021,,,
+emea,Qatar,Renewables,renewable_share,15,worldbank,live,0,2021,,,
 emea,Qatar,Renewables,renewable_power,15,worldbank,live,0.276277845516654,2021,0.289630125590927,2020,32
 emea,Qatar,Renewables,renewable_awards,20,pending,pending,,,,,
 emea,Qatar,Renewables,grid,20,pending,pending,,,,,
@@ -2378,7 +2378,7 @@ emea,Kuwait,Oil & Gas,refinery,10,pending,pending,,,,,
 emea,Kuwait,Oil & Gas,lng,15,pending,pending,,,,,
 emea,Kuwait,Oil & Gas,oil_pipeline,30,pending,pending,,,,,
 emea,Kuwait,Mining,mining_production,25,eurostat_candidate,pending,,,,,
-emea,Kuwait,Mining,mineral_rents,15,worldbank,no_usable_series,0,2020,,,
+emea,Kuwait,Mining,mineral_rents,15,worldbank,live,0,2020,,,
 emea,Kuwait,Mining,resource_rents,10,worldbank,live,29.2848672951013,2020,39.8386703389064,2019,0
 emea,Kuwait,Mining,mining_capex,20,pending,pending,,,,,
 emea,Kuwait,Mining,mine_pipeline,20,pending,pending,,,,,
@@ -2429,7 +2429,7 @@ emea,Oman,Oil & Gas,refinery,10,pending,pending,,,,,
 emea,Oman,Oil & Gas,lng,15,pending,pending,,,,,
 emea,Oman,Oil & Gas,oil_pipeline,30,pending,pending,,,,,
 emea,Oman,Mining,mining_production,25,eurostat_candidate,pending,,,,,
-emea,Oman,Mining,mineral_rents,15,worldbank,no_usable_series,0,2021,,,
+emea,Oman,Mining,mineral_rents,15,worldbank,live,0,2021,,,
 emea,Oman,Mining,resource_rents,10,worldbank,live,29.2115792686173,2021,18.8866635649826,2020,100
 emea,Oman,Mining,mining_capex,20,pending,pending,,,,,
 emea,Oman,Mining,mine_pipeline,20,pending,pending,,,,,
@@ -2480,13 +2480,13 @@ emea,Bahrain,Oil & Gas,refinery,10,pending,pending,,,,,
 emea,Bahrain,Oil & Gas,lng,15,pending,pending,,,,,
 emea,Bahrain,Oil & Gas,oil_pipeline,30,pending,pending,,,,,
 emea,Bahrain,Mining,mining_production,25,eurostat_candidate,pending,,,,,
-emea,Bahrain,Mining,mineral_rents,15,worldbank,no_usable_series,0,2021,,,
+emea,Bahrain,Mining,mineral_rents,15,worldbank,live,0,2021,,,
 emea,Bahrain,Mining,resource_rents,10,worldbank,live,16.6400337175308,2021,10.7041414154858,2020,100
 emea,Bahrain,Mining,mining_capex,20,pending,pending,,,,,
 emea,Bahrain,Mining,mine_pipeline,20,pending,pending,,,,,
 emea,Bahrain,Mining,tailings,10,pending,pending,,,,,
 emea,Bahrain,Renewables,renewable_share_eu,20,eurostat_candidate,pending,,,,,
-emea,Bahrain,Renewables,renewable_share,15,worldbank,no_usable_series,0,2021,,,
+emea,Bahrain,Renewables,renewable_share,15,worldbank,live,0,2021,,,
 emea,Bahrain,Renewables,renewable_power,15,worldbank,live,0.0374420435657423,2021,0.0335510155173447,2020,96
 emea,Bahrain,Renewables,renewable_awards,20,pending,pending,,,,,
 emea,Bahrain,Renewables,grid,20,pending,pending,,,,,
@@ -2531,7 +2531,7 @@ emea,Jordan,Oil & Gas,refinery,10,pending,pending,,,,,
 emea,Jordan,Oil & Gas,lng,15,pending,pending,,,,,
 emea,Jordan,Oil & Gas,oil_pipeline,30,pending,pending,,,,,
 emea,Jordan,Mining,mining_production,25,eurostat_candidate,pending,,,,,
-emea,Jordan,Mining,mineral_rents,15,worldbank,no_usable_series,0,2021,,,
+emea,Jordan,Mining,mineral_rents,15,worldbank,live,0,2021,,,
 emea,Jordan,Mining,resource_rents,10,worldbank,live,0.0776640966166585,2021,0.0516759121146319,2020,100
 emea,Jordan,Mining,mining_capex,20,pending,pending,,,,,
 emea,Jordan,Mining,mine_pipeline,20,pending,pending,,,,,
@@ -2582,7 +2582,7 @@ emea,Tunisia,Oil & Gas,refinery,10,pending,pending,,,,,
 emea,Tunisia,Oil & Gas,lng,15,pending,pending,,,,,
 emea,Tunisia,Oil & Gas,oil_pipeline,30,pending,pending,,,,,
 emea,Tunisia,Mining,mining_production,25,eurostat_candidate,pending,,,,,
-emea,Tunisia,Mining,mineral_rents,15,worldbank,no_usable_series,0,2021,,,
+emea,Tunisia,Mining,mineral_rents,15,worldbank,live,0,2021,,,
 emea,Tunisia,Mining,resource_rents,10,worldbank,live,2.24923087429424,2021,1.46717230583582,2020,100
 emea,Tunisia,Mining,mining_capex,20,pending,pending,,,,,
 emea,Tunisia,Mining,mine_pipeline,20,pending,pending,,,,,
