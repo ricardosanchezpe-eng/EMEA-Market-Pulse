@@ -39,18 +39,17 @@ def choose(j,conf):
  cs.sort(key=lambda x:(x[1][-1][0] or '',len(x[1])),reverse=True);return cs[0]
 def calc(a,conf):
  if len(a)<2:return None
- mode=conf.get('comparison','previous');freq=conf.get('frequency','annual');lag=1
- if mode=='yoy' and freq=='monthly' and len(a)>=13:lag=12
- elif mode=='yoy_if_possible' and freq=='quarterly' and len(a)>=5:lag=4
- if len(a)<=lag:return None
- date,cur=a[-1];pdate,prev=a[-lag-1]
- if prev in (None,0):return {'raw':cur,'date':date,'previous':None,'previousDate':None,'growthPct':None,'score':None,'comparison':mode,'signal':conf.get('signal','direct')}
+ # v2.26: display/scoring movement is always latest versus directly preceding observation.
+ # The five latest source observations are retained for Indicator Intelligence.
+ freq=conf.get('frequency','annual');date,cur=a[-1];pdate,prev=a[-2]
+ history=[{'date':d,'value':v} for d,v in a[-5:]]
+ if prev in (None,0):return {'raw':cur,'date':date,'previous':None,'previousDate':None,'growthPct':None,'score':None,'comparison':'previous_period','signal':conf.get('signal','direct'),'history':history,'frequency':freq}
  if freq=='monthly_balance':growth=cur-prev;score=round(max(0,min(100,50+cur*2)))
  else:
   growth=(cur/prev-1)*100
   if not math.isfinite(growth) or abs(growth)>250:return None
   score=round(max(0,min(100,50+growth*4)))
- return {'raw':cur,'date':date,'previous':prev,'previousDate':pdate,'growthPct':growth,'score':score,'comparison':mode,'signal':conf.get('signal','direct')}
+ return {'raw':cur,'date':date,'previous':prev,'previousDate':pdate,'growthPct':growth,'score':score,'comparison':'previous_period','signal':conf.get('signal','direct'),'history':history,'frequency':freq}
 def wb(code,ind):
  u=f'https://api.worldbank.org/v2/country/{code}/indicator/{ind}?format=json&per_page=70';j=fetch(u);rows=j[1] if isinstance(j,list) and len(j)>1 else [];a=[(x['date'],x['value']) for x in reversed(rows) if isinstance(x.get('value'),(int,float))];return calc(a,{'comparison':'previous','frequency':'annual','signal':'context'}),u
 def store(c,k,z,u,state,meta=None):

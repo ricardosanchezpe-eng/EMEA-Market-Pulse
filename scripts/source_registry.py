@@ -27,3 +27,13 @@ EUROSTAT={
 'agri_output_prices':{'dataset':'apri_pi_outa','filters':{},'frequency':'periodic','comparison':'previous','signal':'context','status':'connected'}
 }
 WORLD_BANK={'water_stress':'ER.H2O.FWST.ZS','water_access':'SH.H2O.SMDW.ZS','renewable_share':'EG.FEC.RNEW.ZS','renewable_power':'EG.ELC.RNEW.ZS','agri_growth':'NV.AGR.TOTL.KD.ZG','agri_share':'NV.AGR.TOTL.ZS','oil_rents':'NY.GDP.PETR.RT.ZS','gas_rents':'NY.GDP.NGAS.RT.ZS','mineral_rents':'NY.GDP.MINR.RT.ZS','resource_rents':'NY.GDP.TOTL.RT.ZS'}
+
+# Selection policy v2.26:
+# - dataset is the highest-frequency preferred source;
+# - fallbacks are attempted in listed order only when the preferred source has no usable series;
+# - latest observation means the last usable value in the selected filtered series;
+# - movement is latest versus the immediately preceding observation;
+# - five latest values are retained in production history.
+
+# Selection policy v2.26: the primary dataset is the highest-frequency preferred source;
+# fallbacks are tried in order only when the preferred dataset has no usable series.

@@ -7,19 +7,19 @@ ROOT=pathlib.Path(__file__).resolve().parents[1];DATA=ROOT/'public'/'data';OUT=R
 market=json.loads((DATA/'market-pulse.json').read_text());contracts=json.loads((DATA/'indicator-contracts.json').read_text());method=json.loads((DATA/'indicator-methodology.json').read_text())
 contract_keys={x['key'] for rows in contracts.values() for x in rows};method_keys={x['key'] for rows in method.values() for x in rows}
 def eu(c,k,conf):
- r={'universe':'Harmonised Europe','country':c['country'],'geo':c['geo'],'provider':'Eurostat','indicator':k,'dataset':None,'status':'NO_USABLE_SERIES','latest':None,'latestDate':None,'previous':None,'previousDate':None,'change':None,'comparison':conf.get('comparison'),'datasetsTried':[],'selectedDimensions':None,'error':None,'sourceUrl':None}
+ r={'universe':'Harmonised Europe','country':c['country'],'geo':c['geo'],'provider':'Eurostat','indicator':k,'dataset':None,'status':'NO_USABLE_SERIES','latest':None,'latestDate':None,'previous':None,'previousDate':None,'change':None,'comparison':conf.get('comparison'),'datasetsTried':[],'selectedDimensions':None,'error':None,'sourceUrl':None,'history':[],'officialDatasetName':None,'frequency':None,'unit':None}
  for ds in [conf['dataset']]+conf.get('fallbacks',[]):
   r['datasetsTried'].append(ds)
   try:
    j,url=u.euro(ds,c['geo'],conf.get('geo_dimension','geo'),conf.get('filters'));meta,a=u.choose(j,conf);z=u.calc(a,conf)
-   if z and z.get('raw') is not None:r.update(status='PASS',dataset=ds,latest=z.get('raw'),latestDate=z.get('date'),previous=z.get('previous'),previousDate=z.get('previousDate'),change=z.get('growthPct'),comparison=z.get('comparison') or conf.get('comparison'),selectedDimensions=dict(meta or []),sourceUrl=url);return r
+   if z and z.get('raw') is not None:r.update(status='PASS',dataset=ds,latest=z.get('raw'),latestDate=z.get('date'),previous=z.get('previous'),previousDate=z.get('previousDate'),change=z.get('growthPct'),comparison='previous_period',history=z.get('history',[]),officialDatasetName=j.get('label') or j.get('title'),frequency=('monthly' if ds.endswith('_m') else 'quarterly' if ds.endswith('_q') or ds.endswith('_qm') else conf.get('frequency')),selectedDimensions=dict(meta or []),unit=dict(meta or []).get('unit'),sourceUrl=url);return r
   except Exception as e:r['error']=f'{type(e).__name__}: {e}';r['status']='HTTP_'+str(getattr(e,'code','ERROR')) if getattr(e,'code',None) else 'ERROR'
  return r
 def wb(c,k,code,universe):
- r={'universe':universe,'country':c['country'],'geo':c.get('geo'),'provider':'World Bank','indicator':k,'dataset':code,'status':'NO_USABLE_SERIES','latest':None,'latestDate':None,'previous':None,'previousDate':None,'change':None,'comparison':'previous','datasetsTried':[code],'selectedDimensions':None,'error':None,'sourceUrl':None}
+ r={'universe':universe,'country':c['country'],'geo':c.get('geo'),'provider':'World Bank','indicator':k,'dataset':code,'status':'NO_USABLE_SERIES','latest':None,'latestDate':None,'previous':None,'previousDate':None,'change':None,'comparison':'previous','datasetsTried':[code],'selectedDimensions':None,'error':None,'sourceUrl':None,'history':[],'officialDatasetName':None,'frequency':'annual','unit':None}
  try:
   z,url=u.wb(c.get('wb') or c['geo'],code)
-  if z and z.get('raw') is not None:r.update(status='PASS',latest=z.get('raw'),latestDate=z.get('date'),previous=z.get('previous'),previousDate=z.get('previousDate'),change=z.get('growthPct'),comparison=z.get('comparison') or 'previous',sourceUrl=url)
+  if z and z.get('raw') is not None:r.update(status='PASS',latest=z.get('raw'),latestDate=z.get('date'),previous=z.get('previous'),previousDate=z.get('previousDate'),change=z.get('growthPct'),comparison='previous_period',history=z.get('history',[]),officialDatasetName=code,frequency='annual',sourceUrl=url)
  except Exception as e:r['error']=f'{type(e).__name__}: {e}';r['status']='HTTP_'+str(getattr(e,'code','ERROR')) if getattr(e,'code',None) else 'ERROR'
  return r
 jobs=[]
