@@ -25,22 +25,24 @@ jobs:
       - name: Refresh market data
         if: steps.gate.outputs.run == 'true'
         run: python -u scripts/update_data.py
-      - name: Validate refreshed country universe
+      - name: Validate refreshed output
         if: steps.gate.outputs.run == 'true'
         run: |
           python - <<'PY'
           import json
           d=json.load(open('public/data/market-pulse.json'))
-          eu=len(d.get('europe',[])); em=len(d.get('emea',[])); n=eu+em
-          print('Europe:',eu,'Broader EMEA:',em,'Total:',n)
-          assert eu == 29, f'Expected 29 Europe countries, got {eu}'
-          assert em == 22, f'Expected 22 Broader EMEA countries, got {em}'
-          assert n == 51, f'Expected 51 total countries, got {n}'
+          eu=len(d.get('europe',[])); em=len(d.get('emea',[])); total=eu+em
+          populated=sum(bool(c.get('indicators')) for c in d.get('europe',[])+d.get('emea',[]))
+          observations=sum(len(c.get('indicators',{})) for c in d.get('europe',[])+d.get('emea',[]))
+          print('Europe:',eu,'Broader EMEA:',em,'Total:',total,'Countries with indicators:',populated,'Indicator observations:',observations)
+          assert eu==29 and em==22 and total==51
+          assert populated>0, 'Refresh returned 51 country shells but zero countries with indicator data'
+          assert observations>0, 'Refresh returned zero indicator observations'
           PY
       - name: Build complete coverage audit
         if: steps.gate.outputs.run == 'true'
         run: python scripts/audit_coverage.py
-      - name: Validate JSON and commit
+      - name: Commit refreshed data
         if: steps.gate.outputs.run == 'true'
         run: |
           python -m json.tool public/data/market-pulse.json > /dev/null
