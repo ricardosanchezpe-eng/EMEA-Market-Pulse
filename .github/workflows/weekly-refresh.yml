@@ -19,28 +19,35 @@ jobs:
       - uses: actions/setup-python@v5
         if: steps.gate.outputs.run == 'true'
         with: {python-version: '3.12'}
-      - if: steps.gate.outputs.run == 'true'
+      - name: Ensure complete country universe
+        if: steps.gate.outputs.run == 'true'
+        run: python scripts/ensure_country_universe.py
+      - name: Refresh market data
+        if: steps.gate.outputs.run == 'true'
         run: python -u scripts/update_data.py
       - name: Validate refreshed country universe
         if: steps.gate.outputs.run == 'true'
         run: |
-          python - <<'PY2'
+          python - <<'PY'
           import json
-          d=json.load(open("public/data/market-pulse.json"))
-          n=len(d.get("europe",[]))+len(d.get("emea",[]))
-          print("Countries available for audit:",n)
-          assert n > 0, "Refresh produced zero countries; preserve/restore the populated market-pulse.json baseline before auditing."
-          PY2
+          d=json.load(open('public/data/market-pulse.json'))
+          eu=len(d.get('europe',[])); em=len(d.get('emea',[])); n=eu+em
+          print('Europe:',eu,'Broader EMEA:',em,'Total:',n)
+          assert eu == 29, f'Expected 29 Europe countries, got {eu}'
+          assert em == 22, f'Expected 22 Broader EMEA countries, got {em}'
+          assert n == 51, f'Expected 51 total countries, got {n}'
+          PY
       - name: Build complete coverage audit
         if: steps.gate.outputs.run == 'true'
         run: python scripts/audit_coverage.py
-      - if: steps.gate.outputs.run == 'true'
+      - name: Validate JSON and commit
+        if: steps.gate.outputs.run == 'true'
         run: |
           python -m json.tool public/data/market-pulse.json > /dev/null
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add public/data/*
-          git diff --cached --quiet || git commit -m "Weekly explicit-contract market refresh"
+          git diff --cached --quiet || git commit -m "Weekly market refresh"
           git push
       - uses: actions/upload-artifact@v4
         if: always() && steps.gate.outputs.run == 'true'
@@ -51,4 +58,4 @@ jobs:
             public/data/coverage-matrix.json
             public/data/coverage-summary.json
             public/data/coverage-audit.json
-          if-no-files-found: warn
+          if-no-files-found: ignore
