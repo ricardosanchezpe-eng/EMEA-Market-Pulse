@@ -91,84 +91,144 @@
       "key": "civil_output",
       "source": "Eurostat",
       "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "displaySourceUrl": "https://ec.europa.eu/eurostat/databrowser/",
       "weight": 25,
-      "frequency": "Source-defined",
+      "frequency": "Monthly / quarterly",
       "role": "Now",
       "pipelineStatus": "live",
-      "treatment": "Explicit source contract → comparison → normalized 0–100 → weighted contribution",
-      "displaySourceUrl": "https://ec.europa.eu/eurostat/databrowser/"
+      "treatment": "Core current-activity evidence; weighted 25% when available"
     },
     {
-      "name": "Transport investment & pipeline",
-      "key": "transport_pipeline",
-      "source": "Official project/statistical source",
-      "url": "https://ec.europa.eu/eurostat/",
-      "weight": 25,
-      "frequency": "Source-defined",
-      "role": "Forward",
-      "pipelineStatus": "pending",
-      "treatment": "Explicit source contract → comparison → normalized 0–100 → weighted contribution",
-      "displaySourceUrl": "https://ec.europa.eu/eurostat/"
-    },
-    {
-      "name": "Rail freight activity",
-      "key": "rail_freight",
+      "name": "Government transport capital investment",
+      "key": "gov_transport_investment",
       "source": "Eurostat",
       "url": "https://ec.europa.eu/eurostat/databrowser/",
-      "weight": 15,
-      "frequency": "Source-defined",
-      "role": "Now",
+      "displaySourceUrl": "https://ec.europa.eu/eurostat/databrowser/",
+      "weight": 25,
+      "frequency": "Annual",
+      "role": "Investment",
       "pipelineStatus": "live",
-      "treatment": "Explicit source contract → comparison → normalized 0–100 → weighted contribution",
-      "displaySourceUrl": "https://ec.europa.eu/eurostat/databrowser/"
+      "treatment": "General government / Transport / Gross capital formation; weighted 25% when available"
+    },
+    {
+      "name": "Road infrastructure expenditure",
+      "key": "road_infra_expenditure",
+      "source": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "displaySourceUrl": "https://ec.europa.eu/eurostat/databrowser/",
+      "weight": 15,
+      "frequency": "Annual",
+      "role": "Investment",
+      "pipelineStatus": "live",
+      "treatment": "Road infrastructure expenditure/investment; weighted 15% when available"
+    },
+    {
+      "name": "Rail infrastructure expenditure",
+      "key": "rail_infra_expenditure",
+      "source": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "displaySourceUrl": "https://ec.europa.eu/eurostat/databrowser/",
+      "weight": 15,
+      "frequency": "Annual",
+      "role": "Investment",
+      "pipelineStatus": "live",
+      "treatment": "Rail infrastructure expenditure/investment; weighted 15% when available"
+    },
+    {
+      "name": "Transport infrastructure project pipeline",
+      "key": "transport_pipeline",
+      "source": "Official project/funding sources",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/",
+      "displaySourceUrl": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/",
+      "weight": 10,
+      "frequency": "Project-based",
+      "role": "Forward",
+      "pipelineStatus": "pending",
+      "treatment": "Activates at 10% only when verified project-pipeline connector is live; missing weight is renormalized, never treated as zero"
+    },
+    {
+      "name": "Motorway network development",
+      "key": "motorway_network",
+      "source": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "displaySourceUrl": "https://ec.europa.eu/eurostat/databrowser/",
+      "weight": 5,
+      "frequency": "Annual",
+      "role": "Need",
+      "pipelineStatus": "live",
+      "treatment": "Structural road-network development; weighted 5% when available"
+    },
+    {
+      "name": "Railway network development",
+      "key": "rail_network",
+      "source": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "displaySourceUrl": "https://ec.europa.eu/eurostat/databrowser/",
+      "weight": 5,
+      "frequency": "Annual",
+      "role": "Need",
+      "pipelineStatus": "live",
+      "treatment": "Structural rail-network development; weighted 5% when available"
     },
     {
       "name": "Road freight activity",
       "key": "road_freight",
       "source": "Eurostat",
       "url": "https://ec.europa.eu/eurostat/databrowser/",
-      "weight": 10,
+      "displaySourceUrl": "https://ec.europa.eu/eurostat/databrowser/",
+      "weight": 0,
       "frequency": "Source-defined",
-      "role": "Now",
+      "role": "Context",
       "pipelineStatus": "live",
-      "treatment": "Explicit source contract → comparison → normalized 0–100 → weighted contribution",
-      "displaySourceUrl": "https://ec.europa.eu/eurostat/databrowser/"
+      "treatment": "Demand context only; visible but excluded from Transportation score"
     },
     {
-      "name": "Ports & logistics",
+      "name": "Rail freight activity",
+      "key": "rail_freight",
+      "source": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "displaySourceUrl": "https://ec.europa.eu/eurostat/databrowser/",
+      "weight": 0,
+      "frequency": "Source-defined",
+      "role": "Context",
+      "pipelineStatus": "live",
+      "treatment": "Demand context only; visible but excluded from Transportation score"
+    },
+    {
+      "name": "Port freight / throughput",
       "key": "port_freight",
       "source": "Eurostat",
       "url": "https://ec.europa.eu/eurostat/databrowser/",
-      "weight": 10,
-      "frequency": "Source-defined",
-      "role": "Now",
+      "displaySourceUrl": "https://ec.europa.eu/eurostat/databrowser/",
+      "weight": 0,
+      "frequency": "Quarterly",
+      "role": "Context",
       "pipelineStatus": "live",
-      "treatment": "Explicit source contract → comparison → normalized 0–100 → weighted contribution",
-      "displaySourceUrl": "https://ec.europa.eu/eurostat/databrowser/"
+      "treatment": "Demand context only; visible but excluded from Transportation score"
+    },
+    {
+      "name": "Inland-waterway infrastructure expenditure",
+      "key": "inland_waterway_expenditure",
+      "source": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/databrowser/",
+      "displaySourceUrl": "https://ec.europa.eu/eurostat/databrowser/",
+      "weight": 0,
+      "frequency": "Annual",
+      "role": "Context",
+      "pipelineStatus": "live",
+      "treatment": "Applicable infrastructure context; visible where reported and excluded from score"
     },
     {
       "name": "Construction confidence",
       "key": "construction_confidence",
-      "source": "Eurostat",
+      "source": "Eurostat / DG ECFIN",
       "url": "https://ec.europa.eu/eurostat/databrowser/",
-      "weight": 10,
-      "frequency": "Source-defined",
-      "role": "Now",
+      "displaySourceUrl": "https://ec.europa.eu/eurostat/databrowser/",
+      "weight": 0,
+      "frequency": "Monthly",
+      "role": "Context",
       "pipelineStatus": "live",
-      "treatment": "Explicit source contract → comparison → normalized 0–100 → weighted contribution",
-      "displaySourceUrl": "https://ec.europa.eu/eurostat/databrowser/"
-    },
-    {
-      "name": "Funding announcements",
-      "key": "funding_announcements",
-      "source": "Official project/statistical source",
-      "url": "https://ec.europa.eu/eurostat/",
-      "weight": 5,
-      "frequency": "Source-defined",
-      "role": "Forward",
-      "pipelineStatus": "pending",
-      "treatment": "Explicit source contract → comparison → normalized 0–100 → weighted contribution",
-      "displaySourceUrl": "https://ec.europa.eu/eurostat/"
+      "treatment": "General construction context only; excluded from Transportation score"
     }
   ],
   "Site Development": [
@@ -327,8 +387,7 @@
       "weight": 0,
       "frequency": "Annual",
       "role": "Context",
-      "pipelineStatus": "live",
-      "treatment": "Supplemental evidence; excluded from weighted composite"
+      "pipelineStatus": "live"
     },
     {
       "name": "Safely managed drinking-water access",
@@ -339,8 +398,7 @@
       "weight": 0,
       "frequency": "Annual",
       "role": "Need",
-      "pipelineStatus": "live",
-      "treatment": "Supplemental evidence; excluded from weighted composite"
+      "pipelineStatus": "live"
     }
   ],
   "Oil & Gas": [

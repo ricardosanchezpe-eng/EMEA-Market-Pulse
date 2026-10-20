@@ -53,52 +53,51 @@
   "Transportation": [
     {
       "key": "civil_output",
-      "label": "Civil engineering output",
-      "weight": 25,
-      "adapter": "eurostat",
-      "required": true
+      "weight": 25
+    },
+    {
+      "key": "gov_transport_investment",
+      "weight": 25
+    },
+    {
+      "key": "road_infra_expenditure",
+      "weight": 15
+    },
+    {
+      "key": "rail_infra_expenditure",
+      "weight": 15
     },
     {
       "key": "transport_pipeline",
-      "label": "Transport investment & pipeline",
-      "weight": 25,
-      "adapter": "pending",
-      "required": false
+      "weight": 10
     },
     {
-      "key": "rail_freight",
-      "label": "Rail freight activity",
-      "weight": 15,
-      "adapter": "eurostat",
-      "required": false
+      "key": "motorway_network",
+      "weight": 5
+    },
+    {
+      "key": "rail_network",
+      "weight": 5
     },
     {
       "key": "road_freight",
-      "label": "Road freight activity",
-      "weight": 10,
-      "adapter": "eurostat",
-      "required": false
+      "weight": 0
+    },
+    {
+      "key": "rail_freight",
+      "weight": 0
     },
     {
       "key": "port_freight",
-      "label": "Ports & logistics",
-      "weight": 10,
-      "adapter": "eurostat",
-      "required": false
+      "weight": 0
+    },
+    {
+      "key": "inland_waterway_expenditure",
+      "weight": 0
     },
     {
       "key": "construction_confidence",
-      "label": "Construction confidence",
-      "weight": 10,
-      "adapter": "eurostat",
-      "required": false
-    },
-    {
-      "key": "funding_announcements",
-      "label": "Funding announcements",
-      "weight": 5,
-      "adapter": "pending",
-      "required": false
+      "weight": 0
     }
   ],
   "Site Development": [
