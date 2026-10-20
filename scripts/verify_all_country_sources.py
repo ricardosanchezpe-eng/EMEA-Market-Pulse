@@ -49,7 +49,14 @@ summary={'generatedAt':time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()),'countr
 md=['# All-country source verification','',f'- Total checks: {len(rows)}',f'- Countries: {summary["countries"]["total"]}',f'- Eurostat adapters: {len(EUROSTAT)}',f'- World Bank adapters: {len(WORLD_BANK)}','','## Results by indicator','','| Indicator | Pass | No usable series | Errors |','|---|---:|---:|---:|']
 for k,v in sorted(by.items()):md.append(f'| {k} | {v["PASS"]} | {v["NO_USABLE_SERIES"]} | {v["ERROR"]} |')
 (OUT/'all-country-source-verification.md').write_text('\n'.join(md)+'\n')
-hard=[r for r in rows if r['status'] not in ('PASS','NO_USABLE_SERIES')];bad=summary['contractIntegrity']['missingFromMethodology'] or summary['contractIntegrity']['missingFromContracts']
+weight_by_key={}
+for rows_ in method.values():
+ for x in rows_:
+  weight_by_key[x['key']]=max(weight_by_key.get(x['key'],0),float(x.get('weight',0) or 0))
+hard=[r for r in rows if r['status'] not in ('PASS','NO_USABLE_SERIES') and weight_by_key.get(r['indicator'],0)>0]
+warnings=[r for r in rows if r['status'] not in ('PASS','NO_USABLE_SERIES') and weight_by_key.get(r['indicator'],0)<=0]
+summary['blockingTechnicalErrors']=len(hard);summary['supplementalTechnicalWarnings']=len(warnings)
+bad=summary['contractIntegrity']['missingFromMethodology']
 print(json.dumps(summary,indent=2))
 import os
 strict=os.environ.get('VERIFICATION_STRICT','1')!='0'

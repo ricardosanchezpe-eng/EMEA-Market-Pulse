@@ -17,7 +17,7 @@ EUROSTAT={
 'inland_waterway_expenditure':{'dataset':'iww_ec_invest','filters':{'unit':'MIO_EUR','expend':'INF'},'frequency':'annual','comparison':'previous','signal':'context','status':'connected'},
 'rail_freight':{'dataset':'rail_go_typepas','filters':{},'frequency':'periodic','comparison':'previous','signal':'demand','status':'connected'},
 'road_freight':{'dataset':'road_go_ta_tott','filters':{},'frequency':'periodic','comparison':'previous','signal':'demand','status':'connected'},
-'port_freight':{'dataset':'mar_go_qm','filters':{'unit':'THS_T'},'frequency':'quarterly','comparison':'yoy_if_possible','signal':'demand','status':'connected','geo_dimension':'rep_mar'},
+'port_freight':{'dataset':'mar_go_qm','filters':{'unit':'THS_T','direct':'TOTAL'},'frequency':'quarterly','comparison':'yoy_if_possible','signal':'demand','status':'connected','geo_dimension':'rep_mar'},
 'wastewater_treatment':{'dataset':'sdg_06_20','filters':{},'frequency':'annual','comparison':'previous','signal':'need_gap','status':'connected'},
 'water_stress_eu':{'dataset':'sdg_06_60','filters':{},'frequency':'annual','comparison':'previous','signal':'need','status':'connected'},
 'waste_generation':{'dataset':'env_wasgen','filters':{},'frequency':'biennial','comparison':'previous','signal':'need','status':'candidate'},
