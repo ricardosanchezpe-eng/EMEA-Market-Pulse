@@ -1,7 +1,7 @@
 import json,urllib.request,urllib.parse,time,math,datetime,pathlib,threading
 from concurrent.futures import ThreadPoolExecutor,as_completed
 from source_registry import EUROSTAT,WORLD_BANK
-P=pathlib.Path('public/data/market-pulse.json'); C=pathlib.Path('public/data/indicator-contracts.json'); UA={'User-Agent':'EMEA-Market-Pulse/2.19','Accept':'application/json'};LOCK=threading.Lock()
+P=pathlib.Path('public/data/market-pulse.json'); C=pathlib.Path('public/data/indicator-contracts.json'); UA={'User-Agent':'EMEA-Market-Pulse/2.21.1','Accept':'application/json'};LOCK=threading.Lock()
 FIELD={'Overall':'overall','Transportation':'transport','Site Development':'site','Waste & Water':'water','Oil & Gas':'oil','Mining':'mining','Renewables':'renewables','Agriculture':'agriculture'}
 def log(s):
  with LOCK:print(s,flush=True)
@@ -55,19 +55,36 @@ def process(src,contracts,europe):
  c=json.loads(json.dumps(src));c.setdefault('indicators',{});c['sourceStatus']={};errors=[];cache={}
  if europe:
   for k,conf in EUROSTAT.items():
-   try:
-    ck=(conf['dataset'],conf.get('geo_dimension','geo'))
-    if ck not in cache:cache[ck]=euro(conf['dataset'],c['geo'],conf.get('geo_dimension','geo'))
-    j,u=cache[ck];meta,a=choose(j,conf);store(c,k,calc(a,conf),u,conf['status'],dict(meta or []))
-   except Exception as e:c['sourceStatus'][k]={'adapterState':conf['status'],'retrieval':'error','error':type(e).__name__};errors.append(k+':'+type(e).__name__)
+   attempts=[conf['dataset']]+conf.get('fallbacks',[]);chosen=None;last_error=None
+   for ds in attempts:
+    try:
+     ck=(ds,conf.get('geo_dimension','geo'))
+     if ck not in cache:cache[ck]=euro(ds,c['geo'],conf.get('geo_dimension','geo'))
+     j,u=cache[ck];meta,a=choose(j,conf);z=calc(a,conf)
+     if z and z.get('raw') is not None:chosen=(z,u,meta,ds);break
+    except Exception as e:last_error=e
+   if chosen:
+    z,u,meta,ds=chosen;z['dataset']=ds;store(c,k,z,u,conf['status'],dict(meta or []))
+   else:
+    reason='retrieval_error' if last_error else 'not_reported_or_no_comparable_series'
+    c['sourceStatus'][k]={'adapterState':conf['status'],'retrieval':'no_usable_series','reason':reason,'datasetsTried':attempts}
+    if last_error:errors.append(k+':'+type(last_error).__name__)
+ # World Bank is queried for both universes. In Europe it is the fallback/context layer;
+ # in Broader EMEA it is the primary harmonised international layer.
  for k,ind in WORLD_BANK.items():
-  try:z,u=wb(c.get('wb') or c['geo'],ind);store(c,k,z,u,'connected')
-  except Exception as e:c['sourceStatus'][k]={'adapterState':'connected','retrieval':'error','error':type(e).__name__};errors.append(k+':'+type(e).__name__)
- if c['indicators'].get('water_stress_eu'):c['indicators']['water_stress']=c['indicators']['water_stress_eu'];c['sourceStatus']['water_stress']=c['sourceStatus']['water_stress_eu']
+  try:
+   z,u=wb(c.get('wb') or c['geo'],ind)
+   if z:store(c,k,z,u,'connected')
+   else:c['sourceStatus'][k]={'adapterState':'connected','retrieval':'no_usable_series','reason':'not_reported_or_no_comparable_series','indicatorCode':ind}
+  except Exception as e:
+   c['sourceStatus'][k]={'adapterState':'connected','retrieval':'error','reason':'retrieval_error','error':type(e).__name__,'indicatorCode':ind};errors.append(k+':'+type(e).__name__)
+ if c['indicators'].get('water_stress_eu'):
+  c['indicators']['water_stress']=c['indicators']['water_stress_eu'];c['sourceStatus']['water_stress']=c['sourceStatus']['water_stress_eu']
  c.setdefault('coverage',{});c.setdefault('confidence',{})
  for vertical,items in contracts.items():
-  vals=[(c['indicators'][x['key']]['score'],x['weight']) for x in items if c['indicators'].get(x['key'],{}).get('score') is not None];cov=sum(w for _,w in vals);field=FIELD[vertical];c[field]=round(sum(s*w for s,w in vals)/cov) if cov>=15 else None;c['coverage'][field]=cov;c['confidence'][field]='High' if cov>=75 else 'Medium' if cov>=50 else 'Low' if cov>=15 else 'Insufficient'
+  vals=[(c['indicators'][x['key']]['score'],x['weight']) for x in items if c['indicators'].get(x['key'],{}).get('score') is not None];cov=sum(w for _,w in vals);field=FIELD[vertical];c[field]=round(sum(sc*w for sc,w in vals)/cov) if cov>=15 else None;c['coverage'][field]=cov;c['confidence'][field]='High' if cov>=75 else 'Medium' if cov>=50 else 'Low' if cov>=15 else 'Insufficient'
  c['stale']=bool(errors);return c,{'country':c['country'],'universe':'Europe' if europe else 'Broader EMEA','coverage':c['coverage'],'sourceStatus':c['sourceStatus'],'errors':errors}
+
 def main():
  import subprocess,sys
  subprocess.check_call([sys.executable,str(pathlib.Path(__file__).with_name('ensure_country_universe.py'))])
@@ -78,5 +95,5 @@ def main():
    name,eu=fs[f]
    try:c,x=f.result();out[(name,eu)]=c;diag.append(x);log(f'[{i}/{len(jobs)}] {name}: {sum(v.get("retrieval")=="live" for v in x["sourceStatus"].values())} live')
    except Exception as e:diag.append({'country':name,'errors':['fatal:'+repr(e)]});log(f'[{i}/{len(jobs)}] {name}: fatal')
- d['europe']=[out.get((c['country'],True),c) for c in d.get('europe',[])];d['emea']=[out.get((c['country'],False),c) for c in d.get('emea',[])];d['generatedAt']=datetime.datetime.now(datetime.timezone.utc).isoformat();d['pipelineStatus']='v2.19 explicit-contract refresh. Europe uses Eurostat plus international fallback; Broader EMEA skips Eurostat. Missing comparator never becomes zero growth.';d['diagnostics']=diag;P.write_text(json.dumps(d,ensure_ascii=False,indent=2));pathlib.Path('public/data/coverage-audit.json').write_text(json.dumps(diag,ensure_ascii=False,indent=2));log('[DONE]')
+ d['europe']=[out.get((c['country'],True),c) for c in d.get('europe',[])];d['emea']=[out.get((c['country'],False),c) for c in d.get('emea',[])];d['generatedAt']=datetime.datetime.now(datetime.timezone.utc).isoformat();d['pipelineStatus']='v2.21.1 verified all-country adapter refresh with Eurostat monthly/quarterly fallbacks and explicit missing-data reasons.';d['diagnostics']=diag;P.write_text(json.dumps(d,ensure_ascii=False,indent=2));pathlib.Path('public/data/coverage-audit.json').write_text(json.dumps(diag,ensure_ascii=False,indent=2));log('[DONE]')
 if __name__=='__main__':main()
