@@ -50,4 +50,7 @@ md=['# All-country source verification','',f'- Total checks: {len(rows)}',f'- Co
 for k,v in sorted(by.items()):md.append(f'| {k} | {v["PASS"]} | {v["NO_USABLE_SERIES"]} | {v["ERROR"]} |')
 (OUT/'all-country-source-verification.md').write_text('\n'.join(md)+'\n')
 hard=[r for r in rows if r['status'] not in ('PASS','NO_USABLE_SERIES')];bad=summary['contractIntegrity']['missingFromMethodology'] or summary['contractIntegrity']['missingFromContracts']
-print(json.dumps(summary,indent=2));sys.exit(2 if hard or bad else 0)
+print(json.dumps(summary,indent=2))
+import os
+strict=os.environ.get('VERIFICATION_STRICT','1')!='0'
+sys.exit(2 if bad or (strict and hard) else 0)
