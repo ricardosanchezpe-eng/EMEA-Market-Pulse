@@ -387,8 +387,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -1325,8 +1325,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -1955,8 +1955,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -2109,8 +2109,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -3677,8 +3677,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -4377,8 +4377,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -4461,8 +4461,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -5091,8 +5091,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -5551,11 +5551,11 @@
     "weight": 10,
     "adapter": "eurostat",
     "retrieval": "live",
-    "latest": 111.2,
+    "latest": 104.1,
     "latestDate": "2026-Q1",
-    "previous": 104.5,
+    "previous": 103.5,
     "previousDate": "2025-Q4",
-    "score": 76
+    "score": 52
   },
   {
     "universe": "europe",
@@ -5817,11 +5817,11 @@
     "weight": 10,
     "adapter": "eurostat",
     "retrieval": "live",
-    "latest": 111.2,
+    "latest": 104.1,
     "latestDate": "2026-Q1",
-    "previous": 104.5,
+    "previous": 103.5,
     "previousDate": "2025-Q4",
-    "score": 76
+    "score": 52
   },
   {
     "universe": "europe",
@@ -6029,8 +6029,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -6491,8 +6491,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2025",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2024",
     "score": null
   },
   {
@@ -6659,8 +6659,8 @@
     "retrieval": "live",
     "latest": 6,
     "latestDate": "2022",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -7513,8 +7513,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -8381,8 +8381,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -9165,8 +9165,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -9795,8 +9795,8 @@
     "retrieval": "live",
     "latest": 1,
     "latestDate": "2022",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -9809,8 +9809,8 @@
     "retrieval": "live",
     "latest": 1,
     "latestDate": "2022",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -9949,8 +9949,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -10579,8 +10579,8 @@
     "retrieval": "live",
     "latest": 1,
     "latestDate": "2022",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -11517,8 +11517,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -12147,8 +12147,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -12217,8 +12217,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -12579,10 +12579,10 @@
     "weight": 15,
     "adapter": "eurostat",
     "retrieval": "live",
-    "latest": 62.2,
-    "latestDate": "2026-06",
-    "previous": 54.2,
-    "previousDate": "2026-05",
+    "latest": 95.8,
+    "latestDate": "2026-07",
+    "previous": 65.0,
+    "previousDate": "2026-06",
     "score": 100
   },
   {
@@ -12817,10 +12817,10 @@
     "weight": 30,
     "adapter": "eurostat",
     "retrieval": "live",
-    "latest": 62.2,
-    "latestDate": "2026-06",
-    "previous": 54.2,
-    "previousDate": "2026-05",
+    "latest": 95.8,
+    "latestDate": "2026-07",
+    "previous": 65.0,
+    "previousDate": "2026-06",
     "score": 100
   },
   {
@@ -12831,9 +12831,9 @@
     "weight": 20,
     "adapter": "eurostat",
     "retrieval": "live",
-    "latest": 57.6,
+    "latest": 58.4,
     "latestDate": "2026-Q2",
-    "previous": 42.2,
+    "previous": 42.4,
     "previousDate": "2026-Q1",
     "score": 100
   },
@@ -12931,8 +12931,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -13001,8 +13001,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -13419,9 +13419,9 @@
     "weight": 5,
     "adapter": "eurostat_candidate",
     "retrieval": "live",
-    "latest": 6518.0,
+    "latest": 6447.5,
     "latestDate": "2025",
-    "previous": 5324.5,
+    "previous": 5325.6,
     "previousDate": "2024",
     "score": 100
   },
@@ -13715,8 +13715,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -13729,8 +13729,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -14653,8 +14653,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -16851,8 +16851,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -16865,8 +16865,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -17005,8 +17005,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -17635,8 +17635,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -17649,8 +17649,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -17691,8 +17691,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -17705,8 +17705,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -17789,8 +17789,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -18489,8 +18489,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -18573,8 +18573,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -18851,11 +18851,11 @@
     "weight": 15,
     "adapter": "eurostat",
     "retrieval": "live",
-    "latest": 94.5,
-    "latestDate": "2026-08",
-    "previous": 97.4,
-    "previousDate": "2026-07",
-    "score": 38
+    "latest": 61.4,
+    "latestDate": "2026-09",
+    "previous": 94.0,
+    "previousDate": "2026-08",
+    "score": 0
   },
   {
     "universe": "europe",
@@ -19089,11 +19089,11 @@
     "weight": 30,
     "adapter": "eurostat",
     "retrieval": "live",
-    "latest": 94.5,
-    "latestDate": "2026-08",
-    "previous": 97.4,
-    "previousDate": "2026-07",
-    "score": 38
+    "latest": 61.4,
+    "latestDate": "2026-09",
+    "previous": 94.0,
+    "previousDate": "2026-08",
+    "score": 0
   },
   {
     "universe": "europe",
@@ -19103,11 +19103,11 @@
     "weight": 20,
     "adapter": "eurostat",
     "retrieval": "live",
-    "latest": 95.6,
-    "latestDate": "2026-Q2",
-    "previous": 79.8,
-    "previousDate": "2026-Q1",
-    "score": 100
+    "latest": 91.8,
+    "latestDate": "2026-Q3",
+    "previous": 95.6,
+    "previousDate": "2026-Q2",
+    "score": 34
   },
   {
     "universe": "europe",
@@ -19203,8 +19203,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -19357,8 +19357,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -19777,8 +19777,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2024",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2023",
     "score": null
   },
   {
@@ -20001,8 +20001,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -20057,8 +20057,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -20141,8 +20141,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -20419,11 +20419,11 @@
     "weight": 15,
     "adapter": "eurostat",
     "retrieval": "live",
-    "latest": 73.9,
-    "latestDate": "2026-Q2",
-    "previous": 55.0,
-    "previousDate": "2026-Q1",
-    "score": 100
+    "latest": 62.5,
+    "latestDate": "2026-Q3",
+    "previous": 73.9,
+    "previousDate": "2026-Q2",
+    "score": 0
   },
   {
     "universe": "europe",
@@ -20657,11 +20657,11 @@
     "weight": 30,
     "adapter": "eurostat",
     "retrieval": "live",
-    "latest": 73.9,
-    "latestDate": "2026-Q2",
-    "previous": 55.0,
-    "previousDate": "2026-Q1",
-    "score": 100
+    "latest": 62.5,
+    "latestDate": "2026-Q3",
+    "previous": 73.9,
+    "previousDate": "2026-Q2",
+    "score": 0
   },
   {
     "universe": "europe",
@@ -20671,11 +20671,11 @@
     "weight": 20,
     "adapter": "eurostat",
     "retrieval": "live",
-    "latest": 73.9,
-    "latestDate": "2026-Q2",
-    "previous": 55.0,
-    "previousDate": "2026-Q1",
-    "score": 100
+    "latest": 62.5,
+    "latestDate": "2026-Q3",
+    "previous": 73.9,
+    "previousDate": "2026-Q2",
+    "score": 0
   },
   {
     "universe": "europe",
@@ -20771,8 +20771,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -20785,8 +20785,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -20841,8 +20841,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -20925,8 +20925,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -21345,8 +21345,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2024",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2023",
     "score": null
   },
   {
@@ -21569,8 +21569,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -21611,8 +21611,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -21625,8 +21625,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -22129,8 +22129,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2024",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2023",
     "score": null
   },
   {
@@ -22339,8 +22339,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2022",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -22395,8 +22395,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -22409,8 +22409,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -22423,8 +22423,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -22493,8 +22493,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -22507,8 +22507,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -24061,8 +24061,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -25629,8 +25629,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -26413,8 +26413,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -30235,8 +30235,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -30249,8 +30249,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -31019,8 +31019,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -31033,8 +31033,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -32587,8 +32587,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -34253,8 +34253,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -35821,8 +35821,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -35905,8 +35905,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -36605,8 +36605,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2020",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2019",
     "score": null
   },
   {
@@ -37389,8 +37389,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -38173,8 +38173,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -38257,8 +38257,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -38957,8 +38957,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {
@@ -39741,8 +39741,8 @@
     "retrieval": "live",
     "latest": 0,
     "latestDate": "2021",
-    "previous": null,
-    "previousDate": null,
+    "previous": 0,
+    "previousDate": "2020",
     "score": null
   },
   {

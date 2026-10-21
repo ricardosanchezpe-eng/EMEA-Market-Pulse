@@ -12618,12 +12618,12 @@
           }
         },
         "construction_employment": {
-          "raw": 111.2,
+          "raw": 104.1,
           "date": "2026-Q1",
-          "previous": 104.5,
+          "previous": 103.5,
           "previousDate": "2025-Q4",
-          "growthPct": 6.4114832535885125,
-          "score": 76,
+          "growthPct": 0.5797101449275255,
+          "score": 52,
           "comparison": "previous_period",
           "source": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_colb_q?lang=EN&geo=BE&lastTimePeriod=25&nace_r2=F",
           "dataset": "sts_colb_q",
@@ -12632,23 +12632,23 @@
           "history": [
             {
               "date": "2025-Q1",
-              "value": 109.1
+              "value": 103.1
             },
             {
               "date": "2025-Q2",
-              "value": 114.2
+              "value": 103.2
             },
             {
               "date": "2025-Q3",
-              "value": 87.1
+              "value": 103.3
             },
             {
               "date": "2025-Q4",
-              "value": 104.5
+              "value": 103.5
             },
             {
               "date": "2026-Q1",
-              "value": 111.2
+              "value": 104.1
             }
           ],
           "officialDatasetName": "Labour input in construction - quarterly data",
@@ -12656,9 +12656,9 @@
           "unit": "I21",
           "selectedDimensions": {
             "freq": "Q",
-            "indic_bt": "HW",
+            "indic_bt": "EMP",
             "nace_r2": "F",
-            "s_adj": "CA",
+            "s_adj": "NSA",
             "unit": "I21",
             "geo": "BE"
           }
@@ -13280,9 +13280,9 @@
         }
       },
       "stale": false,
-      "overall": 80,
+      "overall": 78,
       "transport": 74,
-      "site": 79,
+      "site": 77,
       "water": 50,
       "oil": 100,
       "mining": 100,
@@ -26786,11 +26786,11 @@
           }
         },
         "building_permits": {
-          "raw": 62.2,
-          "date": "2026-06",
-          "previous": 54.2,
-          "previousDate": "2026-05",
-          "growthPct": 14.760147601476014,
+          "raw": 95.8,
+          "date": "2026-07",
+          "previous": 65.0,
+          "previousDate": "2026-06",
+          "growthPct": 47.38461538461538,
           "score": 100,
           "comparison": "previous_period",
           "source": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/teiis550?lang=EN&geo=FI&lastTimePeriod=25",
@@ -26799,24 +26799,24 @@
           "verified": true,
           "history": [
             {
-              "date": "2026-02",
-              "value": 69.4
-            },
-            {
               "date": "2026-03",
-              "value": 52.5
+              "value": 53.8
             },
             {
               "date": "2026-04",
-              "value": 58.1
+              "value": 65.1
             },
             {
               "date": "2026-05",
-              "value": 54.2
+              "value": 55.8
             },
             {
               "date": "2026-06",
-              "value": 62.2
+              "value": 65.0
+            },
+            {
+              "date": "2026-07",
+              "value": 95.8
             }
           ],
           "officialDatasetName": "Building permits - monthly data",
@@ -27886,11 +27886,11 @@
           }
         },
         "nonres_permits": {
-          "raw": 57.6,
+          "raw": 58.4,
           "date": "2026-Q2",
-          "previous": 42.2,
+          "previous": 42.4,
           "previousDate": "2026-Q1",
-          "growthPct": 36.49289099526065,
+          "growthPct": 37.73584905660377,
           "score": 100,
           "comparison": "previous_period",
           "source": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_cobp_q?lang=EN&geo=FI&lastTimePeriod=25",
@@ -27900,7 +27900,7 @@
           "history": [
             {
               "date": "2025-Q2",
-              "value": 63.8
+              "value": 63.9
             },
             {
               "date": "2025-Q3",
@@ -27908,15 +27908,15 @@
             },
             {
               "date": "2025-Q4",
-              "value": 39.8
+              "value": 40.0
             },
             {
               "date": "2026-Q1",
-              "value": 42.2
+              "value": 42.4
             },
             {
               "date": "2026-Q2",
-              "value": 57.6
+              "value": 58.4
             }
           ],
           "officialDatasetName": "Building permits by type of building - quarterly data",
@@ -29417,11 +29417,11 @@
           }
         },
         "fixed_investment": {
-          "raw": 6518.0,
+          "raw": 6447.5,
           "date": "2025",
-          "previous": 5324.5,
+          "previous": 5325.6,
           "previousDate": "2024",
-          "growthPct": 22.415250258240206,
+          "growthPct": 21.06617094787442,
           "score": 100,
           "comparison": "previous_period",
           "source": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_an6?lang=EN&geo=EL&lastTimePeriod=25",
@@ -29439,15 +29439,15 @@
             },
             {
               "date": "2023",
-              "value": 4718.0
+              "value": 4717.9
             },
             {
               "date": "2024",
-              "value": 5324.5
+              "value": 5325.6
             },
             {
               "date": "2025",
-              "value": 6518.0
+              "value": 6447.5
             }
           ],
           "officialDatasetName": "Gross fixed capital formation by main asset type - annual data",
@@ -40278,12 +40278,12 @@
           }
         },
         "building_permits": {
-          "raw": 94.5,
-          "date": "2026-08",
-          "previous": 97.4,
-          "previousDate": "2026-07",
-          "growthPct": -2.977412731006168,
-          "score": 38,
+          "raw": 61.4,
+          "date": "2026-09",
+          "previous": 94.0,
+          "previousDate": "2026-08",
+          "growthPct": -34.680851063829785,
+          "score": 0,
           "comparison": "previous_period",
           "source": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/teiis550?lang=EN&geo=SI&lastTimePeriod=25",
           "dataset": "teiis550",
@@ -40291,24 +40291,24 @@
           "verified": true,
           "history": [
             {
-              "date": "2026-04",
-              "value": 70.0
-            },
-            {
               "date": "2026-05",
-              "value": 90.2
+              "value": 89.8
             },
             {
               "date": "2026-06",
-              "value": 76.7
+              "value": 76.4
             },
             {
               "date": "2026-07",
-              "value": 97.4
+              "value": 97.0
             },
             {
               "date": "2026-08",
-              "value": 94.5
+              "value": 94.0
+            },
+            {
+              "date": "2026-09",
+              "value": 61.4
             }
           ],
           "officialDatasetName": "Building permits - monthly data",
@@ -41373,22 +41373,18 @@
           }
         },
         "nonres_permits": {
-          "raw": 95.6,
-          "date": "2026-Q2",
-          "previous": 79.8,
-          "previousDate": "2026-Q1",
-          "growthPct": 19.799498746867172,
-          "score": 100,
+          "raw": 91.8,
+          "date": "2026-Q3",
+          "previous": 95.6,
+          "previousDate": "2026-Q2",
+          "growthPct": -3.974895397489542,
+          "score": 34,
           "comparison": "previous_period",
           "source": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_cobp_q?lang=EN&geo=SI&lastTimePeriod=25",
           "dataset": "sts_cobp_q",
           "provider": "Eurostat",
           "verified": true,
           "history": [
-            {
-              "date": "2025-Q2",
-              "value": 97.9
-            },
             {
               "date": "2025-Q3",
               "value": 80.9
@@ -41404,6 +41400,10 @@
             {
               "date": "2026-Q2",
               "value": 95.6
+            },
+            {
+              "date": "2026-Q3",
+              "value": 91.8
             }
           ],
           "officialDatasetName": "Building permits by type of building - quarterly data",
@@ -41814,9 +41814,9 @@
         }
       },
       "stale": false,
-      "overall": 43,
+      "overall": 38,
       "transport": 28,
-      "site": 49,
+      "site": 22,
       "water": 34,
       "oil": 68,
       "mining": 1,
@@ -44462,22 +44462,18 @@
           "selectedDimensions": {}
         },
         "building_permits": {
-          "raw": 73.9,
-          "date": "2026-Q2",
-          "previous": 55.0,
-          "previousDate": "2026-Q1",
-          "growthPct": 34.363636363636374,
-          "score": 100,
+          "raw": 62.5,
+          "date": "2026-Q3",
+          "previous": 73.9,
+          "previousDate": "2026-Q2",
+          "growthPct": -15.426251691474969,
+          "score": 0,
           "comparison": "previous_period",
           "source": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_cobp_q?lang=EN&geo=EE&lastTimePeriod=25",
           "dataset": "sts_cobp_q",
           "provider": "Eurostat",
           "verified": true,
           "history": [
-            {
-              "date": "2025-Q2",
-              "value": 78.8
-            },
             {
               "date": "2025-Q3",
               "value": 64.4
@@ -44493,6 +44489,10 @@
             {
               "date": "2026-Q2",
               "value": 73.9
+            },
+            {
+              "date": "2026-Q3",
+              "value": 62.5
             }
           ],
           "officialDatasetName": "Building permits by type of building - quarterly data",
@@ -44780,22 +44780,18 @@
           }
         },
         "nonres_permits": {
-          "raw": 73.9,
-          "date": "2026-Q2",
-          "previous": 55.0,
-          "previousDate": "2026-Q1",
-          "growthPct": 34.363636363636374,
-          "score": 100,
+          "raw": 62.5,
+          "date": "2026-Q3",
+          "previous": 73.9,
+          "previousDate": "2026-Q2",
+          "growthPct": -15.426251691474969,
+          "score": 0,
           "comparison": "previous_period",
           "source": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_cobp_q?lang=EN&geo=EE&lastTimePeriod=25",
           "dataset": "sts_cobp_q",
           "provider": "Eurostat",
           "verified": true,
           "history": [
-            {
-              "date": "2025-Q2",
-              "value": 78.8
-            },
             {
               "date": "2025-Q3",
               "value": 64.4
@@ -44811,6 +44807,10 @@
             {
               "date": "2026-Q2",
               "value": 73.9
+            },
+            {
+              "date": "2026-Q3",
+              "value": 62.5
             }
           ],
           "officialDatasetName": "Building permits by type of building - quarterly data",
@@ -45177,9 +45177,9 @@
         }
       },
       "stale": false,
-      "overall": 78,
+      "overall": 60,
       "transport": 82,
-      "site": 86,
+      "site": 15,
       "water": 28,
       "oil": 100,
       "mining": 74,
@@ -63265,5 +63265,5 @@
       "errors": []
     }
   ],
-  "lastRefresh": "2026-10-21T04:22:17Z"
+  "lastRefresh": "2026-10-21T23:07:21Z"
 }

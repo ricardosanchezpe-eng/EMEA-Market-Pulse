@@ -1738,7 +1738,7 @@
       "country": "Belgium",
       "indicator": "construction_employment",
       "historyLength": 5,
-      "historyHash": "6ad8935ec0aac7a7c9ecf1f9c5a6d3401d4d0f3545a0442d03a777c122e6ddef"
+      "historyHash": "1224aaa7731191711fac4bd3f8497b2613052f0a114ec0e074c1a28547ef0fce"
     },
     {
       "universe": "Harmonised Europe",
@@ -3082,7 +3082,7 @@
       "country": "Estonia",
       "indicator": "building_permits",
       "historyLength": 5,
-      "historyHash": "2321fdbe25fd14f06a4f39bee4dfeaafb1ef80b5f5d5bb9b8faddceb44d333b0"
+      "historyHash": "964675239b628f054706f25d631b855eb34d385a6d359372138cf10f5c7f2c88"
     },
     {
       "universe": "Harmonised Europe",
@@ -3145,7 +3145,7 @@
       "country": "Estonia",
       "indicator": "nonres_permits",
       "historyLength": 5,
-      "historyHash": "2321fdbe25fd14f06a4f39bee4dfeaafb1ef80b5f5d5bb9b8faddceb44d333b0"
+      "historyHash": "964675239b628f054706f25d631b855eb34d385a6d359372138cf10f5c7f2c88"
     },
     {
       "universe": "Harmonised Europe",
@@ -3306,7 +3306,7 @@
       "country": "Finland",
       "indicator": "building_permits",
       "historyLength": 5,
-      "historyHash": "cf7c74b18d2ee46afb611f1670382ef24346bd6b96b286e096c5c70f780c6cbf"
+      "historyHash": "fa114c3eca5027136860f4730521c8025d94a094d3786629091a3d8773a09f57"
     },
     {
       "universe": "Harmonised Europe",
@@ -3383,7 +3383,7 @@
       "country": "Finland",
       "indicator": "nonres_permits",
       "historyLength": 5,
-      "historyHash": "1792852b17310ed060b47a3360bf9175d2d81d685cb2cc21c2cfaf2e7474fd1d"
+      "historyHash": "14fd415ddde5af19e4398fc28e32adf64c0cfa0c9dfe18fd747677ee4cbf9c0a"
     },
     {
       "universe": "Harmonised Europe",
@@ -4027,7 +4027,7 @@
       "country": "Greece",
       "indicator": "fixed_investment",
       "historyLength": 5,
-      "historyHash": "0ac9b9065caeaca830c77ed986078924fe7a0a87f8c779e927ab5384e1c964b3"
+      "historyHash": "f2b879958c6e1dea3bcfc4dae809ecbc826db0aa610e2a091c0e09ed4f506bd1"
     },
     {
       "universe": "Harmonised Europe",
@@ -7100,7 +7100,7 @@
       "country": "Slovenia",
       "indicator": "building_permits",
       "historyLength": 5,
-      "historyHash": "01c03005ca7dc943d27dd363bdb28cae88f910f03998015e856433dc89fea95d"
+      "historyHash": "8176a25e89a50cb4df57bf37e3a1bfd12b22abe6bd467043d2c597c3a7d4753a"
     },
     {
       "universe": "Harmonised Europe",
@@ -7170,7 +7170,7 @@
       "country": "Slovenia",
       "indicator": "nonres_permits",
       "historyLength": 5,
-      "historyHash": "da65b56cb3ecaa44951b40956d4513636dab949e2aaeeea776dda6755b75b743"
+      "historyHash": "08ac839d6260f42f9e4bb2f68fce4da4615dd3c411e513a52f09964d8cb58b2e"
     },
     {
       "universe": "Harmonised Europe",
