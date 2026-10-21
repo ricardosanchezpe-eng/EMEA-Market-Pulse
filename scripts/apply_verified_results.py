@@ -14,7 +14,15 @@ for r in report['results']:
  c.setdefault('indicators',{});c.setdefault('sourceStatus',{})
  if r['status']=='PASS':
   if k not in method_keys:missing.append([r['country'],r['indicator'],k]);continue
-  z={'raw':r.get('latest'),'date':r.get('latestDate'),'previous':r.get('previous'),'previousDate':r.get('previousDate'),'growthPct':r.get('change'),'score':norm(r.get('change')),'comparison':r.get('comparison'),'source':r.get('sourceUrl'),'dataset':r.get('dataset'),'provider':r.get('provider'),'verified':True,'history':r.get('history',[]),'officialDatasetName':r.get('officialDatasetName'),'frequency':r.get('frequency'),'unit':r.get('unit'),'selectedDimensions':r.get('selectedDimensions') or {}}
+  history=[{'date':str(x.get('date')),'value':x.get('value')} for x in (r.get('history') or [])[-5:]]
+  latest=history[-1] if history else {'date':r.get('latestDate'),'value':r.get('latest')}
+  previous=history[-2] if len(history)>=2 else {'date':r.get('previousDate'),'value':r.get('previous')}
+  change=None
+  if len(history)>=2 and previous.get('value') is not None and latest.get('value') is not None:
+   pv=float(previous['value']);lv=float(latest['value'])
+   if r.get('frequency')=='monthly_balance':change=lv-pv
+   elif pv!=0:change=(lv/pv-1)*100
+  z={'raw':latest.get('value'),'date':latest.get('date'),'previous':previous.get('value'),'previousDate':previous.get('date'),'growthPct':change,'score':norm(change),'comparison':'previous_period','source':r.get('sourceUrl'),'dataset':r.get('dataset'),'provider':r.get('provider'),'verified':True,'history':history,'officialDatasetName':r.get('officialDatasetName'),'frequency':r.get('frequency'),'unit':r.get('unit'),'selectedDimensions':r.get('selectedDimensions') or {}}
   c['indicators'][k]=z;c['sourceStatus'][k]={'adapterState':'connected','retrieval':'live','provider':r.get('provider'),'dataset':r.get('dataset')};applied.append((u,r['country'],k))
  else:c['sourceStatus'][k]={'adapterState':'connected','retrieval':'no_usable_series' if r['status']=='NO_USABLE_SERIES' else 'error','reason':r['status'],'error':r.get('error'),'datasetsTried':r.get('datasetsTried')}
 for u in ('europe','emea'):
