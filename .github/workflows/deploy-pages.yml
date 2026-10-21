@@ -12,6 +12,47 @@ jobs:
         with: {node-version: 20}
       - run: npm install
       - run: npm run build
+      - name: Verify complete deployed data artifact
+        run: |
+          test -f dist/data/market-pulse.json
+          test -f dist/data/indicator-methodology.json
+          test -f dist/data/history-parity.json
+          python - <<'PYCODE'
+          import json
+          d=json.load(open('dist/data/market-pulse.json'))
+          m=json.load(open('dist/data/indicator-methodology.json'))
+          h=json.load(open('dist/data/history-parity.json'))
+          assert len(d.get('europe',[]))==29, len(d.get('europe',[]))
+          assert len(d.get('emea',[]))==22, len(d.get('emea',[]))
+          missing=[]; live_missing=[]
+          for universe in ('europe','emea'):
+              for c in d[universe]:
+                  for vertical,rows in m.items():
+                      for row in rows:
+                          k=row['key']; st=c.get('sourceStatus',{}).get(k,{})
+                          if st.get('retrieval')=='live' and c.get('indicators',{}).get(k,{}).get('raw') is None:
+                              live_missing.append((universe,c['country'],vertical,k))
+          assert not live_missing, live_missing[:20]
+          idx={(('Harmonised Europe' if u=='europe' else 'Broader EMEA'),c['country']):c for u in ('europe','emea') for c in d[u]}
+          history_errors=[]
+          import hashlib
+          def hd(x): return hashlib.sha256(json.dumps(x,sort_keys=True,separators=(',',':')).encode()).hexdigest()
+          for r in h['rows']:
+              z=idx[(r['universe'],r['country'])].get('indicators',{}).get(r['indicator'],{})
+              hist=[{'date':str(x.get('date')),'value':x.get('value')} for x in (z.get('history') or [])[-5:]]
+              if len(hist)!=r['historyLength'] or hd(hist)!=r['historyHash']:
+                  history_errors.append((r['universe'],r['country'],r['indicator'],r['historyLength'],len(hist)))
+              if hist and (z.get('raw')!=hist[-1]['value'] or str(z.get('date'))!=hist[-1]['date']):
+                  history_errors.append((r['universe'],r['country'],r['indicator'],'latest_tail_mismatch'))
+              if len(hist)>=2 and (z.get('previous')!=hist[-2]['value'] or str(z.get('previousDate'))!=hist[-2]['date']):
+                  history_errors.append((r['universe'],r['country'],r['indicator'],'previous_immediate_mismatch'))
+          assert not history_errors,history_errors[:20]
+          assert h['historyRows']==h['verifiedPassRows'],h
+          print('DEPLOY_DATA_REFRESH',d.get('lastRefresh'))
+          print('DEPLOY_COUNTRIES',len(d['europe']),len(d['emea']))
+          print('DEPLOY_HISTORY_PARITY_OK',h['historyRows'],'rows;',h['fivePointRows'],'with five observations')
+          print('DEPLOY_LIVE_OBSERVATION_PARITY_OK',sum(1 for u in ('europe','emea') for c in d[u] for z in c.get('indicators',{}).values() if z.get('raw') is not None))
+          PYCODE
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with: {path: dist}

@@ -34,6 +34,9 @@ jobs:
       - name: Apply every verified PASS observation to the live dataset
         if: steps.gate.outputs.run == 'true'
         run: python scripts/apply_verified_results.py
+      - name: Verify five-observation production history parity
+        if: steps.gate.outputs.run == 'true'
+        run: python scripts/verify_history_parity.py
       - name: Build complete coverage audit
         if: steps.gate.outputs.run == 'true'
         run: python scripts/audit_coverage.py
@@ -45,6 +48,11 @@ jobs:
           import json
           p=json.load(open('public/data/verified-source-parity.json'))
           assert p['verifiedPassRows']==p['appliedPassRows'],p
+          h=json.load(open('public/data/history-parity.json'))
+          assert not h['errors'],h['errors'][:20]
+          assert h['verifiedPassRows']==p['verifiedPassRows'],(h,p)
+          assert h['historyRows']==p['verifiedPassRows'],(h,p)
+          print('PRODUCTION_HISTORY_PARITY_OK',h['historyRows'],'rows;',h['fivePointRows'],'with five observations')
           assert not p.get('unrepresented'),p.get('unrepresented')
           assert not p.get('mismatches'),p.get('mismatches')
           assert not p.get('technical'),p.get('technical')
