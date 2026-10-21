@@ -1,0 +1,30 @@
+{
+  "schemaVersion":"1.0",
+  "rules":{"trendFrequencies":["monthly","quarterly"],"maxAgeMonths":6,"monthlyHistory":24,"quarterlyHistory":8,"annualSeparate":true,"missingIsNull":true,"primaryComparison":"year_over_year","ytdMatchedPeriodsOnly":true},
+  "candidates":[
+    {"key":"construction_output","name":"Total construction production","verticals":["Overall Construction"],"dataset":"sts_copr_m","fallback":"sts_copr_q","frequency":"monthly","match":["Construction","Index"],"decisionSeed":"INCLUDE"},
+    {"key":"building_output","name":"Building construction output","verticals":["Overall Construction","Site Development"],"dataset":"sts_copr_m","fallback":"sts_copr_q","frequency":"monthly","match":["Construction of buildings","Index"],"decisionSeed":"INCLUDE"},
+    {"key":"civil_output","name":"Civil engineering output","verticals":["Overall Construction","Transportation Infrastructure"],"dataset":"sts_copr_m","fallback":"sts_copr_q","frequency":"monthly","match":["Civil engineering","Index"],"decisionSeed":"INCLUDE"},
+    {"key":"specialised_construction","name":"Specialised construction activities","verticals":["Overall Construction","Site Development"],"dataset":"sts_copr_m","fallback":"sts_copr_q","frequency":"monthly","match":["Specialised construction activities","Index"],"decisionSeed":"INCLUDE"},
+    {"key":"building_permits","name":"Building permits","verticals":["Overall Construction","Site Development"],"dataset":"sts_cobp_m","fallback":"sts_cobp_q","frequency":"monthly","match":["Building permits","Index"],"decisionSeed":"INCLUDE"},
+    {"key":"residential_permits","name":"Residential building permits","verticals":["Site Development"],"dataset":"sts_cobp_m","fallback":"sts_cobp_q","frequency":"monthly","match":["Residential buildings","Index"],"decisionSeed":"INCLUDE"},
+    {"key":"nonres_permits","name":"Non-residential building permits","verticals":["Site Development"],"dataset":"sts_cobp_m","fallback":"sts_cobp_q","frequency":"monthly","match":["Non-residential buildings","Index"],"decisionSeed":"INCLUDE"},
+    {"key":"construction_confidence","name":"Construction confidence","verticals":["Overall Construction","Site Development"],"dataset":"ei_bsin_m_r2","frequency":"monthly","match":["Construction","Balance"],"decisionSeed":"INCLUDE"},
+    {"key":"construction_labour","name":"Construction labour input","verticals":["Overall Construction","Site Development","Transportation Infrastructure"],"dataset":"sts_colb_m","fallback":"sts_colb_q","frequency":"monthly","match":["Construction","Index"],"decisionSeed":"CANDIDATE"},
+    {"key":"construction_costs","name":"Construction producer prices and costs","verticals":["Overall Construction","Site Development"],"dataset":"sts_copi_q","frequency":"quarterly","match":["Construction","Index"],"decisionSeed":"INCLUDE"},
+    {"key":"construction_fixed_investment","name":"Construction fixed capital formation","verticals":["Overall Construction","Site Development"],"dataset":"nama_10_gdp","frequency":"quarterly","match":["Gross fixed capital formation","Construction"],"decisionSeed":"CANDIDATE"},
+    {"key":"mining_output","name":"Mining and quarrying production","verticals":["Mining"],"dataset":"sts_inpr_m","fallback":"sts_inpr_q","frequency":"monthly","match":["Mining and quarrying","Index"],"decisionSeed":"INCLUDE"},
+    {"key":"renewable_generation","name":"Renewable electricity generation","verticals":["Renewables"],"dataset":"nrg_cb_pem","frequency":"monthly","match":["Renewable","Gigawatt-hour"],"decisionSeed":"INCLUDE"},
+    {"key":"solar_generation","name":"Solar electricity generation","verticals":["Renewables"],"dataset":"nrg_cb_pem","frequency":"monthly","match":["Solar","Gigawatt-hour"],"decisionSeed":"INCLUDE"},
+    {"key":"wind_generation","name":"Wind electricity generation","verticals":["Renewables"],"dataset":"nrg_cb_pem","frequency":"monthly","match":["Wind","Gigawatt-hour"],"decisionSeed":"INCLUDE"},
+    {"key":"hydro_generation","name":"Hydroelectric generation","verticals":["Renewables"],"dataset":"nrg_cb_pem","frequency":"monthly","match":["Hydro","Gigawatt-hour"],"decisionSeed":"CANDIDATE"},
+    {"key":"agri_output_prices","name":"Agricultural output prices","verticals":["Agriculture"],"dataset":"apri_pi_outq","frequency":"quarterly","match":["Total","Index"],"decisionSeed":"INCLUDE"},
+    {"key":"agri_input_prices","name":"Agricultural input prices","verticals":["Agriculture"],"dataset":"apri_pi_inq","frequency":"quarterly","match":["Total","Index"],"decisionSeed":"INCLUDE"},
+    {"key":"monthly_gas_supply","name":"Natural gas supply and consumption","verticals":["Oil & Gas"],"dataset":"nrg_cb_gasm","frequency":"monthly","match":["Natural gas"],"decisionSeed":"CANDIDATE"},
+    {"key":"monthly_oil_supply","name":"Oil supply and refinery activity","verticals":["Oil & Gas"],"dataset":"nrg_cb_oilm","frequency":"monthly","match":["Total petroleum products"],"decisionSeed":"CANDIDATE"},
+    {"key":"municipal_landfill","name":"Municipal waste landfilled","verticals":["Waste & Water"],"dataset":"env_wasmun","frequency":"annual","match":["Landfill","Thousand tonnes"],"decisionSeed":"ANNUAL"},
+    {"key":"municipal_landfill_rate","name":"Municipal waste landfill rate","verticals":["Waste & Water"],"dataset":"env_wasmun","frequency":"annual","match":["Landfill","Kilograms per capita"],"decisionSeed":"ANNUAL"},
+    {"key":"total_waste_landfill","name":"Total waste deposited on or into land","verticals":["Waste & Water"],"dataset":"env_wastrt","frequency":"annual","match":["Landfill","Total waste","Tonne"],"decisionSeed":"ANNUAL"},
+    {"key":"waste_generation_total","name":"Total waste generation","verticals":["Waste & Water"],"dataset":"env_wasgen","frequency":"annual","match":["Total waste","Tonne"],"decisionSeed":"ANNUAL"}
+  ]
+}
