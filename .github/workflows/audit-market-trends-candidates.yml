@@ -1,0 +1,20 @@
+name: Audit Harmonised Europe Market Trends candidates
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run exhaustive 29-country indicator audit
+        run: python scripts/audit_market_trends_candidates.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: market-trends-exhaustive-audit
+          path: market-trends-audit-output/*
