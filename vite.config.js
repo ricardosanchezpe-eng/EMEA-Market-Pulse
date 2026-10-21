@@ -1,1 +1,1 @@
-import{defineConfig}from'vite';import react from'@vitejs/plugin-react';export default defineConfig({plugins:[react()],base:'/EMEA-Market-Pulse/'});
+import{defineConfig}from'vite';import react from'@vitejs/plugin-react';import{resolve}from'path';export default defineConfig({plugins:[react()],base:'/EMEA-Market-Pulse/',build:{rollupOptions:{input:{main:resolve(__dirname,'index.html'),trends:resolve(__dirname,'trends.html'),regional:resolve(__dirname,'regional.html')}}}});
