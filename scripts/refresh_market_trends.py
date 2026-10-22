@@ -44,41 +44,31 @@ def enrich(r,obs,url):
  if pairs and sum(b for _,b in pairs)!=0:ytd=(sum(a for a,_ in pairs)/sum(b for _,b in pairs)-1)*100
  current=[{'slot':i+1,'period':plabel(end-pos+i,f),'value':vals.get(end-pos+i)} for i in range(pos+1)] if f!='annual' else series[-1:]
  prior=[{'slot':i+1,'period':plabel(end-pos-step+i,f),'value':vals.get(end-pos-step+i)} for i in range(pos+1)] if f!='annual' else series[-2:-1]
- return {**r,'sourceUrl':url,'series':series,'yoySeries':yoySeries,'currentYear':current,'priorYear':prior,'latestPeriod':plabel(end,f),'latestValue':latest,'yoyPct':yp,'ytdPct':ytd,'ytdMatched':f'{len(pairs)}/{pos+1}','ageMonths':age(plabel(end,f),f),'missingPeriods':sum(x['value'] is None for x in series)}
+ role='leading_survey' if r['indicator']=='construction_confidence' else ('pressure' if r['indicator']=='construction_costs' else 'activity')
+ eligible=(role=='activity' and f in ('monthly','quarterly'))
+ return {**r,'sourceUrl':url,'series':series,'yoySeries':yoySeries,'currentYear':current,'priorYear':prior,'latestPeriod':plabel(end,f),'latestValue':latest,'yoyPct':yp,'ytdPct':ytd,'yoyPointChange':(latest-vals.get(end-lag)) if vals.get(end-lag) is not None else None,'indicatorRole':role,'includedInVerticalAverage':eligible,'ytdMatched':f'{len(pairs)}/{pos+1}','ageMonths':age(plabel(end,f),f),'missingPeriods':sum(x['value'] is None for x in series)}
 records=[];errors=[]
 for i,r in enumerate(PASS,1):
  try:j,u=fetch(r);obs=parse(j);records.append(enrich(r,obs,u) if obs else {**r,'status':'NO_USABLE_SERIES','series':[]})
  except Exception as e:errors.append({'country':r['country'],'indicator':r['indicator'],'error':f'{type(e).__name__}: {e}'})
  if i%25==0:print('progress',i,'/',len(PASS),flush=True)
  time.sleep(.03)
-# Harmonised Europe aggregation: GDP-weight countries for each indicator, then equally average eligible indicators into each vertical.
-# Missing country observations are excluded, never zero; available-country GDP weights are renormalized automatically.
+# GDP-weighted eligible activity aggregation; surveys/pressure/annual remain visible but excluded from vertical headline.
 def avg(xs):
  xs=[x for x in xs if isinstance(x,(int,float)) and math.isfinite(x)];return sum(xs)/len(xs) if xs else None
-country_to_geo={r['country']:r.get('geo') for r in records if r.get('country') and r.get('geo')}
-gdp_weights,gdp_meta=fetch_gdp_weights(country_to_geo)
-if not gdp_weights:raise RuntimeError('GDP weighting unavailable: Eurostat nama_10_gdp returned no country weights')
-indicators={}
-for r in records:indicators.setdefault(r['indicator'],[]).append(r)
+ctg={r['country']:r.get('geo') for r in records if r.get('country') and r.get('geo')}
+gdp,gdp_meta=fetch_gdp_weights(ctg)
+inds={}
+for r in records:inds.setdefault(r['indicator'],[]).append(r)
 regional=[]
-for key,rr in indicators.items():
- periods=sorted(set(x['period'] for r in rr for x in r.get('yoySeries',[])))[-12:]
- trend=[]
- for p in periods:
-  vals=[]
-  for r in rr:
-   v=next((x['value'] for x in r.get('yoySeries',[]) if x['period']==p),None)
-   if v is not None:vals.append((r['country'],v))
-  trend.append({'period':p,'value':weighted_avg(vals,gdp_weights),'gdpCoveragePct':represented_gdp_pct([c for c,_ in vals],gdp_weights)})
- yoy_items=[(r['country'],r.get('yoyPct')) for r in rr]
- ytd_items=[(r['country'],r.get('ytdPct')) for r in rr]
- yoy_countries=[c for c,v in yoy_items if isinstance(v,(int,float)) and math.isfinite(v)]
- ytd_countries=[c for c,v in ytd_items if isinstance(v,(int,float)) and math.isfinite(v)]
- regional.append({'indicator':key,'name':rr[0]['name'],'verticals':rr[0]['verticals'],'frequencyMix':dict((f,sum(r.get('actualFrequency')==f for r in rr)) for f in ('monthly','quarterly','annual')),'avgYoY':weighted_avg(yoy_items,gdp_weights),'avgYTD':weighted_avg(ytd_items,gdp_weights),'countries':len(set(yoy_countries)),'gdpCoveragePct':represented_gdp_pct(yoy_countries,gdp_weights),'gdpYTDCoveragePct':represented_gdp_pct(ytd_countries,gdp_weights),'aggregation':'GDP-weighted','trend':trend})
+for key,rr in inds.items():
+ role=rr[0].get('indicatorRole','activity');metric='yoyPointChange' if role=='leading_survey' else 'yoyPct';items=[(r['country'],r.get(metric)) for r in rr]
+ regional.append({'indicator':key,'name':rr[0]['name'],'verticals':rr[0]['verticals'],'indicatorRole':role,'includedInVerticalAverage':any(r.get('includedInVerticalAverage') for r in rr),'displayChangeUnit':'points' if role=='leading_survey' else '%','latestPeriod':max((r.get('latestPeriod') for r in rr if r.get('latestPeriod')),default=None),'frequencyMix':dict((f,sum(r.get('actualFrequency')==f for r in rr)) for f in ('monthly','quarterly','annual')),'avgYoY':weighted_avg(items,gdp),'avgYTD':weighted_avg([(r['country'],r.get('ytdPct')) for r in rr],gdp),'countries':sum(1 for _,v in items if isinstance(v,(int,float))),'trend':[]})
 verticals={}
 for r in regional:
  for v in r['verticals'].split('; '):verticals.setdefault(v,[]).append(r)
 for v,rr in verticals.items():
- verticals[v]={'avgYoY':avg(x['avgYoY'] for x in rr),'avgYTD':avg(x['avgYTD'] for x in rr),'gdpCoveragePct':avg(x.get('gdpCoveragePct') for x in rr),'gdpYTDCoveragePct':avg(x.get('gdpYTDCoveragePct') for x in rr),'aggregation':'GDP-weighted countries; equal-weight eligible indicators','indicators':rr}
-out={'schemaVersion':'2.35','generatedAt':dt.datetime.now(dt.timezone.utc).isoformat(),'rules':SRC['rules'],'aggregationMethod':{'countryWeighting':'GDP weighted','indicatorWeighting':'Equal weight across eligible indicators','missingData':'Excluded and weights renormalized; never zero','gdp':gdp_meta},'gdpWeights':gdp_weights,'records':records,'regionalIndicators':regional,'verticals':verticals,'errors':errors}
+ inc=[x for x in rr if x['includedInVerticalAverage']];m=[x['latestPeriod'] for x in inc if x['latestPeriod'] and x['frequencyMix']['monthly']];q=[x['latestPeriod'] for x in inc if x['latestPeriod'] and x['frequencyMix']['quarterly']]
+ verticals[v]={'avgYoY':avg(x['avgYoY'] for x in inc),'avgYTD':avg(x['avgYTD'] for x in inc),'latestPeriod':max((x['latestPeriod'] for x in inc if x['latestPeriod']),default=None),'latestMonthlyPeriod':max(m,default=None),'latestQuarterlyPeriod':max(q,default=None),'eligibleIndicatorCount':len(inc),'excludedIndicatorCount':len(rr)-len(inc),'indicators':rr}
+out={'schemaVersion':'2.36','generatedAt':dt.datetime.now(dt.timezone.utc).isoformat(),'rules':SRC['rules'],'aggregationMethod':{'countryWeighting':'GDP weighted','excludedRoles':['leading_survey','pressure','annual_or_structural'],'gdp':gdp_meta},'gdpWeights':gdp,'records':records,'regionalIndicators':regional,'verticals':verticals,'errors':errors}
 OUT.write_text(json.dumps(out,indent=2)+'\n');print('MARKET_TRENDS_REFRESH_OK',len(records),'records',len(errors),'errors')
