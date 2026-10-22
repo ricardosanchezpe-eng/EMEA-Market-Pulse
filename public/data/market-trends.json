@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "2.29",
-  "generatedAt": "2026-10-22T06:36:38.046837+00:00",
+  "schemaVersion": "2.35",
+  "generatedAt": "2026-10-22T18:33:17.696804+00:00",
   "rules": {
     "trendFrequencies": [
       "monthly",
@@ -13,6 +13,79 @@
     "missingIsNull": true,
     "primaryComparison": "year_over_year",
     "ytdMatchedPeriodsOnly": true
+  },
+  "aggregationMethod": {
+    "countryWeighting": "GDP weighted",
+    "indicatorWeighting": "Equal weight across eligible indicators",
+    "missingData": "Excluded and weights renormalized; never zero",
+    "gdp": {
+      "dataset": "nama_10_gdp",
+      "unit": "CP_MEUR",
+      "item": "B1GQ",
+      "sourceUrl": "https://ec.europa.eu/eurostat/databrowser/view/nama_10_gdp/default/table",
+      "apiUrl": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_gdp?freq=A&unit=CP_MEUR&na_item=B1GQ&lang=en&lastTimePeriod=5",
+      "latestYear": 2025,
+      "countryYears": {
+        "Austria": 2025,
+        "Belgium": 2025,
+        "Bulgaria": 2025,
+        "Switzerland": 2025,
+        "Cyprus": 2025,
+        "Czechia": 2025,
+        "Germany": 2025,
+        "Denmark": 2025,
+        "Estonia": 2025,
+        "Spain": 2025,
+        "Finland": 2025,
+        "France": 2025,
+        "Croatia": 2025,
+        "Hungary": 2025,
+        "Ireland": 2025,
+        "Italy": 2025,
+        "Lithuania": 2025,
+        "Luxembourg": 2025,
+        "Latvia": 2025,
+        "Malta": 2025,
+        "Netherlands": 2025,
+        "Norway": 2025,
+        "Poland": 2025,
+        "Portugal": 2025,
+        "Romania": 2025,
+        "Sweden": 2025,
+        "Slovenia": 2025,
+        "Slovakia": 2025
+      }
+    }
+  },
+  "gdpWeights": {
+    "Austria": 518196.1,
+    "Belgium": 640852.6,
+    "Bulgaria": 116548.5,
+    "Switzerland": 925874.8,
+    "Cyprus": 38314.1,
+    "Czechia": 347258.7,
+    "Germany": 4529710.0,
+    "Denmark": 417844.1,
+    "Estonia": 41874.8,
+    "Spain": 1690012.0,
+    "Finland": 281783.0,
+    "France": 2991055.9,
+    "Croatia": 94026.1,
+    "Hungary": 219492.8,
+    "Ireland": 602440.9,
+    "Italy": 2265002.5,
+    "Lithuania": 85112.2,
+    "Luxembourg": 91342.3,
+    "Latvia": 43648.5,
+    "Malta": 24664.0,
+    "Netherlands": 1170579.0,
+    "Norway": 470358.7,
+    "Poland": 923507.3,
+    "Portugal": 308538.2,
+    "Romania": 382740.4,
+    "Sweden": 600390.8,
+    "Slovenia": 71170.7,
+    "Slovakia": 138735.1
   },
   "records": [
     {
@@ -622,6 +695,311 @@
           "slot": 8,
           "period": "2025-08",
           "value": 86.3
+        }
+      ]
+    },
+    {
+      "indicator": "construction_output",
+      "name": "Total construction production",
+      "verticals": "Overall Construction",
+      "country": "Bulgaria",
+      "geo": "BG",
+      "preferredFrequency": "monthly",
+      "decisionSeed": "INCLUDE",
+      "status": "PASS",
+      "errors": "",
+      "dataset": "sts_copr_m",
+      "actualFrequency": "monthly",
+      "latestPeriod": "2026-08",
+      "latestValue": 90.5,
+      "ageMonths": 2,
+      "historyCount": 40,
+      "windowPeriods": 24,
+      "missingPeriods": 0,
+      "yoyPct": -3.3119658119658113,
+      "ytdPct": -2.6172445861565086,
+      "ytdMatched": "8/8",
+      "selectedDimensions": "{\"freq\": \"M\", \"geo\": \"BG\", \"indic_bt\": \"PRD\", \"nace_r2\": \"B-D_F\", \"s_adj\": \"CA\", \"unit\": \"I21\"}",
+      "selectedLabels": "Monthly | Production (volume) | Mining and quarrying; manufacturing; electricity, gas, steam and air conditioning supply; construction | Calendar adjusted data, not seasonally adjusted data | Index, 2021=100 | Bulgaria",
+      "sourceUrl": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copr_m?geo=BG&lang=en&lastTimePeriod=48&freq=M&indic_bt=PRD&nace_r2=B-D_F&s_adj=CA&unit=I21",
+      "series": [
+        {
+          "period": "2024-09",
+          "value": 101.7
+        },
+        {
+          "period": "2024-10",
+          "value": 106.8
+        },
+        {
+          "period": "2024-11",
+          "value": 105.3
+        },
+        {
+          "period": "2024-12",
+          "value": 100.1
+        },
+        {
+          "period": "2025-01",
+          "value": 93.2
+        },
+        {
+          "period": "2025-02",
+          "value": 92.5
+        },
+        {
+          "period": "2025-03",
+          "value": 95.5
+        },
+        {
+          "period": "2025-04",
+          "value": 92.1
+        },
+        {
+          "period": "2025-05",
+          "value": 91.9
+        },
+        {
+          "period": "2025-06",
+          "value": 96.3
+        },
+        {
+          "period": "2025-07",
+          "value": 97.6
+        },
+        {
+          "period": "2025-08",
+          "value": 93.6
+        },
+        {
+          "period": "2025-09",
+          "value": 98.1
+        },
+        {
+          "period": "2025-10",
+          "value": 100.9
+        },
+        {
+          "period": "2025-11",
+          "value": 98.1
+        },
+        {
+          "period": "2025-12",
+          "value": 96.0
+        },
+        {
+          "period": "2026-01",
+          "value": 86.3
+        },
+        {
+          "period": "2026-02",
+          "value": 87.8
+        },
+        {
+          "period": "2026-03",
+          "value": 100.4
+        },
+        {
+          "period": "2026-04",
+          "value": 90.5
+        },
+        {
+          "period": "2026-05",
+          "value": 88.7
+        },
+        {
+          "period": "2026-06",
+          "value": 95.5
+        },
+        {
+          "period": "2026-07",
+          "value": 93.3
+        },
+        {
+          "period": "2026-08",
+          "value": 90.5
+        }
+      ],
+      "yoySeries": [
+        {
+          "period": "2024-09",
+          "value": 1.3958125623130702
+        },
+        {
+          "period": "2024-10",
+          "value": -0.0935453695042221
+        },
+        {
+          "period": "2024-11",
+          "value": 3.438113948919441
+        },
+        {
+          "period": "2024-12",
+          "value": -2.5316455696202667
+        },
+        {
+          "period": "2025-01",
+          "value": -1.2711864406779738
+        },
+        {
+          "period": "2025-02",
+          "value": -2.1164021164021163
+        },
+        {
+          "period": "2025-03",
+          "value": -6.829268292682922
+        },
+        {
+          "period": "2025-04",
+          "value": -6.969696969696971
+        },
+        {
+          "period": "2025-05",
+          "value": -3.8702928870292808
+        },
+        {
+          "period": "2025-06",
+          "value": -5.588235294117649
+        },
+        {
+          "period": "2025-07",
+          "value": -5.882352941176483
+        },
+        {
+          "period": "2025-08",
+          "value": -6.212424849699405
+        },
+        {
+          "period": "2025-09",
+          "value": -3.539823008849563
+        },
+        {
+          "period": "2025-10",
+          "value": -5.524344569288386
+        },
+        {
+          "period": "2025-11",
+          "value": -6.8376068376068355
+        },
+        {
+          "period": "2025-12",
+          "value": -4.095904095904091
+        },
+        {
+          "period": "2026-01",
+          "value": -7.403433476394861
+        },
+        {
+          "period": "2026-02",
+          "value": -5.081081081081084
+        },
+        {
+          "period": "2026-03",
+          "value": 5.13089005235603
+        },
+        {
+          "period": "2026-04",
+          "value": -1.7372421281215966
+        },
+        {
+          "period": "2026-05",
+          "value": -3.482045701849845
+        },
+        {
+          "period": "2026-06",
+          "value": -0.8307372793354029
+        },
+        {
+          "period": "2026-07",
+          "value": -4.4057377049180335
+        },
+        {
+          "period": "2026-08",
+          "value": -3.3119658119658113
+        }
+      ],
+      "currentYear": [
+        {
+          "slot": 1,
+          "period": "2026-01",
+          "value": 86.3
+        },
+        {
+          "slot": 2,
+          "period": "2026-02",
+          "value": 87.8
+        },
+        {
+          "slot": 3,
+          "period": "2026-03",
+          "value": 100.4
+        },
+        {
+          "slot": 4,
+          "period": "2026-04",
+          "value": 90.5
+        },
+        {
+          "slot": 5,
+          "period": "2026-05",
+          "value": 88.7
+        },
+        {
+          "slot": 6,
+          "period": "2026-06",
+          "value": 95.5
+        },
+        {
+          "slot": 7,
+          "period": "2026-07",
+          "value": 93.3
+        },
+        {
+          "slot": 8,
+          "period": "2026-08",
+          "value": 90.5
+        }
+      ],
+      "priorYear": [
+        {
+          "slot": 1,
+          "period": "2025-01",
+          "value": 93.2
+        },
+        {
+          "slot": 2,
+          "period": "2025-02",
+          "value": 92.5
+        },
+        {
+          "slot": 3,
+          "period": "2025-03",
+          "value": 95.5
+        },
+        {
+          "slot": 4,
+          "period": "2025-04",
+          "value": 92.1
+        },
+        {
+          "slot": 5,
+          "period": "2025-05",
+          "value": 91.9
+        },
+        {
+          "slot": 6,
+          "period": "2025-06",
+          "value": 96.3
+        },
+        {
+          "slot": 7,
+          "period": "2025-07",
+          "value": 97.6
+        },
+        {
+          "slot": 8,
+          "period": "2025-08",
+          "value": 93.6
         }
       ]
     },
@@ -31872,23 +32250,19 @@
       "errors": "",
       "dataset": "sts_cobp_m",
       "actualFrequency": "monthly",
-      "latestPeriod": "2026-06",
-      "latestValue": 288.7,
-      "ageMonths": 4,
+      "latestPeriod": "2026-07",
+      "latestValue": 295.1,
+      "ageMonths": 3,
       "historyCount": 37,
       "windowPeriods": 24,
       "missingPeriods": 0,
-      "yoyPct": 7.884902840059782,
-      "ytdPct": 8.140729327170027,
-      "ytdMatched": "6/6",
+      "yoyPct": 5.884463580911392,
+      "ytdPct": 7.798290039753852,
+      "ytdMatched": "7/7",
       "selectedDimensions": "{\"cpa2_1\": \"CPA_F410011\", \"freq\": \"M\", \"geo\": \"ES\", \"indic_bt\": \"BPRM_DW\", \"s_adj\": \"NSA\", \"unit\": \"I21\"}",
       "selectedLabels": "Monthly | Building permits - number of dwellings | One-dwelling buildings | Unadjusted data (i.e. neither seasonally adjusted nor calendar adjusted data) | Index, 2021=100 | Spain",
       "sourceUrl": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_cobp_m?geo=ES&lang=en&lastTimePeriod=48&cpa2_1=CPA_F410011&freq=M&indic_bt=BPRM_DW&s_adj=NSA&unit=I21",
       "series": [
-        {
-          "period": "2024-07",
-          "value": 260.6
-        },
         {
           "period": "2024-08",
           "value": 247.1
@@ -31980,13 +32354,13 @@
         {
           "period": "2026-06",
           "value": 288.7
+        },
+        {
+          "period": "2026-07",
+          "value": 295.1
         }
       ],
       "yoySeries": [
-        {
-          "period": "2024-07",
-          "value": 15.873721654068484
-        },
         {
           "period": "2024-08",
           "value": 55.702583490863276
@@ -32078,6 +32452,10 @@
         {
           "period": "2026-06",
           "value": 7.884902840059782
+        },
+        {
+          "period": "2026-07",
+          "value": 5.884463580911392
         }
       ],
       "currentYear": [
@@ -32110,6 +32488,11 @@
           "slot": 6,
           "period": "2026-06",
           "value": 288.7
+        },
+        {
+          "slot": 7,
+          "period": "2026-07",
+          "value": 295.1
         }
       ],
       "priorYear": [
@@ -32142,6 +32525,11 @@
           "slot": 6,
           "period": "2025-06",
           "value": 267.6
+        },
+        {
+          "slot": 7,
+          "period": "2025-07",
+          "value": 278.7
         }
       ]
     },
@@ -37415,23 +37803,19 @@
       "errors": "",
       "dataset": "sts_cobp_m",
       "actualFrequency": "monthly",
-      "latestPeriod": "2026-06",
-      "latestValue": 298.5,
-      "ageMonths": 4,
+      "latestPeriod": "2026-07",
+      "latestValue": 304.7,
+      "ageMonths": 3,
       "historyCount": 37,
       "windowPeriods": 24,
       "missingPeriods": 0,
-      "yoyPct": 4.2976939203354325,
-      "ytdPct": 6.438051768662545,
-      "ytdMatched": "6/6",
+      "yoyPct": 3.148273527420442,
+      "ytdPct": 5.942361642438154,
+      "ytdMatched": "7/7",
       "selectedDimensions": "{\"cpa2_1\": \"CPA_F41001_X_410014\", \"freq\": \"M\", \"geo\": \"ES\", \"indic_bt\": \"BPRM_DW\", \"s_adj\": \"NSA\", \"unit\": \"I21\"}",
       "selectedLabels": "Monthly | Building permits - number of dwellings | Residential buildings, except residences for communities | Unadjusted data (i.e. neither seasonally adjusted nor calendar adjusted data) | Index, 2021=100 | Spain",
       "sourceUrl": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_cobp_m?geo=ES&lang=en&lastTimePeriod=48&cpa2_1=CPA_F41001_X_410014&freq=M&indic_bt=BPRM_DW&s_adj=NSA&unit=I21",
       "series": [
-        {
-          "period": "2024-07",
-          "value": 281.2
-        },
         {
           "period": "2024-08",
           "value": 260.9
@@ -37523,13 +37907,13 @@
         {
           "period": "2026-06",
           "value": 298.5
+        },
+        {
+          "period": "2026-07",
+          "value": 304.7
         }
       ],
       "yoySeries": [
-        {
-          "period": "2024-07",
-          "value": 42.091965639211715
-        },
         {
           "period": "2024-08",
           "value": 69.7462589459987
@@ -37621,6 +38005,10 @@
         {
           "period": "2026-06",
           "value": 4.2976939203354325
+        },
+        {
+          "period": "2026-07",
+          "value": 3.148273527420442
         }
       ],
       "currentYear": [
@@ -37653,6 +38041,11 @@
           "slot": 6,
           "period": "2026-06",
           "value": 298.5
+        },
+        {
+          "slot": 7,
+          "period": "2026-07",
+          "value": 304.7
         }
       ],
       "priorYear": [
@@ -37685,6 +38078,11 @@
           "slot": 6,
           "period": "2025-06",
           "value": 286.2
+        },
+        {
+          "slot": 7,
+          "period": "2025-07",
+          "value": 295.4
         }
       ]
     },
@@ -42958,23 +43356,19 @@
       "errors": "",
       "dataset": "sts_cobp_m",
       "actualFrequency": "monthly",
-      "latestPeriod": "2026-06",
-      "latestValue": 274.8,
-      "ageMonths": 4,
+      "latestPeriod": "2026-07",
+      "latestValue": 276.4,
+      "ageMonths": 3,
       "historyCount": 37,
       "windowPeriods": 24,
       "missingPeriods": 0,
-      "yoyPct": 7.134502923976616,
-      "ytdPct": 10.80308469618403,
-      "ytdMatched": "6/6",
+      "yoyPct": 3.0574198359433202,
+      "ytdPct": 9.631008801624908,
+      "ytdMatched": "7/7",
       "selectedDimensions": "{\"cpa2_1\": \"CPA_F41002\", \"freq\": \"M\", \"geo\": \"ES\", \"indic_bt\": \"BPRM_SQM\", \"s_adj\": \"NSA\", \"unit\": \"I21\"}",
       "selectedLabels": "Monthly | Building permits - m2 of useful floor area | Non-residential buildings | Unadjusted data (i.e. neither seasonally adjusted nor calendar adjusted data) | Index, 2021=100 | Spain",
       "sourceUrl": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_cobp_m?geo=ES&lang=en&lastTimePeriod=48&cpa2_1=CPA_F41002&freq=M&indic_bt=BPRM_SQM&s_adj=NSA&unit=I21",
       "series": [
-        {
-          "period": "2024-07",
-          "value": 260.3
-        },
         {
           "period": "2024-08",
           "value": 241.7
@@ -43066,13 +43460,13 @@
         {
           "period": "2026-06",
           "value": 274.8
+        },
+        {
+          "period": "2026-07",
+          "value": 276.4
         }
       ],
       "yoySeries": [
-        {
-          "period": "2024-07",
-          "value": 31.79746835443038
-        },
         {
           "period": "2024-08",
           "value": 75.65406976744187
@@ -43164,6 +43558,10 @@
         {
           "period": "2026-06",
           "value": 7.134502923976616
+        },
+        {
+          "period": "2026-07",
+          "value": 3.0574198359433202
         }
       ],
       "currentYear": [
@@ -43196,6 +43594,11 @@
           "slot": 6,
           "period": "2026-06",
           "value": 274.8
+        },
+        {
+          "slot": 7,
+          "period": "2026-07",
+          "value": 276.4
         }
       ],
       "priorYear": [
@@ -43228,6 +43631,11 @@
           "slot": 6,
           "period": "2025-06",
           "value": 256.5
+        },
+        {
+          "slot": 7,
+          "period": "2025-07",
+          "value": 268.2
         }
       ]
     },
@@ -133852,61 +134260,76 @@
       "name": "Total construction production",
       "verticals": "Overall Construction",
       "frequencyMix": {
-        "monthly": 22,
+        "monthly": 23,
         "quarterly": 5,
         "annual": 0
       },
-      "avgYoY": 4.562047500083473,
-      "avgYTD": 1.1545748606173247,
-      "countries": 27,
+      "avgYoY": 3.0378410821224313,
+      "avgYTD": -0.14686839358899315,
+      "countries": 28,
+      "gdpCoveragePct": 100.0,
+      "gdpYTDCoveragePct": 100.0,
+      "aggregation": "GDP-weighted",
       "trend": [
         {
           "period": "2025-Q3",
-          "value": 3.218898164651405
+          "value": 2.6340148886884047,
+          "gdpCoveragePct": 1.1662559822490997
         },
         {
           "period": "2025-Q4",
-          "value": 3.405664589702957
+          "value": 3.321508318898905,
+          "gdpCoveragePct": 1.1662559822490997
         },
         {
           "period": "2026-01",
-          "value": 0.09517604766056727
+          "value": -0.9380705165148459,
+          "gdpCoveragePct": 91.204019858326
         },
         {
           "period": "2026-02",
-          "value": -0.0648910658488483
+          "value": -0.9009991435946453,
+          "gdpCoveragePct": 91.204019858326
         },
         {
           "period": "2026-03",
-          "value": 2.2049409251723495
+          "value": 0.13992049927438227,
+          "gdpCoveragePct": 91.204019858326
         },
         {
           "period": "2026-04",
-          "value": 2.0653159171027675
+          "value": 1.0281484134786827,
+          "gdpCoveragePct": 91.204019858326
         },
         {
           "period": "2026-05",
-          "value": 2.255435176121053
+          "value": 1.4150455568104308,
+          "gdpCoveragePct": 91.204019858326
         },
         {
           "period": "2026-06",
-          "value": 1.268611853117632
+          "value": 0.015288109042138743,
+          "gdpCoveragePct": 91.204019858326
         },
         {
           "period": "2026-07",
-          "value": 1.324873884449183
+          "value": -0.23167279856653406,
+          "gdpCoveragePct": 91.204019858326
         },
         {
           "period": "2026-08",
-          "value": 2.6830094056332077
+          "value": 1.4330041125204716,
+          "gdpCoveragePct": 90.2786156634506
         },
         {
           "period": "2026-Q1",
-          "value": 3.6631918354067183
+          "value": 3.7283083112402577,
+          "gdpCoveragePct": 1.1662559822490997
         },
         {
           "period": "2026-Q2",
-          "value": 3.160198125960922
+          "value": 3.981737804284404,
+          "gdpCoveragePct": 1.1662559822490997
         }
       ]
     },
@@ -133919,57 +134342,72 @@
         "quarterly": 5,
         "annual": 0
       },
-      "avgYoY": 3.367089788862296,
-      "avgYTD": 0.11190026721144593,
+      "avgYoY": -1.0616648974515908,
+      "avgYTD": -5.202140240535249,
       "countries": 28,
+      "gdpCoveragePct": 100.0,
+      "gdpYTDCoveragePct": 100.0,
+      "aggregation": "GDP-weighted",
       "trend": [
         {
           "period": "2025-Q3",
-          "value": 2.781956754522308
+          "value": 2.2258229610776,
+          "gdpCoveragePct": 1.1662559822490997
         },
         {
           "period": "2025-Q4",
-          "value": 2.889451878937719
+          "value": 2.8392609132291047,
+          "gdpCoveragePct": 1.1662559822490997
         },
         {
           "period": "2026-01",
-          "value": -5.612012878856829
+          "value": -11.61552877853883,
+          "gdpCoveragePct": 91.204019858326
         },
         {
           "period": "2026-02",
-          "value": -1.03527429764649
+          "value": -8.275833765076586,
+          "gdpCoveragePct": 91.204019858326
         },
         {
           "period": "2026-03",
-          "value": 3.802939213130676
+          "value": -4.106624260922821,
+          "gdpCoveragePct": 91.204019858326
         },
         {
           "period": "2026-04",
-          "value": 2.5289954035003386
+          "value": -3.494119221689489,
+          "gdpCoveragePct": 91.204019858326
         },
         {
           "period": "2026-05",
-          "value": -0.1987668708348956
+          "value": -4.227285294395841,
+          "gdpCoveragePct": 91.204019858326
         },
         {
           "period": "2026-06",
-          "value": -0.8369526253187325
+          "value": -5.034588679324222,
+          "gdpCoveragePct": 91.204019858326
         },
         {
           "period": "2026-07",
-          "value": 0.5347607598668308
+          "value": -3.776944396113775,
+          "gdpCoveragePct": 91.204019858326
         },
         {
           "period": "2026-08",
-          "value": 0.5671632898396702
+          "value": -3.1287540605453246,
+          "gdpCoveragePct": 90.2786156634506
         },
         {
           "period": "2026-Q1",
-          "value": 2.0384874557532684
+          "value": 2.2105047862035385,
+          "gdpCoveragePct": 1.1662559822490997
         },
         {
           "period": "2026-Q2",
-          "value": 4.884457802027827
+          "value": 5.592546174833169,
+          "gdpCoveragePct": 1.1662559822490997
         }
       ]
     },
@@ -133982,57 +134420,72 @@
         "quarterly": 5,
         "annual": 0
       },
-      "avgYoY": 9.416197064805942,
-      "avgYTD": 1.9176354255837371,
+      "avgYoY": 4.537748815322967,
+      "avgYTD": 0.2888307800081241,
       "countries": 28,
+      "gdpCoveragePct": 100.0,
+      "gdpYTDCoveragePct": 100.0,
+      "aggregation": "GDP-weighted",
       "trend": [
         {
           "period": "2025-Q3",
-          "value": 4.117716460750146
+          "value": -0.28558341297906037,
+          "gdpCoveragePct": 0.7659334653452258
         },
         {
           "period": "2025-Q4",
-          "value": 7.848570547853524
+          "value": 6.330282681388551,
+          "gdpCoveragePct": 0.7659334653452258
         },
         {
           "period": "2026-01",
-          "value": -2.601410490816969
+          "value": -5.551816820192962,
+          "gdpCoveragePct": 91.204019858326
         },
         {
           "period": "2026-02",
-          "value": -0.5177809927591897
+          "value": -4.906836338334176,
+          "gdpCoveragePct": 91.204019858326
         },
         {
           "period": "2026-03",
-          "value": 5.0060524870804715
+          "value": 3.5902052344039843,
+          "gdpCoveragePct": 91.204019858326
         },
         {
           "period": "2026-04",
-          "value": 6.32465841267047
+          "value": 4.108554406248478,
+          "gdpCoveragePct": 91.204019858326
         },
         {
           "period": "2026-05",
-          "value": 3.6120283324560902
+          "value": 3.0538539542025336,
+          "gdpCoveragePct": 91.204019858326
         },
         {
           "period": "2026-06",
-          "value": 3.288554980331674
+          "value": 0.6918201782827494,
+          "gdpCoveragePct": 91.204019858326
         },
         {
           "period": "2026-07",
-          "value": -0.9564006760253347
+          "value": -0.5998703271895366,
+          "gdpCoveragePct": 91.204019858326
         },
         {
           "period": "2026-08",
-          "value": 9.337078091064198
+          "value": 3.0335958224501662,
+          "gdpCoveragePct": 90.2786156634506
         },
         {
           "period": "2026-Q1",
-          "value": 1.8689904517155354
+          "value": 0.39436899319804575,
+          "gdpCoveragePct": 0.7659334653452258
         },
         {
           "period": "2026-Q2",
-          "value": 8.423524430792117
+          "value": 13.052510704766453,
+          "gdpCoveragePct": 0.7659334653452258
         }
       ]
     },
@@ -134045,57 +134498,72 @@
         "quarterly": 5,
         "annual": 0
       },
-      "avgYoY": 3.5530752820330895,
-      "avgYTD": 1.4508729728440994,
+      "avgYoY": 4.390739728988809,
+      "avgYTD": -0.3879200473058663,
       "countries": 28,
+      "gdpCoveragePct": 100.0,
+      "gdpYTDCoveragePct": 100.0,
+      "aggregation": "GDP-weighted",
       "trend": [
         {
           "period": "2025-Q3",
-          "value": 2.6371491312891937
+          "value": 2.0905432611224053,
+          "gdpCoveragePct": 1.1662559822490997
         },
         {
           "period": "2025-Q4",
-          "value": 3.3450585290968937
+          "value": 3.2648899619975142,
+          "gdpCoveragePct": 1.1662559822490997
         },
         {
           "period": "2026-01",
-          "value": -0.812963886611233
+          "value": -3.3170260263658595,
+          "gdpCoveragePct": 91.204019858326
         },
         {
           "period": "2026-02",
-          "value": 1.025740803205935
+          "value": -2.5208842889643286,
+          "gdpCoveragePct": 91.204019858326
         },
         {
           "period": "2026-03",
-          "value": 4.683113122677084
+          "value": 0.5279758749713843,
+          "gdpCoveragePct": 91.204019858326
         },
         {
           "period": "2026-04",
-          "value": 2.51862901880846
+          "value": 0.305757483572617,
+          "gdpCoveragePct": 91.204019858326
         },
         {
           "period": "2026-05",
-          "value": 3.878788298319536
+          "value": 2.2170549358044807,
+          "gdpCoveragePct": 91.204019858326
         },
         {
           "period": "2026-06",
-          "value": 2.9275713997730772
+          "value": -0.5186942849261719,
+          "gdpCoveragePct": 91.204019858326
         },
         {
           "period": "2026-07",
-          "value": 1.595120855862955
+          "value": -0.6804425247393407,
+          "gdpCoveragePct": 91.204019858326
         },
         {
           "period": "2026-08",
-          "value": 1.5216862412907581
+          "value": 2.9419814658533365,
+          "gdpCoveragePct": 90.2786156634506
         },
         {
           "period": "2026-Q1",
-          "value": 2.6539165542219267
+          "value": 2.7854404278894087,
+          "gdpCoveragePct": 1.1662559822490997
         },
         {
           "period": "2026-Q2",
-          "value": 2.2987893482701383
+          "value": 3.1770072356651924,
+          "gdpCoveragePct": 1.1662559822490997
         }
       ]
     },
@@ -134108,57 +134576,72 @@
         "quarterly": 14,
         "annual": 0
       },
-      "avgYoY": 0.0006422114251472647,
-      "avgYTD": 3.3769712893991586,
+      "avgYoY": 0.6749035798955545,
+      "avgYTD": 7.814037481384918,
       "countries": 27,
+      "gdpCoveragePct": 95.3778075235616,
+      "gdpYTDCoveragePct": 95.3778075235616,
+      "aggregation": "GDP-weighted",
       "trend": [
         {
           "period": "2026-01",
-          "value": 18.050618899799403
+          "value": 11.134641490965535,
+          "gdpCoveragePct": 66.87109304837526
         },
         {
           "period": "2026-02",
-          "value": 7.504821718306032
+          "value": 11.256696409458758,
+          "gdpCoveragePct": 66.87109304837526
         },
         {
           "period": "2026-03",
-          "value": 11.070035473831272
+          "value": 11.208062507914686,
+          "gdpCoveragePct": 66.87109304837526
         },
         {
           "period": "2026-04",
-          "value": -5.189868764743296
+          "value": 2.72082090472584,
+          "gdpCoveragePct": 66.87109304837526
         },
         {
           "period": "2026-05",
-          "value": -0.5404334101348467
+          "value": 8.925021813960145,
+          "gdpCoveragePct": 66.87109304837526
         },
         {
           "period": "2026-06",
-          "value": 30.584843778235616
+          "value": 41.35049909223629,
+          "gdpCoveragePct": 66.87109304837526
         },
         {
           "period": "2026-07",
-          "value": -5.847243902639302
+          "value": -3.2266329469658723,
+          "gdpCoveragePct": 63.48052748704074
         },
         {
           "period": "2026-08",
-          "value": -1.8362572625115778
+          "value": -1.9372643964921923,
+          "gdpCoveragePct": 49.54378806875862
         },
         {
           "period": "2026-09",
-          "value": 9.936874991227075
+          "value": 9.402888806290983,
+          "gdpCoveragePct": 2.7034466414359675
         },
         {
           "period": "2026-Q1",
-          "value": 1.8078771858752283
+          "value": 5.030857889095908,
+          "gdpCoveragePct": 28.506714475186328
         },
         {
           "period": "2026-Q2",
-          "value": 2.3052485884042135
+          "value": 3.974721299799894,
+          "gdpCoveragePct": 28.506714475186328
         },
         {
           "period": "2026-Q3",
-          "value": -2.9503105590062195
+          "value": -2.9503105590062195,
+          "gdpCoveragePct": 0.20904919921393533
         }
       ]
     },
@@ -134171,57 +134654,72 @@
         "quarterly": 14,
         "annual": 0
       },
-      "avgYoY": 11.225199304216554,
-      "avgYTD": 11.244433749071913,
+      "avgYoY": 6.419150204170833,
+      "avgYTD": 9.432193887676057,
       "countries": 27,
+      "gdpCoveragePct": 95.3778075235616,
+      "gdpYTDCoveragePct": 95.3778075235616,
+      "aggregation": "GDP-weighted",
       "trend": [
         {
           "period": "2026-01",
-          "value": 42.05112171274176
+          "value": 16.558895284354136,
+          "gdpCoveragePct": 66.87109304837526
         },
         {
           "period": "2026-02",
-          "value": -0.11716445444658398
+          "value": 9.553624387104696,
+          "gdpCoveragePct": 66.87109304837526
         },
         {
           "period": "2026-03",
-          "value": 9.490102785234386
+          "value": 11.298056398742903,
+          "gdpCoveragePct": 66.87109304837526
         },
         {
           "period": "2026-04",
-          "value": 11.044446426279366
+          "value": 3.2429513417607354,
+          "gdpCoveragePct": 66.87109304837526
         },
         {
           "period": "2026-05",
-          "value": 8.087031514564758
+          "value": 10.79234815670281,
+          "gdpCoveragePct": 66.87109304837526
         },
         {
           "period": "2026-06",
-          "value": 42.09177475879878
+          "value": 38.017439965287586,
+          "gdpCoveragePct": 66.87109304837526
         },
         {
           "period": "2026-07",
-          "value": 2.693897484605439
+          "value": -2.286073961377634,
+          "gdpCoveragePct": 63.48052748704074
         },
         {
           "period": "2026-08",
-          "value": -13.303674964026515
+          "value": -4.794301763339266,
+          "gdpCoveragePct": 49.54378806875862
         },
         {
           "period": "2026-09",
-          "value": 4.934631004967386
+          "value": 35.22397187116479,
+          "gdpCoveragePct": 2.7034466414359675
         },
         {
           "period": "2026-Q1",
-          "value": 8.04673489674143
+          "value": 3.2777031313255014,
+          "gdpCoveragePct": 28.506714475186328
         },
         {
           "period": "2026-Q2",
-          "value": 15.37956388671825
+          "value": 18.07955775725231,
+          "gdpCoveragePct": 28.506714475186328
         },
         {
           "period": "2026-Q3",
-          "value": -28.910891089108915
+          "value": -28.91089108910891,
+          "gdpCoveragePct": 0.20904919921393533
         }
       ]
     },
@@ -134234,57 +134732,72 @@
         "quarterly": 14,
         "annual": 0
       },
-      "avgYoY": -2.1631038345171407,
-      "avgYTD": -1.6382799772859045,
+      "avgYoY": -0.6475863641477833,
+      "avgYTD": 1.2260941327374162,
       "countries": 27,
+      "gdpCoveragePct": 95.3778075235616,
+      "gdpYTDCoveragePct": 95.3778075235616,
+      "aggregation": "GDP-weighted",
       "trend": [
         {
           "period": "2026-01",
-          "value": 17.212739863967514
+          "value": 2.2893909788038442,
+          "gdpCoveragePct": 66.87109304837526
         },
         {
           "period": "2026-02",
-          "value": 7.894845340118773
+          "value": -1.735171584262129,
+          "gdpCoveragePct": 66.87109304837526
         },
         {
           "period": "2026-03",
-          "value": 24.540980336162914
+          "value": 15.230648863208323,
+          "gdpCoveragePct": 66.87109304837526
         },
         {
           "period": "2026-04",
-          "value": -0.03798099346662488
+          "value": -8.815583121302774,
+          "gdpCoveragePct": 66.87109304837526
         },
         {
           "period": "2026-05",
-          "value": 0.23324686384144352
+          "value": 0.12321234966966242,
+          "gdpCoveragePct": 66.87109304837526
         },
         {
           "period": "2026-06",
-          "value": -5.6245958247960175
+          "value": -6.823688803008052,
+          "gdpCoveragePct": 66.87109304837526
         },
         {
           "period": "2026-07",
-          "value": 2.3647583098571805
+          "value": 1.5700714023188207,
+          "gdpCoveragePct": 63.48052748704074
         },
         {
           "period": "2026-08",
-          "value": -2.0668386617874406
+          "value": -6.363812856135887,
+          "gdpCoveragePct": 49.54378806875862
         },
         {
           "period": "2026-09",
-          "value": -31.9976146232362
+          "value": -10.468953937046344,
+          "gdpCoveragePct": 2.7034466414359675
         },
         {
           "period": "2026-Q1",
-          "value": 2.377205216145947
+          "value": 10.983581388163088,
+          "gdpCoveragePct": 28.506714475186328
         },
         {
           "period": "2026-Q2",
-          "value": -1.3090343325738159
+          "value": 7.551567832354981,
+          "gdpCoveragePct": 28.506714475186328
         },
         {
           "period": "2026-Q3",
-          "value": -39.08045977011494
+          "value": -39.08045977011494,
+          "gdpCoveragePct": 0.20904919921393533
         }
       ]
     },
@@ -134297,33 +134810,42 @@
         "quarterly": 0,
         "annual": 26
       },
-      "avgYoY": 26.770360417850114,
-      "avgYTD": 26.770360417850114,
+      "avgYoY": -66.09743654395388,
+      "avgYTD": -66.09743654395388,
       "countries": 26,
+      "gdpCoveragePct": 93.02966234846089,
+      "gdpYTDCoveragePct": 93.02966234846089,
+      "aggregation": "GDP-weighted",
       "trend": [
         {
           "period": "2021",
-          "value": null
+          "value": null,
+          "gdpCoveragePct": 0.0
         },
         {
           "period": "2022",
-          "value": null
+          "value": null,
+          "gdpCoveragePct": 0.0
         },
         {
           "period": "2023",
-          "value": 230.530387633678
+          "value": 1453.464468674865,
+          "gdpCoveragePct": 93.02966234846089
         },
         {
           "period": "2024",
-          "value": -1.3735942019243017
+          "value": 15.004952733439952,
+          "gdpCoveragePct": 93.02966234846089
         },
         {
           "period": "2025",
-          "value": -84.56525436824055
+          "value": -54.886917570168734,
+          "gdpCoveragePct": 93.02966234846089
         },
         {
           "period": "2026",
-          "value": 26.770360417850114
+          "value": -66.09743654395388,
+          "gdpCoveragePct": 93.02966234846089
         }
       ]
     },
@@ -134336,57 +134858,72 @@
         "quarterly": 20,
         "annual": 0
       },
-      "avgYoY": 1.988312959390646,
-      "avgYTD": 1.5083673702608933,
+      "avgYoY": 0.8699577975441581,
+      "avgYTD": 1.0351053550143658,
       "countries": 28,
+      "gdpCoveragePct": 100.0,
+      "gdpYTDCoveragePct": 100.0,
+      "aggregation": "GDP-weighted",
       "trend": [
         {
           "period": "2025-Q3",
-          "value": 1.332874882041235
+          "value": 0.7013849223900174,
+          "gdpCoveragePct": 79.97242743962491
         },
         {
           "period": "2025-Q4",
-          "value": 2.1561006509895573
+          "value": 1.2168446283599865,
+          "gdpCoveragePct": 79.97242743962491
         },
         {
           "period": "2026-01",
-          "value": -0.10755197932253832
+          "value": -0.3922884559941607,
+          "gdpCoveragePct": 11.590621094053063
         },
         {
           "period": "2026-02",
-          "value": -0.16074550380636035
+          "value": -0.7665273657937413,
+          "gdpCoveragePct": 11.590621094053063
         },
         {
           "period": "2026-03",
-          "value": 0.9061474188176027
+          "value": 0.7944682218047066,
+          "gdpCoveragePct": 11.590621094053063
         },
         {
           "period": "2026-04",
-          "value": 1.2476059736714047
+          "value": 1.0869153228813564,
+          "gdpCoveragePct": 11.590621094053063
         },
         {
           "period": "2026-05",
-          "value": 1.7020485572448096
+          "value": 1.1922358275739335,
+          "gdpCoveragePct": 11.590621094053063
         },
         {
           "period": "2026-06",
-          "value": 0.5516297420966741
+          "value": -0.0007570447182089018,
+          "gdpCoveragePct": 11.590621094053063
         },
         {
           "period": "2026-07",
-          "value": 0.8691753812960057
+          "value": 1.168354436823154,
+          "gdpCoveragePct": 11.590621094053063
         },
         {
           "period": "2026-08",
-          "value": 3.146481237132257
+          "value": 2.263800161336384,
+          "gdpCoveragePct": 8.137321003669992
         },
         {
           "period": "2026-Q1",
-          "value": 1.558580287698117
+          "value": 1.2461535377345416,
+          "gdpCoveragePct": 79.97242743962491
         },
         {
           "period": "2026-Q2",
-          "value": 1.627004867298518
+          "value": 0.31361533265952635,
+          "gdpCoveragePct": 70.92931976124035
         }
       ]
     },
@@ -134399,45 +134936,57 @@
         "quarterly": 28,
         "annual": 0
       },
-      "avgYoY": 4.49838104188811,
-      "avgYTD": 4.014800579387093,
+      "avgYoY": 3.778315886861588,
+      "avgYTD": 3.1814991959220205,
       "countries": 28,
+      "gdpCoveragePct": 100.0,
+      "gdpYTDCoveragePct": 100.0,
+      "aggregation": "GDP-weighted",
       "trend": [
         {
           "period": "2024-Q3",
-          "value": 3.0073424111831826
+          "value": 1.8493592158756997,
+          "gdpCoveragePct": 71.04474891838176
         },
         {
           "period": "2024-Q4",
-          "value": 2.8861668710118926
+          "value": 1.5482700165106995,
+          "gdpCoveragePct": 100.0
         },
         {
           "period": "2025-Q1",
-          "value": 2.737737376677399
+          "value": 1.4226086748141913,
+          "gdpCoveragePct": 100.0
         },
         {
           "period": "2025-Q2",
-          "value": 2.981816443360792
+          "value": 1.5794632182359236,
+          "gdpCoveragePct": 100.0
         },
         {
           "period": "2025-Q3",
-          "value": 3.0249046630244516
+          "value": 1.755917554851901,
+          "gdpCoveragePct": 100.0
         },
         {
           "period": "2025-Q4",
-          "value": 3.6487562263554874
+          "value": 2.1758701814262986,
+          "gdpCoveragePct": 100.0
         },
         {
           "period": "2026-Q1",
-          "value": 3.499289721257371
+          "value": 2.4833584248764833,
+          "gdpCoveragePct": 100.0
         },
         {
           "period": "2026-Q2",
-          "value": 4.428900560664709
+          "value": 3.643374966911601,
+          "gdpCoveragePct": 100.0
         },
         {
           "period": "2026-Q3",
-          "value": 4.612122083167924
+          "value": 5.2837219886115765,
+          "gdpCoveragePct": 28.955251081618233
         }
       ]
     },
@@ -134450,33 +134999,42 @@
         "quarterly": 0,
         "annual": 28
       },
-      "avgYoY": 4.6585019323821,
-      "avgYTD": 4.6585019323821,
+      "avgYoY": 2.6691030295602136,
+      "avgYTD": 2.6691030295602136,
       "countries": 28,
+      "gdpCoveragePct": 100.0,
+      "gdpYTDCoveragePct": 100.0,
+      "aggregation": "GDP-weighted",
       "trend": [
         {
           "period": "2020",
-          "value": -2.7236527037666067
+          "value": -4.40178752824975,
+          "gdpCoveragePct": 100.0
         },
         {
           "period": "2021",
-          "value": 5.070642744361179
+          "value": 4.873480150147064,
+          "gdpCoveragePct": 100.0
         },
         {
           "period": "2022",
-          "value": 3.2563011734630285
+          "value": 2.292918664544514,
+          "gdpCoveragePct": 100.0
         },
         {
           "period": "2023",
-          "value": 3.3710419187573897
+          "value": 2.839283931505021,
+          "gdpCoveragePct": 100.0
         },
         {
           "period": "2024",
-          "value": -1.8298690420541874
+          "value": -1.3469475114940561,
+          "gdpCoveragePct": 100.0
         },
         {
           "period": "2025",
-          "value": 4.6585019323821
+          "value": 2.6691030295602136,
+          "gdpCoveragePct": 100.0
         }
       ]
     },
@@ -134489,57 +135047,72 @@
         "quarterly": 0,
         "annual": 0
       },
-      "avgYoY": 1.2708384953863574,
-      "avgYTD": 1.494399178529324,
+      "avgYoY": -1.475809521632032,
+      "avgYTD": -0.9261573893870924,
       "countries": 28,
+      "gdpCoveragePct": 100.0,
+      "gdpYTDCoveragePct": 100.0,
+      "aggregation": "GDP-weighted",
       "trend": [
         {
           "period": "2025-09",
-          "value": 4.727311056733245
+          "value": 3.8504464175615807,
+          "gdpCoveragePct": 100.0
         },
         {
           "period": "2025-10",
-          "value": 3.5123497213709074
+          "value": 3.901773985128194,
+          "gdpCoveragePct": 100.0
         },
         {
           "period": "2025-11",
-          "value": 3.7563248097863897
+          "value": 0.5574188092490904,
+          "gdpCoveragePct": 100.0
         },
         {
           "period": "2025-12",
-          "value": 1.039244655827871
+          "value": -2.1680704021934334,
+          "gdpCoveragePct": 100.0
         },
         {
           "period": "2026-01",
-          "value": -4.644691980850049
+          "value": -1.7269827795998802,
+          "gdpCoveragePct": 100.0
         },
         {
           "period": "2026-02",
-          "value": -2.4704808109013796
+          "value": -3.12777176205033,
+          "gdpCoveragePct": 100.0
         },
         {
           "period": "2026-03",
-          "value": 4.012812941686217
+          "value": 0.9984904246830669,
+          "gdpCoveragePct": 100.0
         },
         {
           "period": "2026-04",
-          "value": 3.492943225325015
+          "value": -0.23586550049200275,
+          "gdpCoveragePct": 100.0
         },
         {
           "period": "2026-05",
-          "value": 2.9358262373989144
+          "value": 0.23690111879245782,
+          "gdpCoveragePct": 100.0
         },
         {
           "period": "2026-06",
-          "value": 2.087430899255927
+          "value": -1.1016184102523747,
+          "gdpCoveragePct": 100.0
         },
         {
           "period": "2026-07",
-          "value": 4.073588140896323
+          "value": -0.3454698561304439,
+          "gdpCoveragePct": 95.3778075235616
         },
         {
           "period": "2026-08",
-          "value": 1.431716622601428
+          "value": -1.3984128455982647,
+          "gdpCoveragePct": 95.3778075235616
         }
       ]
     },
@@ -134552,57 +135125,72 @@
         "quarterly": 0,
         "annual": 0
       },
-      "avgYoY": 14.779394945976602,
-      "avgYTD": -1.7738258992438978,
-      "countries": 27,
+      "avgYoY": -9.372720852479691,
+      "avgYTD": -10.661279464636776,
+      "countries": 21,
+      "gdpCoveragePct": 77.42085033772602,
+      "gdpYTDCoveragePct": 77.42085033772602,
+      "aggregation": "GDP-weighted",
       "trend": [
         {
           "period": "2025-09",
-          "value": 7.946207862908944
+          "value": 2.0980717014418153,
+          "gdpCoveragePct": 77.42085033772602
         },
         {
           "period": "2025-10",
-          "value": 4.25085968870069
+          "value": 1.2879158186733448,
+          "gdpCoveragePct": 77.42085033772602
         },
         {
           "period": "2025-11",
-          "value": 7.35479236580615
+          "value": 2.0698573010182133,
+          "gdpCoveragePct": 77.42085033772602
         },
         {
           "period": "2025-12",
-          "value": 7.48151249515269
+          "value": 14.105933825431526,
+          "gdpCoveragePct": 77.42085033772602
         },
         {
           "period": "2026-01",
-          "value": -0.07677563634539068
+          "value": -11.118126461935557,
+          "gdpCoveragePct": 77.42085033772602
         },
         {
           "period": "2026-02",
-          "value": -2.1560077399932305
+          "value": -11.458797085203583,
+          "gdpCoveragePct": 77.42085033772602
         },
         {
           "period": "2026-03",
-          "value": -1.0874962866313045
+          "value": -7.227539362473085,
+          "gdpCoveragePct": 77.42085033772602
         },
         {
           "period": "2026-04",
-          "value": 2.6264194695132383
+          "value": -6.154105363372475,
+          "gdpCoveragePct": 77.42085033772602
         },
         {
           "period": "2026-05",
-          "value": 8.005185630628796
+          "value": -1.8588650817350338,
+          "gdpCoveragePct": 77.42085033772602
         },
         {
           "period": "2026-06",
-          "value": 1.520358135501645
+          "value": -6.002700650184936,
+          "gdpCoveragePct": 77.42085033772602
         },
         {
           "period": "2026-07",
-          "value": 5.353689565627159
+          "value": -10.695703053729845,
+          "gdpCoveragePct": 77.42085033772602
         },
         {
           "period": "2026-08",
-          "value": 17.560892785938353
+          "value": -23.221644187076425,
+          "gdpCoveragePct": 30.17209796053822
         }
       ]
     },
@@ -134615,57 +135203,72 @@
         "quarterly": 0,
         "annual": 0
       },
-      "avgYoY": 31.946657246267996,
-      "avgYTD": 25.989388344370063,
+      "avgYoY": 25.142882697725078,
+      "avgYTD": 17.536949204824108,
       "countries": 27,
+      "gdpCoveragePct": 95.3778075235616,
+      "gdpYTDCoveragePct": 95.3778075235616,
+      "aggregation": "GDP-weighted",
       "trend": [
         {
           "period": "2025-09",
-          "value": 30.575585189374884
+          "value": 21.509371334978237,
+          "gdpCoveragePct": 92.79084639799719
         },
         {
           "period": "2025-10",
-          "value": 30.206423007733726
+          "value": 25.32927892209594,
+          "gdpCoveragePct": 92.79084639799719
         },
         {
           "period": "2025-11",
-          "value": 40.550523090167076
+          "value": 34.3104326726491,
+          "gdpCoveragePct": 92.79084639799719
         },
         {
           "period": "2025-12",
-          "value": 70.77416418920959
+          "value": 32.04858101243975,
+          "gdpCoveragePct": 92.79084639799719
         },
         {
           "period": "2026-01",
-          "value": 33.68057841292206
+          "value": 9.701727890769131,
+          "gdpCoveragePct": 95.3778075235616
         },
         {
           "period": "2026-02",
-          "value": 4.40937338801643
+          "value": -6.054881459209469,
+          "gdpCoveragePct": 95.3778075235616
         },
         {
           "period": "2026-03",
-          "value": 32.217073720285676
+          "value": 18.55074159653528,
+          "gdpCoveragePct": 95.3778075235616
         },
         {
           "period": "2026-04",
-          "value": 31.60156670137266
+          "value": 21.029823127764814,
+          "gdpCoveragePct": 95.3778075235616
         },
         {
           "period": "2026-05",
-          "value": 28.289339322271363
+          "value": 19.35538968106522,
+          "gdpCoveragePct": 95.3778075235616
         },
         {
           "period": "2026-06",
-          "value": 25.944571100092226
+          "value": 16.692052082168154,
+          "gdpCoveragePct": 95.3778075235616
         },
         {
           "period": "2026-07",
-          "value": 30.042496715082162
+          "value": 25.531318194182003,
+          "gdpCoveragePct": 95.3778075235616
         },
         {
           "period": "2026-08",
-          "value": 25.82496952782963
+          "value": 21.495500357981562,
+          "gdpCoveragePct": 45.80914460298462
         }
       ]
     },
@@ -134678,57 +135281,72 @@
         "quarterly": 0,
         "annual": 0
       },
-      "avgYoY": 26.816687922025015,
-      "avgYTD": 9.214889539451706,
-      "countries": 27,
+      "avgYoY": 10.396253192714425,
+      "avgYTD": 9.828414532941636,
+      "countries": 26,
+      "gdpCoveragePct": 94.6852081187199,
+      "gdpYTDCoveragePct": 94.6852081187199,
+      "aggregation": "GDP-weighted",
       "trend": [
         {
           "period": "2025-09",
-          "value": -2.134111474660455
+          "value": -0.08283482959380935,
+          "gdpCoveragePct": 94.6852081187199
         },
         {
           "period": "2025-10",
-          "value": 21.957386159187003
+          "value": 39.567353145549504,
+          "gdpCoveragePct": 94.6852081187199
         },
         {
           "period": "2025-11",
-          "value": 2.868481084754758
+          "value": 12.966058994296835,
+          "gdpCoveragePct": 94.6852081187199
         },
         {
           "period": "2025-12",
-          "value": -10.042750921632193
+          "value": -8.25247617685498,
+          "gdpCoveragePct": 94.6852081187199
         },
         {
           "period": "2026-01",
-          "value": 5.2660838322592785
+          "value": 6.9479414349057045,
+          "gdpCoveragePct": 94.6852081187199
         },
         {
           "period": "2026-02",
-          "value": 35.409494995524554
+          "value": 55.564783233595875,
+          "gdpCoveragePct": 94.6852081187199
         },
         {
           "period": "2026-03",
-          "value": 10.539264893338895
+          "value": 16.89822246004654,
+          "gdpCoveragePct": 94.6852081187199
         },
         {
           "period": "2026-04",
-          "value": 13.960887216834958
+          "value": 16.06236865801329,
+          "gdpCoveragePct": 94.6852081187199
         },
         {
           "period": "2026-05",
-          "value": 7.6810963308583
+          "value": -8.92792725065435,
+          "gdpCoveragePct": 94.6852081187199
         },
         {
           "period": "2026-06",
-          "value": -4.619942135060169
+          "value": -5.930551941742235,
+          "gdpCoveragePct": 94.6852081187199
         },
         {
           "period": "2026-07",
-          "value": 35.02380359381444
+          "value": 14.89349277518848,
+          "gdpCoveragePct": 94.6852081187199
         },
         {
           "period": "2026-08",
-          "value": 7.455759136355907
+          "value": -1.646546181726478,
+          "gdpCoveragePct": 45.116545198142916
         }
       ]
     },
@@ -134741,57 +135359,72 @@
         "quarterly": 0,
         "annual": 0
       },
-      "avgYoY": -7.145853663234944,
-      "avgYTD": 0.5880777918961677,
-      "countries": 27,
+      "avgYoY": -13.030170248514702,
+      "avgYTD": -5.2268062598491625,
+      "countries": 24,
+      "gdpCoveragePct": 92.97742600832373,
+      "gdpYTDCoveragePct": 95.06340551153968,
+      "aggregation": "GDP-weighted",
       "trend": [
         {
           "period": "2025-09",
-          "value": -3.1177526229723354
+          "value": -7.354776683524105,
+          "gdpCoveragePct": 95.06340551153968
         },
         {
           "period": "2025-10",
-          "value": -17.288537876357804
+          "value": -26.908097824725008,
+          "gdpCoveragePct": 95.06340551153968
         },
         {
           "period": "2025-11",
-          "value": 18.192797234401947
+          "value": 3.1630074759546507,
+          "gdpCoveragePct": 92.97742600832373
         },
         {
           "period": "2025-12",
-          "value": 18.32278376195625
+          "value": -1.0169259746323982,
+          "gdpCoveragePct": 92.97742600832373
         },
         {
           "period": "2026-01",
-          "value": -4.475803065836548
+          "value": -12.544294376653642,
+          "gdpCoveragePct": 95.06340551153968
         },
         {
           "period": "2026-02",
-          "value": 8.43196208534342
+          "value": -2.9401741492710367,
+          "gdpCoveragePct": 95.06340551153968
         },
         {
           "period": "2026-03",
-          "value": 21.609576099831603
+          "value": 17.232070967213996,
+          "gdpCoveragePct": 95.06340551153968
         },
         {
           "period": "2026-04",
-          "value": 2.998916308469367
+          "value": -2.3621022552167372,
+          "gdpCoveragePct": 95.06340551153968
         },
         {
           "period": "2026-05",
-          "value": 1442.7291513767188
+          "value": 788.9191830006176,
+          "gdpCoveragePct": 95.06340551153968
         },
         {
           "period": "2026-06",
-          "value": -1.5854333154200606
+          "value": -8.490754540835633,
+          "gdpCoveragePct": 92.97742600832373
         },
         {
           "period": "2026-07",
-          "value": -5.2263032182011395
+          "value": -13.408441112432955,
+          "gdpCoveragePct": 92.97742600832373
         },
         {
           "period": "2026-08",
-          "value": -9.253296944700136
+          "value": -11.06126397306903,
+          "gdpCoveragePct": 43.60003640543669
         }
       ]
     },
@@ -134804,41 +135437,52 @@
         "quarterly": 26,
         "annual": 0
       },
-      "avgYoY": -13.045940651818352,
-      "avgYTD": -3.0042187622260306,
+      "avgYoY": -9.918519830641479,
+      "avgYTD": -1.7424423427002782,
       "countries": 26,
+      "gdpCoveragePct": 93.02966234846089,
+      "gdpYTDCoveragePct": 93.02966234846089,
+      "aggregation": "GDP-weighted",
       "trend": [
         {
           "period": "2021-Q4",
-          "value": 23.11037382990721
+          "value": 22.46156644870883,
+          "gdpCoveragePct": 93.02966234846089
         },
         {
           "period": "2022-Q1",
-          "value": 26.94908718121041
+          "value": 24.556524222606438,
+          "gdpCoveragePct": 93.02966234846089
         },
         {
           "period": "2022-Q2",
-          "value": 30.494374133275137
+          "value": 24.230895173247912,
+          "gdpCoveragePct": 92.57365934261108
         },
         {
           "period": "2022-Q3",
-          "value": 30.03789649104328
+          "value": 25.498031113262183,
+          "gdpCoveragePct": 93.02966234846089
         },
         {
           "period": "2022-Q4",
-          "value": 20.994156591198994
+          "value": 20.55089680860177,
+          "gdpCoveragePct": 93.02966234846089
         },
         {
           "period": "2023-Q1",
-          "value": 9.303389682070785
+          "value": 8.760672494723394,
+          "gdpCoveragePct": 93.02966234846089
         },
         {
           "period": "2023-Q2",
-          "value": -3.148592938901763
+          "value": -2.978759583611153,
+          "gdpCoveragePct": 92.57365934261108
         },
         {
           "period": "2023-Q3",
-          "value": -13.045940651818352
+          "value": -9.918519830641479,
+          "gdpCoveragePct": 93.02966234846089
         }
       ]
     },
@@ -134851,41 +135495,52 @@
         "quarterly": 26,
         "annual": 0
       },
-      "avgYoY": -8.400335365238128,
-      "avgYTD": -0.6113408912738226,
+      "avgYoY": -7.177223099087013,
+      "avgYTD": 0.09139309654103486,
       "countries": 26,
+      "gdpCoveragePct": 93.02966234846089,
+      "gdpYTDCoveragePct": 93.02966234846089,
+      "aggregation": "GDP-weighted",
       "trend": [
         {
           "period": "2021-Q4",
-          "value": 20.19588529368513
+          "value": 17.65897894556178,
+          "gdpCoveragePct": 93.02966234846089
         },
         {
           "period": "2022-Q1",
-          "value": 26.29621145570519
+          "value": 22.42650402215881,
+          "gdpCoveragePct": 93.02966234846089
         },
         {
           "period": "2022-Q2",
-          "value": 33.88955498912836
+          "value": 30.340809684145327,
+          "gdpCoveragePct": 93.02966234846089
         },
         {
           "period": "2022-Q3",
-          "value": 33.79830243466033
+          "value": 29.614069671425327,
+          "gdpCoveragePct": 93.02966234846089
         },
         {
           "period": "2022-Q4",
-          "value": 24.676606656342354
+          "value": 23.64053455290594,
+          "gdpCoveragePct": 93.02966234846089
         },
         {
           "period": "2023-Q1",
-          "value": 10.52604002803427
+          "value": 11.2575021718039,
+          "gdpCoveragePct": 93.02966234846089
         },
         {
           "period": "2023-Q2",
-          "value": -2.593579307455563
+          "value": -2.5715240603098084,
+          "gdpCoveragePct": 93.02966234846089
         },
         {
           "period": "2023-Q3",
-          "value": -8.400335365238128
+          "value": -7.177223099087013,
+          "gdpCoveragePct": 93.02966234846089
         }
       ]
     },
@@ -134898,57 +135553,72 @@
         "quarterly": 0,
         "annual": 0
       },
-      "avgYoY": 47.116731729327356,
-      "avgYTD": 115.76029349174418,
-      "countries": 27,
+      "avgYoY": -2.7269543403129783,
+      "avgYTD": 13.029741452129354,
+      "countries": 22,
+      "gdpCoveragePct": 91.39082162348947,
+      "gdpYTDCoveragePct": 91.39082162348947,
+      "aggregation": "GDP-weighted",
       "trend": [
         {
           "period": "2025-10",
-          "value": 635.8780632217845
+          "value": 239.12292135876098,
+          "gdpCoveragePct": 91.39082162348947
         },
         {
           "period": "2025-11",
-          "value": 3444.789575426552
+          "value": 3726.1753232641017,
+          "gdpCoveragePct": 91.03552015715422
         },
         {
           "period": "2025-12",
-          "value": 5357.372700614392
+          "value": 5720.691350013182,
+          "gdpCoveragePct": 91.03552015715422
         },
         {
           "period": "2026-01",
-          "value": 20156.828096605168
+          "value": 9550.932043491168,
+          "gdpCoveragePct": 91.39082162348947
         },
         {
           "period": "2026-02",
-          "value": 42.891170718606126
+          "value": 48.810434437166975,
+          "gdpCoveragePct": 91.03552015715422
         },
         {
           "period": "2026-03",
-          "value": 3665.3232715288163
+          "value": 1504.8557317976786,
+          "gdpCoveragePct": 91.03552015715422
         },
         {
           "period": "2026-04",
-          "value": 77.75707442755959
+          "value": 31.214918609913113,
+          "gdpCoveragePct": 91.03552015715422
         },
         {
           "period": "2026-05",
-          "value": 31.279799384574513
+          "value": 6.76615886526018,
+          "gdpCoveragePct": 91.39082162348947
         },
         {
           "period": "2026-06",
-          "value": 82.47979839858098
+          "value": -8.135957395084956,
+          "gdpCoveragePct": 91.39082162348947
         },
         {
           "period": "2026-07",
-          "value": -15.824428760468217
+          "value": -10.602457222759918,
+          "gdpCoveragePct": 91.03552015715422
         },
         {
           "period": "2026-08",
-          "value": 606.8874261789775
+          "value": 46.81081511144753,
+          "gdpCoveragePct": 91.39082162348947
         },
         {
           "period": "2026-09",
-          "value": 51.55814182337671
+          "value": -19.129162273108832,
+          "gdpCoveragePct": 65.02449361914147
         }
       ]
     },
@@ -134961,57 +135631,72 @@
         "quarterly": 0,
         "annual": 0
       },
-      "avgYoY": -22.910895863322583,
-      "avgYTD": -24.617005544320968,
-      "countries": 27,
+      "avgYoY": -24.40949471168561,
+      "avgYTD": -14.879280576959017,
+      "countries": 12,
+      "gdpCoveragePct": 77.78279498252168,
+      "gdpYTDCoveragePct": 79.3230928140793,
+      "aggregation": "GDP-weighted",
       "trend": [
         {
           "period": "2025-09",
-          "value": 38.34837141786312
+          "value": 0.34620859515243446,
+          "gdpCoveragePct": 77.78279498252168
         },
         {
           "period": "2025-10",
-          "value": 167.77684531413507
+          "value": 8.565572898063165,
+          "gdpCoveragePct": 77.78279498252168
         },
         {
           "period": "2025-11",
-          "value": 38.44797861040637
+          "value": 7.709004773484308,
+          "gdpCoveragePct": 77.78279498252168
         },
         {
           "period": "2025-12",
-          "value": -13.551156819688392
+          "value": -1.5425596765055696,
+          "gdpCoveragePct": 77.78279498252168
         },
         {
           "period": "2026-01",
-          "value": -26.674869720307463
+          "value": -24.616946218411965,
+          "gdpCoveragePct": 79.3230928140793
         },
         {
           "period": "2026-02",
-          "value": -16.431636745288426
+          "value": -14.689852647683024,
+          "gdpCoveragePct": 73.17242164263172
         },
         {
           "period": "2026-03",
-          "value": -33.81117472166176
+          "value": -11.268494370599818,
+          "gdpCoveragePct": 77.78279498252168
         },
         {
           "period": "2026-04",
-          "value": -0.12054084023902172
+          "value": 2.977722188667487,
+          "gdpCoveragePct": 77.78279498252168
         },
         {
           "period": "2026-05",
-          "value": 11.837145539564302
+          "value": 9.319417760473854,
+          "gdpCoveragePct": 77.78279498252168
         },
         {
           "period": "2026-06",
-          "value": -13.575205362641915
+          "value": -4.290828375354195,
+          "gdpCoveragePct": 77.78279498252168
         },
         {
           "period": "2026-07",
-          "value": -9.224552570618139
+          "value": -12.39355860241002,
+          "gdpCoveragePct": 77.78279498252168
         },
         {
           "period": "2026-08",
-          "value": -21.994884404122548
+          "value": -50.65352914428265,
+          "gdpCoveragePct": 28.953037021614332
         }
       ]
     },
@@ -135024,37 +135709,47 @@
         "quarterly": 0,
         "annual": 28
       },
-      "avgYoY": 77.45289523439965,
-      "avgYTD": 77.45289523439965,
-      "countries": 28,
+      "avgYoY": -10.490220587076015,
+      "avgYTD": -10.490220587076015,
+      "countries": 26,
+      "gdpCoveragePct": 95.15990358200511,
+      "gdpYTDCoveragePct": 95.15990358200511,
+      "aggregation": "GDP-weighted",
       "trend": [
         {
           "period": "2018",
-          "value": 1.0612043435340501
+          "value": 1.0612043435340501,
+          "gdpCoveragePct": 1.910733284142761
         },
         {
           "period": "2019",
-          "value": 2.2269257836938032
+          "value": 0.38781023467273606,
+          "gdpCoveragePct": 95.3778075235616
         },
         {
           "period": "2020",
-          "value": -9.27236440245887
+          "value": -8.222188787414833,
+          "gdpCoveragePct": 95.3778075235616
         },
         {
           "period": "2021",
-          "value": 5.332570042217231
+          "value": -5.993517055535275,
+          "gdpCoveragePct": 95.3778075235616
         },
         {
           "period": "2022",
-          "value": 0.2555632560183039
+          "value": 23.61928138236719,
+          "gdpCoveragePct": 95.3778075235616
         },
         {
           "period": "2023",
-          "value": -0.4826857838678107
+          "value": 4.232312816113341,
+          "gdpCoveragePct": 95.15990358200511
         },
         {
           "period": "2024",
-          "value": 80.40617210655485
+          "value": -10.779367696935442,
+          "gdpCoveragePct": 93.24917029786235
         }
       ]
     },
@@ -135067,37 +135762,47 @@
         "quarterly": 0,
         "annual": 28
       },
-      "avgYoY": 85.1595109015636,
-      "avgYTD": 85.1595109015636,
-      "countries": 28,
+      "avgYoY": -10.323500115981277,
+      "avgYTD": -10.323500115981277,
+      "countries": 26,
+      "gdpCoveragePct": 95.15990358200511,
+      "gdpYTDCoveragePct": 95.15990358200511,
+      "aggregation": "GDP-weighted",
       "trend": [
         {
           "period": "2018",
-          "value": 1.449275362318847
+          "value": 1.449275362318847,
+          "gdpCoveragePct": 1.910733284142761
         },
         {
           "period": "2019",
-          "value": 1.1527233796839358
+          "value": 0.3089265513640068,
+          "gdpCoveragePct": 95.3778075235616
         },
         {
           "period": "2020",
-          "value": -8.68398249458747
+          "value": -6.414390042199275,
+          "gdpCoveragePct": 95.3778075235616
         },
         {
           "period": "2021",
-          "value": 3.313597836063049
+          "value": -9.724395093280407,
+          "gdpCoveragePct": 95.3778075235616
         },
         {
           "period": "2022",
-          "value": 0.39656999812352917
+          "value": 29.656560749467545,
+          "gdpCoveragePct": 95.3778075235616
         },
         {
           "period": "2023",
-          "value": -0.2784978859259617
+          "value": 5.513867393550876,
+          "gdpCoveragePct": 95.15990358200511
         },
         {
           "period": "2024",
-          "value": 88.42239357977861
+          "value": -10.608543980162931,
+          "gdpCoveragePct": 93.24917029786235
         }
       ]
     },
@@ -135112,31 +135817,40 @@
       },
       "avgYoY": null,
       "avgYTD": null,
-      "countries": 27,
+      "countries": 0,
+      "gdpCoveragePct": 0.0,
+      "gdpYTDCoveragePct": 0.0,
+      "aggregation": "GDP-weighted",
       "trend": [
         {
           "period": "2017",
-          "value": null
+          "value": null,
+          "gdpCoveragePct": 0.0
         },
         {
           "period": "2018",
-          "value": null
+          "value": null,
+          "gdpCoveragePct": 0.0
         },
         {
           "period": "2019",
-          "value": null
+          "value": null,
+          "gdpCoveragePct": 0.0
         },
         {
           "period": "2020",
-          "value": null
+          "value": null,
+          "gdpCoveragePct": 0.0
         },
         {
           "period": "2021",
-          "value": null
+          "value": null,
+          "gdpCoveragePct": 0.0
         },
         {
           "period": "2022",
-          "value": null
+          "value": null,
+          "gdpCoveragePct": 0.0
         }
       ]
     },
@@ -135151,100 +135865,127 @@
       },
       "avgYoY": null,
       "avgYTD": null,
-      "countries": 27,
+      "countries": 0,
+      "gdpCoveragePct": 0.0,
+      "gdpYTDCoveragePct": 0.0,
+      "aggregation": "GDP-weighted",
       "trend": [
         {
           "period": "2017",
-          "value": null
+          "value": null,
+          "gdpCoveragePct": 0.0
         },
         {
           "period": "2018",
-          "value": null
+          "value": null,
+          "gdpCoveragePct": 0.0
         },
         {
           "period": "2019",
-          "value": null
+          "value": null,
+          "gdpCoveragePct": 0.0
         },
         {
           "period": "2020",
-          "value": null
+          "value": null,
+          "gdpCoveragePct": 0.0
         },
         {
           "period": "2021",
-          "value": null
+          "value": null,
+          "gdpCoveragePct": 0.0
         },
         {
           "period": "2022",
-          "value": null
+          "value": null,
+          "gdpCoveragePct": 0.0
         }
       ]
     }
   ],
   "verticals": {
     "Overall Construction": {
-      "avgYoY": 6.534956466524546,
-      "avgYTD": 4.995998346170662,
+      "avgYoY": -5.244499057901083,
+      "avgYTD": -6.31619882038826,
+      "gdpCoveragePct": 98.7119410968914,
+      "gdpYTDCoveragePct": 98.7119410968914,
+      "aggregation": "GDP-weighted countries; equal-weight eligible indicators",
       "indicators": [
         {
           "indicator": "construction_output",
           "name": "Total construction production",
           "verticals": "Overall Construction",
           "frequencyMix": {
-            "monthly": 22,
+            "monthly": 23,
             "quarterly": 5,
             "annual": 0
           },
-          "avgYoY": 4.562047500083473,
-          "avgYTD": 1.1545748606173247,
-          "countries": 27,
+          "avgYoY": 3.0378410821224313,
+          "avgYTD": -0.14686839358899315,
+          "countries": 28,
+          "gdpCoveragePct": 100.0,
+          "gdpYTDCoveragePct": 100.0,
+          "aggregation": "GDP-weighted",
           "trend": [
             {
               "period": "2025-Q3",
-              "value": 3.218898164651405
+              "value": 2.6340148886884047,
+              "gdpCoveragePct": 1.1662559822490997
             },
             {
               "period": "2025-Q4",
-              "value": 3.405664589702957
+              "value": 3.321508318898905,
+              "gdpCoveragePct": 1.1662559822490997
             },
             {
               "period": "2026-01",
-              "value": 0.09517604766056727
+              "value": -0.9380705165148459,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-02",
-              "value": -0.0648910658488483
+              "value": -0.9009991435946453,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-03",
-              "value": 2.2049409251723495
+              "value": 0.13992049927438227,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-04",
-              "value": 2.0653159171027675
+              "value": 1.0281484134786827,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-05",
-              "value": 2.255435176121053
+              "value": 1.4150455568104308,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-06",
-              "value": 1.268611853117632
+              "value": 0.015288109042138743,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-07",
-              "value": 1.324873884449183
+              "value": -0.23167279856653406,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-08",
-              "value": 2.6830094056332077
+              "value": 1.4330041125204716,
+              "gdpCoveragePct": 90.2786156634506
             },
             {
               "period": "2026-Q1",
-              "value": 3.6631918354067183
+              "value": 3.7283083112402577,
+              "gdpCoveragePct": 1.1662559822490997
             },
             {
               "period": "2026-Q2",
-              "value": 3.160198125960922
+              "value": 3.981737804284404,
+              "gdpCoveragePct": 1.1662559822490997
             }
           ]
         },
@@ -135257,57 +135998,72 @@
             "quarterly": 5,
             "annual": 0
           },
-          "avgYoY": 3.367089788862296,
-          "avgYTD": 0.11190026721144593,
+          "avgYoY": -1.0616648974515908,
+          "avgYTD": -5.202140240535249,
           "countries": 28,
+          "gdpCoveragePct": 100.0,
+          "gdpYTDCoveragePct": 100.0,
+          "aggregation": "GDP-weighted",
           "trend": [
             {
               "period": "2025-Q3",
-              "value": 2.781956754522308
+              "value": 2.2258229610776,
+              "gdpCoveragePct": 1.1662559822490997
             },
             {
               "period": "2025-Q4",
-              "value": 2.889451878937719
+              "value": 2.8392609132291047,
+              "gdpCoveragePct": 1.1662559822490997
             },
             {
               "period": "2026-01",
-              "value": -5.612012878856829
+              "value": -11.61552877853883,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-02",
-              "value": -1.03527429764649
+              "value": -8.275833765076586,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-03",
-              "value": 3.802939213130676
+              "value": -4.106624260922821,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-04",
-              "value": 2.5289954035003386
+              "value": -3.494119221689489,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-05",
-              "value": -0.1987668708348956
+              "value": -4.227285294395841,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-06",
-              "value": -0.8369526253187325
+              "value": -5.034588679324222,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-07",
-              "value": 0.5347607598668308
+              "value": -3.776944396113775,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-08",
-              "value": 0.5671632898396702
+              "value": -3.1287540605453246,
+              "gdpCoveragePct": 90.2786156634506
             },
             {
               "period": "2026-Q1",
-              "value": 2.0384874557532684
+              "value": 2.2105047862035385,
+              "gdpCoveragePct": 1.1662559822490997
             },
             {
               "period": "2026-Q2",
-              "value": 4.884457802027827
+              "value": 5.592546174833169,
+              "gdpCoveragePct": 1.1662559822490997
             }
           ]
         },
@@ -135320,57 +136076,72 @@
             "quarterly": 5,
             "annual": 0
           },
-          "avgYoY": 9.416197064805942,
-          "avgYTD": 1.9176354255837371,
+          "avgYoY": 4.537748815322967,
+          "avgYTD": 0.2888307800081241,
           "countries": 28,
+          "gdpCoveragePct": 100.0,
+          "gdpYTDCoveragePct": 100.0,
+          "aggregation": "GDP-weighted",
           "trend": [
             {
               "period": "2025-Q3",
-              "value": 4.117716460750146
+              "value": -0.28558341297906037,
+              "gdpCoveragePct": 0.7659334653452258
             },
             {
               "period": "2025-Q4",
-              "value": 7.848570547853524
+              "value": 6.330282681388551,
+              "gdpCoveragePct": 0.7659334653452258
             },
             {
               "period": "2026-01",
-              "value": -2.601410490816969
+              "value": -5.551816820192962,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-02",
-              "value": -0.5177809927591897
+              "value": -4.906836338334176,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-03",
-              "value": 5.0060524870804715
+              "value": 3.5902052344039843,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-04",
-              "value": 6.32465841267047
+              "value": 4.108554406248478,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-05",
-              "value": 3.6120283324560902
+              "value": 3.0538539542025336,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-06",
-              "value": 3.288554980331674
+              "value": 0.6918201782827494,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-07",
-              "value": -0.9564006760253347
+              "value": -0.5998703271895366,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-08",
-              "value": 9.337078091064198
+              "value": 3.0335958224501662,
+              "gdpCoveragePct": 90.2786156634506
             },
             {
               "period": "2026-Q1",
-              "value": 1.8689904517155354
+              "value": 0.39436899319804575,
+              "gdpCoveragePct": 0.7659334653452258
             },
             {
               "period": "2026-Q2",
-              "value": 8.423524430792117
+              "value": 13.052510704766453,
+              "gdpCoveragePct": 0.7659334653452258
             }
           ]
         },
@@ -135383,57 +136154,72 @@
             "quarterly": 5,
             "annual": 0
           },
-          "avgYoY": 3.5530752820330895,
-          "avgYTD": 1.4508729728440994,
+          "avgYoY": 4.390739728988809,
+          "avgYTD": -0.3879200473058663,
           "countries": 28,
+          "gdpCoveragePct": 100.0,
+          "gdpYTDCoveragePct": 100.0,
+          "aggregation": "GDP-weighted",
           "trend": [
             {
               "period": "2025-Q3",
-              "value": 2.6371491312891937
+              "value": 2.0905432611224053,
+              "gdpCoveragePct": 1.1662559822490997
             },
             {
               "period": "2025-Q4",
-              "value": 3.3450585290968937
+              "value": 3.2648899619975142,
+              "gdpCoveragePct": 1.1662559822490997
             },
             {
               "period": "2026-01",
-              "value": -0.812963886611233
+              "value": -3.3170260263658595,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-02",
-              "value": 1.025740803205935
+              "value": -2.5208842889643286,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-03",
-              "value": 4.683113122677084
+              "value": 0.5279758749713843,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-04",
-              "value": 2.51862901880846
+              "value": 0.305757483572617,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-05",
-              "value": 3.878788298319536
+              "value": 2.2170549358044807,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-06",
-              "value": 2.9275713997730772
+              "value": -0.5186942849261719,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-07",
-              "value": 1.595120855862955
+              "value": -0.6804425247393407,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-08",
-              "value": 1.5216862412907581
+              "value": 2.9419814658533365,
+              "gdpCoveragePct": 90.2786156634506
             },
             {
               "period": "2026-Q1",
-              "value": 2.6539165542219267
+              "value": 2.7854404278894087,
+              "gdpCoveragePct": 1.1662559822490997
             },
             {
               "period": "2026-Q2",
-              "value": 2.2987893482701383
+              "value": 3.1770072356651924,
+              "gdpCoveragePct": 1.1662559822490997
             }
           ]
         },
@@ -135446,57 +136232,72 @@
             "quarterly": 14,
             "annual": 0
           },
-          "avgYoY": 0.0006422114251472647,
-          "avgYTD": 3.3769712893991586,
+          "avgYoY": 0.6749035798955545,
+          "avgYTD": 7.814037481384918,
           "countries": 27,
+          "gdpCoveragePct": 95.3778075235616,
+          "gdpYTDCoveragePct": 95.3778075235616,
+          "aggregation": "GDP-weighted",
           "trend": [
             {
               "period": "2026-01",
-              "value": 18.050618899799403
+              "value": 11.134641490965535,
+              "gdpCoveragePct": 66.87109304837526
             },
             {
               "period": "2026-02",
-              "value": 7.504821718306032
+              "value": 11.256696409458758,
+              "gdpCoveragePct": 66.87109304837526
             },
             {
               "period": "2026-03",
-              "value": 11.070035473831272
+              "value": 11.208062507914686,
+              "gdpCoveragePct": 66.87109304837526
             },
             {
               "period": "2026-04",
-              "value": -5.189868764743296
+              "value": 2.72082090472584,
+              "gdpCoveragePct": 66.87109304837526
             },
             {
               "period": "2026-05",
-              "value": -0.5404334101348467
+              "value": 8.925021813960145,
+              "gdpCoveragePct": 66.87109304837526
             },
             {
               "period": "2026-06",
-              "value": 30.584843778235616
+              "value": 41.35049909223629,
+              "gdpCoveragePct": 66.87109304837526
             },
             {
               "period": "2026-07",
-              "value": -5.847243902639302
+              "value": -3.2266329469658723,
+              "gdpCoveragePct": 63.48052748704074
             },
             {
               "period": "2026-08",
-              "value": -1.8362572625115778
+              "value": -1.9372643964921923,
+              "gdpCoveragePct": 49.54378806875862
             },
             {
               "period": "2026-09",
-              "value": 9.936874991227075
+              "value": 9.402888806290983,
+              "gdpCoveragePct": 2.7034466414359675
             },
             {
               "period": "2026-Q1",
-              "value": 1.8078771858752283
+              "value": 5.030857889095908,
+              "gdpCoveragePct": 28.506714475186328
             },
             {
               "period": "2026-Q2",
-              "value": 2.3052485884042135
+              "value": 3.974721299799894,
+              "gdpCoveragePct": 28.506714475186328
             },
             {
               "period": "2026-Q3",
-              "value": -2.9503105590062195
+              "value": -2.9503105590062195,
+              "gdpCoveragePct": 0.20904919921393533
             }
           ]
         },
@@ -135509,33 +136310,42 @@
             "quarterly": 0,
             "annual": 26
           },
-          "avgYoY": 26.770360417850114,
-          "avgYTD": 26.770360417850114,
+          "avgYoY": -66.09743654395388,
+          "avgYTD": -66.09743654395388,
           "countries": 26,
+          "gdpCoveragePct": 93.02966234846089,
+          "gdpYTDCoveragePct": 93.02966234846089,
+          "aggregation": "GDP-weighted",
           "trend": [
             {
               "period": "2021",
-              "value": null
+              "value": null,
+              "gdpCoveragePct": 0.0
             },
             {
               "period": "2022",
-              "value": null
+              "value": null,
+              "gdpCoveragePct": 0.0
             },
             {
               "period": "2023",
-              "value": 230.530387633678
+              "value": 1453.464468674865,
+              "gdpCoveragePct": 93.02966234846089
             },
             {
               "period": "2024",
-              "value": -1.3735942019243017
+              "value": 15.004952733439952,
+              "gdpCoveragePct": 93.02966234846089
             },
             {
               "period": "2025",
-              "value": -84.56525436824055
+              "value": -54.886917570168734,
+              "gdpCoveragePct": 93.02966234846089
             },
             {
               "period": "2026",
-              "value": 26.770360417850114
+              "value": -66.09743654395388,
+              "gdpCoveragePct": 93.02966234846089
             }
           ]
         },
@@ -135548,57 +136358,72 @@
             "quarterly": 20,
             "annual": 0
           },
-          "avgYoY": 1.988312959390646,
-          "avgYTD": 1.5083673702608933,
+          "avgYoY": 0.8699577975441581,
+          "avgYTD": 1.0351053550143658,
           "countries": 28,
+          "gdpCoveragePct": 100.0,
+          "gdpYTDCoveragePct": 100.0,
+          "aggregation": "GDP-weighted",
           "trend": [
             {
               "period": "2025-Q3",
-              "value": 1.332874882041235
+              "value": 0.7013849223900174,
+              "gdpCoveragePct": 79.97242743962491
             },
             {
               "period": "2025-Q4",
-              "value": 2.1561006509895573
+              "value": 1.2168446283599865,
+              "gdpCoveragePct": 79.97242743962491
             },
             {
               "period": "2026-01",
-              "value": -0.10755197932253832
+              "value": -0.3922884559941607,
+              "gdpCoveragePct": 11.590621094053063
             },
             {
               "period": "2026-02",
-              "value": -0.16074550380636035
+              "value": -0.7665273657937413,
+              "gdpCoveragePct": 11.590621094053063
             },
             {
               "period": "2026-03",
-              "value": 0.9061474188176027
+              "value": 0.7944682218047066,
+              "gdpCoveragePct": 11.590621094053063
             },
             {
               "period": "2026-04",
-              "value": 1.2476059736714047
+              "value": 1.0869153228813564,
+              "gdpCoveragePct": 11.590621094053063
             },
             {
               "period": "2026-05",
-              "value": 1.7020485572448096
+              "value": 1.1922358275739335,
+              "gdpCoveragePct": 11.590621094053063
             },
             {
               "period": "2026-06",
-              "value": 0.5516297420966741
+              "value": -0.0007570447182089018,
+              "gdpCoveragePct": 11.590621094053063
             },
             {
               "period": "2026-07",
-              "value": 0.8691753812960057
+              "value": 1.168354436823154,
+              "gdpCoveragePct": 11.590621094053063
             },
             {
               "period": "2026-08",
-              "value": 3.146481237132257
+              "value": 2.263800161336384,
+              "gdpCoveragePct": 8.137321003669992
             },
             {
               "period": "2026-Q1",
-              "value": 1.558580287698117
+              "value": 1.2461535377345416,
+              "gdpCoveragePct": 79.97242743962491
             },
             {
               "period": "2026-Q2",
-              "value": 1.627004867298518
+              "value": 0.31361533265952635,
+              "gdpCoveragePct": 70.92931976124035
             }
           ]
         },
@@ -135611,45 +136436,57 @@
             "quarterly": 28,
             "annual": 0
           },
-          "avgYoY": 4.49838104188811,
-          "avgYTD": 4.014800579387093,
+          "avgYoY": 3.778315886861588,
+          "avgYTD": 3.1814991959220205,
           "countries": 28,
+          "gdpCoveragePct": 100.0,
+          "gdpYTDCoveragePct": 100.0,
+          "aggregation": "GDP-weighted",
           "trend": [
             {
               "period": "2024-Q3",
-              "value": 3.0073424111831826
+              "value": 1.8493592158756997,
+              "gdpCoveragePct": 71.04474891838176
             },
             {
               "period": "2024-Q4",
-              "value": 2.8861668710118926
+              "value": 1.5482700165106995,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2025-Q1",
-              "value": 2.737737376677399
+              "value": 1.4226086748141913,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2025-Q2",
-              "value": 2.981816443360792
+              "value": 1.5794632182359236,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2025-Q3",
-              "value": 3.0249046630244516
+              "value": 1.755917554851901,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2025-Q4",
-              "value": 3.6487562263554874
+              "value": 2.1758701814262986,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2026-Q1",
-              "value": 3.499289721257371
+              "value": 2.4833584248764833,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2026-Q2",
-              "value": 4.428900560664709
+              "value": 3.643374966911601,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2026-Q3",
-              "value": 4.612122083167924
+              "value": 5.2837219886115765,
+              "gdpCoveragePct": 28.955251081618233
             }
           ]
         },
@@ -135662,41 +136499,53 @@
             "quarterly": 0,
             "annual": 28
           },
-          "avgYoY": 4.6585019323821,
-          "avgYTD": 4.6585019323821,
+          "avgYoY": 2.6691030295602136,
+          "avgYTD": 2.6691030295602136,
           "countries": 28,
+          "gdpCoveragePct": 100.0,
+          "gdpYTDCoveragePct": 100.0,
+          "aggregation": "GDP-weighted",
           "trend": [
             {
               "period": "2020",
-              "value": -2.7236527037666067
+              "value": -4.40178752824975,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2021",
-              "value": 5.070642744361179
+              "value": 4.873480150147064,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2022",
-              "value": 3.2563011734630285
+              "value": 2.292918664544514,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2023",
-              "value": 3.3710419187573897
+              "value": 2.839283931505021,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2024",
-              "value": -1.8298690420541874
+              "value": -1.3469475114940561,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2025",
-              "value": 4.6585019323821
+              "value": 2.6691030295602136,
+              "gdpCoveragePct": 100.0
             }
           ]
         }
       ]
     },
     "Site Development": {
-      "avgYoY": 5.988717678170102,
-      "avgYTD": 5.721992066791213,
+      "avgYoY": -5.444946397614677,
+      "avgYTD": -5.147718194388889,
+      "gdpCoveragePct": 97.68478721323841,
+      "gdpYTDCoveragePct": 97.68478721323841,
+      "aggregation": "GDP-weighted countries; equal-weight eligible indicators",
       "indicators": [
         {
           "indicator": "building_output",
@@ -135707,57 +136556,72 @@
             "quarterly": 5,
             "annual": 0
           },
-          "avgYoY": 3.367089788862296,
-          "avgYTD": 0.11190026721144593,
+          "avgYoY": -1.0616648974515908,
+          "avgYTD": -5.202140240535249,
           "countries": 28,
+          "gdpCoveragePct": 100.0,
+          "gdpYTDCoveragePct": 100.0,
+          "aggregation": "GDP-weighted",
           "trend": [
             {
               "period": "2025-Q3",
-              "value": 2.781956754522308
+              "value": 2.2258229610776,
+              "gdpCoveragePct": 1.1662559822490997
             },
             {
               "period": "2025-Q4",
-              "value": 2.889451878937719
+              "value": 2.8392609132291047,
+              "gdpCoveragePct": 1.1662559822490997
             },
             {
               "period": "2026-01",
-              "value": -5.612012878856829
+              "value": -11.61552877853883,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-02",
-              "value": -1.03527429764649
+              "value": -8.275833765076586,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-03",
-              "value": 3.802939213130676
+              "value": -4.106624260922821,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-04",
-              "value": 2.5289954035003386
+              "value": -3.494119221689489,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-05",
-              "value": -0.1987668708348956
+              "value": -4.227285294395841,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-06",
-              "value": -0.8369526253187325
+              "value": -5.034588679324222,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-07",
-              "value": 0.5347607598668308
+              "value": -3.776944396113775,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-08",
-              "value": 0.5671632898396702
+              "value": -3.1287540605453246,
+              "gdpCoveragePct": 90.2786156634506
             },
             {
               "period": "2026-Q1",
-              "value": 2.0384874557532684
+              "value": 2.2105047862035385,
+              "gdpCoveragePct": 1.1662559822490997
             },
             {
               "period": "2026-Q2",
-              "value": 4.884457802027827
+              "value": 5.592546174833169,
+              "gdpCoveragePct": 1.1662559822490997
             }
           ]
         },
@@ -135770,57 +136634,72 @@
             "quarterly": 5,
             "annual": 0
           },
-          "avgYoY": 3.5530752820330895,
-          "avgYTD": 1.4508729728440994,
+          "avgYoY": 4.390739728988809,
+          "avgYTD": -0.3879200473058663,
           "countries": 28,
+          "gdpCoveragePct": 100.0,
+          "gdpYTDCoveragePct": 100.0,
+          "aggregation": "GDP-weighted",
           "trend": [
             {
               "period": "2025-Q3",
-              "value": 2.6371491312891937
+              "value": 2.0905432611224053,
+              "gdpCoveragePct": 1.1662559822490997
             },
             {
               "period": "2025-Q4",
-              "value": 3.3450585290968937
+              "value": 3.2648899619975142,
+              "gdpCoveragePct": 1.1662559822490997
             },
             {
               "period": "2026-01",
-              "value": -0.812963886611233
+              "value": -3.3170260263658595,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-02",
-              "value": 1.025740803205935
+              "value": -2.5208842889643286,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-03",
-              "value": 4.683113122677084
+              "value": 0.5279758749713843,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-04",
-              "value": 2.51862901880846
+              "value": 0.305757483572617,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-05",
-              "value": 3.878788298319536
+              "value": 2.2170549358044807,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-06",
-              "value": 2.9275713997730772
+              "value": -0.5186942849261719,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-07",
-              "value": 1.595120855862955
+              "value": -0.6804425247393407,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-08",
-              "value": 1.5216862412907581
+              "value": 2.9419814658533365,
+              "gdpCoveragePct": 90.2786156634506
             },
             {
               "period": "2026-Q1",
-              "value": 2.6539165542219267
+              "value": 2.7854404278894087,
+              "gdpCoveragePct": 1.1662559822490997
             },
             {
               "period": "2026-Q2",
-              "value": 2.2987893482701383
+              "value": 3.1770072356651924,
+              "gdpCoveragePct": 1.1662559822490997
             }
           ]
         },
@@ -135833,57 +136712,72 @@
             "quarterly": 14,
             "annual": 0
           },
-          "avgYoY": 0.0006422114251472647,
-          "avgYTD": 3.3769712893991586,
+          "avgYoY": 0.6749035798955545,
+          "avgYTD": 7.814037481384918,
           "countries": 27,
+          "gdpCoveragePct": 95.3778075235616,
+          "gdpYTDCoveragePct": 95.3778075235616,
+          "aggregation": "GDP-weighted",
           "trend": [
             {
               "period": "2026-01",
-              "value": 18.050618899799403
+              "value": 11.134641490965535,
+              "gdpCoveragePct": 66.87109304837526
             },
             {
               "period": "2026-02",
-              "value": 7.504821718306032
+              "value": 11.256696409458758,
+              "gdpCoveragePct": 66.87109304837526
             },
             {
               "period": "2026-03",
-              "value": 11.070035473831272
+              "value": 11.208062507914686,
+              "gdpCoveragePct": 66.87109304837526
             },
             {
               "period": "2026-04",
-              "value": -5.189868764743296
+              "value": 2.72082090472584,
+              "gdpCoveragePct": 66.87109304837526
             },
             {
               "period": "2026-05",
-              "value": -0.5404334101348467
+              "value": 8.925021813960145,
+              "gdpCoveragePct": 66.87109304837526
             },
             {
               "period": "2026-06",
-              "value": 30.584843778235616
+              "value": 41.35049909223629,
+              "gdpCoveragePct": 66.87109304837526
             },
             {
               "period": "2026-07",
-              "value": -5.847243902639302
+              "value": -3.2266329469658723,
+              "gdpCoveragePct": 63.48052748704074
             },
             {
               "period": "2026-08",
-              "value": -1.8362572625115778
+              "value": -1.9372643964921923,
+              "gdpCoveragePct": 49.54378806875862
             },
             {
               "period": "2026-09",
-              "value": 9.936874991227075
+              "value": 9.402888806290983,
+              "gdpCoveragePct": 2.7034466414359675
             },
             {
               "period": "2026-Q1",
-              "value": 1.8078771858752283
+              "value": 5.030857889095908,
+              "gdpCoveragePct": 28.506714475186328
             },
             {
               "period": "2026-Q2",
-              "value": 2.3052485884042135
+              "value": 3.974721299799894,
+              "gdpCoveragePct": 28.506714475186328
             },
             {
               "period": "2026-Q3",
-              "value": -2.9503105590062195
+              "value": -2.9503105590062195,
+              "gdpCoveragePct": 0.20904919921393533
             }
           ]
         },
@@ -135896,57 +136790,72 @@
             "quarterly": 14,
             "annual": 0
           },
-          "avgYoY": 11.225199304216554,
-          "avgYTD": 11.244433749071913,
+          "avgYoY": 6.419150204170833,
+          "avgYTD": 9.432193887676057,
           "countries": 27,
+          "gdpCoveragePct": 95.3778075235616,
+          "gdpYTDCoveragePct": 95.3778075235616,
+          "aggregation": "GDP-weighted",
           "trend": [
             {
               "period": "2026-01",
-              "value": 42.05112171274176
+              "value": 16.558895284354136,
+              "gdpCoveragePct": 66.87109304837526
             },
             {
               "period": "2026-02",
-              "value": -0.11716445444658398
+              "value": 9.553624387104696,
+              "gdpCoveragePct": 66.87109304837526
             },
             {
               "period": "2026-03",
-              "value": 9.490102785234386
+              "value": 11.298056398742903,
+              "gdpCoveragePct": 66.87109304837526
             },
             {
               "period": "2026-04",
-              "value": 11.044446426279366
+              "value": 3.2429513417607354,
+              "gdpCoveragePct": 66.87109304837526
             },
             {
               "period": "2026-05",
-              "value": 8.087031514564758
+              "value": 10.79234815670281,
+              "gdpCoveragePct": 66.87109304837526
             },
             {
               "period": "2026-06",
-              "value": 42.09177475879878
+              "value": 38.017439965287586,
+              "gdpCoveragePct": 66.87109304837526
             },
             {
               "period": "2026-07",
-              "value": 2.693897484605439
+              "value": -2.286073961377634,
+              "gdpCoveragePct": 63.48052748704074
             },
             {
               "period": "2026-08",
-              "value": -13.303674964026515
+              "value": -4.794301763339266,
+              "gdpCoveragePct": 49.54378806875862
             },
             {
               "period": "2026-09",
-              "value": 4.934631004967386
+              "value": 35.22397187116479,
+              "gdpCoveragePct": 2.7034466414359675
             },
             {
               "period": "2026-Q1",
-              "value": 8.04673489674143
+              "value": 3.2777031313255014,
+              "gdpCoveragePct": 28.506714475186328
             },
             {
               "period": "2026-Q2",
-              "value": 15.37956388671825
+              "value": 18.07955775725231,
+              "gdpCoveragePct": 28.506714475186328
             },
             {
               "period": "2026-Q3",
-              "value": -28.910891089108915
+              "value": -28.91089108910891,
+              "gdpCoveragePct": 0.20904919921393533
             }
           ]
         },
@@ -135959,57 +136868,72 @@
             "quarterly": 14,
             "annual": 0
           },
-          "avgYoY": -2.1631038345171407,
-          "avgYTD": -1.6382799772859045,
+          "avgYoY": -0.6475863641477833,
+          "avgYTD": 1.2260941327374162,
           "countries": 27,
+          "gdpCoveragePct": 95.3778075235616,
+          "gdpYTDCoveragePct": 95.3778075235616,
+          "aggregation": "GDP-weighted",
           "trend": [
             {
               "period": "2026-01",
-              "value": 17.212739863967514
+              "value": 2.2893909788038442,
+              "gdpCoveragePct": 66.87109304837526
             },
             {
               "period": "2026-02",
-              "value": 7.894845340118773
+              "value": -1.735171584262129,
+              "gdpCoveragePct": 66.87109304837526
             },
             {
               "period": "2026-03",
-              "value": 24.540980336162914
+              "value": 15.230648863208323,
+              "gdpCoveragePct": 66.87109304837526
             },
             {
               "period": "2026-04",
-              "value": -0.03798099346662488
+              "value": -8.815583121302774,
+              "gdpCoveragePct": 66.87109304837526
             },
             {
               "period": "2026-05",
-              "value": 0.23324686384144352
+              "value": 0.12321234966966242,
+              "gdpCoveragePct": 66.87109304837526
             },
             {
               "period": "2026-06",
-              "value": -5.6245958247960175
+              "value": -6.823688803008052,
+              "gdpCoveragePct": 66.87109304837526
             },
             {
               "period": "2026-07",
-              "value": 2.3647583098571805
+              "value": 1.5700714023188207,
+              "gdpCoveragePct": 63.48052748704074
             },
             {
               "period": "2026-08",
-              "value": -2.0668386617874406
+              "value": -6.363812856135887,
+              "gdpCoveragePct": 49.54378806875862
             },
             {
               "period": "2026-09",
-              "value": -31.9976146232362
+              "value": -10.468953937046344,
+              "gdpCoveragePct": 2.7034466414359675
             },
             {
               "period": "2026-Q1",
-              "value": 2.377205216145947
+              "value": 10.983581388163088,
+              "gdpCoveragePct": 28.506714475186328
             },
             {
               "period": "2026-Q2",
-              "value": -1.3090343325738159
+              "value": 7.551567832354981,
+              "gdpCoveragePct": 28.506714475186328
             },
             {
               "period": "2026-Q3",
-              "value": -39.08045977011494
+              "value": -39.08045977011494,
+              "gdpCoveragePct": 0.20904919921393533
             }
           ]
         },
@@ -136022,33 +136946,42 @@
             "quarterly": 0,
             "annual": 26
           },
-          "avgYoY": 26.770360417850114,
-          "avgYTD": 26.770360417850114,
+          "avgYoY": -66.09743654395388,
+          "avgYTD": -66.09743654395388,
           "countries": 26,
+          "gdpCoveragePct": 93.02966234846089,
+          "gdpYTDCoveragePct": 93.02966234846089,
+          "aggregation": "GDP-weighted",
           "trend": [
             {
               "period": "2021",
-              "value": null
+              "value": null,
+              "gdpCoveragePct": 0.0
             },
             {
               "period": "2022",
-              "value": null
+              "value": null,
+              "gdpCoveragePct": 0.0
             },
             {
               "period": "2023",
-              "value": 230.530387633678
+              "value": 1453.464468674865,
+              "gdpCoveragePct": 93.02966234846089
             },
             {
               "period": "2024",
-              "value": -1.3735942019243017
+              "value": 15.004952733439952,
+              "gdpCoveragePct": 93.02966234846089
             },
             {
               "period": "2025",
-              "value": -84.56525436824055
+              "value": -54.886917570168734,
+              "gdpCoveragePct": 93.02966234846089
             },
             {
               "period": "2026",
-              "value": 26.770360417850114
+              "value": -66.09743654395388,
+              "gdpCoveragePct": 93.02966234846089
             }
           ]
         },
@@ -136061,57 +136994,72 @@
             "quarterly": 20,
             "annual": 0
           },
-          "avgYoY": 1.988312959390646,
-          "avgYTD": 1.5083673702608933,
+          "avgYoY": 0.8699577975441581,
+          "avgYTD": 1.0351053550143658,
           "countries": 28,
+          "gdpCoveragePct": 100.0,
+          "gdpYTDCoveragePct": 100.0,
+          "aggregation": "GDP-weighted",
           "trend": [
             {
               "period": "2025-Q3",
-              "value": 1.332874882041235
+              "value": 0.7013849223900174,
+              "gdpCoveragePct": 79.97242743962491
             },
             {
               "period": "2025-Q4",
-              "value": 2.1561006509895573
+              "value": 1.2168446283599865,
+              "gdpCoveragePct": 79.97242743962491
             },
             {
               "period": "2026-01",
-              "value": -0.10755197932253832
+              "value": -0.3922884559941607,
+              "gdpCoveragePct": 11.590621094053063
             },
             {
               "period": "2026-02",
-              "value": -0.16074550380636035
+              "value": -0.7665273657937413,
+              "gdpCoveragePct": 11.590621094053063
             },
             {
               "period": "2026-03",
-              "value": 0.9061474188176027
+              "value": 0.7944682218047066,
+              "gdpCoveragePct": 11.590621094053063
             },
             {
               "period": "2026-04",
-              "value": 1.2476059736714047
+              "value": 1.0869153228813564,
+              "gdpCoveragePct": 11.590621094053063
             },
             {
               "period": "2026-05",
-              "value": 1.7020485572448096
+              "value": 1.1922358275739335,
+              "gdpCoveragePct": 11.590621094053063
             },
             {
               "period": "2026-06",
-              "value": 0.5516297420966741
+              "value": -0.0007570447182089018,
+              "gdpCoveragePct": 11.590621094053063
             },
             {
               "period": "2026-07",
-              "value": 0.8691753812960057
+              "value": 1.168354436823154,
+              "gdpCoveragePct": 11.590621094053063
             },
             {
               "period": "2026-08",
-              "value": 3.146481237132257
+              "value": 2.263800161336384,
+              "gdpCoveragePct": 8.137321003669992
             },
             {
               "period": "2026-Q1",
-              "value": 1.558580287698117
+              "value": 1.2461535377345416,
+              "gdpCoveragePct": 79.97242743962491
             },
             {
               "period": "2026-Q2",
-              "value": 1.627004867298518
+              "value": 0.31361533265952635,
+              "gdpCoveragePct": 70.92931976124035
             }
           ]
         },
@@ -136124,45 +137072,57 @@
             "quarterly": 28,
             "annual": 0
           },
-          "avgYoY": 4.49838104188811,
-          "avgYTD": 4.014800579387093,
+          "avgYoY": 3.778315886861588,
+          "avgYTD": 3.1814991959220205,
           "countries": 28,
+          "gdpCoveragePct": 100.0,
+          "gdpYTDCoveragePct": 100.0,
+          "aggregation": "GDP-weighted",
           "trend": [
             {
               "period": "2024-Q3",
-              "value": 3.0073424111831826
+              "value": 1.8493592158756997,
+              "gdpCoveragePct": 71.04474891838176
             },
             {
               "period": "2024-Q4",
-              "value": 2.8861668710118926
+              "value": 1.5482700165106995,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2025-Q1",
-              "value": 2.737737376677399
+              "value": 1.4226086748141913,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2025-Q2",
-              "value": 2.981816443360792
+              "value": 1.5794632182359236,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2025-Q3",
-              "value": 3.0249046630244516
+              "value": 1.755917554851901,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2025-Q4",
-              "value": 3.6487562263554874
+              "value": 2.1758701814262986,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2026-Q1",
-              "value": 3.499289721257371
+              "value": 2.4833584248764833,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2026-Q2",
-              "value": 4.428900560664709
+              "value": 3.643374966911601,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2026-Q3",
-              "value": 4.612122083167924
+              "value": 5.2837219886115765,
+              "gdpCoveragePct": 28.955251081618233
             }
           ]
         },
@@ -136175,41 +137135,53 @@
             "quarterly": 0,
             "annual": 28
           },
-          "avgYoY": 4.6585019323821,
-          "avgYTD": 4.6585019323821,
+          "avgYoY": 2.6691030295602136,
+          "avgYTD": 2.6691030295602136,
           "countries": 28,
+          "gdpCoveragePct": 100.0,
+          "gdpYTDCoveragePct": 100.0,
+          "aggregation": "GDP-weighted",
           "trend": [
             {
               "period": "2020",
-              "value": -2.7236527037666067
+              "value": -4.40178752824975,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2021",
-              "value": 5.070642744361179
+              "value": 4.873480150147064,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2022",
-              "value": 3.2563011734630285
+              "value": 2.292918664544514,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2023",
-              "value": 3.3710419187573897
+              "value": 2.839283931505021,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2024",
-              "value": -1.8298690420541874
+              "value": -1.3469475114940561,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2025",
-              "value": 4.6585019323821
+              "value": 2.6691030295602136,
+              "gdpCoveragePct": 100.0
             }
           ]
         }
       ]
     },
     "Transportation Infrastructure": {
-      "avgYoY": 5.702255012098294,
-      "avgYTD": 1.7130013979223153,
+      "avgYoY": 2.7038533064335626,
+      "avgYTD": 0.6619680675112449,
+      "gdpCoveragePct": 100.0,
+      "gdpYTDCoveragePct": 100.0,
+      "aggregation": "GDP-weighted countries; equal-weight eligible indicators",
       "indicators": [
         {
           "indicator": "civil_output",
@@ -136220,57 +137192,72 @@
             "quarterly": 5,
             "annual": 0
           },
-          "avgYoY": 9.416197064805942,
-          "avgYTD": 1.9176354255837371,
+          "avgYoY": 4.537748815322967,
+          "avgYTD": 0.2888307800081241,
           "countries": 28,
+          "gdpCoveragePct": 100.0,
+          "gdpYTDCoveragePct": 100.0,
+          "aggregation": "GDP-weighted",
           "trend": [
             {
               "period": "2025-Q3",
-              "value": 4.117716460750146
+              "value": -0.28558341297906037,
+              "gdpCoveragePct": 0.7659334653452258
             },
             {
               "period": "2025-Q4",
-              "value": 7.848570547853524
+              "value": 6.330282681388551,
+              "gdpCoveragePct": 0.7659334653452258
             },
             {
               "period": "2026-01",
-              "value": -2.601410490816969
+              "value": -5.551816820192962,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-02",
-              "value": -0.5177809927591897
+              "value": -4.906836338334176,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-03",
-              "value": 5.0060524870804715
+              "value": 3.5902052344039843,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-04",
-              "value": 6.32465841267047
+              "value": 4.108554406248478,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-05",
-              "value": 3.6120283324560902
+              "value": 3.0538539542025336,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-06",
-              "value": 3.288554980331674
+              "value": 0.6918201782827494,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-07",
-              "value": -0.9564006760253347
+              "value": -0.5998703271895366,
+              "gdpCoveragePct": 91.204019858326
             },
             {
               "period": "2026-08",
-              "value": 9.337078091064198
+              "value": 3.0335958224501662,
+              "gdpCoveragePct": 90.2786156634506
             },
             {
               "period": "2026-Q1",
-              "value": 1.8689904517155354
+              "value": 0.39436899319804575,
+              "gdpCoveragePct": 0.7659334653452258
             },
             {
               "period": "2026-Q2",
-              "value": 8.423524430792117
+              "value": 13.052510704766453,
+              "gdpCoveragePct": 0.7659334653452258
             }
           ]
         },
@@ -136283,65 +137270,83 @@
             "quarterly": 20,
             "annual": 0
           },
-          "avgYoY": 1.988312959390646,
-          "avgYTD": 1.5083673702608933,
+          "avgYoY": 0.8699577975441581,
+          "avgYTD": 1.0351053550143658,
           "countries": 28,
+          "gdpCoveragePct": 100.0,
+          "gdpYTDCoveragePct": 100.0,
+          "aggregation": "GDP-weighted",
           "trend": [
             {
               "period": "2025-Q3",
-              "value": 1.332874882041235
+              "value": 0.7013849223900174,
+              "gdpCoveragePct": 79.97242743962491
             },
             {
               "period": "2025-Q4",
-              "value": 2.1561006509895573
+              "value": 1.2168446283599865,
+              "gdpCoveragePct": 79.97242743962491
             },
             {
               "period": "2026-01",
-              "value": -0.10755197932253832
+              "value": -0.3922884559941607,
+              "gdpCoveragePct": 11.590621094053063
             },
             {
               "period": "2026-02",
-              "value": -0.16074550380636035
+              "value": -0.7665273657937413,
+              "gdpCoveragePct": 11.590621094053063
             },
             {
               "period": "2026-03",
-              "value": 0.9061474188176027
+              "value": 0.7944682218047066,
+              "gdpCoveragePct": 11.590621094053063
             },
             {
               "period": "2026-04",
-              "value": 1.2476059736714047
+              "value": 1.0869153228813564,
+              "gdpCoveragePct": 11.590621094053063
             },
             {
               "period": "2026-05",
-              "value": 1.7020485572448096
+              "value": 1.1922358275739335,
+              "gdpCoveragePct": 11.590621094053063
             },
             {
               "period": "2026-06",
-              "value": 0.5516297420966741
+              "value": -0.0007570447182089018,
+              "gdpCoveragePct": 11.590621094053063
             },
             {
               "period": "2026-07",
-              "value": 0.8691753812960057
+              "value": 1.168354436823154,
+              "gdpCoveragePct": 11.590621094053063
             },
             {
               "period": "2026-08",
-              "value": 3.146481237132257
+              "value": 2.263800161336384,
+              "gdpCoveragePct": 8.137321003669992
             },
             {
               "period": "2026-Q1",
-              "value": 1.558580287698117
+              "value": 1.2461535377345416,
+              "gdpCoveragePct": 79.97242743962491
             },
             {
               "period": "2026-Q2",
-              "value": 1.627004867298518
+              "value": 0.31361533265952635,
+              "gdpCoveragePct": 70.92931976124035
             }
           ]
         }
       ]
     },
     "Mining": {
-      "avgYoY": 1.2708384953863574,
-      "avgYTD": 1.494399178529324,
+      "avgYoY": -1.475809521632032,
+      "avgYTD": -0.9261573893870924,
+      "gdpCoveragePct": 100.0,
+      "gdpYTDCoveragePct": 100.0,
+      "aggregation": "GDP-weighted countries; equal-weight eligible indicators",
       "indicators": [
         {
           "indicator": "mining_output",
@@ -136352,65 +137357,83 @@
             "quarterly": 0,
             "annual": 0
           },
-          "avgYoY": 1.2708384953863574,
-          "avgYTD": 1.494399178529324,
+          "avgYoY": -1.475809521632032,
+          "avgYTD": -0.9261573893870924,
           "countries": 28,
+          "gdpCoveragePct": 100.0,
+          "gdpYTDCoveragePct": 100.0,
+          "aggregation": "GDP-weighted",
           "trend": [
             {
               "period": "2025-09",
-              "value": 4.727311056733245
+              "value": 3.8504464175615807,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2025-10",
-              "value": 3.5123497213709074
+              "value": 3.901773985128194,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2025-11",
-              "value": 3.7563248097863897
+              "value": 0.5574188092490904,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2025-12",
-              "value": 1.039244655827871
+              "value": -2.1680704021934334,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2026-01",
-              "value": -4.644691980850049
+              "value": -1.7269827795998802,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2026-02",
-              "value": -2.4704808109013796
+              "value": -3.12777176205033,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2026-03",
-              "value": 4.012812941686217
+              "value": 0.9984904246830669,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2026-04",
-              "value": 3.492943225325015
+              "value": -0.23586550049200275,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2026-05",
-              "value": 2.9358262373989144
+              "value": 0.23690111879245782,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2026-06",
-              "value": 2.087430899255927
+              "value": -1.1016184102523747,
+              "gdpCoveragePct": 100.0
             },
             {
               "period": "2026-07",
-              "value": 4.073588140896323
+              "value": -0.3454698561304439,
+              "gdpCoveragePct": 95.3778075235616
             },
             {
               "period": "2026-08",
-              "value": 1.431716622601428
+              "value": -1.3984128455982647,
+              "gdpCoveragePct": 95.3778075235616
             }
           ]
         }
       ]
     },
     "Renewables": {
-      "avgYoY": 16.59922161275867,
-      "avgYTD": 8.50463244411851,
+      "avgYoY": 3.2840611973612774,
+      "avgYTD": 2.8693195033199514,
+      "gdpCoveragePct": 90.11532299708281,
+      "gdpYTDCoveragePct": 90.63681787288681,
+      "aggregation": "GDP-weighted countries; equal-weight eligible indicators",
       "indicators": [
         {
           "indicator": "renewable_generation",
@@ -136421,57 +137444,72 @@
             "quarterly": 0,
             "annual": 0
           },
-          "avgYoY": 14.779394945976602,
-          "avgYTD": -1.7738258992438978,
-          "countries": 27,
+          "avgYoY": -9.372720852479691,
+          "avgYTD": -10.661279464636776,
+          "countries": 21,
+          "gdpCoveragePct": 77.42085033772602,
+          "gdpYTDCoveragePct": 77.42085033772602,
+          "aggregation": "GDP-weighted",
           "trend": [
             {
               "period": "2025-09",
-              "value": 7.946207862908944
+              "value": 2.0980717014418153,
+              "gdpCoveragePct": 77.42085033772602
             },
             {
               "period": "2025-10",
-              "value": 4.25085968870069
+              "value": 1.2879158186733448,
+              "gdpCoveragePct": 77.42085033772602
             },
             {
               "period": "2025-11",
-              "value": 7.35479236580615
+              "value": 2.0698573010182133,
+              "gdpCoveragePct": 77.42085033772602
             },
             {
               "period": "2025-12",
-              "value": 7.48151249515269
+              "value": 14.105933825431526,
+              "gdpCoveragePct": 77.42085033772602
             },
             {
               "period": "2026-01",
-              "value": -0.07677563634539068
+              "value": -11.118126461935557,
+              "gdpCoveragePct": 77.42085033772602
             },
             {
               "period": "2026-02",
-              "value": -2.1560077399932305
+              "value": -11.458797085203583,
+              "gdpCoveragePct": 77.42085033772602
             },
             {
               "period": "2026-03",
-              "value": -1.0874962866313045
+              "value": -7.227539362473085,
+              "gdpCoveragePct": 77.42085033772602
             },
             {
               "period": "2026-04",
-              "value": 2.6264194695132383
+              "value": -6.154105363372475,
+              "gdpCoveragePct": 77.42085033772602
             },
             {
               "period": "2026-05",
-              "value": 8.005185630628796
+              "value": -1.8588650817350338,
+              "gdpCoveragePct": 77.42085033772602
             },
             {
               "period": "2026-06",
-              "value": 1.520358135501645
+              "value": -6.002700650184936,
+              "gdpCoveragePct": 77.42085033772602
             },
             {
               "period": "2026-07",
-              "value": 5.353689565627159
+              "value": -10.695703053729845,
+              "gdpCoveragePct": 77.42085033772602
             },
             {
               "period": "2026-08",
-              "value": 17.560892785938353
+              "value": -23.221644187076425,
+              "gdpCoveragePct": 30.17209796053822
             }
           ]
         },
@@ -136484,57 +137522,72 @@
             "quarterly": 0,
             "annual": 0
           },
-          "avgYoY": 31.946657246267996,
-          "avgYTD": 25.989388344370063,
+          "avgYoY": 25.142882697725078,
+          "avgYTD": 17.536949204824108,
           "countries": 27,
+          "gdpCoveragePct": 95.3778075235616,
+          "gdpYTDCoveragePct": 95.3778075235616,
+          "aggregation": "GDP-weighted",
           "trend": [
             {
               "period": "2025-09",
-              "value": 30.575585189374884
+              "value": 21.509371334978237,
+              "gdpCoveragePct": 92.79084639799719
             },
             {
               "period": "2025-10",
-              "value": 30.206423007733726
+              "value": 25.32927892209594,
+              "gdpCoveragePct": 92.79084639799719
             },
             {
               "period": "2025-11",
-              "value": 40.550523090167076
+              "value": 34.3104326726491,
+              "gdpCoveragePct": 92.79084639799719
             },
             {
               "period": "2025-12",
-              "value": 70.77416418920959
+              "value": 32.04858101243975,
+              "gdpCoveragePct": 92.79084639799719
             },
             {
               "period": "2026-01",
-              "value": 33.68057841292206
+              "value": 9.701727890769131,
+              "gdpCoveragePct": 95.3778075235616
             },
             {
               "period": "2026-02",
-              "value": 4.40937338801643
+              "value": -6.054881459209469,
+              "gdpCoveragePct": 95.3778075235616
             },
             {
               "period": "2026-03",
-              "value": 32.217073720285676
+              "value": 18.55074159653528,
+              "gdpCoveragePct": 95.3778075235616
             },
             {
               "period": "2026-04",
-              "value": 31.60156670137266
+              "value": 21.029823127764814,
+              "gdpCoveragePct": 95.3778075235616
             },
             {
               "period": "2026-05",
-              "value": 28.289339322271363
+              "value": 19.35538968106522,
+              "gdpCoveragePct": 95.3778075235616
             },
             {
               "period": "2026-06",
-              "value": 25.944571100092226
+              "value": 16.692052082168154,
+              "gdpCoveragePct": 95.3778075235616
             },
             {
               "period": "2026-07",
-              "value": 30.042496715082162
+              "value": 25.531318194182003,
+              "gdpCoveragePct": 95.3778075235616
             },
             {
               "period": "2026-08",
-              "value": 25.82496952782963
+              "value": 21.495500357981562,
+              "gdpCoveragePct": 45.80914460298462
             }
           ]
         },
@@ -136547,57 +137600,72 @@
             "quarterly": 0,
             "annual": 0
           },
-          "avgYoY": 26.816687922025015,
-          "avgYTD": 9.214889539451706,
-          "countries": 27,
+          "avgYoY": 10.396253192714425,
+          "avgYTD": 9.828414532941636,
+          "countries": 26,
+          "gdpCoveragePct": 94.6852081187199,
+          "gdpYTDCoveragePct": 94.6852081187199,
+          "aggregation": "GDP-weighted",
           "trend": [
             {
               "period": "2025-09",
-              "value": -2.134111474660455
+              "value": -0.08283482959380935,
+              "gdpCoveragePct": 94.6852081187199
             },
             {
               "period": "2025-10",
-              "value": 21.957386159187003
+              "value": 39.567353145549504,
+              "gdpCoveragePct": 94.6852081187199
             },
             {
               "period": "2025-11",
-              "value": 2.868481084754758
+              "value": 12.966058994296835,
+              "gdpCoveragePct": 94.6852081187199
             },
             {
               "period": "2025-12",
-              "value": -10.042750921632193
+              "value": -8.25247617685498,
+              "gdpCoveragePct": 94.6852081187199
             },
             {
               "period": "2026-01",
-              "value": 5.2660838322592785
+              "value": 6.9479414349057045,
+              "gdpCoveragePct": 94.6852081187199
             },
             {
               "period": "2026-02",
-              "value": 35.409494995524554
+              "value": 55.564783233595875,
+              "gdpCoveragePct": 94.6852081187199
             },
             {
               "period": "2026-03",
-              "value": 10.539264893338895
+              "value": 16.89822246004654,
+              "gdpCoveragePct": 94.6852081187199
             },
             {
               "period": "2026-04",
-              "value": 13.960887216834958
+              "value": 16.06236865801329,
+              "gdpCoveragePct": 94.6852081187199
             },
             {
               "period": "2026-05",
-              "value": 7.6810963308583
+              "value": -8.92792725065435,
+              "gdpCoveragePct": 94.6852081187199
             },
             {
               "period": "2026-06",
-              "value": -4.619942135060169
+              "value": -5.930551941742235,
+              "gdpCoveragePct": 94.6852081187199
             },
             {
               "period": "2026-07",
-              "value": 35.02380359381444
+              "value": 14.89349277518848,
+              "gdpCoveragePct": 94.6852081187199
             },
             {
               "period": "2026-08",
-              "value": 7.455759136355907
+              "value": -1.646546181726478,
+              "gdpCoveragePct": 45.116545198142916
             }
           ]
         },
@@ -136610,65 +137678,83 @@
             "quarterly": 0,
             "annual": 0
           },
-          "avgYoY": -7.145853663234944,
-          "avgYTD": 0.5880777918961677,
-          "countries": 27,
+          "avgYoY": -13.030170248514702,
+          "avgYTD": -5.2268062598491625,
+          "countries": 24,
+          "gdpCoveragePct": 92.97742600832373,
+          "gdpYTDCoveragePct": 95.06340551153968,
+          "aggregation": "GDP-weighted",
           "trend": [
             {
               "period": "2025-09",
-              "value": -3.1177526229723354
+              "value": -7.354776683524105,
+              "gdpCoveragePct": 95.06340551153968
             },
             {
               "period": "2025-10",
-              "value": -17.288537876357804
+              "value": -26.908097824725008,
+              "gdpCoveragePct": 95.06340551153968
             },
             {
               "period": "2025-11",
-              "value": 18.192797234401947
+              "value": 3.1630074759546507,
+              "gdpCoveragePct": 92.97742600832373
             },
             {
               "period": "2025-12",
-              "value": 18.32278376195625
+              "value": -1.0169259746323982,
+              "gdpCoveragePct": 92.97742600832373
             },
             {
               "period": "2026-01",
-              "value": -4.475803065836548
+              "value": -12.544294376653642,
+              "gdpCoveragePct": 95.06340551153968
             },
             {
               "period": "2026-02",
-              "value": 8.43196208534342
+              "value": -2.9401741492710367,
+              "gdpCoveragePct": 95.06340551153968
             },
             {
               "period": "2026-03",
-              "value": 21.609576099831603
+              "value": 17.232070967213996,
+              "gdpCoveragePct": 95.06340551153968
             },
             {
               "period": "2026-04",
-              "value": 2.998916308469367
+              "value": -2.3621022552167372,
+              "gdpCoveragePct": 95.06340551153968
             },
             {
               "period": "2026-05",
-              "value": 1442.7291513767188
+              "value": 788.9191830006176,
+              "gdpCoveragePct": 95.06340551153968
             },
             {
               "period": "2026-06",
-              "value": -1.5854333154200606
+              "value": -8.490754540835633,
+              "gdpCoveragePct": 92.97742600832373
             },
             {
               "period": "2026-07",
-              "value": -5.2263032182011395
+              "value": -13.408441112432955,
+              "gdpCoveragePct": 92.97742600832373
             },
             {
               "period": "2026-08",
-              "value": -9.253296944700136
+              "value": -11.06126397306903,
+              "gdpCoveragePct": 43.60003640543669
             }
           ]
         }
       ]
     },
     "Agriculture": {
-      "avgYoY": -10.72313800852824,
-      "avgYTD": -1.8077798267499265,
+      "avgYoY": -8.547871464864246,
+      "avgYTD": -0.8255246230796217,
+      "gdpCoveragePct": 93.02966234846089,
+      "gdpYTDCoveragePct": 93.02966234846089,
+      "aggregation": "GDP-weighted countries; equal-weight eligible indicators",
       "indicators": [
         {
           "indicator": "agri_output_prices",
@@ -136679,41 +137765,52 @@
             "quarterly": 26,
             "annual": 0
           },
-          "avgYoY": -13.045940651818352,
-          "avgYTD": -3.0042187622260306,
+          "avgYoY": -9.918519830641479,
+          "avgYTD": -1.7424423427002782,
           "countries": 26,
+          "gdpCoveragePct": 93.02966234846089,
+          "gdpYTDCoveragePct": 93.02966234846089,
+          "aggregation": "GDP-weighted",
           "trend": [
             {
               "period": "2021-Q4",
-              "value": 23.11037382990721
+              "value": 22.46156644870883,
+              "gdpCoveragePct": 93.02966234846089
             },
             {
               "period": "2022-Q1",
-              "value": 26.94908718121041
+              "value": 24.556524222606438,
+              "gdpCoveragePct": 93.02966234846089
             },
             {
               "period": "2022-Q2",
-              "value": 30.494374133275137
+              "value": 24.230895173247912,
+              "gdpCoveragePct": 92.57365934261108
             },
             {
               "period": "2022-Q3",
-              "value": 30.03789649104328
+              "value": 25.498031113262183,
+              "gdpCoveragePct": 93.02966234846089
             },
             {
               "period": "2022-Q4",
-              "value": 20.994156591198994
+              "value": 20.55089680860177,
+              "gdpCoveragePct": 93.02966234846089
             },
             {
               "period": "2023-Q1",
-              "value": 9.303389682070785
+              "value": 8.760672494723394,
+              "gdpCoveragePct": 93.02966234846089
             },
             {
               "period": "2023-Q2",
-              "value": -3.148592938901763
+              "value": -2.978759583611153,
+              "gdpCoveragePct": 92.57365934261108
             },
             {
               "period": "2023-Q3",
-              "value": -13.045940651818352
+              "value": -9.918519830641479,
+              "gdpCoveragePct": 93.02966234846089
             }
           ]
         },
@@ -136726,49 +137823,63 @@
             "quarterly": 26,
             "annual": 0
           },
-          "avgYoY": -8.400335365238128,
-          "avgYTD": -0.6113408912738226,
+          "avgYoY": -7.177223099087013,
+          "avgYTD": 0.09139309654103486,
           "countries": 26,
+          "gdpCoveragePct": 93.02966234846089,
+          "gdpYTDCoveragePct": 93.02966234846089,
+          "aggregation": "GDP-weighted",
           "trend": [
             {
               "period": "2021-Q4",
-              "value": 20.19588529368513
+              "value": 17.65897894556178,
+              "gdpCoveragePct": 93.02966234846089
             },
             {
               "period": "2022-Q1",
-              "value": 26.29621145570519
+              "value": 22.42650402215881,
+              "gdpCoveragePct": 93.02966234846089
             },
             {
               "period": "2022-Q2",
-              "value": 33.88955498912836
+              "value": 30.340809684145327,
+              "gdpCoveragePct": 93.02966234846089
             },
             {
               "period": "2022-Q3",
-              "value": 33.79830243466033
+              "value": 29.614069671425327,
+              "gdpCoveragePct": 93.02966234846089
             },
             {
               "period": "2022-Q4",
-              "value": 24.676606656342354
+              "value": 23.64053455290594,
+              "gdpCoveragePct": 93.02966234846089
             },
             {
               "period": "2023-Q1",
-              "value": 10.52604002803427
+              "value": 11.2575021718039,
+              "gdpCoveragePct": 93.02966234846089
             },
             {
               "period": "2023-Q2",
-              "value": -2.593579307455563
+              "value": -2.5715240603098084,
+              "gdpCoveragePct": 93.02966234846089
             },
             {
               "period": "2023-Q3",
-              "value": -8.400335365238128
+              "value": -7.177223099087013,
+              "gdpCoveragePct": 93.02966234846089
             }
           ]
         }
       ]
     },
     "Oil & Gas": {
-      "avgYoY": 12.102917933002386,
-      "avgYTD": 45.5716439737116,
+      "avgYoY": -13.568224525999295,
+      "avgYTD": -0.9247695624148315,
+      "gdpCoveragePct": 84.58680830300557,
+      "gdpYTDCoveragePct": 85.35695721878439,
+      "aggregation": "GDP-weighted countries; equal-weight eligible indicators",
       "indicators": [
         {
           "indicator": "monthly_gas_supply",
@@ -136779,57 +137890,72 @@
             "quarterly": 0,
             "annual": 0
           },
-          "avgYoY": 47.116731729327356,
-          "avgYTD": 115.76029349174418,
-          "countries": 27,
+          "avgYoY": -2.7269543403129783,
+          "avgYTD": 13.029741452129354,
+          "countries": 22,
+          "gdpCoveragePct": 91.39082162348947,
+          "gdpYTDCoveragePct": 91.39082162348947,
+          "aggregation": "GDP-weighted",
           "trend": [
             {
               "period": "2025-10",
-              "value": 635.8780632217845
+              "value": 239.12292135876098,
+              "gdpCoveragePct": 91.39082162348947
             },
             {
               "period": "2025-11",
-              "value": 3444.789575426552
+              "value": 3726.1753232641017,
+              "gdpCoveragePct": 91.03552015715422
             },
             {
               "period": "2025-12",
-              "value": 5357.372700614392
+              "value": 5720.691350013182,
+              "gdpCoveragePct": 91.03552015715422
             },
             {
               "period": "2026-01",
-              "value": 20156.828096605168
+              "value": 9550.932043491168,
+              "gdpCoveragePct": 91.39082162348947
             },
             {
               "period": "2026-02",
-              "value": 42.891170718606126
+              "value": 48.810434437166975,
+              "gdpCoveragePct": 91.03552015715422
             },
             {
               "period": "2026-03",
-              "value": 3665.3232715288163
+              "value": 1504.8557317976786,
+              "gdpCoveragePct": 91.03552015715422
             },
             {
               "period": "2026-04",
-              "value": 77.75707442755959
+              "value": 31.214918609913113,
+              "gdpCoveragePct": 91.03552015715422
             },
             {
               "period": "2026-05",
-              "value": 31.279799384574513
+              "value": 6.76615886526018,
+              "gdpCoveragePct": 91.39082162348947
             },
             {
               "period": "2026-06",
-              "value": 82.47979839858098
+              "value": -8.135957395084956,
+              "gdpCoveragePct": 91.39082162348947
             },
             {
               "period": "2026-07",
-              "value": -15.824428760468217
+              "value": -10.602457222759918,
+              "gdpCoveragePct": 91.03552015715422
             },
             {
               "period": "2026-08",
-              "value": 606.8874261789775
+              "value": 46.81081511144753,
+              "gdpCoveragePct": 91.39082162348947
             },
             {
               "period": "2026-09",
-              "value": 51.55814182337671
+              "value": -19.129162273108832,
+              "gdpCoveragePct": 65.02449361914147
             }
           ]
         },
@@ -136842,65 +137968,83 @@
             "quarterly": 0,
             "annual": 0
           },
-          "avgYoY": -22.910895863322583,
-          "avgYTD": -24.617005544320968,
-          "countries": 27,
+          "avgYoY": -24.40949471168561,
+          "avgYTD": -14.879280576959017,
+          "countries": 12,
+          "gdpCoveragePct": 77.78279498252168,
+          "gdpYTDCoveragePct": 79.3230928140793,
+          "aggregation": "GDP-weighted",
           "trend": [
             {
               "period": "2025-09",
-              "value": 38.34837141786312
+              "value": 0.34620859515243446,
+              "gdpCoveragePct": 77.78279498252168
             },
             {
               "period": "2025-10",
-              "value": 167.77684531413507
+              "value": 8.565572898063165,
+              "gdpCoveragePct": 77.78279498252168
             },
             {
               "period": "2025-11",
-              "value": 38.44797861040637
+              "value": 7.709004773484308,
+              "gdpCoveragePct": 77.78279498252168
             },
             {
               "period": "2025-12",
-              "value": -13.551156819688392
+              "value": -1.5425596765055696,
+              "gdpCoveragePct": 77.78279498252168
             },
             {
               "period": "2026-01",
-              "value": -26.674869720307463
+              "value": -24.616946218411965,
+              "gdpCoveragePct": 79.3230928140793
             },
             {
               "period": "2026-02",
-              "value": -16.431636745288426
+              "value": -14.689852647683024,
+              "gdpCoveragePct": 73.17242164263172
             },
             {
               "period": "2026-03",
-              "value": -33.81117472166176
+              "value": -11.268494370599818,
+              "gdpCoveragePct": 77.78279498252168
             },
             {
               "period": "2026-04",
-              "value": -0.12054084023902172
+              "value": 2.977722188667487,
+              "gdpCoveragePct": 77.78279498252168
             },
             {
               "period": "2026-05",
-              "value": 11.837145539564302
+              "value": 9.319417760473854,
+              "gdpCoveragePct": 77.78279498252168
             },
             {
               "period": "2026-06",
-              "value": -13.575205362641915
+              "value": -4.290828375354195,
+              "gdpCoveragePct": 77.78279498252168
             },
             {
               "period": "2026-07",
-              "value": -9.224552570618139
+              "value": -12.39355860241002,
+              "gdpCoveragePct": 77.78279498252168
             },
             {
               "period": "2026-08",
-              "value": -21.994884404122548
+              "value": -50.65352914428265,
+              "gdpCoveragePct": 28.953037021614332
             }
           ]
         }
       ]
     },
     "Waste & Water": {
-      "avgYoY": 81.30620306798163,
-      "avgYTD": 81.30620306798163,
+      "avgYoY": -10.406860351528646,
+      "avgYTD": -10.406860351528646,
+      "gdpCoveragePct": 47.57995179100256,
+      "gdpYTDCoveragePct": 47.57995179100256,
+      "aggregation": "GDP-weighted countries; equal-weight eligible indicators",
       "indicators": [
         {
           "indicator": "municipal_landfill",
@@ -136911,37 +138055,47 @@
             "quarterly": 0,
             "annual": 28
           },
-          "avgYoY": 77.45289523439965,
-          "avgYTD": 77.45289523439965,
-          "countries": 28,
+          "avgYoY": -10.490220587076015,
+          "avgYTD": -10.490220587076015,
+          "countries": 26,
+          "gdpCoveragePct": 95.15990358200511,
+          "gdpYTDCoveragePct": 95.15990358200511,
+          "aggregation": "GDP-weighted",
           "trend": [
             {
               "period": "2018",
-              "value": 1.0612043435340501
+              "value": 1.0612043435340501,
+              "gdpCoveragePct": 1.910733284142761
             },
             {
               "period": "2019",
-              "value": 2.2269257836938032
+              "value": 0.38781023467273606,
+              "gdpCoveragePct": 95.3778075235616
             },
             {
               "period": "2020",
-              "value": -9.27236440245887
+              "value": -8.222188787414833,
+              "gdpCoveragePct": 95.3778075235616
             },
             {
               "period": "2021",
-              "value": 5.332570042217231
+              "value": -5.993517055535275,
+              "gdpCoveragePct": 95.3778075235616
             },
             {
               "period": "2022",
-              "value": 0.2555632560183039
+              "value": 23.61928138236719,
+              "gdpCoveragePct": 95.3778075235616
             },
             {
               "period": "2023",
-              "value": -0.4826857838678107
+              "value": 4.232312816113341,
+              "gdpCoveragePct": 95.15990358200511
             },
             {
               "period": "2024",
-              "value": 80.40617210655485
+              "value": -10.779367696935442,
+              "gdpCoveragePct": 93.24917029786235
             }
           ]
         },
@@ -136954,37 +138108,47 @@
             "quarterly": 0,
             "annual": 28
           },
-          "avgYoY": 85.1595109015636,
-          "avgYTD": 85.1595109015636,
-          "countries": 28,
+          "avgYoY": -10.323500115981277,
+          "avgYTD": -10.323500115981277,
+          "countries": 26,
+          "gdpCoveragePct": 95.15990358200511,
+          "gdpYTDCoveragePct": 95.15990358200511,
+          "aggregation": "GDP-weighted",
           "trend": [
             {
               "period": "2018",
-              "value": 1.449275362318847
+              "value": 1.449275362318847,
+              "gdpCoveragePct": 1.910733284142761
             },
             {
               "period": "2019",
-              "value": 1.1527233796839358
+              "value": 0.3089265513640068,
+              "gdpCoveragePct": 95.3778075235616
             },
             {
               "period": "2020",
-              "value": -8.68398249458747
+              "value": -6.414390042199275,
+              "gdpCoveragePct": 95.3778075235616
             },
             {
               "period": "2021",
-              "value": 3.313597836063049
+              "value": -9.724395093280407,
+              "gdpCoveragePct": 95.3778075235616
             },
             {
               "period": "2022",
-              "value": 0.39656999812352917
+              "value": 29.656560749467545,
+              "gdpCoveragePct": 95.3778075235616
             },
             {
               "period": "2023",
-              "value": -0.2784978859259617
+              "value": 5.513867393550876,
+              "gdpCoveragePct": 95.15990358200511
             },
             {
               "period": "2024",
-              "value": 88.42239357977861
+              "value": -10.608543980162931,
+              "gdpCoveragePct": 93.24917029786235
             }
           ]
         },
@@ -136999,31 +138163,40 @@
           },
           "avgYoY": null,
           "avgYTD": null,
-          "countries": 27,
+          "countries": 0,
+          "gdpCoveragePct": 0.0,
+          "gdpYTDCoveragePct": 0.0,
+          "aggregation": "GDP-weighted",
           "trend": [
             {
               "period": "2017",
-              "value": null
+              "value": null,
+              "gdpCoveragePct": 0.0
             },
             {
               "period": "2018",
-              "value": null
+              "value": null,
+              "gdpCoveragePct": 0.0
             },
             {
               "period": "2019",
-              "value": null
+              "value": null,
+              "gdpCoveragePct": 0.0
             },
             {
               "period": "2020",
-              "value": null
+              "value": null,
+              "gdpCoveragePct": 0.0
             },
             {
               "period": "2021",
-              "value": null
+              "value": null,
+              "gdpCoveragePct": 0.0
             },
             {
               "period": "2022",
-              "value": null
+              "value": null,
+              "gdpCoveragePct": 0.0
             }
           ]
         },
@@ -137038,42 +138211,45 @@
           },
           "avgYoY": null,
           "avgYTD": null,
-          "countries": 27,
+          "countries": 0,
+          "gdpCoveragePct": 0.0,
+          "gdpYTDCoveragePct": 0.0,
+          "aggregation": "GDP-weighted",
           "trend": [
             {
               "period": "2017",
-              "value": null
+              "value": null,
+              "gdpCoveragePct": 0.0
             },
             {
               "period": "2018",
-              "value": null
+              "value": null,
+              "gdpCoveragePct": 0.0
             },
             {
               "period": "2019",
-              "value": null
+              "value": null,
+              "gdpCoveragePct": 0.0
             },
             {
               "period": "2020",
-              "value": null
+              "value": null,
+              "gdpCoveragePct": 0.0
             },
             {
               "period": "2021",
-              "value": null
+              "value": null,
+              "gdpCoveragePct": 0.0
             },
             {
               "period": "2022",
-              "value": null
+              "value": null,
+              "gdpCoveragePct": 0.0
             }
           ]
         }
       ]
     }
   },
-  "errors": [
-    {
-      "country": "Bulgaria",
-      "indicator": "construction_output",
-      "error": "URLError: <urlopen error [Errno 104] Connection reset by peer>"
-    }
-  ]
+  "errors": []
 }
