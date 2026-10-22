@@ -9,6 +9,11 @@ for r in d.get('records',[]):
  if r.get('ytdMatched') and '/' not in r['ytdMatched']:e.append(('ytd',r['country'],r['indicator']))
 if not d.get('regionalIndicators'):e.append('no regional indicators')
 if not d.get('verticals'):e.append('no verticals')
+if d.get('aggregationMethod',{}).get('countryWeighting')!='GDP weighted':e.append('GDP country weighting missing')
+if not d.get('gdpWeights'):e.append('GDP weights missing')
+for x in d.get('regionalIndicators',[]):
+ if x.get('aggregation')!='GDP-weighted':e.append(('regional aggregation',x.get('indicator')))
+ if x.get('avgYoY') is not None and x.get('gdpCoveragePct') is None:e.append(('GDP coverage',x.get('indicator')))
 print('records',len(d.get('records',[])),'regional',len(d.get('regionalIndicators',[])),'verticals',len(d.get('verticals',{})),'errors',len(e))
 if e:print(e[:30]);sys.exit(2)
 print('MARKET_TRENDS_VERIFICATION_OK')

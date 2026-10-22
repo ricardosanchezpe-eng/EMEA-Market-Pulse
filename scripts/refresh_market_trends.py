@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import datetime as dt,json,math,pathlib,statistics,time,urllib.parse,urllib.request
+from gdp_weighting import fetch_gdp_weights,weighted_avg,represented_gdp_pct
 ROOT=pathlib.Path(__file__).resolve().parents[1];AUD=ROOT/'public/data/market-trends-audit.json';OUT=ROOT/'public/data/market-trends.json'
 SRC=json.load(open(AUD)); PASS=[r for r in SRC['results'] if r.get('status')=='PASS']; BASE='https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/'
 def fetch(r):
@@ -50,20 +51,34 @@ for i,r in enumerate(PASS,1):
  except Exception as e:errors.append({'country':r['country'],'indicator':r['indicator'],'error':f'{type(e).__name__}: {e}'})
  if i%25==0:print('progress',i,'/',len(PASS),flush=True)
  time.sleep(.03)
-# Regional indicator aggregate = average country YoY by period; vertical headline averages indicator YoY.
+# Harmonised Europe aggregation: GDP-weight countries for each indicator, then equally average eligible indicators into each vertical.
+# Missing country observations are excluded, never zero; available-country GDP weights are renormalized automatically.
 def avg(xs):
  xs=[x for x in xs if isinstance(x,(int,float)) and math.isfinite(x)];return sum(xs)/len(xs) if xs else None
+country_to_geo={r['country']:r.get('geo') for r in records if r.get('country') and r.get('geo')}
+gdp_weights,gdp_meta=fetch_gdp_weights(country_to_geo)
+if not gdp_weights:raise RuntimeError('GDP weighting unavailable: Eurostat nama_10_gdp returned no country weights')
 indicators={}
-for r in records:
- indicators.setdefault(r['indicator'],[]).append(r)
+for r in records:indicators.setdefault(r['indicator'],[]).append(r)
 regional=[]
 for key,rr in indicators.items():
  periods=sorted(set(x['period'] for r in rr for x in r.get('yoySeries',[])))[-12:]
- trend=[{'period':p,'value':avg(next((x['value'] for x in r.get('yoySeries',[]) if x['period']==p),None) for r in rr)} for p in periods]
- regional.append({'indicator':key,'name':rr[0]['name'],'verticals':rr[0]['verticals'],'frequencyMix':dict((f,sum(r.get('actualFrequency')==f for r in rr)) for f in ('monthly','quarterly','annual')),'avgYoY':avg(r.get('yoyPct') for r in rr),'avgYTD':avg(r.get('ytdPct') for r in rr),'countries':len({r['country'] for r in rr}),'trend':trend})
+ trend=[]
+ for p in periods:
+  vals=[]
+  for r in rr:
+   v=next((x['value'] for x in r.get('yoySeries',[]) if x['period']==p),None)
+   if v is not None:vals.append((r['country'],v))
+  trend.append({'period':p,'value':weighted_avg(vals,gdp_weights),'gdpCoveragePct':represented_gdp_pct([c for c,_ in vals],gdp_weights)})
+ yoy_items=[(r['country'],r.get('yoyPct')) for r in rr]
+ ytd_items=[(r['country'],r.get('ytdPct')) for r in rr]
+ yoy_countries=[c for c,v in yoy_items if isinstance(v,(int,float)) and math.isfinite(v)]
+ ytd_countries=[c for c,v in ytd_items if isinstance(v,(int,float)) and math.isfinite(v)]
+ regional.append({'indicator':key,'name':rr[0]['name'],'verticals':rr[0]['verticals'],'frequencyMix':dict((f,sum(r.get('actualFrequency')==f for r in rr)) for f in ('monthly','quarterly','annual')),'avgYoY':weighted_avg(yoy_items,gdp_weights),'avgYTD':weighted_avg(ytd_items,gdp_weights),'countries':len(set(yoy_countries)),'gdpCoveragePct':represented_gdp_pct(yoy_countries,gdp_weights),'gdpYTDCoveragePct':represented_gdp_pct(ytd_countries,gdp_weights),'aggregation':'GDP-weighted','trend':trend})
 verticals={}
 for r in regional:
  for v in r['verticals'].split('; '):verticals.setdefault(v,[]).append(r)
-for v,rr in verticals.items():verticals[v]={'avgYoY':avg(x['avgYoY'] for x in rr),'avgYTD':avg(x['avgYTD'] for x in rr),'indicators':rr}
-out={'schemaVersion':'2.29','generatedAt':dt.datetime.now(dt.timezone.utc).isoformat(),'rules':SRC['rules'],'records':records,'regionalIndicators':regional,'verticals':verticals,'errors':errors}
+for v,rr in verticals.items():
+ verticals[v]={'avgYoY':avg(x['avgYoY'] for x in rr),'avgYTD':avg(x['avgYTD'] for x in rr),'gdpCoveragePct':avg(x.get('gdpCoveragePct') for x in rr),'gdpYTDCoveragePct':avg(x.get('gdpYTDCoveragePct') for x in rr),'aggregation':'GDP-weighted countries; equal-weight eligible indicators','indicators':rr}
+out={'schemaVersion':'2.35','generatedAt':dt.datetime.now(dt.timezone.utc).isoformat(),'rules':SRC['rules'],'aggregationMethod':{'countryWeighting':'GDP weighted','indicatorWeighting':'Equal weight across eligible indicators','missingData':'Excluded and weights renormalized; never zero','gdp':gdp_meta},'gdpWeights':gdp_weights,'records':records,'regionalIndicators':regional,'verticals':verticals,'errors':errors}
 OUT.write_text(json.dumps(out,indent=2)+'\n');print('MARKET_TRENDS_REFRESH_OK',len(records),'records',len(errors),'errors')
