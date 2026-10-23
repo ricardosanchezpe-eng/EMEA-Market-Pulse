@@ -6,7 +6,7 @@ def represented_gdp_pct(countries,w):
  d=sum(w.values());return sum(w[c] for c in set(countries) if c in w)/d*100 if d else None
 def fetch_gdp_weights(ctg,timeout=90):
  q={'freq':'A','unit':'CP_MEUR','na_item':'B1GQ','lang':'en','lastTimePeriod':5};url='https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_gdp?'+urllib.parse.urlencode(q)
- with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'EMEA-Market-Pulse/2.36'}),timeout=timeout) as x:j=json.load(x)
+ with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'EMEA-Market-Pulse/2.36.1'}),timeout=timeout) as x:j=json.load(x)
  inv=lambda c:{int(v):k for k,v in c.get('index',{}).items()};dims=j['id'];sizes=j['size'];gi=dims.index('geo');ti=dims.index('time');geos=inv(j['dimension']['geo']['category']);times=inv(j['dimension']['time']['category'])
  def dec(n):
   a=[]
@@ -14,7 +14,7 @@ def fetch_gdp_weights(ctg,timeout=90):
   return list(reversed(a))
  bg={}
  for k,v in j.get('value',{}).items():
-  c=dec(int(k));g=geos.get(c[gi]);t=times.get(c[ti]);
+  c=dec(int(k));g=geos.get(c[gi]);t=times.get(c[ti])
   if g and t:bg.setdefault(g,[]).append((int(str(t)[:4]),float(v)))
  w={};years={}
  for country,g in ctg.items():
