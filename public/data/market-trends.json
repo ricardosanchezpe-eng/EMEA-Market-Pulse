@@ -1,6 +1,6 @@
 {
   "schemaVersion": "2.36.1",
-  "generatedAt": "2026-10-23T10:34:14.427399+00:00",
+  "generatedAt": "2026-10-26T08:35:39.770073+00:00",
   "rules": {
     "trendFrequencies": [
       "monthly",
@@ -57278,23 +57278,19 @@
       "errors": "",
       "dataset": "sts_copi_q",
       "actualFrequency": "quarterly",
-      "latestPeriod": "2026-Q2",
-      "latestValue": 143.3,
-      "ageMonths": 6,
+      "latestPeriod": "2026-Q3",
+      "latestValue": 145.3,
+      "ageMonths": 3,
       "historyCount": 39,
       "windowPeriods": 8,
       "missingPeriods": 0,
-      "yoyPct": 3.991291727140789,
-      "ytdPct": 2.8384279475982543,
-      "ytdMatched": "2/2",
+      "yoyPct": 4.758471521268937,
+      "ytdPct": 3.4824667472793225,
+      "ytdMatched": "3/3",
       "selectedDimensions": "{\"cpa2_1\": \"CPA_F41001_X_410014\", \"freq\": \"Q\", \"geo\": \"LT\", \"indic_bt\": \"COST\", \"s_adj\": \"NSA\", \"unit\": \"I21\"}",
       "selectedLabels": "Quarterly | Costs | Residential buildings, except residences for communities | Unadjusted data (i.e. neither seasonally adjusted nor calendar adjusted data) | Index, 2021=100 | Lithuania",
       "sourceUrl": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/sts_copi_q?geo=LT&lang=en&lastTimePeriod=48&cpa2_1=CPA_F41001_X_410014&freq=Q&indic_bt=COST&s_adj=NSA&unit=I21",
       "series": [
-        {
-          "period": "2024-Q3",
-          "value": 133.9
-        },
         {
           "period": "2024-Q4",
           "value": 134.5
@@ -57322,13 +57318,13 @@
         {
           "period": "2026-Q2",
           "value": 143.3
+        },
+        {
+          "period": "2026-Q3",
+          "value": 145.3
         }
       ],
       "yoySeries": [
-        {
-          "period": "2024-Q3",
-          "value": 3.7984496124030986
-        },
         {
           "period": "2024-Q4",
           "value": 3.6209553158705665
@@ -57356,6 +57352,10 @@
         {
           "period": "2026-Q2",
           "value": 3.991291727140789
+        },
+        {
+          "period": "2026-Q3",
+          "value": 4.758471521268937
         }
       ],
       "currentYear": [
@@ -57368,6 +57368,11 @@
           "slot": 2,
           "period": "2026-Q2",
           "value": 143.3
+        },
+        {
+          "slot": 3,
+          "period": "2026-Q3",
+          "value": 145.3
         }
       ],
       "priorYear": [
@@ -57380,9 +57385,14 @@
           "slot": 2,
           "period": "2025-Q2",
           "value": 137.8
+        },
+        {
+          "slot": 3,
+          "period": "2025-Q3",
+          "value": 138.7
         }
       ],
-      "yoyPointChange": 5.5,
+      "yoyPointChange": 6.600000000000023,
       "indicatorRole": "pressure",
       "includedInVerticalAverage": false
     },
@@ -115939,7 +115949,7 @@
       "windowPeriods": 24,
       "missingPeriods": 0,
       "yoyPct": -100.0,
-      "ytdPct": -20.6453399667495,
+      "ytdPct": -8.588739041975213,
       "ytdMatched": "9/9",
       "selectedDimensions": "{\"freq\": \"M\", \"geo\": \"NO\", \"nrg_bal\": \"DL\", \"siec\": \"G3000\", \"unit\": \"MIO_M3\"}",
       "selectedLabels": "Monthly | Distribution losses | Natural gas | Million cubic metres | Norway",
@@ -116035,7 +116045,7 @@
         },
         {
           "period": "2026-08",
-          "value": 0.0
+          "value": 289.064
         },
         {
           "period": "2026-09",
@@ -116133,7 +116143,7 @@
         },
         {
           "period": "2026-08",
-          "value": -100.0
+          "value": 0.1937574738739345
         },
         {
           "period": "2026-09",
@@ -116179,7 +116189,7 @@
         {
           "slot": 8,
           "period": "2026-08",
-          "value": 0.0
+          "value": 289.064
         },
         {
           "slot": 9,
@@ -119381,13 +119391,13 @@
       "dataset": "nrg_cb_oilm",
       "actualFrequency": "monthly",
       "latestPeriod": "2026-08",
-      "latestValue": 6.0,
+      "latestValue": 7.0,
       "ageMonths": 2,
       "historyCount": 40,
       "windowPeriods": 24,
       "missingPeriods": 0,
-      "yoyPct": -14.28571428571429,
-      "ytdPct": 18.181818181818187,
+      "yoyPct": 0.0,
+      "ytdPct": 20.45454545454546,
       "ytdMatched": "8/8",
       "selectedDimensions": "{\"freq\": \"M\", \"geo\": \"CZ\", \"nrg_bal\": \"BKFLOW\", \"siec\": \"O4100_TOT_4200-4500\", \"unit\": \"THS_T\"}",
       "selectedLabels": "Monthly | Backflows | Crude oil, NGL, refinery feedstocks, additives and oxygenates and other hydrocarbons | Thousand tonnes | Czechia",
@@ -119487,7 +119497,7 @@
         },
         {
           "period": "2026-08",
-          "value": 6.0
+          "value": 7.0
         }
       ],
       "yoySeries": [
@@ -119585,7 +119595,7 @@
         },
         {
           "period": "2026-08",
-          "value": -14.28571428571429
+          "value": 0.0
         }
       ],
       "currentYear": [
@@ -119627,7 +119637,7 @@
         {
           "slot": 8,
           "period": "2026-08",
-          "value": 6.0
+          "value": 7.0
         }
       ],
       "priorYear": [
@@ -119672,7 +119682,7 @@
           "value": 7.0
         }
       ],
-      "yoyPointChange": -1.0,
+      "yoyPointChange": 0.0,
       "indicatorRole": "activity",
       "includedInVerticalAverage": true
     },
@@ -136608,8 +136618,8 @@
         "quarterly": 28,
         "annual": 0
       },
-      "avgYoY": 3.7812323753759407,
-      "avgYTD": 3.1827687586492073,
+      "avgYoY": 3.7844921286846156,
+      "avgYTD": 3.1855052848510756,
       "countries": 28,
       "gdpCoveragePct": 100.0,
       "trend": []
@@ -136780,7 +136790,7 @@
         "annual": 0
       },
       "avgYoY": 40.17105204231855,
-      "avgYTD": 22.44322466176501,
+      "avgYTD": 22.75300029116309,
       "countries": 22,
       "gdpCoveragePct": 91.39082162348947,
       "trend": []
@@ -136798,8 +136808,8 @@
         "quarterly": 0,
         "annual": 0
       },
-      "avgYoY": -26.218030079795753,
-      "avgYTD": -15.02230224432465,
+      "avgYoY": -25.89963429254409,
+      "avgYTD": -14.972631967316484,
       "countries": 12,
       "gdpCoveragePct": 77.78279498252168,
       "trend": []
@@ -137037,8 +137047,8 @@
             "quarterly": 28,
             "annual": 0
           },
-          "avgYoY": 3.7812323753759407,
-          "avgYTD": 3.1827687586492073,
+          "avgYoY": 3.7844921286846156,
+          "avgYTD": 3.1855052848510756,
           "countries": 28,
           "gdpCoveragePct": 100.0,
           "trend": []
@@ -137219,8 +137229,8 @@
             "quarterly": 28,
             "annual": 0
           },
-          "avgYoY": 3.7812323753759407,
-          "avgYTD": 3.1827687586492073,
+          "avgYoY": 3.7844921286846156,
+          "avgYTD": 3.1855052848510756,
           "countries": 28,
           "gdpCoveragePct": 100.0,
           "trend": []
@@ -137462,8 +137472,8 @@
       ]
     },
     "Oil & Gas": {
-      "avgYoY": 6.976510981261399,
-      "avgYTD": 3.710461208720181,
+      "avgYoY": 7.13570887488723,
+      "avgYTD": 3.890184161923303,
       "latestPeriod": "2026-09",
       "latestMonthlyPeriod": "2026-09",
       "latestQuarterlyPeriod": null,
@@ -137484,7 +137494,7 @@
             "annual": 0
           },
           "avgYoY": 40.17105204231855,
-          "avgYTD": 22.44322466176501,
+          "avgYTD": 22.75300029116309,
           "countries": 22,
           "gdpCoveragePct": 91.39082162348947,
           "trend": []
@@ -137502,8 +137512,8 @@
             "quarterly": 0,
             "annual": 0
           },
-          "avgYoY": -26.218030079795753,
-          "avgYTD": -15.02230224432465,
+          "avgYoY": -25.89963429254409,
+          "avgYTD": -14.972631967316484,
           "countries": 12,
           "gdpCoveragePct": 77.78279498252168,
           "trend": []
