@@ -2,7 +2,7 @@
 import datetime as dt,json,math,pathlib,statistics,time,urllib.parse,urllib.request
 from gdp_weighting import fetch_gdp_weights,weighted_avg,represented_gdp_pct
 ROOT=pathlib.Path(__file__).resolve().parents[1];AUD=ROOT/'public/data/market-trends-audit.json';OUT=ROOT/'public/data/market-trends.json'
-SRC=json.load(open(AUD)); PASS=[r for r in SRC['results'] if r.get('status')=='PASS']; BASE='https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/'
+SRC=json.load(open(AUD)); PASS=[r for r in SRC['results'] if r.get('status')=='PASS' and r.get('actualFrequency')==r.get('preferredFrequency')]; BASE='https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/'
 def fetch(r):
  q={'geo':r['geo'],'lang':'en','lastTimePeriod':48}
  try:q.update(json.loads(r.get('selectedDimensions') or '{}'))
@@ -47,7 +47,8 @@ def enrich(r,obs,url):
  role='leading_survey' if r['indicator']=='construction_confidence' else ('pressure' if r['indicator']=='construction_costs' else 'activity')
  eligible=(role=='activity' and f in ('monthly','quarterly'))
  prior_same=vals.get(end-step)
- return {**r,'sourceUrl':url,'series':series,'yoySeries':yoySeries,'currentYear':current,'priorYear':prior,'latestPeriod':plabel(end,f),'latestValue':latest,'yoyPct':yp,'ytdPct':ytd,'yoyPointChange':(latest-prior_same) if prior_same is not None else None,'indicatorRole':role,'includedInVerticalAverage':eligible,'ytdMatched':f'{len(pairs)}/{pos+1}','ageMonths':age(plabel(end,f),f),'missingPeriods':sum(x['value'] is None for x in series)}
+ display_url=f"https://ec.europa.eu/eurostat/databrowser/view/{r['dataset']}/default/table?lang=en"
+ return {**r,'sourceUrl':display_url,'retrievalUrl':url,'sourceDataset':r['dataset'],'series':series,'yoySeries':yoySeries,'currentYear':current,'priorYear':prior,'latestPeriod':plabel(end,f),'latestValue':latest,'yoyPct':yp,'ytdPct':ytd,'yoyPointChange':(latest-prior_same) if prior_same is not None else None,'indicatorRole':role,'includedInVerticalAverage':eligible,'ytdMatched':f'{len(pairs)}/{pos+1}','ageMonths':age(plabel(end,f),f),'missingPeriods':sum(x['value'] is None for x in series)}
 records=[];errors=[]
 for i,r in enumerate(PASS,1):
  try:j,u=fetch(r);obs=parse(j);records.append(enrich(r,obs,u) if obs else {**r,'status':'NO_USABLE_SERIES','series':[]})
@@ -72,5 +73,5 @@ for r in regional:
 for v,rr in verticals.items():
  inc=[x for x in rr if x['includedInVerticalAverage']];m=[x['latestPeriod'] for x in inc if x['latestPeriod'] and x['frequencyMix']['monthly']];q=[x['latestPeriod'] for x in inc if x['latestPeriod'] and x['frequencyMix']['quarterly']]
  verticals[v]={'avgYoY':avg(x['avgYoY'] for x in inc),'avgYTD':avg(x['avgYTD'] for x in inc),'latestPeriod':max((x['latestPeriod'] for x in inc if x['latestPeriod']),default=None),'latestMonthlyPeriod':max(m,default=None),'latestQuarterlyPeriod':max(q,default=None),'eligibleIndicatorCount':len(inc),'excludedIndicatorCount':len(rr)-len(inc),'indicators':rr}
-out={'schemaVersion':'2.36.1','generatedAt':dt.datetime.now(dt.timezone.utc).isoformat(),'rules':SRC['rules'],'aggregationMethod':{'countryWeighting':'GDP weighted','indicatorWeighting':'Equal weight across eligible activity indicators','excludedRoles':['leading_survey','pressure','annual_or_structural'],'missingData':'Excluded and GDP weights renormalized; never zero','gdp':gdp_meta},'gdpWeights':gdp,'records':records,'regionalIndicators':regional,'verticals':verticals,'errors':errors}
+out={'schemaVersion':'2.37','generatedAt':dt.datetime.now(dt.timezone.utc).isoformat(),'rules':SRC['rules'],'aggregationMethod':{'countryWeighting':'GDP weighted','indicatorWeighting':'Equal weight across eligible activity indicators','excludedRoles':['leading_survey','pressure','annual_or_structural'],'missingData':'Excluded and GDP weights renormalized; never zero','gdp':gdp_meta},'gdpWeights':gdp,'records':records,'regionalIndicators':regional,'verticals':verticals,'errors':errors}
 OUT.write_text(json.dumps(out,indent=2)+'\n');print('MARKET_TRENDS_REFRESH_OK',len(records),'records',len(errors),'errors')
