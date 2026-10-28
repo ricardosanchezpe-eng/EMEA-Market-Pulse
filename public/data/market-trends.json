@@ -1,6 +1,6 @@
 {
   "schemaVersion": "2.37",
-  "generatedAt": "2026-10-26T10:39:43.575033+00:00",
+  "generatedAt": "2026-10-28T06:18:30.515517+00:00",
   "rules": {
     "trendFrequencies": [
       "monthly",
@@ -56370,15 +56370,15 @@
       "errors": "",
       "dataset": "nrg_cb_pem",
       "actualFrequency": "monthly",
-      "latestPeriod": "2026-07",
+      "latestPeriod": "2026-08",
       "latestValue": 0.0,
-      "ageMonths": 3,
+      "ageMonths": 2,
       "historyCount": 39,
       "windowPeriods": 24,
       "missingPeriods": 0,
       "yoyPct": null,
       "ytdPct": null,
-      "ytdMatched": "7/7",
+      "ytdMatched": "8/8",
       "selectedDimensions": "{\"freq\": \"M\", \"geo\": \"CY\", \"siec\": \"CF_NR_OTH\", \"unit\": \"GWH\"}",
       "selectedLabels": "Monthly | Combustible fuels - non-renewable - other | Gigawatt-hour | Cyprus",
       "sourceUrl": "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem/default/table?lang=en",
@@ -56386,10 +56386,6 @@
       "sourceDataset": "nrg_cb_pem",
       "series": [
         {
-          "period": "2024-08",
-          "value": 0.0
-        },
-        {
           "period": "2024-09",
           "value": 0.0
         },
@@ -56479,15 +56475,15 @@
         },
         {
           "period": "2026-07",
+          "value": 0.0
+        },
+        {
+          "period": "2026-08",
           "value": 0.0
         }
       ],
       "yoySeries": [
         {
-          "period": "2024-08",
-          "value": null
-        },
-        {
           "period": "2024-09",
           "value": null
         },
@@ -56577,6 +56573,10 @@
         },
         {
           "period": "2026-07",
+          "value": null
+        },
+        {
+          "period": "2026-08",
           "value": null
         }
       ],
@@ -56615,6 +56615,11 @@
           "slot": 7,
           "period": "2026-07",
           "value": 0.0
+        },
+        {
+          "slot": 8,
+          "period": "2026-08",
+          "value": 0.0
         }
       ],
       "priorYear": [
@@ -56651,6 +56656,11 @@
         {
           "slot": 7,
           "period": "2025-07",
+          "value": 0.0
+        },
+        {
+          "slot": 8,
+          "period": "2025-08",
           "value": 0.0
         }
       ],
@@ -63120,25 +63130,21 @@
       "errors": "",
       "dataset": "nrg_cb_pem",
       "actualFrequency": "monthly",
-      "latestPeriod": "2026-07",
-      "latestValue": 0.776,
-      "ageMonths": 3,
+      "latestPeriod": "2026-08",
+      "latestValue": 0.873,
+      "ageMonths": 2,
       "historyCount": 39,
       "windowPeriods": 24,
       "missingPeriods": 0,
-      "yoyPct": -14.254143646408835,
-      "ytdPct": -4.603535795553992,
-      "ytdMatched": "7/7",
+      "yoyPct": -8.298319327731086,
+      "ytdPct": -5.131282820705174,
+      "ytdMatched": "8/8",
       "selectedDimensions": "{\"freq\": \"M\", \"geo\": \"SI\", \"siec\": \"CF_NR_OTH\", \"unit\": \"GWH\"}",
       "selectedLabels": "Monthly | Combustible fuels - non-renewable - other | Gigawatt-hour | Slovenia",
       "sourceUrl": "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem/default/table?lang=en",
       "retrievalUrl": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nrg_cb_pem?geo=SI&lang=en&lastTimePeriod=48&freq=M&siec=CF_NR_OTH&unit=GWH",
       "sourceDataset": "nrg_cb_pem",
       "series": [
-        {
-          "period": "2024-08",
-          "value": 0.839
-        },
         {
           "period": "2024-09",
           "value": 0.367
@@ -63230,13 +63236,13 @@
         {
           "period": "2026-07",
           "value": 0.776
+        },
+        {
+          "period": "2026-08",
+          "value": 0.873
         }
       ],
       "yoySeries": [
-        {
-          "period": "2024-08",
-          "value": 12.466487935656833
-        },
         {
           "period": "2024-09",
           "value": -29.69348659003832
@@ -63328,6 +63334,10 @@
         {
           "period": "2026-07",
           "value": -14.254143646408835
+        },
+        {
+          "period": "2026-08",
+          "value": -8.298319327731086
         }
       ],
       "currentYear": [
@@ -63365,6 +63375,11 @@
           "slot": 7,
           "period": "2026-07",
           "value": 0.776
+        },
+        {
+          "slot": 8,
+          "period": "2026-08",
+          "value": 0.873
         }
       ],
       "priorYear": [
@@ -63402,9 +63417,14 @@
           "slot": 7,
           "period": "2025-07",
           "value": 0.905
+        },
+        {
+          "slot": 8,
+          "period": "2025-08",
+          "value": 0.952
         }
       ],
-      "yoyPointChange": -0.129,
+      "yoyPointChange": -0.07899999999999996,
       "indicatorRole": "activity",
       "includedInVerticalAverage": true
     },
@@ -64650,25 +64670,21 @@
       "errors": "",
       "dataset": "nrg_cb_pem",
       "actualFrequency": "monthly",
-      "latestPeriod": "2026-07",
-      "latestValue": 175.661,
-      "ageMonths": 3,
+      "latestPeriod": "2026-08",
+      "latestValue": 178.824,
+      "ageMonths": 2,
       "historyCount": 39,
       "windowPeriods": 24,
       "missingPeriods": 0,
-      "yoyPct": -1.205815359523077,
-      "ytdPct": 3.317863795520437,
-      "ytdMatched": "7/7",
+      "yoyPct": 16.489372097113563,
+      "ytdPct": 7.4312872880412995,
+      "ytdMatched": "8/8",
       "selectedDimensions": "{\"freq\": \"M\", \"geo\": \"CY\", \"siec\": \"RA400\", \"unit\": \"GWH\"}",
       "selectedLabels": "Monthly | Solar | Gigawatt-hour | Cyprus",
       "sourceUrl": "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem/default/table?lang=en",
       "retrievalUrl": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nrg_cb_pem?geo=CY&lang=en&lastTimePeriod=48&freq=M&siec=RA400&unit=GWH",
       "sourceDataset": "nrg_cb_pem",
       "series": [
-        {
-          "period": "2024-08",
-          "value": 127.681
-        },
         {
           "period": "2024-09",
           "value": 120.513
@@ -64759,14 +64775,14 @@
         },
         {
           "period": "2026-07",
-          "value": 175.661
+          "value": 193.886
+        },
+        {
+          "period": "2026-08",
+          "value": 178.824
         }
       ],
       "yoySeries": [
-        {
-          "period": "2024-08",
-          "value": 34.280906557290855
-        },
         {
           "period": "2024-09",
           "value": 35.11789306095907
@@ -64857,7 +64873,11 @@
         },
         {
           "period": "2026-07",
-          "value": -1.205815359523077
+          "value": 9.044177610303406
+        },
+        {
+          "period": "2026-08",
+          "value": 16.489372097113563
         }
       ],
       "currentYear": [
@@ -64894,7 +64914,12 @@
         {
           "slot": 7,
           "period": "2026-07",
-          "value": 175.661
+          "value": 193.886
+        },
+        {
+          "slot": 8,
+          "period": "2026-08",
+          "value": 178.824
         }
       ],
       "priorYear": [
@@ -64932,9 +64957,14 @@
           "slot": 7,
           "period": "2025-07",
           "value": 177.805
+        },
+        {
+          "slot": 8,
+          "period": "2025-08",
+          "value": 153.511
         }
       ],
-      "yoyPointChange": -2.1440000000000055,
+      "yoyPointChange": 25.313000000000017,
       "indicatorRole": "activity",
       "includedInVerticalAverage": true
     },
@@ -71400,25 +71430,21 @@
       "errors": "",
       "dataset": "nrg_cb_pem",
       "actualFrequency": "monthly",
-      "latestPeriod": "2026-07",
-      "latestValue": 239.967,
-      "ageMonths": 3,
+      "latestPeriod": "2026-08",
+      "latestValue": 227.753,
+      "ageMonths": 2,
       "historyCount": 39,
       "windowPeriods": 24,
       "missingPeriods": 0,
-      "yoyPct": 29.89725879092329,
-      "ytdPct": 22.531341796797633,
-      "ytdMatched": "7/7",
+      "yoyPct": 87.65490079757431,
+      "ytdPct": 30.397711721951136,
+      "ytdMatched": "8/8",
       "selectedDimensions": "{\"freq\": \"M\", \"geo\": \"SI\", \"siec\": \"RA400\", \"unit\": \"GWH\"}",
       "selectedLabels": "Monthly | Solar | Gigawatt-hour | Slovenia",
       "sourceUrl": "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem/default/table?lang=en",
       "retrievalUrl": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nrg_cb_pem?geo=SI&lang=en&lastTimePeriod=48&freq=M&siec=RA400&unit=GWH",
       "sourceDataset": "nrg_cb_pem",
       "series": [
-        {
-          "period": "2024-08",
-          "value": 160.09
-        },
         {
           "period": "2024-09",
           "value": 98.423
@@ -71510,13 +71536,13 @@
         {
           "period": "2026-07",
           "value": 239.967
+        },
+        {
+          "period": "2026-08",
+          "value": 227.753
         }
       ],
       "yoySeries": [
-        {
-          "period": "2024-08",
-          "value": 109.75328537924352
-        },
         {
           "period": "2024-09",
           "value": 43.81547993044699
@@ -71608,6 +71634,10 @@
         {
           "period": "2026-07",
           "value": 29.89725879092329
+        },
+        {
+          "period": "2026-08",
+          "value": 87.65490079757431
         }
       ],
       "currentYear": [
@@ -71645,6 +71675,11 @@
           "slot": 7,
           "period": "2026-07",
           "value": 239.967
+        },
+        {
+          "slot": 8,
+          "period": "2026-08",
+          "value": 227.753
         }
       ],
       "priorYear": [
@@ -71682,9 +71717,14 @@
           "slot": 7,
           "period": "2025-07",
           "value": 184.736
+        },
+        {
+          "slot": 8,
+          "period": "2025-08",
+          "value": 121.368
         }
       ],
-      "yoyPointChange": 55.23100000000002,
+      "yoyPointChange": 106.38499999999999,
       "indicatorRole": "activity",
       "includedInVerticalAverage": true
     },
@@ -72930,25 +72970,21 @@
       "errors": "",
       "dataset": "nrg_cb_pem",
       "actualFrequency": "monthly",
-      "latestPeriod": "2026-07",
-      "latestValue": 21.658,
-      "ageMonths": 3,
+      "latestPeriod": "2026-08",
+      "latestValue": 15.544,
+      "ageMonths": 2,
       "historyCount": 39,
       "windowPeriods": 24,
       "missingPeriods": 0,
-      "yoyPct": 12.825588664305055,
-      "ytdPct": 47.42078340567524,
-      "ytdMatched": "7/7",
+      "yoyPct": -6.564077903342147,
+      "ytdPct": 37.96892878809985,
+      "ytdMatched": "8/8",
       "selectedDimensions": "{\"freq\": \"M\", \"geo\": \"CY\", \"siec\": \"RA300\", \"unit\": \"GWH\"}",
       "selectedLabels": "Monthly | Wind | Gigawatt-hour | Cyprus",
       "sourceUrl": "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem/default/table?lang=en",
       "retrievalUrl": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nrg_cb_pem?geo=CY&lang=en&lastTimePeriod=48&freq=M&siec=RA300&unit=GWH",
       "sourceDataset": "nrg_cb_pem",
       "series": [
-        {
-          "period": "2024-08",
-          "value": 16.499
-        },
         {
           "period": "2024-09",
           "value": 17.732
@@ -73039,14 +73075,14 @@
         },
         {
           "period": "2026-07",
-          "value": 21.658
+          "value": 18.331
+        },
+        {
+          "period": "2026-08",
+          "value": 15.544
         }
       ],
       "yoySeries": [
-        {
-          "period": "2024-08",
-          "value": 21.988909426987057
-        },
         {
           "period": "2024-09",
           "value": 12.427085975145813
@@ -73137,7 +73173,11 @@
         },
         {
           "period": "2026-07",
-          "value": 12.825588664305055
+          "value": -4.506147113982085
+        },
+        {
+          "period": "2026-08",
+          "value": -6.564077903342147
         }
       ],
       "currentYear": [
@@ -73174,7 +73214,12 @@
         {
           "slot": 7,
           "period": "2026-07",
-          "value": 21.658
+          "value": 18.331
+        },
+        {
+          "slot": 8,
+          "period": "2026-08",
+          "value": 15.544
         }
       ],
       "priorYear": [
@@ -73212,9 +73257,14 @@
           "slot": 7,
           "period": "2025-07",
           "value": 19.196
+        },
+        {
+          "slot": 8,
+          "period": "2025-08",
+          "value": 16.636
         }
       ],
-      "yoyPointChange": 2.4619999999999997,
+      "yoyPointChange": -1.0919999999999987,
       "indicatorRole": "activity",
       "includedInVerticalAverage": true
     },
@@ -79680,25 +79730,21 @@
       "errors": "",
       "dataset": "nrg_cb_pem",
       "actualFrequency": "monthly",
-      "latestPeriod": "2026-07",
-      "latestValue": 0.428,
-      "ageMonths": 3,
+      "latestPeriod": "2026-08",
+      "latestValue": 0.444,
+      "ageMonths": 2,
       "historyCount": 39,
       "windowPeriods": 24,
       "missingPeriods": 0,
-      "yoyPct": 25.513196480938394,
-      "ytdPct": -19.44830783495596,
-      "ytdMatched": "7/7",
+      "yoyPct": 19.999999999999996,
+      "ytdPct": -16.332194705380022,
+      "ytdMatched": "8/8",
       "selectedDimensions": "{\"freq\": \"M\", \"geo\": \"SI\", \"siec\": \"RA300\", \"unit\": \"GWH\"}",
       "selectedLabels": "Monthly | Wind | Gigawatt-hour | Slovenia",
       "sourceUrl": "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem/default/table?lang=en",
       "retrievalUrl": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nrg_cb_pem?geo=SI&lang=en&lastTimePeriod=48&freq=M&siec=RA300&unit=GWH",
       "sourceDataset": "nrg_cb_pem",
       "series": [
-        {
-          "period": "2024-08",
-          "value": 0.353
-        },
         {
           "period": "2024-09",
           "value": 0.64
@@ -79790,13 +79836,13 @@
         {
           "period": "2026-07",
           "value": 0.428
+        },
+        {
+          "period": "2026-08",
+          "value": 0.444
         }
       ],
       "yoySeries": [
-        {
-          "period": "2024-08",
-          "value": 2.3188405797101463
-        },
         {
           "period": "2024-09",
           "value": -0.31152647975077885
@@ -79888,6 +79934,10 @@
         {
           "period": "2026-07",
           "value": 25.513196480938394
+        },
+        {
+          "period": "2026-08",
+          "value": 19.999999999999996
         }
       ],
       "currentYear": [
@@ -79925,6 +79975,11 @@
           "slot": 7,
           "period": "2026-07",
           "value": 0.428
+        },
+        {
+          "slot": 8,
+          "period": "2026-08",
+          "value": 0.444
         }
       ],
       "priorYear": [
@@ -79962,9 +80017,14 @@
           "slot": 7,
           "period": "2025-07",
           "value": 0.341
+        },
+        {
+          "slot": 8,
+          "period": "2025-08",
+          "value": 0.37
         }
       ],
-      "yoyPointChange": 0.08699999999999997,
+      "yoyPointChange": 0.07400000000000001,
       "indicatorRole": "activity",
       "includedInVerticalAverage": true
     },
@@ -81210,15 +81270,15 @@
       "errors": "",
       "dataset": "nrg_cb_pem",
       "actualFrequency": "monthly",
-      "latestPeriod": "2026-07",
+      "latestPeriod": "2026-08",
       "latestValue": 0.0,
-      "ageMonths": 3,
+      "ageMonths": 2,
       "historyCount": 39,
       "windowPeriods": 24,
       "missingPeriods": 0,
       "yoyPct": null,
       "ytdPct": null,
-      "ytdMatched": "7/7",
+      "ytdMatched": "8/8",
       "selectedDimensions": "{\"freq\": \"M\", \"geo\": \"CY\", \"siec\": \"RA100\", \"unit\": \"GWH\"}",
       "selectedLabels": "Monthly | Hydro | Gigawatt-hour | Cyprus",
       "sourceUrl": "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem/default/table?lang=en",
@@ -81226,10 +81286,6 @@
       "sourceDataset": "nrg_cb_pem",
       "series": [
         {
-          "period": "2024-08",
-          "value": 0.0
-        },
-        {
           "period": "2024-09",
           "value": 0.0
         },
@@ -81319,15 +81375,15 @@
         },
         {
           "period": "2026-07",
+          "value": 0.0
+        },
+        {
+          "period": "2026-08",
           "value": 0.0
         }
       ],
       "yoySeries": [
         {
-          "period": "2024-08",
-          "value": null
-        },
-        {
           "period": "2024-09",
           "value": null
         },
@@ -81417,6 +81473,10 @@
         },
         {
           "period": "2026-07",
+          "value": null
+        },
+        {
+          "period": "2026-08",
           "value": null
         }
       ],
@@ -81455,6 +81515,11 @@
           "slot": 7,
           "period": "2026-07",
           "value": 0.0
+        },
+        {
+          "slot": 8,
+          "period": "2026-08",
+          "value": 0.0
         }
       ],
       "priorYear": [
@@ -81491,6 +81556,11 @@
         {
           "slot": 7,
           "period": "2025-07",
+          "value": 0.0
+        },
+        {
+          "slot": 8,
+          "period": "2025-08",
           "value": 0.0
         }
       ],
@@ -87960,25 +88030,21 @@
       "errors": "",
       "dataset": "nrg_cb_pem",
       "actualFrequency": "monthly",
-      "latestPeriod": "2026-07",
-      "latestValue": 210.94,
-      "ageMonths": 3,
+      "latestPeriod": "2026-08",
+      "latestValue": 186.813,
+      "ageMonths": 2,
       "historyCount": 39,
       "windowPeriods": 24,
       "missingPeriods": 0,
-      "yoyPct": -35.57805365950494,
-      "ytdPct": -27.029678202618324,
-      "ytdMatched": "7/7",
+      "yoyPct": -34.06592243049699,
+      "ytdPct": -27.71108551428543,
+      "ytdMatched": "8/8",
       "selectedDimensions": "{\"freq\": \"M\", \"geo\": \"SI\", \"siec\": \"RA100\", \"unit\": \"GWH\"}",
       "selectedLabels": "Monthly | Hydro | Gigawatt-hour | Slovenia",
       "sourceUrl": "https://ec.europa.eu/eurostat/databrowser/view/nrg_cb_pem/default/table?lang=en",
       "retrievalUrl": "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nrg_cb_pem?geo=SI&lang=en&lastTimePeriod=48&freq=M&siec=RA100&unit=GWH",
       "sourceDataset": "nrg_cb_pem",
       "series": [
-        {
-          "period": "2024-08",
-          "value": 296.94
-        },
         {
           "period": "2024-09",
           "value": 451.034
@@ -88070,13 +88136,13 @@
         {
           "period": "2026-07",
           "value": 210.94
+        },
+        {
+          "period": "2026-08",
+          "value": 186.813
         }
       ],
       "yoySeries": [
-        {
-          "period": "2024-08",
-          "value": -44.91246361540018
-        },
         {
           "period": "2024-09",
           "value": 14.935961796229558
@@ -88168,6 +88234,10 @@
         {
           "period": "2026-07",
           "value": -35.57805365950494
+        },
+        {
+          "period": "2026-08",
+          "value": -34.06592243049699
         }
       ],
       "currentYear": [
@@ -88205,6 +88275,11 @@
           "slot": 7,
           "period": "2026-07",
           "value": 210.94
+        },
+        {
+          "slot": 8,
+          "period": "2026-08",
+          "value": 186.813
         }
       ],
       "priorYear": [
@@ -88242,9 +88317,14 @@
           "slot": 7,
           "period": "2025-07",
           "value": 327.435
+        },
+        {
+          "slot": 8,
+          "period": "2025-08",
+          "value": 283.333
         }
       ],
-      "yoyPointChange": -116.495,
+      "yoyPointChange": -96.52000000000004,
       "indicatorRole": "activity",
       "includedInVerticalAverage": true
     },
@@ -96715,13 +96795,13 @@
       "dataset": "nrg_cb_gasm",
       "actualFrequency": "monthly",
       "latestPeriod": "2026-09",
-      "latestValue": 18.45,
+      "latestValue": 18.606,
       "ageMonths": 1,
       "historyCount": 40,
       "windowPeriods": 24,
       "missingPeriods": 0,
-      "yoyPct": -29.775815475963917,
-      "ytdPct": 34.32733540498831,
+      "yoyPct": -29.182050013321657,
+      "ytdPct": 34.3569485547454,
       "ytdMatched": "9/9",
       "selectedDimensions": "{\"freq\": \"M\", \"geo\": \"CZ\", \"nrg_bal\": \"EXP\", \"siec\": \"G3000\", \"unit\": \"MIO_M3\"}",
       "selectedLabels": "Monthly | Exports | Natural gas | Million cubic metres | Czechia",
@@ -96823,7 +96903,7 @@
         },
         {
           "period": "2026-09",
-          "value": 18.45
+          "value": 18.606
         }
       ],
       "yoySeries": [
@@ -96921,7 +97001,7 @@
         },
         {
           "period": "2026-09",
-          "value": -29.775815475963917
+          "value": -29.182050013321657
         }
       ],
       "currentYear": [
@@ -96968,7 +97048,7 @@
         {
           "slot": 9,
           "period": "2026-09",
-          "value": 18.45
+          "value": 18.606
         }
       ],
       "priorYear": [
@@ -97018,7 +97098,7 @@
           "value": 26.273
         }
       ],
-      "yoyPointChange": -7.823,
+      "yoyPointChange": -7.666999999999998,
       "indicatorRole": "activity",
       "includedInVerticalAverage": true
     },
@@ -122817,8 +122897,8 @@
         "quarterly": 0,
         "annual": 0
       },
-      "avgYoY": -10.515770753779538,
-      "avgYTD": -11.025859350847231,
+      "avgYoY": -10.488438154041479,
+      "avgYTD": -11.028281299083039,
       "countries": 21,
       "gdpCoveragePct": 77.42085033772602,
       "trend": []
@@ -122836,8 +122916,8 @@
         "quarterly": 0,
         "annual": 0
       },
-      "avgYoY": 25.169824968737732,
-      "avgYTD": 17.56838906477441,
+      "avgYoY": 25.420470194600153,
+      "avgYTD": 17.60594204508103,
       "countries": 27,
       "gdpCoveragePct": 95.3778075235616,
       "trend": []
@@ -122855,8 +122935,8 @@
         "quarterly": 0,
         "annual": 0
       },
-      "avgYoY": 10.790921441547152,
-      "avgYTD": 9.7820660163581,
+      "avgYoY": 10.73106444001782,
+      "avgYTD": 9.774665409222683,
       "countries": 26,
       "gdpCoveragePct": 94.6852081187199,
       "trend": []
@@ -122874,8 +122954,8 @@
         "quarterly": 0,
         "annual": 0
       },
-      "avgYoY": -14.596884455086785,
-      "avgYTD": -5.280334989465693,
+      "avgYoY": -14.591106036969363,
+      "avgYTD": -5.282881763544574,
       "countries": 24,
       "gdpCoveragePct": 92.97742600832373,
       "trend": []
@@ -122931,8 +123011,8 @@
         "quarterly": 0,
         "annual": 0
       },
-      "avgYoY": 40.17105204231855,
-      "avgYTD": 22.75300029116309,
+      "avgYoY": 40.18231522811752,
+      "avgYTD": 22.75356202543157,
       "countries": 22,
       "gdpCoveragePct": 91.39082162348947,
       "trend": []
@@ -123402,8 +123482,8 @@
       ]
     },
     "Renewables": {
-      "avgYoY": 2.71202280035464,
-      "avgYTD": 2.7610651852048966,
+      "avgYoY": 2.7679976109017828,
+      "avgYTD": 2.767361097919025,
       "latestPeriod": "2026-08",
       "latestMonthlyPeriod": "2026-08",
       "latestQuarterlyPeriod": null,
@@ -123423,8 +123503,8 @@
             "quarterly": 0,
             "annual": 0
           },
-          "avgYoY": -10.515770753779538,
-          "avgYTD": -11.025859350847231,
+          "avgYoY": -10.488438154041479,
+          "avgYTD": -11.028281299083039,
           "countries": 21,
           "gdpCoveragePct": 77.42085033772602,
           "trend": []
@@ -123442,8 +123522,8 @@
             "quarterly": 0,
             "annual": 0
           },
-          "avgYoY": 25.169824968737732,
-          "avgYTD": 17.56838906477441,
+          "avgYoY": 25.420470194600153,
+          "avgYTD": 17.60594204508103,
           "countries": 27,
           "gdpCoveragePct": 95.3778075235616,
           "trend": []
@@ -123461,8 +123541,8 @@
             "quarterly": 0,
             "annual": 0
           },
-          "avgYoY": 10.790921441547152,
-          "avgYTD": 9.7820660163581,
+          "avgYoY": 10.73106444001782,
+          "avgYTD": 9.774665409222683,
           "countries": 26,
           "gdpCoveragePct": 94.6852081187199,
           "trend": []
@@ -123480,8 +123560,8 @@
             "quarterly": 0,
             "annual": 0
           },
-          "avgYoY": -14.596884455086785,
-          "avgYTD": -5.280334989465693,
+          "avgYoY": -14.591106036969363,
+          "avgYTD": -5.282881763544574,
           "countries": 24,
           "gdpCoveragePct": 92.97742600832373,
           "trend": []
@@ -123538,8 +123618,8 @@
       ]
     },
     "Oil & Gas": {
-      "avgYoY": 7.13570887488723,
-      "avgYTD": 3.890184161923303,
+      "avgYoY": 7.141340467786714,
+      "avgYTD": 3.890465029057543,
       "latestPeriod": "2026-09",
       "latestMonthlyPeriod": "2026-09",
       "latestQuarterlyPeriod": null,
@@ -123559,8 +123639,8 @@
             "quarterly": 0,
             "annual": 0
           },
-          "avgYoY": 40.17105204231855,
-          "avgYTD": 22.75300029116309,
+          "avgYoY": 40.18231522811752,
+          "avgYTD": 22.75356202543157,
           "countries": 22,
           "gdpCoveragePct": 91.39082162348947,
           "trend": []
